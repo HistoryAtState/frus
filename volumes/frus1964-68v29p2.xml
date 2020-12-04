@@ -62,7 +62,6 @@
         <revisionDesc>
             <change>2008-11-06 PA/HO JW:Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -524,9 +523,9 @@
                             <ref target="frus1969-76v31">South and Central America; Mexico</ref>
                             (2004)</cell>
                     </row>
+                    <pb n="XII" xml:id="pg_XII" facs="0013"/>
                     <row>
-                        <cell>
-                            <pb n="XII" xml:id="pg_XII" facs="0013"/>XXXII</cell>
+                        <cell>XXXII</cell>
                         <cell>
                             <ref target="frus1969-76v32">Dominican Republic; Cuba; Haiti;
                                 Guyana</ref> (2005)</cell>
@@ -2421,10 +2420,10 @@
                 </list>
             </div>
             <pb n="[XXX]" xml:id="pg_XXX" facs="0031"/>
+            <pb n="XXXI" xml:id="pg_XXXI" facs="0032"/>
             <div type="section" xml:id="actionsstatement" subtype="note-on-covert-actions"
                 frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
                 frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
-                <pb n="XXXI" xml:id="pg_XXXI" facs="0032"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
                         States</hi> statute that requires inclusion in the <hi rend="italic">Foreign
@@ -2678,9 +2677,9 @@
             </div>
         </front>
         <body>
+            <pb n="1" xml:id="pg_1" facs="0037"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
                 frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
-                <pb n="1" xml:id="pg_1" facs="0037"/>
                 <head>Japan</head>
                 <div type="document" n="1" xml:id="d1" subtype="editorial-note"
                     frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
@@ -2717,10 +2716,10 @@
                         be funded at moderate levels—$450,000 for 1964, for example—throughout the
                             <persName>Johnson</persName> administration.</p>
                 </div>
+                <pb n="2" xml:id="pg_2" facs="0038"/>
                 <div type="document" n="2" xml:id="d2" subtype="historical-document"
                     frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-01-10T23:59:59-05:00">
-                    <pb n="2" xml:id="pg_2" facs="0038"/>
                     <head>2. Letter From the Assistant Secretary of State for Far Eastern Affairs
                             (<persName corresp="#p_HRJ1" type="from">Hilsman</persName>) to the
                         Ambassador to Japan (<persName corresp="#p_REO1" type="to"
@@ -2761,16 +2760,15 @@
                             Komer</persName>, Japan, January 1964 to March 1966. Secret. 3 pages of
                         source text not declassified.]</note>
                 </div>
+                <pb n="3" xml:id="pg_3" facs="0039"/>
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1964-01-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-01-22T23:59:59-05:00">
-                    <pb n="3" xml:id="pg_3" facs="0039"/>
                     <head>5. Letter From Secretary of Defense <persName corresp="#p_MNRS1"
                             type="from">McNamara</persName> to Secretary of State <persName
-                            corresp="#p_RD3" type="to">Rusk</persName>
-                        <note n="1" xml:id="d5fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 19–3 US–JAPAN.
-                            Secret.</note>
+                            corresp="#p_RD3" type="to">Rusk</persName><note n="1" xml:id="d5fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 19–3 US–JAPAN. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1964-01-22"
@@ -2813,16 +2811,15 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="4" xml:id="pg_4" facs="0040"/>
                 <div type="document" n="6" xml:id="d6" subtype="historical-document"
                     frus:doc-dateTime-min="1964-01-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-01-22T23:59:59-05:00">
-                    <pb n="4" xml:id="pg_4" facs="0040"/>
                     <head>6. Letter From Secretary of the Treasury <persName corresp="#p_DCD1"
                             type="from">Dillon</persName> to Secretary of State <persName
-                            corresp="#p_RD3" type="to">Rusk</persName>
-                        <note n="1" xml:id="d6fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 19–3 US–JAPAN.
-                            Secret.</note>
+                            corresp="#p_RD3" type="to">Rusk</persName><note n="1" xml:id="d6fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 19–3 US–JAPAN. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1964-01-22"
@@ -2920,17 +2917,17 @@
                         close of the meeting is printed in <hi rend="italic">American Foreign
                             Policy: Current Documents, 1964</hi>, pages 910–914.</p>
                 </div>
+                <pb n="6" xml:id="pg_6" facs="0042"/>
                 <div type="document" n="8" xml:id="d8" subtype="historical-document"
                     frus:doc-dateTime-min="1964-01-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-01-28T23:59:59-05:00">
-                    <pb n="6" xml:id="pg_6" facs="0042"/>
                     <head>8. Memorandum From the Executive Secretary of the National Security
                         Council (<persName corresp="#p_SBK1" type="from">Smith</persName>) to
-                        President <persName corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d8fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, Vol. I. No classification marking. The memorandum
-                            indicates the President saw it.</note>
+                        President <persName corresp="#p_JLB1" type="to">Johnson</persName><note
+                            n="1" xml:id="d8fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Country File, Japan, Vol. I. No
+                            classification marking. The memorandum indicates the President saw
+                            it.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1964-01-28"
@@ -2988,10 +2985,10 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="7" xml:id="pg_7" facs="0043"/>
                 <div type="document" n="9" xml:id="d9" subtype="historical-document"
                     frus:doc-dateTime-min="1964-02-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-02-14T23:59:59-05:00">
-                    <pb n="7" xml:id="pg_7" facs="0043"/>
                     <head>9. Letter From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to the Assistant Secretary of State
                         for Far Eastern Affairs (<persName corresp="#p_HRJ1" type="to"
@@ -3009,13 +3006,12 @@
                     frus:doc-dateTime-min="1964-02-27T12:00:00-05:00"
                     frus:doc-dateTime-max="1964-02-27T12:00:00-05:00">
                     <head>10. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d10fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Nodis. An attached
-                            note from <persName corresp="#p_RBH1">Read</persName> states that the
-                            telegram was distributed only to <persName corresp="#p_RD3"
-                                >Rusk</persName>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d10fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Nodis. An attached note from <persName corresp="#p_RBH1"
+                                >Read</persName> states that the telegram was distributed only to
+                                <persName corresp="#p_RD3">Rusk</persName>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1964-02-27T17:00:00+00:00"
@@ -3048,7 +3044,7 @@
                                 time, however, the Embassy acknowledged that “While trade itself may
                                 not reach important magnitudes, proposed actions such as exchange
                                 trade reps or ad hoc airline connections could if implemented be by
-                                themselves little steps leading in direction of ’normalization‘
+                                themselves little steps leading in direction of ‘normalization‘
                                 relations with <gloss target="#t_CHICOM1">Chicom</gloss>s who
                                 themselves are vigorously promoting closer relationship with Japan.”
                                 (National Archives and Records Administration, RG 59, Central Files
@@ -3112,19 +3108,18 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="9" xml:id="pg_9" facs="0045"/>
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1964-03-04T14:52:00-05:00"
                     frus:doc-dateTime-max="1964-03-04T14:52:00-05:00">
-                    <pb n="9" xml:id="pg_9" facs="0045"/>
                     <head>11. Telegram From the <gloss type="from">Department of State</gloss> to
-                        the <gloss type="to">Embassy in Japan</gloss>
-                        <note n="1" xml:id="d11fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Nodis. Drafted by
-                                <persName corresp="#p_RD3">Rusk</persName>, cleared by <persName
-                                corresp="#p_GM3">Green</persName> and <persName corresp="#p_RBH1"
-                                >Read</persName>, and approved by <persName corresp="#p_RD3"
-                                >Rusk</persName>.</note>
+                        the <gloss type="to">Embassy in Japan</gloss><note n="1" xml:id="d11fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Nodis. Drafted by <persName corresp="#p_RD3">Rusk</persName>,
+                            cleared by <persName corresp="#p_GM3">Green</persName> and <persName
+                                corresp="#p_RBH1">Read</persName>, and approved by <persName
+                                corresp="#p_RD3">Rusk</persName>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -3302,9 +3297,8 @@
                         <signed>
                             <persName corresp="#p_JUA1">
                                 <hi rend="strong">U. Alexis Johnson</hi>
-                            </persName>
-                            <note n="4" xml:id="d12fn4">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="4" xml:id="d12fn4">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -3850,11 +3844,11 @@
                     frus:doc-dateTime-min="1964-07-07T14:00:00-05:00"
                     frus:doc-dateTime-max="1964-07-07T14:00:00-05:00">
                     <head>17. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d17fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 19 RYU IS. Secret; Exclusive
-                            Distribution; No Distribution Outside Department.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d17fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 19 RYU
+                            IS. Secret; Exclusive Distribution; No Distribution Outside
+                            Department.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1964-07-07T19:00:00+00:00"
@@ -3933,9 +3927,8 @@
                     frus:doc-dateTime-max="1964-07-25T23:59:59-05:00">
                     <head>18. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d18fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
+                            type="to">Johnson</persName><note n="1" xml:id="d18fn1" type="source"
+                            >Source: <persName>Johnson</persName> Library, National Security File,
                             Country File, Japan, Vol. II. Confidential.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -3996,7 +3989,7 @@
                     <p>Tokyo’s anxious and sullen mood is reflected in the attached telegrams.<note
                             n="4" xml:id="d18fn4">In telegram 253 from Tokyo, July 20, <persName
                                 corresp="#p_REO1">Reischauer</persName> noted that “Japan feels
-                            genuinely the ’aggrieved partner‘” in the aviation issue because access
+                            genuinely the ‘aggrieved partner‘” in the aviation issue because access
                             to New York and points beyond, which would give Japan round-the-world
                             service, had been granted to other countries by the United States. That
                             message was echoed in telegram 280 from Tokyo, July 22, containing
@@ -4033,11 +4026,11 @@
                     frus:doc-dateTime-min="1964-07-28T06:00:00-05:00"
                     frus:doc-dateTime-max="1964-07-28T06:00:00-05:00">
                     <head>19. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d19fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 7 JAPAN–US.
-                            Confidential. Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss>
-                            for Polad and <gloss target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d19fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 7 JAPAN–US. Confidential. Repeated to
+                                <gloss target="#t_CINCPAC1">CINCPAC</gloss> for Polad and <gloss
+                                target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1964-07-28T20:00:00+09:00"
@@ -4110,10 +4103,10 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="27" xml:id="pg_27" facs="0063"/>
                 <div type="document" n="20" xml:id="d20" subtype="historical-document"
                     frus:doc-dateTime-min="1964-07-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-07-31T23:59:59-05:00">
-                    <pb n="27" xml:id="pg_27" facs="0063"/>
                     <head>20. Letter From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to the Assistant Secretary of State
                         for Far Eastern Affairs (<persName corresp="#p_BWP1" type="to"
@@ -4218,10 +4211,10 @@
                             reassuring to <persName corresp="#p_WMGAII1">Watson</persName>.</p>
                     </postscript>
                 </div>
+                <pb n="29" xml:id="pg_29" facs="0065"/>
                 <div type="document" n="21" xml:id="d21" subtype="historical-document"
                     frus:doc-dateTime-min="1964-08-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-08-07T23:59:59-05:00">
-                    <pb n="29" xml:id="pg_29" facs="0065"/>
                     <head>21. Memorandum for the Record</head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1964-08-07"
@@ -4235,25 +4228,24 @@
                     frus:doc-dateTime-min="1964-08-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-08-20T00:00:00-05:00">
                     <head>22. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d22fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Confidential. After reviewing
-                            this telegram, and at the suggestion of <persName corresp="#p_BWP1"
-                                >William Bundy</persName>, <persName corresp="#p_RD3"
-                                >Rusk</persName> sent it to pertinent Cabinet members and relevant
-                            government officials with the suggestion that solutions to problems
-                            concerning Japan be carefully coordinated “to avoid jeopardizing our
-                            major objectives.” The Bureau of Far Eastern Affairs would concentrate
-                            on the coordination effort. Letters from <persName corresp="#p_RD3"
-                                >Rusk</persName> to <persName corresp="#p_WWW1">Wirtz</persName>,
-                                <persName corresp="#p_HLH1">Hodges</persName>, <persName
-                                corresp="#p_DCD1">Dillon</persName>, <persName corresp="#p_USL1"
-                                >Udall</persName>, <persName corresp="#p_FOL1">Freeman</persName>,
-                                <persName corresp="#p_HCAJ1">Herter</persName>, <persName
-                                corresp="#p_HWW1">Heller</persName>, and <persName corresp="#p_BDE1"
-                                >Bell</persName>, September 2, attached to a memo from
-                                <persName>Bundy</persName> to <persName corresp="#p_RD3"
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d22fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Confidential. After reviewing this telegram, and at the suggestion of
+                                <persName corresp="#p_BWP1">William Bundy</persName>, <persName
+                                corresp="#p_RD3">Rusk</persName> sent it to pertinent Cabinet
+                            members and relevant government officials with the suggestion that
+                            solutions to problems concerning Japan be carefully coordinated “to
+                            avoid jeopardizing our major objectives.” The Bureau of Far Eastern
+                            Affairs would concentrate on the coordination effort. Letters from
+                                <persName corresp="#p_RD3">Rusk</persName> to <persName
+                                corresp="#p_WWW1">Wirtz</persName>, <persName corresp="#p_HLH1"
+                                >Hodges</persName>, <persName corresp="#p_DCD1">Dillon</persName>,
+                                <persName corresp="#p_USL1">Udall</persName>, <persName
+                                corresp="#p_FOL1">Freeman</persName>, <persName corresp="#p_HCAJ1"
+                                >Herter</persName>, <persName corresp="#p_HWW1">Heller</persName>,
+                            and <persName corresp="#p_BDE1">Bell</persName>, September 2, attached
+                            to a memo from <persName>Bundy</persName> to <persName corresp="#p_RD3"
                                 >Rusk</persName>, August 28, are ibid.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -4597,9 +4589,8 @@
                         <signed>
                             <persName>
                                 <hi rend="strong">James C. Thomson, Jr.</hi>
-                            </persName>
-                            <note n="9" xml:id="d23fn9">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="9" xml:id="d23fn9">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -4685,11 +4676,11 @@
                     frus:doc-dateTime-max="1964-10-04T23:59:59-05:00">
                     <head>29. Memorandum From the President’s Special Assistant for National
                         Security Affairs (<persName corresp="#p_BMG2" type="from">Bundy</persName>)
-                        to President <persName corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d29fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            International Meetings and Travel File, <persName corresp="#p_DCD1"
-                                >Dillon</persName>—Japan Trip. Secret.</note>
+                        to President <persName corresp="#p_JLB1" type="to">Johnson</persName><note
+                            n="1" xml:id="d29fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, International Meetings and Travel File,
+                                <persName corresp="#p_DCD1">Dillon</persName>—Japan Trip.
+                            Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1964-10-04"
@@ -4729,13 +4720,12 @@
                         <signed>
                             <persName corresp="#p_BMG2">
                                 <hi rend="strong">McG. B.</hi>
-                            </persName>
-                            <note n="3" xml:id="d29fn3">Printed from a copy that bears these typed
-                                initials.</note>
+                            </persName><note n="3" xml:id="d29fn3">Printed from a copy that bears
+                                these typed initials.</note>
                         </signed>
                     </closer>
-                    <pb n="38" xml:id="pg_38" facs="0074"/>
                 </div>
+                <pb n="38" xml:id="pg_38" facs="0074"/>
                 <div type="document" n="30" xml:id="d30" subtype="historical-document"
                     frus:doc-dateTime-min="1964-10-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-10-23T23:59:59-05:00">
@@ -4790,11 +4780,10 @@
                     frus:doc-dateTime-max="1964-10-24T23:59:59-05:00">
                     <head>31. Memorandum From Secretary of Defense <persName corresp="#p_MNRS1"
                             type="from">McNamara</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d31fn1" type="source">Source: Washington National
-                            Records Center, Department of Defense, <gloss target="#t_OSD1"
-                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss>; FRC 330 68 A
-                            306, 560 Japan. Secret.</note>
+                            type="to">Johnson</persName><note n="1" xml:id="d31fn1" type="source"
+                            >Source: Washington National Records Center, Department of Defense,
+                                <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss target="#t_ISA1"
+                                >ISA</gloss>; FRC 330 68 A 306, 560 Japan. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1964-10-24"
@@ -4864,10 +4853,10 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="40" xml:id="pg_40" facs="0076"/>
                 <div type="document" n="32" xml:id="d32" subtype="historical-document"
                     frus:doc-dateTime-min="1964-10-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-10-29T23:59:59-05:00">
-                    <pb n="40" xml:id="pg_40" facs="0076"/>
                     <head>32. Memorandum From <persName type="from">James C. Thomson,
                         Jr.</persName>, of the National Security Council Staff to <persName
                             corresp="#p_KRW2" type="to">Robert Komer</persName> of the National
@@ -5107,9 +5096,9 @@
                         <signed>
                             <persName corresp="#p_BGW1">
                                 <hi rend="strong">George W. Ball</hi>
-                            </persName>
-                            <note n="7" xml:id="d33fn7">Printed from a copy that indicates <persName
-                                    corresp="#p_BGW1">Ball</persName> signed the original.</note>
+                            </persName><note n="7" xml:id="d33fn7">Printed from a copy that
+                                indicates <persName corresp="#p_BGW1">Ball</persName> signed the
+                                original.</note>
                         </signed>
                     </closer>
                 </div>
@@ -5117,10 +5106,10 @@
                     frus:doc-dateTime-min="1964-11-13T23:00:00-05:00"
                     frus:doc-dateTime-max="1964-11-13T23:00:00-05:00">
                     <head>34. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d34fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 7 JAPAN–US.
-                            Secret. Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss>, <gloss
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d34fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 7 JAPAN–US. Secret. Repeated to <gloss
+                                target="#t_CINCPAC1">CINCPAC</gloss>, <gloss
                                 target="#t_COMSEVENTHFLT1">COMSEVENTHFLT</gloss>, <gloss
                                 target="#t_COMNAVFORJAPAN1">COMNAVFORJAPAN</gloss>, COMSUBFLOT,
                                 <gloss target="#t_CINCPACFLT1">CINCPACFLT</gloss>, <gloss
@@ -5250,11 +5239,11 @@
                     frus:doc-dateTime-min="1964-12-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1964-12-04T23:59:59-05:00">
                     <head>35. Airgram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d35fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 2–3 JAPAN. Secret. Drafted by
-                            Zurhellen, Christensen, and Nickel and cleared by Vass.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d35fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 2–3
+                            JAPAN. Secret. Drafted by Zurhellen, Christensen, and Nickel and cleared
+                            by Vass.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">A–716</seg>
@@ -5529,13 +5518,13 @@
                     frus:doc-dateTime-max="1964-12-05T16:00:00-05:00">
                     <head>36. Telegram From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to the <gloss type="to">Department of
-                            State</gloss>
-                        <note n="1" xml:id="d36fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Limdis. Repeated to
-                            the Embassy in Tokyo and <gloss target="#t_CINCPAC1">CINCPAC</gloss>.
-                                <persName corresp="#p_RD3">Rusk</persName> was in New York to attend
-                            the <gloss target="#t_UN1">UN</gloss> General Assembly.</note>
+                            State</gloss><note n="1" xml:id="d36fn1" type="source">Source: National
+                            Archives and Records Administration, RG 59, Central Files 1964–66,
+                                <gloss target="#t_POL1">POL</gloss> JAPAN–US. Secret; Limdis.
+                            Repeated to the Embassy in Tokyo and <gloss target="#t_CINCPAC1"
+                                >CINCPAC</gloss>. <persName corresp="#p_RD3">Rusk</persName> was in
+                            New York to attend the <gloss target="#t_UN1">UN</gloss> General
+                            Assembly.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1964-12-05T16:00:00-05:00"
@@ -5727,10 +5716,10 @@
                     frus:doc-dateTime-min="1964-12-29T04:00:00-05:00"
                     frus:doc-dateTime-max="1964-12-29T04:00:00-05:00">
                     <head>37. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d37fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 7 JAPAN. Secret; Limdis.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d37fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 7 JAPAN.
+                            Secret; Limdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1964-12-29T18:00:00+09:00"
@@ -5888,17 +5877,17 @@
                         Reviews, 1964 to 1966. Secret; Sensitive. 1 page of source text not
                         declassified.]</note>
                 </div>
+                <pb n="58" xml:id="pg_58" facs="0094"/>
                 <div type="document" n="39" xml:id="d39" subtype="historical-document"
                     frus:doc-dateTime-min="1965-01-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1965-01-06T23:59:59-05:00">
-                    <pb n="58" xml:id="pg_58" facs="0094"/>
                     <head>39. Action Memorandum From the Assistant Secretary of State for Far
                         Eastern Affairs (<persName corresp="#p_BWP1" type="from">Bundy</persName>)
-                        to Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName>
-                        <note n="1" xml:id="d39fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 7 JAPAN. Confidential. Drafted by
-                                <persName corresp="#p_BRW4">Barnett</persName> and <persName
+                        to Secretary of State <persName corresp="#p_RD3" type="to"
+                            >Rusk</persName><note n="1" xml:id="d39fn1" type="source">Source:
+                            National Archives and Records Administration, RG 59, Central Files
+                            1964–66, <gloss target="#t_POL1">POL</gloss> 7 JAPAN. Confidential.
+                            Drafted by <persName corresp="#p_BRW4">Barnett</persName> and <persName
                                 corresp="#p_VTE1">Vettel</persName> and cleared by <persName
                                 corresp="#p_TPH1">Trezise</persName>, <persName corresp="#p_REO1"
                                 >Reischauer</persName>, and Feldman.</note>
@@ -6293,25 +6282,25 @@
                         </list>
                     </frus:attachment>
                 </div>
+                <pb n="63" xml:id="pg_63" facs="0099"/>
                 <div type="document" n="40" xml:id="d40" subtype="historical-document"
                     frus:doc-dateTime-min="1965-01-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1965-01-11T23:59:59-05:00">
-                    <pb n="63" xml:id="pg_63" facs="0099"/>
                     <head>40. Memorandum From the President’s Special Assistant for National
                         Security Affairs (<persName corresp="#p_BMG2" type="from">Bundy</persName>)
-                        to President <persName corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d40fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, <persName corresp="#p_SE3">Sato</persName>’s Visit,
-                            Briefing Book, January 11–14, 1965. Secret.</note>
+                        to President <persName corresp="#p_JLB1" type="to">Johnson</persName><note
+                            n="1" xml:id="d40fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Country File, Japan, <persName
+                                corresp="#p_SE3">Sato</persName>’s Visit, Briefing Book, January
+                            11–14, 1965. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1965-01-11"
                                 calendar="gregorian">January 11, 1965</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
-                        <item>Your meeting with <persName corresp="#p_SE3">Sato</persName>
-                            <note n="2" xml:id="d40fn2">President <persName corresp="#p_JLB1"
+                        <item>Your meeting with <persName corresp="#p_SE3">Sato</persName><note
+                                n="2" xml:id="d40fn2">President <persName corresp="#p_JLB1"
                                     >Johnson</persName> and Prime Minister <persName
                                     corresp="#p_SE3">Sato</persName> met at the White House on
                                 January 12 at 11:30 a.m.</note>
@@ -7474,11 +7463,11 @@
                     frus:doc-dateTime-min="1965-04-06T05:00:00-05:00"
                     frus:doc-dateTime-max="1965-04-06T05:00:00-05:00">
                     <head>45. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d45fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 7 JAPAN–US.
-                            Secret; Limdis. Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss>,
-                                <gloss target="#t_CINCPACFLT1">CINCPACFLT</gloss>, <gloss
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d45fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 7 JAPAN–US. Secret; Limdis. Repeated to
+                                <gloss target="#t_CINCPAC1">CINCPAC</gloss>, <gloss
+                                target="#t_CINCPACFLT1">CINCPACFLT</gloss>, <gloss
                                 target="#t_COMSEVENTHFLT1">COMSEVENTHFLT</gloss>, and <gloss
                                 target="#t_COMNAVFORJAPAN1">COMNAVFORJAPAN</gloss>.</note>
                     </head>
@@ -7566,14 +7555,13 @@
                     frus:doc-dateTime-min="1965-05-19T04:27:00-05:00"
                     frus:doc-dateTime-max="1965-05-19T04:27:00-05:00">
                     <head>46. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d46fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 27 VIET S. Confidential. Repeated to
-                            Saigon, London, Seoul, Taipei, Hong Kong, Vientiane, Bangkok, Manila,
-                            Djakarta, New Delhi, Paris, Moscow, the High Commissioner of the Ryukyu
-                            Islands, and <gloss target="#t_CINCPAC1">CINCPAC</gloss> for <gloss
-                                target="#t_POLAD1">POLAD</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d46fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 27 VIET
+                            S. Confidential. Repeated to Saigon, London, Seoul, Taipei, Hong Kong,
+                            Vientiane, Bangkok, Manila, Djakarta, New Delhi, Paris, Moscow, the High
+                            Commissioner of the Ryukyu Islands, and <gloss target="#t_CINCPAC1"
+                                >CINCPAC</gloss> for <gloss target="#t_POLAD1">POLAD</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-05-19T09:27:00+00:00"
@@ -7756,10 +7744,10 @@
                     frus:doc-dateTime-min="1965-05-25T05:39:00-05:00"
                     frus:doc-dateTime-max="1965-05-25T05:39:00-05:00">
                     <head>47. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d47fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 7 JAPAN. Confidential.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d47fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 7 JAPAN.
+                            Confidential.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-05-25T10:39:00+00:00"
@@ -7846,10 +7834,10 @@
                     frus:doc-dateTime-min="1965-05-25T05:38:00-05:00"
                     frus:doc-dateTime-max="1965-05-25T05:38:00-05:00">
                     <head>48. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d48fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 33–4 JAPAN-US. Confidential.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d48fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 33–4
+                            JAPAN-US. Confidential.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-05-25T10:38:00+00:00"
@@ -7959,14 +7947,13 @@
                     frus:doc-dateTime-max="1965-05-29T23:59:59-05:00">
                     <head>49. Memorandum From the Under Secretary of State for Economic Affairs
                             (<persName corresp="#p_MTC1" type="from">Mann</persName>) to President
-                            <persName corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d49fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, Vol. III. Confidential. The document was sent to
-                            the President through <persName corresp="#p_BMG2">McGeorge
-                                Bundy</persName> under cover of a memorandum from <persName
-                                corresp="#p_RBH1">Benjamin H. Read</persName>, signed by Herbert
-                            Gordon, May 29.</note>
+                            <persName corresp="#p_JLB1" type="to">Johnson</persName><note n="1"
+                            xml:id="d49fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Country File, Japan, Vol. III.
+                            Confidential. The document was sent to the President through <persName
+                                corresp="#p_BMG2">McGeorge Bundy</persName> under cover of a
+                            memorandum from <persName corresp="#p_RBH1">Benjamin H. Read</persName>,
+                            signed by Herbert Gordon, May 29.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1965-05-29"
@@ -8096,9 +8083,8 @@
                         <signed>
                             <persName corresp="#p_MTC1">
                                 <hi rend="strong">Thomas C. Mann</hi>
-                            </persName>
-                            <note n="3" xml:id="d49fn3">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="3" xml:id="d49fn3">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                     <frus:attachment>
@@ -8153,10 +8139,10 @@
                     frus:doc-dateTime-min="1965-06-15T02:22:00-05:00"
                     frus:doc-dateTime-max="1965-06-15T02:22:00-05:00">
                     <head>50. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d50fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Exdis.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d50fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Exdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-06-15T07:22:00+00:00"
@@ -8278,11 +8264,10 @@
                     frus:doc-dateTime-max="1965-07-08T23:59:59-05:00">
                     <head>52. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
-                            >McNamara</persName>
-                        <note n="1" xml:id="d52fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss
-                                target="#t_ISA1">ISA</gloss> Files: FRC 330 70 A 3717, 381 Japan.
-                            Secret.</note>
+                            >McNamara</persName><note n="1" xml:id="d52fn1" type="source">Source:
+                            Washington National Records Center, <gloss target="#t_OSD1"
+                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files: FRC 330
+                            70 A 3717, 381 Japan. Secret.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -8394,9 +8379,8 @@
                         <signed>
                             <persName>
                                 <hi rend="strong">A. H. Manhart</hi>
-                            </persName>
-                            <note n="6" xml:id="d52fn6">Printed from a copy that indicates Manhart
-                                signed the original.</note>
+                            </persName><note n="6" xml:id="d52fn6">Printed from a copy that
+                                indicates Manhart signed the original.</note>
                             <hi rend="italic">Major General, USA</hi>
                             <lb/>
                             <hi rend="italic">Vice Director, Joint Staff</hi>
@@ -8409,13 +8393,12 @@
                     frus:doc-dateTime-max="1965-07-13T23:59:59-05:00">
                     <head>53. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d53fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 7 JAPAN. No classification marking.
-                            Drafted by <persName corresp="#p_BRW4">Barnett</persName> and cleared by
-                                <persName corresp="#p_REO1">Reischauer</persName> and
-                            Solomon.</note>
+                            type="to">Johnson</persName><note n="1" xml:id="d53fn1" type="source"
+                            >Source: National Archives and Records Administration, RG 59, Central
+                            Files 1964–66, <gloss target="#t_POL1">POL</gloss> 7 JAPAN. No
+                            classification marking. Drafted by <persName corresp="#p_BRW4"
+                                >Barnett</persName> and cleared by <persName corresp="#p_REO1"
+                                >Reischauer</persName> and Solomon.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1965-07-13"
@@ -8524,9 +8507,9 @@
                         <signed>
                             <persName corresp="#p_RD3">
                                 <hi rend="strong">Dean Rusk</hi>
-                            </persName>
-                            <note n="4" xml:id="d53fn4">Printed from a copy that indicates <persName
-                                    corresp="#p_RD3">Rusk</persName> signed the original.</note>
+                            </persName><note n="4" xml:id="d53fn4">Printed from a copy that
+                                indicates <persName corresp="#p_RD3">Rusk</persName> signed the
+                                original.</note>
                         </signed>
                     </closer>
                 </div>
@@ -8546,20 +8529,20 @@
                     frus:doc-dateTime-max="1965-07-14T23:59:59-05:00">
                     <head>55. Memorandum From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to Secretary of State <persName
-                            corresp="#p_RD3" type="to">Rusk</persName>
-                        <note n="1" xml:id="d55fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 1 JAPAN–US. Secret. In a covering note,
-                                <persName corresp="#p_REO1">Reischauer</persName> stated that he
-                            wrote the memorandum at <persName corresp="#p_MNRS1"
-                            >McNamara</persName>’s suggestion. Copies were sent to <persName
-                                corresp="#p_BGW1">Ball</persName>, <persName corresp="#p_BWP1"
-                                >William Bundy</persName>, <persName corresp="#p_BMG2">McGeorge
-                                Bundy</persName>, and <persName>Rostow</persName>. A copy of the
-                            memorandum indicating it was sent to <persName corresp="#p_MNRS1"
-                                >McNamara</persName> is in the Washington National Records Center,
-                                <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss target="#t_ISA1"
-                                >ISA</gloss> Files, FRC 330 70 A 3717, 092 Japan.</note>
+                            corresp="#p_RD3" type="to">Rusk</persName><note n="1" xml:id="d55fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 1
+                            JAPAN–US. Secret. In a covering note, <persName corresp="#p_REO1"
+                                >Reischauer</persName> stated that he wrote the memorandum at
+                                <persName corresp="#p_MNRS1">McNamara</persName>’s suggestion.
+                            Copies were sent to <persName corresp="#p_BGW1">Ball</persName>,
+                                <persName corresp="#p_BWP1">William Bundy</persName>, <persName
+                                corresp="#p_BMG2">McGeorge Bundy</persName>, and
+                                <persName>Rostow</persName>. A copy of the memorandum indicating it
+                            was sent to <persName corresp="#p_MNRS1">McNamara</persName> is in the
+                            Washington National Records Center, <gloss target="#t_OSD1"
+                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files, FRC 330
+                            70 A 3717, 092 Japan.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-07-14"
@@ -8888,14 +8871,13 @@
                     frus:doc-dateTime-min="1965-07-30T05:01:00-05:00"
                     frus:doc-dateTime-max="1965-07-30T05:01:00-05:00">
                     <head>56. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d56fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 27 VIET S. Secret; Priority; Limdis.
-                            Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss> for <gloss
-                                target="#t_POLAD1">POLAD</gloss>, <gloss target="#t_COMUSJAPAN1"
-                                >COMUSJAPAN</gloss>, Saigon, and <gloss target="#t_HICOMHICOMRY1"
-                                >HICOMRY</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d56fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 27 VIET
+                            S. Secret; Priority; Limdis. Repeated to <gloss target="#t_CINCPAC1"
+                                >CINCPAC</gloss> for <gloss target="#t_POLAD1">POLAD</gloss>, <gloss
+                                target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>, Saigon, and <gloss
+                                target="#t_HICOMHICOMRY1">HICOMRY</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-07-30T10:01:00+00:00"
@@ -8952,20 +8934,19 @@
                     frus:doc-dateTime-max="1965-07-31T23:59:59-05:00">
                     <head>57. Letter From the Under Secretary of State (<persName corresp="#p_BGW1"
                             type="from">Ball</persName>) to Secretary of Defense <persName
-                            corresp="#p_MNRS1" type="to">McNamara</persName>
-                        <note n="1" xml:id="d57fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 27 VIET S. Secret. Attached to an
-                            August 2 note from <persName>James L. Clunan</persName> to Don
-                            Christensen (<gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_S1"
-                                >S</gloss>), stating that the letter was hand-carried to the
-                            Department of Defense and handled informally on July 31. According to a
-                            memorandum of a telephone conversation between <persName
-                                corresp="#p_BWP1">William Bundy</persName> and <persName
-                                corresp="#p_BGW1">Ball</persName>, July 31, 11:30 a.m.,
-                                <persName>Bundy</persName> suggested writing this letter and, after
-                                <persName corresp="#p_BGW1">Ball</persName> agreed, drafted it for
-                                <persName corresp="#p_BGW1">Ball</persName>’s signature.
+                            corresp="#p_MNRS1" type="to">McNamara</persName><note n="1"
+                            xml:id="d57fn1" type="source">Source: National Archives and Records
+                            Administration, RG 59, Central Files 1964–66, <gloss target="#t_POL1"
+                                >POL</gloss> 27 VIET S. Secret. Attached to an August 2 note from
+                                <persName>James L. Clunan</persName> to Don Christensen (<gloss
+                                target="#t_SS1">S/S</gloss>–<gloss target="#t_S1">S</gloss>),
+                            stating that the letter was hand-carried to the Department of Defense
+                            and handled informally on July 31. According to a memorandum of a
+                            telephone conversation between <persName corresp="#p_BWP1">William
+                                Bundy</persName> and <persName corresp="#p_BGW1">Ball</persName>,
+                            July 31, 11:30 a.m., <persName>Bundy</persName> suggested writing this
+                            letter and, after <persName corresp="#p_BGW1">Ball</persName> agreed,
+                            drafted it for <persName corresp="#p_BGW1">Ball</persName>’s signature.
                                 (<persName>Johnson</persName> Library, Papers of <persName
                                 corresp="#p_BGW1">George Ball</persName>, Japan)</note>
                     </head>
@@ -9037,9 +9018,8 @@
                         <signed>
                             <persName corresp="#p_BGW1">
                                 <hi rend="strong">George W. Ball</hi>
-                            </persName>
-                            <note n="4" xml:id="d57fn4">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="4" xml:id="d57fn4">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -9486,15 +9466,15 @@
                     frus:doc-dateTime-min="1965-08-25T04:13:00-05:00"
                     frus:doc-dateTime-max="1965-08-25T04:13:00-05:00">
                     <head>59. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d59fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 7 JAPAN. Confidential. Repeated to
-                                <gloss target="#t_HICOMHICOMRY1">HICOMRY</gloss>, Department of the
-                            Army, and <gloss target="#t_CINCPAC1">CINCPAC</gloss> for <gloss
-                                target="#t_POLAD1">POLAD</gloss>. Additional information pertaining
-                            to the <persName corresp="#p_SE3">Sato</persName> visit to Okinawa is
-                            also contained in this file.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d59fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 7 JAPAN.
+                            Confidential. Repeated to <gloss target="#t_HICOMHICOMRY1"
+                                >HICOMRY</gloss>, Department of the Army, and <gloss
+                                target="#t_CINCPAC1">CINCPAC</gloss> for <gloss target="#t_POLAD1"
+                                >POLAD</gloss>. Additional information pertaining to the <persName
+                                corresp="#p_SE3">Sato</persName> visit to Okinawa is also contained
+                            in this file.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-08-25T09:13:00+00:00"
@@ -9610,10 +9590,10 @@
                     frus:doc-dateTime-min="1965-09-03T23:16:00-05:00"
                     frus:doc-dateTime-max="1965-09-03T23:16:00-05:00">
                     <head>60. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d60fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Exdis.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d60fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Exdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1965-09-04T04:16:00+00:00"
@@ -9770,13 +9750,12 @@
                     frus:doc-dateTime-max="1965-09-25T23:59:59-05:00">
                     <head>62. Letter From Secretary of State <persName corresp="#p_RD3" type="from"
                             >Rusk</persName> to Secretary of Defense <persName corresp="#p_MNRS1"
-                            type="to">McNamara</persName>
-                        <note n="1" xml:id="d62fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss
-                                target="#t_ISA1">ISA</gloss> Files, FRC 330 70 A 3717, 092 Japan.
-                            Secret. The Department of State copy indicates it was drafted by
-                                <persName corresp="#p_FRA3">Fearey</persName> and cleared by
-                                <persName corresp="#p_BWP1">William Bundy</persName>, Solomon,
+                            type="to">McNamara</persName><note n="1" xml:id="d62fn1" type="source"
+                            >Source: Washington National Records Center, <gloss target="#t_OSD1"
+                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files, FRC 330
+                            70 A 3717, 092 Japan. Secret. The Department of State copy indicates it
+                            was drafted by <persName corresp="#p_FRA3">Fearey</persName> and cleared
+                            by <persName corresp="#p_BWP1">William Bundy</persName>, Solomon,
                             Meyers, and <persName corresp="#p_TLET1">Thompson</persName>. (National
                             Archives and Records Administration, RG 59, Central Files 1964–66,
                                 <gloss target="#t_POL1">POL</gloss> 1 JAPAN–US)</note>
@@ -10005,11 +9984,10 @@
                     frus:doc-dateTime-max="1965-12-23T23:59:59-05:00">
                     <head>65. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
-                            >McNamara</persName>
-                        <note n="1" xml:id="d65fn1" type="source">Source: Washington Nationals
-                            Records Center, <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss
-                                target="#t_ISA1">ISA</gloss> Files, FRC 330 70 A 1266, 092 Ryukyus.
-                            Secret.</note>
+                            >McNamara</persName><note n="1" xml:id="d65fn1" type="source">Source:
+                            Washington Nationals Records Center, <gloss target="#t_OSD1"
+                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files, FRC 330
+                            70 A 1266, 092 Ryukyus. Secret.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -10131,10 +10109,9 @@
                         <signed>
                             <persName corresp="#p_MCGJP1">
                                 <hi rend="strong">John P. McConnell</hi>
-                            </persName>
-                            <note n="4" xml:id="d65fn4">Printed from a copy that indicates <persName
-                                    corresp="#p_MCGJP1">McConnell</persName> signed the
-                                original.</note>
+                            </persName><note n="4" xml:id="d65fn4">Printed from a copy that
+                                indicates <persName corresp="#p_MCGJP1">McConnell</persName> signed
+                                the original.</note>
                             <lb/>Acting Chairman<lb/>Joint Chiefs of Staff</signed>
                     </closer>
                 </div>
@@ -10142,16 +10119,15 @@
                     frus:doc-dateTime-min="1965-12-31T10:26:00-05:00"
                     frus:doc-dateTime-max="1965-12-31T10:26:00-05:00">
                     <head>66. Telegram From Vice President <persName type="from">Humphrey</persName>
-                        to President <persName corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d66fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            International File, Vice President Trip, Far East, December 27, 1965.
-                            Top Secret; Eyes Only. Vice President Humphrey visited Japan December 29
-                            as the first stop in his Far Eastern Trip, which lasted until January 2,
-                            1966. He also visited the Philippines, the Republic of China, and the
-                            Republic of Korea. Humphrey was part of a high-level team of U.S.
-                            officials conferring with allies on the Vietnam war and prospects for a
-                            negotiated settlement.</note>
+                        to President <persName corresp="#p_JLB1" type="to">Johnson</persName><note
+                            n="1" xml:id="d66fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, International File, Vice President
+                            Trip, Far East, December 27, 1965. Top Secret; Eyes Only. Vice President
+                            Humphrey visited Japan December 29 as the first stop in his Far Eastern
+                            Trip, which lasted until January 2, 1966. He also visited the
+                            Philippines, the Republic of China, and the Republic of Korea. Humphrey
+                            was part of a high-level team of U.S. officials conferring with allies
+                            on the Vietnam war and prospects for a negotiated settlement.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <date when="1965-12-31T15:26:00+00:00" calendar="gregorian">December 31,
@@ -10264,8 +10240,7 @@
                     frus:doc-dateTime-max="1966-05-23T23:59:59-05:00">
                     <head>68. Memorandum From <persName corresp="#p_BMG2" type="from">McGeorge
                             Bundy</persName> to President <persName corresp="#p_JLB1" type="to"
-                            >Johnson</persName>
-                        <note n="1" xml:id="d68fn1" type="source">Source:
+                            >Johnson</persName><note n="1" xml:id="d68fn1" type="source">Source:
                                 <persName>Johnson</persName> Library, Office Files of Bill Moyers,
                             Ryukyus. The memorandum was sent to the President through <persName
                                 corresp="#p_RWW1">Walt Rostow</persName> and has no security
@@ -10365,11 +10340,11 @@
                     frus:doc-dateTime-min="1966-06-14T03:43:00-05:00"
                     frus:doc-dateTime-max="1966-06-14T03:43:00-05:00">
                     <head>70. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d70fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 15 JAPAN–US.
-                            Secret; Limdis. Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss>
-                            and <gloss target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d70fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 15 JAPAN–US. Secret; Limdis. Repeated to
+                                <gloss target="#t_CINCPAC1">CINCPAC</gloss> and <gloss
+                                target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1966-06-14T08:43:00+00:00"
@@ -10586,12 +10561,12 @@
                     frus:doc-dateTime-min="1966-07-02T07:54:00-05:00"
                     frus:doc-dateTime-max="1966-07-02T07:54:00-05:00">
                     <head>72. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d72fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Limdis; Priority.
-                            Repeated to Taipei for <persName corresp="#p_RD3">Rusk</persName> and
-                                <persName>Bundy</persName>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d72fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Limdis; Priority. Repeated to Taipei for <persName
+                                corresp="#p_RD3">Rusk</persName> and
+                            <persName>Bundy</persName>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1966-07-02T12:54:00+00:00"
@@ -11383,13 +11358,13 @@
                     frus:doc-dateTime-min="1966-09-07T04:49:00-05:00"
                     frus:doc-dateTime-max="1966-09-07T04:49:00-05:00">
                     <head>79. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d79fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> 19 RYU IS. Secret. Repeated to <gloss
-                                target="#t_HICOMHICOMRY1">HICOMRY</gloss>, <gloss
-                                target="#t_CINCPAC1">CINCPAC</gloss> for <gloss target="#t_POLAD1"
-                                >POLAD</gloss>, and <gloss target="#t_DA1">DA</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d79fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 19 RYU
+                            IS. Secret. Repeated to <gloss target="#t_HICOMHICOMRY1"
+                            >HICOMRY</gloss>, <gloss target="#t_CINCPAC1">CINCPAC</gloss> for <gloss
+                                target="#t_POLAD1">POLAD</gloss>, and <gloss target="#t_DA1"
+                                >DA</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1966-09-07T09:49:00+00:00"
@@ -11540,13 +11515,12 @@
                     frus:doc-dateTime-max="1966-12-07T10:48:00-05:00">
                     <head>80. Telegram From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d80fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Nodis; Eyes Only. The
-                            President’s copy of the telegram, which indicates he saw it, is in the
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country Files, China, Vol. VIII.</note>
+                            type="to">Johnson</persName><note n="1" xml:id="d80fn1" type="source"
+                            >Source: National Archives and Records Administration, RG 59, Central
+                            Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US. Secret;
+                            Nodis; Eyes Only. The President’s copy of the telegram, which indicates
+                            he saw it, is in the <persName>Johnson</persName> Library, National
+                            Security File, Country Files, China, Vol. VIII.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Taipei</placeName>, <date when="1966-12-07T23:48:00+08:00"
@@ -11592,13 +11566,12 @@
                     frus:doc-dateTime-min="1966-12-22T01:00:00-05:00"
                     frus:doc-dateTime-max="1966-12-22T01:00:00-05:00">
                     <head>81. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d81fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1964–66, DEF 19–9 US–JAPAN.
-                            Secret; Limdis. Also sent to the Department of Defense and repeated to
-                                <gloss target="#t_CINCPAC1">CINCPAC</gloss>, <gloss
-                                target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>, and <gloss
-                                target="#t_CHIEFMAAG1">CHIEFMAAG</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d81fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1964–66, DEF 19–9 US–JAPAN. Secret; Limdis. Also sent
+                            to the Department of Defense and repeated to <gloss target="#t_CINCPAC1"
+                                >CINCPAC</gloss>, <gloss target="#t_COMUSJAPAN1">COMUSJAPAN</gloss>,
+                            and <gloss target="#t_CHIEFMAAG1">CHIEFMAAG</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1966-12-22T06:00:00+00:00"
@@ -11996,11 +11969,10 @@
                     frus:doc-dateTime-max="1967-03-01T23:59:59-05:00">
                     <head>84. Memorandum From the President’s Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
-                            corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d84fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, Vol. VI. Secret. The memorandum indicates that the
-                            President saw it.</note>
+                            corresp="#p_JLB1" type="to">Johnson</persName><note n="1"
+                            xml:id="d84fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Country File, Japan, Vol. VI. Secret.
+                            The memorandum indicates that the President saw it.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-03-01"
@@ -12040,15 +12012,15 @@
                             0930Z</date>.</dateline></opener>
                         <p>
                             <hi rend="strong">Telegram From the Embassy in Japan to the Department
-                                of State</hi>
-                            <note n="2" xml:id="d84fn2">Secret; Exdis. The cable was retyped for the
-                                President. The White House copy bears the handwritten notation “A
-                                thoughtful alert from <persName corresp="#p_JUA1">Alexis</persName>.
-                                BKS” added by <persName corresp="#p_SBK1">Bromley K.
-                                    Smith</persName>. (Ibid.) The Department of State copy is in the
-                                National Archives and Records Administration, RG 59, Central Files
-                                1967–69, <gloss target="#t_POL1">POL</gloss> 7 US/<persName
-                                    corresp="#p_GAJ1">GOLDBERG</persName>.</note>
+                                of State</hi><note n="2" xml:id="d84fn2">Secret; Exdis. The cable
+                                was retyped for the President. The White House copy bears the
+                                handwritten notation “A thoughtful alert from <persName
+                                    corresp="#p_JUA1">Alexis</persName>. BKS” added by <persName
+                                    corresp="#p_SBK1">Bromley K. Smith</persName>. (Ibid.) The
+                                Department of State copy is in the National Archives and Records
+                                Administration, RG 59, Central Files 1967–69, <gloss
+                                    target="#t_POL1">POL</gloss> 7 US/<persName corresp="#p_GAJ1"
+                                    >GOLDBERG</persName>.</note>
                         </p>
                         <p rend="flushleft">
                             <hi rend="italic">Copy of Tokyo 6126 From <persName corresp="#p_JUA1"
@@ -12281,14 +12253,14 @@
                                 this trip was to show his support for the proposed Price Act
                                 amendment which would raise the ceiling on U.S. aid to Okinawa. He
                                 said he had mentioned this to President <persName corresp="#p_JLB1"
-                                    >Johnson</persName>
-                                <note n="3" xml:id="d85fn3">Making a brief courtesy call, <persName
-                                        corresp="#p_MS1">Matsuoka</persName> met with President
-                                        <persName corresp="#p_JLB1">Johnson</persName> at the White
-                                    House on March 29 from 1–1:15 p.m. (<persName>Johnson</persName>
-                                    Library, President’s Daily Diary)</note> and would also do so to
-                                Members of Congress. The Secretary indicated that the Administration
-                                supports this amendment.</p>
+                                    >Johnson</persName><note n="3" xml:id="d85fn3">Making a brief
+                                    courtesy call, <persName corresp="#p_MS1">Matsuoka</persName>
+                                    met with President <persName corresp="#p_JLB1"
+                                        >Johnson</persName> at the White House on March 29 from
+                                    1–1:15 p.m. (<persName>Johnson</persName> Library, President’s
+                                    Daily Diary)</note> and would also do so to Members of Congress.
+                                The Secretary indicated that the Administration supports this
+                                amendment.</p>
                             <p>Mr. <persName corresp="#p_MS1">Matsuoka</persName> continued by
                                 expressing gratitude on behalf of the people of Okinawa for U.S. aid
                                 since 1945. He cautioned, however, that some people were never happy
@@ -12405,12 +12377,11 @@
                     frus:doc-dateTime-max="1967-06-29T23:59:59-05:00">
                     <head>86. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
-                            >McNamara</persName>
-                        <note n="1" xml:id="d86fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss
-                                target="#t_ISA1">ISA</gloss> Files: FRC 330 72 A 2468, Okinawa
-                            323.3. Secret. The memorandum indicates <persName corresp="#p_MNRS1"
-                                >McNamara</persName> saw it.</note>
+                            >McNamara</persName><note n="1" xml:id="d86fn1" type="source">Source:
+                            Washington National Records Center, <gloss target="#t_OSD1"
+                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files: FRC 330
+                            72 A 2468, Okinawa 323.3. Secret. The memorandum indicates <persName
+                                corresp="#p_MNRS1">McNamara</persName> saw it.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -12983,12 +12954,11 @@
                     frus:doc-dateTime-min="1967-07-15T00:05:00-05:00"
                     frus:doc-dateTime-max="1967-07-15T00:05:00-05:00">
                     <head>88. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d88fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Exdis. Repeated to
-                                <gloss target="#t_CINCPAC1">CINCPAC</gloss> for <gloss
-                                target="#t_POLAD1">POLAD</gloss> and <gloss
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d88fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Exdis. Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss>
+                            for <gloss target="#t_POLAD1">POLAD</gloss> and <gloss
                                 target="#t_HICOMHICOMRY1">HICOMRY</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -13119,12 +13089,12 @@
                     frus:doc-dateTime-max="1967-07-20T23:59:59-05:00">
                     <head>89. Memorandum From <gloss type="from">the Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
-                            >McNamara</persName>
-                        <note n="1" xml:id="d89fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_OSD1">OSD</gloss>/OASD/<gloss
-                                target="#t_ISA1">ISA</gloss> Files: FRC 330 71 A 4919, 680.1 Ryukyu
-                            Islands. Top Secret. A notation on the memorandum indicates that
-                                <persName corresp="#p_MNRS1">McNamara</persName> saw it.</note>
+                            >McNamara</persName><note n="1" xml:id="d89fn1" type="source">Source:
+                            Washington National Records Center, <gloss target="#t_OSD1"
+                                >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files: FRC 330
+                            71 A 4919, 680.1 Ryukyu Islands. Top Secret. A notation on the
+                            memorandum indicates that <persName corresp="#p_MNRS1"
+                                >McNamara</persName> saw it.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -13301,12 +13271,12 @@
                     frus:doc-dateTime-min="1967-08-01T05:10:00-05:00"
                     frus:doc-dateTime-max="1967-08-01T05:10:00-05:00">
                     <head>90. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d90fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> 19 RYU IS. Secret; Exdis. Repeated to
-                                <gloss target="#t_HICOMHICOMRY1">HICOMRY</gloss> and <gloss
-                                target="#t_CINCPAC1">CINCPAC</gloss>.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d90fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 RYU
+                            IS. Secret; Exdis. Repeated to <gloss target="#t_HICOMHICOMRY1"
+                                >HICOMRY</gloss> and <gloss target="#t_CINCPAC1"
+                            >CINCPAC</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1967-08-01T10:10:00+00:00"
@@ -13428,15 +13398,14 @@
                     <head>91. Action Memorandum From the Assistant Secretary of State for East Asian
                         and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Secretary of State <persName corresp="#p_RD3"
-                            type="to">Rusk</persName>
-                        <note n="1" xml:id="d91fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> 19 RYU IS. Secret; Nodis. Drafted by
-                                <persName corresp="#p_SRL2">Sneider</persName> and cleared by
-                            Macomber. A handwritten note on the memorandum reads: “Sir: <gloss
-                                target="#t_EA1">EA</gloss> has now offered this new second page
-                            (below) reflecting Sec. <persName corresp="#p_MNRS1"
-                            >McNamara</persName>’s views.”</note>
+                            type="to">Rusk</persName><note n="1" xml:id="d91fn1" type="source"
+                            >Source: National Archives and Records Administration, RG 59, Central
+                            Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 RYU IS. Secret;
+                            Nodis. Drafted by <persName corresp="#p_SRL2">Sneider</persName> and
+                            cleared by Macomber. A handwritten note on the memorandum reads: “Sir:
+                                <gloss target="#t_EA1">EA</gloss> has now offered this new second
+                            page (below) reflecting Sec. <persName corresp="#p_MNRS1"
+                                >McNamara</persName>’s views.”</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-08-07"
@@ -13496,9 +13465,9 @@
                         <item>
                             <gloss target="#t_ISA1">ISA</gloss> and <gloss target="#t_EA1"
                                 >EA</gloss> have drafted a Memorandum to the President from you and
-                            Secretary <persName corresp="#p_MNRS1">McNamara</persName>
-                            <note n="4" xml:id="d91fn4">At this point a handwritten notation that
-                                reads: “(draft at Tab A; Sec. <persName corresp="#p_MNRS1"
+                            Secretary <persName corresp="#p_MNRS1">McNamara</persName><note n="4"
+                                xml:id="d91fn4">At this point a handwritten notation that reads:
+                                “(draft at Tab A; Sec. <persName corresp="#p_MNRS1"
                                     >McNamara</persName> has not yet cleared—see para. 7 below)” was
                                 inserted. The draft memorandum is printed below.</note> recommending
                             this course of action. We have discussed the position recommended in the
@@ -13506,8 +13475,7 @@
                                 corresp="#p_OHD1">Owen</persName>, and they agree with its basic
                             thrust.</item>
                         <label>6.</label>
-                        <item>Mr. <persName>Macomber</persName>
-                            <note n="5" xml:id="d91fn5">
+                        <item>Mr. <persName>Macomber</persName><note n="5" xml:id="d91fn5">
                                 <persName>William B. Macomber</persName>, Jr., Assistant Secretary
                                 of State for Congressional Relations, March 1967–October
                                 1969.</note> has serious reservations about acting now on the
@@ -13555,8 +13523,7 @@
                         <p rend="center">
                             <hi rend="strong">Draft Action Memorandum for President <persName
                                     corresp="#p_JLB1">Johnson</persName>
-                            </hi>
-                            <note n="7" xml:id="d91fn7">President <persName corresp="#p_JLB1"
+                            </hi><note n="7" xml:id="d91fn7">President <persName corresp="#p_JLB1"
                                     >Johnson</persName> apparently received the final version of
                                 this memorandum; it has not been found.</note>
                         </p>
@@ -13676,10 +13643,10 @@
                             </list>
                         </p>
                         <p rend="flushleft">
-                            <hi rend="italic">III. Recommendations</hi>
-                            <note n="10" xml:id="d91fn10">The draft gives no indication of President
-                                    <persName corresp="#p_JLB1">Johnson</persName>’s decisions on
-                                these recommendations.</note>
+                            <hi rend="italic">III. Recommendations</hi><note n="10" xml:id="d91fn10"
+                                >The draft gives no indication of President <persName
+                                    corresp="#p_JLB1">Johnson</persName>’s decisions on these
+                                recommendations.</note>
                         </p>
                         <list>
                             <label>1.</label>
@@ -14293,10 +14260,9 @@
                     frus:doc-dateTime-max="1967-08-30T23:59:59-05:00">
                     <head>94. Memorandum From Secretary of Defense <persName corresp="#p_MNRS1"
                             type="from">McNamara</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d94fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, Confidential File, CO 141.
-                            Confidential.</note>
+                            type="to">Johnson</persName><note n="1" xml:id="d94fn1" type="source"
+                            >Source: <persName>Johnson</persName> Library, Confidential File, CO
+                            141. Confidential.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-08-30"
@@ -14313,10 +14279,10 @@
                                 issues to be discussed are much broader than the narrow subject of
                                 “reversion”—they relate to fundamental issues of U.S. and Japanese
                                 foreign and defense policy. The basic question is not “should the
-                                Ryukyus ’revert‘ to Japan,” but rather “will the U.S. Congress and
+                                Ryukyus ‘revert’ to Japan,” but rather “will the U.S. Congress and
                                 the U.S. public support: <list>
                                     <label>1.</label>
-                                    <item>Extension of the ’one-sided‘ U.S.-Japanese security treaty
+                                    <item>Extension of the ‘one-sided’ U.S.-Japanese security treaty
                                         beyond 1970.</item>
                                     <label>2.</label>
                                     <item>Retention of U.S. military bases in the Ryukyus for the
@@ -14358,10 +14324,9 @@
                     frus:doc-dateTime-max="1967-08-31T23:59:59-05:00">
                     <head>95. Memorandum From Secretary of the Treasury <persName corresp="#p_FHH1"
                             type="from">Fowler</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d95fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, Confidential File, CO 141.
-                            Secret.</note>
+                            type="to">Johnson</persName><note n="1" xml:id="d95fn1" type="source"
+                            >Source: <persName>Johnson</persName> Library, Confidential File, CO
+                            141. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-08-31"
@@ -14478,11 +14443,10 @@
                     frus:doc-dateTime-max="1967-09-04T23:59:59-05:00">
                     <head>96. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d96fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, Confidential File, CO 141.
-                            Secret. The Department of State copy shows the memorandum was drafted by
-                                <persName corresp="#p_SRL2">Sneider</persName> and cleared by
+                            type="to">Johnson</persName><note n="1" xml:id="d96fn1" type="source"
+                            >Source: <persName>Johnson</persName> Library, Confidential File, CO
+                            141. Secret. The Department of State copy shows the memorandum was
+                            drafted by <persName corresp="#p_SRL2">Sneider</persName> and cleared by
                                 <persName corresp="#p_JUA1">U. Alexis Johnson</persName> and
                                 <persName>Bundy</persName>. (National Archives and Records
                             Administration, RG 59, Central Files 1967–69, <gloss target="#t_POL1"
@@ -14556,12 +14520,12 @@
                     frus:doc-dateTime-min="1967-09-28T11:27:00-05:00"
                     frus:doc-dateTime-max="1967-09-28T11:27:00-05:00">
                     <head>97. Telegram From the <gloss type="from">Department of State</gloss> to
-                        the <gloss type="to">Embassy in Japan</gloss>
-                        <note n="1" xml:id="d97fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> 19 RYU IS. Secret; Nodis. Drafted by
-                                <persName corresp="#p_SRL2">Sneider</persName> and approved by
-                                <persName>Bundy</persName>.</note>
+                        the <gloss type="to">Embassy in Japan</gloss><note n="1" xml:id="d97fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 RYU
+                            IS. Secret; Nodis. Drafted by <persName corresp="#p_SRL2"
+                                >Sneider</persName> and approved by
+                            <persName>Bundy</persName>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -14924,8 +14888,7 @@
                         <signed>
                             <hi rend="strong">
                                 <persName>James Walker</persName>
-                            </hi>
-                            <note n="5" xml:id="d98fn5">Walker signed for <persName
+                            </hi><note n="5" xml:id="d98fn5">Walker signed for <persName
                                     corresp="#p_RBH1">Read</persName> above <persName
                                     corresp="#p_RBH1">Read</persName>’s typed signature.</note>
                         </signed>
@@ -14936,11 +14899,11 @@
                     frus:doc-dateTime-max="1967-10-27T17:45:00-05:00">
                     <head>99. Memorandum From the President’s Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
-                            corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d99fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, Visit of Prime Minister <persName corresp="#p_SE3"
-                                >Eisaku Sato</persName>, November 14–15, 1967. Secret.</note>
+                            corresp="#p_JLB1" type="to">Johnson</persName><note n="1"
+                            xml:id="d99fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Country File, Japan, Visit of Prime
+                            Minister <persName corresp="#p_SE3">Eisaku Sato</persName>, November
+                            14–15, 1967. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -15001,13 +14964,12 @@
                             <hi rend="strong">Memorandum from Secretary of State <persName
                                     corresp="#p_RD3">Rusk</persName> to President <persName
                                     corresp="#p_JLB1">Johnson</persName>
-                            </hi>
-                            <note n="4" xml:id="d99fn4">Secret; Nodis. The Department of State copy
-                                indicates the memorandum was drafted by <persName corresp="#p_SRL2"
-                                    >Sneider</persName> and cleared by <persName>Bundy</persName>,
-                                Aldrich, Macomber, and <persName corresp="#p_HMH2"
-                                    >Halperin</persName>. (National Archives and Records
-                                Administration, RG 59, Central Files 1967–69, <gloss
+                            </hi><note n="4" xml:id="d99fn4">Secret; Nodis. The Department of State
+                                copy indicates the memorandum was drafted by <persName
+                                    corresp="#p_SRL2">Sneider</persName> and cleared by
+                                    <persName>Bundy</persName>, Aldrich, Macomber, and <persName
+                                    corresp="#p_HMH2">Halperin</persName>. (National Archives and
+                                Records Administration, RG 59, Central Files 1967–69, <gloss
                                     target="#t_POL1">POL</gloss> 7 JAPAN)</note>
                         </p>
                         <list type="subject">
@@ -15160,10 +15122,10 @@
                     frus:doc-dateTime-max="1967-11-03T23:59:59-05:00">
                     <head>100. Memorandum From the President’s Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
-                            corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d100fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, Meeting Notes File, November
-                            4, 1967, Meeting with Foreign Policy Advisers. Secret.</note>
+                            corresp="#p_JLB1" type="to">Johnson</persName><note n="1"
+                            xml:id="d100fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, Meeting Notes File, November 4, 1967, Meeting with Foreign
+                            Policy Advisers. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-11-03"
@@ -15428,10 +15390,9 @@
                     frus:doc-dateTime-max="1967-11-11T23:59:59-05:00">
                     <head>102. Memorandum of Conversation Between the President’s Special Assistant
                             (<persName corresp="#p_RWW1">Rostow</persName>) and <persName
-                            corresp="#p_WK1">Kei Wakaizumi</persName>
-                        <note n="1" xml:id="d102fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, Vol. VII. Secret; Sensitive.</note>
+                            corresp="#p_WK1">Kei Wakaizumi</persName><note n="1" xml:id="d102fn1"
+                            type="source">Source: <persName>Johnson</persName> Library, National
+                            Security File, Country File, Japan, Vol. VII. Secret; Sensitive.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-11-11"
@@ -15651,9 +15612,8 @@
                     frus:doc-dateTime-max="1967-11-11T23:59:59-05:00">
                     <head>103. Memorandum From Secretary of the Treasury <persName corresp="#p_FHH1"
                             type="from">Fowler</persName> to President <persName corresp="#p_JLB1"
-                            type="to">Johnson</persName>
-                        <note n="1" xml:id="d103fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
+                            type="to">Johnson</persName><note n="1" xml:id="d103fn1" type="source"
+                            >Source: <persName>Johnson</persName> Library, National Security File,
                             Country File—Addendum, Japan. Secret.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -16686,14 +16646,14 @@
                     <head>107. Action Memorandum From the Assistant Secretary of State for East
                         Asian and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Secretary of State <persName corresp="#p_RD3"
-                            type="to">Rusk</persName>
-                        <note n="1" xml:id="d107fn1" type="source">Source: Department of State,
-                            Central Files, <gloss target="#t_POL1">POL</gloss> 19 BONIN IS. Secret;
-                            Exdis. Drafted by Feldman; cleared by <persName corresp="#p_SJH1"
-                                >Steadman</persName>, <persName corresp="#p_HMH2"
-                                >Halperin</persName>, and Barringer at the Department of Defense and
-                            by <gloss target="#t_GPM1">G/PM</gloss>, <persName corresp="#p_SRL2"
-                                >Sneider</persName>, and Bevans at the Department of State.</note>
+                            type="to">Rusk</persName><note n="1" xml:id="d107fn1" type="source"
+                            >Source: Department of State, Central Files, <gloss target="#t_POL1"
+                                >POL</gloss> 19 BONIN IS. Secret; Exdis. Drafted by Feldman; cleared
+                            by <persName corresp="#p_SJH1">Steadman</persName>, <persName
+                                corresp="#p_HMH2">Halperin</persName>, and Barringer at the
+                            Department of Defense and by <gloss target="#t_GPM1">G/PM</gloss>,
+                                <persName corresp="#p_SRL2">Sneider</persName>, and Bevans at the
+                            Department of State.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1967-12-22"
@@ -16974,12 +16934,12 @@
                     frus:doc-dateTime-min="1967-12-29T03:50:00-05:00"
                     frus:doc-dateTime-max="1967-12-29T03:50:00-05:00">
                     <head>108. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d108fn1" type="source">Source: Department of State,
-                            Central Files, <gloss target="#t_POL1">POL</gloss> 19 BONIN IS. Secret;
-                            Exdis; Priority. Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss>
-                            for <persName corresp="#p_SAUSG1">Sharp</persName> and with instructions
-                            to pass to <gloss target="#t_OSDISA1">OSD/ISA</gloss> for <persName
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d108fn1"
+                            type="source">Source: Department of State, Central Files, <gloss
+                                target="#t_POL1">POL</gloss> 19 BONIN IS. Secret; Exdis; Priority.
+                            Repeated to <gloss target="#t_CINCPAC1">CINCPAC</gloss> for <persName
+                                corresp="#p_SAUSG1">Sharp</persName> and with instructions to pass
+                            to <gloss target="#t_OSDISA1">OSD/ISA</gloss> for <persName
                                 corresp="#p_HMH2">Halperin</persName>.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -17066,12 +17026,12 @@
                     frus:doc-dateTime-min="1967-12-31T03:49:00-05:00"
                     frus:doc-dateTime-max="1967-12-31T03:49:00-05:00">
                     <head>109. Telegram From the <gloss type="from">Department of State</gloss> to
-                            <gloss type="to">the Embassy in Japan</gloss>
-                        <note n="1" xml:id="d109fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Flash; Exdis. Text
-                            received from the White House, cleared by <persName corresp="#p_BSD1"
-                                >Berger</persName> and Davis, and approved by Enders.</note>
+                            <gloss type="to">the Embassy in Japan</gloss><note n="1"
+                            xml:id="d109fn1" type="source">Source: National Archives and Records
+                            Administration, RG 59, Central Files 1967–69, <gloss target="#t_POL1"
+                                >POL</gloss> JAPAN–US. Secret; Flash; Exdis. Text received from the
+                            White House, cleared by <persName corresp="#p_BSD1">Berger</persName>
+                            and Davis, and approved by Enders.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -17398,8 +17358,8 @@
                     frus:doc-dateTime-max="1968-01-24T23:59:59-05:00">
                     <head>113. Intelligence Note From the Director of the Bureau of Intelligence and
                         Research (<persName corresp="#p_HTL2" type="from">Hughes</persName>) to
-                        Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName>
-                        <note n="1" xml:id="d113fn1" type="source">Source: National Archives and
+                        Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName><note
+                            n="1" xml:id="d113fn1" type="source">Source: National Archives and
                             Records Administration, RG 59, Central Files 1967–69, DEF 1 JAPAN.
                             Secret; No Foreign Dissem; Limdis.</note>
                     </head>
@@ -17611,11 +17571,11 @@
                     frus:doc-dateTime-max="1968-01-26T12:50:00-05:00">
                     <head>114. Memorandum From the President’s Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
-                            corresp="#p_JLB1" type="to">Johnson</persName>
-                        <note n="1" xml:id="d114fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File,
-                            Country File, Japan, Vol. VII. Secret. Sent for information. The
-                            memorandum indicates the President saw it.</note>
+                            corresp="#p_JLB1" type="to">Johnson</persName><note n="1"
+                            xml:id="d114fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Country File, Japan, Vol. VII. Secret.
+                            Sent for information. The memorandum indicates the President saw
+                            it.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -17670,13 +17630,13 @@
                     frus:doc-dateTime-min="1968-02-16T18:30:00-05:00"
                     frus:doc-dateTime-max="1968-02-16T18:30:00-05:00">
                     <head>115. Telegram From the <gloss type="from">Department of State</gloss> to
-                        the <gloss type="to">Embassy in Japan</gloss>
-                        <note n="1" xml:id="d115fn1" type="source">Source: Department of State,
-                            Central Files, <gloss target="#t_POL1">POL</gloss> JAPAN–US. Secret;
-                            Nodis. Drafted by <persName corresp="#p_RD3">Rusk</persName>, cleared by
-                                <persName corresp="#p_BSD1">Berger</persName> and <persName
-                                corresp="#p_RBH1">Read</persName>, and approved by <persName
-                                corresp="#p_RD3">Rusk</persName>.</note>
+                        the <gloss type="to">Embassy in Japan</gloss><note n="1" xml:id="d115fn1"
+                            type="source">Source: Department of State, Central Files, <gloss
+                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Nodis. Drafted by
+                                <persName corresp="#p_RD3">Rusk</persName>, cleared by <persName
+                                corresp="#p_BSD1">Berger</persName> and <persName corresp="#p_RBH1"
+                                >Read</persName>, and approved by <persName corresp="#p_RD3"
+                                >Rusk</persName>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -17722,11 +17682,10 @@
                     frus:doc-dateTime-min="1968-02-17T03:41:00-05:00"
                     frus:doc-dateTime-max="1968-02-17T03:41:00-05:00">
                     <head>116. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d116fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Nodis; Eyes Only for
-                            the Secretary; Priority.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d116fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Nodis; Eyes Only for the Secretary; Priority.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1968-02-17T08:41:00+00:00"
@@ -17951,10 +17910,10 @@
                     <head>118. Information Memorandum From the Assistant Secretary of State for East
                         Asian and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Secretary of State <persName corresp="#p_RD3"
-                            type="to">Rusk</persName>
-                        <note n="1" xml:id="d118fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> 19 BONIN IS. Secret; Exdis.</note>
+                            type="to">Rusk</persName><note n="1" xml:id="d118fn1" type="source"
+                            >Source: National Archives and Records Administration, RG 59, Central
+                            Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 BONIN IS. Secret;
+                            Exdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-03-23"
@@ -18472,10 +18431,10 @@
                     frus:doc-dateTime-min="1968-06-05T02:00:00-05:00"
                     frus:doc-dateTime-max="1968-06-05T02:00:00-05:00">
                     <head>123. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d123fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Limdis.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d123fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Limdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1968-06-05T07:00:00+00:00"
@@ -19042,11 +19001,11 @@
                     frus:doc-dateTime-max="1968-06-22T23:59:59-05:00">
                     <head>127. Memorandum From the Under Secretary of State’s Staff Director
                             (<persName type="from">Hartman</persName>) to the <gloss type="to"
-                            >Members of the Senior Interdepartmental Group</gloss>
-                        <note n="1" xml:id="d127fn1" type="source">Source:
-                                <persName>Johnson</persName> Library, National Security File, Agency
-                            File, <gloss target="#t_SIG1">SIG</gloss>, Vol. V, 40th Meeting, June
-                            27, 1968. Secret; Exdis.</note>
+                            >Members of the Senior Interdepartmental Group</gloss><note n="1"
+                            xml:id="d127fn1" type="source">Source: <persName>Johnson</persName>
+                            Library, National Security File, Agency File, <gloss target="#t_SIG1"
+                                >SIG</gloss>, Vol. V, 40th Meeting, June 27, 1968. Secret;
+                            Exdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-06-22"
@@ -19294,20 +19253,19 @@
                     frus:doc-dateTime-min="1968-07-08T17:44:00-05:00"
                     frus:doc-dateTime-max="1968-07-08T17:44:00-05:00">
                     <head>128. Telegram From the <gloss type="from">Department of State</gloss> to
-                        the <gloss type="to">Embassy in Japan</gloss>
-                        <note n="1" xml:id="d128fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, DEF 15 JAPAN–US.
-                            Secret; Limdis. Drafted by Seligmann (<gloss target="#t_DOD1"
-                                >DOD</gloss>/<gloss target="#t_ISA1">ISA</gloss>) and <persName
-                                corresp="#p_SRL2">Sneider</persName> (<gloss target="#t_EAJ1"
-                                >EA/J</gloss>); cleared by <persName corresp="#p_HMH2"
-                                >Halperin</persName> and <persName corresp="#p_SJH1"
-                                >Steadman</persName> (<gloss target="#t_DOD1">DOD</gloss>/<gloss
-                                target="#t_ISA1">ISA</gloss>), Adm. Vannoy (J–5), <persName
-                                corresp="#p_WJJ1">Wolf</persName> and Gammon at the Department of
-                            State; and approved by <persName corresp="#p_SRL2">Sneider</persName>.
-                            Also sent to <gloss target="#t_CINCPAC1">CINCPAC</gloss> and repeated to
-                            COMUSFJ.</note>
+                        the <gloss type="to">Embassy in Japan</gloss><note n="1" xml:id="d128fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, DEF 15 JAPAN–US. Secret; Limdis. Drafted by
+                            Seligmann (<gloss target="#t_DOD1">DOD</gloss>/<gloss target="#t_ISA1"
+                                >ISA</gloss>) and <persName corresp="#p_SRL2">Sneider</persName>
+                                (<gloss target="#t_EAJ1">EA/J</gloss>); cleared by <persName
+                                corresp="#p_HMH2">Halperin</persName> and <persName
+                                corresp="#p_SJH1">Steadman</persName> (<gloss target="#t_DOD1"
+                                >DOD</gloss>/<gloss target="#t_ISA1">ISA</gloss>), Adm. Vannoy
+                            (J–5), <persName corresp="#p_WJJ1">Wolf</persName> and Gammon at the
+                            Department of State; and approved by <persName corresp="#p_SRL2"
+                                >Sneider</persName>. Also sent to <gloss target="#t_CINCPAC1"
+                                >CINCPAC</gloss> and repeated to COMUSFJ.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -19400,10 +19358,10 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="294" xml:id="pg_294" facs="0330"/>
                 <div type="document" n="129" xml:id="d129" subtype="historical-document"
                     frus:doc-dateTime-min="1968-07-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1968-07-15T23:59:59-05:00">
-                    <pb n="294" xml:id="pg_294" facs="0330"/>
                     <head>129. Memorandum Prepared for the 303 Committee</head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-07-15"
@@ -19418,10 +19376,10 @@
                     frus:doc-dateTime-min="1968-08-21T01:30:00-05:00"
                     frus:doc-dateTime-max="1968-08-21T01:30:00-05:00">
                     <head>130. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d130fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> JAPAN–US. Secret; Exdis.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d130fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
+                            Secret; Exdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1968-08-21T06:30:00+00:00"
@@ -19993,9 +19951,8 @@
                         <signed>
                             <persName corresp="#p_BWP1">
                                 <hi rend="strong">William P. Bundy</hi>
-                            </persName>
-                            <note n="4" xml:id="d132fn4">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="4" xml:id="d132fn4">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -20003,13 +19960,13 @@
                     frus:doc-dateTime-min="1968-10-02T03:30:00-05:00"
                     frus:doc-dateTime-max="1968-10-02T03:30:00-05:00">
                     <head>133. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d133fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> 7 JAPAN. Confidential; Exdis. Repeated
-                            to the <gloss target="#t_USUN1">USUN</gloss>. <persName corresp="#p_RD3"
-                                >Rusk</persName> was in New York to attend the opening of the <gloss
-                                target="#t_UN1">UN</gloss> General Assembly.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d133fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> 7 JAPAN.
+                            Confidential; Exdis. Repeated to the <gloss target="#t_USUN1"
+                                >USUN</gloss>. <persName corresp="#p_RD3">Rusk</persName> was in New
+                            York to attend the opening of the <gloss target="#t_UN1">UN</gloss>
+                            General Assembly.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1968-10-02T08:30:00+00:00"
@@ -20034,8 +19991,8 @@
                                 between the U.S. and Japan, namely, “civil air transport problems,
                                 log experts, protectionism, tariff preferences for <gloss
                                     target="#t_LDCs1">LDC</gloss>’s, economic aid.” (Ibid.)</note> I
-                            hope that in your talks with <persName corresp="#p_MT3">Miki</persName>
-                            <note n="4" xml:id="d133fn4">
+                            hope that in your talks with <persName corresp="#p_MT3"
+                                >Miki</persName><note n="4" xml:id="d133fn4">
                                 <persName corresp="#p_RD3">Rusk</persName> met with <persName
                                     corresp="#p_MT3">Miki</persName> in New York on October 5. Their
                                 discussions focused on Chinese representation in the United Nations,
@@ -20192,8 +20149,8 @@
                     frus:doc-dateTime-max="1968-11-23T23:59:59-05:00">
                     <head>137. Research Memorandum From the Director of the Bureau of Intelligence
                         and Research (<persName corresp="#p_HTL2" type="from">Hughes</persName>) to
-                        Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName>
-                        <note n="1" xml:id="d137fn1" type="source">Source: National Archives and
+                        Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName><note
+                            n="1" xml:id="d137fn1" type="source">Source: National Archives and
                             Records Administration, RG 59, Central Files 1967–69, <gloss
                                 target="#t_POL1">POL</gloss> 19 RYU IS. Confidential.</note>
                     </head>
@@ -20490,10 +20447,10 @@
                     frus:doc-dateTime-min="1969-01-11T02:31:00-05:00"
                     frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                     <head>140. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
-                            <gloss type="to">Department of State</gloss>
-                        <note n="1" xml:id="d140fn1" type="source">Source: National Archives and
-                            Records Administration, RG 59, Central Files 1967–69, <gloss
-                                target="#t_POL1">POL</gloss> 19 RYU IS. Secret; Exdis.</note>
+                            <gloss type="to">Department of State</gloss><note n="1" xml:id="d140fn1"
+                            type="source">Source: National Archives and Records Administration, RG
+                            59, Central Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 RYU
+                            IS. Secret; Exdis.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Tokyo</placeName>, <date when="1969-01-11T07:31:00+00:00"
