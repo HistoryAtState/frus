@@ -63,7 +63,6 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -2691,9 +2690,9 @@
                                         corresp="#p_NRM1">Nixon</persName> Presidential Materials,
                                         <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
                                     State, Vol. II, Box 279)</p>
-                                <pb n="4" xml:id="pg_4" facs="0032"/>
                             </quote>
                         </p>
+                        <pb n="4" xml:id="pg_4" facs="0032"/>
                         <p>In many quarters foreign assistance was viewed as an important source of
                             the problem and there were many members of Congress in 1969 who favored
                             sharp cut-backs in economic and/or security and/or military
@@ -2850,8 +2849,8 @@
                         frus:doc-dateTime-max="1969-01-28T23:59:59-05:00">
                         <head>4. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
-                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d4fn1" type="source">Source: National Archives,
+                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d4fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
                                 Box 309, <gloss target="#t_BOP1">BOP</gloss>. Confidential. A
@@ -2904,12 +2903,11 @@
                         <head>5. Memorandum From the Assistant Secretary of the Treasury for
                             International Affairs (<persName corresp="#p_PJR1" type="from"
                                 >Petty</persName>) to Secretary of the Treasury <persName type="to"
-                                >Kennedy</persName>
-                            <note n="1" xml:id="d5fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Office of the Assistant
-                                Secretary for International Affairs: <gloss target="#t_FRC1"
-                                    >FRC</gloss> 56 76 108, Studies and Reports, <ref
-                                    target="frus1969-76v07">Volume 7</ref>, 2/68-11/69.
+                                >Kennedy</persName><note n="1" xml:id="d5fn1" type="source">Source:
+                                Washington National Records Center, Department of the Treasury,
+                                Office of the Assistant Secretary for International Affairs: <gloss
+                                    target="#t_FRC1">FRC</gloss> 56 76 108, Studies and Reports,
+                                    <ref target="frus1969-76v07">Volume 7</ref>, 2/68-11/69.
                                 Confidential; Limdis. Drafted by <persName corresp="#p_PJR1"
                                     >Petty</persName> on January 28. Copies were sent to Under
                                 Secretaries Walker and Volcker. A handwritten notation reads:
@@ -4113,24 +4111,23 @@
                         <head>11. Memorandum From the Assistant Secretary of the Treasury for
                             International Affairs (<persName corresp="#p_PJR1" type="from"
                                 >Petty</persName>) to Secretary of the Treasury <persName type="to"
-                                >Kennedy</persName>
-                            <note n="1" xml:id="d11fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Secretary’s
-                                Memos/Correspondence, 1966-1970: <gloss target="#t_FRC1">FRC</gloss>
-                                56 74 7, Memo to the Secretary, March-April, 1969. Limited Official
-                                Use. Drafted by <persName corresp="#p_CJC1">J. C. Colman</persName>
-                                on March 17. Sent through <persName corresp="#p_VPA1"
-                                    >Volcker</persName>. A stamped notation indicates that <persName
-                                    corresp="#p_VPA1">Volcker</persName> initialed the memorandum.
-                                It is attached to <persName corresp="#p_VPA1">Volcker</persName>’s
-                                March 18 handwritten transmittal note to Kennedy: “My only added
-                                thought here is that the ‘soundings’ should be coordinated with
-                                proposed announcement on controls. This extension should be
-                                proposed, in general terms, at time of relaxation.” Kennedy’s
-                                handwritten reply on <persName corresp="#p_VPA1"
-                                >Volcker</persName>’s note reads: “I agree. After the extension is
-                                proposed begin checking in Congress to determine whether any changes
-                                should be made.”</note>
+                                >Kennedy</persName><note n="1" xml:id="d11fn1" type="source">Source:
+                                Washington National Records Center, Department of the Treasury,
+                                Secretary’s Memos/Correspondence, 1966-1970: <gloss target="#t_FRC1"
+                                    >FRC</gloss> 56 74 7, Memo to the Secretary, March-April, 1969.
+                                Limited Official Use. Drafted by <persName corresp="#p_CJC1">J. C.
+                                    Colman</persName> on March 17. Sent through <persName
+                                    corresp="#p_VPA1">Volcker</persName>. A stamped notation
+                                indicates that <persName corresp="#p_VPA1">Volcker</persName>
+                                initialed the memorandum. It is attached to <persName
+                                    corresp="#p_VPA1">Volcker</persName>’s March 18 handwritten
+                                transmittal note to Kennedy: “My only added thought here is that the
+                                ‘soundings’ should be coordinated with proposed announcement on
+                                controls. This extension should be proposed, in general terms, at
+                                time of relaxation.” Kennedy’s handwritten reply on <persName
+                                    corresp="#p_VPA1">Volcker</persName>’s note reads: “I agree.
+                                After the extension is proposed begin checking in Congress to
+                                determine whether any changes should be made.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-03-17"
@@ -4255,9 +4252,9 @@
                             exemption. Accordingly, it is recommended that no amendment of this sort
                             be considered.</p>
                         <p rend="flushleft">
-                            <hi rend="italic">Recommendations:</hi>
-                            <note n="2" xml:id="d11fn2">There is no indication of Kennedy’s approval
-                                or disapproval of the recommendations.</note>
+                            <hi rend="italic">Recommendations:</hi><note n="2" xml:id="d11fn2">There
+                                is no indication of Kennedy’s approval or disapproval of the
+                                recommendations.</note>
                         </p>
                         <list>
                             <label>1.</label>
@@ -4285,8 +4282,8 @@
                         frus:doc-dateTime-max="1969-03-17T23:59:59-05:00">
                         <head>12. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
-                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d12fn1" type="source">Source: National Archives,
+                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d12fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
                                 Box 309, <gloss target="#t_BOP1">BOP</gloss>. Confidential. Drafted
@@ -4753,12 +4750,11 @@
                         frus:doc-dateTime-max="1969-04-01T23:59:59-05:00">
                         <head>15. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d15fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Office of the Assistant
-                                Secretary for International Affairs: <gloss target="#t_FRC1"
-                                    >FRC</gloss> 56 76 108, Studies and Reports, <ref
-                                    target="frus1969-76v07">Volume 7</ref>, 2/68-11/69.
+                                type="to">Nixon</persName><note n="1" xml:id="d15fn1" type="source"
+                                >Source: Washington National Records Center, Department of the
+                                Treasury, Office of the Assistant Secretary for International
+                                Affairs: <gloss target="#t_FRC1">FRC</gloss> 56 76 108, Studies and
+                                Reports, <ref target="frus1969-76v07">Volume 7</ref>, 2/68-11/69.
                                 Confidential. An earlier draft of the memorandum had been discussed
                                 at a meeting on March 11; see <ref target="#d8">Document
                                 8</ref>.</note>
@@ -4968,11 +4964,11 @@
                                 >IET</gloss> also serves to reinforce both the Commerce and the
                             Federal Reserve programs.</p>
                         <p rend="flushleft">
-                            <hi rend="italic">Recommendations:</hi>
-                            <note n="5" xml:id="d15fn5">There is no indication of President
-                                    <persName corresp="#p_NRM1">Nixon</persName>’s approval or
-                                disapproval of the recommendations. See also <ref target="#d16"
-                                    >Document 16</ref>.</note>
+                            <hi rend="italic">Recommendations:</hi><note n="5" xml:id="d15fn5">There
+                                is no indication of President <persName corresp="#p_NRM1"
+                                    >Nixon</persName>’s approval or disapproval of the
+                                recommendations. See also <ref target="#d16">Document
+                                16</ref>.</note>
                         </p>
                         <list>
                             <label>(1)</label>
@@ -5136,8 +5132,8 @@
                         frus:doc-dateTime-max="1969-04-03T23:59:59-05:00">
                         <head>17. Memorandum From the Director of the Office of Industrial Nations,
                             Department of the Treasury (<persName type="from">Widman</persName>) to
-                            Secretary of the Treasury <persName type="to">Kennedy</persName>
-                            <note n="1" xml:id="d17fn1" type="source">Source: Washington National
+                            Secretary of the Treasury <persName type="to">Kennedy</persName><note
+                                n="1" xml:id="d17fn1" type="source">Source: Washington National
                                 Records Center, Department of the Treasury, Secretary’s
                                 Memos/Correspondence: <gloss target="#t_FRC1">FRC</gloss> 56 74 7,
                                 Memoranda to the Secretary, March-April, 1969. Secret. Sent through
@@ -5615,22 +5611,22 @@
                         frus:doc-dateTime-max="1969-05-13T23:59:59-05:00">
                         <head>21. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d21fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Deputy to the Assistant
-                                Secretary for International Affairs: <gloss target="#t_FRC1"
-                                    >FRC</gloss> 56 83 26, Contingency Planning 1969. Confidential.
-                                A May 14 cover note from Petty’s office to <persName
-                                    corresp="#p_WGH1">Willis</persName> indicates that distribution
-                                in the Treasury Department was limited to the Secretary, Under
-                                Secretaries <persName corresp="#p_WCE1">Walker</persName> and
-                                    <persName corresp="#p_VPA1">Volcker</persName>, <persName
-                                    corresp="#p_PJR1">Petty</persName>, and <persName
-                                    corresp="#p_WGH1">Willis</persName>. There is no indication that
-                                this memorandum was forwarded to the President’s attention, but the
-                                President was subsequently informed of the balance-of-payments
-                                results by <persName corresp="#p_MCPW1">McCracken</persName>; see
-                                    <ref target="#d129">Document 129</ref>.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d21fn1" type="source"
+                                >Source: Washington National Records Center, Department of the
+                                Treasury, Deputy to the Assistant Secretary for International
+                                Affairs: <gloss target="#t_FRC1">FRC</gloss> 56 83 26, Contingency
+                                Planning 1969. Confidential. A May 14 cover note from Petty’s office
+                                to <persName corresp="#p_WGH1">Willis</persName> indicates that
+                                distribution in the Treasury Department was limited to the
+                                Secretary, Under Secretaries <persName corresp="#p_WCE1"
+                                    >Walker</persName> and <persName corresp="#p_VPA1"
+                                    >Volcker</persName>, <persName corresp="#p_PJR1"
+                                    >Petty</persName>, and <persName corresp="#p_WGH1"
+                                    >Willis</persName>. There is no indication that this memorandum
+                                was forwarded to the President’s attention, but the President was
+                                subsequently informed of the balance-of-payments results by
+                                    <persName corresp="#p_MCPW1">McCracken</persName>; see <ref
+                                    target="#d129">Document 129</ref>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-13"
@@ -5791,10 +5787,9 @@
                             <signed>
                                 <persName corresp="#p_KDM1">
                                     <hi rend="strong">David M. Kennedy</hi>
-                                </persName>
-                                <note n="4" xml:id="d21fn4">Printed from a copy that indicates
-                                        <persName corresp="#p_KDM1">Kennedy</persName> signed the
-                                    original.</note>
+                                </persName><note n="4" xml:id="d21fn4">Printed from a copy that
+                                    indicates <persName corresp="#p_KDM1">Kennedy</persName> signed
+                                    the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -5805,13 +5800,13 @@
                         <head>22. Memorandum From the Chairman of the National Security Council
                             Under Secretaries Committee (<persName corresp="#p_REL1" type="from"
                                 >Richardson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d22fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, <gloss target="#t_SS1"
-                                    >S/S</gloss> Files: Lot 83 <gloss target="#t_D1">D</gloss> 305,
-                                    <gloss target="#t_NSDM1">NSDM</gloss> 12. Secret. Drafted by
-                                Colonel G. D. Overbey (<gloss target="#t_EUR1">EUR</gloss>/RPM) on
-                                May 21 and concurred in by <persName corresp="#p_JUA1">U. Alexis
+                                type="to">Nixon</persName><note n="1" xml:id="d22fn1" type="source"
+                                >Source: National Archives, <gloss target="#t_RG1">RG</gloss> 59,
+                                    <gloss target="#t_SS1">S/S</gloss> Files: Lot 83 <gloss
+                                    target="#t_D1">D</gloss> 305, <gloss target="#t_NSDM1"
+                                    >NSDM</gloss> 12. Secret. Drafted by Colonel G. D. Overbey
+                                    (<gloss target="#t_EUR1">EUR</gloss>/RPM) on May 21 and
+                                concurred in by <persName corresp="#p_JUA1">U. Alexis
                                     Johnson</persName>, Brigadier General Hampton (OSD/ISA), Major
                                 General Orwat (<gloss target="#t_JCS1">JCS</gloss>), <persName
                                     corresp="#p_SGSJ1">Springsteen</persName> (<gloss
@@ -6644,8 +6639,8 @@
                         frus:doc-dateTime-max="1969-09-15T23:59:59-05:00">
                         <head>27. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
-                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d27fn1" type="source">Source: National Archives,
+                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d27fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
                                 Box 309, Balance of Payments. No classification marking. <persName
@@ -6874,16 +6869,16 @@
                         <head>29. Letter From the Chairman of the Board of Governors of the Federal
                             Reserve System (<persName corresp="#p_MWMCJ1" type="from"
                                 >Martin</persName>) to Secretary of the Treasury <persName type="to"
-                                >Kennedy</persName>
-                            <note n="1" xml:id="d29fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Office of the Assistant
-                                Secretary for International Affairs: <gloss target="#t_FRC1"
-                                    >FRC</gloss> 56 76 108, <gloss target="#t_BOP1">BOP</gloss>
-                                Improvement Measures, Volume 4, 66-69. No classification marking. A
-                                handwritten notation on the letter reads: “Copy for Mr. <persName
-                                    corresp="#p_VPA1">Volcker</persName> 10/21 6:45 pm copies to
-                                Messrs. <persName corresp="#p_PJR1">Petty</persName> and <persName
-                                    corresp="#p_SPP1">Schaffner</persName>.”</note>
+                                >Kennedy</persName><note n="1" xml:id="d29fn1" type="source">Source:
+                                Washington National Records Center, Department of the Treasury,
+                                Office of the Assistant Secretary for International Affairs: <gloss
+                                    target="#t_FRC1">FRC</gloss> 56 76 108, <gloss target="#t_BOP1"
+                                    >BOP</gloss> Improvement Measures, Volume 4, 66-69. No
+                                classification marking. A handwritten notation on the letter reads:
+                                “Copy for Mr. <persName corresp="#p_VPA1">Volcker</persName> 10/21
+                                6:45 pm copies to Messrs. <persName corresp="#p_PJR1"
+                                    >Petty</persName> and <persName corresp="#p_SPP1"
+                                    >Schaffner</persName>.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-21"
@@ -7121,12 +7116,12 @@
                         <head>31. Action Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d31fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 309, Balance of Payments. Confidential. Attached to <ref
-                                    target="#d32">Document 32</ref>.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d31fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 309,
+                                Balance of Payments. Confidential. Attached to <ref target="#d32"
+                                    >Document 32</ref>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-28"
@@ -7278,12 +7273,13 @@
                         frus:doc-dateTime-max="1969-12-03T23:59:59-05:00">
                         <head>32. Memorandum From the President’s Assistant (<persName
                                 corresp="#p_FPM1" type="from">Flanigan</persName>) to the <gloss
-                                type="to">Staff Secretary of the National Security Council</gloss>
-                            <note n="1" xml:id="d32fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 309, Balance of Payments. Confidential. <ref target="#d31"
-                                    >Document 31</ref> and its tabs are attached.</note>
+                                type="to">Staff Secretary of the National Security
+                                Council</gloss><note n="1" xml:id="d32fn1" type="source">Source:
+                                National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                                Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files,
+                                Subject Files, Box 309, Balance of Payments. Confidential. <ref
+                                    target="#d31">Document 31</ref> and its tabs are
+                                attached.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-03"
@@ -7449,11 +7445,11 @@
                         frus:doc-dateTime-max="1969-12-15T23:59:59-05:00">
                         <head>34. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d34fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 289, Treasury, Volume I. Confidential. Attached to a December 19
+                                type="to">Nixon</persName><note n="1" xml:id="d34fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 289,
+                                Treasury, Volume I. Confidential. Attached to a December 19
                                 memorandum from <persName corresp="#p_KHA1">Kissinger</persName> to
                                 the President that summarizes Kennedy’s report on his European trip.
                                 Stamped on <persName corresp="#p_KHA1">Kissinger</persName>’s
@@ -7619,13 +7615,12 @@
                         <head>35. Memorandum From the Assistant Secretary of the Treasury for
                             International Affairs (<persName corresp="#p_PJR1" type="from"
                                 >Petty</persName>) to Secretary of the Treasury <persName type="to"
-                                >Kennedy</persName>
-                            <note n="1" xml:id="d35fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Office of the Assistant
-                                Secretary for International Affairs: <gloss target="#t_FRC1"
-                                    >FRC</gloss> 56 76 108, US/3/501, Tied Aid Procurement, Volume 2
-                                1966-70. Limited Official Use. Sent through <persName
-                                    corresp="#p_VPA1">Volcker</persName>.</note>
+                                >Kennedy</persName><note n="1" xml:id="d35fn1" type="source">Source:
+                                Washington National Records Center, Department of the Treasury,
+                                Office of the Assistant Secretary for International Affairs: <gloss
+                                    target="#t_FRC1">FRC</gloss> 56 76 108, US/3/501, Tied Aid
+                                Procurement, Volume 2 1966-70. Limited Official Use. Sent through
+                                    <persName corresp="#p_VPA1">Volcker</persName>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-11"
@@ -7904,18 +7899,17 @@
                         frus:doc-dateTime-max="1970-03-02T23:59:59-05:00">
                         <head>37. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d37fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Files of Under Secretary
-                                    <persName corresp="#p_VPA1">Volcker</persName>: <gloss
-                                    target="#t_FRC1">FRC</gloss> 56 79 15, France. Confidential.
-                                Drafted by F. Lisle Widman on February 27 and revised by <persName
-                                    corresp="#p_VPA1">Volcker</persName>. The memorandum was
-                                forwarded to the President under cover of a March 5 memorandum from
-                                    <persName corresp="#p_KHA1">Kissinger</persName>. (National
-                                Archives, <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 289, Treasury Volume I)</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d37fn1" type="source"
+                                >Source: Washington National Records Center, Department of the
+                                Treasury, Files of Under Secretary <persName corresp="#p_VPA1"
+                                    >Volcker</persName>: <gloss target="#t_FRC1">FRC</gloss> 56 79
+                                15, France. Confidential. Drafted by F. Lisle Widman on February 27
+                                and revised by <persName corresp="#p_VPA1">Volcker</persName>. The
+                                memorandum was forwarded to the President under cover of a March 5
+                                memorandum from <persName corresp="#p_KHA1">Kissinger</persName>.
+                                (National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                                Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files,
+                                Agency Files, Box 289, Treasury Volume I)</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-02"
@@ -7995,10 +7989,9 @@
                             <signed>
                                 <persName corresp="#p_KDM1">
                                     <hi rend="strong">David M. Kennedy</hi>
-                                </persName>
-                                <note n="4" xml:id="d37fn4">Printed from a copy that indicates
-                                        <persName corresp="#p_KDM1">Kennedy</persName> signed the
-                                    original.</note>
+                                </persName><note n="4" xml:id="d37fn4">Printed from a copy that
+                                    indicates <persName corresp="#p_KDM1">Kennedy</persName> signed
+                                    the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -8611,10 +8604,9 @@
                             <signed>
                                 <persName corresp="#p_KDM1">
                                     <hi rend="strong">David M. Kennedy</hi>
-                                </persName>
-                                <note n="6" xml:id="d41fn6">Printed from a copy that indicates
-                                        <persName corresp="#p_KDM1">Kennedy</persName> signed the
-                                    original.</note>
+                                </persName><note n="6" xml:id="d41fn6">Printed from a copy that
+                                    indicates <persName corresp="#p_KDM1">Kennedy</persName> signed
+                                    the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -8624,9 +8616,9 @@
                         frus:doc-dateTime-max="1970-07-18T23:59:59-05:00">
                         <head>42. Letter From Secretary of Agriculture <persName corresp="#p_HCM1"
                                 type="from">Hardin</persName> to Secretary of State <persName
-                                corresp="#p_RWP1" type="to">Rogers</persName>
-                            <note n="1" xml:id="d42fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, <gloss target="#t_SS1"
+                                corresp="#p_RWP1" type="to">Rogers</persName><note n="1"
+                                xml:id="d42fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, <gloss target="#t_SS1"
                                     >S/S</gloss> Files: Lot 81 <gloss target="#t_D1">D</gloss> 309,
                                     <gloss target="#t_NSC1">NSC</gloss>-<gloss target="#t_U1"
                                     >U</gloss>/SM 73A. Secret.</note>
@@ -9075,14 +9067,13 @@
                         frus:doc-dateTime-max="1970-10-13T23:59:59-05:00">
                         <head>46. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d46fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Secretary’s
-                                Memos/Correspondence, 1966-1970: <gloss target="#t_FRC1">FRC</gloss>
-                                56 74 7, Memo to the President September-December 1970.
-                                Confidential. Copies were sent to Secretaries <persName
-                                    corresp="#p_LMR2">Laird</persName> and <persName
-                                    corresp="#p_RWP1">Rogers</persName>.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d46fn1" type="source"
+                                >Source: Washington National Records Center, Department of the
+                                Treasury, Secretary’s Memos/Correspondence, 1966-1970: <gloss
+                                    target="#t_FRC1">FRC</gloss> 56 74 7, Memo to the President
+                                September-December 1970. Confidential. Copies were sent to
+                                Secretaries <persName corresp="#p_LMR2">Laird</persName> and
+                                    <persName corresp="#p_RWP1">Rogers</persName>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-10-13"
@@ -9174,10 +9165,9 @@
                             <signed>
                                 <persName corresp="#p_KDM1">
                                     <hi rend="strong">David M. Kennedy</hi>
-                                </persName>
-                                <note n="5" xml:id="d46fn5">Printed from a copy that indicates
-                                        <persName corresp="#p_KDM1">Kennedy</persName> signed the
-                                    original.</note>
+                                </persName><note n="5" xml:id="d46fn5">Printed from a copy that
+                                    indicates <persName corresp="#p_KDM1">Kennedy</persName> signed
+                                    the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -9187,18 +9177,18 @@
                         <head>47. Information Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d47fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 322, European Common Market, Volume I 1969-1970. Limited
-                                Official Use. Forwarded to Kissinger under cover of a November 6
-                                memorandum from <persName corresp="#p_BCF1">Bergsten</persName> who
-                                recommended it be sent forward to alert the President to the issues
-                                between the United States and the Community. Presumably after the
-                                memorandum came back from the President with his marginal notes,
-                                    <persName corresp="#p_KHA1">Kissinger</persName> wrote at the
-                                top: “<persName corresp="#p_BCF1">Bergsten</persName>—keep this note
+                                type="to">Nixon</persName><note n="1" xml:id="d47fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 322,
+                                European Common Market, Volume I 1969-1970. Limited Official Use.
+                                Forwarded to Kissinger under cover of a November 6 memorandum from
+                                    <persName corresp="#p_BCF1">Bergsten</persName> who recommended
+                                it be sent forward to alert the President to the issues between the
+                                United States and the Community. Presumably after the memorandum
+                                came back from the President with his marginal notes, <persName
+                                    corresp="#p_KHA1">Kissinger</persName> wrote at the top:
+                                    “<persName corresp="#p_BCF1">Bergsten</persName>—keep this note
                                 in mind.”</note>
                         </head>
                         <opener><dateline rendition="#right">
@@ -9642,12 +9632,12 @@
                         <head>51. Information Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d51fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 323, Foreign Aid, Volume I 7/70-1971. Confidential. At the top
-                                of the memorandum, the President wrote: “Be sure this gets to <hi
+                                type="to">Nixon</persName><note n="1" xml:id="d51fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 323,
+                                Foreign Aid, Volume I 7/70-1971. Confidential. At the top of the
+                                memorandum, the President wrote: “Be sure this gets to <hi
                                     rend="italic">Peterson</hi>,” and <persName corresp="#p_KHA1"
                                     >Kissinger</persName> wrote: “Send comments to <persName
                                     corresp="#p_SGP1">Shultz</persName>.” The memorandum is attached
@@ -9780,23 +9770,23 @@
                         <head>53. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d53fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 218, <gloss target="#t_CIEP1">CIEP</gloss>. Confidential. A
-                                stamped notation reads: “The President has seen.” Attached to a
-                                March 1 memorandum from <persName corresp="#p_PPG1"
-                                    >Peterson</persName> to <persName corresp="#p_KHA1"
-                                    >Kissinger</persName> regarding the <gloss target="#t_CIEP1"
-                                    >CIEP</gloss>’s role. Another copy is attached to a February 24
-                                memorandum from <hi rend="italic">Bergsten</hi> to <persName
-                                    corresp="#p_KHA1">Kissinger</persName>, which called <persName
-                                    corresp="#p_KHA1">Kissinger</persName>’s attention to item IV on
-                                “rethinking” balance of payments and international financial policy,
-                                in which <persName corresp="#p_PPG1">Peterson</persName> was
-                                reflecting <persName corresp="#p_SGP1">Shultz</persName>’ desire “to
-                                rid ourselves completely of the capital controls inherited by the
+                                type="to">Nixon</persName><note n="1" xml:id="d53fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 218,
+                                    <gloss target="#t_CIEP1">CIEP</gloss>. Confidential. A stamped
+                                notation reads: “The President has seen.” Attached to a March 1
+                                memorandum from <persName corresp="#p_PPG1">Peterson</persName> to
+                                    <persName corresp="#p_KHA1">Kissinger</persName> regarding the
+                                    <gloss target="#t_CIEP1">CIEP</gloss>’s role. Another copy is
+                                attached to a February 24 memorandum from <hi rend="italic"
+                                    >Bergsten</hi> to <persName corresp="#p_KHA1"
+                                    >Kissinger</persName>, which called <persName corresp="#p_KHA1"
+                                    >Kissinger</persName>’s attention to item IV on “rethinking”
+                                balance of payments and international financial policy, in which
+                                    <persName corresp="#p_PPG1">Peterson</persName> was reflecting
+                                    <persName corresp="#p_SGP1">Shultz</persName>’ desire “to rid
+                                ourselves completely of the capital controls inherited by the
                                 Administration.” <persName corresp="#p_BCF1">Bergsten</persName>
                                 noted that this “could cause serious foreign policy problems and in
                                 fact the international monetary scene could become very troublesome
@@ -9883,13 +9873,12 @@
                         <head>54. Memorandum From the Director of the Office of Management and
                             Budget (<persName corresp="#p_SGP1" type="from">Shultz</persName>) to
                             the <gloss type="to">Members of the Council on International Economic
-                                Policy</gloss>
-                            <note n="1" xml:id="d54fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 218, <gloss target="#t_CIEP1">CIEP</gloss>. No classification
-                                marking. Sent through Peterson. The memorandum is the attachment to
-                                    <ref target="#d55">Document 55</ref>.</note>
+                                Policy</gloss><note n="1" xml:id="d54fn1" type="source">Source:
+                                National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                                Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files,
+                                Agency Files, Box 218, <gloss target="#t_CIEP1">CIEP</gloss>. No
+                                classification marking. Sent through Peterson. The memorandum is the
+                                attachment to <ref target="#d55">Document 55</ref>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-02"
@@ -9991,8 +9980,8 @@
                             <p rend="flushleft">
                                 <hi rend="italic">The Interest Equalization Tax</hi>
                             </p>
-                            <p>In his study, <persName corresp="#p_CRN1">Cooper</persName>
-                                <note n="2" xml:id="d54fn2">
+                            <p>In his study, <persName corresp="#p_CRN1">Cooper</persName><note
+                                    n="2" xml:id="d54fn2">
                                     <persName corresp="#p_CRN1">Richard N. Cooper</persName>: “The
                                     Interest Equalization Tax: An Experiment in the Separation of
                                     Capital Markets,” paper # 78, Economic Growth Center, Yale
@@ -10633,10 +10622,10 @@
                             suggestions to you on the possible form such an adjustment assistance
                             program might take.</p>
                     </div>
+                    <pb n="141" xml:id="pg_141" facs="0169"/>
                     <div type="document" xml:id="d57" n="57" subtype="historical-document"
                         frus:doc-dateTime-min="1971-03-29T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-03-29T23:59:59-05:00">
-                        <pb n="141" xml:id="pg_141" facs="0169"/>
                         <head>57. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_CJBJ1" type="from">Connally</persName> to the
                             President’s Assistant for International Economic Affairs (<persName
@@ -10696,10 +10685,9 @@
                             <signed>
                                 <persName corresp="#p_CJBJ1">
                                     <hi rend="strong">John B. Connally</hi>
-                                </persName>
-                                <note n="3" xml:id="d57fn3">Printed from a copy that indicates
-                                        <persName corresp="#p_CJBJ1">Connally</persName> signed the
-                                    original.</note>
+                                </persName><note n="3" xml:id="d57fn3">Printed from a copy that
+                                    indicates <persName corresp="#p_CJBJ1">Connally</persName>
+                                    signed the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -10709,9 +10697,9 @@
                         frus:doc-dateTime-max="1971-03-29T23:59:59-05:00">
                         <head>58. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_CJBJ1" type="from">Connally</persName> to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d58fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Files of Under Secretary
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d58fn1" type="source">Source: Washington National Records
+                                Center, Department of the Treasury, Files of Under Secretary
                                 Volcker: <gloss target="#t_FRC1">FRC</gloss> 56 79 15, <gloss
                                     target="#t_CIEP1">CIEP</gloss> Study Memoranda. Confidential.
                                 See <ref target="#d57fn1">footnote 1, Document 57</ref>.</note>
@@ -10793,10 +10781,9 @@
                             <signed>
                                 <persName corresp="#p_CJBJ1">
                                     <hi rend="strong">John B. Connally</hi>
-                                </persName>
-                                <note n="4" xml:id="d58fn4">Printed from a copy that indicates
-                                        <persName corresp="#p_CJBJ1">Connally</persName> signed the
-                                    original</note>
+                                </persName><note n="4" xml:id="d58fn4">Printed from a copy that
+                                    indicates <persName corresp="#p_CJBJ1">Connally</persName>
+                                    signed the original</note>
                             </signed>
                         </closer>
                     </div>
@@ -11214,19 +11201,19 @@
                         frus:doc-dateTime-min="1971-04-21T11:30:00-05:00"
                         frus:doc-dateTime-max="1971-04-21T11:30:00-05:00">
                         <head>63. Telegram From the <gloss type="from">Department of State</gloss>
-                            to <gloss type="to">Certain Posts</gloss>
-                            <note n="1" xml:id="d63fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                12 US. Confidential. Drafted by G.H. Willis and W.C. Cates
-                                (Treasury); cleared by Under Secretary <persName corresp="#p_VPA1"
-                                    >Volcker</persName>, Deputy Assistant Secretary of State
-                                    <persName corresp="#p_WS2">Weintraub</persName> (<gloss
-                                    target="#t_E1">E</gloss>), and Curran (<gloss target="#t_SS1"
-                                    >S/S</gloss>); and approved by Deputy Under Secretary of State
-                                    <persName corresp="#p_SND1">Samuels</persName>. Sent to the
-                                Embassies in <gloss target="#t_OECD1">OECD</gloss> capitals, the
-                                    <gloss target="#t_USEC1">USEC</gloss> Mission in Brussels, and
-                                the <gloss target="#t_OECD1">OECD</gloss> Mission in Paris.</note>
+                            to <gloss type="to">Certain Posts</gloss><note n="1" xml:id="d63fn1"
+                                type="source">Source: National Archives, <gloss target="#t_RG1"
+                                    >RG</gloss> 59, Central Files 1970-73, FN 12 US. Confidential.
+                                Drafted by G.H. Willis and W.C. Cates (Treasury); cleared by Under
+                                Secretary <persName corresp="#p_VPA1">Volcker</persName>, Deputy
+                                Assistant Secretary of State <persName corresp="#p_WS2"
+                                    >Weintraub</persName> (<gloss target="#t_E1">E</gloss>), and
+                                Curran (<gloss target="#t_SS1">S/S</gloss>); and approved by Deputy
+                                Under Secretary of State <persName corresp="#p_SND1"
+                                    >Samuels</persName>. Sent to the Embassies in <gloss
+                                    target="#t_OECD1">OECD</gloss> capitals, the <gloss
+                                    target="#t_USEC1">USEC</gloss> Mission in Brussels, and the
+                                    <gloss target="#t_OECD1">OECD</gloss> Mission in Paris.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
@@ -11545,16 +11532,16 @@
                         <head>65. Action Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d65fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 273, <gloss target="#t_OECD1">OECD</gloss>. Confidential. A copy
-                                was sent to <persName corresp="#p_KHA1">Kissinger</persName>.
-                                Attached to a June 5 memorandum from Huntsman to <persName
-                                    corresp="#p_PPG1">Peterson</persName> setting out marginal
-                                comments the President had written on Peterson’s memorandum, but the
-                                source text bears no marginal comments.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d65fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 273,
+                                    <gloss target="#t_OECD1">OECD</gloss>. Confidential. A copy was
+                                sent to <persName corresp="#p_KHA1">Kissinger</persName>. Attached
+                                to a June 5 memorandum from Huntsman to <persName corresp="#p_PPG1"
+                                    >Peterson</persName> setting out marginal comments the President
+                                had written on Peterson’s memorandum, but the source text bears no
+                                marginal comments.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-06-02"
@@ -12527,12 +12514,12 @@
                         frus:doc-dateTime-max="1971-09-01T23:59:59-05:00">
                         <head>74. Memorandum From Secretary of State <persName corresp="#p_RWP1"
                                 type="from">Rogers</persName> to President <persName
-                                corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d74fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 285, State Volume 13. Secret. Attached to a copy of a September
-                                5 joint memorandum from <persName corresp="#p_KHA1"
+                                corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d74fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files, Box
+                                285, State Volume 13. Secret. Attached to a copy of a September 5
+                                joint memorandum from <persName corresp="#p_KHA1"
                                     >Kissinger</persName> and <persName corresp="#p_PPG1"
                                     >Peterson</persName> to the President proposing <gloss
                                     target="#t_NSDM1">NSDM</gloss> 130 (<ref target="#d75">Document
@@ -13919,12 +13906,12 @@
                         <head>79. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to the <gloss type="to">Members of the Council
-                                on International Economic Policy</gloss>
-                            <note n="1" xml:id="d79fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 218, <gloss target="#t_CIEP1">CIEP</gloss>. Secret. Attached to
-                                an October 5 memorandum from <persName corresp="#p_HRD1"
+                                on International Economic Policy</gloss><note n="1" xml:id="d79fn1"
+                                type="source">Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 218,
+                                    <gloss target="#t_CIEP1">CIEP</gloss>. Secret. Attached to an
+                                October 5 memorandum from <persName corresp="#p_HRD1"
                                     >Hormats</persName> to <persName corresp="#p_KHA1"
                                     >Kissinger</persName> summarizing the memorandum.</note>
                         </head>
@@ -14096,10 +14083,10 @@
                             </signed>
                         </closer>
                     </div>
+                    <pb n="197" xml:id="pg_197" facs="0225"/>
                     <div type="document" xml:id="d80" n="80" subtype="editorial-note"
                         frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
-                        <pb n="197" xml:id="pg_197" facs="0225"/>
                         <head>80. Editorial Note</head>
                         <p>On October 18, 1971, <persName corresp="#p_PPG1">Peter G.
                                 Peterson</persName> sent <gloss target="#t_CIEP1">CIEP</gloss> Study
@@ -14141,12 +14128,12 @@
                         frus:doc-dateTime-max="1971-10-20T11:17:00-05:00">
                         <head>81. Telegram From the <gloss type="from">Mission to the <gloss
                                     target="#t_OECD1">OECD</gloss>
-                            </gloss> to the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d81fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Office of International
-                                Monetary Affairs: <gloss target="#t_FRC1">FRC</gloss> 56 77 68,
-                                Briefing Books, 1970-1975, EPC Meeting 11/18-19/71. Limited Official
-                                Use. Repeated to Ankara, Athens, Bern, Bonn, Brussels, Copenhagen,
+                            </gloss> to the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d81fn1" type="source">Source: Washington National Records
+                                Center, Department of the Treasury, Office of International Monetary
+                                Affairs: <gloss target="#t_FRC1">FRC</gloss> 56 77 68, Briefing
+                                Books, 1970-1975, EPC Meeting 11/18-19/71. Limited Official Use.
+                                Repeated to Ankara, Athens, Bern, Bonn, Brussels, Copenhagen,
                                 Dublin, The Hague, Helsinki, Lisbon, London, Luxembourg, Madrid,
                                 Oslo, Ottawa, Reykjavik, Stockholm, Tokyo, and <gloss
                                     target="#t_USEC1">USEC</gloss>.</note>
@@ -14339,12 +14326,12 @@
                         frus:doc-dateTime-min="1971-10-23T01:15:00-05:00"
                         frus:doc-dateTime-max="1971-10-23T01:15:00-05:00">
                         <head>82. Telegram From the <gloss type="from">Embassy in Japan</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d82fn1" type="source">Source: Department of State,
-                                    <gloss target="#t_SS1">S/S</gloss> Files: Lot 73 <gloss
-                                    target="#t_D1">D</gloss> 153, Box 124, Morning Summaries, August
-                                25-December 31, 1971. Limited Official Use. Repeated to the
-                                Secretary of Defense, COMUSJAPAN, HICOMRY, and CINCPAC.</note>
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d82fn1" type="source">Source: Department of State, <gloss
+                                    target="#t_SS1">S/S</gloss> Files: Lot 73 <gloss target="#t_D1"
+                                    >D</gloss> 153, Box 124, Morning Summaries, August 25-December
+                                31, 1971. Limited Official Use. Repeated to the Secretary of
+                                Defense, COMUSJAPAN, HICOMRY, and CINCPAC.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Tokyo</placeName>, <date when="1971-10-23T06:15:00+00:00"
@@ -14552,11 +14539,11 @@
                         frus:doc-dateTime-max="1971-12-02T23:59:59-05:00">
                         <head>83. Memorandum From Secretary of State <persName corresp="#p_RWP1"
                                 type="from">Rogers</persName> to President <persName
-                                corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d83fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 285, State Volume 13. Secret.</note>
+                                corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d83fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files, Box
+                                285, State Volume 13. Secret.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-02"
@@ -14569,15 +14556,15 @@
                         <p>Your meetings with <persName corresp="#p_BWHF1">Brandt</persName>,
                             Caetano, <persName corresp="#p_HERG1">Heath</persName>, <persName
                                 corresp="#p_PG5">Pompidou</persName>, <persName corresp="#p_SE3"
-                                >Sato</persName> and <persName corresp="#p_TPE2">Trudeau</persName>
-                            <note n="2" xml:id="d83fn2">President <persName corresp="#p_NRM1"
-                                    >Nixon</persName> met with Prime Minister <persName
-                                    corresp="#p_TPE2">Trudeau</persName> in Washington December 6
-                                (see <ref target="#d85">Document 85</ref>), President <persName
-                                    corresp="#p_PG5">Pompidou</persName> in the Azores December
-                                13-14 (see <ref target="#d219">Document 219</ref>), Chancellor
-                                    <persName corresp="#p_BWHF1">Brandt</persName> in Key Biscayne
-                                December 29, and Prime Minister <persName corresp="#p_SE3"
+                                >Sato</persName> and <persName corresp="#p_TPE2"
+                                >Trudeau</persName><note n="2" xml:id="d83fn2">President <persName
+                                    corresp="#p_NRM1">Nixon</persName> met with Prime Minister
+                                    <persName corresp="#p_TPE2">Trudeau</persName> in Washington
+                                December 6 (see <ref target="#d85">Document 85</ref>), President
+                                    <persName corresp="#p_PG5">Pompidou</persName> in the Azores
+                                December 13-14 (see <ref target="#d219">Document 219</ref>),
+                                Chancellor <persName corresp="#p_BWHF1">Brandt</persName> in Key
+                                Biscayne December 29, and Prime Minister <persName corresp="#p_SE3"
                                     >Sato</persName> in San Clemente January 6-7, 1972 (see <ref
                                     target="#d87">Document 87</ref>). Portuguese Prime Minister
                                 Caetano was the official host for Presidents <persName
@@ -14732,12 +14719,12 @@
                         frus:doc-dateTime-max="1971-12-06T23:59:59-05:00">
                         <head>84. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_CJBJ1" type="from">Connally</persName> to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d84fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Records of Secretary
-                                    <persName corresp="#p_SGP1">Shultz</persName>: <gloss
-                                    target="#t_FRC1">FRC</gloss> 56 80 1, JBC Memoranda for the
-                                President-71. Secret.</note>
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d84fn1" type="source">Source: Washington National Records
+                                Center, Department of the Treasury, Records of Secretary <persName
+                                    corresp="#p_SGP1">Shultz</persName>: <gloss target="#t_FRC1"
+                                    >FRC</gloss> 56 80 1, JBC Memoranda for the President-71.
+                                Secret.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-06"
@@ -14815,10 +14802,9 @@
                             <signed>
                                 <persName corresp="#p_CJBJ1">
                                     <hi rend="strong">John Connally</hi>
-                                </persName>
-                                <note n="4" xml:id="d84fn4">Printed from a copy that indicates
-                                        <persName corresp="#p_CJBJ1">Connally</persName> signed the
-                                    original.</note>
+                                </persName><note n="4" xml:id="d84fn4">Printed from a copy that
+                                    indicates <persName corresp="#p_CJBJ1">Connally</persName>
+                                    signed the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -15101,10 +15087,9 @@
                         frus:doc-dateTime-max="1971-12-10T08:10:00-05:00">
                         <head>86. Telegram From Secretary of State <persName corresp="#p_RWP1"
                                 type="from">Rogers</persName> to the <gloss type="to">Department of
-                                State</gloss>
-                            <note n="1" xml:id="d86fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                12 GER W. Confidential. Repeated to Bonn.</note>
+                                State</gloss><note n="1" xml:id="d86fn1" type="source">Source:
+                                National Archives, <gloss target="#t_RG1">RG</gloss> 59, Central
+                                Files 1970-73, FN 12 GER W. Confidential. Repeated to Bonn.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Brussels</placeName>, <date
@@ -15579,10 +15564,9 @@
                         </p>
                         <closer>
                             <signed>
-                                <hi rend="strong">R. T. Curran</hi>
-                                <note n="5" xml:id="d89fn5">Curran signed for <persName
-                                        corresp="#p_ETLJ1">Eliot</persName> above <persName
-                                        corresp="#p_ETLJ1">Eliot</persName>’s typed
+                                <hi rend="strong">R. T. Curran</hi><note n="5" xml:id="d89fn5"
+                                    >Curran signed for <persName corresp="#p_ETLJ1">Eliot</persName>
+                                    above <persName corresp="#p_ETLJ1">Eliot</persName>’s typed
                                     signature.</note>
                             </signed>
                         </closer>
@@ -16143,9 +16127,8 @@
                                 <signed>
                                     <persName corresp="#p_FPM1">
                                         <hi rend="strong">Peter M. Flanigan</hi>
-                                    </persName>
-                                    <note n="5" xml:id="d91fn5">Printed from a copy that bears this
-                                        typed signature.</note>
+                                    </persName><note n="5" xml:id="d91fn5">Printed from a copy that
+                                        bears this typed signature.</note>
                                 </signed>
                             </closer>
                         </frus:attachment>
@@ -17242,11 +17225,11 @@
                         frus:doc-dateTime-max="1972-08-25T23:59:59-05:00">
                         <head>97. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_SGP1" type="from">Shultz</persName> to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d97fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, VIP Visits,
-                                Box 926, <persName corresp="#p_TK2">Tanaka</persName> Visit 31 Aug-1
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d97fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, VIP Visits, Box 926,
+                                    <persName corresp="#p_TK2">Tanaka</persName> Visit 31 Aug-1
                                 Sept. No classification marking. Attached to <persName
                                     corresp="#p_KHA1">Kissinger</persName>’s August 29 memorandum to
                                 President <persName corresp="#p_NRM1">Nixon</persName>, <ref
@@ -17312,8 +17295,8 @@
                         frus:doc-dateTime-max="1972-08-29T23:59:59-05:00">
                         <head>98. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
-                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d98fn1" type="source">Source: National Archives,
+                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d98fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, VIP Visits,
                                 Box 926, <persName corresp="#p_TK2">Tanaka</persName> Visit 31 Aug-1
@@ -17706,8 +17689,7 @@
                             investment. When the tensions in Vietnam have been reduced, he said that
                             Japan should also provide aid and investments to help stabilize the
                             lives of the people. He noted Japan’s promise at <gloss
-                                target="#t_UNCTAD1">UNCTAD</gloss>
-                            <note n="3" xml:id="d99fn3">
+                                target="#t_UNCTAD1">UNCTAD</gloss><note n="3" xml:id="d99fn3">
                                 <gloss target="#t_UNCTAD1">UNCTAD</gloss> III convened in Santiago,
                                 Chile, in April 1972.</note> to attain the goal of governmental aid
                             of 0.7% of <gloss target="#t_GNP1">GNP</gloss> by the end of the decade.
@@ -18185,15 +18167,14 @@
                         frus:doc-dateTime-max="1972-10-07T23:59:59-05:00">
                         <head>102. Memorandum From the Deputy Secretary of State (<persName
                                 corresp="#p_IJNII1" type="from">Irwin</persName>) to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d102fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 219, <gloss target="#t_CIEP1">CIEP</gloss>. Limited Official
-                                Use. Attached to a November 3 memorandum from <persName
-                                    corresp="#p_FPM1">Flanigan</persName> to <persName
-                                    corresp="#p_KHA1">Kissinger</persName> regarding U.S.-European
-                                relations.</note>
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d102fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files, Box
+                                219, <gloss target="#t_CIEP1">CIEP</gloss>. Limited Official Use.
+                                Attached to a November 3 memorandum from <persName corresp="#p_FPM1"
+                                    >Flanigan</persName> to <persName corresp="#p_KHA1"
+                                    >Kissinger</persName> regarding U.S.-European relations.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-10-07"
@@ -18338,11 +18319,11 @@
                         <head>103. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_FPM1" type="from"
                                 >Flanigan</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d103fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 219, <gloss target="#t_CIEP1">CIEP</gloss>. No classification
+                                type="to">Nixon</persName><note n="1" xml:id="d103fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 219,
+                                    <gloss target="#t_CIEP1">CIEP</gloss>. No classification
                                 marking. Attached to a November 3 memorandum from <persName
                                     corresp="#p_FPM1">Flanigan</persName> to <persName
                                     corresp="#p_KHA1">Kissinger</persName> regarding U.S.-European
@@ -18634,11 +18615,11 @@
                         frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>105. Memorandum From Acting Secretary of State <persName
                                 corresp="#p_IJNII1" type="from">Irwin</persName> to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d105fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 322, European Common Market Volume II 1971-72. Confidential. An
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d105fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files, Box
+                                322, European Common Market Volume II 1971-72. Confidential. An
                                 earlier draft of the memorandum is attached to an October 12
                                 memorandum from Deputy Under Secretary of the Treasury <persName
                                     corresp="#p_BJF1">Bennett</persName> to Under Secretary
@@ -19973,25 +19954,26 @@
                                 Activation</item>
                         </list>
                         <p>The overall preliminary impression that I have from our useful round of
-                            talks with Ossola and <persName corresp="#p_VLE1">Van Lennep</persName>
-                            <note n="2" xml:id="d113fn2">Ossola and <persName corresp="#p_VLE1">Van
-                                    Lennep</persName> met with Treasury Secretary Kennedy, <persName
-                                    corresp="#p_VPA1">Volcker</persName>, and <persName
-                                    corresp="#p_WGH1">Willis</persName> at 3 p.m. on February 5. At
-                                4 p.m. they met in <persName corresp="#p_VPA1">Volcker</persName>’s
-                                office with <persName corresp="#p_VPA1">Volcker</persName>, Federal
-                                Reserve Governor <persName corresp="#p_DJD2">Daane</persName>, and
-                                    <persName corresp="#p_WGH1">Willis</persName>. Memoranda of
-                                these conversations are ibid., Secretary’s
-                                    Memos/Correspondence:<gloss target="#t_FRC1">FRC</gloss> 56 74
-                                7, Memcons 1969.</note> is that we have a fair chance to get an
-                            activation of <gloss target="#t_SDR1">SDR</gloss> somewhere in the range
-                            of $1 to $2 billion by sometime in the fourth quarter in 1969. I am left
-                            somewhat uncertain as to what kind of performance on our balance of
-                            payments figures would have to be shown to achieve this. On the whole I
-                            don’t believe that the amount of activation will vary too much if we
-                            show a better performance, but activation could be deferred if our
-                            results are too bad.</p>
+                            talks with Ossola and <persName corresp="#p_VLE1">Van
+                                Lennep</persName><note n="2" xml:id="d113fn2">Ossola and <persName
+                                    corresp="#p_VLE1">Van Lennep</persName> met with Treasury
+                                Secretary Kennedy, <persName corresp="#p_VPA1">Volcker</persName>,
+                                and <persName corresp="#p_WGH1">Willis</persName> at 3 p.m. on
+                                February 5. At 4 p.m. they met in <persName corresp="#p_VPA1"
+                                    >Volcker</persName>’s office with <persName corresp="#p_VPA1"
+                                    >Volcker</persName>, Federal Reserve Governor <persName
+                                    corresp="#p_DJD2">Daane</persName>, and <persName
+                                    corresp="#p_WGH1">Willis</persName>. Memoranda of these
+                                conversations are ibid., Secretary’s Memos/Correspondence:<gloss
+                                    target="#t_FRC1">FRC</gloss> 56 74 7, Memcons 1969.</note> is
+                            that we have a fair chance to get an activation of <gloss
+                                target="#t_SDR1">SDR</gloss> somewhere in the range of $1 to $2
+                            billion by sometime in the fourth quarter in 1969. I am left somewhat
+                            uncertain as to what kind of performance on our balance of payments
+                            figures would have to be shown to achieve this. On the whole I don’t
+                            believe that the amount of activation will vary too much if we show a
+                            better performance, but activation could be deferred if our results are
+                            too bad.</p>
                         <p>The main result of <persName corresp="#p_VLE1">Van Lennep</persName>’s
                             effort to find a role for WP-3 in the activation process will probably
                             be that he himself will have to be consulted by <persName
@@ -20058,12 +20040,11 @@
                         frus:doc-dateTime-min="1969-02-09T07:22:00-05:00"
                         frus:doc-dateTime-max="1969-02-09T07:22:00-05:00">
                         <head>114. Telegram From the <gloss type="from">Embassy in France</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d114fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Country
-                                Files—Europe, Box 674, France, Volume I 1/20-4/14/69. Confidential;
-                                Exdis.</note>
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d114fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Country Files—Europe,
+                                Box 674, France, Volume I 1/20-4/14/69. Confidential; Exdis.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date when="1969-02-09T12:22:00+00:00"
@@ -20443,10 +20424,9 @@
                         <head>117. Telegram From the <gloss type="from">Department of State</gloss>
                             to the <gloss type="to">Mission to the <gloss target="#t_OECD1"
                                     >OECD</gloss>
-                            </gloss>
-                            <note n="1" xml:id="d117fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                17. Unclassified. Drafted by <persName corresp="#p_ETO1"
+                            </gloss><note n="1" xml:id="d117fn1" type="source">Source: National
+                                Archives, <gloss target="#t_RG1">RG</gloss> 59, Central Files
+                                1967-69, FN 17. Unclassified. Drafted by <persName corresp="#p_ETO1"
                                     >Enders</persName> (<gloss target="#t_E1">E</gloss>/IMA),
                                 cleared by <persName corresp="#p_RWP1">Rogers</persName> (<gloss
                                     target="#t_EUR1">EUR</gloss>/RPE) and Widman (Treasury), and
@@ -20812,10 +20792,10 @@
                         frus:doc-dateTime-min="1969-03-27T09:45:00-05:00"
                         frus:doc-dateTime-max="1969-03-27T09:45:00-05:00">
                         <head>120. Telegram From the <gloss type="from">Embassy in Italy</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d120fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                10. Confidential; Limdis; Greenback.</note>
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d120fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 10.
+                                Confidential; Limdis; Greenback.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Rome</placeName>, <date when="1969-03-27T14:45:00+00:00"
@@ -21003,10 +20983,10 @@
                         frus:doc-dateTime-max="1969-04-11T20:27:00-05:00">
                         <head>121. Telegram From the <gloss type="from">Department of State</gloss>
                             to the <gloss type="to">Embassies in Belgium, the Netherlands, Italy,
-                                Sweden, and Switzerland</gloss>
-                            <note n="1" xml:id="d121fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                10 4/l/69. Confidential; Limdis; Greenback. Drafted by <persName
+                                Sweden, and Switzerland</gloss><note n="1" xml:id="d121fn1"
+                                type="source">Source: National Archives, <gloss target="#t_RG1"
+                                    >RG</gloss> 59, Central Files 1967-69, FN 10 4/l/69.
+                                Confidential; Limdis; Greenback. Drafted by <persName
                                     corresp="#p_DWB1">William Dale</persName>; cleared in Treasury
                                 by Widman and <persName corresp="#p_WGH1">Willis</persName> (in
                                 draft), in the Federal Reserve by R. Wood, in the Council of
@@ -21436,13 +21416,13 @@
                         <head>123. Action Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d123fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 289, Treasury, Volume 1. Secret. A stamped notation on the
-                                memorandum reads: “The President has seen,” and the President wrote:
-                                “Excellent analysis.”</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d123fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 289,
+                                Treasury, Volume 1. Secret. A stamped notation on the memorandum
+                                reads: “The President has seen,” and the President wrote: “Excellent
+                                analysis.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-02"
@@ -21527,9 +21507,9 @@
                             what its purpose—would almost inevitably be used by the French left as
                             an example of U.S. involvement in France’s internal affairs.</p>
                         <p rend="flushleft">
-                            <hi rend="italic">Recommendations</hi>
-                            <note n="4" xml:id="d123fn4">There is no indication the President
-                                approved or disapproved these recommendations.</note>
+                            <hi rend="italic">Recommendations</hi><note n="4" xml:id="d123fn4">There
+                                is no indication the President approved or disapproved these
+                                recommendations.</note>
                         </p>
                         <list>
                             <label>1.</label>
@@ -21556,20 +21536,19 @@
                                 <hi rend="strong">Memorandum From Secretary of the Treasury
                                         <persName corresp="#p_KDM1">Kennedy</persName> to President
                                         <persName corresp="#p_NRM1">Nixon</persName>
-                                </hi>
-                                <note n="5" xml:id="d123fn5">Secret. <persName corresp="#p_VPA1"
-                                        >Volcker</persName>, <persName corresp="#p_BCF1"
-                                        >Bergsten</persName>, <persName corresp="#p_SND1"
-                                        >Samuels</persName>, <persName corresp="#p_HH1"
-                                        >Houthakker</persName>, <persName corresp="#p_DJD2"
-                                        >Daane</persName>, and <persName corresp="#p_CRN1"
-                                        >Cooper</persName> discussed the substance of this
-                                    memorandum on May 1. (Note to <persName corresp="#p_WGH1"
-                                        >Willis</persName>; Washington National Records Center,
-                                    Department of the Treasury, Deputy to the Assistant Secretary
-                                    for International Affairs: <gloss target="#t_FRC1">FRC</gloss>
-                                    56 83 26, Contingency Planning, Current Problems and Contingency
-                                    Planning 4-10/69)</note>
+                                </hi><note n="5" xml:id="d123fn5">Secret. <persName
+                                        corresp="#p_VPA1">Volcker</persName>, <persName
+                                        corresp="#p_BCF1">Bergsten</persName>, <persName
+                                        corresp="#p_SND1">Samuels</persName>, <persName
+                                        corresp="#p_HH1">Houthakker</persName>, <persName
+                                        corresp="#p_DJD2">Daane</persName>, and <persName
+                                        corresp="#p_CRN1">Cooper</persName> discussed the substance
+                                    of this memorandum on May 1. (Note to <persName
+                                        corresp="#p_WGH1">Willis</persName>; Washington National
+                                    Records Center, Department of the Treasury, Deputy to the
+                                    Assistant Secretary for International Affairs: <gloss
+                                        target="#t_FRC1">FRC</gloss> 56 83 26, Contingency Planning,
+                                    Current Problems and Contingency Planning 4-10/69)</note>
                             </p>
                             <p>The unsettling effects of the French election on the exchange markets
                                 were greatly aggravated yesterday by statements of German Finance
@@ -21652,12 +21631,12 @@
                         <head>124. Action Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d124fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 309, Balance of Payments. Secret. Drafted by <persName
-                                    corresp="#p_BCF1">Bergsten</persName>.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d124fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 309,
+                                Balance of Payments. Secret. Drafted by <persName corresp="#p_BCF1"
+                                    >Bergsten</persName>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-07"
@@ -21782,9 +21761,9 @@
                             systematically and we have no agreed policy. We need to move on this
                             quickly before a real crisis overtakes us.</p>
                         <p rend="flushleft">
-                            <hi rend="italic">Recommendations:</hi>
-                            <note n="4" xml:id="d124fn4">The President approved all four
-                                recommendations and wrote “OK” at the end of the memorandum.</note>
+                            <hi rend="italic">Recommendations:</hi><note n="4" xml:id="d124fn4">The
+                                President approved all four recommendations and wrote “OK” at the
+                                end of the memorandum.</note>
                         </p>
                         <list>
                             <label>1.</label>
@@ -21860,11 +21839,11 @@
                         frus:doc-dateTime-max="1969-05-10T23:59:59-05:00">
                         <head>126. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d126fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 309, Balance of Payments. Confidential.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d126fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 309,
+                                Balance of Payments. Confidential.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-10"
@@ -22000,10 +21979,10 @@
                         frus:doc-dateTime-min="1969-06-03T18:16:00-05:00"
                         frus:doc-dateTime-max="1969-06-03T18:16:00-05:00">
                         <head>128. Telegram From the <gloss type="from">Department of State</gloss>
-                            to the <gloss type="to">Embassy in Germany</gloss>
-                            <note n="1" xml:id="d128fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                10. Confidential; Priority; Limdis; Greenback. Drafted by Widman
+                            to the <gloss type="to">Embassy in Germany</gloss><note n="1"
+                                xml:id="d128fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 10.
+                                Confidential; Priority; Limdis; Greenback. Drafted by Widman
                                 (Treasury); cleared by <persName corresp="#p_VPA1"
                                     >Volcker</persName> and <persName corresp="#p_WGH1"
                                     >Willis</persName> (Treasury), Heginbotham (<gloss
@@ -22149,15 +22128,15 @@
                         <head>129. Action Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d129fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 309, Balance of Payments. Secret. Drafted by <persName
-                                    corresp="#p_BCF1">Bergsten</persName>. A stamped notation on the
-                                memorandum reads: “The President has seen,” and a handwritten
-                                notation indicates that it was returned from the President’s office
-                                to <persName corresp="#p_KHA1">Kissinger</persName> on June 11. The
+                                type="to">Nixon</persName><note n="1" xml:id="d129fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 309,
+                                Balance of Payments. Secret. Drafted by <persName corresp="#p_BCF1"
+                                    >Bergsten</persName>. A stamped notation on the memorandum
+                                reads: “The President has seen,” and a handwritten notation
+                                indicates that it was returned from the President’s office to
+                                    <persName corresp="#p_KHA1">Kissinger</persName> on June 11. The
                                 President wrote on the memorandum: “High priority.”</note>
                         </head>
                         <opener><dateline rendition="#right">
@@ -22416,12 +22395,12 @@
                         frus:doc-dateTime-max="1969-06-23T23:59:59-05:00">
                         <head>130. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d130fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 215, Council of Economic Advisers. Confidential. Another copy is
-                                attached to <ref target="#d131">Document 131</ref>.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d130fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 215,
+                                Council of Economic Advisers. Confidential. Another copy is attached
+                                to <ref target="#d131">Document 131</ref>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-23"
@@ -22628,11 +22607,11 @@
                         <head>131. Action Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d131fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 215, Council of Economic Advisers. Confidential.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d131fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 215,
+                                Council of Economic Advisers. Confidential.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-25"
@@ -23049,8 +23028,7 @@
                                     Economic Advisers (<persName corresp="#p_MCPW1"
                                         >McCracken</persName>) to President <persName
                                         corresp="#p_NRM1">Nixon</persName>
-                                </hi>
-                                <note n="5" xml:id="d131fn5">Confidential.</note>
+                                </hi><note n="5" xml:id="d131fn5">Confidential.</note>
                             </p>
                             <list type="subject">
                                 <head>SUBJECT</head>
@@ -23165,14 +23143,14 @@
                         frus:doc-dateTime-min="1969-06-30T06:00:00-05:00"
                         frus:doc-dateTime-max="1969-06-30T06:00:00-05:00">
                         <head>132. Telegram From the <gloss type="from">Embassy in France</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d132fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                10. Confidential; Priority; Limdis; Greenback. Repeated to the
-                                Embassies in <gloss target="#t_G101">G-10</gloss> capitals (sent to
-                                the Treasury representatives in Bonn, London, Rome, Tokyo, and
-                                    <gloss target="#t_USOECD1">USOECD</gloss> in Paris) and to
-                                    <gloss target="#t_USEC1">USEC</gloss>.</note>
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d132fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 10.
+                                Confidential; Priority; Limdis; Greenback. Repeated to the Embassies
+                                in <gloss target="#t_G101">G-10</gloss> capitals (sent to the
+                                Treasury representatives in Bonn, London, Rome, Tokyo, and <gloss
+                                    target="#t_USOECD1">USOECD</gloss> in Paris) and to <gloss
+                                    target="#t_USEC1">USEC</gloss>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date when="1969-06-30T11:00:00+00:00"
@@ -23628,10 +23606,10 @@
                         frus:doc-dateTime-min="1969-07-24T13:50:00-05:00"
                         frus:doc-dateTime-max="1969-07-24T13:50:00-05:00">
                         <head>134. Telegram From the <gloss type="from">Embassy in France</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d134fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                17. Confidential; Priority. Repeated to Bonn, Brussels, The Hague,
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d134fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 17.
+                                Confidential; Priority. Repeated to Bonn, Brussels, The Hague,
                                 London, Rome, and <gloss target="#t_USEC1">USEC</gloss>.</note>
                         </head>
                         <opener><dateline rendition="#right">
@@ -23751,12 +23729,12 @@
                         frus:doc-dateTime-min="1969-07-25T07:30:00-05:00"
                         frus:doc-dateTime-max="1969-07-25T07:30:00-05:00">
                         <head>135. Telegram From the <gloss type="from">Embassy in France</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d135fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                10. Confidential; Priority; Limdis; Greenback. Repeated to the
-                                Embassies in <gloss target="#t_G101">G-10</gloss> capitals (sent to
-                                the Treasury representatives in Bonn, Rome, Tokyo, and <gloss
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d135fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 10.
+                                Confidential; Priority; Limdis; Greenback. Repeated to the Embassies
+                                in <gloss target="#t_G101">G-10</gloss> capitals (sent to the
+                                Treasury representatives in Bonn, Rome, Tokyo, and <gloss
                                     target="#t_USOECD1">USOECD</gloss>), and <gloss
                                     target="#t_USEC1">USEC</gloss>.</note>
                         </head>
@@ -24040,8 +24018,8 @@
                         frus:doc-dateTime-max="1969-09-08T23:59:59-05:00">
                         <head>137. Memorandum From the Chairman of the Council of Economic Advisers
                                 (<persName corresp="#p_MCPW1" type="from">McCracken</persName>) to
-                            President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d137fn1" type="source">Source: National Archives,
+                            President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d137fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
                                 Box 215, Council of Economic Advisers. Confidential. This memorandum
@@ -24136,12 +24114,12 @@
                         frus:doc-dateTime-max="1969-09-19T23:59:59-05:00">
                         <head>138. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d138fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 289, Treasury, Volume I. Confidential. An attached September 24
-                                note from <persName corresp="#p_HBMJ1">Haig</persName> to <persName
+                                type="to">Nixon</persName><note n="1" xml:id="d138fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 289,
+                                Treasury, Volume I. Confidential. An attached September 24 note from
+                                    <persName corresp="#p_HBMJ1">Haig</persName> to <persName
                                     corresp="#p_BCF1">Bergsten</persName> requested, “as a matter of
                                 urgency, a cover memorandum from <persName>Henry</persName> to the
                                 President,” presumably <ref target="#d139">Document 139</ref>, to
@@ -24297,8 +24275,8 @@
                         frus:doc-dateTime-max="1969-09-24T23:59:59-05:00">
                         <head>139. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
-                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d139fn1" type="source">Source: National Archives,
+                            to President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d139fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
                                 Box 215, Council of Economic Advisers. Secret.</note>
@@ -24508,11 +24486,11 @@
                         <head>140. Information Memorandum From the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d140fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 216, Council of Economic Advisers. Confidential.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d140fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 216,
+                                Council of Economic Advisers. Confidential.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-14"
@@ -24642,10 +24620,10 @@
                         frus:doc-dateTime-min="1969-10-24T18:30:00-05:00"
                         frus:doc-dateTime-max="1969-10-24T18:30:00-05:00">
                         <head>141. Telegram From the <gloss type="from">Department of State</gloss>
-                            to the <gloss type="to">Mission to the United Nations</gloss>
-                            <note n="1" xml:id="d141fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                17-1. Limited Official Use. Drafted in Treasury by <persName
+                            to the <gloss type="to">Mission to the United Nations</gloss><note n="1"
+                                xml:id="d141fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 17-1.
+                                Limited Official Use. Drafted in Treasury by <persName
                                     corresp="#p_WGH1">Willis</persName> and cleared by <persName
                                     corresp="#p_VPA1">Volcker</persName> and <persName
                                     corresp="#p_PJR1">Petty</persName>; cleared in State by
@@ -24752,10 +24730,10 @@
                         frus:doc-dateTime-max="1969-11-06T17:17:00-05:00">
                         <head>142. Airgram From the <gloss type="from">Department of State</gloss>
                             to <gloss type="to">Treasury Representatives at the Embassies in the
-                                United Kingdom, France, Germany, Italy, and Japan</gloss>
-                            <note n="1" xml:id="d142fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN
-                                10 <gloss target="#t_IMF1">IMF</gloss>. Confidential. Drafted in
+                                United Kingdom, France, Germany, Italy, and Japan</gloss><note n="1"
+                                xml:id="d142fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1967-69, FN 10
+                                    <gloss target="#t_IMF1">IMF</gloss>. Confidential. Drafted in
                                 Treasury by <persName corresp="#p_WGH1">Willis</persName> on
                                 November 5 and cleared by <persName corresp="#p_VPA1"
                                     >Volcker</persName>; approved in State by <persName
@@ -25167,12 +25145,12 @@
                         <head>143. Information Memorandum From the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d143fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 216, Council of Economic Advisers. Confidential. The date is
-                                stamped under the handwritten note: “Back from Pres.”</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d143fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 216,
+                                Council of Economic Advisers. Confidential. The date is stamped
+                                under the handwritten note: “Back from Pres.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-17"
@@ -25234,13 +25212,13 @@
                         frus:doc-dateTime-max="1969-12-29T23:59:59-05:00">
                         <head>144. Memorandum From Secretary of the Treasury <persName type="from"
                                 >Kennedy</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d144fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 289, Treasury, Volume I. Confidential. Attached to internal
-                                National Security Council memoranda and a transmittal memorandum to
-                                the President indicating that <persName corresp="#p_KHA1"
+                                type="to">Nixon</persName><note n="1" xml:id="d144fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 289,
+                                Treasury, Volume I. Confidential. Attached to internal National
+                                Security Council memoranda and a transmittal memorandum to the
+                                President indicating that <persName corresp="#p_KHA1"
                                     >Kissinger</persName> approved Secretary Kennedy’s
                                 recommendation on the President’s behalf since the quota increase
                                 was consistent with policy decisions already taken.</note>
@@ -26866,10 +26844,10 @@
                         frus:doc-dateTime-min="1970-09-20T06:23:00-05:00"
                         frus:doc-dateTime-max="1970-09-20T06:23:00-05:00">
                         <head>149. Telegram From the <gloss type="from">Embassy in Belgium</gloss>
-                            to the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d149fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Limdis; Greenback. Repeated to London, Stockholm,
+                            to the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d149fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN 10.
+                                Confidential; Limdis; Greenback. Repeated to London, Stockholm,
                                 Bonn, Paris, <gloss target="#t_USOECD1">USOECD</gloss>, Tokyo, The
                                 Hague, Bern, Ottawa, and Rome.</note>
                         </head>
@@ -28117,8 +28095,8 @@
                         frus:doc-dateTime-max="1971-06-02T23:59:59-05:00">
                         <head>157. Memorandum From the Chairman of the Council of Economic Advisers
                                 (<persName corresp="#p_MCPW1" type="from">McCracken</persName>) to
-                            President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d157fn1" type="source">Source: National Archives,
+                            President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d157fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
                                 Box 218, Council on International Economic Policy. No classification
@@ -28199,10 +28177,9 @@
                             <signed>
                                 <persName corresp="#p_MCPW1">
                                     <hi rend="strong">Paul W. McCracken</hi>
-                                </persName>
-                                <note n="6" xml:id="d157fn6">The memorandum bears <persName
-                                        corresp="#p_MCPW1">McCracken</persName>’s handwritten
-                                    signature despite the typed postscript.</note>
+                                </persName><note n="6" xml:id="d157fn6">The memorandum bears
+                                        <persName corresp="#p_MCPW1">McCracken</persName>’s
+                                    handwritten signature despite the typed postscript.</note>
                             </signed>
                         </closer>
                         <postscript>
@@ -28216,22 +28193,22 @@
                         frus:doc-dateTime-max="1971-06-08T23:59:59-05:00">
                         <head>158. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_CJBJ1" type="from">Connally</persName> to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d158fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Records of Secretary
-                                    <persName corresp="#p_SGP1">Shultz</persName>: <gloss
-                                    target="#t_FRC1">FRC</gloss> 56 80 1, JBC-Memoranda From the
-                                White House 71. Attached to a June 8 note from <persName
-                                    corresp="#p_PPG1">Peterson</persName> to <persName
-                                    corresp="#p_CJBJ1">Connally</persName> regarding <persName
-                                    corresp="#p_MCPW1">McCracken</persName>’s June 2 memorandum to
-                                the President (<ref target="#d157">Document 157</ref>). <persName
-                                    corresp="#p_PPG1">Peterson</persName> reminded <persName
-                                    corresp="#p_CJBJ1">Connally</persName> that “a couple of weeks
-                                ago” they had discussed the Council’s role in international monetary
-                                reform. <persName corresp="#p_PPG1">Peterson</persName> noted that
-                                he and <persName corresp="#p_CJBJ1">Connally</persName> “agreed that
-                                I would prepare a study memo in draft form that would suggest a
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d158fn1" type="source">Source: Washington National Records
+                                Center, Department of the Treasury, Records of Secretary <persName
+                                    corresp="#p_SGP1">Shultz</persName>: <gloss target="#t_FRC1"
+                                    >FRC</gloss> 56 80 1, JBC-Memoranda From the White House 71.
+                                Attached to a June 8 note from <persName corresp="#p_PPG1"
+                                    >Peterson</persName> to <persName corresp="#p_CJBJ1"
+                                    >Connally</persName> regarding <persName corresp="#p_MCPW1"
+                                    >McCracken</persName>’s June 2 memorandum to the President (<ref
+                                    target="#d157">Document 157</ref>). <persName corresp="#p_PPG1"
+                                    >Peterson</persName> reminded <persName corresp="#p_CJBJ1"
+                                    >Connally</persName> that “a couple of weeks ago” they had
+                                discussed the Council’s role in international monetary reform.
+                                    <persName corresp="#p_PPG1">Peterson</persName> noted that he
+                                and <persName corresp="#p_CJBJ1">Connally</persName> “agreed that I
+                                would prepare a study memo in draft form that would suggest a
                                 broader frame of reference than just monetary—to include discussion
                                 of the causes of the persistent problem and a projection of the
                                 future balance of payments situation—including defense, trade
@@ -28354,10 +28331,9 @@
                             <signed>
                                 <persName corresp="#p_CJBJ1">
                                     <hi rend="strong">John B. Connally</hi>
-                                </persName>
-                                <note n="4" xml:id="d158fn4">Printed from a copy that indicates
-                                        <persName corresp="#p_CJBJ1">Connally</persName> signed the
-                                    original.</note>
+                                </persName><note n="4" xml:id="d158fn4">Printed from a copy that
+                                    indicates <persName corresp="#p_CJBJ1">Connally</persName>
+                                    signed the original.</note>
                             </signed>
                         </closer>
                     </div>
@@ -28366,12 +28342,12 @@
                         frus:doc-dateTime-max="1971-06-08T23:59:59-05:00">
                         <head>159. Memorandum From <persName type="from">Jon Huntsman</persName> of
                             the White House Staff to Secretary of the Treasury <persName
-                                corresp="#p_CJBJ1" type="to">Connally</persName>
-                            <note n="1" xml:id="d159fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 218, Council on International Economic Policy. Confidential;
-                                Eyes Only. A copy was sent to <persName corresp="#p_PPG1">Peter
+                                corresp="#p_CJBJ1" type="to">Connally</persName><note n="1"
+                                xml:id="d159fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files, Box
+                                218, Council on International Economic Policy. Confidential; Eyes
+                                Only. A copy was sent to <persName corresp="#p_PPG1">Peter
                                     Peterson</persName>.</note>
                         </head>
                         <opener><dateline rendition="#right">
@@ -28422,8 +28398,8 @@
                                 >George Shultz</persName>, <persName corresp="#p_PPG1">Peter
                                 Peterson</persName> and your own experts…. then give him a
                             “recommendation for action.” The President further suggested that we
-                            “move on the problem, “ not “just wait for it to hit us again—e.g. in
-                            the fall of ‘72.”</p>
+                            “move on the problem,” not “just wait for it to hit us again—e.g. in the
+                            fall of ‘72.”</p>
                         <p>He noted particularly the last paragraph of page 2—the part which
                             recommends that he convene the Council on International Economic Policy
                             to reassert our position in favor of an updating of <gloss
@@ -28602,11 +28578,11 @@
                                 subjects.”</note>
                         </p>
                         <p rend="flushleft">
-                            <hi rend="italic">Recommendations:</hi>
-                            <note n="10" xml:id="d160fn10">There is no indication of <persName
-                                    corresp="#p_KHA1">Kissinger</persName>’s approval or disapproval
-                                of the recommendations and the memoranda at Tabs I and II, not
-                                printed, are unsigned.</note>
+                            <hi rend="italic">Recommendations:</hi><note n="10" xml:id="d160fn10"
+                                >There is no indication of <persName corresp="#p_KHA1"
+                                    >Kissinger</persName>’s approval or disapproval of the
+                                recommendations and the memoranda at Tabs I and II, not printed, are
+                                unsigned.</note>
                             <list>
                                 <label>1.</label>
                                 <item>That you seek the President’s concurrence in requesting that
@@ -28916,18 +28892,18 @@
                         frus:doc-dateTime-min="1971-07-26T18:31:00-05:00"
                         frus:doc-dateTime-max="1971-07-26T18:31:00-05:00">
                         <head>163. Telegram From the <gloss type="from">Department of State</gloss>
-                            to <gloss type="to">Certain Posts</gloss>
-                            <note n="1" xml:id="d163fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Limdis; Greenback. Drafted in Treasury by Leddy
-                                and cleared by Cross and <persName corresp="#p_VPA1"
-                                    >Volcker</persName>; cleared in State by Kennon (<gloss
-                                    target="#t_E1">E</gloss>/IFD) and <persName corresp="#p_KA6">A.
-                                    Katz</persName> (<gloss target="#t_EUR1">EUR</gloss>/RPE) and
-                                approved by <persName corresp="#p_TPH1">Trezise</persName> (E). Sent
-                                to Bern, Bonn, Brussels, The Hague, London, Ottawa, Paris, Rome,
-                                Stockholm, Tokyo, <gloss target="#t_USOECD1">USOECD</gloss>, and
-                                    <gloss target="#t_USEC1">USEC</gloss>.</note>
+                            to <gloss type="to">Certain Posts</gloss><note n="1" xml:id="d163fn1"
+                                type="source">Source: National Archives, <gloss target="#t_RG1"
+                                    >RG</gloss> 59, Central Files 1970-73, FN 10. Confidential;
+                                Limdis; Greenback. Drafted in Treasury by Leddy and cleared by Cross
+                                and <persName corresp="#p_VPA1">Volcker</persName>; cleared in State
+                                by Kennon (<gloss target="#t_E1">E</gloss>/IFD) and <persName
+                                    corresp="#p_KA6">A. Katz</persName> (<gloss target="#t_EUR1"
+                                    >EUR</gloss>/RPE) and approved by <persName corresp="#p_TPH1"
+                                    >Trezise</persName> (E). Sent to Bern, Bonn, Brussels, The
+                                Hague, London, Ottawa, Paris, Rome, Stockholm, Tokyo, <gloss
+                                    target="#t_USOECD1">USOECD</gloss>, and <gloss target="#t_USEC1"
+                                    >USEC</gloss>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
@@ -29403,11 +29379,11 @@
                         frus:doc-dateTime-max="1971-08-13T23:59:59-05:00">
                         <head>166. Memorandum From the Acting Assistant Secretary of State for
                             Economic Affairs (<persName type="from">Katz</persName>) to Secretary of
-                            State <persName corresp="#p_RWP1" type="to">Rogers</persName>
-                            <note n="1" xml:id="d166fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Nodis. Drafted by Deputy Assistant Secretary
-                                    <persName corresp="#p_WS2">Weintraub</persName>.</note>
+                            State <persName corresp="#p_RWP1" type="to">Rogers</persName><note n="1"
+                                xml:id="d166fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN 10.
+                                Confidential; Nodis. Drafted by Deputy Assistant Secretary <persName
+                                    corresp="#p_WS2">Weintraub</persName>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-08-13"
@@ -29808,13 +29784,13 @@
                         frus:doc-dateTime-min="1971-08-15T21:45:00-05:00"
                         frus:doc-dateTime-max="1971-08-15T21:45:00-05:00">
                         <head>169. Telegram From the <gloss type="from">Department of State</gloss>
-                            to the <gloss type="to">Embassy in Germany</gloss>
-                            <note n="1" xml:id="d169fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Country
-                                Files—Europe, Box 685, Germany, Volume IX 4-8/71. Confidential;
-                                Exdis. Drafted and approved by <persName corresp="#p_JUA1">U. Alexis
-                                    Johnson</persName>. Identical cables with this message from
+                            to the <gloss type="to">Embassy in Germany</gloss><note n="1"
+                                xml:id="d169fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Country Files—Europe,
+                                Box 685, Germany, Volume IX 4-8/71. Confidential; Exdis. Drafted and
+                                approved by <persName corresp="#p_JUA1">U. Alexis
+                                Johnson</persName>. Identical cables with this message from
                                 President <persName corresp="#p_NRM1">Nixon</persName> to certain
                                 other heads of government were also sent on the evening of August
                                 15. (Ibid.) The originals of the typed messages sent to the
@@ -31159,11 +31135,11 @@
                         frus:doc-dateTime-min="1971-09-17T06:24:00-05:00"
                         frus:doc-dateTime-max="1971-09-17T06:24:00-05:00">
                         <head>175. Telegram From the <gloss type="from">Embassy in the United
-                                Kingdom</gloss> to the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d175fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Limdis; Greenback. Repeated to Bern, Bonn, The
-                                Hague, Ottawa, Paris, Rome, Stockholm, Tokyo, <gloss
+                                Kingdom</gloss> to the <gloss type="to">Department of
+                                State</gloss><note n="1" xml:id="d175fn1" type="source">Source:
+                                National Archives, <gloss target="#t_RG1">RG</gloss> 59, Central
+                                Files 1970-73, FN 10. Confidential; Limdis; Greenback. Repeated to
+                                Bern, Bonn, The Hague, Ottawa, Paris, Rome, Stockholm, Tokyo, <gloss
                                     target="#t_USEC1">USEC</gloss>, and <gloss target="#t_USOECD1"
                                     >USOECD</gloss>.</note>
                         </head>
@@ -31282,24 +31258,24 @@
                                 >Kissinger</persName>) and the President’s Assistant for
                             International Economic Affairs (<persName corresp="#p_PPG1"
                                 >Peterson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d176fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 218, Council on International Economic Policy. Confidential.
-                                Attached to a memorandum from <persName corresp="#p_PPG1"
-                                    >Peterson</persName> to <persName corresp="#p_KHA1"
-                                    >Kissinger</persName> that indicated <persName corresp="#p_PPG1"
-                                    >Peterson</persName> had discussed the joint memorandum with
-                                Secretary <persName corresp="#p_CJBJ1">Connally</persName>, who
-                                found it acceptable. <persName corresp="#p_PPG1">Peterson</persName>
-                                noted that <persName corresp="#p_CJBJ1">Connally</persName> thought
-                                it urgent to decide what to say to the Japanese on Saturday
-                                (September 25) and at the <gloss target="#t_IMF1">IMF</gloss>, and
-                                    <persName corresp="#p_PPG1">Peterson</persName> wanted to call a
-                                meeting on September 22 if the President approved. (Presumably
-                                    <persName corresp="#p_CJBJ1">Connally</persName> was referring
-                                to bilateral meetings with Japanese officials who would be in
+                                type="to">Nixon</persName><note n="1" xml:id="d176fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 218,
+                                Council on International Economic Policy. Confidential. Attached to
+                                a memorandum from <persName corresp="#p_PPG1">Peterson</persName> to
+                                    <persName corresp="#p_KHA1">Kissinger</persName> that indicated
+                                    <persName corresp="#p_PPG1">Peterson</persName> had discussed
+                                the joint memorandum with Secretary <persName corresp="#p_CJBJ1"
+                                    >Connally</persName>, who found it acceptable. <persName
+                                    corresp="#p_PPG1">Peterson</persName> noted that <persName
+                                    corresp="#p_CJBJ1">Connally</persName> thought it urgent to
+                                decide what to say to the Japanese on Saturday (September 25) and at
+                                the <gloss target="#t_IMF1">IMF</gloss>, and <persName
+                                    corresp="#p_PPG1">Peterson</persName> wanted to call a meeting
+                                on September 22 if the President approved. (Presumably <persName
+                                    corresp="#p_CJBJ1">Connally</persName> was referring to
+                                bilateral meetings with Japanese officials who would be in
                                 Washington for the Annual Meeting of the <gloss target="#t_IMF1"
                                     >IMF</gloss> the following week.) <persName corresp="#p_PPG1"
                                     >Peterson</persName> asked <persName corresp="#p_KHA1"
@@ -31375,11 +31351,11 @@
                         <head>177. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d177fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 216, Council of Economic Advisers. Confidential. An accompanying
+                                type="to">Nixon</persName><note n="1" xml:id="d177fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 216,
+                                Council of Economic Advisers. Confidential. An accompanying
                                 September 22 handwritten note to <persName corresp="#p_KHA1"
                                     >Kissinger</persName> initialed by <persName corresp="#p_KDM1"
                                     >Kennedy</persName> reads: “This is of interest in view of your
@@ -31668,10 +31644,9 @@
                             developments.</p>
                         <closer>
                             <signed>
-                                <hi rend="strong">Parker W. Borg</hi>
-                                <note n="3" xml:id="d178fn3">Borg signed for <persName
-                                        corresp="#p_ETLJ1">Eliot</persName> above <persName
-                                        corresp="#p_ETLJ1">Eliot</persName>’s typed
+                                <hi rend="strong">Parker W. Borg</hi><note n="3" xml:id="d178fn3"
+                                    >Borg signed for <persName corresp="#p_ETLJ1">Eliot</persName>
+                                    above <persName corresp="#p_ETLJ1">Eliot</persName>’s typed
                                     signature.</note>
                             </signed>
                         </closer>
@@ -31951,10 +31926,9 @@
                         <p>The following specific questions, which could come up at the meetings,
                             were noted: <list>
                                 <item>1—<hi rend="italic">Were the recent European conferences of
-                                        the Group of Ten</hi>
-                                    <note n="2" xml:id="d180fn2">The <gloss target="#t_G101"
-                                            >G-10</gloss> Ministers met September 15-16; see <ref
-                                            target="#d175">Document 175</ref>.</note>
+                                        the Group of Ten</hi><note n="2" xml:id="d180fn2">The <gloss
+                                            target="#t_G101">G-10</gloss> Ministers met September
+                                        15-16; see <ref target="#d175">Document 175</ref>.</note>
                                     <hi rend="italic">a failure? Answer:</hi> No; there was no
                                     expectation that broad solutions would be reached so soon. There
                                     was agreement for the first time that a fundamental realignment
@@ -32050,26 +32024,26 @@
                                     <item>Secretary <persName corresp="#p_CJBJ1">Connally</persName>
                                     </item>
                                     <item>Under Secretary <persName corresp="#p_WCE1"
-                                            >Walker</persName>
-                                        <note n="2" xml:id="d181fn2">Under Secretaries <persName
-                                                corresp="#p_WCE1">Walker</persName> and <persName
-                                                corresp="#p_VPA1">Volcker</persName> had to leave
-                                            before the end of the meeting. [Footnote in the source
-                                            text. The <gloss target="#t_G101">G-10</gloss> Deputies
-                                            were meeting on the afternoon of September 25;
-                                            presumably <persName corresp="#p_VPA1"
-                                                >Volcker</persName> left to attend.]</note>
+                                            >Walker</persName><note n="2" xml:id="d181fn2">Under
+                                            Secretaries <persName corresp="#p_WCE1"
+                                                >Walker</persName> and <persName corresp="#p_VPA1"
+                                                >Volcker</persName> had to leave before the end of
+                                            the meeting. [Footnote in the source text. The <gloss
+                                                target="#t_G101">G-10</gloss> Deputies were meeting
+                                            on the afternoon of September 25; presumably <persName
+                                                corresp="#p_VPA1">Volcker</persName> left to
+                                            attend.]</note>
                                     </item>
                                     <item>Under Secretary <persName corresp="#p_VPA1"
-                                            >Volcker</persName>
-                                        <note n="2" target="#d181fn2">Under Secretaries <persName
-                                                corresp="#p_WCE1">Walker</persName> and <persName
-                                                corresp="#p_VPA1">Volcker</persName> had to leave
-                                            before the end of the meeting. [Footnote in the source
-                                            text. The <gloss target="#t_G101">G-10</gloss> Deputies
-                                            were meeting on the afternoon of September 25;
-                                            presumably <persName corresp="#p_VPA1"
-                                                >Volcker</persName> left to attend.]</note>
+                                            >Volcker</persName><note n="2" target="#d181fn2">Under
+                                            Secretaries <persName corresp="#p_WCE1"
+                                                >Walker</persName> and <persName corresp="#p_VPA1"
+                                                >Volcker</persName> had to leave before the end of
+                                            the meeting. [Footnote in the source text. The <gloss
+                                                target="#t_G101">G-10</gloss> Deputies were meeting
+                                            on the afternoon of September 25; presumably <persName
+                                                corresp="#p_VPA1">Volcker</persName> left to
+                                            attend.]</note>
                                     </item>
                                     <item>Assistant Secretary <persName corresp="#p_PJR1"
                                             >Petty</persName>
@@ -32344,9 +32318,8 @@
                         </p>
                         <closer>
                             <signed>
-                                <hi rend="strong">Sy Cross</hi>
-                                <note n="5" xml:id="d181fn5">Cross signed for Hermberg above
-                                    Hermberg’s typed signature.</note>
+                                <hi rend="strong">Sy Cross</hi><note n="5" xml:id="d181fn5">Cross
+                                    signed for Hermberg above Hermberg’s typed signature.</note>
                             </signed>
                         </closer>
                     </div>
@@ -32560,15 +32533,15 @@
                         <head>183. Letter From the Chairman of the Board of Governors of the Federal
                             Reserve System (<persName corresp="#p_BAF1" type="from"
                             >Burns</persName>) to President <persName corresp="#p_NRM1" type="to"
-                                >Nixon</persName>
-                            <note n="1" xml:id="d183fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Name Files,
-                                Box 810, <persName corresp="#p_BAF1">Arthur Burns</persName>.
-                                Personal and Confidential. A copy was sent to Secretary <persName
-                                    corresp="#p_CJBJ1">Connally</persName>. A handwritten note by
-                                    <persName corresp="#p_HBMJ1">Haig</persName> reads: “<persName
-                                    corresp="#p_HRD1">Hormats</persName>—Went to Pres.”</note>
+                                >Nixon</persName><note n="1" xml:id="d183fn1" type="source">Source:
+                                National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                                Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files,
+                                Name Files, Box 810, <persName corresp="#p_BAF1">Arthur
+                                    Burns</persName>. Personal and Confidential. A copy was sent to
+                                Secretary <persName corresp="#p_CJBJ1">Connally</persName>. A
+                                handwritten note by <persName corresp="#p_HBMJ1">Haig</persName>
+                                reads: “<persName corresp="#p_HRD1">Hormats</persName>—Went to
+                                Pres.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-10-14"
@@ -32738,11 +32711,11 @@
                         <head>185. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to Secretary of the Treasury <persName
-                                corresp="#p_CJBJ1" type="to">Connally</persName>
-                            <note n="1" xml:id="d185fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Records of Secretary
-                                    <persName corresp="#p_SGP1">Shultz</persName>: <gloss
-                                    target="#t_FRC1">FRC</gloss> 56 80 1, <gloss target="#t_CIEP1"
+                                corresp="#p_CJBJ1" type="to">Connally</persName><note n="1"
+                                xml:id="d185fn1" type="source">Source: Washington National Records
+                                Center, Department of the Treasury, Records of Secretary <persName
+                                    corresp="#p_SGP1">Shultz</persName>: <gloss target="#t_FRC1"
+                                    >FRC</gloss> 56 80 1, <gloss target="#t_CIEP1"
                                     >CIEP</gloss>—<persName corresp="#p_PPG1">Peterson</persName>.
                                 Confidential; Eyes Only.</note>
                         </head>
@@ -33292,14 +33265,14 @@
                         frus:doc-dateTime-min="1971-11-02T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-11-02T23:59:59-05:00">
                         <head>189. Memorandum From President <persName corresp="#p_NRM1" type="from"
-                                >Nixon</persName>
-                            <note n="1" xml:id="d189fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 268, Office of Management and Budget. Secret. Attached to a
-                                November 3 note from <persName corresp="#p_SGP1">Shultz</persName>
-                                to <persName corresp="#p_KHA1">Kissinger</persName> that reads, “I
-                                know you will be interested in the attached.”</note>
+                                >Nixon</persName><note n="1" xml:id="d189fn1" type="source">Source:
+                                National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                                Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files,
+                                Agency Files, Box 268, Office of Management and Budget. Secret.
+                                Attached to a November 3 note from <persName corresp="#p_SGP1"
+                                    >Shultz</persName> to <persName corresp="#p_KHA1"
+                                    >Kissinger</persName> that reads, “I know you will be interested
+                                in the attached.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-11-02"
@@ -33366,9 +33339,9 @@
                         frus:doc-dateTime-min="1971-11-05T12:16:00-05:00"
                         frus:doc-dateTime-max="1971-11-05T12:16:00-05:00">
                         <head>190. Telegram From the <gloss type="from">Embassy in Germany</gloss>
-                            to the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d190fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, <gloss target="#t_SS1"
+                            to the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d190fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, <gloss target="#t_SS1"
                                     >S/S</gloss> Files: Lot 73 <gloss target="#t_D1">D</gloss> 153,
                                 Morning Summaries. Secret; Immediate; Exdis.</note>
                         </head>
@@ -33770,13 +33743,13 @@
                         frus:doc-dateTime-min="1971-11-12T12:44:00-05:00"
                         frus:doc-dateTime-max="1971-11-12T12:44:00-05:00">
                         <head>193. Telegram From the <gloss type="from">Embassy in the United
-                                Kingdom</gloss> to the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d193fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                17 UK. Confidential; Limdis; Greenback. Repeated to Bern, Bonn,
-                                Brussels, The Hague, Ottawa, Paris, Rome, Stockholm, Tokyo, <gloss
-                                    target="#t_USEC1">USEC</gloss>, and <gloss target="#t_USOECD1"
-                                    >USOECD</gloss>.</note>
+                                Kingdom</gloss> to the <gloss type="to">Department of
+                                State</gloss><note n="1" xml:id="d193fn1" type="source">Source:
+                                National Archives, <gloss target="#t_RG1">RG</gloss> 59, Central
+                                Files 1970-73, FN 17 UK. Confidential; Limdis; Greenback. Repeated
+                                to Bern, Bonn, Brussels, The Hague, Ottawa, Paris, Rome, Stockholm,
+                                Tokyo, <gloss target="#t_USEC1">USEC</gloss>, and <gloss
+                                    target="#t_USOECD1">USOECD</gloss>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>London</placeName>, <date
@@ -34239,17 +34212,17 @@
                         <head>195. Information Memorandum From the President’s Assistant for
                             International Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d195fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Records of Secretary
-                                Shultz: <gloss target="#t_FRC1">FRC</gloss> 56 80 1, Council on
-                                International Economic Policy—Peterson. Confidential. A stamped note
-                                on the memorandum reads: “The President Has Seen.” It is attached to
-                                a November 24 memorandum from Huntsman to Secretary <persName
-                                    corresp="#p_CJBJ1">Connally</persName> informing him that the
-                                President suggested <persName corresp="#p_CJBJ1">Connally</persName>
-                                receive a copy but that “the President does not endorse any of the
-                                views expressed herein.”</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d195fn1" type="source"
+                                >Source: Washington National Records Center, Department of the
+                                Treasury, Records of Secretary Shultz: <gloss target="#t_FRC1"
+                                    >FRC</gloss> 56 80 1, Council on International Economic
+                                Policy—Peterson. Confidential. A stamped note on the memorandum
+                                reads: “The President Has Seen.” It is attached to a November 24
+                                memorandum from Huntsman to Secretary <persName corresp="#p_CJBJ1"
+                                    >Connally</persName> informing him that the President suggested
+                                    <persName corresp="#p_CJBJ1">Connally</persName> receive a copy
+                                but that “the President does not endorse any of the views expressed
+                                herein.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-11-15"
@@ -34258,19 +34231,19 @@
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Status of International Economic Negotiations—Your Meeting This
-                                Morning with <persName corresp="#p_CJBJ1">John Connally</persName>
-                                <note n="2" xml:id="d195fn2">According to the President’s Daily
-                                    Diary, there was no meeting between the President and <persName
-                                        corresp="#p_CJBJ1">Connally</persName> on November 15.
-                                        <persName corresp="#p_CJBJ1">Connally</persName> had talked
-                                    with the President twice by phone following his return from his
-                                    Asian trip on November 14 and he and Mrs. <persName
-                                        corresp="#p_CJBJ1">Connally</persName> had dined with
-                                    President and Mrs. <persName corresp="#p_NRM1">Nixon</persName>
-                                    that evening, probably obviating the need for a November 15
-                                    meeting. (National Archives, <persName corresp="#p_NRM1"
-                                        >Nixon</persName> Presidential Materials, White House
-                                    Central Files, President’s Daily Diary)</note>
+                                Morning with <persName corresp="#p_CJBJ1">John
+                                    Connally</persName><note n="2" xml:id="d195fn2">According to the
+                                    President’s Daily Diary, there was no meeting between the
+                                    President and <persName corresp="#p_CJBJ1">Connally</persName>
+                                    on November 15. <persName corresp="#p_CJBJ1">Connally</persName>
+                                    had talked with the President twice by phone following his
+                                    return from his Asian trip on November 14 and he and Mrs.
+                                        <persName corresp="#p_CJBJ1">Connally</persName> had dined
+                                    with President and Mrs. <persName corresp="#p_NRM1"
+                                        >Nixon</persName> that evening, probably obviating the need
+                                    for a November 15 meeting. (National Archives, <persName
+                                        corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    White House Central Files, President’s Daily Diary)</note>
                             </item>
                         </list>
                         <list>
@@ -34666,17 +34639,16 @@
                         <head>198. Letter From the Chairman of the Board of Governors of the Federal
                             Reserve System (<persName corresp="#p_BAF1" type="from"
                             >Burns</persName>) to President <persName corresp="#p_NRM1" type="to"
-                                >Nixon</persName>
-                            <note n="1" xml:id="d198fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Name Files,
-                                Box 810, Arthur Burns. No classification marking. Attached to a
-                                November 18 memorandum from Hormats to <persName corresp="#p_KHA1"
-                                    >Kissinger</persName> recommending <persName corresp="#p_KHA1"
-                                    >Kissinger</persName> sign a transmittal memorandum to the
-                                President that summarized Burns’ memorandum. On Hormats’ memorandum
-                                    <persName corresp="#p_KHA1">Kissinger</persName> wrote
-                                “OBE.”</note>
+                                >Nixon</persName><note n="1" xml:id="d198fn1" type="source">Source:
+                                National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                                Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files,
+                                Name Files, Box 810, Arthur Burns. No classification marking.
+                                Attached to a November 18 memorandum from Hormats to <persName
+                                    corresp="#p_KHA1">Kissinger</persName> recommending <persName
+                                    corresp="#p_KHA1">Kissinger</persName> sign a transmittal
+                                memorandum to the President that summarized Burns’ memorandum. On
+                                Hormats’ memorandum <persName corresp="#p_KHA1">Kissinger</persName>
+                                wrote “OBE.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-11-16"
@@ -35644,8 +35616,8 @@
                         frus:doc-dateTime-max="1971-11-24T23:59:59-05:00">
                         <head>204. Memorandum From the Chairman of the Council of Economic Advisers
                                 (<persName corresp="#p_MCPW1" type="from">McCracken</persName>) to
-                            President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d204fn1" type="source">Source: National Archives,
+                            President <persName corresp="#p_NRM1" type="to">Nixon</persName><note
+                                n="1" xml:id="d204fn1" type="source">Source: National Archives,
                                     <persName corresp="#p_NRM1">Nixon</persName> Presidential
                                 Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
                                 Box 216, Council of Economic Advisers. No classification marking.
@@ -36151,16 +36123,15 @@
                         <head>209. Information Memorandum From the President’s Assistant for
                             International Economic Affairs (<persName corresp="#p_PPG1" type="from"
                                 >Peterson</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d209fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 218, Council on International Economic Policy. Secret. Attached
-                                to a December 8 memorandum from Hormats to <persName
-                                    corresp="#p_HBMJ1">Haig</persName> recommending the <gloss
-                                    target="#t_NSC1">NSC</gloss> not object to <persName
-                                    corresp="#p_PPG1">Peterson</persName>’s memorandum going to the
-                                President.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d209fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 218,
+                                Council on International Economic Policy. Secret. Attached to a
+                                December 8 memorandum from Hormats to <persName corresp="#p_HBMJ1"
+                                    >Haig</persName> recommending the <gloss target="#t_NSC1"
+                                    >NSC</gloss> not object to <persName corresp="#p_PPG1"
+                                    >Peterson</persName>’s memorandum going to the President.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-11-27"
@@ -37442,26 +37413,26 @@
                         frus:doc-dateTime-max="1971-12-17T23:59:59-05:00">
                         <head>220. Paper Agreed by President <persName corresp="#p_NRM1" type="from"
                                 >Nixon</persName> and President <persName corresp="#p_PG5" type="to"
-                                >Pompidou</persName>
-                            <note n="1" xml:id="d220fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 356, Monetary Matters, Envelope marked Bermuda. No
-                                classification marking. Initialed by Presidents <persName
-                                    corresp="#p_NRM1">Nixon</persName> and <persName
-                                    corresp="#p_PG5">Pompidou</persName> at the bottom of the first
-                                page and signed by both at the end. An earlier version of the paper
-                                that <persName corresp="#p_KHA1">Kissinger</persName> marked up,
-                                apparently during his breakfast meeting with <persName
-                                    corresp="#p_PG5">Pompidou</persName> on December 14, is ibid.
-                                According to the memorandum of conversation of that meeting (see
-                                    <ref target="#d219">Document 219</ref>), <persName
-                                    corresp="#p_KHA1">Kissinger</persName> read <persName
-                                    corresp="#p_PG5">Pompidou</persName> the proposed text of item 6
-                                as formulated by <persName corresp="#p_CJBJ1">Connally</persName>.
-                                    <persName corresp="#p_PG5">Pompidou</persName> said he could not
-                                agree to the statement as read; he could not accept the absence of
-                                any mention of fixed parities. <persName corresp="#p_KHA1"
+                                >Pompidou</persName><note n="1" xml:id="d220fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 356,
+                                Monetary Matters, Envelope marked Bermuda. No classification
+                                marking. Initialed by Presidents <persName corresp="#p_NRM1"
+                                    >Nixon</persName> and <persName corresp="#p_PG5"
+                                    >Pompidou</persName> at the bottom of the first page and signed
+                                by both at the end. An earlier version of the paper that <persName
+                                    corresp="#p_KHA1">Kissinger</persName> marked up, apparently
+                                during his breakfast meeting with <persName corresp="#p_PG5"
+                                    >Pompidou</persName> on December 14, is ibid. According to the
+                                memorandum of conversation of that meeting (see <ref target="#d219"
+                                    >Document 219</ref>), <persName corresp="#p_KHA1"
+                                    >Kissinger</persName> read <persName corresp="#p_PG5"
+                                    >Pompidou</persName> the proposed text of item 6 as formulated
+                                by <persName corresp="#p_CJBJ1">Connally</persName>. <persName
+                                    corresp="#p_PG5">Pompidou</persName> said he could not agree to
+                                the statement as read; he could not accept the absence of any
+                                mention of fixed parities. <persName corresp="#p_KHA1"
                                     >Kissinger</persName> wrote in the left margin of the draft:
                                 “Fixed Parity must be in.” In the expanded meeting at the conclusion
                                 of the Summit, <persName corresp="#p_CJBJ1">Connally</persName>
@@ -37915,13 +37886,13 @@
                         frus:doc-dateTime-max="1972-02-04T23:59:59-05:00">
                         <head>223. Letter From President <persName corresp="#p_PG5" type="from"
                                 >Pompidou</persName> to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d223fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Agency Files,
-                                Box 290, Treasury, Volume III. No classification marking. The French
-                                text of Pompidou’s letter was sent telegraphically. (Ibid., Subject
-                                Files, Box 356, Monetary Matters) This translation is attached to an
+                                type="to">Nixon</persName><note n="1" xml:id="d223fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Agency Files, Box 290,
+                                Treasury, Volume III. No classification marking. The French text of
+                                Pompidou’s letter was sent telegraphically. (Ibid., Subject Files,
+                                Box 356, Monetary Matters) This translation is attached to an
                                 undated memorandum from <persName corresp="#p_HBMJ1">Haig</persName>
                                 to <persName corresp="#p_KHA1">Kissinger</persName>, which indicates
                                 that the translation, made by <persName corresp="#p_SHH1"
@@ -38044,7 +38015,7 @@
                                 President <persName corresp="#p_PG5">Pompidou</persName> said “he
                                 understood that the present dollar balances would not be included as
                                 they were too big. The President apparently felt we were thinking of
-                                something else. “ <persName corresp="#p_KHA1">Kissinger</persName>
+                                something else.” <persName corresp="#p_KHA1">Kissinger</persName>
                                 replied “that his impression after talking to Secretary <persName
                                     corresp="#p_CJBJ1">Connally</persName> is that the Secretary
                                 feels if the exchange alignment is correct then we will be prepared
@@ -38136,9 +38107,8 @@
                         <p>Please, my dear Mr. President, accept my highest regards.</p>
                         <closer>
                             <signed>
-                                <hi rend="strong">Georges Pompidou</hi>
-                                <note n="6" xml:id="d223fn6">Printed from a copy that bears this
-                                    typed signature.</note>
+                                <hi rend="strong">Georges Pompidou</hi><note n="6" xml:id="d223fn6"
+                                    >Printed from a copy that bears this typed signature.</note>
                             </signed>
                         </closer>
                     </div>
@@ -38148,19 +38118,18 @@
                         frus:doc-dateTime-max="1972-02-16T23:59:59-05:00">
                         <head>224. Letter From President <persName corresp="#p_NRM1" type="from"
                                 >Nixon</persName> to President <persName corresp="#p_PG5" type="to"
-                                >Pompidou</persName>
-                            <note n="1" xml:id="d224fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 356, Monetary Matters. Secret. “HOT LINE” is typed at the top of
-                                the page. Earlier drafts of this letter and <persName
-                                    corresp="#p_SHH1">Sonnenfeldt</persName>’s comments on the
-                                drafts, which express concern that they did not adequately address
-                                measures to defend the dollar and the U.S. position on
-                                convertibility, are ibid. <persName corresp="#p_SHH1"
-                                    >Sonnenfeldt</persName> thought <persName corresp="#p_PG5"
-                                    >Pompidou</persName> would view those inadequacies as evasive
-                                and unresponsive to his concerns.</note>
+                                >Pompidou</persName><note n="1" xml:id="d224fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Subject Files, Box 356,
+                                Monetary Matters. Secret. “HOT LINE” is typed at the top of the
+                                page. Earlier drafts of this letter and <persName corresp="#p_SHH1"
+                                    >Sonnenfeldt</persName>’s comments on the drafts, which express
+                                concern that they did not adequately address measures to defend the
+                                dollar and the U.S. position on convertibility, are ibid. <persName
+                                    corresp="#p_SHH1">Sonnenfeldt</persName> thought <persName
+                                    corresp="#p_PG5">Pompidou</persName> would view those
+                                inadequacies as evasive and unresponsive to his concerns.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-02-16"
@@ -38316,9 +38285,8 @@
                             <signed>
                                 <persName corresp="#p_NRM1">
                                     <hi rend="strong">Richard M. Nixon</hi>
-                                </persName>
-                                <note n="5" xml:id="d224fn5">Printed from a copy that bears this
-                                    typed signature.</note>
+                                </persName><note n="5" xml:id="d224fn5">Printed from a copy that
+                                    bears this typed signature.</note>
                             </signed>
                         </closer>
                     </div>
@@ -38531,10 +38499,10 @@
                         frus:doc-dateTime-min="1972-04-26T13:57:00-05:00"
                         frus:doc-dateTime-max="1972-04-26T13:57:00-05:00">
                         <head>227. Telegram From the <gloss type="from">Embassy in Italy</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d227fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10 <gloss target="#t_EEC1">EEC</gloss>. Confidential; Limdis;
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d227fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN 10
+                                    <gloss target="#t_EEC1">EEC</gloss>. Confidential; Limdis;
                                 Greenback. Repeated to Bern, Bonn, Brussels, Copenhagen, Dublin, The
                                 Hague, London, Luxembourg, Ottawa, Oslo, Paris, Santiago (where the
                                     <gloss target="#t_UNCTAD1">UNCTAD</gloss> III Ministerial was
@@ -38902,9 +38870,8 @@
                             <signed>
                                 <persName corresp="#p_EO1">
                                     <hi rend="strong">O. Emminger</hi>
-                                </persName>
-                                <note n="2" xml:id="d229fn2">Printed from a copy that bears this
-                                    typed signature.</note>
+                                </persName><note n="2" xml:id="d229fn2">Printed from a copy that
+                                    bears this typed signature.</note>
                             </signed>
                         </closer>
                     </div>
@@ -39092,12 +39059,12 @@
                         frus:doc-dateTime-min="1972-06-15T05:11:00-05:00"
                         frus:doc-dateTime-max="1972-06-15T05:11:00-05:00">
                         <head>231. Telegram From the <gloss type="from">Embassy in France</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d231fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Limdis; Greenback. Repeated to Bern, Bonn,
-                                Brussels, The Hague, London, Ottawa, Rome, Stockholm, Tokyo, and
-                                    <gloss target="#t_USEC1">USEC</gloss>.</note>
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d231fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN 10.
+                                Confidential; Limdis; Greenback. Repeated to Bern, Bonn, Brussels,
+                                The Hague, London, Ottawa, Rome, Stockholm, Tokyo, and <gloss
+                                    target="#t_USEC1">USEC</gloss>.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date when="1972-06-15T10:11:00+00:00"
@@ -39345,12 +39312,11 @@
                         <head>232. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_FPM1" type="from"
                                 >Flanigan</persName>) to President <persName corresp="#p_NRM1"
-                                type="to">Nixon</persName>
-                            <note n="1" xml:id="d232fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Country
-                                Files—Europe, Box 729, UK Volume VII 9/71-9/72. No classification
-                                marking.</note>
+                                type="to">Nixon</persName><note n="1" xml:id="d232fn1" type="source"
+                                >Source: National Archives, <persName corresp="#p_NRM1"
+                                    >Nixon</persName> Presidential Materials, <gloss
+                                    target="#t_NSC1">NSC</gloss> Files, Country Files—Europe, Box
+                                729, UK Volume VII 9/71-9/72. No classification marking.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-06-23"
@@ -39443,14 +39409,13 @@
                         frus:doc-dateTime-max="1972-07-10T23:59:59-05:00">
                         <head>233. Letter From President <persName corresp="#p_NRM1" type="from"
                                 >Nixon</persName> to Prime Minister <persName corresp="#p_HERG1"
-                                type="to">Heath</persName>
-                            <note n="1" xml:id="d233fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Files of Under Secretary
-                                    <persName corresp="#p_VPA1">Volcker</persName>: <gloss
-                                    target="#t_FRC1">FRC</gloss> 56 79 15, UK British Float.
-                                Confidential. There is no indication of when or how the letter was
-                                sent. It is attached to a July 10 note from <persName
-                                    corresp="#p_HRD1">Hormats</persName> to <persName
+                                type="to">Heath</persName><note n="1" xml:id="d233fn1" type="source"
+                                >Source: Washington National Records Center, Department of the
+                                Treasury, Files of Under Secretary <persName corresp="#p_VPA1"
+                                    >Volcker</persName>: <gloss target="#t_FRC1">FRC</gloss> 56 79
+                                15, UK British Float. Confidential. There is no indication of when
+                                or how the letter was sent. It is attached to a July 10 note from
+                                    <persName corresp="#p_HRD1">Hormats</persName> to <persName
                                     corresp="#p_VPA1">Volcker</persName> indicating that the text
                                 had been cleared by <persName corresp="#p_FPM1">Flanigan</persName>,
                                     <persName corresp="#p_KHA1">Kissinger</persName>, and the White
@@ -39531,9 +39496,8 @@
                             <signed>
                                 <persName corresp="#p_NRM1">
                                     <hi rend="strong">Richard Nixon</hi>
-                                </persName>
-                                <note n="2" xml:id="d233fn2">Printed from a copy that bears this
-                                    typed signature.</note>
+                                </persName><note n="2" xml:id="d233fn2">Printed from a copy that
+                                    bears this typed signature.</note>
                             </signed>
                         </closer>
                     </div>
@@ -39543,9 +39507,9 @@
                         frus:doc-dateTime-max="1972-07-18T23:59:59-05:00">
                         <head>234. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_SGP1" type="from">Shultz</persName> to President
-                                <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                            <note n="1" xml:id="d234fn1" type="source">Source: Washington National
-                                Records Center, Department of the Treasury, Files of Under Secretary
+                                <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                                xml:id="d234fn1" type="source">Source: Washington National Records
+                                Center, Department of the Treasury, Files of Under Secretary
                                     <persName corresp="#p_VPA1">Volcker</persName>: <gloss
                                     target="#t_FRC1">FRC</gloss> 56 79 15, UK British Float.
                                 Confidential. There is no indication that the memorandum was sent to
@@ -40308,10 +40272,10 @@
                         frus:doc-dateTime-min="1972-07-31T12:16:00-05:00"
                         frus:doc-dateTime-max="1972-07-31T12:16:00-05:00">
                         <head>238. Telegram From the <gloss type="from">Embassy in France</gloss> to
-                            the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d238fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Immediate; Limdis; Greenback.</note>
+                            the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d238fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN 10.
+                                Confidential; Immediate; Limdis; Greenback.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date when="1972-07-31T17:16:00+00:00"
@@ -40586,11 +40550,11 @@
                         frus:doc-dateTime-min="1972-08-01T04:35:00-05:00"
                         frus:doc-dateTime-max="1972-08-01T04:35:00-05:00">
                         <head>240. Telegram From the <gloss type="from">Embassy in Germany</gloss>
-                            to the <gloss type="to">Department of State</gloss>
-                            <note n="1" xml:id="d240fn1" type="source">Source: National Archives,
-                                    <persName corresp="#p_NRM1">Nixon</persName> Presidential
-                                Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files,
-                                Box 356, Monetary. Secret; Exdis. Attached to an August 2 memorandum
+                            to the <gloss type="to">Department of State</gloss><note n="1"
+                                xml:id="d240fn1" type="source">Source: National Archives, <persName
+                                    corresp="#p_NRM1">Nixon</persName> Presidential Materials,
+                                    <gloss target="#t_NSC1">NSC</gloss> Files, Subject Files, Box
+                                356, Monetary. Secret; Exdis. Attached to an August 2 memorandum
                                 from <persName corresp="#p_HRD1">Hormats</persName> to <persName
                                     corresp="#p_KHA1">Kissinger</persName> apprising <persName
                                     corresp="#p_KHA1">Kissinger</persName> of the increase in the
@@ -40755,11 +40719,11 @@
                         frus:doc-dateTime-min="1972-08-04T14:33:00-05:00"
                         frus:doc-dateTime-max="1972-08-04T14:33:00-05:00">
                         <head>241. Telegram From the <gloss type="from">Department of State</gloss>
-                            to the <gloss type="to">Embassy in France</gloss>
-                            <note n="1" xml:id="d241fn1" type="source">Source: National Archives,
-                                    <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN
-                                10. Confidential; Priority; Limdis; Greenback. Drafted in Treasury
-                                by Under Secretary <persName corresp="#p_VPA1">Volcker</persName> on
+                            to the <gloss type="to">Embassy in France</gloss><note n="1"
+                                xml:id="d241fn1" type="source">Source: National Archives, <gloss
+                                    target="#t_RG1">RG</gloss> 59, Central Files 1970-73, FN 10.
+                                Confidential; Priority; Limdis; Greenback. Drafted in Treasury by
+                                Under Secretary <persName corresp="#p_VPA1">Volcker</persName> on
                                 August 4, and cleared in State by Armstrong (E), Weintraub (<gloss
                                     target="#t_E1">E</gloss>/IFD), <persName corresp="#p_SGSJ1"
                                     >Springsteen</persName> (<gloss target="#t_EUR1">EUR</gloss>),

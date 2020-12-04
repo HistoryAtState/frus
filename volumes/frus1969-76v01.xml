@@ -64,7 +64,6 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -1241,10 +1240,10 @@
                     </item>
                 </list>
             </div>
+            <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
                 frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
-                <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1438,10 +1437,10 @@
                             <term xml:id="t_WW1">WW</term>,</hi> World War</item>
                 </list>
             </div>
+            <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
                 frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
-                <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -1620,9 +1619,9 @@
             </div>
         </front>
         <body>
+            <pb n="1" xml:id="pg_1" facs="0021"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
                 frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
-                <pb n="1" xml:id="pg_1" facs="0021"/>
                 <head>Foundations of Foreign Policy, 1969-1972</head>
                 <div type="document" xml:id="d1" n="1" subtype="editorial-note"
                     frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
@@ -1669,13 +1668,13 @@
                         Policy” which provides an overview of his perspective on foreign policy at
                         that point. (See <ref target="#d4">Document 4</ref>)</p>
                 </div>
+                <pb n="2" xml:id="pg_2" facs="0022"/>
                 <div type="document" xml:id="d2" n="2" subtype="historical-document"
                     frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1967-07-29T23:59:59-05:00">
-                    <pb n="2" xml:id="pg_2" facs="0022"/>
                     <head>2. Address by <persName corresp="#p_NRM1" type="from">Richard M.
-                            Nixon</persName> to the <gloss type="to">Bohemian Club</gloss>
-                        <note n="1" xml:id="d2fn1" type="source">Source: The Richard Nixon Library,
+                            Nixon</persName> to the <gloss type="to">Bohemian Club</gloss><note
+                            n="1" xml:id="d2fn1" type="source">Source: The Richard Nixon Library,
                                 <persName corresp="#p_NRM1">Nixon</persName> Papers. Unclassified;
                             Off-the-Record; Not for Publication. Printed by permission of the
                             Richard Nixon Library and Birthplace, Yorba Linda, California. The
@@ -2022,8 +2021,8 @@
                 <div type="document" xml:id="d3" n="3" subtype="historical-document"
                     frus:doc-dateTime-min="1967-09-30T23:00:00-05:00"
                     frus:doc-dateTime-max="1967-10-31T23:59:59-05:00">
-                    <head>3. Article by <persName corresp="#p_NRM1">Richard M. Nixon</persName>
-                        <note n="1" xml:id="d3fn1" type="source">Source: <hi rend="italic">Foreign
+                    <head>3. Article by <persName corresp="#p_NRM1">Richard M. Nixon</persName><note
+                            n="1" xml:id="d3fn1" type="source">Source: <hi rend="italic">Foreign
                                 Affairs,</hi> Vol. 46, No. 1, October 1967, pp. 113-125. Reprinted
                             by permission of <hi rend="italic">Foreign Affairs,</hi> 2002. Copyright
                             1967 by the Council on Foreign Relations, Inc.</note>
@@ -2486,8 +2485,8 @@
                 <div type="document" xml:id="d4" n="4" subtype="historical-document"
                     frus:doc-dateTime-min="1969-04-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-04-01T23:59:59-05:00">
-                    <head>4. Essay by <persName corresp="#p_KHA1">Henry A. Kissinger</persName>
-                        <note n="1" xml:id="d4fn1" type="source">Source: From <hi rend="italic"
+                    <head>4. Essay by <persName corresp="#p_KHA1">Henry A. Kissinger</persName><note
+                            n="1" xml:id="d4fn1" type="source">Source: From <hi rend="italic"
                                 >American Foreign Policy: Three Essays</hi> by <persName
                                 corresp="#p_KHA1">Henry Kissinger</persName>. (New York: W. W.
                             Norton, 1969), pp. 51-97. © Copyright 1977, 1974, 1969 by <persName
@@ -3968,13 +3967,12 @@
                     frus:doc-dateTime-max="1969-02-04T23:59:59-05:00">
                     <head>10. Letter From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to Secretary of Defense <persName corresp="#p_LMR2"
-                            type="to">Laird</persName>
-                        <note n="1" xml:id="d10fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                                <gloss target="#t_NSC1">NSC</gloss> Files, Box 220, Agency Files,
-                            Department of Defense, Vol. I, 1/12/69. Secret. President <persName
-                                corresp="#p_NRM1">Nixon</persName> sent an identical letter on
-                            February 4 to Secretary of State <persName corresp="#p_RWP1"
+                            type="to">Laird</persName><note n="1" xml:id="d10fn1" type="source"
+                            >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                            Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
+                            220, Agency Files, Department of Defense, Vol. I, 1/12/69. Secret.
+                            President <persName corresp="#p_NRM1">Nixon</persName> sent an identical
+                            letter on February 4 to Secretary of State <persName corresp="#p_RWP1"
                                 >Rogers</persName>. (Ibid., Box 279, Agency Files, Department of
                             State, Vol. I, 1/17/69)</note>
                     </head>
@@ -4151,11 +4149,11 @@
                     frus:doc-dateTime-max="1969-02-19T23:59:59-05:00">
                     <head>12. Memorandum From the President’s Special Assistant (<persName
                             corresp="#p_BP1" type="from">Buchanan</persName>) to President <persName
-                            corresp="#p_NRM1" type="to">Nixon</persName>
-                        <note n="1" xml:id="d12fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                            White House Special Files, President’s Office Files, Box 77, Memoranda
-                            for the President, Jan 21-Apr 6, 1969. Confidential.</note>
+                            corresp="#p_NRM1" type="to">Nixon</persName><note n="1" xml:id="d12fn1"
+                            type="source">Source: National Archives, <persName corresp="#p_NRM1"
+                                >Nixon</persName> Presidential Materials, White House Special Files,
+                            President’s Office Files, Box 77, Memoranda for the President, Jan
+                            21-Apr 6, 1969. Confidential.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-02-19"
@@ -4607,12 +4605,12 @@
                     frus:doc-dateTime-min="1969-04-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-04-10T23:59:59-05:00">
                     <head>18. Address by President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">North Atlantic Council</gloss>
-                        <note n="1" xml:id="d18fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1969,</hi> p.
-                            272-276. <persName corresp="#p_NRM1">Nixon</persName> spoke at 2:26 p.m.
-                            in the Departmental Auditorium of the State Department.</note>
+                            >Nixon</persName> to the <gloss type="to">North Atlantic
+                            Council</gloss><note n="1" xml:id="d18fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1969,</hi>
+                            p. 272-276. <persName corresp="#p_NRM1">Nixon</persName> spoke at 2:26
+                            p.m. in the Departmental Auditorium of the State Department.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-04-10"
@@ -4884,10 +4882,10 @@
                         its nobility, and <gloss target="#t_NATO1">NATO</gloss>’s backbone its
                         steel.</p>
                 </div>
+                <pb n="76" xml:id="pg_76" facs="0096"/>
                 <div type="document" xml:id="d19" n="19" subtype="historical-document"
                     frus:doc-dateTime-min="1969-04-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-04-10T23:59:59-05:00">
-                    <pb n="76" xml:id="pg_76" facs="0096"/>
                     <head>19. Report on Meeting of the Cabinet Committee on Economic Policy<note
                             n="1" xml:id="d19fn1" type="source">Source: National Archives, <persName
                                 corresp="#p_NRM1">Nixon</persName> Presidential Materials, White
@@ -4983,9 +4981,8 @@
                         <signed>
                             <persName corresp="#p_BAP1">
                                 <hi rend="strong">Alexander P. Butterfield</hi>
-                            </persName>
-                            <note n="2" xml:id="d20fn2">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="2" xml:id="d20fn2">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -5228,11 +5225,10 @@
                     frus:doc-dateTime-min="1969-05-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-05-28T23:59:59-05:00">
                     <head>26. Special Message From President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Congress</gloss>
-                        <note n="1" xml:id="d26fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1969,</hi> pp.
-                            411-417.</note>
+                            >Nixon</persName> to the <gloss type="to">Congress</gloss><note n="1"
+                            xml:id="d26fn1" type="source">Source: <hi rend="italic">Public Papers of
+                                the Presidents of the United States: <persName corresp="#p_NRM1"
+                                    >Richard Nixon</persName>, 1969,</hi> pp. 411-417.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-05-28"
@@ -5336,8 +5332,8 @@
                 <div type="document" xml:id="d27" n="27" subtype="historical-document"
                     frus:doc-dateTime-min="1969-06-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-06-04T23:59:59-05:00">
-                    <head>27. Address by President <persName corresp="#p_NRM1">Nixon</persName>
-                        <note n="1" xml:id="d27fn1" type="source">Source: <hi rend="italic">Public
+                    <head>27. Address by President <persName corresp="#p_NRM1">Nixon</persName><note
+                            n="1" xml:id="d27fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName
                                     corresp="#p_NRM1">Richard Nixon</persName>, 1969,</hi> 432-437.
                             The President was speaking at the Air Force Academy Commencement
@@ -5581,9 +5577,9 @@
                         <signed>
                             <persName corresp="#p_NRM1">
                                 <hi rend="strong">Richard Nixon</hi>
-                            </persName>
-                            <note n="3" xml:id="d28fn3">Printed from a copy that indicates <persName
-                                    corresp="#p_NRM1">Nixon</persName> signed the original.</note>
+                            </persName><note n="3" xml:id="d28fn3">Printed from a copy that
+                                indicates <persName corresp="#p_NRM1">Nixon</persName> signed the
+                                original.</note>
                         </signed>
                     </closer>
                 </div>
@@ -6333,7 +6329,7 @@
                                         needs to attack only a small portion of our forces.</item>
                                     <item>“—‘Vietnamization’ depends on broadening the <gloss
                                             target="#t_GVN1">GVN</gloss>, and Thieu’s new government
-                                        is not ’significantly broader than the old (see below). The
+                                        is not significantly broader than the old (see below). The
                                         best way to broaden the <gloss target="#t_GVN1">GVN</gloss>
                                         would be to create the impression that the Saigon government
                                         is winning or at least permanent. The more uncertainty there
@@ -6481,10 +6477,10 @@
                     frus:doc-dateTime-max="1969-10-14T22:59:59-05:00">
                     <head>39. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
-                        President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                        <note n="1" xml:id="d39fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                                <gloss target="#t_NSC1">NSC</gloss> Files, Box 397, Subject Files, A
+                        President <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                            xml:id="d39fn1" type="source">Source: National Archives, <persName
+                                corresp="#p_NRM1">Nixon</persName> Presidential Materials, <gloss
+                                target="#t_NSC1">NSC</gloss> Files, Box 397, Subject Files, A
                             Strategic Overview. Confidential. An attached memorandum to <persName
                                 corresp="#p_KHA1">Kissinger</persName> from Kenneth Cole, Executive
                             Director of the Domestic Council, is dated October 14. Cole stated that
@@ -7190,15 +7186,15 @@
                     frus:doc-dateTime-max="1969-10-20T23:59:59-05:00">
                     <head>41. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
-                        President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                        <note n="1" xml:id="d41fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                                <gloss target="#t_NSC1">NSC</gloss> Files, Box 252, Agency Files,
-                                <gloss target="#t_NSC1">NSC</gloss> 1969-71. Secret. Sent for
-                            information. The memorandum was stamped and initialed by <persName
-                                corresp="#p_BAP1">Alexander Butterfield</persName> to indicate that
-                            it was seen by the President. The attached study was drafted by Robert
-                            E. Osgood of the <gloss target="#t_NSC1">NSC</gloss> Staff.</note>
+                        President <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                            xml:id="d41fn1" type="source">Source: National Archives, <persName
+                                corresp="#p_NRM1">Nixon</persName> Presidential Materials, <gloss
+                                target="#t_NSC1">NSC</gloss> Files, Box 252, Agency Files, <gloss
+                                target="#t_NSC1">NSC</gloss> 1969-71. Secret. Sent for information.
+                            The memorandum was stamped and initialed by <persName corresp="#p_BAP1"
+                                >Alexander Butterfield</persName> to indicate that it was seen by
+                            the President. The attached study was drafted by Robert E. Osgood of the
+                                <gloss target="#t_NSC1">NSC</gloss> Staff.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-10-20"
@@ -8146,9 +8142,8 @@
                         <signed>
                             <persName corresp="#p_REL1">
                                 <hi rend="strong">Elliot L. Richardson</hi>
-                            </persName>
-                            <note n="4" xml:id="d42fn4">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="4" xml:id="d42fn4">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -8194,10 +8189,10 @@
                     frus:doc-dateTime-min="1969-11-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-11-18T23:59:59-05:00">
                     <head>44. Special Message From President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Congress</gloss>
-                        <note n="1" xml:id="d44fn1" type="source">Source: Public Papers of the
-                            Presidents of the United States: <persName corresp="#p_NRM1">Richard
-                                Nixon</persName>, 1969, pp. 940-946.</note>
+                            >Nixon</persName> to the <gloss type="to">Congress</gloss><note n="1"
+                            xml:id="d44fn1" type="source">Source: Public Papers of the Presidents of
+                            the United States: <persName corresp="#p_NRM1">Richard Nixon</persName>,
+                            1969, pp. 940-946.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-11-18"
@@ -8339,12 +8334,12 @@
                     frus:doc-dateTime-max="1969-12-03T23:59:59-05:00">
                     <head>45. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
-                        President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                        <note n="1" xml:id="d45fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                                <gloss target="#t_NSC1">NSC</gloss> Files, Box 1050, Staff Files,
-                            Staff Memos, <persName corresp="#p_MDP1">Moynihan</persName> 3/69-11/70.
-                            Eyes Only; Sensitive.</note>
+                        President <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                            xml:id="d45fn1" type="source">Source: National Archives, <persName
+                                corresp="#p_NRM1">Nixon</persName> Presidential Materials, <gloss
+                                target="#t_NSC1">NSC</gloss> Files, Box 1050, Staff Files, Staff
+                            Memos, <persName corresp="#p_MDP1">Moynihan</persName> 3/69-11/70. Eyes
+                            Only; Sensitive.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-12-03"
@@ -8489,8 +8484,7 @@
                             <hi rend="strong">Memorandum From the President’s Assistant for Urban
                                 Affairs (<persName corresp="#p_MDP1">Moynihan</persName>) to
                                 President <persName corresp="#p_NRM1">Nixon</persName>
-                            </hi>
-                            <note n="2" xml:id="d45fn2">No classification marking. <persName
+                            </hi><note n="2" xml:id="d45fn2">No classification marking. <persName
                                     corresp="#p_NRM1">Nixon</persName> added the following
                                 handwritten note on the memorandum and sent it to <persName
                                     corresp="#p_KHA1">Kissinger</persName>: “K—Return to me with
@@ -8693,9 +8687,8 @@
                         <signed>
                             <persName corresp="#p_REL1">
                                 <hi rend="strong">Elliot L. Richardson</hi>
-                            </persName>
-                            <note n="2" xml:id="d46fn2">Printed from a copy that bears this typed
-                                signature.</note>
+                            </persName><note n="2" xml:id="d46fn2">Printed from a copy that bears
+                                this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
@@ -8927,11 +8920,11 @@
                     frus:doc-dateTime-max="1969-12-24T23:59:59-05:00">
                     <head>48. Memorandum From Secretary of State <persName corresp="#p_RWP1"
                             type="from">Rogers</persName> to President <persName corresp="#p_NRM1"
-                            type="to">Nixon</persName>
-                        <note n="1" xml:id="d48fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                                <gloss target="#t_NSC1">NSC</gloss> Files, Box 325, Subject Files,
-                            President’s Annual Review of U.S. Foreign Policy. Confidential.</note>
+                            type="to">Nixon</persName><note n="1" xml:id="d48fn1" type="source"
+                            >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
+                            Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
+                            325, Subject Files, President’s Annual Review of U.S. Foreign Policy.
+                            Confidential.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1969-12-24"
@@ -9273,12 +9266,11 @@
                     frus:doc-dateTime-min="1970-01-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-01-15T23:59:59-05:00">
                     <head>51. Address by Secretary of State <persName corresp="#p_RWP1" type="from"
-                            >Rogers</persName>
-                        <note n="1" xml:id="d51fn1" type="source">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, February 2, 1970, pp. 118-120.
-                            Secretary <persName corresp="#p_RWP1">Rogers</persName> addressed the
-                            National Foreign Policy Conference for Editors and Broadcasters in the
-                            Department of State.</note>
+                            >Rogers</persName><note n="1" xml:id="d51fn1" type="source">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, February 2, 1970,
+                            pp. 118-120. Secretary <persName corresp="#p_RWP1">Rogers</persName>
+                            addressed the National Foreign Policy Conference for Editors and
+                            Broadcasters in the Department of State.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1970-01-15"
@@ -10442,11 +10434,11 @@
                     frus:doc-dateTime-max="1970-02-18T23:59:59-05:00">
                     <head>59. Memorandum From the President’s Special Assistant (<persName
                             corresp="#p_BP1" type="from">Buchanan</persName>) to President <persName
-                            corresp="#p_NRM1" type="to">Nixon</persName>
-                        <note n="1" xml:id="d59fn1" type="source">Source: National Archives,
-                                <persName corresp="#p_NRM1">Nixon</persName> Presidential Materials,
-                            White House Special Files, President’s Office Files, Box 80, Memoranda
-                            for the President, Jan 4-May 31, 1970. No classification marking.</note>
+                            corresp="#p_NRM1" type="to">Nixon</persName><note n="1" xml:id="d59fn1"
+                            type="source">Source: National Archives, <persName corresp="#p_NRM1"
+                                >Nixon</persName> Presidential Materials, White House Special Files,
+                            President’s Office Files, Box 80, Memoranda for the President, Jan 4-May
+                            31, 1970. No classification marking.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1970-02-18"
@@ -10650,8 +10642,8 @@
                     frus:doc-dateTime-min="1970-02-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-02-18T23:59:59-05:00">
                     <head>60. Report by President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Congress</gloss>
-                        <note n="1" xml:id="d60fn1" type="source">
+                            >Nixon</persName> to the <gloss type="to">Congress</gloss><note n="1"
+                            xml:id="d60fn1" type="source">
                             <p>Source: <hi rend="italic">Public Papers of the Presidents of the
                                     United States: <persName corresp="#p_NRM1">Richard
                                         Nixon</persName>, 1970,</hi> pp. 116-190. The report, the
@@ -11271,12 +11263,11 @@
                     frus:doc-dateTime-max="1970-03-27T23:59:59-05:00">
                     <head>63. Letter From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to President <persName corresp="#p_JJ3" type="to"
-                            >Chiang</persName>
-                        <note n="1" xml:id="d63fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG1">RG</gloss> 59, S/S Files: Lot 72 D 230, Presidential
-                            and Secretary of State Correspondence with Heads of State, 1961-1971,
-                            Box 18, China (Nationalist). Nodis. Also printed in <ref
-                                target="frus1969-76v17">
+                            >Chiang</persName><note n="1" xml:id="d63fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG1">RG</gloss> 59, S/S Files: Lot
+                            72 D 230, Presidential and Secretary of State Correspondence with Heads
+                            of State, 1961-1971, Box 18, China (Nationalist). Nodis. Also printed in
+                                <ref target="frus1969-76v17">
                                 <hi rend="italic">Foreign Relations,</hi> 1969-1976, China,
                                 1969-1972</ref>.</note>
                     </head>
@@ -11996,11 +11987,11 @@
                 <div type="document" xml:id="d67" n="67" subtype="historical-document"
                     frus:doc-dateTime-min="1970-07-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-07-01T23:59:59-05:00">
-                    <head>67. Interview With President <persName corresp="#p_NRM1">Nixon</persName>
-                        <note n="1" xml:id="d67fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1970,</hi> pp.
-                            546-549. The interview, conducted by <persName>Howard K.
+                    <head>67. Interview With President <persName corresp="#p_NRM1"
+                            >Nixon</persName><note n="1" xml:id="d67fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1970,</hi>
+                            pp. 546-549. The interview, conducted by <persName>Howard K.
                                 Smith</persName> of <gloss target="#t_ABC1">ABC</gloss>, <persName
                                 corresp="#p_SJA1">John</persName> Chancellor of <gloss
                                 target="#t_NBC1">NBC</gloss>, and Eric Sevareid of <gloss
@@ -12202,12 +12193,11 @@
                     frus:doc-dateTime-min="1970-07-30T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-07-30T23:59:59-05:00">
                     <head>68. Press Conference by President <persName corresp="#p_NRM1"
-                            >Nixon</persName>
-                        <note n="1" xml:id="d68fn1" type="source">Source: Public Papers of the
-                            Presidents of the United States: <persName corresp="#p_NRM1">Richard
-                                Nixon</persName>, 1970, pp. 626-635. The press conference was held
-                            at 8 p.m. in the Century Plaza Hotel and was broadcast on television and
-                            radio.</note>
+                            >Nixon</persName><note n="1" xml:id="d68fn1" type="source">Source:
+                            Public Papers of the Presidents of the United States: <persName
+                                corresp="#p_NRM1">Richard Nixon</persName>, 1970, pp. 626-635. The
+                            press conference was held at 8 p.m. in the Century Plaza Hotel and was
+                            broadcast on television and radio.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Los Angeles, California</placeName>, <date when="1970-07-30"
@@ -12748,13 +12738,13 @@
                     frus:doc-dateTime-min="1970-09-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-09-15T23:59:59-05:00">
                     <head>70. Message From President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Congress</gloss>
-                        <note n="1" xml:id="d70fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1970,</hi> pp.
-                            745-756. President <persName corresp="#p_NRM1">Nixon</persName> signed
-                            the message for transmittal to Congress in a ceremony in his office
-                            attended by the members of the Presidential Task Force on International
+                            >Nixon</persName> to the <gloss type="to">Congress</gloss><note n="1"
+                            xml:id="d70fn1" type="source">Source: <hi rend="italic">Public Papers of
+                                the Presidents of the United States: <persName corresp="#p_NRM1"
+                                    >Richard Nixon</persName>, 1970,</hi> pp. 745-756. President
+                                <persName corresp="#p_NRM1">Nixon</persName> signed the message for
+                            transmittal to Congress in a ceremony in his office attended by the
+                            members of the Presidential Task Force on International
                             Development.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -13071,18 +13061,17 @@
                     frus:doc-dateTime-min="1970-09-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-09-16T23:59:59-05:00">
                     <head>71. Off-the-Record Remarks by President <persName corresp="#p_NRM1"
-                            >Nixon</persName>
-                        <note n="1" xml:id="d71fn1" type="source">Source: Library of Congress,
-                            Manuscript Division, <persName corresp="#p_KHA1">Kissinger</persName>
-                            Papers, Box CL 426, Subject File, Background Briefings,
-                            September-October 1970. No classification marking. The President spoke
-                            from 4:47 to 5:25 p.m. in the Embassy Room of the Blackstone Hotel in
-                            Chicago. He addressed 60 editors and broadcasters from Illinois,
-                            Indiana, Iowa, Kentucky, Michigan, Minnesota, Nebraska, North Dakota,
-                            Ohio, and Wisconsin. (National Archives, <persName corresp="#p_NRM1"
-                                >Nixon</persName> Presidential Materials, White House Central Files,
-                            Staff Members and Office Files, Office of Presidential Papers and
-                            Archives, Daily Diary)</note>
+                            >Nixon</persName><note n="1" xml:id="d71fn1" type="source">Source:
+                            Library of Congress, Manuscript Division, <persName corresp="#p_KHA1"
+                                >Kissinger</persName> Papers, Box CL 426, Subject File, Background
+                            Briefings, September-October 1970. No classification marking. The
+                            President spoke from 4:47 to 5:25 p.m. in the Embassy Room of the
+                            Blackstone Hotel in Chicago. He addressed 60 editors and broadcasters
+                            from Illinois, Indiana, Iowa, Kentucky, Michigan, Minnesota, Nebraska,
+                            North Dakota, Ohio, and Wisconsin. (National Archives, <persName
+                                corresp="#p_NRM1">Nixon</persName> Presidential Materials, White
+                            House Central Files, Staff Members and Office Files, Office of
+                            Presidential Papers and Archives, Daily Diary)</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Chicago, Illinois</placeName>, <date when="1970-09-16"
@@ -13646,13 +13635,13 @@
                     frus:doc-dateTime-min="1970-10-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-10-04T23:59:59-05:00">
                     <head>73. Statement by President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Press</gloss>
-                        <note n="1" xml:id="d73fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1970,</hi> pp.
-                            804-809. The President spoke at 6:35 p.m. at a reception given for the
-                            press in Dromoland Castle. His purpose, indicated in his opening
-                            remarks, was to summarize the European trip he was concluding.</note>
+                            >Nixon</persName> to the <gloss type="to">Press</gloss><note n="1"
+                            xml:id="d73fn1" type="source">Source: <hi rend="italic">Public Papers of
+                                the Presidents of the United States: <persName corresp="#p_NRM1"
+                                    >Richard Nixon</persName>, 1970,</hi> pp. 804-809. The President
+                            spoke at 6:35 p.m. at a reception given for the press in Dromoland
+                            Castle. His purpose, indicated in his opening remarks, was to summarize
+                            the European trip he was concluding.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Newmarket-on-Fergus, Ireland</placeName>, <date
@@ -14239,13 +14228,12 @@
                     frus:doc-dateTime-max="1970-10-23T23:59:59-05:00">
                     <head>78. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">United Nations General
-                            Assembly</gloss>
-                        <note n="1" xml:id="d78fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1970,</hi> pp.
-                            926-932. The President spoke at 3:55 p.m. at the <gloss target="#t_UN1"
-                                >UN</gloss> Headquarters. His address was broadcast live on
-                            television and radio.</note>
+                            Assembly</gloss><note n="1" xml:id="d78fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1970,</hi>
+                            pp. 926-932. The President spoke at 3:55 p.m. at the <gloss
+                                target="#t_UN1">UN</gloss> Headquarters. His address was broadcast
+                            live on television and radio.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1970-10-23"
@@ -15204,12 +15192,12 @@
                     frus:doc-dateTime-max="1971-02-10T23:59:59-05:00">
                     <head>84. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
-                        President <persName corresp="#p_NRM1" type="to">Nixon</persName>
-                        <note n="1" xml:id="d84fn1" type="source">Source: National Security Council,
-                                <gloss target="#t_NSC1">NSC</gloss> Meetings File, February 11,
-                            1971, Annual Review. Confidential. Sent for information. The first page
-                            of the memorandum is stamped: “The President Has Seen …”. In the section
-                            of the memorandum not printed here, <persName corresp="#p_KHA1"
+                        President <persName corresp="#p_NRM1" type="to">Nixon</persName><note n="1"
+                            xml:id="d84fn1" type="source">Source: National Security Council, <gloss
+                                target="#t_NSC1">NSC</gloss> Meetings File, February 11, 1971,
+                            Annual Review. Confidential. Sent for information. The first page of the
+                            memorandum is stamped: “The President Has Seen …”. In the section of the
+                            memorandum not printed here, <persName corresp="#p_KHA1"
                                 >Kissinger</persName> noted: “We have stressed throughout your wish
                             that the report be a substantial and thoughtful presentation of the main
                             strands of this Administration’s foreign policy.” Reference is to the
@@ -15310,12 +15298,11 @@
                     frus:doc-dateTime-min="1971-02-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1971-02-25T23:59:59-05:00">
                     <head>85. Radio Address by President <persName corresp="#p_NRM1"
-                            >Nixon</persName>
-                        <note n="1" xml:id="d85fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1971,</hi> pp.
-                            213-214. The address coincided with the submission to Congress of the
-                                <persName corresp="#p_NRM1">Nixon</persName> administration’s second
+                            >Nixon</persName><note n="1" xml:id="d85fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1971,</hi>
+                            pp. 213-214. The address coincided with the submission to Congress of
+                            the <persName corresp="#p_NRM1">Nixon</persName> administration’s second
                             annual comprehensive report on the conduct of U.S. foreign policy. The
                             President spoke at 11 a.m. from the White House. The text of the report
                             is ibid., pp. 219-345.</note>
@@ -15640,8 +15627,8 @@
                 <div type="document" xml:id="d87" n="87" subtype="historical-document"
                     frus:doc-dateTime-min="1971-03-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1971-03-12T23:59:59-05:00">
-                    <head>87. Address by President <persName corresp="#p_NRM1">Nixon</persName>
-                        <note n="1" xml:id="d87fn1" type="source">Source: <hi rend="italic">Public
+                    <head>87. Address by President <persName corresp="#p_NRM1">Nixon</persName><note
+                            n="1" xml:id="d87fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName
                                     corresp="#p_NRM1">Richard Nixon</persName>, 1971,</hi> pp.
                             428-430. The President spoke at the graduation exercises of the Naval
@@ -15965,11 +15952,10 @@
                     frus:doc-dateTime-min="1971-04-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1971-04-21T23:59:59-05:00">
                     <head>89. Special Message by President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Congress</gloss>
-                        <note n="1" xml:id="d89fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1971</hi>, pp.
-                            564-567.</note>
+                            >Nixon</persName> to the <gloss type="to">Congress</gloss><note n="1"
+                            xml:id="d89fn1" type="source">Source: <hi rend="italic">Public Papers of
+                                the Presidents of the United States: <persName corresp="#p_NRM1"
+                                    >Richard Nixon</persName>, 1971</hi>, pp. 564-567.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1971-04-21"
@@ -16478,13 +16464,13 @@
                     frus:doc-dateTime-min="1971-07-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1971-07-15T23:59:59-05:00">
                     <head>92. Remarks by President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Nation</gloss>
-                        <note n="1" xml:id="d92fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1971,</hi> pp.
-                            819-820. <persName corresp="#p_NRM1">Nixon</persName>’s remarks were
-                            broadcast live on radio and television at 7:31 p.m. from the <gloss
-                                target="#t_NBC1">NBC</gloss> studios in Burbank, California.</note>
+                            >Nixon</persName> to the <gloss type="to">Nation</gloss><note n="1"
+                            xml:id="d92fn1" type="source">Source: <hi rend="italic">Public Papers of
+                                the Presidents of the United States: <persName corresp="#p_NRM1"
+                                    >Richard Nixon</persName>, 1971,</hi> pp. 819-820. <persName
+                                corresp="#p_NRM1">Nixon</persName>’s remarks were broadcast live on
+                            radio and television at 7:31 p.m. from the <gloss target="#t_NBC1"
+                                >NBC</gloss> studios in Burbank, California.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <date when="1971-07-15" calendar="gregorian">July 15,
@@ -16745,12 +16731,11 @@
                     frus:doc-dateTime-min="1971-08-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1971-08-04T23:59:59-05:00">
                     <head>95. Press Conference by President <persName corresp="#p_NRM1"
-                            >Nixon</persName>
-                        <note n="1" xml:id="d95fn1" type="source">Source: Public Papers of the
-                            Presidents of the United States: <persName corresp="#p_NRM1">Richard
-                                Nixon</persName>, 1971, pp. 850-851. The section printed here is
-                            from item 2 of the press conference, entitled “The President’s Trip to
-                            China.”</note>
+                            >Nixon</persName><note n="1" xml:id="d95fn1" type="source">Source:
+                            Public Papers of the Presidents of the United States: <persName
+                                corresp="#p_NRM1">Richard Nixon</persName>, 1971, pp. 850-851. The
+                            section printed here is from item 2 of the press conference, entitled
+                            “The President’s Trip to China.”</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1971-08-04"
@@ -17266,11 +17251,11 @@
                     frus:doc-dateTime-min="1971-12-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1971-12-01T23:59:59-05:00">
                     <head>100. Address by Secretary of State <persName corresp="#p_RWP1"
-                            >Rogers</persName>
-                        <note n="1" xml:id="d100fn1" type="source">Source: Department of State <hi
-                                rend="italic">Bulletin,</hi> December 20, 1971, pp. 693-697.
-                            Secretary <persName corresp="#p_RWP1">Rogers</persName> addressed the
-                            50th anniversary dinner of the Overseas Writers of Washington.</note>
+                            >Rogers</persName><note n="1" xml:id="d100fn1" type="source">Source:
+                            Department of State <hi rend="italic">Bulletin,</hi> December 20, 1971,
+                            pp. 693-697. Secretary <persName corresp="#p_RWP1">Rogers</persName>
+                            addressed the 50th anniversary dinner of the Overseas Writers of
+                            Washington.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1971-12-01"
@@ -18889,12 +18874,12 @@
                     frus:doc-dateTime-min="1972-05-08T00:00:00-05:00"
                     frus:doc-dateTime-max="1972-05-08T23:59:59-05:00">
                     <head>112. Address by President <persName corresp="#p_NRM1" type="from"
-                            >Nixon</persName> to the <gloss type="to">Nation</gloss>
-                        <note n="1" xml:id="d112fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1972,</hi> pp.
-                            583-587. The President spoke at 9 p.m. from the Oval Office at the White
-                            House. His address was broadcast live on radio and television.</note>
+                            >Nixon</persName> to the <gloss type="to">Nation</gloss><note n="1"
+                            xml:id="d112fn1" type="source">Source: <hi rend="italic">Public Papers
+                                of the Presidents of the United States: <persName corresp="#p_NRM1"
+                                    >Richard Nixon</persName>, 1972,</hi> pp. 583-587. The President
+                            spoke at 9 p.m. from the Oval Office at the White House. His address was
+                            broadcast live on radio and television.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1972-05-08"
@@ -19577,12 +19562,11 @@
                     frus:doc-dateTime-max="1972-06-01T23:59:59-05:00">
                     <head>117. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to a <gloss type="to">Joint Session of the
-                            Congress</gloss>
-                        <note n="1" xml:id="d117fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1972,</hi> pp.
-                            660-666. The President spoke at 9:40 p.m. in the House Chamber at the
-                            Capitol. The address, presented upon the President’s return from the
+                            Congress</gloss><note n="1" xml:id="d117fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1972,</hi>
+                            pp. 660-666. The President spoke at 9:40 p.m. in the House Chamber at
+                            the Capitol. The address, presented upon the President’s return from the
                             Moscow Summit, as well as visits to Austria, Iran, and Poland, was
                             broadcast live on radio and television.</note>
                     </head>
@@ -20507,11 +20491,11 @@
                 <div type="document" xml:id="d121" n="121" subtype="historical-document"
                     frus:doc-dateTime-min="1972-09-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1972-09-25T23:59:59-05:00">
-                    <head>121. Remarks by President <persName corresp="#p_NRM1">Nixon</persName>
-                        <note n="1" xml:id="d121fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1972,</hi> pp.
-                            907-908. The President spoke at 11:18 a.m. in the Ballroom of the
+                    <head>121. Remarks by President <persName corresp="#p_NRM1"
+                            >Nixon</persName><note n="1" xml:id="d121fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1972,</hi>
+                            pp. 907-908. The President spoke at 11:18 a.m. in the Ballroom of the
                             Sheraton Park Hotel at the opening session of the annual meeting of the
                             Boards of Governors of the International Monetary Fund and the
                             International Bank for Reconstruction and Development.</note>
@@ -20672,13 +20656,13 @@
                     frus:doc-dateTime-min="1972-09-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1972-09-26T23:59:59-05:00">
                     <head>122. Statement by Secretary of the Treasury <persName corresp="#p_SGP1"
-                            >Shultz</persName>
-                        <note n="1" xml:id="d122fn1" type="source">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, October 23, 1972, pp. 460-462, 465-466.
-                            Secretary <persName corresp="#p_SGP1">Shultz</persName> made his
-                            statement before the combined <gloss target="#t_IMF1">IMF</gloss>-<gloss
-                                target="#t_IBRD1">IBRD</gloss> Boards of Governors. He was U.S.
-                            Governor of the Fund and the Bank.</note>
+                            >Shultz</persName><note n="1" xml:id="d122fn1" type="source">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, October 23, 1972,
+                            pp. 460-462, 465-466. Secretary <persName corresp="#p_SGP1"
+                                >Shultz</persName> made his statement before the combined <gloss
+                                target="#t_IMF1">IMF</gloss>-<gloss target="#t_IBRD1">IBRD</gloss>
+                            Boards of Governors. He was U.S. Governor of the Fund and the
+                            Bank.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1972-09-26"
@@ -20813,12 +20797,12 @@
                 <div type="document" xml:id="d123" n="123" subtype="historical-document"
                     frus:doc-dateTime-min="1972-11-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
-                    <head>123. Address by President <persName corresp="#p_NRM1">Nixon</persName>
-                        <note n="1" xml:id="d123fn1" type="source">Source: <hi rend="italic">Public
-                                Papers of the Presidents of the United States: <persName
-                                    corresp="#p_NRM1">Richard Nixon</persName>, 1972</hi>, pp.
-                            1110-1114. The President’s address was recorded at the White House for
-                            broadcast at 12:07 p.m. on nationwide radio.</note>
+                    <head>123. Address by President <persName corresp="#p_NRM1"
+                            >Nixon</persName><note n="1" xml:id="d123fn1" type="source">Source: <hi
+                                rend="italic">Public Papers of the Presidents of the United States:
+                                    <persName corresp="#p_NRM1">Richard Nixon</persName>, 1972</hi>,
+                            pp. 1110-1114. The President’s address was recorded at the White House
+                            for broadcast at 12:07 p.m. on nationwide radio.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1972-11-04"
@@ -23359,8 +23343,7 @@
                                 <ref target="#in11">Triangular diplomacy</ref>
                                 <hi rend="italic">below</hi>), <ref target="#d55">55</ref>, <ref
                                     target="#d98">98</ref>
-                                <list>
-                                    <pb n="436" xml:id="pg_436" facs="0456"/>
+                                <pb n="436" xml:id="pg_436" facs="0456"/><list>
                                     <item>Annual Foreign Policy Report, <ref target="#d60">60</ref>
                                     </item>
                                     <item>
