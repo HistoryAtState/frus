@@ -504,18 +504,66 @@
         </rule>
     </pattern>
     
-    <pattern id="curly-quote-checks">
-        <title>Curly quote checks</title>
-        <rule context="text()">
-            <assert role="warn" test="not(matches(., '[“‘] '))">Check the curly open quotation mark
-                in "<value-of
-                    select="analyze-string(normalize-space(.), '.{0,10}[“‘] .{0,10}')/fn:match"/>".
-                It may be incorrectly oriented or have an extra trailing space.</assert>
-            <!-- note that we do not raise warnings for abbreviated numbers, like ’70s -->
-            <assert role="warn" test="not(matches(., ' [”’][^\d]'))">Check the curly close quotation
-                mark in "<value-of
-                    select="analyze-string(normalize-space(.), '.{0,10} [”’][^\d].{0,10}')/fn:match"
-                />". It may be incorrectly oriented or have an extra leading space.</assert>
+    <pattern id="curly-quote-orientation-checks">
+        <title>Curly quote orientation checks</title>
+
+        <!-- check all text nodes (except those in catDesc elements, 
+            since the imported frus-dates taxonomy contains straight quotes) -->
+        <rule context="text()[not(parent::tei:catDesc)]">
+
+            <!-- flag unexpected space after an open quote -->
+            <assert role="warn" test="not(matches(., '[“‘] '))">Curly open quotation mark appears in
+                    [<value-of
+                    select="string-join(analyze-string(normalize-space(.), '\S*[“‘] \S*')/fn:match, '; ')"
+                />]. Fix orientation? Delete trailing space?</assert>
+
+            <!-- flag unexpected space before a close quote. exclude abbreviated numbers, e.g., ’70s -->
+            <assert role="warn" test="not(matches(., ' [”’][^\d]'))">Curly close quotation mark
+                appears in [<value-of
+                    select="string-join(analyze-string(normalize-space(.), '\S* [”’][^\d]\S*')/fn:match, '; ')"
+                />]. Fix orientation? Delete leading space?</assert>
+
+            <!-- flag mixed use of straight and curly. exclude measures of feet and inches, e.g., 6' or 5'2" -->
+            <assert role="warn" test="not(matches(., '\D[''&quot;]') and matches(., '[‘’“”]'))"
+                >Mixed use of straight and curly quotes. Change straight to curly? Straight:
+                    [<value-of
+                    select="string-join(analyze-string(normalize-space(.), '\S*[''&quot;]\S*')/fn:match, '; ')"
+                />] // Curly: [<value-of
+                    select="string-join(analyze-string(normalize-space(.), '\S*[‘’“”]\S*')/fn:match, '; ')"
+                />] </assert>
+
+            <!-- flag all other instances of straight quotes. exclude measures of feet and inches -->
+            <assert role="warn" test="not(matches(., '\D[''&quot;]') and not(matches(., '[‘’“”]')))"
+                >Straight quotation marks found. Change to curly? [<value-of
+                    select="string-join(analyze-string(normalize-space(.), '\S*[''&quot;]\S*')/fn:match, '; ')"
+                />] </assert>
+
+            <!-- flag mismatched orientation in pairs of quotes -->
+            <assert test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of consecutive curly
+                quotes: [<value-of
+                    select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
+                />]. Fix orientation.</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="quote-checks-block-elements">
+        <title>Quote checks (on block elements only)</title>
+
+        <!-- prevent these block elements from having inverted quote marks in their first & last characters.
+             note: if we added these tests to all text nodes, we'd get lots of false positives, 
+                 e.g., quotes around italicized text or terms.
+             note: segs and cells sometime contain a double quote (“, ”, or "), i.e., ditto marks. 
+                 FRUS has used all 3 forms in typeset editions. 
+                 this check excludes such cases (though the "curly-quote-orientation-checks" above may catch some), 
+                 but it flags all others. -->
+        <rule
+            context="tei:p | tei:head | tei:note[@rend eq 'inline'] | tei:item[not(tei:list)] | (tei:seg | tei:cell)[not(matches(., '^[“”&quot; ]+$'))]">
+
+            <assert test="not(matches(., '[“‘]$'))">Curly open quotation mark appears as final
+                character of <value-of select="./name()"/> element. Fix orientation or delete?</assert>
+
+            <assert test="not(matches(., '^[”’]'))">Curly close quotation mark appears first
+                character of this <value-of select="./name()"/> element. Fix orientation or delete?</assert>
         </rule>
     </pattern>
 
