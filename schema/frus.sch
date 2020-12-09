@@ -562,7 +562,7 @@
             <assert test="not(matches(., '[“‘]$'))">Curly open quotation mark appears as final
                 character of <value-of select="./name()"/> element. Fix orientation or delete?</assert>
 
-            <assert test="not(matches(., '^[”’]'))">Curly close quotation mark appears first
+            <assert test="not(matches(., '^[”’][^\d]'))">Curly close quotation mark appears first
                 character of this <value-of select="./name()"/> element. Fix orientation or delete?</assert>
         </rule>
     </pattern>
