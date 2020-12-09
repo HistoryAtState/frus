@@ -1347,7 +1347,6 @@
         <body>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
                 frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
-                <pb n="1" xml:id="pg_1" facs="0029"/>
                 <head>Japan</head>
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
                     frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
@@ -1368,6 +1367,7 @@
                             documentation on the U.S. response to Japan’s position on nuclear
                             testing, see <ref target="frus1955-57v19">volume
                         XIX</ref>.</note></head>
+                    <pb n="1" xml:id="pg_1" facs="0029"/>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
                         frus:doc-dateTime-max="1955-01-04T16:13:00-05:00">
@@ -6135,12 +6135,12 @@
                             there was no final agreement with the Japanese on the agenda. The talks
                             would probably afford an opportunity to draw out the Japanese on several
                             issues including relations with the USSR and Red China trade.</p>
-                        <p>The Secretary asked about Mr. <persName>Kase</persName>
-                            <note n="3" xml:id="d42fn3">Ambassador Toshikazu Kase, Permanent
-                                Observer at the United Nations.</note> and Mr. <persName
-                                corresp="#p_SWJ1">Sebald</persName> indicated that he was the right
-                            hand man to <persName corresp="#p_SM1">Shigemitsu</persName> and that
-                            the Secretary had seen him recently prior to Kase’s going to New York as
+                        <p>The Secretary asked about Mr. <persName>Kase</persName><note n="3"
+                                xml:id="d42fn3">Ambassador Toshikazu Kase, Permanent Observer at the
+                                United Nations.</note> and Mr. <persName corresp="#p_SWJ1"
+                                >Sebald</persName> indicated that he was the right hand man to
+                                <persName corresp="#p_SM1">Shigemitsu</persName> and that the
+                            Secretary had seen him recently prior to Kase’s going to New York as
                             Japanese Observer to the <gloss target="#t_UN1">UN</gloss>.</p>
                         <p rend="flushleft"><hi rend="italic">Mutual Security Treaty</hi></p>
                         <p>The Secretary posed the question of our negotiating a mutual security
@@ -9359,7 +9359,7 @@
                                 <p>“On the basis of my separate talks in recent months with both the
                                     Japanese Bonin evacuees and the four-man delegation from Chichi
                                     Jima, it was apparent that the Japanese found our emphasis on
-                                    ’security’ hard to understand, while the present-day residents
+                                    ‘security’ hard to understand, while the present-day residents
                                     unabashedly based their opposition to the return of the Japanese
                                     on understandable arguments of economic self-interest plus the
                                     fears of reprisals growing out of testimony they gave in war
@@ -9370,7 +9370,7 @@
                                     threat. They were frank in stating that the difference in
                                     treatment seemed to them to be racial discrimination. It was of
                                     interest talking with Chichi Jima representatives to note from
-                                    their account of daily life in the Bonins that ’security’ does
+                                    their account of daily life in the Bonins that ‘security’ does
                                     not seem to inhibit them at all as far as their personal lives
                                     are concerned.” (Department of State, Central Files,
                                     794C.022/12–1455)</p></note></p>
@@ -13041,7 +13041,7 @@
                                         >Shigemitsu</persName>’s appeals, I suggest we have the
                                     historical division make a study to see whether there is any
                                     plausible basis for considering the islands of Kunashiri and
-                                    Etorofu as not necessarily part of ’the Kuriles’ as that word
+                                    Etorofu as not necessarily part of ‘the Kuriles’ as that word
                                     has been used in the various war conferences and Japanese peace
                                     treaty. Also please ask Defense people to give an estimate of
                                     the strategic importance to Russia of these two islands against
@@ -13449,7 +13449,7 @@
                                     recognized as being a part of the Kuriles, and the Japanese
                                     Prime Minister, speaking to the San Francisco conference
                                     convened to sign the peace treaty, specifically referred to
-                                    these two islands as being ’Of the South Kuriles’.”</p>
+                                    these two islands as being ‘Of the South Kuriles’.”</p>
                                 <p>The quotation in paragraph 5 is from remarks made by Prime
                                     Minister <persName corresp="#p_YS1">Yoshida</persName> at the
                                     Eighth Plenary Session of the Peace Conference, held September
@@ -15959,7 +15959,7 @@
                                     of atomic weapons nor acceptance of US plans to bring them into
                                     Japan. Defense Agency Chief <persName corresp="#p_KA1"
                                         >Kodaki</persName>, on other hand, although expressing
-                                    opposition to arming Japanese forces with ’Offensive’ guided
+                                    opposition to arming Japanese forces with ‘Offensive’ guided
                                     missiles, stated that it might be necessary for Japan to use
                                     weapons with atomic warheads in event Japan faced by danger due
                                     to change in international situation.” (<hi rend="italic"
@@ -16595,7 +16595,7 @@
                             the Ryukyus. We have already sent Outer<note n="6" xml:id="d125fn6"
                                     ><persName corresp="#p_HO1">Outerbridge
                                 Horsey</persName>.</note> a copy of <persName corresp="#p_SJM1">John
-                                Steeves</persName> ’ paper<note n="7" xml:id="d125fn7">Not
+                                Steeves</persName>’ paper<note n="7" xml:id="d125fn7">Not
                                 found.</note> on this subject which will form the basis for these
                             discussions. It was agreed that we should move ahead rapidly with this
                             study and point for May 1 as a completion date. Since we plan to
@@ -21106,34 +21106,34 @@
                                     <cell>44,050 airmen</cell>
                                 </row>
                                 <row>
-                                    <cell>” ” ” ” ” 1959</cell>
-                                    <cell>180,000 ”</cell>
-                                    <cell>30,134 “</cell>
-                                    <cell>41,795 “</cell>
+                                    <cell>" " " " 1959</cell>
+                                    <cell>180,000 "</cell>
+                                    <cell>30,134 "</cell>
+                                    <cell>41,795 "</cell>
                                 </row>
                                 <row>
-                                    <cell>” ” ” ” ” 1958</cell>
-                                    <cell>180,000 ”</cell>
-                                    <cell>28,611 ”</cell>
+                                    <cell>" " " " 1958</cell>
+                                    <cell>180,000 "</cell>
+                                    <cell>28,611 "</cell>
                                     <cell>33,340 ”</cell>
                                 </row>
                                 <row>
-                                    <cell>” ” ” ” ” 1957</cell>
-                                    <cell>170,000 ”</cell>
-                                    <cell>27,761 ”</cell>
-                                    <cell>25,600 ”</cell>
+                                    <cell>" " " " 1957</cell>
+                                    <cell>170,000 "</cell>
+                                    <cell>27,761 "</cell>
+                                    <cell>25,600 "</cell>
                                 </row>
                                 <row>
-                                    <cell>” ” ” ” ” 1956</cell>
-                                    <cell>160,000 ”</cell>
-                                    <cell>26,000 ”</cell>
-                                    <cell>22,600 ”</cell>
+                                    <cell>" " " " 1956</cell>
+                                    <cell>160,000 "</cell>
+                                    <cell>26,000 "</cell>
+                                    <cell>22,600 "</cell>
                                 </row>
                                 <row>
                                     <cell>Force now in being</cell>
-                                    <cell>143,000 ”</cell>
-                                    <cell>24,061 ”</cell>
-                                    <cell>16,000 ”</cell>
+                                    <cell>143,000 "</cell>
+                                    <cell>24,061 "</cell>
+                                    <cell>16,000 "</cell>
                                 </row>
                                 <row>
                                     <cell/>
@@ -21631,7 +21631,7 @@
                         </list>
                         <p>It may also be desirable to note that the court’s decision was made upon
                             the express assumption that: <quote rend="blockquote">
-                                <p>“ … <note n="4" xml:id="d180fn4">Ellipsis in the source
+                                <p>“… <note n="4" xml:id="d180fn4">Ellipsis in the source
                                         text.</note> the petitioner would receive a fair trial if
                                     the defendants should deliver the petitioner to the Japanese
                                     Government for trial under the Japanese Constitution and
@@ -24733,7 +24733,7 @@
                                 <p>A sovereign nation has exclusive jurisdiction to punish offenses
                                     against its laws committed within its borders, unless it
                                     expressly or impliedly consents to surrender its jurisdiction.
-                                    ’schooner Exchange v. M’Faddon,’ 7 Chranch 16, 136. Japan’s
+                                    ‘schooner Exchange v. M’Faddon,’ 7 Chranch 16, 136. Japan’s
                                     cession to the United States of jurisdiction to try American
                                     military personnel for conduct constituting an offense against
                                     the laws of both countries was conditioned by the covenant of
@@ -36107,18 +36107,18 @@
                             >405</ref>, <ref target="#pg_410">410</ref>, <ref target="#pg_413"
                             >413</ref>, <ref target="#pg_488">488</ref></item>
                 </list>
-                <pb n="578" xml:id="pg_578" facs="0606"/>
-                <pb n="579" xml:id="pg_579" facs="0607"/>
-                <pb n="580" xml:id="pg_580" facs="0608"/>
-                <pb n="581" xml:id="pg_581" facs="0609"/>
-                <pb n="582" xml:id="pg_582" facs="0610"/>
-                <pb n="583" xml:id="pg_583" facs="0611"/>
-                <pb n="584" xml:id="pg_584" facs="0612"/>
-                <pb n="585" xml:id="pg_585" facs="0613"/>
-                <pb n="586" xml:id="pg_586" facs="0614"/>
-                <pb n="587" xml:id="pg_587" facs="0615"/>
-                <pb n="588" xml:id="pg_588" facs="0616"/>
             </div>
+            <pb n="578" xml:id="pg_578" facs="0606"/>
+            <pb n="579" xml:id="pg_579" facs="0607"/>
+            <pb n="580" xml:id="pg_580" facs="0608"/>
+            <pb n="581" xml:id="pg_581" facs="0609"/>
+            <pb n="582" xml:id="pg_582" facs="0610"/>
+            <pb n="583" xml:id="pg_583" facs="0611"/>
+            <pb n="584" xml:id="pg_584" facs="0612"/>
+            <pb n="585" xml:id="pg_585" facs="0613"/>
+            <pb n="586" xml:id="pg_586" facs="0614"/>
+            <pb n="587" xml:id="pg_587" facs="0615"/>
+            <pb n="588" xml:id="pg_588" facs="0616"/>
         </back>
     </text>
 </TEI>

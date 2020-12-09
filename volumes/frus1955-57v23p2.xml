@@ -1180,13 +1180,13 @@
         <body>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
                 frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
-                <pb n="1" xml:id="pg_1" facs="0029"/>
                 <head>Korea</head>
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                     <head>U.S. Efforts to Secure the Withdrawal of the Neutral Nations Supervisory
                         Commission From Korea; The Question of the Introduction of Advanced Weapons
                         Into Korea</head>
+                    <pb n="1" xml:id="pg_1" facs="0029"/>
                     <div type="document" xml:id="d1" n="1" subtype="editorial-note"
                         frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
@@ -3415,10 +3415,10 @@
                         </list>
                         <list type="references">
                             <head>REFERENCE</head>
-                            <item>Annex A to <gloss target="#t_NSC1">NSC</gloss> 170/1</item>
-                            <note n="2" xml:id="d21fn2">Regarding <gloss target="#t_NSC1"
-                                    >NSC</gloss> 170/1, see <ref target="#d4fn2">footnote 2,
-                                    Document 4</ref>.</note>
+                            <item>Annex A to <gloss target="#t_NSC1">NSC</gloss> 170/1<note n="2"
+                                    xml:id="d21fn2">Regarding <gloss target="#t_NSC1">NSC</gloss>
+                                    170/1, see <ref target="#d4fn2">footnote 2, Document
+                                    4</ref>.</note></item>
                         </list>
                         <p>At the suggestion of the Secretary of Defense, concurred in by the
                             Department of State and the Central Intelligence Agency, the President
@@ -21173,7 +21173,7 @@
                         <pb n="336" xml:id="pg_336" facs="0364"/>
                         <p>“7. <persName corresp="#p_RS1">Rhee</persName> has probably increased the
                             responsiveness of the National Police Force to his orders by appointing
-                            as its new chief ’tiger’ <persName>Kim</persName>, who is noted for his
+                            as its new chief ‘tiger’ <persName>Kim</persName>, who is noted for his
                             brutal application of force when so ordered. The army’s <gloss
                                 target="#t_CIC1">CIC</gloss>, the other major internal security
                             force, remains under <persName corresp="#p_RS1">Rhee</persName>’s direct
@@ -21263,7 +21263,7 @@
                                     the president and in case of inability of both the president and
                                     the vice president to execute the duties of their offices, a
                                     member of the State Council selected in the order determined by
-                                    law, shall act as the president.’ ” [Footnote in the source
+                                    law, shall act as the president.’” [Footnote in the source
                                     text.]</p></note> In such an event, leaders of the
                             administration and the Liberal Party would probably seek to prevent
                                 <persName corresp="#p_CMJMC1">Chang</persName> from assuming power
@@ -24865,7 +24865,7 @@
                                 response to <gloss target="#t_NSC1">NSC</gloss> Action No. 1660 (see
                                     <ref target="#d201fn11">footnote 11</ref>, <ref target="#d201"
                                         ><hi rend="italic">Supra</hi></ref>), a draft statement
-                                outlining “US Policy Toward Korea,“ prepared by the Department of
+                                outlining “US Policy Toward Korea,” prepared by the Department of
                                 State, was submitted to the <gloss target="#t_NSC1">NSC</gloss>
                                 Planning Board on February 21, under cover of a note from Marion W.
                                 Boggs, Director of the <gloss target="#t_NSC1">NSC</gloss>
@@ -31159,7 +31159,7 @@
                                     what was necessary out of surplus American equipment in Korea.
                                         <persName corresp="#p_DAW1">Dulles</persName> indicated, in
                                     a handwritten note on the memorandum, that he was prepared to
-                                    clear the cable “on assumption that ’surplus’ to <gloss
+                                    clear the cable “on assumption that ‘surplus’ to <gloss
                                         target="#t_ROK1">ROK</gloss> will not unduly burden <gloss
                                         target="#t_MSA1">MSA</gloss> funds.” <persName
                                         corresp="#p_DAW1">Dulles</persName>’ reservation prompted
@@ -31848,7 +31848,7 @@
                                 instructed to modify the proposal outlined in telegram 229 to Seoul
                                 to indicate that “US Air Force units with greater capability than
                                 that possessed by the 58th wing will be rotated into Korea on a
-                                continuing basis.“ (<hi rend="italic">Ibid.</hi>)</note> E. UK
+                                continuing basis.” (<hi rend="italic">Ibid.</hi>)</note> E. UK
                                 977172.<note n="6" xml:id="d253fn6">In telegram UK 977172 CC to the
                                 Department of the Army, August 25, a joint Embassy–<gloss
                                     target="#t_CINCUNC1">CINCUNC</gloss> message, General <persName
@@ -37621,11 +37621,11 @@
                                 </list></item>
                         </list></item>
                 </list>
-                <pb n="561" xml:id="pg_561" facs="0589"/>
-                <pb n="562" xml:id="pg_562" facs="0590"/>
-                <pb n="563" xml:id="pg_563" facs="0591"/>
-                <pb n="564" xml:id="pg_564" facs="0592"/>
             </div>
+            <pb n="561" xml:id="pg_561" facs="0589"/>
+            <pb n="562" xml:id="pg_562" facs="0590"/>
+            <pb n="563" xml:id="pg_563" facs="0591"/>
+            <pb n="564" xml:id="pg_564" facs="0592"/>
         </back>
     </text>
 </TEI>

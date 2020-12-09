@@ -60,7 +60,6 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -1249,9 +1248,9 @@
             <pb n="XXII" xml:id="pg_XXII" facs="0026"/>
         </front>
         <body>
+            <pb n="1" xml:id="pg_1" facs="0027"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-02-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1957-12-30T19:23:00-05:00">
-                <pb n="1" xml:id="pg_1" facs="0027"/>
                 <head>The United Nations</head>
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-05-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1957-12-30T19:23:00-05:00">
@@ -1607,7 +1606,7 @@
                                 <label>(2)</label>
                                 <item>US position not sufficiently specific re timing of conference.
                                     Delegations ask whether we would support <gloss target="#t_SYG1"
-                                        >SYG</gloss> ’s proposal. Although <pb n="8" xml:id="pg_8"
+                                        >SYG</gloss>’s proposal. Although <pb n="8" xml:id="pg_8"
                                         facs="0034"/>we have stated that we are flexible as to time,
                                     other delegations have not been put at ease by these
                                     statements.</item>
@@ -4429,23 +4428,23 @@
                             the next session of the Assembly. I know of your own interest in looking
                             for new initiatives the US can properly undertake, and for our part, we
                             want to do everything we can to strengthen your hand in New York.</p>
-                        <p>We have done some preliminary staff work on the problem in this Bureau,
-                                <note n="2" xml:id="d24fn2">On March 22, <persName corresp="#p_BLP1"
-                                    >Bloomfield</persName> circulated a memorandum entitled “Action
-                                Program for Improvement in US Participation in the United Nations
-                                General Assembly” to 28 persons in the various offices of the Bureau
-                                of International Organization Affairs and in the Office of the Legal
-                                Adviser for International Organization Affairs. <persName
-                                    corresp="#p_BLP1">Bloomfield</persName> wrote that as the result
-                                of a meeting in Assistant Secretary of State <persName
-                                    corresp="#p_WFO1">Wilcox</persName>’s office on March 20, it was
-                                decided to “move ahead without delay” in carrying out this action
-                                program. <persName corresp="#p_BLP1">Bloomfield</persName> added
-                                that “It was agreed that the report dated February 9, 1956 entitled
-                                ‘Evaluation of Role of US in 10th General Assembly’ [<ref
-                                    target="#d22">Document 22</ref>] would be considered as general
-                                background for all teams.’ ”<p>According to <persName
-                                        corresp="#p_BLP1">Bloomfield</persName>’s March 22
+                        <p>We have done some preliminary staff work on the problem in this
+                                Bureau,<note n="2" xml:id="d24fn2">On March 22, <persName
+                                    corresp="#p_BLP1">Bloomfield</persName> circulated a memorandum
+                                entitled “Action Program for Improvement in US Participation in the
+                                United Nations General Assembly” to 28 persons in the various
+                                offices of the Bureau of International Organization Affairs and in
+                                the Office of the Legal Adviser for International Organization
+                                Affairs. <persName corresp="#p_BLP1">Bloomfield</persName> wrote
+                                that as the result of a meeting in Assistant Secretary of State
+                                    <persName corresp="#p_WFO1">Wilcox</persName>’s office on March
+                                20, it was decided to “move ahead without delay” in carrying out
+                                this action program. <persName corresp="#p_BLP1"
+                                    >Bloomfield</persName> added that “It was agreed that the report
+                                dated February 9, 1956 entitled ‘Evaluation of Role of US in 10th
+                                General Assembly’ [<ref target="#d22">Document 22</ref>] would be
+                                considered as general background for all teams.’ ”<p>According to
+                                        <persName corresp="#p_BLP1">Bloomfield</persName>’s March 22
                                     memorandum, four teams were established, each composed of five
                                     to six members and several alternates headed by a steering
                                     member, except for Team 4 which was composed of nine members and
@@ -4478,7 +4477,7 @@
                                     from a copy that bears this typed
                             signature.</note></signed></closer>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <head>Memorandum From the Assistant Secretary of State for International
                                 Organization Affairs (<persName corresp="#p_WFO1">Wilcox</persName>)
@@ -4667,7 +4666,7 @@
                             </list>
                         </frus:attachment>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[<gloss
+                            <note rend="inline" type="source"><hi rend="strong">[<gloss
                                         target="#t_TAB1">Tab</gloss> A]</hi></note>
                             <note n="6" xml:id="d24fn6">A notation on the source text includes that
                                 it was revision 2 of the Team 1 paper, May 7.</note>
@@ -4968,7 +4967,7 @@
                         </frus:attachment>
                         <pb n="73" xml:id="pg_73" facs="0099"/>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[<gloss
+                            <note rend="inline" type="source"><hi rend="strong">[<gloss
                                         target="#t_TAB1">Tab</gloss> B]</hi></note>
                             <note n="7" xml:id="d24fn7">A notation on the source text indicates it
                                 was revision 2 of the Team 2 paper, May 7.</note>
@@ -5187,7 +5186,7 @@
                                 </list></p>
                         </frus:attachment>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[<gloss
+                            <note rend="inline" type="source"><hi rend="strong">[<gloss
                                         target="#t_TAB1">Tab</gloss> C]</hi></note>
                             <note n="8" xml:id="d24fn8">A notation on the source text indicates that
                                 it was revision 1 of the Team 3 paper, May 2.</note>
@@ -5320,7 +5319,7 @@
                                 G.A.</p>
                         </frus:attachment>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Subattachment]</hi></note>
                             <note n="9" xml:id="d24fn9">A notation on the source text indicates it
                                 was drafted on April 19.</note>
@@ -5587,7 +5586,7 @@
                         </frus:attachment>
                         <pb n="86" xml:id="pg_86" facs="0112"/>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[<gloss
+                            <note rend="inline" type="source"><hi rend="strong">[<gloss
                                         target="#t_TAB1">Tab</gloss> D]</hi></note>
                             <note n="13" xml:id="d24fn13">A notation on the source text indicates
                                 that this was revision 1 of this paper, May 2.</note>
@@ -5791,7 +5790,7 @@
                             </list>
                         </frus:attachment>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[<gloss
+                            <note rend="inline" type="source"><hi rend="strong">[<gloss
                                         target="#t_TAB1">Tab</gloss> E]</hi></note>
                             <note n="14" xml:id="d24fn14">A notation on the source text indicates
                                 that this was revision 2 o f the Team 4 paper, May 7.</note>
@@ -6552,7 +6551,7 @@
                         <closer><signed><hi rend="strong"><persName corresp="#p_WFO1"
                                         >Francis</persName></hi></signed></closer>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Enclosure]</hi></note>
                             <head>Draft Circular Telegram From the Department of State to Certain
                                 Diplomatic Missions<note n="3" xml:id="d29fn3">The source text
@@ -6839,7 +6838,7 @@
                         </list>
                         <pb n="110" xml:id="pg_110" facs="0136"/>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <head>Memorandum From the Assistant Secretary of State for International
                                 Organization Affairs (<persName corresp="#p_WFO1">Wilcox</persName>)
@@ -7808,7 +7807,7 @@
                                         >Francis</persName></hi></signed></closer>
                         <pb n="129" xml:id="pg_129" facs="0155"/>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <note n="2" xml:id="d36fn2">No drafting information is given on the
                                 source text, but presumably it was drafted in <gloss target="#t_IO1"
@@ -11255,10 +11254,10 @@
                             subversive activities of the <gloss target="#t_USA1">USA</gloss> and its
                             intervention in the domestic affairs of the people’s democracy;</p>
                         <p>“Considering that the states members of the <gloss target="#t_UN1"
-                                >UN</gloss> are bound under the Charter ’to practice tolerance and
+                                >UN</gloss> are bound under the Charter ‘to practice tolerance and
                             live together in peace with one another as good neighbors’;</p>
                         <p>“Recalling that in its Resolution 110 of 3 November 1947 the General
-                            Assembly condemns ’all forms of propaganda, in whatsoever country
+                            Assembly condemns ‘all forms of propaganda, in whatsoever country
                             conducted, which is either designed or likely to provoke or encourage
                             any threat to the peace, breach of the peace, or acts of
                             aggression’;</p>
@@ -11757,13 +11756,13 @@
                                         >UN</gloss> use in the future than it is to try to establish
                                     a standing <gloss target="#t_UN1">UN</gloss> force located in a
                                     specific place. The crucial factor is the willingness of States
-                                    to designate and hold ’available’ certain forces.”</p>
+                                    to designate and hold ‘available’ certain forces.”</p>
                             </quote></p>
                         <p><persName corresp="#p_WFO1">Wilcox</persName> closed by expressing
                             agreement with Nitze’s suggestion that Eastern Europe might well become
                             an area where such a United Nations Force could be employed in a
                             peace-keeping role. “I was particularly impressed with your view that
-                            the existence of ’United Nations tools of the type under study can
+                            the existence of ‘United Nations tools of the type under study can
                             create possibilities for action which the Russians must take into
                             account in their planning.’” (<hi rend="italic">Ibid</hi>.)</p>
                     </div>
@@ -13022,7 +13021,7 @@
                                         <persName corresp="#p_WWN1">Walmsley</persName>’s name
                                     inserted.</note></signed></closer>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Enclosure]</hi></note>
                             <note n="3" xml:id="d79fn3">No drafting information is given on the
                                 source text; a typewritten notation reads: “State Department Draft,
@@ -13374,7 +13373,7 @@
                                 whether an exception to the general practice should be made.</item>
                         </list>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <note n="2" xml:id="d81fn2">No drafting information is given on the
                                 source text.</note>
@@ -14411,7 +14410,7 @@
                             comment, but thought you might like to know now of the existence of the
                             project and of the Secretary’s interest in it.</p>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[Attachment
+                            <note rend="inline" type="source"><hi rend="strong">[Attachment
                                 1]</hi></note>
                             <head>Memorandum by the Secretary of State</head>
                             <opener>
@@ -14571,7 +14570,7 @@
                         </frus:attachment>
                         <pb n="251" xml:id="pg_251" facs="0277"/>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[Attachment
+                            <note rend="inline" type="source"><hi rend="strong">[Attachment
                                 2]</hi></note>
                             <head>Memorandum From the Legal Adviser (<persName corresp="#p_BL1"
                                     >Becker</persName>) to the Secretary of State</head>
@@ -14700,7 +14699,7 @@
                                 settlement or modus vivendi between the Israelis and the Arabs.</p>
                         </frus:attachment>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong">[Attachment
+                            <note rend="inline" type="source"><hi rend="strong">[Attachment
                                 3]</hi></note>
                             <head>Memorandum From the Secretary of State to the Legal Adviser
                                     (<persName corresp="#p_BL1">Becker</persName>)</head>
@@ -15420,7 +15419,7 @@
                                         Key</persName></hi><note n="3" xml:id="d104fn3">Printed from
                                     a copy that bears this typed signature.</note></signed></closer>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Enclosure]</hi></note>
                             <head>Draft Memorandum for the Secretary of State, Prepared in the
                                 Bureau of International Organization Affairs<note n="4"
@@ -15717,12 +15716,13 @@
                             circumstances for the USSR to veto Italy. If they did, President of
                             Italy would have good reason repudiate Communist support which helped
                             elect him.</p>
-                        <p>It may be possible to make an announcement at the San Francisco meetings
-                                <note n="3" xml:id="d107fn3">Reference is to the San Francisco U.N.
-                                Commemorative Meetings, June 20–26; see <ref target="#d5">Document
-                                    5</ref>.</note> concerning a subsequent meeting of the <gloss
-                                target="#t_SC1">SC</gloss> on the membership question, which would
-                            give the San Francisco meetings a much-needed shot in the arm.</p>
+                        <p>It may be possible to make an announcement at the San Francisco
+                                meetings<note n="3" xml:id="d107fn3">Reference is to the San
+                                Francisco U.N. Commemorative Meetings, June 20–26; see <ref
+                                    target="#d5">Document 5</ref>.</note> concerning a subsequent
+                            meeting of the <gloss target="#t_SC1">SC</gloss> on the membership
+                            question, which would give the San Francisco meetings a much-needed shot
+                            in the arm.</p>
                         <pb n="274" xml:id="pg_274" facs="0300"/>
                         <p>Believe the above would be of interest to Secretary <persName
                                 corresp="#p_DJF1">Dulles</persName> in the light of his activities
@@ -16141,7 +16141,7 @@
                             and that consequently <gloss target="#t_USUN1">USUN</gloss> be
                             instructed not to take any action on membership for the time being.</p>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <p rend="flushleft"><hi rend="italic">Applicants Supported by
                                 US</hi></p>
@@ -16433,7 +16433,7 @@
                                         the admission to the <gloss target="#t_UN1">UN</gloss> of
                                         Cambodia, Ceylon, Japan, Jordan, Laos, Libya, Nepal, and a
                                         “unified Vietnam.” The Prime Minister of Ceylon has
-                                        suggested to the Prime Minister of Indonesia <note n="2"
+                                        suggested to the Prime Minister of Indonesia<note n="2"
                                             xml:id="d112fn2">Sir John Lionel Kotelawala, Prime
                                             Minister of Ceylon, and Dr. Ali Sastroamidjojo, Prime
                                             Minister of Indonesia; see<ref target="#d113">
@@ -17720,7 +17720,7 @@
                                 “file carefully.”</note></p>
                         <pb n="311" xml:id="pg_311" facs="0337"/>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <head>Memorandum From the Assistant Secretary of State for Congressional
                                 Relations (<persName corresp="#p_MTB1">Morton</persName>) to the
@@ -18285,12 +18285,12 @@
                             endorsed.</p>
                         <p>In his speech at the opening of the General Assembly on September 22nd,
                             Secretary of State <persName corresp="#p_DJF1">Dulles</persName> pointed
-                            out ’that our organization’s power derives largely from moral judgments
-                            formed here’ and that, therefore, it is essential ’that there should be
+                            out ‘that our organization’s power derives largely from moral judgments
+                            formed here’ and that, therefore, it is essential ‘that there should be
                             here all of those eligible nations which, by their policies and conduct,
                             have demonstrated their devotion to the purposes and principles of
                                 <gloss target="#t_UN1">UN</gloss> charter’.</p>
-                        <p>He went on to point out that ’about a score of sovereign nations are not
+                        <p>He went on to point out that ‘about a score of sovereign nations are not
                             represented here and many of them meet the membership tests of our
                             charter. They are peace-loving and they have shown themselves able and
                             willing to carry out the Charter’s obligations. Their governments would
@@ -18305,7 +18305,7 @@
                         <p>It is reported that the Soviet Union will withhold its veto and that
                             these free nations can become members of the United Nations if the free
                             world is willing not to block the admission of governments behind the
-                            so-called ’iron curtain’—governments which are not equals among equals
+                            so-called ‘iron curtain’—governments which are not equals among equals
                             as are the large and small nations of the free world, but are in a
                             subordinate relationship to Moscow. We refer to Albania, Bulgaria,
                             Hungary and Rumania.</p>
@@ -18613,7 +18613,7 @@
                             members on the side of the Free World, including Italy and Japan, Spain
                             and Portugal; and on the side of the Soviet, four nations—Bulgaria,
                             Rumania, Albania and Hungary.</p>
-                        <p>“The President said: ’I can’t personally see any great defeat for us
+                        <p>“The President said: ‘I can’t personally see any great defeat for us
                             here. These countries are small nations. We would be getting in Italy
                             and Japan. The countries of Bulgaria, Rumania, Hungary and Albania will
                             of course always vote with the Russians, and we might find one or two of
@@ -18659,15 +18659,15 @@
                             148 of November 3, and has had time to consider said answers and comment
                             on them.</p>
                         <list>
-                            <item>”1. In his speech at the opening of the General Assembly on
+                            <item>“1. In his speech at the opening of the General Assembly on
                                 September 22nd, Secretary of State <persName corresp="#p_DJF1"
                                     >Dulles</persName> pointed out ‘that our organization’s power
                                 derives largely from moral judgments formed here’ and that,
-                                therefore, it is essential ’that there should be here all of those
+                                therefore, it is essential ‘that there should be here all of those
                                 eligible nations which, by their policies and conduct, have
                                 demonstrated their devotion to the purposes and principles of <gloss
                                     target="#t_UN1">UN</gloss> Charter’.</item>
-                            <item>2. He went on to point out that ’about a score of sovereign
+                            <item>2. He went on to point out that ‘about a score of sovereign
                                 nations are not represented here and many of them meet the
                                 membership tests of our charter. They are peace-loving and they have
                                 shown themselves able and willing to carry out the Charter’s
@@ -18693,7 +18693,7 @@
                             <item>6. It is reported that the Soviet Union will withhold its veto and
                                 that these free nations can become members of the United Nations if
                                 the free world is willing not to block the admission of govts behind
-                                the so-called ’iron curtain’—govts which are not equals among equals
+                                the so-called ‘iron curtain’—govts which are not equals among equals
                                 as are the nations of the free world, but are in a subordinate
                                 relationship to Moscow. We refer to Albania, Bulgaria, Hungary, and
                                 Rumania.</item>
@@ -18770,7 +18770,7 @@
                         <closer><signed><persName corresp="#p_DAW1"><hi rend="strong">Allen W.
                                         Dulles</hi></persName></signed></closer>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Enclosure]</hi></note>
                             <head>Suggested changes in Ambassador <persName corresp="#p_LHCJ1"
                                     >Lodge</persName>’s draft statement for the Press—<gloss
@@ -19010,12 +19010,12 @@
                             would appreciate your comments soonest:</p>
                         <p>“1. In his speech at the opening of the General Assembly on September
                             22nd, Secretary of State <persName corresp="#p_DJF1">Dulles</persName>
-                            pointed out ’that our organization’s power derives largely from moral
+                            pointed out ‘that our organization’s power derives largely from moral
                             judgments formed here’ and that, therefore, it is essential ‘that there
                             should be here all of those eligible nations which, by their policies
                             and conduct, have demonstrated their devotion to the purposes and
                             principles of the <gloss target="#t_UN1">UN</gloss> Charter’.</p>
-                        <p>2. He said further that ’about a score of sovereign nations are not
+                        <p>2. He said further that ‘about a score of sovereign nations are not
                             represented here and many of them meet the membership tests of our
                             Charter. They are peace-loving and they have shown themselves able and
                             willing to carry out the Charter’s obligations. Their governments would
@@ -19039,7 +19039,7 @@
                         <p>6. It is reported that the Soviet Union will withhold its veto and that
                             these free nations can become members of the <gloss target="#t_UN1"
                                 >UN</gloss> if the free world is willing not to block the admission
-                            of governments behind the so-called ’iron curtain’—governments which are
+                            of governments behind the so-called ‘iron curtain’—governments which are
                             not equals among equals as are the nations of the free world, but are in
                             a subordinate relationship to Moscow. This means Albania, Bulgaria,
                             Hungary, and Rumania.</p>
@@ -20472,8 +20472,8 @@
                                     be in our interest permit Western candidates to become political
                                     footballs. <persName corresp="#p_DSPJ1">Dixon</persName>
                                     agreed.</p>
-                                <pb n="361" xml:id="pg_361" facs="0387"/>
                             </item>
+                            <pb n="361" xml:id="pg_361" facs="0387"/>
                             <label>3.</label>
                             <item><p>…</p>
                                 <p>. . . . . . .</p>
@@ -21028,7 +21028,7 @@
                             enough votes in the open market. The onus would then be put,
                             dramatically, where it would belong.</p>
                         <frus:attachment>
-                            <note rend="source" type="inline"><hi rend="strong"
+                            <note rend="inline" type="source"><hi rend="strong"
                                 >[Attachment]</hi></note>
                             <list type="simple">
                                 <item>Portugal</item>
@@ -21633,8 +21633,8 @@
                                     Delegation states they have made their position clear to
                                         <persName corresp="#p_TJVV1">Trujillo</persName>. Cuba has
                                     announced it will vote against all satellites.</p>
-                                <pb n="384" xml:id="pg_384" facs="0410"/>
                             </item>
+                            <pb n="384" xml:id="pg_384" facs="0410"/>
                             <label>3.</label>
                             <item>Ambassador <persName corresp="#p_LHCJ1">Lodge</persName>
                                 telephoned <persName corresp="#p_TJVV1">Trujillo</persName> this
@@ -22994,17 +22994,17 @@
                             from <persName corresp="#p_BVA1">Belaunde</persName>, that I be
                             authorized to introduce the 17 nation motion with the proviso for
                             referring Outer Mongolia to the subcommittee on membership at an early
-                            meeting of the <gloss target="#t_SC1">SC</gloss>, Friday if possible.
-                                <note n="3" xml:id="d189fn3"><p>In <gloss target="#t_DelgaDelGA1"
-                                        >Delga</gloss> 385 from <gloss target="#t_USUN1"
-                                        >USUN</gloss>, November 30, <persName corresp="#p_LHCJ1"
-                                        >Lodge</persName> reported: “Since my wire November 18
-                                        (<gloss target="#t_DelgaDelGA1">Delga</gloss> 309), the
-                                    change in the public opinion factors concerning the membership
-                                    question and recent other developments bring me to the
-                                    conclusion that we should not now commit ourselves to voting for
-                                    the package of 18. If we go ahead and propose a package of 17
-                                    and it gets vetoed, we could then consider whole question
+                            meeting of the <gloss target="#t_SC1">SC</gloss>, Friday if
+                                possible.<note n="3" xml:id="d189fn3"><p>In <gloss
+                                        target="#t_DelgaDelGA1">Delga</gloss> 385 from <gloss
+                                        target="#t_USUN1">USUN</gloss>, November 30, <persName
+                                        corresp="#p_LHCJ1">Lodge</persName> reported: “Since my wire
+                                    November 18 (<gloss target="#t_DelgaDelGA1">Delga</gloss> 309),
+                                    the change in the public opinion factors concerning the
+                                    membership question and recent other developments bring me to
+                                    the conclusion that we should not now commit ourselves to voting
+                                    for the package of 18. If we go ahead and propose a package of
+                                    17 and it gets vetoed, we could then consider whole question
                                     afresh.” (Department of State, Central Files, 310.2/11–3055)</p>
                                 <p>In <gloss target="#t_DelgaDelGA1">Delga</gloss> 386 from <gloss
                                         target="#t_USUN1">USUN</gloss>, November 30, <persName
@@ -23148,14 +23148,14 @@
                                     “at tone of release in <gloss target="#t_USIA1">USIA</gloss>
                                     bulletin FEF–57, United Nations, NY, November 29, just received
                                     entitled ‘<gloss target="#t_UN1">UN</gloss> Membership Solution
-                                    Threatened by Republic of China.’ “ <persName corresp="#p_RKL1"
+                                    Threatened by Republic of China.’” <persName corresp="#p_RKL1"
                                         >Rankin</persName> stated that he considered this bulletin
                                     “highly inappropriate for USIS dissemination in Far East and
                                     have forbidden use in Taiwan”, adding that the bulletin seemed
                                     inconsistent with the purpose of the U.S. Information Agency
                                     which was to advance U.S. interests. The Ambassador objected
                                     specifically to the passage “indicating ‘desire [China] commit
-                                    suicide so far as <gloss target="#t_UN1">UN</gloss> concerned.’“
+                                    suicide so far as <gloss target="#t_UN1">UN</gloss> concerned.’”
                                     He concluded with the expressed belief “we are playing into
                                     Russian hands by putting blame on <gloss target="#t_GRC1"
                                         >GRC</gloss> instead of USSR where it belongs.” (<hi
@@ -30948,7 +30948,7 @@
                         the terms of the General Assembly Resolution the Conference is to examine
                         the law of the sea “taking account not only of the legal but also of the
                         technical, biological, economic, and political aspects of the problem…
-                            ."<note n="3" xml:id="d286fn3">Ellipsis in the source text.</note> The
+                            .”<note n="3" xml:id="d286fn3">Ellipsis in the source text.</note> The
                         Secretary General of the United Nations has already sent invitations to the
                         Conference to 88 countries.</p>
                     <p>The Department and the various other interested Departments of the Government
@@ -31068,7 +31068,7 @@
                         high seas, international fisheries, and rights over the continental shelf.
                         The Conference is to examine the law of the sea “taking account not only of
                         the legal but also of the technical, biological, economic, and political
-                        aspects of the problem …."<note n="4" xml:id="d287fn4">Ellipsis in the
+                        aspects of the problem ….”<note n="4" xml:id="d287fn4">Ellipsis in the
                             source text.</note> The results of the Conference’s deliberations may be
                         embodied in “one or more international conventions” or “other
                         instruments”.</p>
@@ -31150,7 +31150,7 @@
                         fisheries, and rights over the continental shelf. The Conference is to
                         examine the law of the sea “taking account not only of the legal but also of
                         the technical, biological, economic, and political aspects of the problem
-                            …".<note n="3" xml:id="d288fn3">Ellipsis in the source text.</note></p>
+                            …”.<note n="3" xml:id="d288fn3">Ellipsis in the source text.</note></p>
                     <p rend="flushleft"><hi rend="italic">Recommendations:<note n="4"
                                 xml:id="d288fn4">The source text indicates that <persName
                                     corresp="#p_HCA1">Herter</persName> approved the following
@@ -31477,7 +31477,7 @@
                     <p>[Here follows a suggested distribution list.]</p>
                     <closer><signed><hi rend="strong">WS</hi></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Annex A]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Annex A]</hi></note>
                         <head>Outline for Memorandum of Discussion Prepared by the Under Secretary
                             of State’s Special Assistant (Sanders)</head>
                         <opener><dateline rendition="#right"><hi rend="italic"
@@ -31538,7 +31538,7 @@
                     </frus:attachment>
                     <pb n="583" xml:id="pg_583" facs="0609"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Annex C]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Annex C]</hi></note>
                         <p rend="center">Defense’s Summary</p>
                         <p>At the meeting on the question of abstention which was held in the Office
                             of Under Secretary <persName corresp="#p_HCA1">Christian
@@ -31565,7 +31565,7 @@
                             US must outweigh all other considerations.</p>
                     </frus:attachment>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Annex D]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Annex D]</hi></note>
                         <p rend="center">Summary by Mr. <persName corresp="#p_HWC1"
                                 >Herrington</persName>—<gloss target="#t_UFW1">U/FW</gloss></p>
                         <p>With reference to abstention, Mr. <persName corresp="#p_HWC1"
@@ -32285,8 +32285,8 @@
                         commerce of an extension of the territorial sea. These are the
                         considerations of a general character which are mentioned in the reference
                         instruction as among those demonstrating why it is in the interest of the
-                        individual states to support the three-mile rule. Sections II, III and IV
-                            <note n="3" xml:id="d292fn3">These sections dealt, respectively, with
+                        individual states to support the three-mile rule. Sections II, III and
+                            IV<note n="3" xml:id="d292fn3">These sections dealt, respectively, with
                             the effects on neutrality, military and naval operations, and air
                             operations.</note> deal with the effects of such an extension upon
                         international stability and the security of the nations of the free world.
@@ -32383,7 +32383,7 @@
                         of landlocked countries. It should be noted that the resolution of the
                         United Nations General Assembly convoking the conference on the law of the
                         sea refers specifically to the special problems of landlocked states and
-                            recommends"…<note n="2" xml:id="d293fn2">Ellipsis in the source
+                            recommends”…<note n="2" xml:id="d293fn2">Ellipsis in the source
                             text.</note> that <pb n="602" xml:id="pg_602" facs="0628"/>the
                         conference should study the question of free access to the sea of landlocked
                         countries, as established by international practice or treaties”.</p>
@@ -33916,7 +33916,7 @@
                                 copy that bears this typed signature.</note></signed></closer>
                     <pb n="633" xml:id="pg_633" facs="0659"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <head>DRAFT STATEMENT OF POLICY ON ANTARCTICA</head>
                         <p rend="center">General Considerations</p>
                         <list>
@@ -34526,18 +34526,18 @@
                             Discussion</item>
                     </list>
                     <p>It is understood that the recent Indian proposal to include the “Antarctic
-                        question” on the agenda for the next meeting of the next General Assembly
-                            <note n="2" xml:id="d314fn2">Telegram 641 from New York, February 24,
-                            reads: “On instructions, Indian delegation February 17 requested
-                            Secretary General <gloss target="#t_UN1">UN</gloss> include ‘the
-                            question of Antarctica’ on agenda 11th <gloss target="#t_GA1"
-                            >GA</gloss>. Indians have promised explanatory memo ‘in due course’ but
-                            have not yet submitted. New Dehli press report says Indians contemplate
-                            asking <gloss target="#t_GA1">GA</gloss> proclaim entire Antarctic area
-                                <gloss target="#t_UN1">UN</gloss> trust territory. Department and
-                            Mission have made no comment.” (<hi rend="italic">Ibid.</hi>)</note> was
-                        discussed during the last meeting of <gloss target="#t_OCB1"
-                        >OCB</gloss>.</p>
+                        question” on the agenda for the next meeting of the next General
+                            Assembly<note n="2" xml:id="d314fn2">Telegram 641 from New York,
+                            February 24, reads: “On instructions, Indian delegation February 17
+                            requested Secretary General <gloss target="#t_UN1">UN</gloss> include
+                            ‘the question of Antarctica’ on agenda 11th <gloss target="#t_GA1"
+                                >GA</gloss>. Indians have promised explanatory memo ‘in due course’
+                            but have not yet submitted. New Dehli press report says Indians
+                            contemplate asking <gloss target="#t_GA1">GA</gloss> proclaim entire
+                            Antarctic area <gloss target="#t_UN1">UN</gloss> trust territory.
+                            Department and Mission have made no comment.” (<hi rend="italic"
+                                >Ibid.</hi>)</note> was discussed during the last meeting of <gloss
+                            target="#t_OCB1">OCB</gloss>.</p>
                     <p>… The explanatory memorandum has not yet been presented by the Indians to the
                             <gloss target="#t_UN1">UN</gloss> secretariat and we have no details on
                         the <pb n="644" xml:id="pg_644" facs="0670"/>Indians proposal. Rumor has it
@@ -34662,7 +34662,7 @@
                             official policy statement on this topic used by the U.S. Delegation at
                             the Eleventh General Assembly.</note></p>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Attachment]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Attachment]</hi></note>
                         <head>Position Paper Prepared in the Office of United Nations Political and
                             Security Affairs</head>
                         <p rend="flushleft"><hi rend="italic">Status of Clearance:</hi></p>
@@ -34686,7 +34686,7 @@
                             support badly on other matters at this General Assembly.</p>
                     </frus:attachment>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong"
+                        <note rend="inline" type="source"><hi rend="strong"
                             >[Subattachment]</hi></note>
                         <head>QUESTION OF ANTARCTICA</head>
                         <p rend="flushleft">SD/<gloss target="#t_A1">A</gloss>/<gloss target="#t_C1"
@@ -35716,7 +35716,7 @@
                                 copy that bears this typed signature.</note></signed></closer>
                     <pb n="668" xml:id="pg_668" facs="0694"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure
                             1]</hi></note>
                         <head>ANTARCTICA</head>
                         <p rend="center">Comments by the Director, National Science Foundation</p>
@@ -35772,7 +35772,7 @@
                             signature.</note></signed></closer>
                     </frus:attachment>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure
                             2]</hi></note>
                         <head>ANTARCTICA</head>
                         <p rend="center">Comments by the Department of the Interior Ad Hoc
@@ -35835,7 +35835,7 @@
                                     signature.</note></signed></closer>
                     </frus:attachment>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure
                             3]</hi></note>
                         <head>ANTARCTICA</head>
                         <p rend="center">Comments by Admiral Dufek (Extract from letter by Admiral
@@ -36093,8 +36093,8 @@
                         <head>REFERENCES</head>
                         <item>A. <gloss target="#t_NSC1">NSC</gloss> 5424/1</item>
                         <item>B. <gloss target="#t_NSC1">NSC</gloss> 5528</item>
-                        <item>C. <gloss target="#t_NSC1">NSC</gloss> Actions Nos. 1500 and 1705
-                                <note n="2" xml:id="d330fn2">See <ref target="#d313fn7">footnote 7,
+                        <item>C. <gloss target="#t_NSC1">NSC</gloss> Actions Nos. 1500 and 1705<note
+                                n="2" xml:id="d330fn2">See <ref target="#d313fn7">footnote 7,
                                     Document 313</ref>, and <ref target="#d328fn4">footnote 4,
                                     Document 328</ref>.</note></item>
                         <item>D. Memos for Planning Board, April 18<note n="3" xml:id="d330fn3">Not
@@ -36120,7 +36120,7 @@
                                     Boggs</persName></hi><note n="5" xml:id="d330fn5">Printed from a
                                 copy that bears this typed signature.</note></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <head>DRAFT STATEMENT OF POLICY BY THE NATIONAL SECURITY COUNCIL ON
                             ANTARCTICA</head>
                         <p rend="flushleft"><hi rend="italic">General Considerations</hi></p>
@@ -37179,7 +37179,7 @@
                                     Jr.</persName></hi><note n="4" xml:id="d333fn4">Printed from a
                                 copy that bears this typed signature.</note></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <head>STATEMENT OF POLICY BY THE NATIONAL SECURITY COUNCIL ON
                             ANTARCTICA</head>
                         <p rend="flushleft"><hi rend="italic">General Considerations</hi></p>
@@ -37559,7 +37559,7 @@
                         </list>
                     </frus:attachment>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Attachment]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Attachment]</hi></note>
                         <head>FINANCIAL APPENDIX</head>
                         <p>Cost estimates in the Financial Appendix indicate order of magnitude.</p>
                         <p>Approval of the policy statement does not indicate approval of cost
@@ -38931,9 +38931,9 @@
                     </frus:attachment>
                 </div>
             </div>
+            <pb n="723" xml:id="pg_723" facs="0749"/>
             <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1955-05-20T00:00:00-05:00"
                 frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
-                <pb n="723" xml:id="pg_723" facs="0749"/>
                 <head>United States Interest in the Scientific Exploration of Outer Space</head>
                 <div type="document" xml:id="d339" n="339" subtype="editorial-note"
                     frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
@@ -38988,7 +38988,7 @@
                                 from a copy that bears this typed
                         signature.</note></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline">[<hi rend="strong">Enclosure</hi>]</note>
+                        <note rend="inline" type="source">[<hi rend="strong">Enclosure</hi>]</note>
                         <head>DRAFT STATEMENT OF POLICY ON U.S. SCIENTIFIC SATELLITE PROGRAM</head>
                         <p rend="flushleft"><hi rend="italic">General Considerations</hi></p>
                         <list>
@@ -39127,7 +39127,7 @@
                         </list>
                     </frus:attachment>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Attachment]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Attachment]</hi></note>
                         <head>FINANCIAL APPENDIX</head>
                         <p>1. Funds of the order of $20 million are estimated to be required to
                             assure a small scientific satellite during the period of the <gloss
@@ -40774,7 +40774,7 @@
                         Communist social system. The target for this particular thrust, thought Mr.
                             <persName corresp="#p_DAW1">Dulles</persName>, was evidently the
                         underdeveloped nations in the world. He informed members of the Council that
-                        he had copies of an FBIS <note n="3" xml:id="d348fn3">Foreign Broadcast
+                        he had copies of an FBIS<note n="3" xml:id="d348fn3">Foreign Broadcast
                             Information Service of the Central Intelligence Agency; it monitored
                             foreign broadcasts and summarized them in digest form, circulating the
                             summaries daily to various agencies and offices of the U.S.
@@ -41343,19 +41343,20 @@
                                     ><placeName>Washington</placeName>, <date
                                     when="1957-11-25T19:34:00-05:00" calendar="gregorian">November
                                     25, 1957—7:34 p.m.</date></hi></dateline></opener>
-                    <p>475. President Council International Civil Aviation Organization (Binaghi
-                            <note n="2" xml:id="d353fn2"><persName>Walter Binaghi</persName>,
-                            Argentina.</note>) letter October 22 to US representative Council
-                            (<persName>David</persName><note n="3" xml:id="d353fn3">Presumably Paul
-                            T. David, American economist. The letter is not printed.</note>)
-                        inquired whether in view development satellite capable traversing outer
-                        space states consider time ripe for international action re question of
-                        sovereignty outer space; if so whether they consider <pb n="770"
-                            xml:id="pg_770" facs="0796"/><gloss target="#t_ICAO1">ICAO</gloss> or
-                        some other existing organization or special conference should handle
-                        problem; if <gloss target="#t_ICAO1">ICAO</gloss> how it should be
-                        undertaken. A copy of Binaghi letter and US reply pouched with DS–4.<note
-                            n="4" xml:id="d353fn4">Not further identified.</note></p>
+                    <p>475. President Council International Civil Aviation Organization
+                            (Binaghi<note n="2" xml:id="d353fn2"><persName>Walter
+                            Binaghi</persName>, Argentina.</note>) letter October 22 to US
+                        representative Council (<persName>David</persName><note n="3"
+                            xml:id="d353fn3">Presumably Paul T. David, American economist. The
+                            letter is not printed.</note>) inquired whether in view development
+                        satellite capable traversing outer space states consider time ripe for
+                        international action re question of sovereignty outer space; if so whether
+                        they consider <pb n="770" xml:id="pg_770" facs="0796"/><gloss
+                            target="#t_ICAO1">ICAO</gloss> or some other existing organization or
+                        special conference should handle problem; if <gloss target="#t_ICAO1"
+                            >ICAO</gloss> how it should be undertaken. A copy of Binaghi letter and
+                        US reply pouched with DS–4.<note n="4" xml:id="d353fn4">Not further
+                            identified.</note></p>
                     <p><persName>David</persName> directed reply that considerably more experience
                         and technical development needed prior action on problem. To evolve at this
                         time theories re international principles applicable outer space or rules
@@ -41579,7 +41580,7 @@
                                 West, but might mean something quite different in other languages
                                 and areas. Nationality, racial and religious complications were
                                 foreseen. There was general agreement by the Board that efforts
-                                should be made to stop the proposed use of the name ’Goddard’ for
+                                should be made to stop the proposed use of the name ‘Goddard’ for
                                 the first satellite and that the whole policy of giving names to
                                 satellites should be reviewed.</p>
                             <p><hi rend="italic">“It was agreed</hi> by the Board that Defense
@@ -44769,8 +44770,7 @@
                                             >271</ref>–<ref target="#pg_272">272</ref>, <ref
                                             target="#pg_288">288</ref>–<ref target="#pg_291"
                                             >291</ref>
-                                        <list>
-                                            <pb n="798" xml:id="pg_798" facs="0824"/>
+                                        <pb n="798" xml:id="pg_798" facs="0824"/><list>
                                             <item>Scale of assessments, <ref target="#pg_128"
                                                   >128</ref>–<ref target="#pg_132">132</ref>, <ref
                                                   target="#pg_142">142</ref>, <ref target="#pg_146"
@@ -47276,13 +47276,13 @@
                     <item><persName corresp="#p_ZVA1">Zorin, Valentin A.</persName>, <ref
                             target="#pg_257">257</ref></item>
                 </list>
-                <pb n="809" xml:id="pg_809" facs="0835"/>
-                <pb n="810" xml:id="pg_810" facs="0836"/>
-                <pb n="811" xml:id="pg_811" facs="0837"/>
-                <pb n="812" xml:id="pg_812" facs="0838"/>
-                <pb n="813" xml:id="pg_813" facs="0839"/>
-                <pb n="814" xml:id="pg_814" facs="0840"/>
             </div>
+            <pb n="809" xml:id="pg_809" facs="0835"/>
+            <pb n="810" xml:id="pg_810" facs="0836"/>
+            <pb n="811" xml:id="pg_811" facs="0837"/>
+            <pb n="812" xml:id="pg_812" facs="0838"/>
+            <pb n="813" xml:id="pg_813" facs="0839"/>
+            <pb n="814" xml:id="pg_814" facs="0840"/>
         </back>
     </text>
 </TEI>

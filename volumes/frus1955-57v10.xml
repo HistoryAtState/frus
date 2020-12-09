@@ -62,7 +62,6 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -3045,10 +3044,11 @@
                                         text.]</note></cell>
                                 <cell role="num">242.0<note n="19" xml:id="d6fn19">Includes $62
                                         million Palestine Refugee Program. [Footnote in the source
-                                        text.]</note><note n="21" xml:id="d6fn21">Excludes $100
-                                        million President’s Fund for Asian Economic Development, not
-                                        distributed between the Far East and South Asia. [Footnote
-                                        in the source text.]</note></cell>
+                                        text.]</note>
+                                    <note n="21" xml:id="d6fn21">Excludes $100 million President’s
+                                        Fund for Asian Economic Development, not distributed between
+                                        the Far East and South Asia. [Footnote in the source
+                                        text.]</note></cell>
                             </row>
                             <row>
                                 <cell>Far East</cell>
@@ -10117,8 +10117,9 @@
                                 <cell>Treasury</cell>
                                 <cell/>
                             </row>
+                            <pb n="161" xml:id="pg_161" facs="0193"/>
                             <row>
-                                <cell><pb n="161" xml:id="pg_161" facs="0193"/>Commerce</cell>
+                                <cell>Commerce</cell>
                                 <cell>No position</cell>
                             </row>
                             <row>
@@ -14812,7 +14813,7 @@
                             and the People’s Republic of China. See <ref
                                 target="frus1955-57v02#pg_678">vol. II, pp. 678</ref> ff; <ref
                                 target="frus1955-57v03">volume III</ref>, and <ref
-                                target="frus1955-57v03Supp">the microfiche supplement to volume
+                                target="frus1955-57v03mSupp">the microfiche supplement to volume
                                 III</ref>.</note> does not by itself create a situation that
                         warrants any relaxation of controls towards China.</p>
                     <pb n="248" xml:id="pg_248" facs="0280"/>
@@ -16388,10 +16389,10 @@
                     <closer><signed><persName corresp="#p_DJF1"><hi rend="strong"
                                 >Dulles</hi></persName></signed></closer>
                 </div>
+                <pb n="278" xml:id="pg_278" facs="0310"/>
                 <div type="document" xml:id="d84" n="84" subtype="historical-document"
                     frus:doc-dateTime-min="1955-12-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1955-12-12T23:59:59-05:00">
-                    <pb n="278" xml:id="pg_278" facs="0310"/>
                     <head>84. Letter From the Assistant Secretary of Defense for International
                         Security Affairs (<persName corresp="#p_GG2" type="from">Gray</persName>) to
                         the Under Secretary of State (<persName corresp="#p_HHCJ1" type="to"
@@ -16517,9 +16518,9 @@
                             European Soviet Bloc, the United Kingdom intends a unilateral relaxation
                             of controls commencing about 15 January, 1956. Specifically, a <gloss
                                 target="#t_UK1">U.K.</gloss> official has stated the intention of
-                            that nation to take unilateral action and “ … by a gradual unobtrusive
+                            that nation to take unilateral action and “… by a gradual unobtrusive
                             process, over a period, bring the United Kingdom list for China into
-                            conformity with the agreed list for the Soviet Bloc … ”<note n="3"
+                            conformity with the agreed list for the Soviet Bloc …”<note n="3"
                                 xml:id="d85fn3">Ellipses in the source text.</note> This proposed
                             action allegedly results from the stated view that the United Kingdom
                             can no longer see any strategic justification for continuing the present
@@ -21573,7 +21574,7 @@
                         world. I know of no actions or intention on the part of the British
                         Government which warrant the conclusion in your letter that there seems to
                         be a decision “on the part of the <gloss target="#t_UK1">U.K.</gloss> to
-                        pull away from a close alliance with us … ”.<note n="4" xml:id="d124fn4"
+                        pull away from a close alliance with us …”.<note n="4" xml:id="d124fn4"
                             >Ellipsis in the source text.</note> From time to time there will
                         undoubtedly be differences on particular issues between the British and
                         ourselves. In deciding upon the U.S. course of action in such cases, we must
@@ -23249,7 +23250,7 @@
                             Foreign Ministers who were asked by the North Atlantic Council to look
                             into the appropriate role for <gloss target="#t_NATO1">NATO</gloss> in
                             non-military fields and to report to the Ministerial Meeting in
-                            December. The US response specifically states that “ …<note n="4"
+                            December. The US response specifically states that “…<note n="4"
                                 xml:id="d136fn4">Ellipsis in the source text.</note>
                             <gloss target="#t_NATO1">NATO</gloss> should give continuing attention
                             to concentrating economic strategy vis-à-vis the Soviet bloc and, in
@@ -45240,8 +45241,7 @@
                                 rend="italic">n</hi></ref>, <ref target="#pg_294">294</ref>–<ref
                             target="#pg_295">295</ref>, <ref target="#pg_455">455</ref>–<ref
                             target="#pg_456">456</ref>, <ref target="#pg_492">492</ref>
-                        <list>
-                            <pb n="772" xml:id="pg_772" facs="0804"/>
+                        <pb n="772" xml:id="pg_772" facs="0804"/><list>
                             <item>U.S. military and economic aid, <ref target="#pg_2">2</ref>–<ref
                                     target="#pg_3">3</ref>, <ref target="#pg_7">7</ref>, <ref
                                     target="#pg_9">9</ref>, <ref target="#pg_27">27</ref>, <ref
@@ -46122,16 +46122,16 @@
                     <item><persName corresp="#p_ZZGN1">Zaroubin, Georgi N.</persName>, <ref
                             target="#pg_507">507</ref></item>
                 </list>
-                <pb n="[776]" xml:id="pg_776" facs="0808"/>
-                <pb n="[777]" xml:id="pg_777" facs="0809"/>
-                <pb n="[778]" xml:id="pg_778" facs="0810"/>
-                <pb n="[779]" xml:id="pg_779" facs="0811"/>
-                <pb n="[780]" xml:id="pg_780" facs="0812"/>
-                <pb n="[781]" xml:id="pg_781" facs="0813"/>
-                <pb n="[782]" xml:id="pg_782" facs="0814"/>
-                <pb n="[783]" xml:id="pg_783" facs="0815"/>
-                <pb n="[784]" xml:id="pg_784" facs="0816"/>
             </div>
+            <pb n="[776]" xml:id="pg_776" facs="0808"/>
+            <pb n="[777]" xml:id="pg_777" facs="0809"/>
+            <pb n="[778]" xml:id="pg_778" facs="0810"/>
+            <pb n="[779]" xml:id="pg_779" facs="0811"/>
+            <pb n="[780]" xml:id="pg_780" facs="0812"/>
+            <pb n="[781]" xml:id="pg_781" facs="0813"/>
+            <pb n="[782]" xml:id="pg_782" facs="0814"/>
+            <pb n="[783]" xml:id="pg_783" facs="0815"/>
+            <pb n="[784]" xml:id="pg_784" facs="0816"/>
         </back>
     </text>
 </TEI>

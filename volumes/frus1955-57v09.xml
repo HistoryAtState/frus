@@ -63,7 +63,6 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -1703,9 +1702,9 @@
                     frus:doc-dateTime-max="1955-08-15T23:59:59-05:00">
                     <head>1. Memorandum From the Secretary of the Council on Foreign Economic Policy
                             (<persName corresp="#p_CPH1" type="from">Cullen</persName>) to the
-                            <gloss type="to">Members of the Council</gloss>
-                        <note n="2" xml:id="d1fn2" type="source">Source: Department of State,
-                            Central Files, 411.0041/11–2155. President <persName corresp="#p_EDD1"
+                            <gloss type="to">Members of the Council</gloss><note n="2"
+                            xml:id="d1fn2" type="source">Source: Department of State, Central Files,
+                            411.0041/11–2155. President <persName corresp="#p_EDD1"
                                 >Eisenhower</persName> established the Council on Foreign Economic
                             Policy on December 11, 1954, appointing as its chairman <persName
                                 corresp="#p_DJM1">Joseph M. Dodge</persName>, former Director of the
@@ -2212,10 +2211,10 @@
                     frus:doc-dateTime-min="1955-12-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1955-12-05T23:59:59-05:00">
                     <head>3. Letter From the <gloss type="from">President</gloss> to the <gloss
-                            type="to">Secretary of State</gloss>
-                        <note n="1" xml:id="d3fn1" type="source">Source: Eisenhower Library, Whitman
-                            File, <persName corresp="#p_DJF1">Dulles</persName>–<persName
-                                corresp="#p_HCA1">Herter</persName> Series. Personal.</note>
+                            type="to">Secretary of State</gloss><note n="1" xml:id="d3fn1"
+                            type="source">Source: Eisenhower Library, Whitman File, <persName
+                                corresp="#p_DJF1">Dulles</persName>–<persName corresp="#p_HCA1"
+                                >Herter</persName> Series. Personal.</note>
                     </head>
                     <opener><dateline rendition="#right"><placeName><hi rend="italic"
                                     >Gettysburg</hi></placeName>, <date when="1955-12-05"
@@ -4479,10 +4478,10 @@
                     frus:doc-dateTime-max="1957-04-17T23:59:59-05:00">
                     <head>12. Memorandum From the Chairman of the Subcommittee on Soviet Economic
                         Penetration (<persName corresp="#p_SFD1" type="from">Siefkin</persName>) to
-                        the <gloss type="to">Members of the Subcommittee</gloss>
-                        <note n="1" xml:id="d12fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_ICA1">ICA</gloss> Director’s File: FRC
-                            61 <gloss target="#t_A1">A</gloss> 32, Box 35, Finance–Investments.
+                        the <gloss type="to">Members of the Subcommittee</gloss><note n="1"
+                            xml:id="d12fn1" type="source">Source: Washington National Records
+                            Center, <gloss target="#t_ICA1">ICA</gloss> Director’s File: FRC 61
+                                <gloss target="#t_A1">A</gloss> 32, Box 35, Finance–Investments.
                             Confidential. Sent to <persName corresp="#p_MCHC1">McClellan</persName>,
                                 <persName corresp="#p_KTV1">Kalijarvi</persName>, <persName
                                 corresp="#p_FGDA1">FitzGerald</persName>, <persName
@@ -5654,24 +5653,22 @@
                         down by the U.S., want in dealing with the hard-core problem, we might
                         indicate a willingness to take some form of a time limit. You will recall
                         that you thought of making this suggestion to <persName corresp="#p_WLD1"
-                            >Wilgress</persName>
-                        <note n="4" xml:id="d19fn4"><persName corresp="#p_WLD1">L. Dana
-                                Wilgress</persName>, Chairman of the Contracting Parties to the
-                            General Agreement of Tariffs and Trade and Canadian Ambassador to the
-                            North Atlantic Council.</note> when we talked with him and <persName
-                            corresp="#p_SMW1">Sharp</persName>
-                        <note n="5" xml:id="d19fn5"><persName corresp="#p_SMW1">Mitchell
-                                Sharp</persName>, Associate Deputy Minister of the Canadian
-                            Department of Trade and Commerce.</note> in Paris, but at my suggestion
-                        withheld doing so in order that we could <pb n="82" xml:id="pg_82"
-                            facs="0112"/>use it as a possible negotiating counter here. I think the
-                        time has come or will come within a couple of days when, if we were able to
-                        make this offer, it would have a striking and very beneficial effect upon
-                        the entire atmosphere of this conference and especially upon the outcome of
-                        the hard-core problem and the U.S. negotiating position in a variety of
-                        matters which are now coming to a head. Against this we must, of course,
-                        weigh the political problem which such a time limit might create for us at
-                        home. Sincerely yours,</p>
+                            >Wilgress</persName><note n="4" xml:id="d19fn4"><persName
+                                corresp="#p_WLD1">L. Dana Wilgress</persName>, Chairman of the
+                            Contracting Parties to the General Agreement of Tariffs and Trade and
+                            Canadian Ambassador to the North Atlantic Council.</note> when we talked
+                        with him and <persName corresp="#p_SMW1">Sharp</persName><note n="5"
+                            xml:id="d19fn5"><persName corresp="#p_SMW1">Mitchell Sharp</persName>,
+                            Associate Deputy Minister of the Canadian Department of Trade and
+                            Commerce.</note> in Paris, but at my suggestion withheld doing so in
+                        order that we could <pb n="82" xml:id="pg_82" facs="0112"/>use it as a
+                        possible negotiating counter here. I think the time has come or will come
+                        within a couple of days when, if we were able to make this offer, it would
+                        have a striking and very beneficial effect upon the entire atmosphere of
+                        this conference and especially upon the outcome of the hard-core problem and
+                        the U.S. negotiating position in a variety of matters which are now coming
+                        to a head. Against this we must, of course, weigh the political problem
+                        which such a time limit might create for us at home. Sincerely yours,</p>
                     <closer><signed><persName><hi rend="strong"
                         >Win</hi></persName></signed></closer>
                 </div>
@@ -7205,7 +7202,7 @@
                         Tab A would seem to demonstrate that no serious damage could result from
                         such course of action.</p>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <note n="4" xml:id="d29fn4">Secret.</note>
                         <head>SPECIAL PROVISIONS RELATING TO THE EXPORT OF AGRICULTURAL COMMODITIES
                             TO THE SOVIET BLOC</head>
@@ -7504,7 +7501,7 @@
                                     target="#t_USA1">USA</gloss></hi></signed></closer>
                     <pb n="121" xml:id="pg_121" facs="0151"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Review of alternative sales policies for <gloss target="#t_CCC1"
@@ -9464,7 +9461,7 @@
                                     Francis</hi></persName></signed></closer>
                     <pb n="159" xml:id="pg_159" facs="0189"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <note n="3" xml:id="d49fn3">Official Use Only.</note>
                         <head>PROSPECTS OF FOREIGN DISPOSAL OF AGRICULTURAL SURPLUSES<note n="4"
                                 xml:id="d49fn4">Distributed to the Council as <gloss
@@ -10827,7 +10824,7 @@
                         attached memorandum from Mr. <persName corresp="#p_TBH1"
                             >Thibodeaux</persName>.</p>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <head><gloss target="#t_OTC1">OTC</gloss> LEGISLATION</head>
                         <p>You have asked whether, if an analysis of Congressional opinion is
                             unfavorable to <gloss target="#t_OTC1">OTC</gloss>, it would be wiser to
@@ -11281,7 +11278,7 @@
                                 signature.</note></signed></closer>
                     <pb n="197" xml:id="pg_197" facs="0227"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <p rend="flushleft"><hi rend="italic">An appraisal of the present situation
                                 of the General Agreement on Tariffs and Trade</hi></p>
                         <list>
@@ -12183,7 +12180,7 @@
                                 from a copy which bears this typed
                         signature.</note></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <note n="3" xml:id="d77fn3">Confidential.</note>
                         <head>SALES OF SURPLUS AGRICULTURAL COMMODITIES <gloss target="#t_TO1"
                                 >TO</gloss> BLOC COUNTRIES AT WORLD PRICES</head>
@@ -12569,7 +12566,7 @@
                                 which bears this typed signature.</note></signed></closer>
                     <pb n="222" xml:id="pg_222" facs="0252"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">Enclosure</hi> 2</note>
+                        <note rend="inline" type="source"><hi rend="strong">Enclosure</hi> 2</note>
                         <head>DISPOSAL OF UNITED STATES AGRICULTURAL SURPLUSES</head>
                         <list>
                             <label>1.</label>
@@ -12909,7 +12906,7 @@
                                     Herter</hi></persName><note n="6" xml:id="d84fn6">Printed from a
                                 copy which bears this stamped signature.</note></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <note n="7" xml:id="d84fn7">Official Use Only.</note>
                         <opener><dateline rendition="#right"><placeName><hi rend="italic"
                                         >Washington</hi></placeName>, <date when="1957-04-30"
@@ -14960,8 +14957,7 @@
                                             authorization)</p>
                                         <p>June 1959—$7.2 billion (with 2 billion P. L. 480
                                             authorization for fiscal 1959)</p>
-                                        <pb n="272" xml:id="pg_272" facs="0302"/>
-                                    </quote></p>
+                                    </quote></p><pb n="272" xml:id="pg_272" facs="0302"/>
                                 <p>Because of the current status of surplus there was unanimous
                                     agreement that the law should be extended through <gloss
                                         target="#t_FY1">FY</gloss> 1959.</p>
@@ -15023,8 +15019,8 @@
                             <item>There was unanimous agreement that including <gloss
                                     target="#t_PL1">P.L.</gloss> 480 transactions in calculations
                                 affecting price support was wrong in principle.</item>
-                            <pb n="273" xml:id="pg_273" facs="0303"/>
                         </list></p>
+                    <pb n="273" xml:id="pg_273" facs="0303"/>
                     <p>There was disagreement on the inclusion of such a correcting measure in the
                         law as contrasted with its inclusion elsewhere as is now contemplated by
                         Agriculture. While all would like to see correction, Budget was the primary
@@ -17651,7 +17647,7 @@
                                 Jr.</hi></persName><note n="3" xml:id="d128fn3">Printed from a copy
                                 which bears this stamped signature.</note></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <note n="4" xml:id="d128fn4">Official Use Only.</note>
                         <head>U.S. GOLD RESERVES AND FOREIGN LIQUID DOLLAR HOLDINGS</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="italic"
@@ -18459,7 +18455,7 @@
                         Agreement, and the nature of the proposed Corporation, and the United States
                         Delegation should refrain insofar as possible from responding to such
                         questions. One question may arise, however, <pb n="343" xml:id="pg_343"
-                            facs="0373"/> on which the Delegation might feel called upon to make a
+                            facs="0373"/>on which the Delegation might feel called upon to make a
                         statement. Under the Articles of Agreement, only present and future members
                         of the International Bank and Monetary Fund are eligible for membership in
                         the new Corporation. Certain delegations (Argentina, USSR and Czechoslovakia
@@ -18928,7 +18924,7 @@
                                     Cullen</hi></persName><lb/><hi rend="italic">Lt. Col., <gloss
                                     target="#t_USA1">USA</gloss></hi></signed></closer>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Attachment]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Attachment]</hi></note>
                         <note n="3" xml:id="d137fn3">For <gloss target="#t_NAC1">NAC</gloss> Use
                             Only.</note>
                         <opener>
@@ -19962,7 +19958,7 @@
                                 machinery.”</p>
                         </quote></p>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Enclosure]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
                         <head>THE CASE FOR AND AGAINST <gloss target="#t_SUNFED1"
                             >SUNFED</gloss></head>
                         <p rend="flushleft"><hi rend="italic">The Case for <gloss
@@ -22116,12 +22112,12 @@
                                 Delegation to the General Assembly, as to its nature.</p>
                             <p>In this connection, the Delegation’s attention is called to the last
                                 paragraph of <gloss target="#t_GADel1">Gadel</gloss> 142 of February
-                                12 <note n="5" xml:id="d160fn5">Not printed. (Department of State,
-                                    Central Files, 398.051/2–957)</note> which stated that the “U.S.
-                                cannot support any resolution which would require U.S. as a member
-                                Ad Hoc Committee to state a set of principles on which fund’s
-                                charter should be based or to select among governments’ views on
-                                fund’s organization and administration those which it favors.
+                                    12<note n="5" xml:id="d160fn5">Not printed. (Department of
+                                    State, Central Files, 398.051/2–957)</note> which stated that
+                                the “U.S. cannot support any resolution which would require U.S. as
+                                a member Ad Hoc Committee to state a set of principles on which
+                                fund’s charter should be based or to select among governments’ views
+                                on fund’s organization and administration those which it favors.
                                 Function Ad Hoc Committee should continue to be essentially clerical
                                 and limited to organization of views of governments into meaningful
                                 categories”.</p>
@@ -22481,7 +22477,7 @@
                             October 1.</note></p>
                     <pb n="423" xml:id="pg_423" facs="0453"/>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Tab A]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Tab A]</hi></note>
                         <head>PROPOSED POSITION PAPER ON <gloss target="#t_SUNFED1">SUNFED</gloss>
                             FOR TWELFTH GENERAL ASSEMBLY<note n="3" xml:id="d162fn3">Drafted by Gold
                                 and <persName corresp="#p_KWM1">Kotschnig</persName>.</note></head>
@@ -22854,7 +22850,7 @@
                             we can get his active support and Jack Ohly is willing to help us
                             actively.”</note></p>
                     <frus:attachment>
-                        <note rend="source" type="inline"><hi rend="strong">[Tab 1]</hi></note>
+                        <note rend="inline" type="source"><hi rend="strong">[Tab 1]</hi></note>
                         <note n="7" xml:id="d163fn7">Official Use Only.</note>
                         <head>Proposed U.S. Counter Proposal to “Sunfed” at 12th <gloss
                                 target="#t_UN1">UN</gloss> General Assembly</head>
@@ -25599,11 +25595,11 @@
                     frus:doc-dateTime-max="1957-12-03T23:59:59-05:00">
                     <head>182. Memorandum From the Assistant Secretary of State for Economic Affairs
                             (<persName type="from">Mann</persName>) to the <gloss type="to"
-                            >Secretary of State</gloss>
-                        <note n="1" xml:id="d182fn1" type="source">Source: Department of State,
-                                <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1"
-                                >NSC</gloss> Files: Lot 63 <gloss target="#t_D1">D</gloss> 351,
-                                <gloss target="#t_NSC1">NSC</gloss> 5726 Series. Secret.</note>
+                            >Secretary of State</gloss><note n="1" xml:id="d182fn1" type="source"
+                            >Source: Department of State, <gloss target="#t_SS1">S/S</gloss>–<gloss
+                                target="#t_NSC1">NSC</gloss> Files: Lot 63 <gloss target="#t_D1"
+                                >D</gloss> 351, <gloss target="#t_NSC1">NSC</gloss> 5726 Series.
+                            Secret.</note>
                     </head>
                     <opener><dateline rendition="#right"><placeName><hi rend="italic"
                                     >Washington</hi></placeName>, <date when="1957-12-03"
@@ -30850,7 +30846,7 @@
                             recipients of <gloss target="#t_NSC1">NSC</gloss> reports, Executive
                             Secretary Lay transmitted the following changes to this paragraph at the
                             request of <gloss target="#t_USIA1">USIA</gloss>: “Change ‘$15.1
-                            million’ to read ‘$95.1 million’ “ and “Strike ‘s’ from the word ‘years’
+                            million’ to read ‘$95.1 million’ “and “Strike ‘s’ from the word ‘years’
                             at the end of the line.”]</note></p>
                     <p>Percentage allocation reductions by areas were effected as follows: Western
                         Europe 27; Middle East, Southeast Asia and Africa 3; Far East 8; and Latin
@@ -34836,13 +34832,13 @@
                             >under</hi>
                         <ref target="#in1">International trade and commercial policy</ref>.</item>
                 </list>
-                <pb n="[629]" xml:id="pg_629" facs="0659"/>
-                <pb n="[630]" xml:id="pg_630" facs="0660"/>
-                <pb n="[631]" xml:id="pg_631" facs="0661"/>
-                <pb n="[632]" xml:id="pg_632" facs="0662"/>
-                <pb n="[633]" xml:id="pg_633" facs="0663"/>
-                <pb n="[634]" xml:id="pg_634" facs="0664"/>
             </div>
+            <pb n="[629]" xml:id="pg_629" facs="0659"/>
+            <pb n="[630]" xml:id="pg_630" facs="0660"/>
+            <pb n="[631]" xml:id="pg_631" facs="0661"/>
+            <pb n="[632]" xml:id="pg_632" facs="0662"/>
+            <pb n="[633]" xml:id="pg_633" facs="0663"/>
+            <pb n="[634]" xml:id="pg_634" facs="0664"/>
         </back>
     </text>
 </TEI>
