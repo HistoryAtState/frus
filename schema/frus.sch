@@ -185,6 +185,18 @@
             <assert test="./@rend = 'strikethrough'">del/@rend='<value-of select="@rend"/>' is an
                 invalid value. Only the following value is allowed: strikethrough</assert>
         </rule>
+        <rule context="tei:note[@rend]">
+            <assert test="./@rend = 'inline'">note/@rend='<value-of select="@rend"/>' is an
+                invalid value. Only the following value is allowed: inline</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="note-type-checks">
+        <title>Note type checks</title>
+        <rule context="tei:note[@type]">
+            <assert test="./@type = ('source', 'summary')">note/@type='<value-of select="@type"/>'
+                is an invalid value. Only the following values are allowed: source, summary</assert>
+        </rule>
     </pattern>
 
     <pattern id="att-rendition-checks">
