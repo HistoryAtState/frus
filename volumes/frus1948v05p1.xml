@@ -68,7 +68,6 @@
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -1272,9 +1271,9 @@
                                     <hi rend="italic">post</hi>
                                 <ref target="#pg_244">page 244</ref>, and <ref
                                     target="frus1948v04#pg_191">volume IV, page 191</ref>.</p>
-                            <pb n="4" xml:id="pg_4" facs="0018"/>
                         </div>
                     </div>
+                    <pb n="4" xml:id="pg_4" facs="0018"/>
                     <div type="subchapter" xml:id="ch1subch4"
                         frus:doc-dateTime-min="1948-01-28T00:00:00-05:00"
                         frus:doc-dateTime-max="1948-12-28T23:59:59-05:00">
@@ -1374,8 +1373,7 @@
                                     Eastern and African Affairs</hi> (<persName type="from"><hi
                                         rend="italic">Henderson</hi></persName>) <hi rend="italic"
                                     >to the <gloss type="to">Secretary of State</gloss>
-                                </hi>
-                                <note n="1" xml:id="d3fn1">Addressed also to Under Secretary of
+                                </hi><note n="1" xml:id="d3fn1">Addressed also to Under Secretary of
                                     State Robert A. Lovett.</note>
                             </head>
                             <opener>
@@ -1582,8 +1580,8 @@
                                 <signed>G. C. <hi rend="smallcaps">Marshall</hi>
                                 </signed>
                             </closer>
-                            <pb n="8" xml:id="pg_8" facs="0022"/>
                         </div>
+                        <pb n="8" xml:id="pg_8" facs="0022"/>
                         <div type="document" xml:id="d6" n="6" subtype="editorial-note"
                             frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
                             frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
@@ -3968,10 +3966,10 @@
                             </opener>
                             <p rend="center">
                                 <hi rend="smallcaps">United States Position Regarding the Reopening
-                                    of the Haifa Refinery</hi>
-                                <note n="2" xml:id="d27fn2">Further documentation on the closing of
-                                    the oil refinery at Haifa is included in the section of this
-                                    volume dealing with the Palestine question.</note>
+                                    of the Haifa Refinery</hi><note n="2" xml:id="d27fn2">Further
+                                    documentation on the closing of the oil refinery at Haifa is
+                                    included in the section of this volume dealing with the
+                                    Palestine question.</note>
                             </p>
                             <p rend="flushleft">
                                 <hi rend="italic">Background</hi>
@@ -6413,9 +6411,8 @@
                             <closer>
                                 <signed>
                                     <hi rend="smallcaps">Thorp</hi>
-                                </signed>
-                                <note n="5" xml:id="d50fn5">Assistant Secretary of State for
-                                    Economic Affairs.</note>
+                                </signed><note n="5" xml:id="d50fn5">Assistant Secretary of State
+                                    for Economic Affairs.</note>
                             </closer>
                         </div>
                         <div type="document" xml:id="d51" n="51" subtype="historical-document"
@@ -7124,10 +7121,11 @@
                                 to most-favored-nation treatment as are apparently permitted in the
                                 protocol under reference.” (airgram 83). These and related papers
                                 are filed under, 661.8331.</p>
-                            <pb n="87" xml:id="pg_87" facs="0101"/>
                         </div>
                     </div>
+
                 </div>
+                <pb n="87" xml:id="pg_87" facs="0101"/>
                 <div type="chapter" subtype="referral" xml:id="ch3"
                     frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
                     frus:doc-dateTime-max="1948-12-29T23:59:59-05:00">
@@ -8232,8 +8230,8 @@
                                     block Majlis ratification of arms credit” (telegram 145, 891.20
                                     Missions/2–648).</note>
                             </p>
-                            <pb n="105" xml:id="pg_105" facs="0119"/>
                         </div>
+                        <pb n="105" xml:id="pg_105" facs="0119"/>
                         <div type="document" xml:id="d64" n="64" subtype="editorial-note"
                             frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
                             frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
@@ -8279,20 +8277,20 @@
                                 mistake in basing any part its policy on supposition of conflict
                                 between US and UK. We do not suggest however that statement include
                                 any specific reference to Bahrein.</p>
-                            <p>Would like views London <gloss target="#t_FonOff1">FonOff</gloss>
-                                <note n="2" xml:id="d65fn2">London, on February 9, advised that the
-                                    Foreign Office welcomed the suggestion in telegram 361. In its
-                                    view, the “Iranian character is such that any ail-American or
-                                    all-British enterprise in Iran … will be conceived as having
-                                    been brought into being only in teeth other countries [<hi
-                                        rend="italic">country’s</hi>] opposition. However, only
-                                    impractical joint Anglo-American enterprises would scotch such
-                                    thinking and informal statements of kind contemplated by
-                                    Department (perhaps repeated at appropriate intervals) in
-                                    addition to intelligent day-by-day coordination on all levels in
-                                    Washington, London and field, might help restrain Iranian
-                                    fancies.” (telegram 485, 891.20 Missions/2–948)</note> and
-                                American Emb Tehran<note n="3" xml:id="d65fn3">Tehran replied on
+                            <p>Would like views London <gloss target="#t_FonOff1"
+                                    >FonOff</gloss><note n="2" xml:id="d65fn2">London, on February
+                                    9, advised that the Foreign Office welcomed the suggestion in
+                                    telegram 361. In its view, the “Iranian character is such that
+                                    any ail-American or all-British enterprise in Iran … will be
+                                    conceived as having been brought into being only in teeth other
+                                    countries [<hi rend="italic">country’s</hi>] opposition.
+                                    However, only impractical joint Anglo-American enterprises would
+                                    scotch such thinking and informal statements of kind
+                                    contemplated by Department (perhaps repeated at appropriate
+                                    intervals) in addition to intelligent day-by-day coordination on
+                                    all levels in Washington, London and field, might help restrain
+                                    Iranian fancies.” (telegram 485, 891.20 Missions/2–948)</note>
+                                and American Emb Tehran<note n="3" xml:id="d65fn3">Tehran replied on
                                     February 6 that “Statement to Iran officials that no rivalry
                                     exists between US and UK in Iran would not be entirely warranted
                                     in fact and 1 doubt that any notification, along this line would
@@ -9346,10 +9344,9 @@
                                 <hi rend="italic">The <gloss type="from">Iranian Ministry for
                                         Foreign Affairs</gloss> to the <gloss type="to">Embassy of
                                         the Soviet Union in Iran</gloss>
-                                </hi>
-                                <note n="1" xml:id="d77fn1">Translation by the Embassy in Iran based
-                                    on version appearing in the Tehran press; transmitted to the
-                                    Department by Tehran in despatch 108, April 15. An earlier
+                                </hi><note n="1" xml:id="d77fn1">Translation by the Embassy in Iran
+                                    based on version appearing in the Tehran press; transmitted to
+                                    the Department by Tehran in despatch 108, April 15. An earlier
                                     rendition, also based on the version appearing in the press, was
                                     transmitted by Tehran in telegram 326–A, March 30, not printed
                                     (761.91/3–3048).</note>
@@ -10073,10 +10070,9 @@
                                 <hi rend="italic">The <gloss type="from">Embassy of the Soviet Union
                                         in Iran</gloss> to the <gloss type="to">Iranian Ministry for
                                         Foreign Affairs</gloss>
-                                </hi>
-                                <note n="1" xml:id="d85fn1">Translation by the Embassy in Iran based
-                                    on version appearing in the Tehran press; transmitted to the
-                                    Department by Tehran in despatch 108, April 15. An earlier
+                                </hi><note n="1" xml:id="d85fn1">Translation by the Embassy in Iran
+                                    based on version appearing in the Tehran press; transmitted to
+                                    the Department by Tehran in despatch 108, April 15. An earlier
                                     rendition, also based on the version appearing in the press, was
                                     transmitted by Tehran in telegram 366, April 8, not printed
                                     (761.91/4–848).</note>
@@ -10883,9 +10879,8 @@
                             <p>436. From Brown,<note n="1" xml:id="d97fn1">Maj. Gen. Philip E.
                                     Brown.</note> Acting, <gloss target="#t_FLC1">FLC</gloss>. New
                                 surplus property credit agreement superseding agreement dated June
-                                19 [<hi rend="italic">20</hi>
-                                <note n="2" xml:id="d97fn2">See editorial note, <ref
-                                        target="frus1947v05#pg_916">
+                                19 [<hi rend="italic">20</hi><note n="2" xml:id="d97fn2">See
+                                    editorial note, <ref target="frus1947v05#pg_916">
                                         <hi rend="italic">Foreign Relations</hi>, 1947, vol. <hi
                                             rend="smallcaps">v</hi>, p. 916</ref>.</note>], 1947
                                 being negotiated here with Iranian Military Mission. Draft agreement
@@ -11057,9 +11052,9 @@
                             frus:doc-dateTime-max="1948-05-28T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Statement Released by the Department of State on
-                                    May 28, 1948</hi>
-                                <note n="1" xml:id="d100fn6">Reprinted from Department of State <hi
-                                        rend="italic">Bulletin</hi>, June 13, 1948, p. 780.</note>
+                                    May 28, 1948</hi><note n="1" xml:id="d100fn6">Reprinted from
+                                    Department of State <hi rend="italic">Bulletin</hi>, June 13,
+                                    1948, p. 780.</note>
                             </head>
                             <dateline>
                                 <date when="1948-05-28"
@@ -12441,9 +12436,9 @@
                             frus:doc-dateTime-max="1948-07-29T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Statement Released to the Press by the Department
-                                    of State on July 29, 1948</hi>
-                                <note n="1" xml:id="d118fn4">Reprinted from Department of State <hi
-                                        rend="italic">Bulletin</hi>, August 15, 1948, p. 211.</note>
+                                    of State on July 29, 1948</hi><note n="1" xml:id="d118fn4"
+                                    >Reprinted from Department of State <hi rend="italic"
+                                        >Bulletin</hi>, August 15, 1948, p. 211.</note>
                             </head>
                             <dateline>
                                 <date when="1948-07-29"
@@ -13313,8 +13308,8 @@
                                     <hi rend="smallcaps">Marshall</hi>
                                 </signed>
                             </closer>
-                            <pb n="179" xml:id="pg_179" facs="0193"/>
                         </div>
+                        <pb n="179" xml:id="pg_179" facs="0193"/>
                         <div type="document" xml:id="d131" n="131" subtype="editorial-note"
                             frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
                             frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
@@ -14478,16 +14473,16 @@
                                 in line our thinking. It would be desirable for us to see Iran draft
                                 in advance to make sure it does not introduce complicating factors
                                 such as (re <gloss target="#t_Deptel1">Deptel</gloss> 361 to <gloss
-                                    target="#t_GADel1">Gadel</gloss>
-                                <note n="5" xml:id="d144fn5">Dated October 29; it was a repeat of
-                                    1021 to Tehran, <ref target="#pg_190">p. 190</ref>.</note>)
-                                appeal to <gloss target="#t_SC1">SC</gloss> for action to revise
-                                1921 Treaty. Dept considers communication should be for Council’s
-                                info only, as in case of Iran note of Dec 1946 re Azerbaijan,
-                                although we realize Soviets or other members might conceivably call
-                                for debate and that Iran might later ask action if situation
-                                    aggravated.<note n="6" xml:id="d144fn6">This telegram was
-                                    repeated to Tehran, Moscow, and London.</note>
+                                    target="#t_GADel1">Gadel</gloss><note n="5" xml:id="d144fn5"
+                                    >Dated October 29; it was a repeat of 1021 to Tehran, <ref
+                                        target="#pg_190">p. 190</ref>.</note>) appeal to <gloss
+                                    target="#t_SC1">SC</gloss> for action to revise 1921 Treaty.
+                                Dept considers communication should be for Council’s info only, as
+                                in case of Iran note of Dec 1946 re Azerbaijan, although we realize
+                                Soviets or other members might conceivably call for debate and that
+                                Iran might later ask action if situation aggravated.<note n="6"
+                                    xml:id="d144fn6">This telegram was repeated to Tehran, Moscow,
+                                    and London.</note>
                             </p>
                             <closer>
                                 <signed>
@@ -20786,8 +20781,8 @@
                                     <hi rend="smallcaps">Austin</hi>
                                 </signed>
                             </closer>
-                            <pb n="285" xml:id="pg_285" facs="0299"/>
                         </div>
+                        <pb n="285" xml:id="pg_285" facs="0299"/>
                         <div type="document" xml:id="d222" n="222" subtype="editorial-note"
                             frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
                             frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
@@ -21459,16 +21454,16 @@
                             <p>32. Re breakdown Pakistan Afghan negotiations (London 198 Jan 19 rptd
                                 Karachi 9 and Kabul 3<note n="1" xml:id="d230fn1">Not
                                     printed.</note>), and Afghan letter to <gloss target="#t_SC1"
-                                    >SC</gloss>
-                                <note n="2" xml:id="d230fn2">See telegram 29, January 27, paragraph
-                                    1, <ref target="#pg_289">p. 289</ref>.</note> requesting active
-                                Afghan participation in any <gloss target="#t_SC1">SC</gloss>
-                                discussions tribal aspect Kashmir case (<gloss target="#t_Deptel1"
-                                    >Deptel</gloss> 26 Jan 24 rptd London 240 Karachi 26 New Delhi
-                                    51<note n="1" xml:id="d230fn3">Not printed.</note>) it may be
-                                useful express current Dept thinking on tribal problem to guide
-                                informal conversations with foreign officials that may take place at
-                                posts to which this message sent.</p>
+                                    >SC</gloss><note n="2" xml:id="d230fn2">See telegram 29, January
+                                    27, paragraph 1, <ref target="#pg_289">p. 289</ref>.</note>
+                                requesting active Afghan participation in any <gloss target="#t_SC1"
+                                    >SC</gloss> discussions tribal aspect Kashmir case (<gloss
+                                    target="#t_Deptel1">Deptel</gloss> 26 Jan 24 rptd London 240
+                                Karachi 26 New Delhi 51<note n="1" xml:id="d230fn3">Not
+                                    printed.</note>) it may be useful express current Dept thinking
+                                on tribal problem to guide informal conversations with foreign
+                                officials that may take place at posts to which this message
+                                sent.</p>
                             <list>
                                 <label>(1)</label>
                                 <item>It is of utmost importance for peace and prosperty South Asia
@@ -28717,8 +28712,8 @@
                             <head>
                                 <hi rend="italic">The <gloss type="from">Secretary of State</gloss>
                                     to the <gloss type="to">United States Delegation at the United
-                                        Nations General Assembly</gloss>, at Paris</hi>
-                                <note n="1" xml:id="d318fn1">This cable was repeated to the American
+                                        Nations General Assembly</gloss>, at Paris</hi><note n="1"
+                                    xml:id="d318fn1">This cable was repeated to the American
                                     Embassies in India, Pakistan, and the United Kingdom as
                                     telegrams 564, 359, and 3691 respectively.</note>
                             </head>
@@ -29768,9 +29763,8 @@
                                         State</gloss> to the United States Representative on the
                                     United Nations Commission for India and Pakistan</hi> (<persName
                                     type="to"><hi rend="italic">Huddle</hi></persName>), <hi
-                                    rend="italic">at Geneva</hi>
-                                <note n="1" xml:id="d327fn1">The Commission had arrived from New
-                                    Delhi on September 25.</note>
+                                    rend="italic">at Geneva</hi><note n="1" xml:id="d327fn1">The
+                                    Commission had arrived from New Delhi on September 25.</note>
                             </head>
                             <opener>
                                 <seg rendition="#left">
@@ -31126,13 +31120,13 @@
                                 to by India. If discussions London can get agreement on this point
                                 it would be important step toward solution problem.</p>
                             <p>Patrick program outlined London’s 702 to Paris for <gloss
-                                    target="#t_GADel1">GADel</gloss>
-                                <note n="2" xml:id="d344fn2">Sent to the Department as telegram No.
-                                    4376, October 4, <ref target="#pg_419">p. 419</ref>.</note> is
-                                sensible approach. India and Pakistan should best settle this matter
-                                within Commonwealth and Prime Minister Attlee’s conversations with
-                                Prime Ministers Liaquat and Nehru might get results. Would
-                                appreciate being informed developments London.</p>
+                                    target="#t_GADel1">GADel</gloss><note n="2" xml:id="d344fn2"
+                                    >Sent to the Department as telegram No. 4376, October 4, <ref
+                                        target="#pg_419">p. 419</ref>.</note> is sensible approach.
+                                India and Pakistan should best settle this matter within
+                                Commonwealth and Prime Minister Attlee’s conversations with Prime
+                                Ministers Liaquat and Nehru might get results. Would appreciate
+                                being informed developments London.</p>
                             <p>Sent Paris as 265; repeated Department 1374, London 110.</p>
                             <closer>
                                 <signed>[<hi rend="smallcaps">Huddle</hi>]</signed>
@@ -31164,9 +31158,9 @@
                             </opener>
                             <p>1383. <gloss target="#t_Comkas1">Comkas</gloss> 54. <gloss
                                     target="#t_Kascom1">Kascom</gloss> 37 <gloss target="#t_Deptel1"
-                                    >Deptel</gloss> 1408 to Geneva 1359 [<hi rend="italic">1391</hi>
-                                <note n="1" xml:id="d345fn1">September 29, <ref target="#pg_412">p.
-                                        412</ref>.</note>], to Geneva.</p>
+                                    >Deptel</gloss> 1408 to Geneva 1359 [<hi rend="italic"
+                                    >1391</hi><note n="1" xml:id="d345fn1">September 29, <ref
+                                        target="#pg_412">p. 412</ref>.</note>], to Geneva.</p>
                             <p>Material information requested by Department mostly contained
                                 Huddle’s October 11 No. 265 to Paris repeated Department 1374
                                 October 11. The Commission is working with regularity on report
@@ -31797,12 +31791,12 @@
                                 <gloss target="#t_GADel1">Gadel</gloss> 357. Following represents
                                 present Dept thinking Kashmir question and may be used as guide by
                                     <gloss target="#t_GADel1">GADel</gloss> In its reply Cadogan <hi
-                                    rend="italic">aide-mémoire</hi>
-                                <note n="1" xml:id="d352fn1">Reference here is presumably to the <hi
-                                        rend="italic">aide-mémoire</hi> transmitted to the
-                                    Department in <gloss target="#t_Delga1">Delga</gloss> 257 of
-                                    October 8, <ref target="#pg_424">p. 424</ref>.</note> and
-                                informal discussions with Brit and others. <gloss target="#t_Delga1"
+                                    rend="italic">aide-mémoire</hi><note n="1" xml:id="d352fn1"
+                                    >Reference here is presumably to the <hi rend="italic"
+                                        >aide-mémoire</hi> transmitted to the Department in <gloss
+                                        target="#t_Delga1">Delga</gloss> 257 of October 8, <ref
+                                        target="#pg_424">p. 424</ref>.</note> and informal
+                                discussions with Brit and others. <gloss target="#t_Delga1"
                                     >Delga</gloss> 442, Oct 22 and London’s 4629 Oct 26.<note n="2"
                                     xml:id="d352fn2">Telegram 4629 to the Department, not
                                     printed.</note>
@@ -32087,24 +32081,24 @@
                             <p>Mohammed Ali informed me that the London conversations which Prime
                                 Minister Attlee arranged with Prime Ministers Nehru and Liaquat Ali
                                 Khan were without constructive result insofar as the</p>
-                            <p>
-                                <pb n="441" xml:id="pg_441" facs="0455"/>Kashmir problem is
-                                concerned. He said that when Prime Minister Attlee first raised the
-                                question, Mr. Nehru was somewhat receptive to the idea of a
-                                plebiscite which would be arranged as the Pakistani advocate. Later
-                                however he seemed to change his position, and in the end had flatly
-                                refused to agree with Pakistan demands in the plebiscite proposals.
-                                Mr. Liaquat Ali Khan continuously expressed himself as favorable to
-                                the plebiscite idea although he would not agree with a “district
-                                plebiscite” or series of district plebiscites but insisted that an
-                                overall or general plebiscite be held for the whole country. The
-                                Pakistani objected to the district plebiscite because they feel that
-                                displacement of population has occurred to such an extent that a
-                                series of district plebiscites might have spotty results which would
-                                be entirely unsatisfactory in the ultimate disposal of
-                                Jammu-Kashmir. Mr. Liaquat Ali Khan expressed himself during the
-                                conversation as being agreeable to any arrangement under neutral
-                                control which would guarantee a fair result.</p>
+                            <pb n="441" xml:id="pg_441" facs="0455"/>
+                            <p> Kashmir problem is concerned. He said that when Prime Minister
+                                Attlee first raised the question, Mr. Nehru was somewhat receptive
+                                to the idea of a plebiscite which would be arranged as the Pakistani
+                                advocate. Later however he seemed to change his position, and in the
+                                end had flatly refused to agree with Pakistan demands in the
+                                plebiscite proposals. Mr. Liaquat Ali Khan continuously expressed
+                                himself as favorable to the plebiscite idea although he would not
+                                agree with a “district plebiscite” or series of district plebiscites
+                                but insisted that an overall or general plebiscite be held for the
+                                whole country. The Pakistani objected to the district plebiscite
+                                because they feel that displacement of population has occurred to
+                                such an extent that a series of district plebiscites might have
+                                spotty results which would be entirely unsatisfactory in the
+                                ultimate disposal of Jammu-Kashmir. Mr. Liaquat Ali Khan expressed
+                                himself during the conversation as being agreeable to any
+                                arrangement under neutral control which would guarantee a fair
+                                result.</p>
                             <p>At one point in the conversations Mr. Attlee had asked about the
                                 possibility of a military decision if matters went from bad to
                                 worse. In response to this question Mr. Liaquat Ali Khan had said
@@ -33363,12 +33357,12 @@
                             </opener>
                             <p>
                                 <gloss target="#t_Delga1">Delga</gloss> 900. We learned late today
-                                that president <gloss target="#t_SC1">SC</gloss>
-                                <note n="1" xml:id="d368fn1">José Arce, Representative of Argentina
-                                    at the Third General Session of the United Nations and President
-                                    of the Security Council during November.</note> has called
-                                    <gloss target="#t_SC1">SC</gloss> meeting for afternoon November
-                                24 to consider: (1) Hyderabad question (in response Zafrulla Khan’s
+                                that president <gloss target="#t_SC1">SC</gloss><note n="1"
+                                    xml:id="d368fn1">José Arce, Representative of Argentina at the
+                                    Third General Session of the United Nations and President of the
+                                    Security Council during November.</note> has called <gloss
+                                    target="#t_SC1">SC</gloss> meeting for afternoon November 24 to
+                                consider: (1) Hyderabad question (in response Zafrulla Khan’s
                                 request be heard on this issue<note n="2" xml:id="d368fn2">For text
                                     of letter dated October 6 from Zafrullah Khan to the President
                                     of the Security Council, see <gloss target="#t_SC1">SC</gloss>,
@@ -33617,27 +33611,26 @@
                                 </dateline>
                             </opener>
                             <p>530. Reports from Paris indicate that in first part report <gloss
-                                    target="#t_UNCIP1">UNCIP</gloss>
-                                <note n="1" xml:id="d371fn1">Interim Report, <gloss target="#t_SC1"
-                                        >SC</gloss>, <hi rend="italic">3rd yr., Suppl. for Nov.
-                                        1948</hi>, pp. 17–144.</note> statement is made “the <gloss
-                                    target="#t_GOI1">GOI</gloss> signified their acceptance of the
-                                resolution as a whole. The <gloss target="#t_GOP1">GOP</gloss>
-                                attached to their acceptance certain conditions which went beyond
-                                the compass of the resolution, thereby making it impossible for an
-                                immediate cease fire and the beginning of fruitful negotiations to
-                                bring about a peaceful and final settlement in Jammu and Kashmir.”
-                                Statement that <gloss target="#t_GOI1">GOI</gloss> accepted
-                                resolution on August 13 “as a whole” implying <gloss
-                                    target="#t_GOI1">GOI</gloss>’s acceptance without any conditions
-                                has evoked unfavorable reaction here in light known fact that Nehru
-                                in his letters of August 20 to <gloss target="#t_UNCIP1"
-                                    >UNCIP</gloss> did raise conditions precedent acceptance
-                                resolution, at least two which conditions were vital Pakistan.
-                                Acceptance by Commin letters August 25<note n="2" xml:id="d371fn2"
-                                    >For text of two letters from the Commission to Nehru dated
-                                    August 25, see <gloss target="#t_SC1">SC</gloss>, <hi
+                                    target="#t_UNCIP1">UNCIP</gloss><note n="1" xml:id="d371fn1"
+                                    >Interim Report, <gloss target="#t_SC1">SC</gloss>, <hi
                                         rend="italic">3rd yr., Suppl. for Nov. 1948</hi>, pp.
+                                    17–144.</note> statement is made “the <gloss target="#t_GOI1"
+                                    >GOI</gloss> signified their acceptance of the resolution as a
+                                whole. The <gloss target="#t_GOP1">GOP</gloss> attached to their
+                                acceptance certain conditions which went beyond the compass of the
+                                resolution, thereby making it impossible for an immediate cease fire
+                                and the beginning of fruitful negotiations to bring about a peaceful
+                                and final settlement in Jammu and Kashmir.” Statement that <gloss
+                                    target="#t_GOI1">GOI</gloss> accepted resolution on August 13
+                                “as a whole” implying <gloss target="#t_GOI1">GOI</gloss>’s
+                                acceptance without any conditions has evoked unfavorable reaction
+                                here in light known fact that Nehru in his letters of August 20 to
+                                    <gloss target="#t_UNCIP1">UNCIP</gloss> did raise conditions
+                                precedent acceptance resolution, at least two which conditions were
+                                vital Pakistan. Acceptance by Commin letters August 25<note n="2"
+                                    xml:id="d371fn2">For text of two letters from the Commission to
+                                    Nehru dated August 25, see <gloss target="#t_SC1">SC</gloss>,
+                                        <hi rend="italic">3rd yr., Suppl. for Nov. 1948</hi>, pp.
                                     36–37.</note> Nehru’s interpretation resolution in no way
                                 eliminated fact that conditions had been attached by <gloss
                                     target="#t_GOI1">GOI</gloss> to acceptance resolution. If
@@ -35401,8 +35394,7 @@
                                 <hi rend="italic">The <gloss type="from">Acting Secretary of
                                         State</gloss> to the <gloss type="to">Embassy in
                                         India</gloss>
-                                </hi>
-                                <note n="1" xml:id="d392fn1">Repeated to Karachi and London as
+                                </hi><note n="1" xml:id="d392fn1">Repeated to Karachi and London as
                                     telegrams 440 and 4834, respectively.</note>
                             </head>
                             <opener>
@@ -39502,9 +39494,9 @@
                                     target="#pg_147">147</ref>–<ref target="#pg_148">148</ref>, <ref
                                     target="#pg_184">184</ref>
                             </item>
-                            <pb n="viii" xml:id="pg_viii" facs="0554"/>
                         </list>
                     </item>
+                    <pb n="viii" xml:id="pg_viii" facs="0554"/>
                     <item xml:id="in12">Iraq: <list>
                             <item>Anglo-Iraqi treaty of alliance of <hi rend="italic">1930</hi>,
                                 interest of the United States in negotiations between the United

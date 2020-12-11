@@ -70,7 +70,6 @@
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -1001,14 +1000,15 @@
                         the acquisition of bases and military air transit rights in specific areas
                         of the world may be found by consulting the indexes of volumes III, V (Part
                         1), VI, and IX.</p>
-                    <pb n="508" xml:id="pg_508" facs="0018"/>
+
                 </div>
+                <pb n="508" xml:id="pg_508" facs="0018"/>
                 <div type="document" xml:id="d2" n="2" subtype="historical-document"
                     frus:doc-dateTime-min="1948-01-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-01-27T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">Department of State Atomic Energy Files</seg>
-                        <note n="2" xml:id="d2fn2" type="source">Lot 57D688, the Department of State
+                        <seg rend="inline">Department of State Atomic Energy Files</seg><note n="2"
+                            xml:id="d2fn2" type="source">Lot 57D688, the Department of State
                             consolidated lot file on atomic energy policy, 1944–1962.</note>
                     </opener>
                     <head>
@@ -1082,9 +1082,9 @@
                     frus:doc-dateTime-min="1948-02-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-02-24T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">Policy Planning Staff Files</seg>
-                        <note n="1" xml:id="d3fn1" type="source">Lot 64D563, files of the Policy
-                            Planning Staff of the Department of State, 1947–1953.</note>
+                        <seg rend="inline">Policy Planning Staff Files</seg><note n="1"
+                            xml:id="d3fn1" type="source">Lot 64D563, files of the Policy Planning
+                            Staff of the Department of State, 1947–1953.</note>
                     </opener>
                     <head>
                         <hi rend="italic">Memorandum by the Director of the Policy Planning
@@ -1398,11 +1398,10 @@
                         throughout in our handling of the operation.</p>
                     <pb n="515" xml:id="pg_515" facs="0025"/>
                     <p rend="center">
-                        <hi rend="smallcaps">iii. germany</hi>
-                        <note n="9" xml:id="d4fn9">For documentation on United States policy with
-                            respect to the occupation and control of Germany, see <ref
-                                target="frus1948v02#pg_1285">vol. <hi rend="smallcaps">ii</hi>, pp.
-                                1285</ref> ff.</note>
+                        <hi rend="smallcaps">iii. germany</hi><note n="9" xml:id="d4fn9">For
+                            documentation on United States policy with respect to the occupation and
+                            control of Germany, see <ref target="frus1948v02#pg_1285">vol. <hi
+                                    rend="smallcaps">ii</hi>, pp. 1285</ref> ff.</note>
                     </p>
                     <p>The coming changes with respect to the responsibility for military government
                         in Germany provide a suitable occasion for us to evolve new long-term
@@ -2922,22 +2921,22 @@
                     <opener>
                         <seg>
                             <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
-                            Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 7 Series</seg>
-                        <note n="1" xml:id="d11fn1" type="source">Serial master file of National
-                            Security Council documentation and related Department of State material
-                            for the years 1947–1961, retired by the Executive Secretariat of the
-                            Department of State.</note>
+                            Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 7
+                            Series</seg><note n="1" xml:id="d11fn1" type="source">Serial master file
+                            of National Security Council documentation and related Department of
+                            State material for the years 1947–1961, retired by the Executive
+                            Secretariat of the Department of State.</note>
                     </opener>
                     <head>
-                        <hi rend="italic">Report to the National Security Council</hi>
-                        <note n="2" xml:id="d11fn2">The National Security Council (<gloss
-                                target="#t_NSC1">NSC</gloss>) was established by the National
-                            Security Act of July 26, 1947 (<gloss target="#t_PL1">PL</gloss> 253,
-                            80th Congress; 61 Stat (pt. 1) 495). Its membership included the
-                            President, the Secretaries of State, Defense, the Army, the Navy, and
-                            the Air Force, and the Chairman of the National Security Resources
-                            Board. The duties of the <gloss target="#t_NSC1">NSC</gloss> as
-                            specified by the National Security Act were: <list>
+                        <hi rend="italic">Report to the National Security Council</hi><note n="2"
+                            xml:id="d11fn2">The National Security Council (<gloss target="#t_NSC1"
+                                >NSC</gloss>) was established by the National Security Act of July
+                            26, 1947 (<gloss target="#t_PL1">PL</gloss> 253, 80th Congress; 61 Stat
+                            (pt. 1) 495). Its membership included the President, the Secretaries of
+                            State, Defense, the Army, the Navy, and the Air Force, and the Chairman
+                            of the National Security Resources Board. The duties of the <gloss
+                                target="#t_NSC1">NSC</gloss> as specified by the National Security
+                            Act were: <list>
                                 <label>(1)</label>
                                 <item>to assess and appraise the objectives, commitments, and risks
                                     of the United States in relation to our actual and potential
@@ -4006,10 +4005,9 @@
                         <hi rend="italic">Memorandum by the Secretary of Defense</hi> (<persName
                             type="from"><hi rend="italic">Forrestal</hi></persName>) <hi
                             rend="italic">to the <gloss type="to">National Security Council</gloss>
-                        </hi>
-                        <note n="1" xml:id="d18fn1">Circulated in the National Security Council as
-                            the Annex to <gloss target="#t_NSC1">NSC</gloss> 5/3, May 25, 1048; for
-                            the text of <gloss target="#t_NSC1">NSC</gloss> 5/3 itself, see <ref
+                        </hi><note n="1" xml:id="d18fn1">Circulated in the National Security Council
+                            as the Annex to <gloss target="#t_NSC1">NSC</gloss> 5/3, May 25, 1048;
+                            for the text of <gloss target="#t_NSC1">NSC</gloss> 5/3 itself, see <ref
                                 target="frus1948v04#pg_93">vol. <hi rend="smallcaps">iv</hi>, p.
                                 93</ref>.</note>
                     </head>
@@ -4206,14 +4204,14 @@
                     frus:doc-dateTime-min="1948-05-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-05-10T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">Bureau of Economic Affairs Files</seg>
-                        <note n="1" xml:id="d19fn1" type="source">Lot 54D361, containing the
-                            publication <hi rend="italic">Current Economic Developments</hi> for the
-                            years 1945–1952.</note>
+                        <seg rend="inline">Bureau of Economic Affairs Files</seg><note n="1"
+                            xml:id="d19fn1" type="source">Lot 54D361, containing the publication <hi
+                                rend="italic">Current Economic Developments</hi> for the years
+                            1945–1952.</note>
                     </opener>
                     <head>
-                        <hi rend="italic">Current Economic Developments</hi>
-                        <note n="2" xml:id="d19fn2">This weekly publication, prepared by the Policy
+                        <hi rend="italic">Current Economic Developments</hi><note n="2"
+                            xml:id="d19fn2">This weekly publication, prepared by the Policy
                             Information Committee of the Department of State, was designed to
                             highlight developments in the economic divisions of the Department, and
                             to indicate the economic problems which were currently receiving
@@ -4674,8 +4672,8 @@
                 frus:doc-dateTime-max="1948-06-15T23:59:59-05:00">
                 <opener>
                     <seg rend="inline">
-                        <gloss target="#t_SANACC1">SANACC</gloss> Files</seg>
-                    <note n="1" xml:id="d22fn1" type="source">Lot 52M45, the files of the
+                        <gloss target="#t_SANACC1">SANACC</gloss> Files</seg><note n="1"
+                        xml:id="d22fn1" type="source">Lot 52M45, the files of the
                         State–Army–Navy–Air Force Coordinating Committee (<gloss target="#t_SANACC1"
                             >SANACC</gloss>) and its predecessor, the State–War–Navy Coordinating
                         Committee (<gloss target="#t_SWNCC1">SWNCC</gloss>), located in the National
@@ -4705,9 +4703,9 @@
                     <gloss target="#t_SANACC1">SANACC</gloss> 206/29 (Revised)</p>
                 <p rend="flushleft">
                     <hi rend="smallcaps">Policy for the Control of the Disclosure of Classified
-                        Military Information to Foreign Governments</hi>
-                    <note n="2" xml:id="d22fn2">This subject was dealt with on a continuing basis by
-                            <gloss target="#t_SANACC1">SANACC</gloss>’s Subcommittee for Military
+                        Military Information to Foreign Governments</hi><note n="2" xml:id="d22fn2"
+                        >This subject was dealt with on a continuing basis by <gloss
+                            target="#t_SANACC1">SANACC</gloss>’s Subcommittee for Military
                         Information Control (<gloss target="#t_MIC1">MIC</gloss>); documentation
                         generated by that subcommittee exists in the <gloss target="#t_SANACC1"
                             >SANACC</gloss> files.</note>
@@ -4799,17 +4797,16 @@
                     <gloss target="#t_SANACC1">SANACC</gloss> 382/6</p>
                 <p rend="center">
                     <hi rend="smallcaps">Policy Concerning Transfers to Non-Soviet Countries of
-                        Military Supplies of U.S. Origin</hi>
-                    <note n="1" xml:id="d23fn1">This report was prepared by an <hi rend="italic">ad
-                            hoc</hi> committee appointed by the State–Army–Navy–Air Force
-                        Coordinating Committee on November 4, 1947, pursuant to a request by the War
-                        Department on August 5, 1947, that such a study be undertaken by a special
-                        committee. <gloss target="#t_SANACC1">SANACC</gloss> devoted considerable
-                        effort between the above dates to defining the terms of reference of the new
-                            <hi rend="italic">ad hoc</hi> committee in view of the studies of a
-                        related nature previously undertaken by the Rearmament Subcommittee of
-                            <gloss target="#t_SANACC1">SANACC</gloss> (see <gloss
-                            target="#t_SANACC1">SANACC</gloss> 360/5, July 26, 1948, <ref
+                        Military Supplies of U.S. Origin</hi><note n="1" xml:id="d23fn1">This report
+                        was prepared by an <hi rend="italic">ad hoc</hi> committee appointed by the
+                        State–Army–Navy–Air Force Coordinating Committee on November 4, 1947,
+                        pursuant to a request by the War Department on August 5, 1947, that such a
+                        study be undertaken by a special committee. <gloss target="#t_SANACC1"
+                            >SANACC</gloss> devoted considerable effort between the above dates to
+                        defining the terms of reference of the new <hi rend="italic">ad hoc</hi>
+                        committee in view of the studies of a related nature previously undertaken
+                        by the Rearmament Subcommittee of <gloss target="#t_SANACC1">SANACC</gloss>
+                        (see <gloss target="#t_SANACC1">SANACC</gloss> 360/5, July 26, 1948, <ref
                             target="#pg_597">p. 597</ref>), and by the <hi rend="italic">ad hoc</hi>
                         Committee which was preparing the foreign assistance policy study <gloss
                             target="#t_SWNCC1">SWNCC</gloss> 360/3, October 3, 1947, not printed.
@@ -5004,25 +5001,25 @@
                 frus:doc-dateTime-min="1948-06-21T00:00:00-05:00"
                 frus:doc-dateTime-max="1948-06-21T23:59:59-05:00">
                 <opener>
-                    <seg rend="inline">Department of State Committee Files: Lot 122</seg>
-                    <note n="1" xml:id="d24fn1" type="source">Lot 122, a consolidated lot file
-                        consisting of records of inactive or terminated committees of the Department
-                        of State and inter-departmental committees on which the Department of State
-                        was represented. Material in this lot, which includes a set of the papers of
-                        the Executive Committee on Economic Foreign Policy, was retired by the staff
-                        of the Executive Secretariat of the Department of State.</note>
+                    <seg rend="inline">Department of State Committee Files: Lot 122</seg><note n="1"
+                        xml:id="d24fn1" type="source">Lot 122, a consolidated lot file consisting of
+                        records of inactive or terminated committees of the Department of State and
+                        inter-departmental committees on which the Department of State was
+                        represented. Material in this lot, which includes a set of the papers of the
+                        Executive Committee on Economic Foreign Policy, was retired by the staff of
+                        the Executive Secretariat of the Department of State.</note>
                 </opener>
                 <head>
                     <hi rend="italic">Report by the <gloss type="from">Strategic Materials Working
                             Group</gloss> to the <gloss type="to">Executive Committee on Economic
                             Foreign Policy</gloss>
-                    </hi>
-                    <note n="2" xml:id="d24fn2">The present report was approved on June 21, 1948, as
-                        follows: Recommendations A(1), B(2), and B(3) by <gloss target="#t_ECEFP1"
-                            >ECEFP</gloss>; A(4) by the Munitions Board; and A(2), A(3), A(4), B(1),
-                        and B(4) by the National Security Resources Board Staff and the Munitions
-                        Board. It was transmitted to the heads of United States Government agencies
-                        concerned and to the chiefs of all U.S. missions abroad.</note>
+                    </hi><note n="2" xml:id="d24fn2">The present report was approved on June 21,
+                        1948, as follows: Recommendations A(1), B(2), and B(3) by <gloss
+                            target="#t_ECEFP1">ECEFP</gloss>; A(4) by the Munitions Board; and A(2),
+                        A(3), A(4), B(1), and B(4) by the National Security Resources Board Staff
+                        and the Munitions Board. It was transmitted to the heads of United States
+                        Government agencies concerned and to the chiefs of all U.S. missions
+                        abroad.</note>
                 </head>
                 <opener>
                     <seg rendition="#left">
@@ -5796,8 +5793,7 @@
                 <head>
                     <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to Certain
                             <gloss type="to">Diplomatic and Consular Offices</gloss>
-                    </hi>
-                    <note n="1" xml:id="d29fn1">Sent to 84 United States Embassies, Legations,
+                    </hi><note n="1" xml:id="d29fn1">Sent to 84 United States Embassies, Legations,
                         Consulates, and Political Advisers.</note>
                 </head>
                 <opener>
@@ -6026,15 +6022,15 @@
                     <gloss target="#t_SANACC1">SANACC</gloss> Files</note>
                 <head>
                     <hi rend="italic">Report to the State–Army–Navy–Air Force Coordinating Committee
-                        by the Subcommittee for Rearmament</hi>
-                    <note n="1" xml:id="d30fn1">This report was initially submitted to <gloss
-                            target="#t_SANACC1">SANACC</gloss> by its Subcommittee for Rearmament on
-                        February 27, 1948. Its conclusions were approved by the parent body in a
-                        slightly amended form on July 26; they are printed here in the form approved
-                        by the Committee. (<gloss target="#t_SANACC1">SANACC</gloss> Files) On
-                        August 5, <gloss target="#t_SANACC1">SANACC</gloss> 360/5 was circulated in
-                        the Department of State by Charles E. Saltzman, Department of State Member
-                        and Chairman of <gloss target="#t_SANACC1">SANACC</gloss>, and Assistant
+                        by the Subcommittee for Rearmament</hi><note n="1" xml:id="d30fn1">This
+                        report was initially submitted to <gloss target="#t_SANACC1">SANACC</gloss>
+                        by its Subcommittee for Rearmament on February 27, 1948. Its conclusions
+                        were approved by the parent body in a slightly amended form on July 26; they
+                        are printed here in the form approved by the Committee. (<gloss
+                            target="#t_SANACC1">SANACC</gloss> Files) On August 5, <gloss
+                            target="#t_SANACC1">SANACC</gloss> 360/5 was circulated in the
+                        Department of State by Charles E. Saltzman, Department of State Member and
+                        Chairman of <gloss target="#t_SANACC1">SANACC</gloss>, and Assistant
                         Secretary of State for Occupied Areas. The memorandum of transmittal read in
                         part as follows: “It is requested that in all matters pertaining to programs
                         of military assistance to foreign nations, and notably in the case of
@@ -6103,8 +6099,9 @@
                 </p>
                 <p>1. To study and make recommendations concerning considerations relative to
                     continuing support of programs of U.S. military assistance to foreign nations,
-                    taking cognizance of the statements that, <list>
-                        <pb n="598" xml:id="pg_598" facs="0108"/>
+                    taking cognizance of the statements that, <pb n="598" xml:id="pg_598"
+                        facs="0108"/><list>
+
                         <label>
                             <hi rend="italic">a</hi>.</label>
                         <item>“In many cases, initial requirements constitute the least important
@@ -6685,8 +6682,7 @@
                     <hi rend="smallcaps">Note by The Executive Secretary to the National Security
                         Council on Interim Terms of Reference of <gloss target="#t_SANACC1"
                             >Sanacc</gloss>
-                    </hi>
-                    <note n="1" xml:id="d35fn1">The State–War–Navy Coordinating Committee was
+                    </hi><note n="1" xml:id="d35fn1">The State–War–Navy Coordinating Committee was
                         established in December, 1944, as the principal inter-departmental
                         organization concerned with the coordination of foreign and military
                         policies; for documentation on the establishment of <gloss
@@ -6950,8 +6946,7 @@
                     Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 20 Series</note>
                 <head>
                     <hi rend="italic">Report to the National Security Council by the Department of
-                        State: Summary of Conclusions</hi>
-                    <note n="1" xml:id="d37fn1">
+                        State: Summary of Conclusions</hi><note n="1" xml:id="d37fn1">
                         <gloss target="#t_NSC1">NSC</gloss> 20/1, a document of 52 pages prepared by
                         the Policy Planning Staff (<gloss target="#t_PPS1">PPS</gloss>/38, August
                         18), was transmitted by the Department of State to the National Security
@@ -7867,11 +7862,11 @@
                 <p rend="flushleft">
                     <gloss target="#t_NSC1">NSC</gloss> 30</p>
                 <p rend="center">
-                    <hi rend="smallcaps">United States Policy on Atomic Warfare</hi>
-                    <note n="1" xml:id="d41fn1">At its 9th Meeting, April 2, the National Security
-                        Council deferred consideration of the question of the employment of atomic
-                        weapons in the event of war (<gloss target="#t_NSC1">NSC</gloss> Action No.
-                        51: <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
+                    <hi rend="smallcaps">United States Policy on Atomic Warfare</hi><note n="1"
+                        xml:id="d41fn1">At its 9th Meeting, April 2, the National Security Council
+                        deferred consideration of the question of the employment of atomic weapons
+                        in the event of war (<gloss target="#t_NSC1">NSC</gloss> Action No. 51:
+                            <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 66D95). See Secretary of the Army Royall’s memorandum on the
                         subject, May 19, <ref target="#pg_572">p. 572</ref>, and Gullion’s comments
                         thereon, <ref target="#pg_571">p. 571</ref>. <p>At its 13th Meeting, June
@@ -8377,8 +8372,9 @@
                         <hi rend="smallcaps">Charles</hi> E. <hi rend="smallcaps">Bohlen</hi>
                     </signed>
                 </closer>
-                <pb n="633" xml:id="pg_633" facs="0143"/>
+
             </div>
+            <pb n="633" xml:id="pg_633" facs="0143"/>
             <div type="document" xml:id="d47" n="47" subtype="editorial-note"
                 frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
                 frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
@@ -8727,8 +8723,7 @@
                 <head>
                     <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss> to
                         Certain <gloss type="to">Diplomatic and Consular Offices</gloss>
-                    </hi>
-                    <note n="1" xml:id="d50fn1">Sent to London, Moscow, Nanking, Shanghai,
+                    </hi><note n="1" xml:id="d50fn1">Sent to London, Moscow, Nanking, Shanghai,
                         Singapore, Bangkok, Saigon, Rangoon, Seoul, Tokyo.</note>
                 </head>
                 <opener>
@@ -9021,8 +9016,7 @@
                     <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
                             rend="italic">Forrestal</hi></persName>) <hi rend="italic">to the <gloss
                             type="to">Secretary of State</gloss>
-                    </hi>
-                    <note n="1" xml:id="d52fn1">On October 31, the text of this letter and its
+                    </hi><note n="1" xml:id="d52fn1">On October 31, the text of this letter and its
                         enclosure were transmitted by the Department of State through military
                         channels to the Secretary of State at Paris, where he was attending the
                         Third Session of the United Nations General Assembly.</note>
@@ -9386,8 +9380,7 @@
                 <head>
                     <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss> to
                         Certain <gloss type="to">Diplomatic and Consular Offices</gloss>
-                    </hi>
-                    <note n="1" xml:id="d55fn1">Sent to 85 United States Embassies, Legations,
+                    </hi><note n="1" xml:id="d55fn1">Sent to 85 United States Embassies, Legations,
                         Consulates, and Political Advisers.</note>
                 </head>
                 <opener>
@@ -11132,9 +11125,9 @@
                     frus:doc-dateTime-min="1948-01-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-01-07T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">Department of State Atomic Energy Files</seg>
-                        <note n="2" xml:id="d65fn2" type="source">Lot 57D688, the Department of
-                            State consolidated lot file on atomic energy policy, 1944–1962.</note>
+                        <seg rend="inline">Department of State Atomic Energy Files</seg><note n="2"
+                            xml:id="d65fn2" type="source">Lot 57D688, the Department of State
+                            consolidated lot file on atomic energy policy, 1944–1962.</note>
                     </opener>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -11482,19 +11475,18 @@
                     <closer>
                         <signed>
                             <list>
-                                <item>R. <hi rend="smallcaps">Gordon Arneson</hi>
-                                    <note n="20" xml:id="d66fn20">Adviser, United States Delegation
-                                        to the United Nations Atomic Energy Commission.</note>
+                                <item>R. <hi rend="smallcaps">Gordon Arneson</hi><note n="20"
+                                        xml:id="d66fn20">Adviser, United States Delegation to the
+                                        United Nations Atomic Energy Commission.</note>
                                     <lb/>for Edmund Gullion</item>
                                 <item>J[<hi rend="smallcaps">ohn</hi>] N. <hi rend="smallcaps"
-                                        >Henderson</hi>
-                                    <note n="21" xml:id="d66fn21">Second Secretary, British
-                                        Embassy.</note>
+                                        >Henderson</hi><note n="21" xml:id="d66fn21">Second
+                                        Secretary, British Embassy.</note>
                                     <lb/>for Donald D. Maclean</item>
                                 <item>G[<hi rend="smallcaps">eorge</hi>] <hi rend="smallcaps"
-                                        >Ignatieff</hi>
-                                    <note n="22" xml:id="d66fn22">Alternate Canadian Representative
-                                        to the United Nations Atomic Energy Commission.</note>
+                                        >Ignatieff</hi><note n="22" xml:id="d66fn22">Alternate
+                                        Canadian Representative to the United Nations Atomic Energy
+                                        Commission.</note>
                                     <lb/>for Thomas A. Stone</item>
                             </list>
                         </signed>
@@ -11506,10 +11498,10 @@
                         </opener>
                         <head>
                             <hi rend="italic">Draft Agreement Between the Governments of the United
-                                States, the United Kingdom, and Canada</hi>
-                            <note n="23" xml:id="d66fn23">This proposal was prepared in accordance
-                                with decisions taken by the Combined Policy Committee at its meeting
-                                of December 15, 1947. The drafting subcommittee consisted of Gullion
+                                States, the United Kingdom, and Canada</hi><note n="23"
+                                xml:id="d66fn23">This proposal was prepared in accordance with
+                                decisions taken by the Combined Policy Committee at its meeting of
+                                December 15, 1947. The drafting subcommittee consisted of Gullion
                                 and Volpe (United States), Peirson and Maclean (United Kingdom), and
                                 Ignatieff and Stone (Canada).</note>
                         </head>
@@ -11655,14 +11647,14 @@
                         </opener>
                         <head>
                             <hi rend="italic">Draft Agreement Between the Governments of the United
-                                States, the United Kingdom, and Canada</hi>
-                            <note n="28" xml:id="d66fn28">This proposal was prepared by a
-                                subcommittee established by the Combined Policy Committee at its
-                                meeting of December 15, 1947. The subcommittee consisted of Kennan
-                                and Carroll Wilson, General Manager of the United States Atomic
-                                Energy Commission (United States); Munro and Makins (United
-                                Kingdom), and Wrong and Stone (Canada); its discussions are
-                                described in Hewlett and Duncan, pp. 281–282.</note>
+                                States, the United Kingdom, and Canada</hi><note n="28"
+                                xml:id="d66fn28">This proposal was prepared by a subcommittee
+                                established by the Combined Policy Committee at its meeting of
+                                December 15, 1947. The subcommittee consisted of Kennan and Carroll
+                                Wilson, General Manager of the United States Atomic Energy
+                                Commission (United States); Munro and Makins (United Kingdom), and
+                                Wrong and Stone (Canada); its discussions are described in Hewlett
+                                and Duncan, pp. 281–282.</note>
                         </head>
                         <opener>
                             <seg rendition="#left">
@@ -11905,8 +11897,8 @@
                     <head>
                         <hi rend="italic">Statement by the Under Secretary of State</hi> (<hi
                             rend="italic">Lovett</hi>) <hi rend="italic">Before the Joint
-                            Congressional Committee on Atomic Energy, January 21, 1948</hi>
-                        <note n="1" xml:id="d68fn1">The file copy is titled “Mr. Lovett’s remarks to
+                            Congressional Committee on Atomic Energy, January 21, 1948</hi><note
+                            n="1" xml:id="d68fn1">The file copy is titled “Mr. Lovett’s remarks to
                                 <gloss target="#t_JCCAE1">JCCAE</gloss>,” and is labeled “draft.” No
                             other version of the Under Secretary’s testimony has been found in the
                             files of the Department of State.</note>
@@ -12275,9 +12267,8 @@
                             the Under Secretary of State</hi> (<persName type="from"><hi
                                 rend="italic">Lovett</hi></persName>), <hi rend="italic">to the
                                 <gloss type="to">Secretary of State</gloss>
-                        </hi>
-                        <note n="1" xml:id="d71fn1">The initials of the Secretary of State appear on
-                            the source text.</note>
+                        </hi><note n="1" xml:id="d71fn1">The initials of the Secretary of State
+                            appear on the source text.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -12523,9 +12514,8 @@
                                     Gullion</persName>, Special Assistant to the Under Secretary of
                                 State</hi> (<persName type="to"><hi rend="italic"
                                 >Lovett</hi></persName>), <hi rend="italic">to the Secretary of
-                                State</hi>
-                            <note n="1" xml:id="d72fn2">Secretary Marshall’s initialled “OK” appears
-                                on the source text.</note>
+                                State</hi><note n="1" xml:id="d72fn2">Secretary Marshall’s
+                                initialled “OK” appears on the source text.</note>
                         </head>
                         <opener>
                             <seg rendition="#left">
@@ -12739,10 +12729,10 @@
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">Edmund A.
                                 Gullion</persName> to Lieutenant Colonel <persName type="to">Charles
-                                H. Bonesteel</persName>, III</hi>
-                        <note n="1" xml:id="d75fn1">Special Assistant to the Under Secretary of
-                            State; overall coordinator of Department of State activities relating to
-                            European economic recovery.</note>
+                                H. Bonesteel</persName>, III</hi><note n="1" xml:id="d75fn1">Special
+                            Assistant to the Under Secretary of State; overall coordinator of
+                            Department of State activities relating to European economic
+                            recovery.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -14691,18 +14681,18 @@
                         <hi rend="italic">Memorandum of Meeting, by Mr. <persName type="from">Donald
                                 F. Carpenter</persName>, Deputy to the Secretary of Defense</hi>
                             (<persName type="to"><hi rend="italic">Forrestal</hi></persName>) <hi
-                            rend="italic">on Atomic Energy Matters</hi>
-                        <note n="1" xml:id="d90fn1">Carpenter was Chairman of the Military Liaison
-                            Committee to the United States Atomic Energy Commission, which had been
-                            established by the Atomic Energy Act of 1946 and consisted of
-                            representatives of the National Military Establishment. The Committee
-                            was charged with providing liaison between the <gloss target="#t_NME1"
-                                >NME</gloss> and the <gloss target="#t_USAEC1">USAEC</gloss> on
-                            military application of atomic energy, including manufacture, use, and
-                            storage of bombs, the allocation of fissionable material for military
-                            research, and control of information relating to military application.
-                            The committee also served as the primary staff agency of the Secretary
-                            of Defense on atomic energy matters.</note>
+                            rend="italic">on Atomic Energy Matters</hi><note n="1" xml:id="d90fn1"
+                            >Carpenter was Chairman of the Military Liaison Committee to the United
+                            States Atomic Energy Commission, which had been established by the
+                            Atomic Energy Act of 1946 and consisted of representatives of the
+                            National Military Establishment. The Committee was charged with
+                            providing liaison between the <gloss target="#t_NME1">NME</gloss> and
+                            the <gloss target="#t_USAEC1">USAEC</gloss> on military application of
+                            atomic energy, including manufacture, use, and storage of bombs, the
+                            allocation of fissionable material for military research, and control of
+                            information relating to military application. The committee also served
+                            as the primary staff agency of the Secretary of Defense on atomic energy
+                            matters.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -14951,12 +14941,11 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                             Certain <gloss type="to">Diplomatic Missions Abroad</gloss>
-                        </hi>
-                        <note n="1" xml:id="d92fn1">This circular airgram was sent for action to the
-                            following missions: 1. Bern, 2. Stockholm, 3. Brussels, 4. The Hague, 5.
-                            Rome, 6. Oslo; the airgram was sent for the information and comments of
-                            the following missions: 7. Paris, 8. Copenhagen, 9. Vienna, 10.
-                            Luxembourg, 11. Dublin, 12. Reykjavik, 13. Athens, 14. Ankara, 15.
+                        </hi><note n="1" xml:id="d92fn1">This circular airgram was sent for action
+                            to the following missions: 1. Bern, 2. Stockholm, 3. Brussels, 4. The
+                            Hague, 5. Rome, 6. Oslo; the airgram was sent for the information and
+                            comments of the following missions: 7. Paris, 8. Copenhagen, 9. Vienna,
+                            10. Luxembourg, 11. Dublin, 12. Reykjavik, 13. Athens, 14. Ankara, 15.
                             Lisbon, 16. London, 17. Frankfurt, 18. Berlin; it was sent for the
                             information only of the following missions: 19. Moscow, 20. Warsaw, 21.
                             Helsinki, 22. Prague, 23. Belgrade, 24. Budapest, 25. Trieste, 26.
@@ -15727,8 +15716,8 @@
                     </opener>
                     <p rend="center">
                         <hi rend="smallcaps">Memorandum for the United States Secretary of National
-                            Defence From the Minister of Defence in the United Kingdom</hi>
-                        <note n="2" xml:id="d98fn2">Rt. Hon. Albert V. Alexander.</note>
+                            Defence From the Minister of Defence in the United Kingdom</hi><note
+                            n="2" xml:id="d98fn2">Rt. Hon. Albert V. Alexander.</note>
                     </p>
                     <p>Now that our own production programme is well launched and we are in a
                         position to make use of information received and make an increasing
@@ -16716,8 +16705,7 @@
                                     information on this area. The American side <gloss
                                         target="#t_CPC1">CPC</gloss> concluded that this development
                                     should not change the decision spelled out in the January 7 <hi
-                                        rend="italic">modus vivendi</hi>
-                                    <note n="4" xml:id="d103fn4">
+                                        rend="italic">modus vivendi</hi><note n="4" xml:id="d103fn4">
                                         <hi rend="italic">Ante</hi>, <ref target="#pg_683">p.
                                             683</ref>.</note> for exchange of information in nine
                                     specified areas.</item>
@@ -17432,13 +17420,12 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
                                 <gloss type="to">Department of State</gloss>
-                        </hi>
-                        <note n="1" xml:id="d108fn1">Transmitted by Sir Gordon Munro to Lovett on
-                            October 27 with the notation that copies were also being sent to Carroll
-                            Wilson, General Manager of the United States Atomic Energy Commission,
-                            and to Canadian Ambassador Hume Wrong. Lovett acknowledged receipt on
-                            November 22 without comment (Department of State Atomic Energy
-                            Files).</note>
+                        </hi><note n="1" xml:id="d108fn1">Transmitted by Sir Gordon Munro to Lovett
+                            on October 27 with the notation that copies were also being sent to
+                            Carroll Wilson, General Manager of the United States Atomic Energy
+                            Commission, and to Canadian Ambassador Hume Wrong. Lovett acknowledged
+                            receipt on November 22 without comment (Department of State Atomic
+                            Energy Files).</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -20467,14 +20454,13 @@
                     <note rend="inline" type="source">560.AL/1548</note>
                     <head>
                         <hi rend="italic">Draft Telegram Prepared by the United States Delegation at
-                            Habana</hi>
-                        <note n="1" xml:id="d135fn1">Submitted under a covering letter by Albert
-                            Nufer, the Delegation’s Political Adviser, to Assistant Secretary for
-                            Political Affairs, Armour. The draft telegram was a response to a
-                            suggestion made by Mr. Clayton, head of the delegation, that a circular
-                            telegram be sent to United States missions in Latin America to encourage
-                            those governments to take a more constructive attitude toward United
-                            States proposals at Habana.</note>
+                            Habana</hi><note n="1" xml:id="d135fn1">Submitted under a covering
+                            letter by Albert Nufer, the Delegation’s Political Adviser, to Assistant
+                            Secretary for Political Affairs, Armour. The draft telegram was a
+                            response to a suggestion made by Mr. Clayton, head of the delegation,
+                            that a circular telegram be sent to United States missions in Latin
+                            America to encourage those governments to take a more constructive
+                            attitude toward United States proposals at Habana.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -22325,11 +22311,11 @@
                         withdrawn in face UK position.</p>
                     <p>If US is to obtain, within reasonable period, most favored nation treatment
                         for trade of occupied areas, believe only effective method would be
-                        inclusion provision in <gloss target="#t_ERP1">ERP</gloss>
-                        <note n="1" xml:id="d154fn1">For documentation regarding the European
-                            Recovery Program see <ref target="frus1948v03#pg_352">vol. <hi
-                                    rend="smallcaps">iii</hi>, pp. 352</ref> ff.</note> and Chinese
-                        legislation along following lines: <quote rend="blockquote">
+                        inclusion provision in <gloss target="#t_ERP1">ERP</gloss><note n="1"
+                            xml:id="d154fn1">For documentation regarding the European Recovery
+                            Program see <ref target="frus1948v03#pg_352">vol. <hi rend="smallcaps"
+                                    >iii</hi>, pp. 352</ref> ff.</note> and Chinese legislation
+                        along following lines: <quote rend="blockquote">
                             <p>“Any govt receiving aid under this act shall agree to the
                                 application, on a reciprocal basis, of most favored nation treatment
                                 to the trade of areas under military occupation for the period of
@@ -22472,9 +22458,9 @@
                             <seg rendition="#center">[Annex]</seg>
                         </opener>
                         <head>
-                            <hi rend="smallcaps">Memorandum for Lord Inverchapel</hi>
-                            <note n="3" xml:id="d157fn3">The memorandum was prepared by Mr. Brown,
-                                the Acting Director of the Office of International Trade Policy on
+                            <hi rend="smallcaps">Memorandum for Lord Inverchapel</hi><note n="3"
+                                xml:id="d157fn3">The memorandum was prepared by Mr. Brown, the
+                                Acting Director of the Office of International Trade Policy on
                                 January 30, 1948; it was presumably given to Lord Inverchapel by Mr.
                                 Clayton in the conversation noted in the Clayton memorandum of
                                 February 11, <ref target="#pg_855">p. 855</ref>.</note>
@@ -22971,9 +22957,9 @@
                             Secretary of State for Economic Affairs.</note> from Douglas. At a
                         meeting this morning with Cripps, Harold Wilson, others of the Board of
                         Trade and Hall-Patch of the Foreign Office, an <hi rend="italic"
-                            >aide-mémoire</hi>
-                        <note n="2" xml:id="d164fn2">Not printed.</note> was handed to me and
-                        discussed. The following is a relevant extract: <quote rend="blockquote">
+                            >aide-mémoire</hi><note n="2" xml:id="d164fn2">Not printed.</note> was
+                        handed to me and discussed. The following is a relevant extract: <quote
+                            rend="blockquote">
                             <p>“Agreement is apparently very near at Havana on a charter which most
                                 of the countries participating would accept, some with varying
                                 degrees of reluctance. The charter text now emerging has, however, a
@@ -23895,14 +23881,14 @@
                         <item>Accept Article 15 provided interpretive note included in text as in
                             Havana’s numbered paragraph 1.</item>
                         <label>2.</label>
-                        <item>Cripps handed Ambassador formal <hi rend="italic">aide-mémoire</hi>
-                            <note n="1" xml:id="d174fn1">Not printed.</note> of which substance
-                            cabled <gloss target="#t_Embtel1">Embtel</gloss> 8 to Havana, 836 to
-                            Department. Essentially this is strong plea for clarification and
-                            simplification paragraphs 1 (<hi rend="italic">b</hi>) and 1 (<hi
-                                rend="italic">c</hi>), which <gloss target="#t_UsDel1">USDel</gloss>
-                            states cannot be considered. Nevertheless this represents most desirable
-                            solution from British viewpoint.</item>
+                        <item>Cripps handed Ambassador formal <hi rend="italic"
+                                >aide-mémoire</hi><note n="1" xml:id="d174fn1">Not printed.</note>
+                            of which substance cabled <gloss target="#t_Embtel1">Embtel</gloss> 8 to
+                            Havana, 836 to Department. Essentially this is strong plea for
+                            clarification and simplification paragraphs 1 (<hi rend="italic">b</hi>)
+                            and 1 (<hi rend="italic">c</hi>), which <gloss target="#t_UsDel1"
+                                >USDel</gloss> states cannot be considered. Nevertheless this
+                            represents most desirable solution from British viewpoint.</item>
                         <label>3.</label>
                         <item>As final possible alternative Cripps suggested following text to be
                             inserted at end of first sentence of paragraph 1 (<hi rend="italic"
@@ -24629,8 +24615,9 @@
                             to reach this decision and the full support of the Department of State
                             in the position which it is taking.” (560.AL/3–1248)</note>
                     </p>
-                    <pb n="895" xml:id="pg_895" facs="0405"/>
+
                 </div>
+                <pb n="895" xml:id="pg_895" facs="0405"/>
                 <div type="document" xml:id="d183" n="183" subtype="editorial-note"
                     frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
                     frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
@@ -25104,8 +25091,8 @@
                     frus:doc-dateTime-min="1948-02-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-02-11T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg>
-                        <note n="1" xml:id="d187fn1">Folder “First Session <gloss target="#t_GATT1"
+                        <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg><note
+                            n="1" xml:id="d187fn1">Folder “First Session <gloss target="#t_GATT1"
                                 >GATT</gloss>: Agenda and Position Papers”.</note>
                     </opener>
                     <head>
@@ -25120,12 +25107,12 @@
                                 calendar="gregorian">February 11, 1948</date>.</dateline>
                     </opener>
                     <p rend="flushleft">
-                        <hi rend="italic">Attachment A–VIII</hi>
-                        <note n="2" xml:id="d187fn2">This paper was Attachment A–VIII to Doc. TAC
-                            D–4/48, dated February 11, 1948, a document of the Interdepartmental
-                            Committee on Trade Agreements (TAC).</note>—Supersession of Article I
-                        and Part II of General Provisions of <gloss target="#t_GATT1">GATT</gloss>
-                        by corresponding <gloss target="#t_ITO1">ITO</gloss> Charter provisions.</p>
+                        <hi rend="italic">Attachment A–VIII</hi><note n="2" xml:id="d187fn2">This
+                            paper was Attachment A–VIII to Doc. TAC D–4/48, dated February 11, 1948,
+                            a document of the Interdepartmental Committee on Trade Agreements
+                            (TAC).</note>—Supersession of Article I and Part II of General
+                        Provisions of <gloss target="#t_GATT1">GATT</gloss> by corresponding <gloss
+                            target="#t_ITO1">ITO</gloss> Charter provisions.</p>
                     <p rend="flushleft">
                         <hi rend="italic">Problem</hi>
                     </p>
@@ -25193,8 +25180,8 @@
                     frus:doc-dateTime-min="1948-02-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-02-21T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg>
-                        <note n="1" xml:id="d188fn1" type="source">Folder “H—General Agreement on
+                        <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg><note
+                            n="1" xml:id="d188fn1" type="source">Folder “H—General Agreement on
                             Tariffs and Trade—Miscellaneous”.</note>
                     </opener>
                     <head>
@@ -25258,8 +25245,8 @@
                     frus:doc-dateTime-min="1948-03-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-03-24T23:59:59-05:00">
                     <opener>
-                        <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg>
-                        <note n="1" xml:id="d189fn1" type="source">Folder “Documents—<gloss
+                        <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg><note
+                            n="1" xml:id="d189fn1" type="source">Folder “Documents—<gloss
                                 target="#t_GATT1">GATT</gloss>—Contracting Parties First
                             Meeting”.</note>
                     </opener>
@@ -25556,8 +25543,7 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                             Certain <gloss type="to">Diplomatic Missions</gloss>
-                        </hi>
-                        <note n="1" xml:id="d190fn1">Sent to Paris as 981, Brussels as 449, The
+                        </hi><note n="1" xml:id="d190fn1">Sent to Paris as 981, Brussels as 449, The
                             Hague as 116, Luxembourg as 11, Ottawa as 48, Canberra as 75, and Habana
                             as 395. <p>Because the United Kingdom had been inadvertently left off
                                 the original distribution list for the circular, the message was
@@ -26034,9 +26020,8 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
                             to Certain <gloss type="to">Diplomatic Missions</gloss>
-                        </hi>
-                        <note n="1" xml:id="d195fn1">Sent to Brussels, Canberra, Habana, Luxembourg,
-                            London, Ottawa, Paris, Praha, and The Hague.</note>
+                        </hi><note n="1" xml:id="d195fn1">Sent to Brussels, Canberra, Habana,
+                            Luxembourg, London, Ottawa, Paris, Praha, and The Hague.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -26462,9 +26447,8 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                             Certain <gloss type="to">Diplomatic Missions</gloss>
-                        </hi>
-                        <note n="1" xml:id="d199fn1">Sent to all diplomatic missions except Bogotá
-                            and Mexico.</note>
+                        </hi><note n="1" xml:id="d199fn1">Sent to all diplomatic missions except
+                            Bogotá and Mexico.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -27197,9 +27181,8 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                             Certain <gloss type="to">Diplomatic Missions</gloss>
-                        </hi>
-                        <note n="1" xml:id="d206fn1">Sent to United States diplomatic missions in
-                            Austria, Iceland, Portugal, Switzerland, Turkey, and France.</note>
+                        </hi><note n="1" xml:id="d206fn1">Sent to United States diplomatic missions
+                            in Austria, Iceland, Portugal, Switzerland, Turkey, and France.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -28403,13 +28386,12 @@
                             </opener>
                             <p rend="center">
                                 <hi rend="smallcaps">Statement of United States Foreign Credit and
-                                    Investment Policy</hi>
-                                <note n="3" xml:id="d222fn3">Prepared by the Executive Committee on
-                                    Economic Foreign Policy as <gloss target="#t_ECEFP1"
-                                        >ECEFP</gloss> D–58/48 Rev. 1. Transmitted as a circular
-                                    instruction to all Embassies, Legations and Consulates on
-                                    October 29, 1948 (as Foreign Service Serial No. 920, file No.
-                                    800.51/10–2948).</note>
+                                    Investment Policy</hi><note n="3" xml:id="d222fn3">Prepared by
+                                    the Executive Committee on Economic Foreign Policy as <gloss
+                                        target="#t_ECEFP1">ECEFP</gloss> D–58/48 Rev. 1. Transmitted
+                                    as a circular instruction to all Embassies, Legations and
+                                    Consulates on October 29, 1948 (as Foreign Service Serial No.
+                                    920, file No. 800.51/10–2948).</note>
                             </p>
                             <quote rend="blockquote">
                                 <p>(This Statement is intended to serve as a guide to the executive
@@ -29494,9 +29476,9 @@
                         </row>
                         <row>
                             <cell/>
-                            <cell>Mr. Hickerson, <gloss target="#t_EUR1">EUR</gloss>
-                                <note n="1" xml:id="d225fn1">John D. Hickerson, Director, Office of
-                                    European Affairs.</note>
+                            <cell>Mr. Hickerson, <gloss target="#t_EUR1">EUR</gloss><note n="1"
+                                    xml:id="d225fn1">John D. Hickerson, Director, Office of European
+                                    Affairs.</note>
                             </cell>
                         </row>
                     </table>
@@ -29877,8 +29859,7 @@
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
                                 <gloss type="to">Embassy in the United Kingdom</gloss>
-                        </hi>
-                        <note n="1" xml:id="d230fn1">The text of this telegram was subsequently
+                        </hi><note n="1" xml:id="d230fn1">The text of this telegram was subsequently
                             transmitted to the Embassy in Santiago in telegram 100, March 26, and to
                             the Embassy in Buenos Aires in airgram A–160, March 29, neither printed
                             (800.014 Antarctic/3–2648 and 800.014 Antarctic/3–2948).</note>
@@ -30294,15 +30275,14 @@
                     <head>
                         <hi rend="italic">Memorandum by John A. Morrison of the Policy Planning
                             Staff to Carlton Savage, Executive Secretary of the Policy Planning
-                            Staff</hi>
-                        <note n="1" xml:id="d235fn1">The source text is attached to a short, summary
-                            record of the 165th Meeting of the Policy Planning Staff, April 21,
-                            1948. According to that record, there was a discussion of a draft paper
-                            on the Antarctic, dated April 16. Present for the meeting were the
-                            Director of the Policy Planning Staff, George F. Kennan, Staff members
-                            George H. Butler, Henry S. Villard, Bernard A. Gufler, and Joseph P.
-                            Davies, Jr., Staff Executive Secretary Carlton Savage, and John A.
-                            Morrison. Participating in this meeting from other parts of the
+                            Staff</hi><note n="1" xml:id="d235fn1">The source text is attached to a
+                            short, summary record of the 165th Meeting of the Policy Planning Staff,
+                            April 21, 1948. According to that record, there was a discussion of a
+                            draft paper on the Antarctic, dated April 16. Present for the meeting
+                            were the Director of the Policy Planning Staff, George F. Kennan, Staff
+                            members George H. Butler, Henry S. Villard, Bernard A. Gufler, and
+                            Joseph P. Davies, Jr., Staff Executive Secretary Carlton Savage, and
+                            John A. Morrison. Participating in this meeting from other parts of the
                             Department were: Llewellyn E. Thompson, Deputy Director, Office of
                             European Affairs; Robert F. Woodward, Deputy Director, Office of
                             American Republic Affairs; Samuel W. Boggs, Special Adviser on
@@ -30402,10 +30382,10 @@
                     <note rend="inline" type="source">Policy Planning Staff Files: Lot 64 D
                         563</note>
                     <head>
-                        <hi rend="italic">Paper Prepared by the Policy Planning Staff</hi>
-                        <note n="1" xml:id="d237fn1">The paper printed here was prepared in the
-                            light of the considerations and discussions described in the editorial
-                            note, <hi rend="italic">supra</hi>. The source text indicates that Under
+                        <hi rend="italic">Paper Prepared by the Policy Planning Staff</hi><note
+                            n="1" xml:id="d237fn1">The paper printed here was prepared in the light
+                            of the considerations and discussions described in the editorial note,
+                                <hi rend="italic">supra</hi>. The source text indicates that Under
                             Secretary of State Robert A. Lovett gave his approval on June 14. On
                             June 15 the Secretary of State transmitted a copy of this paper to
                             Secretary of Defense Forrestal under cover of a brief letter. In his
@@ -30951,9 +30931,8 @@
                 <head>
                     <hi rend="italic">The <gloss type="from">Department of State</gloss> to the
                             <gloss type="to">British Embassy</gloss>
-                    </hi>
-                    <note n="1" xml:id="d238fn1">This <hi rend="italic">aide-mémoire</hi> together
-                        with a copy of the Draft Agreement on Antarctica (<hi rend="italic"
+                    </hi><note n="1" xml:id="d238fn1">This <hi rend="italic">aide-mémoire</hi>
+                        together with a copy of the Draft Agreement on Antarctica (<hi rend="italic"
                             >supra</hi>) were handled to Sir John Balfour, the British Minister, on
                         June 25; see telegram 2424, June 26, to London, <hi rend="italic"
                         >infra</hi>. The <hi rend="italic">aide-mémoire</hi> and the Draft Agreement
@@ -31087,8 +31066,7 @@
                     <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
                             rend="italic">Forrestal</hi></persName>) <hi rend="italic">to the <gloss
                             type="to">Secretary of State</gloss>
-                    </hi>
-                    <note n="1" xml:id="d240fn1">The source text is included in document <gloss
+                    </hi><note n="1" xml:id="d240fn1">The source text is included in document <gloss
                             target="#t_NSC1">NSC</gloss> 21, July 13, 1948; regarding <gloss
                             target="#t_NSC1">NSC</gloss> 21, see footnote 1 to document <gloss
                             target="#t_PPS1">PPS</gloss> 31, June 9, <ref target="#pg_977">p.
@@ -31490,8 +31468,7 @@
                 <head>
                     <hi rend="italic">The <gloss type="from">Department of State</gloss> to the
                             <gloss type="to">Australian Embassy</gloss>
-                    </hi>
-                    <note n="1" xml:id="d247fn1">Identic <hi rend="italic">aide-mémoire</hi>,
+                    </hi><note n="1" xml:id="d247fn1">Identic <hi rend="italic">aide-mémoire</hi>,
                         together with copies of the enclosed Draft Agreement on Antarctica, were
                         addressed to the New Zealand Legation and the Argentine, Chilean, British,
                         French, and Norwegian Embassies. This <hi rend="italic">aide-mémoire</hi> is
@@ -31556,9 +31533,9 @@
                         <seg rendition="#center">[Enclosure]</seg>
                     </opener>
                     <head>
-                        <hi rend="italic">Draft Agreement Prepared by the Department of State</hi>
-                        <note n="2" xml:id="d247fn2">This Draft Agreement is a redraft of the
-                            earlier text included as an enclosure to document <gloss
+                        <hi rend="italic">Draft Agreement Prepared by the Department of
+                            State</hi><note n="2" xml:id="d247fn2">This Draft Agreement is a redraft
+                            of the earlier text included as an enclosure to document <gloss
                                 target="#t_PPS1">PPS</gloss> 31, June 9, <ref target="#pg_977">p.
                                 977</ref>. The revision was carried out in the Department of State
                             during the month of July, particularly in the light of comments by the
@@ -31942,8 +31919,9 @@
                 <closer>
                     <signed>G. C. M[<hi rend="smallcaps">arshall</hi>]</signed>
                 </closer>
-                <pb n="1004" xml:id="pg_1004" facs="0514"/>
+
             </div>
+            <pb n="1004" xml:id="pg_1004" facs="0514"/>
             <div type="document" xml:id="d251" n="251" subtype="editorial-note"
                 frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
                 frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
@@ -32225,9 +32203,9 @@
                         <seg rendition="#center">[Annex]</seg>
                     </opener>
                     <head>
-                        <hi rend="italic">Copy of Notes Prepared by the South African Embassy</hi>
-                        <note n="2" xml:id="d255fn2">South African Chargé Eustace spoke from these
-                            notes during the conversation recorded above.</note>
+                        <hi rend="italic">Copy of Notes Prepared by the South African
+                            Embassy</hi><note n="2" xml:id="d255fn2">South African Chargé Eustace
+                            spoke from these notes during the conversation recorded above.</note>
                     </head>
                     <p rend="center">
                         <hi rend="smallcaps">Notes on Antarctica</hi>
@@ -32591,9 +32569,8 @@
                 <head>
                     <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss> to
                         the <gloss type="to">Embassy in Chile</gloss>
-                    </hi>
-                    <note n="1" xml:id="d262fn1">Repeated to London as 4488 and to Buenos Aires as
-                        1016.</note>
+                    </hi><note n="1" xml:id="d262fn1">Repeated to London as 4488 and to Buenos Aires
+                        as 1016.</note>
                 </head>
                 <opener>
                     <seg rendition="#left">
