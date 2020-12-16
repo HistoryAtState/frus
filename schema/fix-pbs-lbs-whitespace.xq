@@ -81,13 +81,17 @@ return
                 delete node $cell/node()[last()]
             )
         ,
-        for $cell in $vol//tei:cell[count(node()) gt 2 and node()[last()][. instance of text() and normalize-space(.) eq ""] and node()[last() - 1][. instance of element(tei:pb) or . instance of element(tei:lb)]]
+        for $cell in $vol//tei:cell[node()[1][. instance of text() and normalize-space(.) ne ""] and count(node()) ge 3 and node()[last()][. instance of text() and normalize-space(.) eq ""] and node()[last() - 1][. instance of element(tei:pb) or . instance of element(tei:lb)]]
         return
             (
                 insert node $cell/node()[last() - 1] after $cell/parent::tei:row,
                 delete node $cell/node()[last() - 1],
                 delete node $cell/node()[last()]
             )
+        ,
+        for $cell in $vol//tei:cell[count(node()) eq 1 and normalize-space(.) eq ""]
+        return
+            delete node $cell/node()
         ,
         
         
