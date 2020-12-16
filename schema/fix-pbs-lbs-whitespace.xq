@@ -133,10 +133,12 @@ return
         
         (: 6. if there is a space before a pb/lb in a text node, there should be no space afterward :)
         
+        (: <p>hello <pb/> there</p> -> <p>hello <pb/>there</p> :)
         for $elem in $vol//(tei:pb|tei:lb)[preceding-sibling::node()[1][normalize-space(.) ne "" and matches(., "\s$")] and following-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "^\s")]]
         return
             replace value of node $elem/following-sibling::text()[1] with replace($elem/following-sibling::text()[1], "^\s+", "")
         ,
+        (: <p>hello<pb/> there</p> -> <p>hello <pb/>there</p> :)
         for $elem in $vol//(tei:pb|tei:lb)[preceding-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "[^\s]$")] and following-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "^\s")]]
         return
             (
@@ -144,7 +146,8 @@ return
                 replace value of node $elem/following-sibling::text()[1] with replace($elem/following-sibling::text()[1], "^\s+", "")
             )
         ,
-        for $elem in $vol//(tei:pb|tei:lb)[preceding-sibling::node()[1][. instance of element()] and following-sibling::node()[1][. instance of text() and normalize-space(.) eq "" and matches(., "^\s")]]
+        (: <p><hi>hello</hi><pb/> there</p> -> <p><hi>hello</hi> <pb/>there</p> :)
+        for $elem in $vol//(tei:pb|tei:lb)[preceding-sibling::node()[1][. instance of element()] and following-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "^\s")]]
         return
             (
                 insert node text { " " } before $elem,
