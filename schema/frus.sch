@@ -474,8 +474,7 @@
                         $source-note)[1] => normalize-space()"/>
             <assert test="exists($source-note)">Source note is missing</assert>
             <!-- if the source note is the 1st element in the div, it's a pre-1955 document, before the "Source:" convention was present/consistent -->
-            <assert
-                test="
+            <assert test="
                     if (./element()[1] is $source-note) then
                         true()
                     else
@@ -513,6 +512,18 @@
         <rule context="tei:note">
             <assert test="not(preceding-sibling::node()[1] instance of element(tei:note))"
                 >Whitespace is required between consecutive footnotes</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="pb-lb-whitespace-checks">
+        <title>Ensure balanced whitespace around breaks</title>
+        <rule context="tei:lb|tei:pb">
+            <assert test="
+                (matches(preceding::text()[1], '\s$') and matches(following::text()[1], '^\s'))
+                or
+                (matches(preceding::text()[1], '[^\s]$') and matches(following::text()[1], '^[^\s]'))
+                "
+                >A line or page break element should have whitespace both before and after, or neither when the break splits a word</assert>
         </rule>
     </pattern>
     

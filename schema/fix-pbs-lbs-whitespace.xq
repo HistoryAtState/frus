@@ -250,47 +250,35 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
         ,
 
 
-(: 6. spaces can appear before pb/lb, but not after it :)
+(: 6. for legibility, pb/lb benefit from leading and trailing whitespace, 
+      so add the corresponding space if there's only leading OR trailing whitespace. 
+      
+      note: pb/lbs without either leading or trailing whitespace will be kept 
+      intact, since this is needed to prevent unwanted whitespace appearing in words 
+      split by these breaks. For example, <p>incident<pb/>al</p> will not be 
+      changed by these updates. :)
 
-    (: 6a. <p>hello <pb/> there</p> -> <p>hello <pb/>there</p> :)
+    (: 6a. <p>hello          <pb/>there</p>          -> <p>hello <pb/> there</p>
+           <p><hi>hello</hi> <pb/><hi>there</hi></p> -> <p><hi>hello</hi> <pb/> <hi>there</hi></p>:)
     
         for $elem in $pb-lbs
             [
-                preceding-sibling::node()[1][normalize-space(.) ne "" and matches(., "\s$")] 
+                preceding::text()[1][matches(., "\s$")] 
                 and 
-                following-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "^\s")]
+                following::text()[1][matches(., "^[^\s]")]
             ]
         return
-            replace value of node $elem/following-sibling::text()[1] with replace($elem/following-sibling::text()[1], "^\s+", "")
+            insert node text { " " } after $elem
         ,
     
-    (: 6b. <p>hello<pb/> there</p> -> <p>hello <pb/>there</p> :)
+    (: 6b. <p>hello<pb/>          there</p>          -> <p>hello <pb/> there</p>
+           <p><hi>hello</hi><pb/> <hi>there</hi></p> -> <p><hi>hello</hi> <pb/> <hi>there</hi></p>:)
     
         for $elem in $pb-lbs
             [
-                preceding-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "[^\s]$")] 
+                preceding::text()[1][matches(., "[^\s]$")]
                 and 
-                following-sibling::node()[1][. instance of text() and normalize-space(.) ne "" and matches(., "^\s")]
+                following::text()[1][matches(., "^\s")]
             ]
         return
-            (
-                insert node text { " " } before $elem,
-                replace value of node $elem/following-sibling::text()[1] with replace($elem/following-sibling::text()[1], "^\s+", "")
-            )
-        ,
-    
-    (: 6c. <p><hi>hello</hi><pb/> there</p> -> <p><hi>hello</hi> <pb/>there</p> :)
-    
-        for $elem in $pb-lbs
-            [
-                preceding-sibling::node()[1][. instance of element()] 
-                and 
-                following-sibling::node()[1][. instance of text() 
-                and 
-                normalize-space(.) ne "" and matches(., "^\s")]
-            ]
-        return
-            (
-                insert node text { " " } before $elem,
-                replace value of node $elem/following-sibling::text()[1] with replace($elem/following-sibling::text()[1], "^\s+", "")
-            )
+            insert node text { " " } before $elem
