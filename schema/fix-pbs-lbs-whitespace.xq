@@ -108,13 +108,13 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
         ,
         :)  
 
-(: 4. move leading/trailing pb/lb element outside of cell :)
+(: 4. move leading/trailing pb elements outside of cell :)
 
-    (: 4a. <row><cell><lb/></cell></row> -> <lb/><row><cell/></row> :)
+    (: 4a. <row><cell><pb/></cell></row> -> <pb/><row><cell/></row> :)
     
         for $cell in $cells
             [
-                node()[1][. instance of element(tei:pb) or . instance of element(tei:lb)]
+                node()[1][. instance of element(tei:pb)]
             ]
         return
             (
@@ -123,13 +123,13 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
             )
         ,
     
-    (: 4b. <row><cell> <lb/></cell></row> -> <lb/><row><cell/></row> :)
+    (: 4b. <row><cell> <pb/></cell></row> -> <pb/><row><cell/></row> :)
     
         for $cell in $cells
             [
                 node()[1][. instance of text() and normalize-space(.) eq ""] 
                 and 
-                node()[2][. instance of element(tei:pb) or . instance of element(tei:lb)]
+                node()[2][. instance of element(tei:pb)]
             ]
         return
             (
@@ -139,13 +139,13 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
             )
         ,
     
-    (: 4c. <row><cell>hello<lb/></cell></row> -> <row><cell>hello</cell></row><lb/> :)
+    (: 4c. <row><cell>hello<pb/></cell></row> -> <row><cell>hello</cell></row><pb/> :)
     
         for $cell in $cells
             [
                 count(node()) gt 1 
                 and 
-                node()[last()][. instance of element(tei:pb) or . instance of element(tei:lb)]
+                node()[last()][. instance of element(tei:pb)]
             ]
         return
             (
@@ -154,7 +154,7 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
             )
         ,
     
-    (: 4d. <row><cell>hello<lb/> </cell></row> -> <row><cell>hello</cell></row><lb/> :)
+    (: 4d. <row><cell>hello<pb/> </cell></row> -> <row><cell>hello</cell></row><pb/> :)
     
         for $cell in $cells
             [
@@ -164,7 +164,7 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
                 and 
                 node()[last()][. instance of text() and normalize-space(.) eq ""]
                 and 
-                node()[last() - 1][. instance of element(tei:pb) or . instance of element(tei:lb)]
+                node()[last() - 1][. instance of element(tei:pb)]
             ]
         return
             (
