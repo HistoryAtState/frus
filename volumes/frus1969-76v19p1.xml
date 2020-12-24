@@ -67,13 +67,13 @@
     </teiHeader>
     <text>
         <front>
+            <pb n="[titlepage]" xml:id="pg_titlepage" facs="0001"/>
             <titlePage type="main">
-                <pb n="[titlepage]" xml:id="pg_titlepage" facs="0001"/>
                 <figure>
                     <graphic url="figure_0001"/>
                 </figure>
+                <pb n="[I]" xml:id="pg_I" facs="0002"/>
                 <docTitle>
-                    <pb n="[I]" xml:id="pg_I" facs="0002"/>
                     <titlePart type="series">Foreign Relations of the United States</titlePart>
                     <titlePart type="subseries">1969–1976</titlePart>
                     <titlePart type="volumenumber">Volume XIX, Part 1</titlePart>

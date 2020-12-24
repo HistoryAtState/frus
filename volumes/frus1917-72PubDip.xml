@@ -13,7 +13,6 @@
                 <editor role="primary">Aaron W. Marrs</editor>
                 <editor role="general">Adam M. Howard</editor>
             </titleStmt>
-
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
@@ -22,7 +21,6 @@
                 <date type="content-date" calendar="gregorian" notBefore="1917-08-13T00:00:00-05:00"
                     notAfter="1919-06-01T17:59:59-05:00">1917 to 1919</date>
             </publicationStmt>
-
             <sourceDesc>
                 <p>Released in 2014 as printed book.</p>
             </sourceDesc>
@@ -35,8 +33,8 @@
     </teiHeader>
     <text>
         <front>
+            <pb n="I" facs="0000" xml:id="pg_I"/>
             <titlePage type="main">
-                <pb n="I" facs="0000" xml:id="pg_I"/>
                 <docTitle>
                     <titlePart type="series">Foreign Relations of the United States</titlePart>
                     <titlePart type="subseries">1917–1972</titlePart>
@@ -49,7 +47,6 @@
                 <byline>
                     <hi rend="italic">General Editor</hi>: <name>Adam M. Howard</name>
                 </byline>
-
                 <docImprint>
                     <publisher>United States Government Printing Office</publisher>
                     <pubPlace>Washington</pubPlace>
@@ -66,12 +63,10 @@
                     Phone: toll free (866) 512-1800; DC area (202) 512-1800<lb/>Fax: (202) 512-2250
                     Mail: Stop IDCC, Washington, DC 20402-0001</docImprint>
             </titlePage>
-
             <pb n="III" facs="0005" xml:id="pg_III"/>
             <div type="section" xml:id="about" subtype="about-frus-series"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -243,12 +238,10 @@
                     <date when="2014-11" calendar="gregorian">November 2014</date>
                 </closer>
             </div>
-
             <pb n="VII" facs="0009" xml:id="pg_VII"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Preface</head>
                 <p rend="sectiontitleital">Focus of Research and Principles of Selection for <hi
                         rend="roman">Foreign Relations,</hi> Public Diplomacy, 1917–1972</p>
@@ -305,12 +298,10 @@
                 <pb n="VIII" facs="0010" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
             <pb n="IX" facs="0011" xml:id="pg_IX"/>
             <div type="section" xml:id="acknowledge" subtype="acknowledgements"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Acknowledgements</head>
                 <p>The editor wishes to thank the staff at the Library of Congress and the National
                     Archives and Records Administration facility in College Park, Maryland, for
@@ -334,12 +325,10 @@
                 <pb n="X" facs="0012" xml:id="pg_X"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
             <pb n="XI" facs="0013" xml:id="pg_XI"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Contents</head>
                 <list>
                     <item>
@@ -378,12 +367,10 @@
                 <pb n="XII" facs="0014" xml:id="pg_XII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
             <pb n="XIII" facs="0015" xml:id="pg_XIII"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Sources</head>
                 <p>The Committee on Public Information (<gloss target="#t_CPI_1">CPI</gloss>) had
                     both a foreign and domestic function. Records on the foreign function of the
@@ -472,12 +459,10 @@
                             Agent</hi>. New York: Harper, 1920.</item>
                 </list>
             </div>
-
             <pb n="XV" facs="0017" xml:id="pg_XV"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -527,12 +512,10 @@
                 <pb n="XVI" facs="0018" xml:id="pg_XVI"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
             <pb n="XVII" facs="0019" xml:id="pg_XVII"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -643,7 +626,6 @@
                         <hi rend="strong">
                             <persName xml:id="p_PFL_1">Polk, Frank Lyon</persName>,</hi> Counselor
                         of the Department of State</item>
-
                     <item>
                         <hi rend="strong">
                             <persName xml:id="p_RHN_1">Rickey, Harry N.</persName>,</hi> Committee
@@ -708,13 +690,11 @@
                 </list>
             </div>
         </front>
-
         <body>
             <pb n="1" facs="0021" xml:id="pg_1"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <head>World War I</head>
-
                 <div type="document" n="1" xml:id="d1" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
@@ -864,12 +844,10 @@
                         of your recommendations as to its desirability.” (Telegram 1; ibid., page
                         127)</p>
                 </div>
-
                 <pb n="4" facs="0024" xml:id="pg_4"/>
                 <div type="document" n="2" xml:id="d2" subtype="historical-document"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1917-08-13T23:59:59-05:00">
-
                     <head>2. Letter From <persName corresp="#p_RWS_1">Walter S. Rogers</persName> to
                         the Chairman of the Committee on Public Information (<persName
                             corresp="#p_CG_2">Creel</persName>)<note n="1" xml:id="d2fn1"
@@ -1026,7 +1004,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="3" xml:id="d3" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
@@ -1101,12 +1078,10 @@
                             <hi rend="italic">Foreign Relations</hi>, 1918, Russia, volume I, pages
                             214–215</ref>)</p>
                 </div>
-
                 <pb n="9" facs="0029" xml:id="pg_9"/>
                 <div type="document" n="4" xml:id="d4" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                     <head>4. Editorial Note</head>
                     <p>On August 24, 1917, Frances H.C. Burnett sent a night lettergram from San
                         Francisco to Third Assistant Secretary of State Breckinridge Long. She
@@ -1147,12 +1122,10 @@
                         time deserves the severest condemnation and it is earnestly hoped that you
                         may find means to suppress the picture.” (Ibid.)</p>
                 </div>
-
                 <pb n="10" facs="0030" xml:id="pg_10"/>
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1917-12-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1917-12-22T23:59:59-05:00">
-
                     <head>5. Report From the Embassy in Spain<note n="1" xml:id="d5fn1"
                             type="source">Source: National Archives, <gloss target="#t_RG_1"
                                 >RG</gloss> 63, Entry 111, Correspondence of Arthur Wood, Box 1,
@@ -1346,7 +1319,6 @@
                         possess some such; there is here an opportunity for them to serve their
                         country.</p>
                 </div>
-
                 <div type="document" n="6" xml:id="d6" subtype="historical-document"
                     frus:doc-dateTime-min="1917-12-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1917-12-27T23:59:59-05:00">
@@ -1464,7 +1436,6 @@
                         <affiliation>Chairman</affiliation>
                     </closer>
                 </div>
-
                 <div type="document" n="7" xml:id="d7" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-01-03T23:59:59-05:00">
@@ -1552,12 +1523,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="18" facs="0038" xml:id="pg_18"/>
                 <div type="document" n="8" xml:id="d8" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-01-04T23:59:59-05:00">
-
                     <head>8. Letter From the Chairman of the Committee on Public Information
                             (<persName corresp="#p_CG_2">Creel</persName>) to Paul Fuller of the War
                         Trade Board<note n="1" xml:id="d8fn1" type="source">Source: National
@@ -1610,12 +1579,10 @@
                         </affiliation>
                     </closer>
                 </div>
-
                 <pb n="19" facs="0039" xml:id="pg_19"/>
                 <div type="document" n="9" xml:id="d9" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-01-13T23:59:59-05:00">
-
                     <head>9. Cablegram From the Committee on Public Information Commissioner in St.
                         Petersburg (<persName corresp="#p_SE_1">Sisson</persName>) to the Chairman
                         of the Committee on Public Information (<persName corresp="#p_CG_2"
@@ -1682,12 +1649,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="20" facs="0040" xml:id="pg_20"/>
                 <div type="document" n="10" xml:id="d10" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-01-23T23:59:59-05:00">
-
                     <head>10. Telegram From the Department of State to the Embassy in Russia<note
                             n="1" xml:id="d10fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Decimal File 1910–1929, Box
@@ -1738,12 +1703,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="21" facs="0041" xml:id="pg_21"/>
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-01-31T23:59:59-05:00">
-
                     <head>11. Memorandum by the Chairman of the Committee on Public Information
                             (<persName corresp="#p_CG_2">Creel</persName>)<note n="1"
                             xml:id="d11fn1" type="source">Source: <hi rend="italic">Papers of
@@ -1886,12 +1849,10 @@
                             German[<hi rend="italic">s</hi>] decide to make a supreme effort for a
                         decision on the Western Front.</p>
                 </div>
-
                 <pb n="24" facs="0044" xml:id="pg_24"/>
                 <div type="document" n="12" xml:id="d12" subtype="historical-document"
                     frus:doc-dateTime-min="1918-02-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-02-01T23:59:59-05:00">
-
                     <head>12. Report Prepared in the Division of Foreign Press, Committee on Public
                             Information<note n="1" xml:id="d12fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 63, Entry 105, Director’s
@@ -2107,7 +2068,6 @@
                             corresp="#p_WVB_1">Whitehouse</persName>, and in London by Mr. <persName
                             corresp="#p_RHN_1">H. N. Rickey</persName>.</p>
                 </div>
-
                 <div type="document" n="13" xml:id="d13" subtype="historical-document"
                     frus:doc-dateTime-min="1918-02-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-02-07T23:59:59-05:00">
@@ -2233,12 +2193,10 @@
                             Section</affiliation>
                     </closer>
                 </div>
-
                 <pb n="31" facs="0051" xml:id="pg_31"/>
                 <div type="document" n="14" xml:id="d14" subtype="historical-document"
                     frus:doc-dateTime-min="1918-02-18T18:36:00-05:00"
                     frus:doc-dateTime-max="1918-02-18T18:36:00-05:00">
-
                     <head>14. Telegram From the Embassy in Mexico to the Department of State<note
                             n="1" xml:id="d14fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Decimal File 1910–1929, Box
@@ -2288,12 +2246,10 @@
                         <signed>Summerlin</signed>
                     </closer>
                 </div>
-
                 <pb n="32" facs="0052" xml:id="pg_32"/>
                 <div type="document" n="15" xml:id="d15" subtype="historical-document"
                     frus:doc-dateTime-min="1918-02-19T07:29:00-05:00"
                     frus:doc-dateTime-max="1918-02-19T07:29:00-05:00">
-
                     <head>15. Telegram From the Embassy in Russia to the Department of State<note
                             n="1" xml:id="d15fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Decimal File 1910–1929, Box
@@ -2417,7 +2373,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="16" xml:id="d16" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
@@ -2512,7 +2467,6 @@
                             Agent</hi>, pages 208–211, and reprinted relevant documents on pages
                         289–316.</p>
                 </div>
-
                 <div type="document" n="17" xml:id="d17" subtype="historical-document"
                     frus:doc-dateTime-min="1918-02-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-02-24T23:59:59-05:00">
@@ -2753,7 +2707,6 @@
                             3: Letterbooks, 1913–1921, Reel 155, Vol. 50, 1918 May 6–29)</note>
                     </p>
                 </div>
-
                 <div type="document" n="18" xml:id="d18" subtype="historical-document"
                     frus:doc-dateTime-min="1918-03-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-03-19T23:59:59-05:00">
@@ -2889,7 +2842,6 @@
                             copy.</note>
                     </p>
                 </div>
-
                 <div type="document" n="19" xml:id="d19" subtype="historical-document"
                     frus:doc-dateTime-min="1918-04-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-04-02T23:59:59-05:00">
@@ -2948,7 +2900,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="20" xml:id="d20" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
@@ -3002,7 +2953,6 @@
                         National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Decimal
                         File 1910–1929, Box 733, 103.93/537)</p>
                 </div>
-
                 <div type="document" n="21" xml:id="d21" subtype="historical-document"
                     frus:doc-dateTime-min="1918-04-24T12:00:00-05:00"
                     frus:doc-dateTime-max="1918-04-24T12:00:00-05:00">
@@ -3046,7 +2996,6 @@
                         <signed>Page</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="22" xml:id="d22" subtype="historical-document"
                     frus:doc-dateTime-min="1918-04-30T14:00:00-05:00"
                     frus:doc-dateTime-max="1918-04-30T14:00:00-05:00">
@@ -3147,12 +3096,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="50" facs="0070" xml:id="pg_50"/>
                 <div type="document" n="23" xml:id="d23" subtype="historical-document"
                     frus:doc-dateTime-min="1918-04-30T14:00:00-05:00"
                     frus:doc-dateTime-max="1918-05-01T22:59:59-05:00">
-
                     <head>23. Report Prepared in the Military Intelligence Branch, Department of War
                         General Staff<note n="1" xml:id="d23fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 63, Entry 133, Manuals
@@ -3491,7 +3438,6 @@
                         influence of the most penetrating kind by an agent sent directly to
                         them.</p>
                 </div>
-
                 <div type="document" n="24" xml:id="d24" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
@@ -3513,12 +3459,10 @@
                         and Irapuato. (<hi rend="italic">Complete Report of the Chairman of the
                             Committee on Public Information</hi>, page 162)</p>
                 </div>
-
                 <pb n="57" facs="0077" xml:id="pg_57"/>
                 <div type="document" n="25" xml:id="d25" subtype="historical-document"
                     frus:doc-dateTime-min="1918-06-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-06-28T23:59:59-05:00">
-
                     <head>25. Letter From the Committee on Public Information Commissioner in France
                             (<persName corresp="#p_KJ_2">Kerney</persName>) to the Chairman of the
                         Committee on Public Information(<persName corresp="#p_CG_2"
@@ -3578,12 +3522,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="58" facs="0078" xml:id="pg_58"/>
                 <div type="document" n="26" xml:id="d26" subtype="historical-document"
                     frus:doc-dateTime-min="1918-07-01T11:00:00-05:00"
                     frus:doc-dateTime-max="1918-07-01T11:00:00-05:00">
-
                     <head>26. Telegram From the Embassy in Italy to the Department of State<note
                             n="1" xml:id="d26fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Decimal File 1910–1929, Box
@@ -3647,7 +3589,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="27" xml:id="d27" subtype="historical-document"
                     frus:doc-dateTime-min="1918-07-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-07-10T23:59:59-05:00">
@@ -3711,7 +3652,6 @@
                             Branch <lb/> Executive Division</affiliation>
                     </closer>
                 </div>
-
                 <div type="document" n="28" xml:id="d28" subtype="historical-document"
                     frus:doc-dateTime-min="1918-07-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-07-12T23:59:59-05:00">
@@ -3785,12 +3725,10 @@
                             copy.</note>
                     </p>
                 </div>
-
                 <pb n="62" facs="0082" xml:id="pg_62"/>
                 <div type="document" n="29" xml:id="d29" subtype="historical-document"
                     frus:doc-dateTime-min="1918-07-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-07-23T23:59:59-05:00">
-
                     <head>29. Letter From the Director of the Foreign Section, Committee on Public
                         Information (<persName corresp="#p_SE_1">Sisson</persName>) to the Chief of
                         the Military Intelligence Branch, Department of War General Staff (<persName
@@ -3896,12 +3834,10 @@
                         </affiliation>
                     </closer>
                 </div>
-
                 <pb n="64" facs="0084" xml:id="pg_64"/>
                 <div type="document" n="30" xml:id="d30" subtype="historical-document"
                     frus:doc-dateTime-min="1918-07-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-07-31T23:59:59-05:00">
-
                     <head>30. Letter From Edwin Björkman of the Division of Work Among the Foreign
                         Born, Committee on Public Information, to David F. Swenson<note n="1"
                             xml:id="d30fn1" type="source">Source: National Archives, <gloss
@@ -3984,12 +3920,10 @@
                             situation has smoothed itself out by this time.” (Ibid.)</note>
                     </p>
                 </div>
-
                 <pb n="66" facs="0086" xml:id="pg_66"/>
                 <div type="document" n="31" xml:id="d31" subtype="historical-document"
                     frus:doc-dateTime-min="1918-08-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-08-01T23:59:59-05:00">
-
                     <head>31. Letter From <persName corresp="#p_BH_1">Heber Blankenhorn</persName>
                         of the Military Intelligence Branch, Department of War General Staff to the
                         Chief of the Military Intelligence Branch, Department of War General Staff
@@ -4084,12 +4018,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="68" facs="0088" xml:id="pg_68"/>
                 <div type="document" n="32" xml:id="d32" subtype="historical-document"
                     frus:doc-dateTime-min="1918-08-09T05:00:00-05:00"
                     frus:doc-dateTime-max="1918-08-09T05:00:00-05:00">
-
                     <head>32. Telegram From the Embassy in the United Kingdom to the Department of
                             State<note n="1" xml:id="d32fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Decimal File
@@ -4163,7 +4095,6 @@
                         <signed>Page</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="33" xml:id="d33" subtype="historical-document"
                     frus:doc-dateTime-min="1918-08-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-08-29T23:59:59-05:00">
@@ -4231,12 +4162,10 @@
                         <affiliation>Captain U.S.A.</affiliation>
                     </closer>
                 </div>
-
                 <pb n="71" facs="0091" xml:id="pg_71"/>
                 <div type="document" n="34" xml:id="d34" subtype="historical-document"
                     frus:doc-dateTime-min="1918-09-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-09-05T23:59:59-05:00">
-
                     <head>34. Letter From President <persName corresp="#p_WW_1">Wilson</persName> to
                         Acting Secretary of War Crowell<note n="1" xml:id="d34fn1" type="source"
                             >Source: Library of Congress, Papers of <persName corresp="#p_WW_1"
@@ -4279,14 +4208,11 @@
                     <p>Cordially and sincerely yours,<note n="3" xml:id="d34fn3">Printed from an
                             unsigned copy.</note>
                     </p>
-
                 </div>
-
                 <pb n="72" facs="0092" xml:id="pg_72"/>
                 <div type="document" n="35" xml:id="d35" subtype="historical-document"
                     frus:doc-dateTime-min="1918-09-08T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-09-08T23:59:59-05:00">
-
                     <head>35. Letter From Acting Secretary of War Crowell to President <persName
                             corresp="#p_WW_1">Wilson</persName><note n="1" xml:id="d35fn1"
                             type="source">Source: Library of Congress, Papers of <persName
@@ -4379,12 +4305,10 @@
                         <affiliation>Acting Secretary of War</affiliation>
                     </closer>
                 </div>
-
                 <pb n="74" facs="0094" xml:id="pg_74"/>
                 <div type="document" n="36" xml:id="d36" subtype="historical-document"
                     frus:doc-dateTime-min="1918-09-30T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-09-30T23:59:59-05:00">
-
                     <head>36. Memorandum From the Director of the Military Intelligence Division,
                         Department of War General Staff (<persName corresp="#p_CM_1"
                             >Churchill</persName>) to the Military Attaché in Rome (Buckey)<note
@@ -4507,7 +4431,6 @@
                         <affiliation>Brigadier General, General Staff</affiliation>
                     </closer>
                 </div>
-
                 <div type="document" n="37" xml:id="d37" subtype="historical-document"
                     frus:doc-dateTime-min="1918-10-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-10-03T23:59:59-05:00">
@@ -4585,12 +4508,10 @@
                         <affiliation>Captain U.S.A.</affiliation>
                     </closer>
                 </div>
-
                 <pb n="78" facs="0098" xml:id="pg_78"/>
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
                     frus:doc-dateTime-min="1918-11-05T21:00:00-05:00"
                     frus:doc-dateTime-max="1918-11-05T21:00:00-05:00">
-
                     <head>38. Telegram From the Department of State to the Embassy in Argentina<note
                             n="1" xml:id="d38fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Decimal File 1910–1929, Box
@@ -4617,7 +4538,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="39" xml:id="d39" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
@@ -4679,12 +4599,10 @@
                         Archives, <gloss target="#t_RG_1">RG</gloss> 63, Entry 105, Director’s
                         Office of the Foreign Section, General Correspondence, Box 21, V)</p>
                 </div>
-
                 <pb n="80" facs="0100" xml:id="pg_80"/>
                 <div type="document" n="40" xml:id="d40" subtype="historical-document"
                     frus:doc-dateTime-min="1918-11-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-11-15T23:59:59-05:00">
-
                     <head>40. Letter From the Director of the Foreign Press Bureau, Committee on
                         Public Information (Poole) to the Chairman of the Committee on Public
                         Information (<persName corresp="#p_CG_2">Creel</persName>)<note n="1"
@@ -4943,12 +4861,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="86" facs="0106" xml:id="pg_86"/>
                 <div type="document" n="41" xml:id="d41" subtype="historical-document"
                     frus:doc-dateTime-min="1918-11-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-11-25T23:59:59-05:00">
-
                     <head>41. Letter From the Assistant Director of the Division of Foreign Picture
                         Service, Committee on Public Information (Tuerk) to the Chairman of the
                         Committee on Public Information (<persName corresp="#p_CG_2"
@@ -5008,7 +4924,6 @@
                         <affiliation>Assistant Director</affiliation>
                     </closer>
                 </div>
-
                 <div type="document" n="42" xml:id="d42" subtype="historical-document"
                     frus:doc-dateTime-min="1919-03-06T23:03:00-05:00"
                     frus:doc-dateTime-max="1919-03-06T23:03:00-05:00">
@@ -5151,12 +5066,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="91" facs="0111" xml:id="pg_91"/>
                 <div type="document" n="43" xml:id="d43" subtype="historical-document"
                     frus:doc-dateTime-min="1919-03-06T23:03:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                     <head>43. Report by the Director of the Scandinavian Branch of the Division of
                         Films, Committee on Public Information (<persName corresp="#p_SGC_1"
                             >Smith</persName>)<note n="1" xml:id="d43fn1" type="source">Source:
@@ -5246,12 +5159,10 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="93" facs="0113" xml:id="pg_93"/>
                 <div type="document" n="44" xml:id="d44" subtype="editorial-note"
                     frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                     <head>44. Editorial Note</head>
                     <p>In the final report of the Committee on Public Information, dated June 1,
                         1919, Director of the Foreign Section <persName corresp="#p_SE_1">Edgar
@@ -5284,15 +5195,12 @@
                 </div>
             </div>
         </body>
-
         <back>
             <pb n="94" facs="0114" xml:id="pg_94"/>
             <div type="section" xml:id="appendix" subtype="appendix"
                 frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
                 frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
-
                 <head>Appendix A</head>
-
                 <div type="section" xml:id="appendix-1" subtype="historical-document"
                     frus:doc-dateTime-min="1918-06-01T01:36:00-05:00"
                     frus:doc-dateTime-max="1918-06-26T01:35:59-05:00">
@@ -5312,7 +5220,6 @@
                 <div type="section" xml:id="appendix-2" subtype="historical-document"
                     frus:doc-dateTime-min="1918-06-01T01:36:00-05:00"
                     frus:doc-dateTime-max="1918-06-26T01:35:59-05:00">
-
                     <head>A.2. Photograph<note n="1" type="source" xml:id="app02fn1">Reading Room of
                             the Allies. Interior. Partial View. Note the American flags and War
                             poster. Serious looking gentleman in shirt sleeves is the Manager.
@@ -5331,7 +5238,6 @@
                 <div type="section" xml:id="appendix-3" subtype="historical-document"
                     frus:doc-dateTime-min="1918-06-01T01:36:00-05:00"
                     frus:doc-dateTime-max="1918-06-26T01:35:59-05:00">
-
                     <head>A.3. Photograph<note n="1" type="source" xml:id="app03fn1">Reading Room of
                             the Allies. Interior. Partial View. [Caption is in the original. See
                                 <ref target="#d24">Document 24</ref>.]</note>
@@ -5348,7 +5254,6 @@
                 <div type="section" xml:id="appendix-4" subtype="historical-document"
                     frus:doc-dateTime-min="1918-06-01T01:36:00-05:00"
                     frus:doc-dateTime-max="1918-06-26T01:35:59-05:00">
-
                     <head>A.4. Photograph<note n="1" type="source" xml:id="app04fn1">See <ref
                                 target="#d24">Document 24</ref>.</note>
                     </head>
@@ -5360,12 +5265,10 @@
                         <graphic width="26pc" url="Document A.4"/>
                     </figure>
                 </div>
-
                 <pb n="98" facs="0118" xml:id="pg_98"/>
                 <div type="section" xml:id="appendix-5" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-12-31T23:59:59-05:00">
-
                     <head>A.5. Movie Still<note n="1" xml:id="app05fn1">
                             <hi rend="italic">America’s Answer</hi> (1918). <seg type="source"
                                 >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 111,
@@ -5380,7 +5283,6 @@
                     <figure>
                         <graphic width="26pc" url="Document A.5"/>
                     </figure>
-
                     <div type="online-supplement" frus:doc-dateTime-min="1918-01-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1918-12-31T23:59:59-05:00">
                         <head>Online Video Supplement</head>
@@ -5420,7 +5322,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >brightcove.createExperiences();</script>
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 2</head>
                             <!-- Start of Brightcove Player -->
@@ -5457,7 +5358,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >brightcove.createExperiences();</script>
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 3</head>
                             <!-- Start of Brightcove Player -->
@@ -5493,7 +5393,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 4</head>
                             <!-- Start of Brightcove Player -->
@@ -5529,7 +5428,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 5</head>
                             <!-- Start of Brightcove Player -->
@@ -5565,7 +5463,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 6</head>
                             <!-- Start of Brightcove Player -->
@@ -5601,7 +5498,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 7</head>
                             <!-- Start of Brightcove Player -->
@@ -5637,7 +5533,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 8</head>
                             <!-- Start of Brightcove Player -->
@@ -5673,7 +5568,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 9</head>
                             <!-- Start of Brightcove Player -->
@@ -5711,14 +5605,11 @@ the rest of the HTML is processed and the page load is complete, remove the line
                             <!-- End of Brightcove Player -->
                         </figure>
                     </div>
-
                 </div>
-
                 <pb n="99" facs="0119" xml:id="pg_99"/>
                 <div type="section" xml:id="appendix-6" subtype="historical-document"
                     frus:doc-dateTime-min="1918-06-30T23:00:00-05:00"
                     frus:doc-dateTime-max="1918-07-31T22:59:59-05:00">
-
                     <head>A.6. Pamphlet<note n="1" xml:id="app06fn1">
                             <hi rend="italic">The Spirit of America in the War</hi>
                             <seg type="source">Source: National Archives, <gloss target="#t_RG_1"
@@ -5741,12 +5632,10 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >high resolution color PDF</ref> (230 KB) of this document.</p>
                     </div>
                 </div>
-
                 <pb n="100" facs="0120" xml:id="pg_100"/>
                 <div type="section" xml:id="appendix-7" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-10-31T23:59:59-05:00">
-
                     <head>A.7. Catalog Insert<note n="1" type="source" xml:id="app07fn1">See <ref
                                 target="#d39">Document 39</ref>.</note>
                     </head>
@@ -5765,12 +5654,10 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >high resolution color PDF</ref> (230 KB) of this document.</p>
                     </div>
                 </div>
-
                 <pb n="101" facs="0121" xml:id="pg_101"/>
                 <div type="section" xml:id="appendix-8" subtype="historical-document"
                     frus:doc-dateTime-min="1918-09-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-09-27T23:59:59-05:00">
-
                     <head>A.8. Pamphlet<note n="1" type="source" xml:id="app08fn1">See <ref
                                 target="#d39">Document 39</ref>.</note>
                     </head>
@@ -5788,12 +5675,10 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >the full 12-page pamphlet</ref> (PDF, 1.2 MB).</p>
                     </div>
                 </div>
-
                 <pb n="102" facs="0122" xml:id="pg_102"/>
                 <div type="section" xml:id="appendix-9" subtype="historical-document"
                     frus:doc-dateTime-min="1918-10-17T23:00:00-05:00"
                     frus:doc-dateTime-max="1918-10-18T22:59:59-05:00">
-
                     <head>A.9. Portrait of President <persName corresp="#p_WW_1"
                             >Wilson</persName><note n="1" type="source" xml:id="app09fn1">See <ref
                                 target="#d39">Document 39</ref>.</note>
@@ -5810,7 +5695,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
                 <div type="section" xml:id="appendix-10" subtype="appendix"
                     frus:doc-dateTime-min="1918-10-18T00:00:00-04:00"
                     frus:doc-dateTime-max="1918-10-18T17:59:59-04:00">
-
                     <head>A.10. Newspaper Article<note n="1" xml:id="app10fn1">See <ref
                                 target="#d39">Document 39</ref>.</note>
                     </head>
@@ -5829,12 +5713,10 @@ the rest of the HTML is processed and the page load is complete, remove the line
                             article.</p>
                     </div>
                 </div>
-
                 <pb n="104" facs="0124" xml:id="pg_104"/>
                 <div type="section" xml:id="appendix-11" subtype="historical-document"
                     frus:doc-dateTime-min="1918-01-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1918-12-31T17:59:59-05:00">
-
                     <head>A.11. Movie Still<note n="1" xml:id="app11fn1">
                             <hi rend="italic">
                                 <persName corresp="#p_PJJ_1">Pershing</persName>’s Crusaders</hi>
@@ -5851,11 +5733,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     <figure>
                         <graphic width="26pc" url="Document A.11"/>
                     </figure>
-
                     <div type="online-supplement" frus:doc-dateTime-min="1918-01-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1918-12-31T17:59:59-05:00">
                         <head>Online Video Supplement</head>
-
                         <figure>
                             <head>Reel 1</head>
                             <!-- Start of Brightcove Player -->
@@ -5891,7 +5771,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 2</head>
                             <!-- Start of Brightcove Player -->
@@ -5927,7 +5806,6 @@ the rest of the HTML is processed and the page load is complete, remove the line
 -->
                             <!-- End of Brightcove Player -->
                         </figure>
-
                         <figure>
                             <head>Reel 3</head>
                             <!-- Start of Brightcove Player -->
@@ -5964,15 +5842,12 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >brightcove.createExperiences();</script>
                             <!-- End of Brightcove Player -->
                         </figure>
-
                     </div>
                 </div>
-
                 <pb n="105" facs="0125" xml:id="pg_105"/>
                 <div type="section" xml:id="appendix-12" subtype="historical-document"
                     frus:doc-dateTime-min="1919-03-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1919-03-17T23:59:59-05:00">
-
                     <head>A.12. Newsletter<note n="1" type="source" xml:id="app12fn1">See <ref
                                 target="#d44">Document 44</ref>.</note>
                     </head>
@@ -5991,9 +5866,7 @@ the rest of the HTML is processed and the page load is complete, remove the line
                             original newsletter.</p>
                     </div>
                 </div>
-
             </div>
         </back>
-
     </text>
 </TEI>

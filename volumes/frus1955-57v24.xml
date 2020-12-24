@@ -66,12 +66,12 @@
     </teiHeader>
     <text>
         <front>
+            <pb n="A1" xml:id="pg_A1" facs="0001"/>
+            <pb n="A2" xml:id="pg_A2" facs="0002"/>
+            <pb n="A3" xml:id="pg_A3" facs="0003"/>
+            <pb n="A4" xml:id="pg_A4" facs="0004"/>
+            <pb n="I" xml:id="pg_I" facs="0005"/>
             <titlePage type="main">
-                <pb n="A1" xml:id="pg_A1" facs="0001"/>
-                <pb n="A2" xml:id="pg_A2" facs="0002"/>
-                <pb n="A3" xml:id="pg_A3" facs="0003"/>
-                <pb n="A4" xml:id="pg_A4" facs="0004"/>
-                <pb n="I" xml:id="pg_I" facs="0005"/>
                 <figure>
                     <graphic url="figure_0001"/>
                 </figure>
