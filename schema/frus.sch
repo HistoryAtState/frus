@@ -430,7 +430,7 @@
             <assert test="./parent::tei:titleStmt">An editor element is allowed only in the
                 tei:titleStmt element.</assert>
             <assert role="warn" test="count(./node()) gt 0">In contemporary publications, an editor
-                element should not be empty.(In the back catalogue, the editor element may be empty
+                element should not be empty. (In the back catalog, the editor element may be empty
                 by necessity.)</assert>
             <assert test="./@role">An editor element needs a @role attribute.</assert>
             <assert test="string-length(./@role) gt 0">An editor/@role attribute cannot be
@@ -487,13 +487,13 @@
     <pattern id="milestone-checks">
         <title>Milestone checks</title>
         <rule
-            context="(tei:pb | tei:lb)[parent::element()/local-name() = ('div','head','p','table','cell','list','item','quote','signed','attachment')]">
+            context="(tei:pb | tei:lb)[not(parent::tei:front | parent::tei:body | parent::tei:back)]">
             <assert
                 test="count(preceding-sibling::element()) ge 1 or normalize-space(string-join(preceding-sibling::node())) ne ''"
-                >An lb or pb may not be the first element in a div, head, p, table, cell, list, item, quote, signed, or frus:attachment.</assert>
+                >A pb or lb element cannot be the first element in a parent element (except front, body, and back).</assert>
             <assert
                 test="count(following-sibling::element()) ge 1 or normalize-space(string-join(following-sibling::node())) ne ''"
-                >An lb or pb may not be the last element in a div, head, p, table, cell, list, item, quote, signed, or frus:attachment.</assert>
+                >A pb or lb element cannot be the last element in a parent element (except front, body, and back).</assert>
         </rule>
     </pattern>
     

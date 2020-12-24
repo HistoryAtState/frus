@@ -20,16 +20,7 @@ declare variable $vol := doc($path);
 
 declare variable $notes := $vol//tei:note;
 declare variable $cells := $vol//tei:cell;
-declare variable $block-elements := 
-    $vol//(
-        tei:div|tei:head|frus:attachment
-        |tei:list|tei:item
-        |tei:p|tei:note|tei:quote|tei:hi|tei:seg
-        |tei:table|tei:row
-        |tei:opener|tei:closer|tei:postscript|tei:signed|tei:affiliation
-        |tei:dateline|tei:persName|tei:placeName|tei:date|tei:label|tei:gloss
-        (: |tei:titlePage|tei:docImprint|tei:publisher :)
-    );
+declare variable $pb-lb-first-last-phobic-elements := $vol//element()[not(self::tei:text | self::tei:front | self::tei:body | self::tei:back) and not(empty(.))];
 declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
 
 (: 1. strip whitespace preceding footnotes and at start of footnote :)
@@ -191,7 +182,7 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
 
     (: 5a. <p><pb/>hello</p> -> <pb/><p>hello</p> :)
     
-        for $elem in $block-elements
+        for $elem in $pb-lb-first-last-phobic-elements
             [
                 node()[1][. instance of element(tei:lb) or . instance of element(tei:pb)]
             ]
@@ -204,7 +195,7 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
     
     (: 5b. <p> <pb/>hello</p> -> <pb/><p> hello</p> :)
     
-        for $elem in $block-elements
+        for $elem in $pb-lb-first-last-phobic-elements
             [
                 node()[1][. instance of text() and normalize-space(.) eq ""] 
                 and 
@@ -219,7 +210,7 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
     
     (: 5c. <p>hello<pb/></p> -> <p>hello</p><pb/> :)
     
-        for $elem in $block-elements
+        for $elem in $pb-lb-first-last-phobic-elements
             [
                 count(node()) gt 1 
                 and 
@@ -234,7 +225,7 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
     
     (: 5d. <p>hello<pb/> </p> -> <p>hello</p><pb/> :)
     
-        for $elem in $block-elements
+        for $elem in $pb-lb-first-last-phobic-elements
             [
                 count(node()) gt 2 
                 and 
