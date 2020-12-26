@@ -22,6 +22,7 @@ declare variable $notes := $vol//tei:note;
 declare variable $cells := $vol//tei:cell;
 declare variable $pb-lb-first-last-phobic-elements := $vol//element()[not(self::tei:text | self::tei:front | self::tei:body | self::tei:back) and not(empty(.))];
 declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
+declare variable $pbs := $vol//tei:pb;
 
 (: 1. strip whitespace preceding footnotes and at start of footnote :)
 
@@ -273,3 +274,25 @@ declare variable $pb-lbs := $vol//(tei:pb|tei:lb);
             ]
         return
             insert node text { " " } before $elem
+            
+        ,
+
+(: 7. move pbs from child head up and out to parent div :)
+
+        for $pb in $pbs
+            [
+                preceding-sibling::element()[1]
+                    [
+                        . instance of element(tei:head) 
+                        and 
+                        (parent::tei:div|parent::frus:attachment)
+                            [
+                                not(preceding-sibling::element()[1] instance of element(tei:pb))
+                            ]
+                    ]
+            ]
+        return
+            (
+                insert node $pb before $pb/parent::*,
+                delete node $pb
+            )
