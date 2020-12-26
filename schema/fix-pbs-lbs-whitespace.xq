@@ -279,17 +279,35 @@ declare variable $pbs := $vol//tei:pb;
 
 (: 7. move pbs from child head up and out to parent div :)
 
+    (: 7a. <div><head>hello</head><pb/></div> -> <pb/><div><head>hello</head></div> :)
+    
         for $pb in $pbs
             [
-                preceding-sibling::element()[1]
-                    [
-                        . instance of element(tei:head) 
-                        and 
-                        (parent::tei:div|parent::frus:attachment)
-                            [
-                                not(preceding-sibling::element()[1] instance of element(tei:pb))
-                            ]
-                    ]
+                (: electronic-only (i.e., non-typeset) volumes' pbs should only be moved to 
+                   parent document div, since there is no typeset compilation/chapter heading,
+                   even after multiple invocations :)
+                if (matches(@xml:id, "^d\d+-\d+$")) then
+                    preceding-sibling::element()[1]
+                        [
+                            . instance of element(tei:head) 
+                            and 
+                            (parent::tei:div[@type eq "document"]|parent::frus:attachment)
+                                [
+                                    not(preceding-sibling::element()[1] instance of element(tei:pb))
+                                ]
+                        ]
+                (: for typeset volumes, allow the pbs to be moved up to the outermost div, 
+                   with enough invocations :)
+                else
+                    preceding-sibling::element()[1]
+                        [
+                            . instance of element(tei:head) 
+                            and 
+                            (parent::tei:div|parent::frus:attachment)
+                                [
+                                    not(preceding-sibling::element()[1] instance of element(tei:pb))
+                                ]
+                        ]
             ]
         return
             (
