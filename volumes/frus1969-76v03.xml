@@ -3063,27 +3063,28 @@
                             </row>
                             <row>
                                 <cell>Exports</cell>
-                                <cell>33.4</cell>
-                                <cell>35.7-37.3</cell>
+                                <cell role="num">33.4</cell>
+                                <cell role="num">35.7-37.3</cell>
                                 <cell/>
                             </row>
                             <row>
                                 <cell>Imports</cell>
-                                <cell>33.3</cell>
-                                <cell>34.5-35.5</cell>
+                                <cell role="num">33.3</cell>
+                                <cell role="num">34.5-35.5</cell>
+                                <cell/>
                             </row>
                             <row>
                                 <cell>(a) Trade balance (at mid-point of 1969 range)</cell>
-                                <cell>0.1</cell>
-                                <cell>1.5</cell>
-                                <cell>1.4</cell>
+                                <cell role="num">0.1</cell>
+                                <cell role="num">1.5</cell>
+                                <cell role="num">1.4</cell>
                             </row>
                             <row>
                                 <cell>(b)Services bal. (incl. private remittances and govt.
                                     pensions)</cell>
-                                <cell>0.8</cell>
-                                <cell>1.1</cell>
-                                <cell>0.3</cell>
+                                <cell role="num">0.8</cell>
+                                <cell role="num">1.1</cell>
+                                <cell role="num">0.3</cell>
                             </row>
                             <row>
                                 <cell>of which</cell>
@@ -3093,21 +3094,21 @@
                             </row>
                             <row>
                                 <cell>(Direct investment income, fees &amp; royalties)</cell>
-                                <cell>(6.3)</cell>
-                                <cell>(7.0)</cell>
+                                <cell role="num">(6.3)</cell>
+                                <cell role="num">(7.0)</cell>
                                 <cell/>
                             </row>
                             <row>
                                 <cell>
                                     <hi rend="italic">(c) Current account bal. (a) + (b)</hi>
                                 </cell>
-                                <cell>
+                                <cell role="num">
                                     <hi rend="italic">0.9</hi>
                                 </cell>
-                                <cell>
+                                <cell role="num">
                                     <hi rend="italic">2.6</hi>
                                 </cell>
-                                <cell>
+                                <cell role="num">
                                     <hi rend="italic">1.7</hi>
                                 </cell>
                             </row>
@@ -3115,39 +3116,39 @@
                             <row>
                                 <cell>(d) Direct investment (before deduction for funds borrowed
                                     abroad)</cell>
-                                <cell>-3.3</cell>
-                                <cell>-3.6</cell>
-                                <cell>-0.3</cell>
+                                <cell role="num">-3.3</cell>
+                                <cell role="num">-3.6</cell>
+                                <cell role="num">-0.3</cell>
                             </row>
                             <row>
                                 <cell>(use of funds bor. abroad)</cell>
-                                <cell>(2.2)</cell>
-                                <cell>(1.5)</cell>
-                                <cell>(-0.7)</cell>
+                                <cell role="num">(2.2)</cell>
+                                <cell role="num">(1.5)</cell>
+                                <cell role="num">(-0.7)</cell>
                             </row>
                             <row>
                                 <cell>(Net)</cell>
-                                <cell>(-1.1)</cell>
-                                <cell>(-2.1)</cell>
-                                <cell>(-1.0)</cell>
+                                <cell role="num">(-1.1)</cell>
+                                <cell role="num">(-2.1)</cell>
+                                <cell role="num">(-1.0)</cell>
                             </row>
                             <row>
                                 <cell>(e) Bank claims</cell>
-                                <cell>0.3</cell>
-                                <cell>—</cell>
-                                <cell>-0.3</cell>
+                                <cell role="num">0.3</cell>
+                                <cell role="num">—</cell>
+                                <cell role="num">-0.3</cell>
                             </row>
                             <row>
                                 <cell>(f) Other private U.S. capital</cell>
-                                <cell>-1.7</cell>
-                                <cell>-1.2</cell>
-                                <cell>0.5</cell>
+                                <cell role="num">-1.7</cell>
+                                <cell role="num">-1.2</cell>
+                                <cell role="num">0.5</cell>
                             </row>
                             <row>
                                 <cell>(g) U.S. Gov’t. capital (incl. economic grants)</cell>
-                                <cell>-4.3</cell>
-                                <cell>-4.2</cell>
-                                <cell>0.1</cell>
+                                <cell role="num">-4.3</cell>
+                                <cell role="num">-4.2</cell>
+                                <cell role="num">0.1</cell>
                             </row>
                             <row>
                                 <cell>(h) Foreign private capital inflow:</cell>
@@ -3157,22 +3158,22 @@
                             </row>
                             <row>
                                 <cell>Direct investment in U.S.</cell>
-                                <cell>0.4</cell>
-                                <cell>0.2</cell>
-                                <cell>-0.2</cell>
+                                <cell role="num">0.4</cell>
+                                <cell role="num">0.2</cell>
+                                <cell role="num">-0.2</cell>
                             </row>
                             <row>
                                 <cell>Loans to finance U.S. direct invest. abroad</cell>
-                                <cell>3.1</cell>
-                                <cell>1.3</cell>
-                                <cell>-1.8</cell>
+                                <cell role="num">3.1</cell>
+                                <cell role="num">1.3</cell>
+                                <cell role="num">-1.8</cell>
                             </row>
                             <row>
                                 <cell>Stock purchases (excl. $210 mil. Shell pur. in U.S.
                                     sub)</cell>
-                                <cell>1.7</cell>
-                                <cell>1.0</cell>
-                                <cell>-0.7</cell>
+                                <cell role="num">1.7</cell>
+                                <cell role="num">1.0</cell>
+                                <cell role="num">-0.7</cell>
                             </row>
                             <row>
                                 <cell>(i) Errors and omissions<note n="*" xml:id="d6fn3">During
@@ -3184,65 +3185,65 @@
                                         possibly associated with unusually large capital receipts
                                         last year.</note>
                                 </cell>
-                                <cell>0.1</cell>
-                                <cell>—</cell>
-                                <cell>-0.1</cell>
+                                <cell role="num">0.1</cell>
+                                <cell role="num">—</cell>
+                                <cell role="num">-0.1</cell>
                             </row>
                             <row>
                                 <cell>Subtotal</cell>
-                                <cell>-2.8</cell>
-                                <cell>-3.9</cell>
-                                <cell>-1.1</cell>
+                                <cell role="num">-2.8</cell>
+                                <cell role="num">-3.9</cell>
+                                <cell role="num">-1.1</cell>
                             </row>
                             <pb n="11" xml:id="pg_11" facs="0039"/>
                             <row>
                                 <cell>(j) Receipts from Foreign Gov’ts: (or internat’l. instit.,
                                     other than <gloss target="#t_IMF1">IMF</gloss>)</cell>
-                                <cell>2.9</cell>
+                                <cell role="num">2.9</cell>
                                 <cell>not est. for last two items.</cell>
                                 <cell/>
                             </row>
                             <row>
                                 <cell>Military advance payments(- means run-off).</cell>
-                                <cell>(-0.1)</cell>
-                                <cell>(-)</cell>
-                                <cell>(0.1)</cell>
+                                <cell role="num">(-0.1)</cell>
+                                <cell role="num">(-)</cell>
+                                <cell role="num">(0.1)</cell>
                             </row>
                             <row>
                                 <cell>Purchases of U.S. agency bonds by internat’l. instit.</cell>
-                                <cell>(0.1)</cell>
-                                <cell>(-)</cell>
-                                <cell>(-0.1)</cell>
+                                <cell role="num">(0.1)</cell>
+                                <cell role="num">(-)</cell>
+                                <cell role="num">(-0.1)</cell>
                             </row>
                             <row>
                                 <cell>Debt prepayments</cell>
-                                <cell>(0.3)</cell>
-                                <cell>(-)</cell>
-                                <cell>(-0.3)</cell>
+                                <cell role="num">(0.3)</cell>
+                                <cell role="num">(-)</cell>
+                                <cell role="num">(-0.3)</cell>
                             </row>
                             <row>
                                 <cell>German pur. of special Treasury issues, incl. $125 mil. by
                                     German commercial banks in 1968</cell>
-                                <cell>(0.6)</cell>
-                                <cell>(0.5)</cell>
-                                <cell>(-0.1)</cell>
+                                <cell role="num">(0.6)</cell>
+                                <cell role="num">(0.5)</cell>
+                                <cell role="num">(-0.1)</cell>
                             </row>
                             <row>
                                 <cell>Other Gov’t. purchases of special Treas. issues</cell>
-                                <cell>(1.4)</cell>
+                                <cell role="num">(1.4)</cell>
                                 <cell>(not est.)</cell>
                                 <cell/>
                             </row>
                             <!-- TODO figure out how to represent double underline-->
                             <row>
                                 <cell>Purchase of medium-term U.S. bank CD’s</cell>
-                                <cell>(0.6)</cell>
+                                <cell role="num">(0.6)</cell>
                                 <cell>(not est.)</cell>
                                 <cell/>
                             </row>
                             <row>
                                 <cell>“Liquidity” Balance</cell>
-                                <cell>0.1</cell>
+                                <cell role="num">0.1</cell>
                                 <cell>-$3.9 less total receipts obtained under (j)</cell>
                                 <cell/>
                             </row>
@@ -13101,13 +13102,13 @@
                             </row>
                             <row>
                                 <cell>Other W. Europe</cell>
-                                <cell>250</cell>
-                                <cell>-830</cell>
+                                <cell role="num">250</cell>
+                                <cell role="num">-830</cell>
                             </row>
                             <row>
                                 <cell>Rest of World</cell>
-                                <cell>-340</cell>
-                                <cell>-340</cell>
+                                <cell role="num">-340</cell>
+                                <cell role="num">-340</cell>
                             </row>
                         </table>
                         <p>The deterioration in the trade position has carried through into the
@@ -13144,32 +13145,32 @@
                             </row>
                             <row>
                                 <cell>Canada</cell>
-                                <cell>-1,232</cell>
-                                <cell>-1,189</cell>
-                                <cell>-1,046</cell>
-                                <cell>-1,178</cell>
+                                <cell role="num">-1,232</cell>
+                                <cell role="num">-1,189</cell>
+                                <cell role="num">-1,046</cell>
+                                <cell role="num">-1,178</cell>
                             </row>
                             <row>
                                 <cell>Japan</cell>
-                                <cell>360</cell>
-                                <cell>-61</cell>
-                                <cell>-361</cell>
-                                <cell>47</cell>
+                                <cell role="num">360</cell>
+                                <cell role="num">-61</cell>
+                                <cell role="num">-361</cell>
+                                <cell role="num">47</cell>
                             </row>
                             <row>
                                 <cell>U.K. and <gloss target="#t_EC1">EC</gloss>
                                 </cell>
-                                <cell>-745</cell>
-                                <cell>1,731</cell>
-                                <cell>529</cell>
-                                <cell>500</cell>
+                                <cell role="num">-745</cell>
+                                <cell role="num">1,731</cell>
+                                <cell role="num">529</cell>
+                                <cell role="num">500</cell>
                             </row>
                             <row>
                                 <cell>Total, these areas</cell>
-                                <cell>-1,617</cell>
-                                <cell>481</cell>
-                                <cell>-878</cell>
-                                <cell>-631</cell>
+                                <cell role="num">-1,617</cell>
+                                <cell role="num">481</cell>
+                                <cell role="num">-878</cell>
+                                <cell role="num">-631</cell>
                             </row>
                         </table>
                         <p rend="flushleft">
@@ -13434,10 +13435,10 @@
                             <row>
                                 <cell>High employment position in 1972 expected in absence of
                                     corrective action</cell>
-                                <cell>-5</cell>
-                                <cell>-4</cell>
-                                <cell>-6</cell>
-                                <cell>-10</cell>
+                                <cell role="num">-5</cell>
+                                <cell role="num">-4</cell>
+                                <cell role="num">-6</cell>
+                                <cell role="num">-10</cell>
                             </row>
                             <row>
                                 <cell>Position required for surplus of $3 billion on basic
@@ -13446,17 +13447,17 @@
                                             >E</gloss> &amp; O. Does not allow for short-term
                                         capital outflow.</note>
                                 </cell>
-                                <cell>8</cell>
-                                <cell>9</cell>
-                                <cell>-6</cell>
-                                <cell>3</cell>
+                                <cell role="num">8</cell>
+                                <cell role="num">9</cell>
+                                <cell role="num">-6</cell>
+                                <cell role="num">3</cell>
                             </row>
                             <row>
                                 <cell>Improvement required</cell>
-                                <cell>13</cell>
-                                <cell>13</cell>
-                                <cell>0</cell>
-                                <cell>13</cell>
+                                <cell role="num">13</cell>
+                                <cell role="num">13</cell>
+                                <cell role="num">0</cell>
+                                <cell role="num">13</cell>
                             </row>
                         </table>
                         <p>The $13 billion estimate for the amount of improvement needed in the
@@ -14934,47 +14935,47 @@
                         <table rows="11" cols="2">
                             <row>
                                 <cell>U.S. Exports</cell>
-                                <cell>9,044</cell>
+                                <cell role="num">9,044</cell>
                             </row>
                             <row>
                                 <cell>U.S. Imports</cell>
-                                <cell>-10,720</cell>
+                                <cell role="num">-10,720</cell>
                             </row>
                             <row>
                                 <cell>Trade Balance</cell>
-                                <cell>-1,676</cell>
+                                <cell role="num">-1,676</cell>
                             </row>
                             <row>
                                 <cell>Invisibles (shipping, tourism, etc.)</cell>
-                                <cell>1,080</cell>
+                                <cell role="num">1,080</cell>
                             </row>
                             <row>
                                 <cell>a) Current Account Balance</cell>
-                                <cell>-596</cell>
+                                <cell role="num">-596</cell>
                             </row>
                             <row>
                                 <cell>U.S. Direct Investment in Canada</cell>
-                                <cell>-915</cell>
+                                <cell role="num">-915</cell>
                             </row>
                             <row>
                                 <cell>U.S. Purchase of Canadian Securities</cell>
-                                <cell>-475</cell>
+                                <cell role="num">-475</cell>
                             </row>
                             <row>
                                 <cell>Other</cell>
-                                <cell>-19</cell>
+                                <cell role="num">-19</cell>
                             </row>
                             <row>
                                 <cell>Canadian Investment and Security Purchases in U.S.</cell>
-                                <cell>+367</cell>
+                                <cell role="num">+367</cell>
                             </row>
                             <row>
                                 <cell>b) Capital Account Balance</cell>
-                                <cell>-1,042</cell>
+                                <cell role="num">-1,042</cell>
                             </row>
                             <row>
                                 <cell>Basic Balance (a &amp; b)</cell>
-                                <cell>-1,638</cell>
+                                <cell role="num">-1,638</cell>
                             </row>
                         </table>
                         <p>Secretary <persName corresp="#p_CJBJ1">Connally</persName> pointed out
@@ -37698,61 +37699,61 @@
                                 </row>
                                 <row>
                                     <cell>Belgium</cell>
-                                    <cell>11.57</cell>
+                                    <cell role="num">11.57</cell>
                                     <cell>50.00BF</cell>
                                     <cell>44.8BF</cell>
                                 </row>
                                 <row>
                                     <cell>Canada</cell>
-                                    <cell>float</cell>
+                                    <cell role="num">float</cell>
                                     <cell>float</cell>
                                     <cell>float</cell>
                                 </row>
                                 <row>
                                     <cell>France</cell>
-                                    <cell>8.57</cell>
+                                    <cell role="num">8.57</cell>
                                     <cell>5.55FF</cell>
                                     <cell>5.12FF</cell>
                                 </row>
                                 <row>
                                     <cell>Germany</cell>
-                                    <cell>13.57</cell>
+                                    <cell role="num">13.57</cell>
                                     <cell>3.66DM</cell>
                                     <cell>3.22DM</cell>
                                 </row>
                                 <row>
                                     <cell>Italy</cell>
-                                    <cell>7.48</cell>
+                                    <cell role="num">7.48</cell>
                                     <cell>625 lira</cell>
                                     <cell>581.5 lira</cell>
                                 </row>
                                 <row>
                                     <cell>Japan</cell>
-                                    <cell>16.88</cell>
+                                    <cell role="num">16.88</cell>
                                     <cell>360 yen</cell>
                                     <cell>308 yen</cell>
                                 </row>
                                 <row>
                                     <cell>Netherlands</cell>
-                                    <cell>11.57</cell>
+                                    <cell role="num">11.57</cell>
                                     <cell>3.62G</cell>
                                     <cell>3.24G</cell>
                                 </row>
                                 <row>
                                     <cell>Sweden</cell>
-                                    <cell>7.48</cell>
+                                    <cell role="num">7.48</cell>
                                     <cell>5.17K</cell>
                                     <cell>4.81K</cell>
                                 </row>
                                 <row>
                                     <cell>Switzerland</cell>
-                                    <cell>13.88</cell>
+                                    <cell role="num">13.88</cell>
                                     <cell>4.37SF</cell>
                                     <cell>3.84SF</cell>
                                 </row>
                                 <row>
                                     <cell>U.K.</cell>
-                                    <cell>8.57</cell>
+                                    <cell role="num">8.57</cell>
                                     <cell>.42 pounds</cell>
                                     <cell>.38 pounds”</cell>
                                 </row>
