@@ -4691,27 +4691,27 @@
                                 <table cols="3">
                                     <row>
                                         <cell>Christian Democrats</cell>
-                                        <cell>160</cell>
+                                        <cell role="num">160</cell>
                                         <cell>29.7 percent</cell>
                                     </row>
                                     <row>
                                         <cell>National Party</cell>
-                                        <cell>160</cell>
+                                        <cell role="num">160</cell>
                                         <cell>20.0 percent</cell>
                                     </row>
                                     <row>
                                         <cell>Communist Party</cell>
-                                        <cell>160</cell>
+                                        <cell role="num">160</cell>
                                         <cell>15.7 percent</cell>
                                     </row>
                                     <row>
                                         <cell>Radical Party</cell>
-                                        <cell>160</cell>
+                                        <cell role="num">160</cell>
                                         <cell>12.9 percent</cell>
                                     </row>
                                     <row>
                                         <cell>Socialist Party</cell>
-                                        <cell>160</cell>
+                                        <cell role="num">160</cell>
                                         <cell>12.2 percent</cell>
                                     </row>
                                 </table>
@@ -6332,29 +6332,29 @@
                             <row>
                                 <cell>Anaconda/El Salvador</cell>
                                 <cell>51%</cell>
-                                <cell>50.1</cell>
-                                <cell>49.9</cell>
-                                <cell>50.0</cell>
-                                <cell>68.1</cell>
-                                <cell>87.6</cell>
+                                <cell role="num">50.1</cell>
+                                <cell role="num">49.9</cell>
+                                <cell role="num">50.0</cell>
+                                <cell role="num">68.1</cell>
+                                <cell role="num">87.6</cell>
                             </row>
                             <row>
                                 <cell>Anaconda/Chuquicamata</cell>
                                 <cell>51%</cell>
-                                <cell>61.1</cell>
-                                <cell>58.6</cell>
-                                <cell>57.8</cell>
-                                <cell>74.6</cell>
-                                <cell>86.5</cell>
+                                <cell role="num">61.1</cell>
+                                <cell role="num">58.6</cell>
+                                <cell role="num">57.8</cell>
+                                <cell role="num">74.6</cell>
+                                <cell role="num">86.5</cell>
                             </row>
                             <row>
                                 <cell>Kennecott/El Teniente</cell>
                                 <cell>51%</cell>
-                                <cell>78.5</cell>
-                                <cell>70.0</cell>
-                                <cell>72.6</cell>
-                                <cell>80.0</cell>
-                                <cell>83.5</cell>
+                                <cell role="num">78.5</cell>
+                                <cell role="num">70.0</cell>
+                                <cell role="num">72.6</cell>
+                                <cell role="num">80.0</cell>
+                                <cell role="num">83.5</cell>
                             </row>
                             <row>
                                 <cell>Anaconda/Exotica</cell>
@@ -6367,18 +6367,18 @@
                                 <cell>Cerro/Andina</cell>
                                 <cell>30%</cell>
                                 <cell cols="4">—(Being Developed)—</cell>
-                                <cell>58.4<note n="a" xml:id="d11fna1">Does not include higher tax
-                                        rates on “excess profits” (when copper exceeds $.40 a pound)
-                                        which probably will be applied to these companies as
-                                        well.</note></cell>
+                                <cell role="num">58.4<note n="a" xml:id="d11fna1">Does not include
+                                        higher tax rates on “excess profits” (when copper exceeds
+                                        $.40 a pound) which probably will be applied to these
+                                        companies as well.</note></cell>
                             </row>
                             <row>
                                 <cell cols="2">Weighted average rate</cell>
-                                <cell>67.2</cell>
-                                <cell>61.9</cell>
-                                <cell>61.0</cell>
-                                <cell>75.8</cell>
-                                <cell>84.6</cell>
+                                <cell role="num">67.2</cell>
+                                <cell role="num">61.9</cell>
+                                <cell role="num">61.0</cell>
+                                <cell role="num">75.8</cell>
+                                <cell role="num">84.6</cell>
                             </row>
                         </table>
                         <pb n="71" facs="0111" xml:id="pg_71"/>
@@ -6417,29 +6417,29 @@
                             </row>
                             <row>
                                 <cell>Total net returns to Chile</cell>
-                                <cell>321</cell>
-                                <cell>363</cell>
-                                <cell>406</cell>
-                                <cell>644</cell>
-                                <cell>679</cell>
-                                <cell>745</cell>
-                                <cell>568</cell>
-                                <cell>668</cell>
-                                <cell>764</cell>
-                                <cell>770</cell>
+                                <cell role="num">321</cell>
+                                <cell role="num">363</cell>
+                                <cell role="num">406</cell>
+                                <cell role="num">644</cell>
+                                <cell role="num">679</cell>
+                                <cell role="num">745</cell>
+                                <cell role="num">568</cell>
+                                <cell role="num">668</cell>
+                                <cell role="num">764</cell>
+                                <cell role="num">770</cell>
                             </row>
                             <row>
                                 <cell>Exports of copper (f.o.b.)</cell>
-                                <cell>489</cell>
-                                <cell>549</cell>
-                                <cell>549</cell>
-                                <cell>741</cell>
-                                <cell>802</cell>
-                                <cell>1,002</cell>
-                                <cell>898</cell>
-                                <cell>895</cell>
-                                <cell>988</cell>
-                                <cell>987</cell>
+                                <cell role="num">489</cell>
+                                <cell role="num">549</cell>
+                                <cell role="num">549</cell>
+                                <cell role="num">741</cell>
+                                <cell role="num">802</cell>
+                                <cell role="num">1,002</cell>
+                                <cell role="num">898</cell>
+                                <cell role="num">895</cell>
+                                <cell role="num">988</cell>
+                                <cell role="num">987</cell>
                             </row>
                             <row>
                                 <cell>Imports of operating goods and services (c.i.f.)</cell>
@@ -6482,11 +6482,11 @@
                             </row>
                             <row>
                                 <cell>Changes in investment, net</cell>
-                                <cell>2</cell>
-                                <cell>44</cell>
-                                <cell>152</cell>
-                                <cell>178</cell>
-                                <cell>80</cell>
+                                <cell role="num">2</cell>
+                                <cell role="num">44</cell>
+                                <cell role="num">152</cell>
+                                <cell role="num">178</cell>
+                                <cell role="num">80</cell>
                                 <cell>−51</cell>
                                 <cell>−145</cell>
                                 <cell>−84</cell>
@@ -6509,55 +6509,55 @@
                             <row>
                                 <cell>Total, 1959–1964:.</cell>
                                 <cell>N.A.</cell>
-                                <cell>45</cell>
-                                <cell>2,064</cell>
-                                <cell>1,159</cell>
-                                <cell>1,159</cell>
+                                <cell role="num">45</cell>
+                                <cell role="num">2,064</cell>
+                                <cell role="num">1,159</cell>
+                                <cell role="num">1,159</cell>
                             </row>
                             <row>
                                 <cell>1965<note n="a" xml:id="d11fna3">Including several large
                                         holdings taken over from state entities.</note>
                                 </cell>
-                                <cell>85</cell>
-                                <cell>93</cell>
-                                <cell>1,105</cell>
-                                <cell>2,061</cell>
-                                <cell>0</cell>
+                                <cell role="num">85</cell>
+                                <cell role="num">93</cell>
+                                <cell role="num">1,105</cell>
+                                <cell role="num">2,061</cell>
+                                <cell role="num">0</cell>
                             </row>
                             <row>
-                                <cell>1966<note n="b" xml:id="d11fnb1">Provisional
-                                    figure.</note></cell>
-                                <cell>262</cell>
-                                <cell>141</cell>
-                                <cell>1,263</cell>
-                                <cell>2,109</cell>
-                                <cell>0</cell>
+                                <cell role="num">1966<note n="b" xml:id="d11fnb1">Provisional
+                                        figure.</note></cell>
+                                <cell role="num">262</cell>
+                                <cell role="num">141</cell>
+                                <cell role="num">1,263</cell>
+                                <cell role="num">2,109</cell>
+                                <cell role="num">0</cell>
                             </row>
                             <row>
                                 <cell>1967</cell>
-                                <cell>221</cell>
-                                <cell>128</cell>
-                                <cell>592</cell>
-                                <cell>4,218</cell>
-                                <cell>0</cell>
+                                <cell role="num">221</cell>
+                                <cell role="num">128</cell>
+                                <cell role="num">592</cell>
+                                <cell role="num">4,218</cell>
+                                <cell role="num">0</cell>
                             </row>
                             <row>
                                 <cell>1968</cell>
-                                <cell>220</cell>
-                                <cell>110</cell>
-                                <cell>1,608</cell>
-                                <cell>5,500</cell>
-                                <cell>0</cell>
+                                <cell role="num">220</cell>
+                                <cell role="num">110</cell>
+                                <cell role="num">1,608</cell>
+                                <cell role="num">5,500</cell>
+                                <cell role="num">0</cell>
                             </row>
                             <row>
                                 <cell>1969</cell>
-                                <cell>332</cell>
-                                <cell>141</cell>
-                                <cell>2,524</cell>
+                                <cell role="num">332</cell>
+                                <cell role="num">141</cell>
+                                <cell role="num">2,524</cell>
                                 <cell>5,612<note n="b" xml:id="d11fnb2">Provisional figure.</note>
                                 </cell>
-                                <cell>1,700<note n="c" xml:id="d11fnc1">Permanent communal rights
-                                        only.</note></cell>
+                                <cell role="num">1,700<note n="c" xml:id="d11fnc1">Permanent
+                                        communal rights only.</note></cell>
                             </row>
                         </table>
                         <pb n="73" facs="0113" xml:id="pg_73"/>
@@ -8238,19 +8238,19 @@
                         <table cols="2">
                             <row>
                                 <cell>Alessandri</cell>
-                                <cell>41.7</cell>
+                                <cell role="num">41.7</cell>
                             </row>
                             <row>
                                 <cell>
                                     <persName corresp="#p_AGS_1">Allende</persName>
                                 </cell>
-                                <cell>30.5</cell>
+                                <cell role="num">30.5</cell>
                             </row>
                             <row>
                                 <cell>
                                     <persName corresp="#p_TRR_1">Tomic</persName>
                                 </cell>
-                                <cell>27.7</cell>
+                                <cell role="num">27.7</cell>
                             </row>
                         </table>
                         <p>
@@ -8445,26 +8445,26 @@
                                 <cell>
                                     <persName corresp="#p_AGS_1">Salvador Allende</persName>
                                 </cell>
-                                <cell>1,075,616</cell>
+                                <cell role="num">1,075,616</cell>
                                 <cell>36.3%</cell>
                             </row>
                             <row>
                                 <cell>
                                     <persName corresp="#p_ARJ_1">Jorge Alessandri</persName>
                                 </cell>
-                                <cell>1,036,278</cell>
+                                <cell role="num">1,036,278</cell>
                                 <cell>34.9%</cell>
                             </row>
                             <row>
                                 <cell>
                                     <persName corresp="#p_TRR_1">Radomiro Tomic</persName>
                                 </cell>
-                                <cell>824,000</cell>
+                                <cell role="num">824,000</cell>
                                 <cell>27.8%</cell>
                             </row>
                             <row>
                                 <cell>Null or void</cell>
-                                <cell>25,861</cell>
+                                <cell role="num">25,861</cell>
                                 <cell>.8%</cell>
                             </row>
                         </table>
@@ -8502,29 +8502,29 @@
                             </row>
                             <row>
                                 <cell>Communist Party</cell>
-                                <cell>27</cell>
+                                <cell role="num">27</cell>
                             </row>
                             <row>
                                 <cell>Socialist Party</cell>
-                                <cell>20</cell>
+                                <cell role="num">20</cell>
                             </row>
                             <row>
                                 <cell>Radical Party</cell>
-                                <cell>29</cell>
+                                <cell role="num">29</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_MAPU_1">MAPU</gloss> (Breakaway Christian
                                     Democrats)</cell>
-                                <cell>3</cell>
+                                <cell role="num">3</cell>
                             </row>
                             <row>
                                 <cell>Others</cell>
-                                <cell>3</cell>
+                                <cell role="num">3</cell>
                             </row>
                             <row>
                                 <cell>Subtotal</cell>
-                                <cell>82</cell>
+                                <cell role="num">82</cell>
                             </row>
                             <row>
                                 <cell>
@@ -8534,25 +8534,25 @@
                             </row>
                             <row>
                                 <cell>National Party</cell>
-                                <cell>36</cell>
+                                <cell role="num">36</cell>
                             </row>
                             <row>
                                 <cell>Others</cell>
-                                <cell>7</cell>
+                                <cell role="num">7</cell>
                             </row>
                             <row>
                                 <cell>Subtotal</cell>
-                                <cell>43</cell>
+                                <cell role="num">43</cell>
                             </row>
                             <row>
                                 <cell>
                                     <hi rend="italic">Christian Democrats</hi>
                                 </cell>
-                                <cell>75</cell>
+                                <cell role="num">75</cell>
                             </row>
                             <row>
                                 <cell>Total</cell>
-                                <cell>200</cell>
+                                <cell role="num">200</cell>
                             </row>
                         </table>
                         <p>The winner in the congressional runoff could have as few as 51 votes. A
@@ -16847,38 +16847,38 @@
                             </row>
                             <row>
                                 <cell>United States</cell>
-                                <cell>16.9</cell>
-                                <cell>38.5</cell>
+                                <cell role="num">16.9</cell>
+                                <cell role="num">38.5</cell>
                             </row>
                             <row>
                                 <cell>European Economic Community</cell>
-                                <cell>27.3</cell>
-                                <cell>19.3</cell>
+                                <cell role="num">27.3</cell>
+                                <cell role="num">19.3</cell>
                             </row>
                             <row>
                                 <cell>United Kingdom</cell>
-                                <cell>14.3</cell>
-                                <cell>5.3</cell>
+                                <cell role="num">14.3</cell>
+                                <cell role="num">5.3</cell>
                             </row>
                             <row>
                                 <cell>Other Western Europe</cell>
-                                <cell>6.9</cell>
-                                <cell>6.4</cell>
+                                <cell role="num">6.9</cell>
+                                <cell role="num">6.4</cell>
                             </row>
                             <row>
                                 <cell>Japan</cell>
-                                <cell>13.4</cell>
-                                <cell>2.0</cell>
+                                <cell role="num">13.4</cell>
+                                <cell role="num">2.0</cell>
                             </row>
                             <row>
                                 <cell>Latin America</cell>
-                                <cell>10.6</cell>
-                                <cell>25.4</cell>
+                                <cell role="num">10.6</cell>
+                                <cell role="num">25.4</cell>
                             </row>
                             <row>
                                 <cell>Other</cell>
-                                <cell>10.6</cell>
-                                <cell>3.1</cell>
+                                <cell role="num">10.6</cell>
+                                <cell role="num">3.1</cell>
                             </row>
                         </table>
                         <table cols="8">
@@ -16905,83 +16905,83 @@
                             </row>
                             <row>
                                 <cell>European Economic Community Of which:</cell>
-                                <cell>28.2</cell>
-                                <cell>34.9</cell>
-                                <cell>38.0</cell>
-                                <cell>41.3</cell>
-                                <cell>34.5</cell>
-                                <cell>40.4</cell>
-                                <cell>48.5</cell>
+                                <cell role="num">28.2</cell>
+                                <cell role="num">34.9</cell>
+                                <cell role="num">38.0</cell>
+                                <cell role="num">41.3</cell>
+                                <cell role="num">34.5</cell>
+                                <cell role="num">40.4</cell>
+                                <cell role="num">48.5</cell>
                             </row>
                             <row>
                                 <cell>West Germany</cell>
-                                <cell>12.5</cell>
-                                <cell>15.7</cell>
-                                <cell>22.7</cell>
-                                <cell>21.2</cell>
-                                <cell>19.6</cell>
-                                <cell>20.8</cell>
-                                <cell>27.0</cell>
+                                <cell role="num">12.5</cell>
+                                <cell role="num">15.7</cell>
+                                <cell role="num">22.7</cell>
+                                <cell role="num">21.2</cell>
+                                <cell role="num">19.6</cell>
+                                <cell role="num">20.8</cell>
+                                <cell role="num">27.0</cell>
                             </row>
                             <row>
                                 <cell>France</cell>
-                                <cell>3.2</cell>
-                                <cell>3.4</cell>
-                                <cell>6.1</cell>
-                                <cell>6.3</cell>
-                                <cell>5.4</cell>
-                                <cell>7.7</cell>
-                                <cell>7.5</cell>
+                                <cell role="num">3.2</cell>
+                                <cell role="num">3.4</cell>
+                                <cell role="num">6.1</cell>
+                                <cell role="num">6.3</cell>
+                                <cell role="num">5.4</cell>
+                                <cell role="num">7.7</cell>
+                                <cell role="num">7.5</cell>
                             </row>
                             <row>
                                 <cell>Italy</cell>
-                                <cell>3.9</cell>
-                                <cell>4.7</cell>
-                                <cell>6.9</cell>
-                                <cell>8.7</cell>
-                                <cell>7.8</cell>
-                                <cell>9.9</cell>
-                                <cell>9.3</cell>
+                                <cell role="num">3.9</cell>
+                                <cell role="num">4.7</cell>
+                                <cell role="num">6.9</cell>
+                                <cell role="num">8.7</cell>
+                                <cell role="num">7.8</cell>
+                                <cell role="num">9.9</cell>
+                                <cell role="num">9.3</cell>
                             </row>
                             <row>
                                 <cell>United Kingdom</cell>
-                                <cell>16.5</cell>
-                                <cell>15.9</cell>
-                                <cell>17.0</cell>
-                                <cell>16.1</cell>
-                                <cell>17.4</cell>
-                                <cell>17.4</cell>
-                                <cell>14.2</cell>
+                                <cell role="num">16.5</cell>
+                                <cell role="num">15.9</cell>
+                                <cell role="num">17.0</cell>
+                                <cell role="num">16.1</cell>
+                                <cell role="num">17.4</cell>
+                                <cell role="num">17.4</cell>
+                                <cell role="num">14.2</cell>
                             </row>
                             <row>
                                 <cell>Japan</cell>
-                                <cell>1.9</cell>
-                                <cell>2.8</cell>
-                                <cell>4.3</cell>
-                                <cell>6.2</cell>
-                                <cell>8.4</cell>
-                                <cell>9.3</cell>
-                                <cell>8.8</cell>
+                                <cell role="num">1.9</cell>
+                                <cell role="num">2.8</cell>
+                                <cell role="num">4.3</cell>
+                                <cell role="num">6.2</cell>
+                                <cell role="num">8.4</cell>
+                                <cell role="num">9.3</cell>
+                                <cell role="num">8.8</cell>
                             </row>
                             <row>
                                 <cell>United States</cell>
-                                <cell>41.0</cell>
-                                <cell>37.5</cell>
-                                <cell>31.4</cell>
-                                <cell>23.4</cell>
-                                <cell>25.3</cell>
-                                <cell>17.2</cell>
-                                <cell>15.6</cell>
+                                <cell role="num">41.0</cell>
+                                <cell role="num">37.5</cell>
+                                <cell role="num">31.4</cell>
+                                <cell role="num">23.4</cell>
+                                <cell role="num">25.3</cell>
+                                <cell role="num">17.2</cell>
+                                <cell role="num">15.6</cell>
                             </row>
                             <row>
                                 <cell>Other</cell>
-                                <cell>12.4</cell>
-                                <cell>8.9</cell>
-                                <cell>9.3</cell>
-                                <cell>13.0</cell>
-                                <cell>14.4</cell>
-                                <cell>15.7</cell>
-                                <cell>12.9</cell>
+                                <cell role="num">12.4</cell>
+                                <cell role="num">8.9</cell>
+                                <cell role="num">9.3</cell>
+                                <cell role="num">13.0</cell>
+                                <cell role="num">14.4</cell>
+                                <cell role="num">15.7</cell>
+                                <cell role="num">12.9</cell>
                             </row>
                             <row>
                                 <cell>
@@ -17131,32 +17131,32 @@
                             <row>
                                 <cell>United States (<gloss target="#t_AID_1">AID</gloss>
                                     development loans)</cell>
-                                <cell>24</cell>
+                                <cell role="num">24</cell>
                             </row>
                             <row>
                                 <cell>Export-Import Bank</cell>
-                                <cell>48</cell>
+                                <cell role="num">48</cell>
                             </row>
                             <row>
                                 <cell>World Bank</cell>
-                                <cell>52</cell>
+                                <cell role="num">52</cell>
                             </row>
                             <row>
                                 <cell>Inter-American Development Bank</cell>
-                                <cell>99</cell>
+                                <cell role="num">99</cell>
                             </row>
                             <row>
                                 <cell>Belgium (for expansion of state mining enterprise)</cell>
-                                <cell>46</cell>
+                                <cell role="num">46</cell>
                             </row>
                             <row>
                                 <cell>France (for Santiago subway)</cell>
-                                <cell>52</cell>
+                                <cell role="num">52</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_USSR_1">USSR</gloss> (extended in 1967)</cell>
-                                <cell>55</cell>
+                                <cell role="num">55</cell>
                             </row>
                             <row>
                                 <cell>:tb,l0,r250,e310</cell>
@@ -21101,13 +21101,13 @@
                             </row>
                             <row>
                                 <cell>Guarantees</cell>
-                                <cell>27,276,483</cell>
-                                <cell>19,659,000</cell>
+                                <cell role="num">27,276,483</cell>
+                                <cell role="num">19,659,000</cell>
                             </row>
                             <row>
                                 <cell>Export Credit Insurance</cell>
-                                <cell>13,339,290</cell>
-                                <cell>10,548,000</cell>
+                                <cell role="num">13,339,290</cell>
+                                <cell role="num">10,548,000</cell>
                             </row>
                             <row>
                                 <cell>Gross Total Exposure</cell>
@@ -26076,48 +26076,48 @@
                             </row>
                             <row>
                                 <cell>TOTAL (12/31/69)</cell>
-                                <cell>251.1</cell>
-                                <cell>259.0</cell>
-                                <cell>251.4</cell>
-                                <cell>241.5</cell>
-                                <cell>219.0</cell>
-                                <cell>204.1</cell>
+                                <cell role="num">251.1</cell>
+                                <cell role="num">259.0</cell>
+                                <cell role="num">251.4</cell>
+                                <cell role="num">241.5</cell>
+                                <cell role="num">219.0</cell>
+                                <cell role="num">204.1</cell>
                             </row>
                             <row>
                                 <cell>U.S. Share (6/30/71)</cell>
-                                <cell>78.7</cell>
-                                <cell>84.3</cell>
-                                <cell>85.4</cell>
-                                <cell>81.8</cell>
-                                <cell>73.9</cell>
-                                <cell>68.5</cell>
+                                <cell role="num">78.7</cell>
+                                <cell role="num">84.3</cell>
+                                <cell role="num">85.4</cell>
+                                <cell role="num">81.8</cell>
+                                <cell role="num">73.9</cell>
+                                <cell role="num">68.5</cell>
                             </row>
                             <row>
                                 <cell>of which Private</cell>
-                                <cell>15.6</cell>
-                                <cell>7.6</cell>
-                                <cell>9.5</cell>
-                                <cell>8.9</cell>
-                                <cell>5.8</cell>
-                                <cell>4.5</cell>
+                                <cell role="num">15.6</cell>
+                                <cell role="num">7.6</cell>
+                                <cell role="num">9.5</cell>
+                                <cell role="num">8.9</cell>
+                                <cell role="num">5.8</cell>
+                                <cell role="num">4.5</cell>
                             </row>
                             <row>
                                 <cell>of which U.S.G.</cell>
-                                <cell>63.1</cell>
-                                <cell>76.7</cell>
-                                <cell>71.7</cell>
-                                <cell>75.7</cell>
-                                <cell>68.9</cell>
-                                <cell>64.1</cell>
+                                <cell role="num">63.1</cell>
+                                <cell role="num">76.7</cell>
+                                <cell role="num">71.7</cell>
+                                <cell role="num">75.7</cell>
+                                <cell role="num">68.9</cell>
+                                <cell role="num">64.1</cell>
                             </row>
                             <row>
                                 <cell>of which Ex-Im</cell>
                                 <cell/>
-                                <cell>58.8</cell>
-                                <cell>59.7</cell>
-                                <cell>61.7</cell>
-                                <cell>53.9</cell>
-                                <cell>46.0</cell>
+                                <cell role="num">58.8</cell>
+                                <cell role="num">59.7</cell>
+                                <cell role="num">61.7</cell>
+                                <cell role="num">53.9</cell>
+                                <cell role="num">46.0</cell>
                             </row>
                         </table>
                         <p>Total Chilean external public debt as of December 31, 1969 was
@@ -26433,77 +26433,77 @@
                                 <cell>Steel Plant Expansion (<gloss target="#t_CAP_1"
                                     >CAP</gloss>)</cell>
                                 <cell>unclear</cell>
-                                <cell>50,000,000</cell>
+                                <cell role="num">50,000,000</cell>
                                 <cell>
                                     <gloss target="#t_GOB_1">GOB</gloss>/Priority No. 2</cell>
                             </row>
                             <row>
                                 <cell>Industrial Water for El Teniente Copper Mine</cell>
                                 <cell>unclear</cell>
-                                <cell>4,700,000</cell>
-                                <cell>3</cell>
+                                <cell role="num">4,700,000</cell>
+                                <cell role="num">3</cell>
                             </row>
                             <row>
                                 <cell>State Railroad Equipment</cell>
                                 <cell>unclear</cell>
-                                <cell>8,800,000</cell>
-                                <cell>4</cell>
+                                <cell role="num">8,800,000</cell>
+                                <cell role="num">4</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_IDB_1">IDB</gloss> Earthquake
                                     Reconstruction</cell>
                                 <cell>CY 1971</cell>
-                                <cell>15,600</cell>
+                                <cell role="num">15,600</cell>
                                 <cell>To consist of undisbursed balance of existing loans.</cell>
                             </row>
                             <row>
                                 <cell>Petrochemical Development</cell>
                                 <cell>CY 1972</cell>
-                                <cell>29,000</cell>
+                                <cell role="num">29,000</cell>
                                 <cell>Tentative</cell>
                             </row>
                             <row>
                                 <cell>Boqueron Chanar Iron Mine</cell>
                                 <cell>CY 1972</cell>
-                                <cell>5,000</cell>
+                                <cell role="num">5,000</cell>
                                 <cell>Tentative</cell>
                             </row>
                             <row>
                                 <cell>Irrigation</cell>
                                 <cell>CY 1972</cell>
-                                <cell>25,000</cell>
+                                <cell role="num">25,000</cell>
                                 <cell>Tentative</cell>
                             </row>
                             <row>
                                 <cell>Pre-Investment Studies</cell>
                                 <cell>CY 1972</cell>
-                                <cell>5,000</cell>
+                                <cell role="num">5,000</cell>
                                 <cell>Tentative</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_IBRD_1">IBRD</gloss> Livestock</cell>
                                 <cell>CY 1972</cell>
-                                <cell>9,000</cell>
+                                <cell role="num">9,000</cell>
                                 <cell>Reappraisal scheduled 12/71</cell>
                             </row>
                             <row>
                                 <cell>Electric Power</cell>
                                 <cell>unclear</cell>
-                                <cell>50,000</cell>
+                                <cell role="num">50,000</cell>
                                 <cell>Requires increase in power rates.</cell>
                             </row>
                             <row>
                                 <cell>Fruit Development</cell>
                                 <cell>CY 1972</cell>
-                                <cell>6,000</cell>
+                                <cell role="num">6,000</cell>
                                 <cell/>
                             </row>
                             <row>
                                 <cell>Irrigation</cell>
                                 <cell>CY 1972</cell>
-                                <cell>15,000</cell>
+                                <cell role="num">15,000</cell>
                                 <cell/>
                             </row>
                         </table>
@@ -28596,19 +28596,19 @@
                             </row>
                             <row>
                                 <cell>Returned to Chile</cell>
-                                <cell>80.4</cell>
+                                <cell role="num">80.4</cell>
                             </row>
                             <row>
                                 <cell>Expenses incurred abroad</cell>
-                                <cell>8.4</cell>
+                                <cell role="num">8.4</cell>
                             </row>
                             <row>
                                 <cell>Payments to Shareholders</cell>
-                                <cell>11.2</cell>
+                                <cell role="num">11.2</cell>
                             </row>
                             <row>
                                 <cell/>
-                                <cell>100.0</cell>
+                                <cell role="num">100.0</cell>
                             </row>
                         </table>
                         <p>Similarly, Kennecott has gone on record in a letter to <persName
@@ -28621,19 +28621,19 @@
                             </row>
                             <row>
                                 <cell>Total Sales Receipts</cell>
-                                <cell>3,430</cell>
+                                <cell role="num">3,430</cell>
                             </row>
                             <row>
                                 <cell>Total Returned to Chile</cell>
-                                <cell>2,491</cell>
+                                <cell role="num">2,491</cell>
                             </row>
                             <row>
                                 <cell>Expenses incurred abroad</cell>
-                                <cell>430</cell>
+                                <cell role="num">430</cell>
                             </row>
                             <row>
                                 <cell>Net Profit to Braden</cell>
-                                <cell>509</cell>
+                                <cell role="num">509</cell>
                             </row>
                         </table>
                         <pb n="466" facs="0506" xml:id="pg_466"/>
@@ -34752,8 +34752,8 @@
                                 </cell>
                                 <cell>3,996 (53.8%)</cell>
                                 <cell>3,408 (45.9%)</cell>
-                                <cell>25</cell>
-                                <cell>7,429</cell>
+                                <cell role="num">25</cell>
+                                <cell role="num">7,429</cell>
                             </row>
                             <row>
                                 <cell>
@@ -34761,8 +34761,8 @@
                                 </cell>
                                 <cell>17,415 (47.7%)</cell>
                                 <cell>18,998 (52.0%)</cell>
-                                <cell>92</cell>
-                                <cell>36,505</cell>
+                                <cell role="num">92</cell>
+                                <cell role="num">36,505</cell>
                             </row>
                             <row>
                                 <cell>
@@ -34771,7 +34771,7 @@
                                 <cell>3,078 (45.6%)</cell>
                                 <cell>3,677 (54.4%)</cell>
                                 <cell>—</cell>
-                                <cell>6,755</cell>
+                                <cell role="num">6,755</cell>
                             </row>
                             <row>
                                 <cell cols="7">
@@ -34795,7 +34795,7 @@
                                 <cell>4,391 (52.6%)</cell>
                                 <cell>3,655 (43.4%)</cell>
                                 <cell>304 (3.6%)</cell>
-                                <cell>8,350</cell>
+                                <cell role="num">8,350</cell>
                             </row>
                             <row>
                                 <cell>
@@ -34804,7 +34804,7 @@
                                 <cell>22,620 (51.7%)</cell>
                                 <cell>17,848 (40.8%)</cell>
                                 <cell>3,243 (7.5%)</cell>
-                                <cell>43,711</cell>
+                                <cell role="num">43,711</cell>
                             </row>
                             <row>
                                 <cell>
@@ -34813,7 +34813,7 @@
                                 <cell>3,788 (47.4%)</cell>
                                 <cell>3,973 (49.7%)</cell>
                                 <cell>231 (2.9%)</cell>
-                                <cell>7,992</cell>
+                                <cell role="num">7,992</cell>
                             </row>
                         </table>
                     </div>
@@ -36910,8 +36910,8 @@
                             </row>
                             <row>
                                 <cell>COMMUNIST PARTY</cell>
-                                <cell>19</cell>
-                                <cell>6</cell>
+                                <cell role="num">19</cell>
+                                <cell role="num">6</cell>
                             </row>
                             <row>
                                 <cell>(A pro-Soviet party, generally a force for moderation in the
@@ -36921,8 +36921,8 @@
                             </row>
                             <row>
                                 <cell>SO<gloss target="#t_CIA_1">CIA</gloss>LIST PARTY</cell>
-                                <cell>14</cell>
-                                <cell>5</cell>
+                                <cell role="num">14</cell>
+                                <cell role="num">5</cell>
                             </row>
                             <row>
                                 <cell>(<persName corresp="#p_AGS_1">Allende</persName>’s party, now
@@ -36933,8 +36933,8 @@
                             </row>
                             <row>
                                 <cell>RADICAL PARTY</cell>
-                                <cell>12</cell>
-                                <cell>3</cell>
+                                <cell role="num">12</cell>
+                                <cell role="num">3</cell>
                             </row>
                             <row>
                                 <cell>(Chile’s oldest party, traditionally represented Chile’s
@@ -36946,8 +36946,8 @@
                             </row>
                             <row>
                                 <cell>CH<gloss target="#t_RIS_1">RIS</gloss>TIAN LEFT</cell>
-                                <cell>9</cell>
-                                <cell>2</cell>
+                                <cell role="num">9</cell>
+                                <cell role="num">2</cell>
                             </row>
                             <row>
                                 <cell>(Former members of the Christian Democratic Party;
@@ -36958,7 +36958,7 @@
                             <row>
                                 <cell>INDEPENDENT POPULAR ACTION</cell>
                                 <cell>—</cell>
-                                <cell>1</cell>
+                                <cell role="num">1</cell>
                             </row>
                             <row>
                                 <cell>(Non-Marxist leftist mini-party)</cell>
@@ -36967,8 +36967,8 @@
                             </row>
                             <row>
                                 <cell>Government Totals</cell>
-                                <cell>54</cell>
-                                <cell>17</cell>
+                                <cell role="num">54</cell>
+                                <cell role="num">17</cell>
                             </row>
                             <row>
                                 <cell cols="3">PRO-GOVERNMENT</cell>
@@ -36977,7 +36977,7 @@
                                 <cell>POPULAR SO<gloss target="#t_CIA_1">CIA</gloss>LIST
                                     UNION</cell>
                                 <cell>—</cell>
-                                <cell>1</cell>
+                                <cell role="num">1</cell>
                             </row>
                             <row>
                                 <cell>(Socialist Party splinter group)</cell>
@@ -36991,8 +36991,8 @@
                             <row>
                                 <cell>CH<gloss target="#t_RIS_1">RIS</gloss>TIAN DEMOCRATIC
                                     PARTY</cell>
-                                <cell>47</cell>
-                                <cell>20</cell>
+                                <cell role="num">47</cell>
+                                <cell role="num">20</cell>
                             </row>
                             <row>
                                 <cell>(Moderate leftist, Chile’s largest party; committed to
@@ -37003,8 +37003,8 @@
                             </row>
                             <row>
                                 <cell>NATIONAL PARTY</cell>
-                                <cell>32</cell>
-                                <cell>5</cell>
+                                <cell role="num">32</cell>
+                                <cell role="num">5</cell>
                             </row>
                             <row>
                                 <cell>(Conservative, representing interests of well-to-do and some
@@ -37013,8 +37013,8 @@
                             </row>
                             <row>
                                 <cell>LEFTIST RADICAL PARTY</cell>
-                                <cell>9</cell>
-                                <cell>5</cell>
+                                <cell role="num">9</cell>
+                                <cell role="num">5</cell>
                             </row>
                             <row>
                                 <cell>(Moderate leftist group of former Radical Party members;
@@ -37025,8 +37025,8 @@
                             </row>
                             <row>
                                 <cell>DEMOCRATIC RADICAL PARTY</cell>
-                                <cell>4</cell>
-                                <cell>2</cell>
+                                <cell role="num">4</cell>
+                                <cell role="num">2</cell>
                             </row>
                             <row>
                                 <cell>(Conservative splinter of the Radical Party)</cell>
@@ -37035,19 +37035,19 @@
                             </row>
                             <row>
                                 <cell>INDEPENDENT</cell>
-                                <cell>1</cell>
+                                <cell role="num">1</cell>
                                 <cell>—</cell>
                             </row>
                             <row>
                                 <cell>TOTAL MEMBERSHIP</cell>
-                                <cell>147<note n="*" xml:id="d116fn9">The Chamber has a normal
-                                        membership of 150, but a Communist Party Deputy died on 5
-                                        May 1972. His seat will be filled in a by-election in July.
-                                        Two other Communist deputies resigned their seats in June to
-                                        join the Cabinet. It is unclear whether these seats will
-                                        remain vacant until the March 1973 election. [Footnote is in
-                                        the original.]</note></cell>
-                                <cell>50</cell>
+                                <cell role="num">147<note n="*" xml:id="d116fn9">The Chamber has a
+                                        normal membership of 150, but a Communist Party Deputy died
+                                        on 5 May 1972. His seat will be filled in a by-election in
+                                        July. Two other Communist deputies resigned their seats in
+                                        June to join the Cabinet. It is unclear whether these seats
+                                        will remain vacant until the March 1973 election. [Footnote
+                                        is in the original.]</note></cell>
+                                <cell role="num">50</cell>
                             </row>
                         </table>
                         <p rend="sectiontitleital">
@@ -40941,7 +40941,7 @@
                             </row>
                             <row>
                                 <cell>TOTAL</cell>
-                                <cell>87</cell>
+                                <cell role="num">87</cell>
                                 <cell>Christian Left (<gloss target="#t_IC_1">IC</gloss>)</cell>
                                 <cell>1 (down 8)</cell>
                             </row>
@@ -40956,7 +40956,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell>TOTAL</cell>
-                                <cell>63</cell>
+                                <cell role="num">63</cell>
                             </row>
                         </table>
                         <p>B. <hi rend="italic">Senate</hi>
@@ -40988,38 +40988,38 @@
                                     <gloss target="#t_PDC_1">PDC</gloss>
                                 </cell>
                                 <cell>10 (down 1)</cell>
-                                <cell>9</cell>
-                                <cell>19</cell>
+                                <cell role="num">9</cell>
+                                <cell role="num">19</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_PN_1">PN</gloss>
                                 </cell>
                                 <cell>4 (up 3)</cell>
-                                <cell>4</cell>
-                                <cell>8</cell>
+                                <cell role="num">4</cell>
+                                <cell role="num">8</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_PIR_1">PIR</gloss>
                                 </cell>
                                 <cell>0 (down 2)</cell>
-                                <cell>3</cell>
-                                <cell>3</cell>
+                                <cell role="num">3</cell>
+                                <cell role="num">3</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_PDR_1">PDR</gloss>
                                 </cell>
                                 <cell>0 (down 2)</cell>
-                                <cell>0</cell>
-                                <cell>0</cell>
+                                <cell role="num">0</cell>
+                                <cell role="num">0</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell/>
-                                <cell>30</cell>
+                                <cell role="num">30</cell>
                             </row>
                         </table>
                         <table>
@@ -41035,40 +41035,40 @@
                                     <gloss target="#t_PCCh_1">PCCh</gloss>
                                 </cell>
                                 <cell>5 (up 3)</cell>
-                                <cell>4</cell>
-                                <cell>9</cell>
+                                <cell role="num">4</cell>
+                                <cell role="num">9</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_PS_1">PS</gloss>
                                 </cell>
                                 <cell>5 (up 2)</cell>
-                                <cell>2</cell>
-                                <cell>7</cell>
+                                <cell role="num">2</cell>
+                                <cell role="num">7</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_PR_1">PR</gloss>
                                 </cell>
                                 <cell>1 (down 1)</cell>
-                                <cell>1</cell>
-                                <cell>2</cell>
+                                <cell role="num">1</cell>
+                                <cell role="num">2</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_IC_1">IC</gloss>
                                 </cell>
                                 <cell>0 (down 1, uncontested)</cell>
-                                <cell>1</cell>
-                                <cell>1</cell>
+                                <cell role="num">1</cell>
+                                <cell role="num">1</cell>
                             </row>
                             <row>
                                 <cell>
                                     <gloss target="#t_USP_1">USP</gloss>
                                 </cell>
-                                <cell>0</cell>
-                                <cell>1</cell>
-                                <cell>1</cell>
+                                <cell role="num">0</cell>
+                                <cell role="num">1</cell>
+                                <cell role="num">1</cell>
                             </row>
                             <row>
                                 <cell>(pro-government)</cell>
@@ -41080,7 +41080,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell/>
-                                <cell>20</cell>
+                                <cell role="num">20</cell>
                             </row>
                         </table>
                         <p>c. <hi rend="italic">
@@ -46478,36 +46478,36 @@
                                     <cell>
                                         <gloss target="#t_FSO_1">FSO</gloss>
                                     </cell>
-                                    <cell>13.9</cell>
-                                    <cell>21.6</cell>
-                                    <cell>18.5</cell>
-                                    <cell>18.0</cell>
-                                    <cell>24.8</cell>
-                                    <cell>16.8</cell>
-                                    <cell>7.1</cell>
-                                    <cell>17.9</cell>
+                                    <cell role="num">13.9</cell>
+                                    <cell role="num">21.6</cell>
+                                    <cell role="num">18.5</cell>
+                                    <cell role="num">18.0</cell>
+                                    <cell role="num">24.8</cell>
+                                    <cell role="num">16.8</cell>
+                                    <cell role="num">7.1</cell>
+                                    <cell role="num">17.9</cell>
                                 </row>
                                 <row>
                                     <cell>OC</cell>
-                                    <cell>15.9</cell>
-                                    <cell>5.1</cell>
-                                    <cell>7.4</cell>
-                                    <cell>9.5</cell>
-                                    <cell>9.3</cell>
-                                    <cell>3.2</cell>
-                                    <cell>5.4</cell>
-                                    <cell>7.3</cell>
+                                    <cell role="num">15.9</cell>
+                                    <cell role="num">5.1</cell>
+                                    <cell role="num">7.4</cell>
+                                    <cell role="num">9.5</cell>
+                                    <cell role="num">9.3</cell>
+                                    <cell role="num">3.2</cell>
+                                    <cell role="num">5.4</cell>
+                                    <cell role="num">7.3</cell>
                                 </row>
                                 <row>
                                     <cell>Total</cell>
-                                    <cell>29.8</cell>
-                                    <cell>26.7</cell>
-                                    <cell>25.9</cell>
-                                    <cell>27.5</cell>
-                                    <cell>34.1</cell>
-                                    <cell>20.0</cell>
-                                    <cell>12.5</cell>
-                                    <cell>25.2</cell>
+                                    <cell role="num">29.8</cell>
+                                    <cell role="num">26.7</cell>
+                                    <cell role="num">25.9</cell>
+                                    <cell role="num">27.5</cell>
+                                    <cell role="num">34.1</cell>
+                                    <cell role="num">20.0</cell>
+                                    <cell role="num">12.5</cell>
+                                    <cell role="num">25.2</cell>
                                 </row>
                                 <row>
                                     <cell cols="9">
@@ -46515,7 +46515,7 @@
                                             target="#t_FY_1">FY</gloss>’s)</cell>
                                 </row>
                                 <row>
-                                    <cell rend="col3">6/30/67–6/30/78</cell>
+                                    <cell cols="3">6/30/67–6/30/78</cell>
                                     <cell/>
                                     <cell/>
                                     <cell/>
@@ -46525,14 +46525,14 @@
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>7.9</cell>
-                                    <cell>2.4</cell>
-                                    <cell>9.5</cell>
-                                    <cell>6.6</cell>
-                                    <cell>21.0</cell>
-                                    <cell>14.9</cell>
-                                    <cell>21.0</cell>
-                                    <cell>19.0</cell>
+                                    <cell role="num">7.9</cell>
+                                    <cell role="num">2.4</cell>
+                                    <cell role="num">9.5</cell>
+                                    <cell role="num">6.6</cell>
+                                    <cell role="num">21.0</cell>
+                                    <cell role="num">14.9</cell>
+                                    <cell role="num">21.0</cell>
+                                    <cell role="num">19.0</cell>
                                 </row>
                             </table>
                         </frus:attachment>
