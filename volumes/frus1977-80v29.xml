@@ -51,7 +51,7 @@
     </teiHeader>
     <text>
         <front>
-            <pb n="I" facs="0002" xml:id="pg_I"/>
+            <pb n="[I]" facs="0002" xml:id="pg_I"/>
             <titlePage type="main">
                 <docTitle>
                     <titlePart type="series">Foreign Relations of the United States</titlePart>
@@ -69,7 +69,7 @@
                     <publisher>United States Government Publishing Office</publisher>
                     <pubPlace>Washington</pubPlace>
                     <docDate>2016</docDate>
-                    <pb n="II" facs="0003" xml:id="pg_II"/> DEPARTMENT OF STATE O<hi
+                    <pb n="[II]" facs="0003" xml:id="pg_II"/> DEPARTMENT OF STATE O<hi
                         rend="smallcaps">ffice of the</hi> H<hi rend="smallcaps">istorian</hi> B<hi
                         rend="smallcaps">ureau of</hi> P<hi rend="smallcaps">ublic</hi> A<hi
                         rend="smallcaps">ffairs</hi> For sale by the Superintendent of Documents,
@@ -264,6 +264,7 @@
                     <date when="2015-10" calendar="gregorian">October 2016</date>
                 </closer>
             </div>
+            <pb n="[VIII]" facs="0009" xml:id="pg_VIII"/>
             <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"

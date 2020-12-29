@@ -67,12 +67,12 @@
     </teiHeader>
     <text>
         <front>
-            <pb n="[titlepage]" xml:id="pg_titlepage" facs="0001"/>
+            <pb n="[Title]" xml:id="pg-seq-0001" facs="0001"/>
+            <pb n="[I]" xml:id="pg_I" facs="0002"/>
             <titlePage type="main">
                 <figure>
                     <graphic url="figure_0001"/>
                 </figure>
-                <pb n="[I]" xml:id="pg_I" facs="0002"/>
                 <docTitle>
                     <titlePart type="series">Foreign Relations of the United States</titlePart>
                     <titlePart type="subseries">1969–1976</titlePart>
