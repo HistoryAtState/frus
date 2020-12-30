@@ -31,6 +31,11 @@ for $pb at $incr in $vol//tei:pb[@facs le "0025"]
 (: supply the value you want to increase or decrease the selected attributes by :)
 let $amount-to-adjust := -1
 
-let $new-value := local:adjust-facs($pb/@facs cast as xs:integer, $amount-to-adjust)
+(: or to overwrite values with a new stream, use the $incr variant :)
+let $new-value := 
+    local:adjust-facs($pb/@facs cast as xs:integer, $amount-to-adjust)
+    (:
+    $incr => format-integer("0000")
+    :)
 return
     replace value of node $pb/@facs with $new-value
