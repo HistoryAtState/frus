@@ -258,13 +258,13 @@
         </rule>
         <rule context="tei:body">
             <assert
-                test="count($documents[@n castable as xs:integer]) = 0 or count($documents[@n castable as xs:integer]) = $documents[last()]/@n[. castable as xs:integer] - $documents[@n castable as xs:integer][1]/@n + 1"
+                test="count($documents[@n castable as xs:integer]) = 0 or count($documents[@n castable as xs:integer]) = $documents[@n castable as xs:integer][last()]/@n - $documents[@n castable as xs:integer][1]/@n + 1"
                 >Document numbering mismatch. The total number of documents with integer-@n values
                     (<value-of select="count($documents[@n castable as xs:integer])"/>) should equal
                 the difference between the first and final documents' numbers (<value-of
                     select="$documents[@n castable as xs:integer][last()]/@n"/> - <value-of
                     select="$documents[@n castable as xs:integer][1]/@n"/> + 1 = <value-of
-                    select="$documents[@n castable as xs:integer][last()]/@n[. castable as xs:integer] - $documents[@n castable as xs:integer][1]/@n + 1"
+                    select="$documents[@n castable as xs:integer][last()]/@n - $documents[@n castable as xs:integer][1]/@n + 1"
                 />), or the number of documents must be 0 (indicating a volume not yet
                 digitized).</assert>
         </rule>
