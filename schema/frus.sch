@@ -230,13 +230,20 @@
     </pattern>
 
     <pattern id="div-child-checks">
-        <title>Compilation/Chapter/Subchapter Div Containing Descendant Document Div Check</title>
+        <title>Compilation/Chapter/Subchapter Nesting Checks</title>
         <rule
             context="tei:div[@type = ('compilation', 'chapter', 'subchapter')][not(@subtype = ('index', 'referral', 'editorial-note'))]">
             <assert role="warn"
                 test=".//tei:div[@type = 'document'] or .//tei:div[@subtype = ('index', 'referral', 'editorial-note')]"
                 >This <value-of select="@type"/> does not contain a div/@type='document'. Please
                 inspect to verify encoding accuracy.</assert>
+        </rule>
+        <rule
+            context="tei:div[@type = 'document']">
+            <assert role="warn"
+                test="not(preceding-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')] or following-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')])"
+                >This document is preceded or followed by a <value-of select="@type"/>. Please
+                inspect to verify accuracy hierarchy.</assert>
         </rule>
     </pattern>
 
