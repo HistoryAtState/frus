@@ -20,7 +20,12 @@
                     <!--<value>the</value>-->
                 </param>
             </analyzer>
-            <text qname="tei:div"/>
+            <text qname="tei:div">
+                <field name="within" expression="if (@type = ('section', 'document')) then 'documents' else ()"/>
+                <field name="content" expression="if (@type = ('section', 'document')) then . else ()"/>
+                <field name="date-min" expression="if (@type = ('section', 'document')) then @frus:doc-dateTime-min else ()"/>
+                <field name="date-max" expression="if (@type = ('section', 'document')) then @frus:doc-dateTime-max else ()"/>
+            </text>
         </lucene>
 
         <!-- Range index configuration -->
