@@ -29,6 +29,7 @@
                 <field name="date-max" expression="if (@type = ('section', 'document')) then translate(@frus:doc-dateTime-max, ':-', '') else ()"/>  
                 
                 <facet dimension="volume-id" expression="if (@type = ('section', 'document')) then  root(.)//tei:idno[@type='frus'] else ()" hierarchical="no"/>
+                <facet dimension="within" expression="if (@type = ('section', 'document')) then 'documents' else ()" hierarchical="no"/>
             </text>
         </lucene>
 
