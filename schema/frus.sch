@@ -534,12 +534,12 @@
         </rule>
     </pattern>
     
-    <pattern id="curly-quote-orientation-checks">
-        <title>Curly quote orientation checks</title>
+    <pattern id="punctuation-orientation-and-placement-checks">
+        <title>Punctuation orientation &amp; placement checks</title>
 
         <!-- check all text nodes (except those in catDesc elements, 
             since the imported frus-dates taxonomy contains straight quotes) -->
-        <rule context="text()[not(parent::tei:catDesc)]">
+        <rule context="text()[not(parent::tei:catDesc|parent::tei:rendition)]">
 
             <!-- flag unexpected space after an open quote -->
             <assert role="warn" test="not(matches(., '[“‘] '))">Curly open quotation mark appears in
@@ -573,6 +573,13 @@
                 quotes: [<value-of
                     select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
                 />]. Fix orientation.</assert>
+            
+            <!-- flag spaces surrounding colons and semi-colons -->
+            <assert role="warn" test="not(matches(replace(. ,'(\s+\.){3,}', ''), '^\s+[\.,:;?!>)\]\}]|[a-z]\s+[\.,:;?!>)\]\}]'))">Space preceding
+                closing punctuation: [<value-of
+                    select="string-join(analyze-string(replace(. ,'(\s+\.){3,}', ''), '^(\s+[\.,:;?!>)\]\}]+)+|\w+(\s+[\.,:;?!>)\]\}]+)+')/fn:match ! ('“' || . || '”'), ', ')"
+                />]. Remove space?</assert>
+
         </rule>
     </pattern>
     
