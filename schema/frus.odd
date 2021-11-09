@@ -851,11 +851,11 @@
                             attribute is needed to achieve right-alignment of the <gi>closer</gi>.
                             Every <gi>signed</gi> element must have at least one <gi>persName</gi>
                             element—even if the person does not have a <att>corresp</att> value in
-                            the volume. Typically, FRUS signature blocks contain one or more person
-                            names, set in bold text in the print edition, so in FRUS TEI use a
-                                <gi>hi</gi> element with a <att>rend</att> attribute value of
-                                <ident>strong</ident>. When a signatory's title appears beneath the
-                            name in italics, use <gi>lb</gi> to break the lines and <gi>hi</gi>
+                            the volume. Typically, the person names in FRUS signature blocks are set
+                            in bold text in the print edition, so in FRUS TEI, use a <gi>hi</gi>
+                            element with a <att>rend</att> attribute value of <ident>strong</ident>.
+                            When a signatory's title appears beneath the name in italics, use
+                                <gi>lb</gi> to break the lines and use <gi>hi</gi>
                             <att>rend</att>=<ident>italic</ident> to italicize the title.</p>
                         <p>The typical signature block containing a single person name and title is
                             encoded as follows:</p>
