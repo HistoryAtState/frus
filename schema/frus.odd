@@ -846,37 +846,39 @@
                     <div xml:id="signatures">
                         <head>Signatures</head>
                         <p>Signatures are wrapped in the <gi>closer</gi> and <gi>signed</gi>
-                            elements. The typical right-aligned signature block appears as
+                            elements. When names are set in bold text in the print edition, use <hi rend="strong"/>. When
+                            a signatory's title appears beneath the name in italics, use <gi>lb</gi> to
+                            break the lines and <hi rend="italic"/> on the title. Every <gi>signed</gi>
+                            element must have at least one <gi>persName</gi> element.</p> 
+                            <p>The typical right-aligned signature block appears as
                             follows:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <closer>
                                 <signed>
                                     <persName><hi rend="strong">Creighton W. Abrams</hi></persName>
                                     <lb/>
-                                    <hi rend="italic">General, United States Army<lb/>Acting Chief
+                                    <hi rend="italic">General, United States Army <lb/> Acting Chief
                                         of Staff</hi>
                                 </signed>
                             </closer>
                         </egXML>
-                        <p>When there is more than one signature, each signature appears as an
-                                <gi>item</gi> wrapped in a <gi>list</gi> element within the
-                                <gi>signed</gi> element.</p>
+                        <p>When there are multiple names listed, enclose them all in a single <gi>signed</gi> element,
+                            using a <gi>list</gi> structure, with one <gi>item</gi> per person.</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <closer>
                                 <signed>
                                     <list>
-                                        <item><persName corresp="#p_DJM_1"><hi rend="strong">John M.
-                                                  Dunn</hi></persName></item>
-                                        <lb/>
-                                        <item><hi rend="italic">Acting Executive Director</hi>
+                                        <item><persName><hi rend="strong">John M.
+                                                Dunn</hi></persName>
+                                            <lb/>
+                                            <hi rend="italic">Acting Executive Director</hi>
                                             <lb/>
                                             <hi rend="italic">Council on International Economic
                                                 Policy</hi>
                                         </item>
-                                        <item><persName corresp="#p_SB_1"><hi rend="strong">Brent
-                                                  Scowcroft</hi></persName></item>
-                                        <lb/>
-                                        <item>
+                                        <item><persName><hi rend="strong">Brent
+                                                Scowcroft</hi></persName>
+                                            <lb/>
                                             <hi rend="italic">Assistant to the President for
                                                 National Security Affairs</hi>
                                         </item>
