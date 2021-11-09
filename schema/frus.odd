@@ -846,12 +846,14 @@
                     <div xml:id="signatures">
                         <head>Signatures</head>
                         <p>Signatures are wrapped in the <gi>closer</gi> and <gi>signed</gi>
-                            elements. When names are set in bold text in the print edition, use <hi rend="strong"/>. When
-                            a signatory's title appears beneath the name in italics, use <gi>lb</gi> to
-                            break the lines and <hi rend="italic"/> on the title. Every <gi>signed</gi>
-                            element must have at least one <gi>persName</gi> element.</p> 
-                            <p>The typical right-aligned signature block appears as
-                            follows:</p>
+                            elements. When names are set in bold text in the print edition, use a
+                                <gi>hi</gi> element with a <att>rend</att> attribute value of
+                                <ident>strong</ident>. When a signatory's title appears beneath the
+                            name in italics, use <gi>lb</gi> to break the lines and <gi>hi</gi>
+                            <att>rend</att>=<ident>italic</ident> on the title. Every
+                                <gi>signed</gi> element must have at least one <gi>persName</gi>
+                            element.</p>
+                        <p>The typical right-aligned signature block appears as follows:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <closer>
                                 <signed>
@@ -862,8 +864,9 @@
                                 </signed>
                             </closer>
                         </egXML>
-                        <p>When there are multiple names listed, enclose them all in a single <gi>signed</gi> element,
-                            using a <gi>list</gi> structure, with one <gi>item</gi> per person.</p>
+                        <p>When there are multiple names listed, enclose them all in a single
+                                <gi>signed</gi> element, using a <gi>list</gi> structure, with one
+                                <gi>item</gi> per person.</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <closer>
                                 <signed>
