@@ -845,13 +845,59 @@
                     </div>
                     <div xml:id="signatures">
                         <head>Signatures</head>
-                        <p>Signatures are wrapped in the <gi>closer</gi> and <gi>signed</gi>
-                            elements. The typical right-aligned signature block appears as
-                            follows:</p>
+                        <p>Signatures are wrapped in a <gi>signed</gi> element inside the document's
+                                <gi>closer</gi> element. The <gi>closer</gi> element is rendered as
+                            a right-aligned block, so no <att>rend</att> or <att>rendition</att>
+                            attribute is needed to achieve right-alignment of the <gi>closer</gi>.
+                            Every <gi>signed</gi> element must have at least one <gi>persName</gi>
+                            element—even if the person does not have a <att>corresp</att> value in
+                            the volume. Typically, the person names in FRUS signature blocks are set
+                            in bold text in the print edition, so in FRUS TEI, use a <gi>hi</gi>
+                            element with a <att>rend</att> attribute value of <ident>strong</ident>.
+                            When a signatory's title appears beneath the name in italics, use
+                                <gi>lb</gi> to break the lines and use <gi>hi</gi>
+                            <att>rend</att>=<ident>italic</ident> to italicize the title.</p>
+                        <p>The typical signature block containing a single person name and title is
+                            encoded as follows:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <closer rend="right">
-                                <signed>Tyler Dennett <lb/><hi rend="italic">Chief, Division of
-                                        Publications</hi>
+                            <closer>
+                                <signed>
+                                    <persName>
+                                        <hi rend="strong">Creighton W. Abrams</hi>
+                                    </persName>
+                                    <lb/>
+                                    <hi rend="italic">General, United States Army</hi>
+                                    <lb/>
+                                    <hi rend="italic">Acting Chief of Staff</hi>
+                                </signed>
+                            </closer>
+                        </egXML>
+                        <p>When a signature block contains multiple names, enclose them all in a
+                            single <gi>signed</gi> element (not one per person), using a
+                                <gi>list</gi> structure, with one <gi>item</gi> per person:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <closer>
+                                <signed>
+                                    <list>
+                                        <item>
+                                            <persName>
+                                                <hi rend="strong">John M. Dunn</hi>
+                                            </persName>
+                                            <lb/>
+                                            <hi rend="italic">Acting Executive Director</hi>
+                                            <lb/>
+                                            <hi rend="italic">Council on International Economic
+                                                Policy</hi>
+                                        </item>
+                                        <item>
+                                            <persName>
+                                                <hi rend="strong">Brent Scowcroft</hi>
+                                            </persName>
+                                            <lb/>
+                                            <hi rend="italic">Assistant to the President for
+                                                National Security Affairs</hi>
+                                        </item>
+                                    </list>
                                 </signed>
                             </closer>
                         </egXML>
