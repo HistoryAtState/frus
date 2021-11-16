@@ -59,19 +59,47 @@ for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
 return
     delete node $signed/@corresp
     
- 
-(: 3. Insert signed elements in closers where none exist. empty persName elements in signed elements where none exist
+,
 
-//tei:signed[tei:persName] 
+(: 3. Insert signed elements in closers where none exist.
+
+<closer>
+    <persName>
+        <hi rend="smallcaps">Inman, Akers and Inman</hi>
+    </persName>
+</closer>
 
 :)
 
-(: 4. Delete affiliation from signed elements  :)
+for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
 
-(: 5. Insert <lb/>  :)
+return 
+    insert node tei:signed as first into $closer 
 
-(: 6. Insert hi rend="italic" for affiliation type content  :)
+,
 
-(: 7. empty persName elements in signed elements where none exist :)
+(: 4. Delete affiliation from closers  :)
+
+for $affiliation in $vol//tei:closer
+return
+    delete node $affiliation 
+    
+,
+
+(: 5. empty persName elements in signed elements where none exist
+
+
+<closer>
+  <signed>Cutler</signed>
+</closer>
+                        
+:)
+                        
+for $signed in $vol//tei:closer//tei:signed[not(child::tei:persName)]
+
+return 
+    insert node tei:persName as first into $signed 
+                        
+(: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
 
  
