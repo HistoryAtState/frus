@@ -58,3 +58,20 @@ return
 for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
 return
     delete node $signed/@corresp
+    
+ 
+(: 3. Insert signed elements in closers where none exist. empty persName elements in signed elements where none exist
+
+//tei:signed[tei:persName] 
+
+:)
+
+(: 4. Delete affiliation from signed elements  :)
+
+(: 5. Insert <lb/>  :)
+
+(: 6. Insert hi rend="italic" for affiliation type content  :)
+
+(: 7. empty persName elements in signed elements where none exist :)
+
+ 
