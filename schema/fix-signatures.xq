@@ -12,8 +12,8 @@ Do not commit the automatically generated .bak file to git.
 
 :)
 
-declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare namespace frus="http://history.state.gov/frus/ns/1.0";
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+declare namespace frus = "http://history.state.gov/frus/ns/1.0";
 
 declare variable $path external;
 declare variable $vol := doc($path);
@@ -38,18 +38,19 @@ and insert hi into the persName, making this into:
 
 for $persName in $vol//tei:signed/tei:persName[not(tei:hi)]
 return
-    replace node $persName with 
-        element 
-            { QName("http://www.tei-c.org/ns/1.0", "persName") } 
+    replace node $persName
+        with
+        element
+        {QName("http://www.tei-c.org/ns/1.0", "persName")}
+        {
+            $persName/@*,
+            element
+            {QName("http://www.tei-c.org/ns/1.0", "hi")}
             {
-                $persName/@*,
-                element 
-                    { QName("http://www.tei-c.org/ns/1.0", "hi") } 
-                    {
-                        attribute rend { "strong" },
-                        $persName/string()
-                    }
+                attribute rend {"strong"},
+                $persName/string()
             }
+        }
 
 ,
 
@@ -58,7 +59,7 @@ return
 for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
 return
     delete node $signed/@corresp
-    
+
 ,
 
 (: 3. Insert signed elements in closers where none exist.
@@ -73,17 +74,24 @@ return
 
 for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
 
-return 
-    insert node tei:signed as first into $closer 
+return
+    insert node tei:signed
+        as first into $closer
 
 ,
 
-(: 4. Delete affiliation from closers  :)
+(: 4. Delete affiliation from closers and replace with content italicized :)
 
 for $affiliation in $vol//tei:closer
 return
-    delete node $affiliation 
-    
+    replace node $affiliation
+        with
+        element
+        {QName("http://www.tei-c.org/ns/1.0", "hi")}
+        {
+            attribute rend {"italic"}
+        
+        }
 ,
 
 (: 5. empty persName elements in signed elements where none exist
@@ -94,12 +102,13 @@ return
 </closer>
                         
 :)
-                        
+
 for $signed in $vol//tei:closer//tei:signed[not(child::tei:persName)]
 
-return 
-    insert node tei:persName as first into $signed 
-                        
-(: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
+return
+    insert node tei:persName
+        as first into $signed
+        
+        (: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
 
- 
+
