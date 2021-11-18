@@ -75,25 +75,40 @@ return
 for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
 
 return
-    insert node tei:signed
-        as first into $closer
-
-,
-
-(: 4. Delete affiliation from closers and replace with content italicized :)
-
-for $affiliation in $vol//tei:closer
-return
-    replace node $affiliation
+    replace node $closer
         with
         element
-        {QName("http://www.tei-c.org/ns/1.0", "hi")}
+        {QName("http://www.tei-c.org/ns/1.0", "closer")}
         {
-            attribute rend {"italic"}
-        
+            $closer/*,
+            element
+            {QName("http://www.tei-c.org/ns/1.0", "signed")}
+            {
+                
+                $closer/string()
+            }
         }
+
+
+
 ,
 
+(: 4. Delete affiliation from closers and keep italicized content 
+
+for $affiliation in $vol//tei:closer//tei:signed//tei:affiliation
+
+return
+    replace node $affiliation
+    with 
+        element
+            {QName("http://www.tei-c.org/ns/1.0", "hi")}
+            {
+                attribute rend {"italic"}
+                
+            }
+            ,
+
+:)
 (: 5. empty persName elements in signed elements where none exist
 
 
@@ -103,12 +118,23 @@ return
                         
 :)
 
-for $signed in $vol//tei:closer//tei:signed[not(child::tei:persName)]
+for $signed in $vol//tei:closer//tei:signed[not(descendant::tei:persName)]
 
 return
-    insert node tei:persName
-        as first into $signed
+    replace node $signed
+        with
+        element
+        {QName("http://www.tei-c.org/ns/1.0", "signed")}
+        {
+         $signed/*,   
+            element
+            {QName("http://www.tei-c.org/ns/1.0", "persName")}
+            {
+                
+                $signed/node()
+            }
+        }
+        
         
         (: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
-
 
