@@ -18,51 +18,9 @@ declare namespace frus = "http://history.state.gov/frus/ns/1.0";
 declare variable $path external;
 declare variable $vol := doc($path);
 
-(: 1. Fix missing hi/@rend="strong" on signatures :)
 
-(: 
 
-find signatures with persNames lacking hi:
-
-    <signed>
-        <persName corresp="#p_HAA_1">Hartman</persName>
-    </signed>
-
-and insert hi into the persName, making this into:
-
-    <signed>
-        <persName corresp="#p_HAA_1"><hi rend="strong">Hartman</hi></persName>
-    </signed>
-
-:)
-
-for $persName in $vol//tei:signed/tei:persName[not(tei:hi)]
-return
-    replace node $persName
-        with
-        element
-        {QName("http://www.tei-c.org/ns/1.0", "persName")}
-        {
-            $persName/@*,
-            element
-            {QName("http://www.tei-c.org/ns/1.0", "hi")}
-            {
-                attribute rend {"strong"},
-                $persName/string()
-            }
-        }
-
-,
-
-(: 2. Delete @corresp from signed elements :)
-
-for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
-return
-    delete node $signed/@corresp
-
-,
-
-(: 3. Insert signed elements in closers where none exist.
+(: 1. Insert signed elements in closers where none exist.
 
 <closer>
     <persName>
@@ -72,6 +30,15 @@ return
 
 :)
 
+
+        
+(: for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
+let $signed := $signed
+
+return
+    insert node $signed as first into $closer :)
+        
+
 for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
 
 return
@@ -80,12 +47,12 @@ return
         element
         {QName("http://www.tei-c.org/ns/1.0", "closer")}
         {
-            $closer/*,
+            $closer/
             element
             {QName("http://www.tei-c.org/ns/1.0", "signed")}
             {
                 
-                $closer/string()
+                $closer/node()
             }
         }
 
@@ -93,23 +60,8 @@ return
 
 ,
 
-(: 4. Delete affiliation from closers and keep italicized content 
 
-for $affiliation in $vol//tei:closer//tei:signed//tei:affiliation
-
-return
-    replace node $affiliation
-    with 
-        element
-            {QName("http://www.tei-c.org/ns/1.0", "hi")}
-            {
-                attribute rend {"italic"}
-                
-            }
-            ,
-
-:)
-(: 5. empty persName elements in signed elements where none exist
+(: 2. empty persName elements in signed elements where none exist
 
 
 <closer>
@@ -126,7 +78,7 @@ return
         element
         {QName("http://www.tei-c.org/ns/1.0", "signed")}
         {
-         $signed/*,   
+         $signed/   
             element
             {QName("http://www.tei-c.org/ns/1.0", "persName")}
             {
@@ -135,6 +87,65 @@ return
             }
         }
         
+        ,
         
+(: 3. Fix missing hi/@rend="strong" on signatures :)
+
+(: 
+
+find signatures with persNames lacking hi:
+
+    <signed>
+        <persName corresp="#p_HAA_1">Hartman</persName>
+    </signed>
+
+and insert hi into the persName, making this into:
+
+    <signed>
+        <persName corresp="#p_HAA_1"><hi rend="strong">Hartman</hi></persName>
+    </signed>
+
+:)
+        for $persName in $vol//tei:signed/tei:persName[not(tei:hi)]
+return
+    replace node $persName
+        with
+        element
+        {QName("http://www.tei-c.org/ns/1.0", "persName")}
+        {
+            $persName/@*,
+            element
+            {QName("http://www.tei-c.org/ns/1.0", "hi")}
+            {
+                attribute rend {"strong"},
+                $persName/node()
+            }
+        }
+
+,
+
+(: 4. Delete @corresp from signed elements :)
+
+for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
+return
+    delete node $signed/@corresp
+        
+        (: 5. Delete affiliation from closers and keep italicized content 
+
+for $affiliation in $vol//tei:closer//tei:signed//tei:affiliation
+
+return
+    replace node $affiliation
+    with 
+        element
+            {QName("http://www.tei-c.org/ns/1.0", "hi")}
+            {
+                attribute rend {"italic"}
+                
+            }
+            ,
+
+:)
+
         (: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
 
