@@ -31,15 +31,17 @@ declare variable $vol := doc($path);
 :)
 
 
-        
+
 (: for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
 let $signed := $signed
 
 return
     insert node $signed as first into $closer :)
-        
 
-for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
+
+
+for $closer in $vol//tei:closer[.//tei:persName and not(child::tei:signed)]
+
 
 return
     replace node $closer
@@ -78,7 +80,7 @@ return
         element
         {QName("http://www.tei-c.org/ns/1.0", "signed")}
         {
-         $signed/   
+            $signed/
             element
             {QName("http://www.tei-c.org/ns/1.0", "persName")}
             {
@@ -86,9 +88,9 @@ return
                 $signed/node()
             }
         }
-        
-        ,
-        
+
+,
+
 (: 3. Fix missing hi/@rend="strong" on signatures :)
 
 (: 
@@ -106,7 +108,7 @@ and insert hi into the persName, making this into:
     </signed>
 
 :)
-        for $persName in $vol//tei:signed/tei:persName[not(tei:hi)]
+for $persName in $vol//tei:signed/tei:persName[not(tei:hi)]
 return
     replace node $persName
         with
@@ -129,23 +131,25 @@ return
 for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
 return
     delete node $signed/@corresp
-        
-        (: 5. Delete affiliation from closers and keep italicized content 
 
-for $affiliation in $vol//tei:closer//tei:signed//tei:affiliation
+,
+(: 5. Delete affiliation from closers and keep italicized content :)
+
+for $affiliation in $vol//tei:closer//tei:signed//tei:affiliation[not(child::tei:hi)]
+
 
 return
     replace node $affiliation
-    with 
+        with
         element
-            {QName("http://www.tei-c.org/ns/1.0", "hi")}
-            {
-                attribute rend {"italic"}
-                
-            }
-            ,
-
-:)
-
+        {QName("http://www.tei-c.org/ns/1.0", "hi")}
+        {
+            
+            attribute rend {"italic"}
+        
+        }
+        
+        
+        
+        
         (: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
-
