@@ -19,6 +19,14 @@ declare variable $path external;
 declare variable $vol := doc($path);
 
 
+(: reconstruct a node with computed element constructor to avoid saxon inserting unwanted namespace declarations :)
+declare function local:reconstruct-node($nodes as node()*) {
+    for $node in $nodes
+    return
+        typeswitch ($node) 
+            case element() return element { node-name($node) } { $node/@*, local:reconstruct-node($node/node()) }
+            default return $node
+};
 
 (: 1. Insert signed elements in closers where none exist.
 
