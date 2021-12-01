@@ -86,6 +86,24 @@ after:
 
 :)
 
+for $signed in $vol//tei:closer//tei:signed[not(descendant::tei:persName)]
+    
+return
+    replace node $signed
+        with
+        element
+        {QName("http://www.tei-c.org/ns/1.0", "signed")}
+        {
+            element
+            { QName("http://www.tei-c.org/ns/1.0", "persName") }
+            {
+                $signed/@*,
+                local:reconstruct-node($signed/node())
+            }
+        }
+
+,
+
 for $hi in $vol//tei:signed//tei:hi[@rend="strong"][not(parent::tei:persName)]
 return
     replace node $hi with
