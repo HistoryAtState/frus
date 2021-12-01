@@ -30,72 +30,70 @@ declare function local:reconstruct-node($nodes as node()*) {
 
 (: 1. Insert signed elements in closers where none exist.
 
-<closer>
-    <persName>
-        <hi rend="smallcaps">Inman, Akers and Inman</hi>
-    </persName>
-</closer>
+before:
+    
+    <closer>
+        <persName>
+            <hi rend="smallcaps">Inman, Akers and Inman</hi>
+        </persName>
+    </closer>
+
+after:
+
+    <closer>
+        <signed>
+            <persName>
+                <hi rend="smallcaps">Inman, Akers and Inman</hi>
+            </persName>
+        </signed>
+    </closer>
 
 :)
 
-
-
-(: for $closer in $vol//tei:closer//tei:persName[not(ancestor::tei:signed)]
-let $signed := $signed
-
-return
-    insert node $signed as first into $closer :)
-
-
-
 for $closer in $vol//tei:closer[.//tei:persName and not(child::tei:signed)]
-
-
 return
-    replace node $closer
-        with
+    replace node $closer with
         element
-        {QName("http://www.tei-c.org/ns/1.0", "closer")}
-        {
-            $closer/
-            element
-            {QName("http://www.tei-c.org/ns/1.0", "signed")}
+            { QName("http://www.tei-c.org/ns/1.0", "closer") }
             {
-                
-                $closer/node()
+                element
+                    { QName("http://www.tei-c.org/ns/1.0", "signed") }
+                    {
+                        $closer/@*,
+                        local:reconstruct-node($closer/node())
+                    }
             }
-        }
-
-
-
 ,
 
 
 (: 2. empty persName elements in signed elements where none exist
 
+before:
 
-<closer>
-  <signed>Cutler</signed>
-</closer>
-                        
+    <signed rend="left">
+        <hi rend="strong">Adam M. Howard, Ph.D.</hi>
+        <lb/>
+        <hi rend="italic">General Editor</hi>
+    </signed>
+    
+after:
+
+    <signed rend="left">
+        <persName><hi rend="strong">Adam M. Howard, Ph.D.</hi></persName>
+        <lb/>
+        <hi rend="italic">General Editor</hi>
+    </signed>
+
 :)
 
-for $signed in $vol//tei:closer//tei:signed[not(descendant::tei:persName)]
-
+for $hi in $vol//tei:signed//tei:hi[@rend="strong"][not(parent::tei:persName)]
 return
-    replace node $signed
-        with
+    replace node $hi with
         element
-        {QName("http://www.tei-c.org/ns/1.0", "signed")}
-        {
-            $signed/
-            element
-            {QName("http://www.tei-c.org/ns/1.0", "persName")}
+            { QName("http://www.tei-c.org/ns/1.0", "persName") }
             {
-                
-                $signed/node()
+                local:reconstruct-node($hi)
             }
-        }
 
 ,
 
@@ -112,52 +110,74 @@ find signatures with persNames lacking hi:
 and insert hi into the persName, making this into:
 
     <signed>
-        <persName corresp="#p_HAA_1"><hi rend="strong">Hartman</hi></persName>
+        <persName corresp="#p_HAA_1">
+            <hi rend="strong">Hartman</hi>
+        </persName>
     </signed>
 
 :)
 for $persName in $vol//tei:signed/tei:persName[not(tei:hi)]
 return
-    replace node $persName
-        with
+    replace node $persName with
         element
-        {QName("http://www.tei-c.org/ns/1.0", "persName")}
-        {
-            $persName/@*,
-            element
-            {QName("http://www.tei-c.org/ns/1.0", "hi")}
+            { QName("http://www.tei-c.org/ns/1.0", "persName") }
             {
-                attribute rend {"strong"},
-                $persName/node()
+                $persName/@*,
+                element
+                    { QName("http://www.tei-c.org/ns/1.0", "hi") }
+                    {
+                        attribute rend {"strong"},
+                        local:reconstruct-node($persName/node())
+                    }
             }
-        }
 
 ,
 
-(: 4. Delete @corresp from signed elements :)
+(: 4. Delete @corresp from signed elements 
+
+before:
+
+    TODO
+
+after:
+
+    TODO
+
+:)
 
 for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
 return
     delete node $signed/@corresp
 
 ,
-(: 5. Delete affiliation from closers and keep italicized content :)
-
-for $affiliation in $vol//tei:closer//tei:signed//tei:affiliation[not(child::tei:hi)]
 
 
+(: 5. Delete affiliation from closers and keep italicized content
+
+before:
+
+    <signed rend="left">
+        <persName><hi rend="strong">Adam M. Howard, Ph.D.</hi></persName>
+        <lb/>
+        <affiliation>
+            <hi rend="italic">General Editor</hi>
+        </affiliation>
+    </signed>
+
+after:
+
+    <signed rend="left">
+        <persName><hi rend="strong">Adam M. Howard, Ph.D.</hi></persName>
+        <lb/>
+        <hi rend="italic">General Editor</hi>
+    </signed>
+
+:)
+
+for $affiliation in $vol//tei:signed/tei:affiliation
 return
-    replace node $affiliation
-        with
-        element
-        {QName("http://www.tei-c.org/ns/1.0", "hi")}
-        {
-            
-            attribute rend {"italic"}
+    replace node $affiliation with
+        local:reconstruct-node($affiliation/node())
         
-        }
-        
-        
-        
-        
-        (: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
+
+(: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
