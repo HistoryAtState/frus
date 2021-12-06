@@ -99,13 +99,13 @@ return
 
 before:
 
-    <signed rend="left">
+    <signed>
         <hi rend="strong">Adam M. Howard, Ph.D.</hi>
     </signed>
     
 after:
 
-    <signed rend="left">
+    <signed>
         <persName>
             <hi rend="strong">Adam M. Howard, Ph.D.</hi>
         </persName>
