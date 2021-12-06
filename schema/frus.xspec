@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" schematron="frus-xspec.sch">
+
+    <x:scenario label="signed-corresp">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed corresp="#p_RRW_1">
+                    <persName corresp="#p_RRW_1">
+                        <hi rend="strong">Ronald Reagan</hi>
+                    </persName>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="signed-corresp-assertions">
+
+            <x:expect-assert label="Flag a signed element with a corresp attribute"
+                id="signed-corresp" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="signed-persname">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>
+                    <hi rend="strong">Zbigniew </hi>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="signed-persname-assertions">
+
+            <x:expect-assert label="Flag a signed element without a persName element"
+                id="signed-persname" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="persnames-in-notes-do-not-count">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>Paul H. Kreisberg<note>
+                        <persName>Kreisberg</persName> signed “Paul” above his typed
+                        signature.</note>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="persnames-in-notes-do-not-count-assertions">
+
+            <x:expect-assert
+                label="Flag a signed element without a persName element discounting persNames in notes"
+                id="signed-persname" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+</x:description>
