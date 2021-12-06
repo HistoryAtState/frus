@@ -79,42 +79,6 @@ after:
 
 :)
 
-for $signed in $vol//tei:closer//tei:signed[not(descendant::tei:persName)]
-    
-return
-    replace node $signed
-        with
-        element
-        {QName("http://www.tei-c.org/ns/1.0", "signed")}
-        {
-            element
-            { QName("http://www.tei-c.org/ns/1.0", "persName") }
-            {
-                $signed/@*,
-                $signed/node()
-            }
-        }
-
-,(: 2. empty persName elements in signed elements where none exist
-
-before:
-
-    <signed rend="left">
-        <hi rend="strong">Adam M. Howard, Ph.D.</hi>
-        <lb/>
-        <hi rend="italic">General Editor</hi>
-    </signed>
-    
-after:
-
-    <signed rend="left">
-        <persName><hi rend="strong">Adam M. Howard, Ph.D.</hi></persName>
-        <lb/>
-        <hi rend="italic">General Editor</hi>
-    </signed>
-
-:)
-
 for $hi in $vol//tei:signed//tei:hi[@rend="strong"][not(parent::tei:persName)]
 return
     replace node $hi with
