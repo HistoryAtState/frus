@@ -102,7 +102,25 @@ return
             }
         }
 
-,
+,(: 2. empty persName elements in signed elements where none exist
+
+before:
+
+    <signed rend="left">
+        <hi rend="strong">Adam M. Howard, Ph.D.</hi>
+        <lb/>
+        <hi rend="italic">General Editor</hi>
+    </signed>
+    
+after:
+
+    <signed rend="left">
+        <persName><hi rend="strong">Adam M. Howard, Ph.D.</hi></persName>
+        <lb/>
+        <hi rend="italic">General Editor</hi>
+    </signed>
+
+:)
 
 for $hi in $vol//tei:signed//tei:hi[@rend="strong"][not(parent::tei:persName)]
 return
@@ -155,11 +173,23 @@ return
 
 before:
 
-    TODO
+<closer>
+    <signed corresp="#p_RRW_1">
+        <persName corresp="#p_RRW_1">
+            <hi rend="strong">Ronald Reagan</hi>
+        </persName>
+    </signed>
+</closer>
 
 after:
 
-    TODO
+<closer>
+    <signed>
+        <persName corresp="#p_RRW_1">
+            <hi rend="strong">Ronald Reagan</hi>
+        </persName>
+    </signed>
+</closer>
 
 :)
 
