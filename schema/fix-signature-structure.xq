@@ -60,6 +60,40 @@ return
             }
 ,
 
+(: 1b. Fix signed lacking child persName
+
+before:
+    
+    <closer>
+        <signed>Steve<note n="4" xml:id="d123fn4">
+            <persName corresp="#p_OSA_1">Oxman</persName> signed his initials
+            over his typed signature.</note>
+        </signed>
+    </closer>
+
+after:
+
+    <closer>
+        <signed>
+            <persName>Steve</persName><note n="4" xml:id="d123fn4">
+                <persName corresp="#p_OSA_1">Oxman</persName> signed his initials
+                over his typed signature.</note>
+        </signed>
+    </closer>
+
+:)
+
+for $text in $vol//tei:signed[not(tei:persName)]/node()[normalize-space(.) ne ""][1][. instance of text()]
+return
+    replace node $text with
+        element
+            { QName("http://www.tei-c.org/ns/1.0", "persName") }
+            {
+                if ($debug) then attribute ana { "rule-1b" } else (),
+                $text
+            }
+
+,
 
 (: 2. Fix hi/@rend="strong" lacking outer persName
 
