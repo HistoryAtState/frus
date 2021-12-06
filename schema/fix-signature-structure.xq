@@ -116,12 +116,16 @@ after:
 for $hi in $vol//tei:signed//tei:hi[@rend="strong"][not(parent::tei:persName)]
 return
     replace node $hi with
-        element
-            { QName("http://www.tei-c.org/ns/1.0", "persName") }
-            { 
-                if ($debug) then attribute ana { "rule-2" } else (),
-                $hi
-            }
+        (
+            element
+                { QName("http://www.tei-c.org/ns/1.0", "persName") }
+                { 
+                    if ($debug) then attribute ana { "rule-2" } else (),
+                    text { " " },
+                    $hi,
+                    text { " " }
+                }
+        )
 
 ,
 
@@ -150,12 +154,14 @@ return
             {
                 if ($debug) then attribute ana { "rule-3" } else (),
                 $persName/@*,
+                text { " " },
                 element
                     { QName("http://www.tei-c.org/ns/1.0", "hi") }
                     {
                         attribute rend {"strong"},
                         $persName/node()
-                    }
+                    },
+                text { " " }
             }
 
 ,
