@@ -613,7 +613,7 @@
                 persName</assert>
         </rule>
         <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
-            <assert test="empty(.) or tei:hi[@rend eq 'strong']" role="warn">People who signed must be wrapped
+            <assert test="empty(.) or tei:hi[@rend eq 'strong']" role="warn">People who signed should be wrapped
                 in a hi/@rend="strong" element</assert>
             <let name="immediate-following-sibling-node"
                 value="following-sibling::node()[not(name() = ('note', 'lb') or normalize-space(.) eq '')][1]"/>
