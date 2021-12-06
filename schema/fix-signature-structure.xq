@@ -19,6 +19,7 @@ declare namespace frus = "http://history.state.gov/frus/ns/1.0";
 
 declare variable $path external;
 declare variable $vol := doc($path);
+declare variable $debug := false();
 
 
 (: 1. Fix closer lacking child signed
@@ -49,6 +50,7 @@ return
         element
             { QName("http://www.tei-c.org/ns/1.0", "closer") }
             {
+                if ($debug) then attribute ana { "rule-1" } else (),
                 $closer/@*,
                 element
                     { QName("http://www.tei-c.org/ns/1.0", "signed") }
@@ -82,7 +84,10 @@ return
     replace node $hi with
         element
             { QName("http://www.tei-c.org/ns/1.0", "persName") }
-            {                $hi            }
+            { 
+                if ($debug) then attribute ana { "rule-2" } else (),
+                $hi
+            }
 
 ,
 
@@ -109,6 +114,7 @@ return
         element
             { QName("http://www.tei-c.org/ns/1.0", "persName") }
             {
+                if ($debug) then attribute ana { "rule-3" } else (),
                 $persName/@*,
                 element
                     { QName("http://www.tei-c.org/ns/1.0", "hi") }
@@ -176,8 +182,15 @@ after:
 for $affiliation in $vol//tei:signed/tei:affiliation
 return
     replace node $affiliation with
-        $affiliation/node()
-        
+        if ($debug) then 
+            element 
+                { QName("http://www.tei-c.org/ns/1.0", "seg") }
+                { 
+                    attribute ana { "rule-5" },
+                    $affiliation/node()
+                }
+        else 
+            $affiliation/node()
 
 (: 6. Insert <lb/> and hi rend="italic" for post-persName content 
 
