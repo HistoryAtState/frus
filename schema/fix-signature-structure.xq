@@ -49,11 +49,11 @@ return
         element
             { QName("http://www.tei-c.org/ns/1.0", "closer") }
             {
+                $closer/@*,
                 element
                     { QName("http://www.tei-c.org/ns/1.0", "signed") }
-                    {
-                        $closer/@*,
-                        $closer/node()
+                    { 
+                        $closer/node() 
                     }
             }
 ,
