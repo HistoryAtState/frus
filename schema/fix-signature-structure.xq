@@ -21,7 +21,7 @@ declare variable $path external;
 declare variable $vol := doc($path);
 
 
-(: 1. Insert signed elements in closers where none exist.
+(: 1. Fix closer lacking child signed
 
 before:
     
@@ -43,7 +43,7 @@ after:
 
 :)
 
-for $closer in $vol//tei:closer[.//tei:persName and not(child::tei:signed)]
+for $closer in $vol//tei:closer[not(tei:signed) and .//tei:persName[not(ancestor::tei:note)]]
 return
     replace node $closer with
         element
@@ -59,22 +59,20 @@ return
 ,
 
 
-(: 2. empty persName elements in signed elements where none exist
+(: 2. Fix hi/@rend="strong" lacking outer persName
 
 before:
 
     <signed rend="left">
         <hi rend="strong">Adam M. Howard, Ph.D.</hi>
-        <lb/>
-        <hi rend="italic">General Editor</hi>
     </signed>
     
 after:
 
     <signed rend="left">
-        <persName><hi rend="strong">Adam M. Howard, Ph.D.</hi></persName>
-        <lb/>
-        <hi rend="italic">General Editor</hi>
+        <persName>
+            <hi rend="strong">Adam M. Howard, Ph.D.</hi>
+        </persName>
     </signed>
 
 :)
@@ -84,23 +82,19 @@ return
     replace node $hi with
         element
             { QName("http://www.tei-c.org/ns/1.0", "persName") }
-            {
-                $hi
-            }
+            {                $hi            }
 
 ,
 
-(: 3. Fix missing hi/@rend="strong" on signatures :)
+(: 3. Fix persName lacking inner hi/@rend="strong"
 
-(: 
-
-find signatures with persNames lacking hi:
+before:
 
     <signed>
         <persName corresp="#p_HAA_1">Hartman</persName>
     </signed>
 
-and insert hi into the persName, making this into:
+after:
 
     <signed>
         <persName corresp="#p_HAA_1">
@@ -126,7 +120,7 @@ return
 
 ,
 
-(: 4. Delete @corresp from signed elements 
+(: 4. Delete @corresp from signed if child persName has the same @corresp
 
 before:
 
@@ -150,14 +144,14 @@ after:
 
 :)
 
-for $signed in $vol//tei:signed[@corresp][tei:persName/@corresp]
+for $signed in $vol//tei:signed[@corresp = tei:persName/@corresp]
 return
     delete node $signed/@corresp
 
 ,
 
 
-(: 5. Delete affiliation from closers and keep italicized content
+(: 5. Delete affiliation from signed, keeping the child nodes
 
 before:
 
@@ -185,4 +179,8 @@ return
         $affiliation/node()
         
 
-(: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
+(: 6. Insert <lb/> and hi rend="italic" for post-persName content 
+
+TODO
+
+:)
