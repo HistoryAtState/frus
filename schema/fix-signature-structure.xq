@@ -12,21 +12,14 @@ Do not commit the automatically generated .bak file to git.
 
 :)
 
+declare copy-namespaces no-preserve, inherit;
+
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare namespace frus = "http://history.state.gov/frus/ns/1.0";
 
 declare variable $path external;
 declare variable $vol := doc($path);
 
-
-(: reconstruct a node with computed element constructor to avoid saxon inserting unwanted namespace declarations :)
-declare function local:reconstruct-node($nodes as node()*) {
-    for $node in $nodes
-    return
-        typeswitch ($node) 
-            case element() return element { node-name($node) } { $node/@*, local:reconstruct-node($node/node()) }
-            default return $node
-};
 
 (: 1. Insert signed elements in closers where none exist.
 
@@ -60,7 +53,7 @@ return
                     { QName("http://www.tei-c.org/ns/1.0", "signed") }
                     {
                         $closer/@*,
-                        local:reconstruct-node($closer/node())
+                        $closer/node()
                     }
             }
 ,
@@ -98,7 +91,7 @@ return
             { QName("http://www.tei-c.org/ns/1.0", "persName") }
             {
                 $signed/@*,
-                local:reconstruct-node($signed/node())
+                $signed/node()
             }
         }
 
@@ -128,7 +121,7 @@ return
         element
             { QName("http://www.tei-c.org/ns/1.0", "persName") }
             {
-                local:reconstruct-node($hi)
+                $hi
             }
 
 ,
@@ -163,7 +156,7 @@ return
                     { QName("http://www.tei-c.org/ns/1.0", "hi") }
                     {
                         attribute rend {"strong"},
-                        local:reconstruct-node($persName/node())
+                        $persName/node()
                     }
             }
 
@@ -225,7 +218,7 @@ after:
 for $affiliation in $vol//tei:signed/tei:affiliation
 return
     replace node $affiliation with
-        local:reconstruct-node($affiliation/node())
+        $affiliation/node()
         
 
 (: 6. Insert <lb/> and hi rend="italic" for post-persName content  :)
