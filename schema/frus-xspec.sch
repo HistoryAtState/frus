@@ -14,24 +14,25 @@
                 blocks must contain a persName</assert>
         </rule>
         <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
-            <assert test="empty(.) or tei:hi[@rend eq 'strong']" role="warn">People who signed must
-                be wrapped in a hi/@rend="strong" element</assert>
+            <assert test="empty(.) or tei:hi[@rend eq 'strong']" role="warn"
+                id="persnames-child-hi-rend-strong">People who signed must be wrapped in a
+                hi/@rend="strong" element</assert>
             <let name="immediate-following-sibling-node"
                 value="following-sibling::node()[not(name() = ('note', 'lb') or normalize-space(.) eq '')][1]"/>
             <assert
                 test="empty($immediate-following-sibling-node) or (matches(normalize-space($immediate-following-sibling-node), '^\p{P}*$') or $immediate-following-sibling-node/self::tei:hi/@rend eq 'italic')"
-                >Text following a persName element must be wrapped in a hi/@rend="italic" element,
-                not an affiliation element; be sure any line breaks are marked with lb
-                elements</assert>
+                id="remove-affiliation">Text following a persName element must be wrapped in a
+                hi/@rend="italic" element, not an affiliation element; be sure any line breaks are
+                marked with lb elements</assert>
             <let name="following-nodes"
                 value="following-sibling::node()[not(name(.) = ('note', 'persName', 'affiliation'))]"/>
             <assert
-                test="count($following-nodes) le 1 or ($following-nodes/self::tei:hi/@rend = 'italic' and $following-nodes/self::tei:lb)"
+                test="count($following-nodes) le 1 or ($following-nodes/self::tei:hi/@rend = 'italic' and $following-nodes/self::tei:lb)" id="insert-linebreaks"
                 >Any persName elements followed by italicized text should be separated by lb
                 elements.</assert>
         </rule>
         <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
-            <assert test="following-sibling::tei:persName" role="warn">This may need to be adapted
+            <assert test="following-sibling::tei:persName" role="warn" id="multiple-persnames">This may need to be adapted
                 to a list/item structure</assert>
         </rule>
     </pattern>
