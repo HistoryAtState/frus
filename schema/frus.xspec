@@ -168,4 +168,23 @@
 
     </x:scenario>
 
+    <x:scenario label="signed-multiple">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>Tom Simons</signed>
+                <signed>Jim Timbie</signed>
+                <signed>Karen Puschel</signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="signed-multiple">
+
+            <x:expect-assert label="Flag closer elements with more than one signed element"
+                id="signed-multiple" location="/tei:closer/tei:signed[1]" role="warn"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
 </x:description>
