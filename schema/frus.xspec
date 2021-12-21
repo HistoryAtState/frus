@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" schematron="frus-xspec.sch">
+
+    <x:scenario label="signed-corresp">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed corresp="#p_RRW_1">
+                    <persName corresp="#p_RRW_1">
+                        <hi rend="strong">Ronald Reagan</hi>
+                    </persName>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="signed-corresp-assertions">
+
+            <x:expect-assert label="Flag a signed element with a corresp attribute"
+                id="signed-corresp" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="signed-persname">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>
+                    <hi rend="strong">Zbigniew </hi>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="signed-persname-assertions">
+
+            <x:expect-assert label="Flag a signed element without a persName element"
+                id="signed-persname" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="persnames-in-notes-do-not-count">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>Paul H. Kreisberg<note>
+                        <persName>Kreisberg</persName> signed “Paul” above his typed
+                        signature.</note>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="persnames-in-notes-do-not-count-assertions">
+
+            <x:expect-assert
+                label="Flag a signed element without a persName element discounting persNames in notes"
+                id="signed-persname" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="persnames-child-hi-rend-strong">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>
+                    <persName corresp="#p_VC_1">Vance</persName>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="persnames-child-hi-rend-strong-assertions">
+
+            <x:expect-assert
+                label="Flag a signed element with a persName element that does not contain a hi/@rend=strong child"
+                id="persnames-child-hi-rend-strong" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="remove-affiliation">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>
+                    <persName>
+                        <hi rend="strong">Stephen P. Randolph, Ph.D. </hi>
+                    </persName>
+                    <affiliation>
+                        <hi rend="italic">The Historian</hi>
+                    </affiliation>
+                </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="remove-affiliation-assertions">
+
+            <x:expect-assert label="Flag a signed element with an affiliation element"
+                id="remove-affiliation" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="italicized-text">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed>
+                    <persName corresp="#p_BWMJ_1">Walter M. Bastian, Jr.</persName> Deputy Director
+                    (Policy and Plans) </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="italicized-text-assertions">
+
+            <x:expect-assert label="Flag all non-italicized text after a persName"
+                id="remove-affiliation" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="insert-linebreaks">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <signed corresp="#p_BWMJ_1">
+                    <persName corresp="#p_BWMJ_1">Walter M. Bastian, Jr.</persName> Deputy Director
+                    (Policy and Plans) </signed>
+            </closer>
+        </x:context>
+
+        <x:scenario label="insert-linebreaks-assertions">
+
+            <x:expect-assert label="Flag text after persName" id="insert-linebreaks"
+                location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="persname-multiple">
+
+        <x:context>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+                <closer>
+                    <signed>
+                        <persName corresp="#p_BJH_1">John Buchanan</persName>
+                        <persName corresp="#p_RL_1">Leo J. Ryan</persName>
+                        <persName corresp="#p_BJH_2">J. Herbert Burke</persName>
+                    </signed>
+                </closer>
+            </closer>
+        </x:context>
+
+        <x:scenario label="persname-multiple">
+
+            <x:expect-assert
+                label="Flag signed elements with more than one persName discounting persNames in notes"
+                id="persname-multiple" location="/tei:closer/tei:signed"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+</x:description>
