@@ -223,12 +223,12 @@
         <title>Div subtype Attribute Value Checks</title>
         <rule context="tei:div/@subtype">
             <assert
-                test=". = ('about-frus-series', 'acknowledgements', 'additional-volumes', 'appendix', 'editorial-note', 'editorial-policies', 'errata', 'graphic-materials', 'historian-statement', 'historical-document', 'index', 'maps', 'notes', 'preface', 'press-release', 'referral', 'sources', 'subsection', 'table-of-contents', 'volume-summary')"
+                test=". = ('about-frus-series', 'acknowledgements', 'additional-volumes', 'appendix', 'editorial-note', 'editorial-policies', 'errata', 'graphic-materials', 'historian-statement', 'historical-document', 'index', 'maps', 'notes', 'preface', 'press-release', 'referral', 'section', 'sources', 'subsection', 'table-of-contents', 'volume-summary')"
                     >div/@subtype='<value-of select="."/>' is an invalid value. Only the following
                 values are allowed: about-frus-series, acknowledgements, additional-volumes,
                 appendix, editorial-note, editorial-policies, errata, graphic-materials,
                 historian-statement, historical-document, index, maps, notes, preface,
-                press-release, referral, sources, subsection, table-of-contents,
+                press-release, referral, section, sources, subsection, table-of-contents,
                 volume-summary</assert>
         </rule>
     </pattern>
