@@ -211,21 +211,24 @@
         </rule>
     </pattern>
 
-    <pattern id="div-checks">
-        <title>Div Type Attribute Value Checks</title>
-        <rule context="tei:div">
+    <pattern id="div-type-attribute-checks">
+        <title>Div type Attribute Value Checks</title>
+        <rule context="tei:div/@type">
             <assert
-                test="./@type = ('document', 'chapter', 'subchapter', 'document-group', 'compilation', 'section', 'toc')"
-                    >div/@type='<value-of select="@type"/>' is an invalid value. Only the following
+                test=". = ('document', 'chapter', 'subchapter', 'document-group', 'compilation', 'section', 'toc')"
+                >div/@type='<value-of select="."/>' is an invalid value. Only the following
                 values are allowed: document, chapter, subchapter, compilation, section,
                 toc</assert>
         </rule>
-        <rule context="tei:div">
+    </pattern>
+    
+    <pattern id="div-subtype-attribute-checks">
+        <title>Div subtype Attribute Value Checks</title>
+        <rule context="tei:div/@subtype">
             <assert
-                test="./@subtype = ('editorial-note', 'errata_document-numbering-error', 'historical-document', 'index')"
-                    >div/@subtype='<value-of select="@subtype"/>' is an invalid value. Only the
-                following values are allowed: editorial-note, errata_document-numbering-error,
-                historical-document, index</assert>
+                test=". = ('about-frus-series', 'acknowledgements', 'additional-volumes', 'appendix', 'editorial-note', 'editorial-policies', 'errata', 'historian-statement', 'historical-document', 'index', 'maps', 'notes', 'preface', 'press-release', 'referral', 'sources', 'table-of-contents', 'volume-summary')"
+                >div/@subtype='<value-of select="."/>' is an invalid value. Only the
+                following values are allowed: about-frus-series, acknowledgements, additional-volumes, appendix, editorial-note, editorial-policies, errata, historian-statement, historical-document, index, maps, notes, preface, press-release, referral, sources, table-of-contents, volume-summary</assert>
         </rule>
     </pattern>
 
