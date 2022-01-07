@@ -229,6 +229,16 @@
         </rule>
     </pattern>
 
+    <pattern id="div-xml-id-attribute-checks">
+        <title>Div xml:id Attribute Value Checks</title>
+        <rule context="tei:div[exists(.//tei:term/@xml:id)]">
+            <assert test="@xml:id eq 'terms'">Unexpected div/@xml:id value: '<value-of select="@xml:id"/>'. The xml:id for the div containing a list of terms and abbreviations must be "terms".</assert>
+        </rule>
+        <rule context="tei:div[exists(.//tei:persName/@xml:id)]">
+            <assert test="@xml:id eq 'persons'">Unexpected div/@xml:id value: '<value-of select="@xml:id"/>'. The xml:id for the div containing a list of persons must be "persons".</assert>
+        </rule>
+    </pattern>
+
     <pattern id="div-child-checks">
         <title>Compilation/Chapter/Subchapter Nesting Checks</title>
         <rule
