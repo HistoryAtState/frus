@@ -2438,82 +2438,67 @@ body =
     ##
     attribute subtype {
       
-      ## (About the Series) Typically found in front matter
+      ## (About the Series) Typically found in front matter.
       "about-frus-series"
       | 
-        ## (Acknowledgements) Typically found in front matter
+        ## (Acknowledgements) Typically found in front matter.
         "acknowledgements"
       | 
-        ## (Additional Volumes) Typically found in front matter
+        ## (Additional Volumes) Typically found in front matter.
         "additional-volumes"
       | 
-        ## (Appendix) Typically found in back matter
+        ## (Appendix) Typically found in back matter.
         "appendix"
       | 
-        ## (Chapter Introduction) Typically found in front matter
-        "chapter-introduction"
-      | 
-        ## (Editorial Note) Typically found in the body of volume
+        ## (Editorial Note) Typically found in the body of volume.
         "editorial-note"
       | 
-        ## (Editorial Policies) Typically found in front matter
+        ## (Editorial Policies) Typically found in front matter.
         "editorial-policies"
       | 
-        ## (Errata) 
+        ## (Errata)  Typically found in back matter.
         "errata"
       | 
-        ## (Errata (Document Numbering Error)) Typically found in the body of volume
-        "errata_document-numbering-error"
+        ## (Graphic Material) Includes visual artwork, prints, and photographs. Typically found in back matter.
+        "graphic-material"
       | 
-        ## (Event) 
-        "event"
-      | 
-        ## (Graphic Materials) Includes visual artwork, prints, and photographs
-        "graphic-materials"
-      | 
-        ## (Historical Document) Typically found in the body of volume
+        ## (Historical Document) Typically found in the body of volume.
         "historical-document"
       | 
-        ## (Index) Includes indices, list of papers, list of persons, and list of organizations; typically found in front matter and back matter
+        ## (Index) Includes indices, list of papers, list of persons, and list of organizations. Typically found in front matter and back matter.
         "index"
       | 
-        ## (Maps) 
-        "maps"
+        ## (Map/Chart) Includes maps (representation of an area of land, sea, or other place, often showing physical features, cities, roads, etc.) and charts (graphical representation of data). Typically found in back matter.
+        "map-or-chart"
       | 
-        ## (Note on U.S. Covert Actions) Typically found in front matter
+        ## (Note on U.S. Covert Actions) Note providing readers with some organizational context on how covert actions and special intelligence operations in support of U.S. foreign policy were planned and approved within the U.S. Government. Typically found in front matter.
         "note-on-covert-actions"
       | 
-        ## (Notes) Typically found in front matter
-        "notes"
-      | 
-        ## (Preface) Typically found in front matter
+        ## (Preface) Typically found in front matter.
         "preface"
       | 
-        ## (Press Release) Typically found in front matter
+        ## (Press Release) Typically found in front matter.
         "press-release"
       | 
-        ## (Referral) 
+        ## (Referral) Typically found in the body of volume.
         "referral"
       | 
-        ## (Related Materials) Typically found in front matter
+        ## (Related Materials) Typically found in front matter.
         "related-materials"
       | 
-        ## (Section) Typically found in front matter and back matter
+        ## (Section) Typically found in front matter and back matter; may also appear in the body of volume.
         "section"
       | 
         ## (Sources) 
         "sources"
       | 
-        ## (Subsection) Typically found in the body of the volume
+        ## (Subsection) Typically found in the body of the volume.
         "subsection"
       | 
-        ## (Table of Contents) Typically found in front matter
+        ## (Table of Contents) Typically found in front matter.
         "table-of-contents"
       | 
-        ## (As-yet-to-be-determined) 
-        "undetermined"
-      | 
-        ## (Volume Summary) Typically found in front matter
+        ## (Volume Summary) Typically found in front matter.
         "volume-summary"
     }?,
     
