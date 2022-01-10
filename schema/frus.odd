@@ -1444,8 +1444,12 @@
                                     </valItem>
                                     <valItem ident="section">
                                         <gloss>Section</gloss>
-                                        <desc>Typically found in front matter and back matter; may
-                                            also appear in the body of volume.</desc>
+                                        <desc>Component of volume not otherwise categorized. In the
+                                            body of volume, section may appear as textual division
+                                            that is a hierarchical child of a compilation, chapter,
+                                            subchapter, or document; may include subsections. May
+                                            appear in the front matter, back matter, and body of
+                                            volume.</desc>
                                     </valItem>
                                     <valItem ident="sources">
                                         <gloss>Sources</gloss>
@@ -1456,12 +1460,14 @@
                                     </valItem>
                                     <valItem ident="subsection">
                                         <gloss>Subsection</gloss>
-                                        <desc>Typically found in the body of the volume.</desc>
+                                        <desc>Component of volume that is a hierarchical child of a
+                                            section. Typically found in the body of the
+                                            volume.</desc>
                                     </valItem>
                                     <valItem ident="table-of-contents">
                                         <gloss>Table of Contents</gloss>
-                                        <desc>A list of the book components (such as compilations,
-                                            chapters, or sections) given at the front of volume.
+                                        <desc>A list of the book components [such as compilations,
+                                            chapters, or sections] given at the front of volume.
                                             Typically found in front matter.</desc>
                                     </valItem>
                                     <valItem ident="volume-summary">

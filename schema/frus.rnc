@@ -2486,16 +2486,16 @@ body =
         ## (Referral) See reference to another portion of the same volume or a different volume in lieu of document text. Typically found in the body of volume.
         "referral"
       | 
-        ## (Section) Typically found in front matter and back matter; may also appear in the body of volume.
+        ## (Section) Component of volume not otherwise categorized. In the body of volume, section may appear as textual division that is a hierarchical child of a compilation, chapter, subchapter, or document; may include subsections. May appear in the front matter, back matter, and body of volume.
         "section"
       | 
         ## (Sources) Important archival collections and files as well as published works used as source material in the research and compilation of volume. Typically found in front matter.
         "sources"
       | 
-        ## (Subsection) Typically found in the body of the volume.
+        ## (Subsection) Component of volume that is a hierarchical child of a section. Typically found in the body of the volume.
         "subsection"
       | 
-        ## (Table of Contents) A list of the book components (such as compilations, chapters, or sections) given at the front of volume.Typically found in front matter.
+        ## (Table of Contents) A list of the book components [such as compilations, chapters, or sections] given at the front of volume. Typically found in front matter.
         "table-of-contents"
       | 
         ## (Volume Summary) Summary of the most important of the issues covered in the volume. Typically found in front matter.
