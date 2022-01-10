@@ -95,14 +95,10 @@
                     Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328<lb/>ISBN
                     0-16-049249-1</docImprint>
             </titlePage>
-            <div type="section" xml:id="summary" subtype="volume-summary"
+            <div type="section" xml:id="foreword" subtype="foreword"
                 frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
                 frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
-                <head>Table of Contents:</head>
-                <p>Read the Volume Online</p>
-                <p>Foreword</p>
-                <p>Summary</p>
-                <p rend="center">Foreword</p>
+                <head>Foreword</head>
                 <p rend="flushleft">
                     <hi rend="italic">
                         <ref target="frus1964-68v22">Foreign Relations of the United States
@@ -130,9 +126,13 @@
                     of Administration, Department of State, in concert with the appropriate offices
                     in other agencies or governments, carried out the declassification of the
                     selected documents.</p>
+            </div>
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
+                <head>Summary</head>
                 <p>The following is a summary of the most important of the issues covered.
                     Parenthetical citations are to numbered documents in the text.</p>
-                <p rend="center">Summary</p>
                 <p>The Johnson administration continued the Kennedy administration’s support for
                         <persName corresp="#p_PMR1">Shah Mohammed Reza Pahlavi</persName> of Iran
                     and its emphasis on buttressing Iran’s internal security by encouraging a
@@ -348,7 +348,12 @@
                     be in office a short time longer, he believed that U.S. interests were such that
                     a close relationship between the United States and Iran would continue.
                     (321)</p>
-                <p>Office of the Historian<lb/>Bureau of Public Affairs<lb/>November 1999</p>
+                <closer>
+                    <signed>Office of the Historian<lb/>Bureau of Public Affairs</signed><lb/>
+                    <dateline>
+                        <date when="1999-11" calendar="gregorian">November 1999</date>
+                    </dateline>
+                </closer>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
             <div type="section" xml:id="preface" subtype="preface"
