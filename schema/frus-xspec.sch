@@ -19,7 +19,7 @@
             <assert test="not(.//tei:affiliation)" id="affiliation">The affiliation element is not allowed.</assert>
         </rule>
         <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
-            <assert test="empty(.) or tei:hi[@rend eq 'strong']" role="warn"
+            <assert test="empty(.) or tei:hi[@rend eq 'strong'] or tei:hi[@rend eq 'italic' and contains(normalize-space(.), 'name not declassified')]" role="warn"
                 id="persnames-child-hi-rend-strong">People who signed must be wrapped in a
                 hi/@rend="strong" element</assert>
             <let name="immediate-following-sibling-node"
