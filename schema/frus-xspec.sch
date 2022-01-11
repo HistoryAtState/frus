@@ -7,7 +7,7 @@
     <pattern id="signed-checks">
         <title>Signature block checks</title>
         <rule context="tei:closer">
-            <assert test="following-sibling::tei:closer" id="multiple-closers">Multiple sequential
+            <assert test="not(following-sibling::tei:closer)" id="multiple-closers">Multiple sequential
                 signature blocks should be combined into a single closer.</assert>
         </rule>
         <rule context="tei:signed">
