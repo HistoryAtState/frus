@@ -16,7 +16,7 @@
                 element</assert>
             <assert test=".//tei:persName[not(ancestor::tei:note)]" id="signed-persname">Signature
                 blocks must contain a persName</assert>
-            <assert test=".//not(tei:affiliation)" id="affiliation">The affiliation element is not allowed.</assert>
+            <assert test="not(.//tei:affiliation)" id="affiliation">The affiliation element is not allowed.</assert>
         </rule>
         <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
             <assert test="empty(.) or tei:hi[@rend eq 'strong']" role="warn"
