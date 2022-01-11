@@ -110,8 +110,9 @@
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed corresp="#p_BWMJ_1">
-                    <persName corresp="#p_BWMJ_1">Walter M. Bastian, Jr.</persName> Deputy Director
-                    (Policy and Plans) </signed>
+                    <persName corresp="#p_BWMJ_1">Walter M. Bastian, Jr.</persName>
+                    <hi rend="italic">Deputy Director (Policy and Plans)</hi>
+                </signed>
             </closer>
         </x:context>
 
@@ -129,9 +130,9 @@
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>
-                    <persName corresp="#p_BJH_1">John Buchanan</persName>
-                    <persName corresp="#p_RL_1">Leo J. Ryan</persName>
-                    <persName corresp="#p_BJH_2">J. Herbert Burke</persName>
+                    <persName>John Buchanan</persName>
+                    <persName>Leo J. Ryan</persName>
+                    <persName>J. Herbert Burke</persName>
                 </signed>
             </closer>
         </x:context>
@@ -159,7 +160,7 @@
         <x:scenario label="signed-multiple-assertions">
 
             <x:expect-assert label="Flag closer elements with more than one signed element"
-                id="signed-multiple" location="/tei:closer/tei:signed[1]" role="warn"/>
+                id="closer-multiple-signed" location="/tei:closer" role="warn"/>
 
         </x:scenario>
 
@@ -169,9 +170,11 @@
 
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed><persName><hi rend="strong">David C. Jones<affiliation>Acting Chairman <lb/>
-                                Joint Chiefs of Staff</affiliation>
-                        </hi></persName></signed>
+                <signed>
+                    <persName><hi rend="strong">David C. Jones</hi></persName>
+                    <lb/>
+                    <affiliation>Acting Chairman <lb/> Joint Chiefs of Staff</affiliation>
+                </signed>
             </closer>
         </x:context>
 
@@ -187,23 +190,25 @@
     <x:scenario label="multiple-closers">
 
         <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>
-                    <persName corresp="#p_BH_2"><hi rend="strong">Harold Brown</hi></persName>
-                </signed>
-            </closer>
-            <closer>
-                <signed>
-                    <persName corresp="#p_VCR_1"><hi rend="strong">Cyrus Vance</hi></persName>
-                </signed>
-            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0">
+                <closer>
+                    <signed>
+                        <persName corresp="#p_BH_2"><hi rend="strong">Harold Brown</hi></persName>
+                    </signed>
+                </closer>
+                <closer>
+                    <signed>
+                        <persName corresp="#p_VCR_1"><hi rend="strong">Cyrus Vance</hi></persName>
+                    </signed>
+                </closer>
+            </div>
         </x:context>
 
         <x:scenario label="multiple-closers-assertions">
 
             <x:expect-assert
                 label="Flag closers elements with immediately following sibling closers"
-                id="multiple-closers" location="/tei:closer[1]" role="warn"/>
+                id="multiple-closers" location="/tei:div/tei:closer[1]" role="warn"/>
 
         </x:scenario>
 
@@ -213,14 +218,13 @@
 
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>Jimmy <persName corresp="#p_CJE_1"><hi rend="strong">Carter</hi></persName>
-                </signed>
+                <signed>Jimmy <persName><hi rend="strong">Carter</hi></persName></signed>
             </closer>
         </x:context>
 
         <x:scenario label="first-name-assertions">
 
-            <x:expect-assert label="Flag signed elements with text nodes before persName"
+            <x:expect-assert label="Flag signed elements with text node before persName"
                 id="first-name" location="/tei:closer/tei:signed/tei:persName" role="warn"/>
 
         </x:scenario>
