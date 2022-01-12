@@ -23,8 +23,9 @@
                 element is not allowed.</assert>
         </rule>
         <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
-            <assert test="empty(.) or tei:hi[@rend eq 'strong'] or tei:hi[@rend eq 'italic' and contains(normalize-space(.), 'name not declassified')]" role="warn"
-                id="persnames-child-hi-rend-strong">People who signed must be wrapped in
+            <assert
+                test="empty(.) or tei:hi[@rend eq 'strong'] or tei:hi[@rend eq 'italic' and contains(normalize-space(.), 'name not declassified')]"
+                role="warn" id="persnames-child-hi-rend-strong">People who signed must be wrapped in
                 a hi/@rend="strong" element</assert>
             <let name="immediate-following-sibling-node"
                 value="following-sibling::node()[not(name() = ('note', 'lb') or normalize-space(.) eq '')][1]"/>
@@ -46,9 +47,11 @@
                 test="($following-italicized-text and $following-linebreaks) or (empty($following-italicized-text) and empty($following-linebreaks))"
                 id="insert-linebreaks">Any persName elements followed by italicized text should be
                 separated by lb elements.</assert>
-            <assert test="not(following-sibling::tei:persName) or contains-token(ancestor::tei:signed/@ana, '#signed-exception_multiple-consecutive-persnames')" role="warn" id="persname-multiple"
-                >This may need to be adapted to a list/item structure (or given a signed-exception
-                @ana value for multiple consecutive persNames)</assert>
+            <assert
+                test="not(following-sibling::tei:persName) or contains-token(ancestor::tei:signed/@ana, '#signed-exception_multiple-consecutive-persnames')"
+                role="warn" id="persname-multiple">This may need to be adapted to a list/item
+                structure (or given a signed-exception @ana value for multiple consecutive
+                persNames)</assert>
         </rule>
     </pattern>
 
