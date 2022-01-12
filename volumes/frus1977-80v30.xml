@@ -268,7 +268,6 @@
                             </item>
                         </list>
                     </signed>
-                    <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
                     <date when="2016-06" calendar="gregorian">June 2016</date>
@@ -375,10 +374,11 @@
                     supervision of Mandy A. Chalou, Chief of the Editing and Publishing Division. Do
                     Mi Stauber Inc. prepared the index.</p>
                 <closer>
-                    <signed><persName><hi rend="strong">Kristin L. Ahlberg, Ph.D.
-                        </hi></persName></signed>
-                    <lb/>
-                    <hi rend="italic">Historian</hi>
+                    <signed>
+                        <persName><hi rend="strong">Kristin L. Ahlberg, Ph.D.</hi></persName>
+                        <lb/>
+                        <hi rend="italic">Historian</hi>
+                    </signed>
                 </closer>
             </div>
             <pb n="XI" facs="0012" xml:id="pg_XI"/>
@@ -15872,8 +15872,9 @@
                         <signed>
                             <persName corresp="#p_RJE_1"><hi rend="strong">John E.
                                 Reinhardt</hi></persName>
+                            <lb/>
+                            <hi rend="italic">Director</hi>
                         </signed>
-                        <hi rend="italic">Director</hi>
                     </closer>
                     <frus:attachment>
                         <note rend="inline">
