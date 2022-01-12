@@ -47,9 +47,11 @@
                 test="($following-italicized-text and $following-linebreaks) or (empty($following-italicized-text) and empty($following-linebreaks))"
                 id="insert-linebreaks">Any persName elements followed by italicized text should be
                 separated by lb elements.</assert>
-            <assert test="not(following-sibling::tei:persName) or contains-token(ancestor::tei:signed/@ana, '#signed-exception_multiple-consecutive-persnames')" role="warn" id="persname-multiple"
-                >This may need to be adapted to a list/item structure (or given a signed-exception
-                @ana value for multiple consecutive persNames)</assert>
+            <assert
+                test="not(following-sibling::tei:persName) or contains-token(ancestor::tei:signed/@ana, '#signed-exception_multiple-consecutive-persnames')"
+                role="warn" id="persname-multiple">This may need to be adapted to a list/item
+                structure (or given a signed-exception @ana value for multiple consecutive
+                persNames)</assert>
         </rule>
     </pattern>
 
