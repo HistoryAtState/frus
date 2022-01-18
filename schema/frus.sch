@@ -20,8 +20,7 @@
 
     <!-- Define variables used by other patterns -->
     <let name="xml-ids" value="//*/@xml:id"/>
-    <let name="vol-ids"
-        value="
+    <let name="vol-ids" value="
             if (doc-available('https://history.state.gov/services/volume-ids')) then
                 doc('https://history.state.gov/services/volume-ids')//volume-id
             else
@@ -119,8 +118,7 @@
                 with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have
                 an @xml:id attribute</assert>
             <let name="first-hi" value="(.//tei:hi)[1]"/>
-            <let name="term"
-                value="
+            <let name="term" value="
                     if (ends-with($first-hi, ',')) then
                         replace($first-hi, ',$', '')
                     else
@@ -186,11 +184,11 @@
                 invalid value. Only the following value is allowed: strikethrough</assert>
         </rule>
         <rule context="tei:note[@rend]">
-            <assert test="./@rend = 'inline'">note/@rend='<value-of select="@rend"/>' is an
-                invalid value. Only the following value is allowed: inline</assert>
+            <assert test="./@rend = 'inline'">note/@rend='<value-of select="@rend"/>' is an invalid
+                value. Only the following value is allowed: inline</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="note-type-checks">
         <title>Note type checks</title>
         <rule context="tei:note[@type]">
@@ -202,12 +200,11 @@
     <pattern id="att-rendition-checks">
         <title>Rendition Attribute Value Checks</title>
         <rule context="@rendition">
-            <assert
-                test="
+            <assert test="
                     every $rendition-ref in (tokenize(., '\s+') ! substring-after(., '#'))
-                        satisfies $rendition-ref = $rendition-ids"
-                >The rendition ID '<value-of select="."/>' is not defined in the teiHeader's list of
-                renditions: <value-of select="string-join($rendition-ids, ', ')"/></assert>
+                        satisfies $rendition-ref = $rendition-ids">The rendition ID
+                    '<value-of select="."/>' is not defined in the teiHeader's list of renditions:
+                    <value-of select="string-join($rendition-ids, ', ')"/></assert>
         </rule>
     </pattern>
 
@@ -216,29 +213,37 @@
         <rule context="tei:div/@type">
             <assert
                 test=". = ('document', 'chapter', 'subchapter', 'document-group', 'compilation', 'section', 'toc')"
-                >div/@type='<value-of select="."/>' is an invalid value. Only the following
+                    >div/@type='<value-of select="."/>' is an invalid value. Only the following
                 values are allowed: document, chapter, subchapter, compilation, section,
                 toc</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="div-subtype-attribute-checks">
         <title>Div subtype Attribute Value Checks</title>
         <rule context="tei:div/@subtype">
             <assert
-                test=". = ('about-frus-series', 'acknowledgements', 'additional-volumes', 'appendix', 'editorial-note', 'editorial-policies', 'errata', 'historian-statement', 'historical-document', 'index', 'maps', 'notes', 'preface', 'press-release', 'referral', 'sources', 'table-of-contents', 'volume-summary')"
-                >div/@subtype='<value-of select="."/>' is an invalid value. Only the
-                following values are allowed: about-frus-series, acknowledgements, additional-volumes, appendix, editorial-note, editorial-policies, errata, historian-statement, historical-document, index, maps, notes, preface, press-release, referral, sources, table-of-contents, volume-summary</assert>
+                test=". = ('about-frus-series', 'acknowledgments', 'additional-volumes', 'appendix', 'editorial-note', 'editorial-policies', 'errata', 'foreword', 'graphic-material', 'historical-document', 'index', 'map-or-chart', 'note-on-covert-actions', 'preface', 'press-release', 'referral', 'section', 'sources', 'subsection', 'table-of-contents', 'volume-summary')"
+                    >div/@subtype='<value-of select="."/>' is an invalid value. Only the following
+                values are allowed: about-frus-series, acknowledgments, additional-volumes,
+                appendix, editorial-note, editorial-policies, errata, foreword, graphic-material,
+                historical-document, index, map-or-chart, note-on-covert-actions, preface,
+                press-release, referral, section, sources, subsection, table-of-contents,
+                volume-summary</assert>
         </rule>
     </pattern>
 
     <pattern id="div-xml-id-attribute-checks">
         <title>Div xml:id Attribute Value Checks</title>
         <rule context="tei:div[exists(.//tei:term/@xml:id)]">
-            <assert test="@xml:id eq 'terms'">Unexpected div/@xml:id value: '<value-of select="@xml:id"/>'. The xml:id for the div containing a list of terms and abbreviations must be "terms".</assert>
+            <assert test="@xml:id eq 'terms'">Unexpected div/@xml:id value: '<value-of
+                    select="@xml:id"/>'. The xml:id for the div containing a list of terms and
+                abbreviations must be "terms".</assert>
         </rule>
         <rule context="tei:div[exists(.//tei:persName/@xml:id)]">
-            <assert test="@xml:id eq 'persons'">Unexpected div/@xml:id value: '<value-of select="@xml:id"/>'. The xml:id for the div containing a list of persons must be "persons".</assert>
+            <assert test="@xml:id eq 'persons'">Unexpected div/@xml:id value: '<value-of
+                    select="@xml:id"/>'. The xml:id for the div containing a list of persons must be
+                "persons".</assert>
         </rule>
     </pattern>
 
@@ -251,8 +256,7 @@
                 >This <value-of select="@type"/> does not contain a div/@type='document'. Please
                 inspect to verify encoding accuracy.</assert>
         </rule>
-        <rule
-            context="tei:div[@type = 'document']">
+        <rule context="tei:div[@type = 'document']">
             <assert role="warn"
                 test="not(preceding-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')] or following-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')])"
                 >This document is preceded or followed by a <value-of select="@type"/>. Please
@@ -273,8 +277,8 @@
                 in square brackets: "[]". Only use in the rare circumstance that the volume has a
                 block of unnumbered documents outside the normal stream of numbered
                 documents.</assert>
-            <assert test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer" role="warning">Non-number
-                component found in document number "<value-of select="@n"/>"</assert>
+            <assert test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer" role="warning"
+                >Non-number component found in document number "<value-of select="@n"/>"</assert>
         </rule>
         <rule context="tei:body">
             <assert
@@ -349,13 +353,12 @@
                 >Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"
                     />–<value-of select="@target"/> (see #<value-of
                     select="./ancestor::tei:div[1]/@xml:id"/>
-                <value-of
-                    select="
+                <value-of select="
                         if (./ancestor::tei:div[1]/@xml:id = 'index') then
                             concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',')
                         else
-                            ()"
-                /> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
+                            ()"/> and <value-of
+                    select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
         <rule
             context="tei:ref[starts-with(@target, '#pg') and not(substring-after(@target, 'pg_') castable as xs:integer) and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
@@ -366,17 +369,15 @@
                     select="ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))"
                     />–<value-of select="ckbk:roman-to-number(substring-after(@target, '#pg_'))"/>;
                 see #<value-of select="./ancestor::tei:div[1]/@xml:id"/>
-                <value-of
-                    select="
+                <value-of select="
                         if (./ancestor::tei:div[1]/@xml:id = 'index') then
                             concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',')
                         else
-                            ()"
-                /> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
+                            ()"/> and <value-of
+                    select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, 'frus')]">
-            <assert
-                test="
+            <assert test="
                     if (contains(@target, '#') and substring-before(@target, '#') = $vol-ids) then
                         (substring-before(@target, '#') = $vol-ids and (if (doc-available(concat('../volumes/', substring-before(@target, '#'), '.xml'))) then
                             doc(concat('../volumes/', substring-before(@target, '#'), '.xml'))//*/@xml:id = substring-after(@target, '#')
@@ -386,10 +387,9 @@
                             else (: allow this check to pass if you don't have our exact directory structure :)
                                 true()))
                     else
-                        @target = $vol-ids"
-                    >ref/@target='<value-of select="@target"/>' is an invalid value. No volume's ID
-                and/or target element corresponds to this ref/@target value (or, possibly, the
-                volume has not yet been published).</assert>
+                        @target = $vol-ids">ref/@target='<value-of select="@target"/>'
+                is an invalid value. No volume's ID and/or target element corresponds to this
+                ref/@target value (or, possibly, the volume has not yet been published).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, '#')]">
             <assert test="substring-after(@target, '#') = $xml-ids">ref/@target='<value-of
@@ -408,18 +408,16 @@
                 persName has been defined with an @xml:id corresponding to this value.</assert>
         </rule>
         <rule context="tei:persName[starts-with(@corresp, 'frus')]">
-            <assert
-                test="
+            <assert test="
                     substring-before(@corresp, '#') = $vol-ids and (if (doc-available(concat('../volumes/', substring-before(@corresp, '#'), '.xml'))) then
                         doc(concat('../volumes/', substring-before(@corresp, '#'), '.xml'))//*/@xml:id = substring-after(@corresp, '#')
                     else
                         if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@corresp, '#'), '.xml'))) then
                             doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@corresp, '#'), '.xml'))//*/@xml:id = substring-after(@corresp, '#')
                         else
-                            false())"
-                    >persName/@corresp='<value-of select="@corresp"/>' is an invalid value. No
-                persName has been defined in that volume with an @xml:id corresponding to this
-                value.</assert>
+                            false())">persName/@corresp='<value-of select="@corresp"/>'
+                is an invalid value. No persName has been defined in that volume with an @xml:id
+                corresponding to this value.</assert>
         </rule>
         <rule context="tei:gloss[@target]">
             <assert test="substring-after(@target, '#') = $term-ids">gloss/@target='<value-of
@@ -468,8 +466,9 @@
             <assert test="string-length(normalize-space(.)) gt 0">Head elements cannot be
                 empty.</assert>
         </rule>
-        <rule context="tei:lb|tei:pb">
-            <assert test="empty(./node())" sqf:fix="delete-child-content"><value-of select="./name()"/> elements must be empty (no child content).</assert>
+        <rule context="tei:lb | tei:pb">
+            <assert test="empty(./node())" sqf:fix="delete-child-content"><value-of
+                    select="./name()"/> elements must be empty (no child content).</assert>
             <sqf:fix id="delete-child-content">
                 <sqf:description>
                     <sqf:title>Delete child content</sqf:title>
@@ -486,8 +485,7 @@
             context="tei:div[@subtype eq 'historical-document'][root(.)/tei:TEI/tei:teiHeader[.//tei:date[@type eq 'content-date']/@notBefore ge '1950' or .//tei:date[@type eq 'publication-date'] gt '1995']]">
             <let name="source-note"
                 value="(tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note//tei:seg[@type eq 'source'])[1]"/>
-            <let name="source-note-content"
-                value="
+            <let name="source-note-content" value="
                     (if ($source-note/tei:p) then
                         $source-note/tei:p[1]
                     else
@@ -503,7 +501,7 @@
                     select="$source-note-content"/></assert>
         </rule>
     </pattern>
-    
+
     <pattern id="signed-checks">
         <title>Signature block checks</title>
         <rule context="tei:closer">
@@ -561,23 +559,29 @@
             context="(tei:pb | tei:lb)[not(parent::tei:front | parent::tei:body | parent::tei:back)]">
             <assert
                 test="count(preceding-sibling::element()) ge 1 or normalize-space(string-join(preceding-sibling::node())) ne ''"
-                >A pb or lb element cannot be the first element in a parent element (except front, body, and back).</assert>
+                >A pb or lb element cannot be the first element in a parent element (except front,
+                body, and back).</assert>
             <assert
                 test="count(following-sibling::element()) ge 1 or normalize-space(string-join(following-sibling::node())) ne ''"
-                >A pb or lb element cannot be the last element in a parent element (except front, body, and back).</assert>
+                >A pb or lb element cannot be the last element in a parent element (except front,
+                body, and back).</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="unwanted-footnote-whitespace-checks">
         <title>Prevent unwanted footnote whitespace checks</title>
-        <rule context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note))]">
+        <rule
+            context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note))]">
             <let name="first-preceding-sibling-node" value="preceding-sibling::node()[1]"/>
-            <assert
-                test="if ($first-preceding-sibling-node instance of text()) then normalize-space($first-preceding-sibling-node) ne '' else true()"
-                >Whitespace is not allowed before a footnote (except between consecutive footnotes)</assert>
+            <assert test="
+                    if ($first-preceding-sibling-node instance of text()) then
+                        normalize-space($first-preceding-sibling-node) ne ''
+                    else
+                        true()">Whitespace is not allowed before a footnote (except
+                between consecutive footnotes)</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="required-footnote-whitespace-checks">
         <title>Ensure required footnote whitespace checks</title>
         <rule context="tei:note">
@@ -585,25 +589,23 @@
                 >Whitespace is required between consecutive footnotes</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="pb-lb-whitespace-checks">
         <title>Ensure balanced whitespace around breaks</title>
-        <rule context="tei:lb|tei:pb">
-            <assert test="
-                (matches(preceding::text()[1], '\s$') and matches(following::text()[1], '^\s'))
-                or
-                (matches(preceding::text()[1], '[^\s]$') and matches(following::text()[1], '^[^\s]'))
-                "
-                >A line or page break element should have whitespace both before and after, or neither when the break splits a word</assert>
+        <rule context="tei:lb | tei:pb">
+            <assert
+                test="(matches(preceding::text()[1], '\s$') and matches(following::text()[1], '^\s')) or (matches(preceding::text()[1], '[^\s]$') and matches(following::text()[1], '^[^\s]'))"
+                >A line or page break element should have whitespace both before and after, or
+                neither when the break splits a word</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="punctuation-orientation-and-placement-checks">
         <title>Punctuation orientation &amp; placement checks</title>
 
         <!-- check all text nodes (except those in catDesc elements, 
             since the imported frus-dates taxonomy contains straight quotes) -->
-        <rule context="text()[not(parent::tei:catDesc|parent::tei:rendition)]">
+        <rule context="text()[not(parent::tei:catDesc | parent::tei:rendition)]">
 
             <!-- flag unexpected space after an open quote -->
             <assert role="warn" test="not(matches(., '[“‘] '))">Curly open quotation mark appears in
@@ -637,16 +639,17 @@
                 quotes: [<value-of
                     select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
                 />]. Fix orientation.</assert>
-            
+
             <!-- flag spaces surrounding colons and semi-colons -->
-            <assert role="warn" test="not(matches(replace(. ,'(\s+\.){3,}', ''), '^\s+[\.,:;?!>)\]\}]|[a-z]\s+[\.,:;?!>)\]\}]'))">Space preceding
-                closing punctuation: [<value-of
-                    select="string-join(analyze-string(replace(. ,'(\s+\.){3,}', ''), '^(\s+[\.,:;?!>)\]\}]+)+|\w+(\s+[\.,:;?!>)\]\}]+)+')/fn:match ! ('“' || . || '”'), ', ')"
+            <assert role="warn"
+                test="not(matches(replace(., '(\s+\.){3,}', ''), '^\s+[\.,:;?!>)\]\}]|[a-z]\s+[\.,:;?!>)\]\}]'))"
+                >Space preceding closing punctuation: [<value-of
+                    select="string-join(analyze-string(replace(., '(\s+\.){3,}', ''), '^(\s+[\.,:;?!>)\]\}]+)+|\w+(\s+[\.,:;?!>)\]\}]+)+')/fn:match ! ('“' || . || '”'), ', ')"
                 />]. Remove space?</assert>
 
         </rule>
     </pattern>
-    
+
     <pattern id="quote-checks-block-elements">
         <title>Quote checks (on block elements only)</title>
 
@@ -661,10 +664,12 @@
             context="tei:p | tei:head | tei:note[@rend eq 'inline'] | tei:item[not(tei:list)] | (tei:seg | tei:cell)[not(matches(., '^[“”&quot; ]+$'))]">
 
             <assert test="not(matches(., '[“‘]$'))">Curly open quotation mark appears as final
-                character of <value-of select="./name()"/> element. Fix orientation or delete?</assert>
+                character of <value-of select="./name()"/> element. Fix orientation or
+                delete?</assert>
 
             <assert test="not(matches(., '^[”’][^\d]'))">Curly close quotation mark appears first
-                character of this <value-of select="./name()"/> element. Fix orientation or delete?</assert>
+                character of this <value-of select="./name()"/> element. Fix orientation or
+                delete?</assert>
         </rule>
     </pattern>
 
