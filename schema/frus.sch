@@ -166,9 +166,9 @@
         <title>Rend Attribute Value Checks</title>
         <rule context="tei:hi">
             <assert
-                test="./@rend = ('strong', 'italic', 'smallcaps', 'roman', 'underline', 'sub', 'superscript')"
+                test="./@rend = ('strong', 'italic', 'smallcaps', 'roman', 'underline', 'strikethrough', 'sub', 'superscript')"
                     >hi/@rend='<value-of select="@rend"/>' is an invalid value. Only the following
-                values are allowed: strong, italic, smallcaps, roman, underline, sub,
+                values are allowed: strong, italic, smallcaps, roman, underline, strikethrough, sub,
                 superscript</assert>
         </rule>
         <rule context="tei:p">
@@ -552,7 +552,7 @@
                 persNames)</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="milestone-checks">
         <title>Milestone checks</title>
         <rule
