@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" schematron="frus.sch">
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    schematron="frus.sch">
 
     <x:scenario label="signed-corresp">
 
@@ -230,145 +231,159 @@
         </x:scenario>
 
     </x:scenario>
-    
-    
+
+
     <x:scenario label="head-center-paragraph">
-        
+
         <x:context>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-            <head>Attachment</head>
-            <p rend="center"><hi rend="strong">Memorandum Prepared by the Deputy
-                Director for Intelligence, Central Intelligence Agency
-                (<persName corresp="#p_CR1">Cline</persName>)</hi></p>
+                <head>Attachment</head>
+                <p rend="center"><hi rend="strong">Memorandum Prepared by the Deputy Director for
+                        Intelligence, Central Intelligence Agency (<persName corresp="#p_CR1"
+                            >Cline</persName>)</hi></p>
             </frus:attachment>
         </x:context>
-        
+
         <x:scenario label="head-center-paragraph-assertions">
-            
+
             <x:expect-assert label="Flag a centered paragraph with head content"
                 id="head-center-paragraph" location="/tei:frus:attachment"/>
-            
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="head-two-elements">
-        
+
         <x:context>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-            <head>Attachment<note n="5" xml:id="d37fn5">Secret.</note></head>
-            <opener><dateline rendition="#right"><placeName>Washington</placeName>,
-                <date when="1965-01-26" calendar="gregorian">January 26,
-                    1965</date>.</dateline></opener>
-            <p rend="center"><hi rend="strong">Memorandum From <persName
-                corresp="#p_CCL1">Chester L. Cooper</persName> of the
-                National Security Council Staff to the President’s Special
-                Assistant for National Security Affairs (<persName
-                    corresp="#p_BMG1">Bundy</persName>)</hi></p>
+                <head>Attachment<note n="5" xml:id="d37fn5">Secret.</note></head>
+                <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                            when="1965-01-26" calendar="gregorian">January 26,
+                        1965</date>.</dateline></opener>
+                <p rend="center"><hi rend="strong">Memorandum From <persName corresp="#p_CCL1"
+                            >Chester L. Cooper</persName> of the National Security Council Staff to
+                        the President’s Special Assistant for National Security Affairs (<persName
+                            corresp="#p_BMG1">Bundy</persName>)</hi></p>
             </frus:attachment>
         </x:context>
-        
+
         <x:scenario label="head-two-elements-assertions">
-            
+
             <x:expect-assert label="Flag head content split over two elements"
                 id="head-two-elements" location="/tei:frus:attachment"/>
-            
+
         </x:scenario>
-        
+
     </x:scenario>
-    
-    <x:scenario label="head-dateline-p">
-        
+
+    <x:scenario label="head-opener-p">
+
         <x:context>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-            <head>Attachment</head>
-            <opener><dateline rendition="#right"><placeName>Washington</placeName>,
-                <date when="1965-06-23" calendar="gregorian">Washington,
-                    June 23, 1965.</date></dateline></opener>
-            <p rend="center">Memorandum From the Under Secretary of State (<persName
-                corresp="#p_BGW1">Ball</persName>) to President <persName
-                    corresp="#p_JLB1">Johnson</persName><note n="3" xml:id="d24fn3"
-                        >Secret.</note></p>
+                <head>Attachment</head>
+                <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                            when="1965-06-23" calendar="gregorian">Washington, June 23,
+                        1965.</date></dateline></opener>
+                <p rend="center">Memorandum From the Under Secretary of State (<persName
+                        corresp="#p_BGW1">Ball</persName>) to President <persName corresp="#p_JLB1"
+                        >Johnson</persName><note n="3" xml:id="d24fn3">Secret.</note></p>
             </frus:attachment>
-        
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <head><hi rend="strong">Attachment</hi></head>
-                <opener><dateline rendition="#right"><placeName>Washington</placeName>,
-                    <date when="1967-06-12" calendar="gregorian">June 12,
-                        1967</date>.</dateline></opener>
-                <p><hi rend="strong">Draft Memorandum From Secretary of Defense
-                    <persName corresp="#p_MNRS1">McNamara</persName> to
-                    President <persName>Johnson</persName></hi></p>
+                <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                            when="1967-06-12" calendar="gregorian">June 12,
+                    1967</date>.</dateline></opener>
+                <p><hi rend="strong">Draft Memorandum From Secretary of Defense <persName
+                            corresp="#p_MNRS1">McNamara</persName> to President
+                            <persName>Johnson</persName></hi></p>
             </frus:attachment>
-        
-       
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <head>Tab B</head>
                 <opener><dateline rendition="#right">
-                    <placeName>Washington</placeName>, <date when="1967-10-23"
-                        calendar="gregorian">October 23, 1967.</date>
-                </dateline></opener>
-                <p rend="flushleft">Letter From Secretary of Commerce <persName
-                    corresp="#p_TAB1">Trowbridge</persName> to the Under Secretary
-                    of State (<persName corresp="#p_KNB1">Katzenbach</persName>)<note
-                        n="7" xml:id="d190fn7">Confidential.</note>
+                        <placeName>Washington</placeName>, <date when="1967-10-23"
+                            calendar="gregorian">October 23, 1967.</date>
+                    </dateline></opener>
+                <p rend="flushleft">Letter From Secretary of Commerce <persName corresp="#p_TAB1"
+                        >Trowbridge</persName> to the Under Secretary of State (<persName
+                        corresp="#p_KNB1">Katzenbach</persName>)<note n="7" xml:id="d190fn7"
+                        >Confidential.</note>
                 </p>
             </frus:attachment>
         </x:context>
-        
-        <x:scenario label="head-dateline-p-assertions">
-            
-            <x:expect-assert label="Flag head content in p tag below dateline"
-                id="head-dateline-p" location="/tei:frus:attachment"/>
-            
+
+        <x:scenario label="head-opener-p-assertions">
+
+            <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
+                location="/tei:frus:attachment"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="head-subject-line">
-        
+
         <x:context>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <note rend="inline" type="source">Annex A</note>
                 <head><hi rend="smallcaps">Previous Circumventions of the Veto</hi></head>
             </frus:attachment>
-            
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <note rend="inline" type="source"><hi rend="strong">Appendix</hi></note>
-                <head>QUESTIONS AND ANSWERS RELATED TO THE STRATEGIC RESERVE AND CURRENT CAPABILITIES</head>
+                <head>QUESTIONS AND ANSWERS RELATED TO THE STRATEGIC RESERVE AND CURRENT
+                    CAPABILITIES</head>
             </frus:attachment>
-            
         </x:context>
-        
+
         <x:scenario label="head-subject-line-assertions">
-            
+
             <x:expect-assert label="Flag a head element with subject line content"
                 id="head-subject-line" location="/tei:frus:attachment"/>
-            
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="head-sequential-notes">
-        
+
         <x:context>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-            <note rend="inline" type="source"><hi rend="strong"
-                >[Enclosure]</hi></note>
-            <note n="3" xml:id="d169fn3">Extract. The omitted sections include
-                general background on the agroville program and a detailed
-                description of the agroville at Vi Thanh.</note>
-            <head><gloss target="#t_GVN1">GVN</gloss> AGROVILLE PROGRAM</head>
+                <note rend="inline" type="source"><hi rend="strong">[Enclosure]</hi></note>
+                <note n="3" xml:id="d169fn3">Extract. The omitted sections include general
+                    background on the agroville program and a detailed description of the agroville
+                    at Vi Thanh.</note>
+                <head><gloss target="#t_GVN1">GVN</gloss> AGROVILLE PROGRAM</head>
             </frus:attachment>
         </x:context>
-        
+
         <x:scenario label="head-sequential-notes-assertions">
-            
+
             <x:expect-assert label="Flag head content split over sequential note elements"
                 id="head-sequential-notes" location="/tei:frus:attachment"/>
-            
+
         </x:scenario>
-        
+
+    </x:scenario>
+
+    <x:scenario label="head-label">
+
+        <x:context>
+            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
+                <head>[Enclosure]</head>
+                <p rend="center"><hi rend="strong">Memorandum From <persName corresp="#p_CCL1"
+                            >Chester L. Cooper</persName> of the National Security Council Staff to
+                        the President’s Special Assistant for National Security Affairs (<persName
+                            corresp="#p_BMG1">Bundy</persName>)</hi></p>
+            </frus:attachment>
+        </x:context>
+
+        <x:scenario label="head-sequential-notes-assertions">
+
+            <x:expect-assert label="Flag head content split over sequential note elements"
+                id="head-sequential-notes" location="/tei:frus:attachment"/>
+
+        </x:scenario>
+
     </x:scenario>
 
 </x:description>
