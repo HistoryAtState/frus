@@ -368,19 +368,20 @@
     <x:scenario label="head-label">
 
         <x:context>
-            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-                <head>[Enclosure]</head>
-                <p rend="center"><hi rend="strong">Memorandum From <persName corresp="#p_CCL1"
-                            >Chester L. Cooper</persName> of the National Security Council Staff to
-                        the President’s Special Assistant for National Security Affairs (<persName
-                            corresp="#p_BMG1">Bundy</persName>)</hi></p>
+            <frus:attachment>
+                <opener><seg rendition="#center">[Enclosure]</seg></opener>
+                <head><hi rend="italic">The Chairman of the Refugee Settlement
+                    Commission</hi> (<persName type="from"><hi rend="italic"
+                        >Eddy</hi></persName>) <hi rend="italic">to the Minister in
+                            Greece</hi> (<persName type="to"><hi rend="italic"
+                                >Skinner</hi></persName>)</head>
             </frus:attachment>
         </x:context>
 
-        <x:scenario label="head-sequential-notes-assertions">
+        <x:scenario label="head-label-assertions">
 
-            <x:expect-assert label="Flag head content split over sequential note elements"
-                id="head-sequential-notes" location="/tei:frus:attachment"/>
+            <x:expect-assert label="Flag segs with centered rendition values that should be changed to inline notes with type source"
+                id="head-label" location="/tei:frus:attachment"/>
 
         </x:scenario>
 
