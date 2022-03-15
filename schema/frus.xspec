@@ -365,23 +365,67 @@
 
     </x:scenario>
 
-    <x:scenario label="head-label">
+    <x:scenario label="head-label-a">
+
+        <x:context>
+            <frus:attachment>
+                <head>[Enclosure]</head>
+            </frus:attachment>
+        </x:context>
+
+        <x:scenario label="head-label-a-assertions">
+
+            <x:expect-assert
+                label="Flag heads with labels only (Enclosure, Attachment, Tabs, etc)"
+                id="head-label-a" location="/tei:frus:attachment"/>
+
+        </x:scenario>
+
+    </x:scenario>
+    <x:scenario label="head-label-b">
 
         <x:context>
             <frus:attachment>
                 <opener><seg rendition="#center">[Enclosure]</seg></opener>
-                <head><hi rend="italic">The Chairman of the Refugee Settlement
-                    Commission</hi> (<persName type="from"><hi rend="italic"
-                        >Eddy</hi></persName>) <hi rend="italic">to the Minister in
-                            Greece</hi> (<persName type="to"><hi rend="italic"
-                                >Skinner</hi></persName>)</head>
+                <head><hi rend="italic">The Chairman of the Refugee Settlement Commission</hi>
+                        (<persName type="from"><hi rend="italic">Eddy</hi></persName>) <hi
+                        rend="italic">to the Minister in Greece</hi> (<persName type="to"><hi
+                            rend="italic">Skinner</hi></persName>)</head>
             </frus:attachment>
         </x:context>
 
-        <x:scenario label="head-label-assertions">
+        <x:scenario label="head-label-b-assertions">
 
-            <x:expect-assert label="Flag segs with centered rendition values that should be changed to inline notes with type source"
-                id="head-label" location="/tei:frus:attachment"/>
+            <x:expect-assert
+                label="Flag segs with centered rendition values that should be changed to inline notes with type source"
+                id="head-label-b" location="/tei:frus:attachment"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="head-linebreak">
+
+        <x:context>
+            <frus:attachment>
+                <opener>
+                    <seg rendition="#center">[Inclosure.—Translation.]</seg>
+                </opener>
+                <head>No. 63.<lb/><hi rend="italic">Count <persName type="from">Beust</persName> to
+                        Count <persName type="to">Wolkenstein</persName>, in London</hi>.</head>
+                <opener>
+                    <dateline rendition="#right"><placeName><hi rend="smallcaps"
+                            >Saltzburg</hi></placeName>, <date when="1871-09-08"
+                            calendar="gregorian"><hi rend="italic">September</hi> 8,
+                        1871</date>.</dateline>
+                </opener>
+            </frus:attachment>
+        </x:context>
+
+        <x:scenario label="head-linebreak-assertions">
+
+            <x:expect-assert label="Flag heads that contain line breaks" id="head-linebreak"
+                location="/tei:frus:attachment"/>
 
         </x:scenario>
 
