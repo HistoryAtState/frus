@@ -304,10 +304,10 @@
         </rule>
         <!--
         <rule context="frus:attachment//tei:head">
-            <assert test="not((.) = '(Editorial Note|Editor’s Note)')">Treat editorial notes as full
-                documents, not as attachments</assert>
-            <assert test="(.) = '(Attachment|Tab A|Enclosure)'" id="head-label-a">This may be an
-                incorrect document head if paired with other elements.</assert>
+            <assert test="not((.) = '(Editorial Note|Editor’s Note)')">Treat editorial notes
+                as full documents, not as attachments</assert>
+            <assert test="(.) = '(Attachment|Tab A|Enclosure)'" id="head-label-a">This may
+                be an incorrect document head if paired with other elements.</assert>
             <let name="immediate-following-sibling-node"
                 value="following-sibling::node()[not(name() = ('opener', 'note') or normalize-space(.) eq '')][1]"/>
             <assert
@@ -315,12 +315,12 @@
                 id="head-center-paragraph">This may be a document head, not a centered
                 paragraph.</assert>
             <assert
-                test=".//child::tei:note[@type = 'source'][following-sibling::tei:p[@rend eq 'center']]"
-                id="head-two-elements">Document head content split over two elements.</assert>
+                test=".//child::tei:note[@type eq 'source'][$immediate-following-sibling-node/self::tei:p[@rend eq 'center']]"
+                id="head-two-elements">Document head content may be split over two elements.</assert>
             <assert test=".//tei:opener[following-sibling::tei:p[@rend eq 'center']]"
                 id="head-opener-p">This may be a document head and should be moved above the
                 opener.</assert>
-            <assert test=".//tei:head[normalize-space('^(?!.*[a-z]).+$)')]" id="head-subject-line"
+            <assert test=".//tei:head[normalize-space('[A-Z\s]+')]" id="head-subject-line"
                 >Subject description content, often indicated by all caps text, should not be tagged
                 with a head element.</assert>
             <assert test=".//tei:note/following-sibling::tei:note" id="head-sequential-notes"
@@ -328,8 +328,14 @@
             <assert test=".//tei:opener/tei:seg[@rendition eq '#center']" id="head-label-b">Segs
                 with centered rendition values should be changed to inline notes with type
                 source.</assert>
-            <assert test=".//tei:lb">Heads should not contain line breaks.</assert>
-        </rule> -->
+            <assert test=".//tei:lb" id="head-linebreak">Heads should not contain line breaks.</assert>
+            </rule> -->
+            <!-- experimental frus:attachment @xml:id -->
+            <!--
+            <assert test="@xml:id">Missing @xml:id for frus:attachment</assert>
+            <assert test="matches(@xml:id, concat('^', ./ancestor::tei:div[@xml:id][1]/@xml:id, 'at', index-of(./ancestor::tei:div[@xml:id][1]/frus:attachment, .)))">Incorrectly formed @xml:id '<value-of select="@xml:id"/>'</assert>
+            -->
+        
 
         <!-- experimental frus:attachment @xml:id -->
         <!--
