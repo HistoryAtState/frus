@@ -5,48 +5,22 @@
     xmlns:functx="http://www.functx.com">
     <title>FRUS TEI Rules</title>
 
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 4528 2016-02-22 21:33:23Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file</p>
 
-    <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema
+    <p>This schematron adds FRUS TEI-specific rules to the frus.rnc RelaxNG Schema
         file. FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI
         files.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
-    <ns prefix="ckbk" uri="http://www.oreilly.com/XSLTCookbook"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
 
     <extends href="dates-only-initial-review.sch"/>
+    <extends href="frus-id-checks.sch"/>
+    <extends href="frus-signatures.sch"/>
 
     <!-- Define variables used by other patterns -->
-    <let name="xml-ids" value="//*/@xml:id"/>
-    <let name="vol-ids" value="
-            if (doc-available('https://history.state.gov/services/volume-ids')) then
-                doc('https://history.state.gov/services/volume-ids')//volume-id
-            else
-                doc('volume-ids-snapshot.xml')//volume-id"/>
-    <!-- Defined in dates-only-initial-review <let name="category-ids" value="//tei:category/@xml:id"/> -->
-    <let name="persName-ids" value="//tei:persName/@xml:id"/>
-    <let name="term-ids" value="//tei:term/@xml:id"/>
-    <let name="rendition-ids" value="//tei:rendition/@xml:id"/>
     <let name="documents" value="//tei:div[@type = 'document']"/>
-    <let name="vol-id" value="/tei:TEI/@xml:id"/>
-    <let name="available-images"
-        value="doc(concat('https://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
-
-    <pattern id="filename-id-check">
-        <rule context="/tei:TEI">
-            <assert test="@xml:id">Volume's root element is missing an @xml:id; it should correspond
-                to the volume ID.</assert>
-        </rule>
-        <rule context="/tei:TEI/@xml:id">
-            <let name="basename" value="replace(base-uri(.), '^.*/(.*?)$', '$1')"/>
-            <assert test="$basename = concat(., '.xml')">volume id <value-of select="."/> does not
-                match filename <value-of select="$basename"/></assert>
-            <assert test=". = $vol-ids">Invalid TEI/@xml:id: <value-of select="."/>. No known volume
-                ID corresponds to this volume's @xml:id.</assert>
-        </rule>
-    </pattern>
 
     <pattern id="processing-instruction-check">
         <rule context="/processing-instruction()">
@@ -98,9 +72,8 @@
                     >idno/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: dospubno, frus, isbn-13, isbn-10</assert>
             <assert
-                test="count(tei:idno[@type = 'frus']) = 1 and tei:idno[@type = 'frus'] = $vol-ids"
-                >publicationStmt needs exactly one idno of type 'frus', and it must be a defined
-                volume ID</assert>
+                test="count(tei:idno[@type = 'frus'])"
+                >publicationStmt needs exactly one idno of type 'frus'</assert>
         </rule>
     </pattern>
 
@@ -194,17 +167,6 @@
         <rule context="tei:note[@type]">
             <assert test="./@type = ('source', 'summary')">note/@type='<value-of select="@type"/>'
                 is an invalid value. Only the following values are allowed: source, summary</assert>
-        </rule>
-    </pattern>
-
-    <pattern id="att-rendition-checks">
-        <title>Rendition Attribute Value Checks</title>
-        <rule context="@rendition">
-            <assert test="
-                    every $rendition-ref in (tokenize(., '\s+') ! substring-after(., '#'))
-                        satisfies $rendition-ref = $rendition-ids">The rendition ID
-                    '<value-of select="."/>' is not defined in the teiHeader's list of renditions:
-                    <value-of select="string-join($rendition-ids, ', ')"/></assert>
         </rule>
     </pattern>
 
@@ -381,92 +343,6 @@
         </rule>
     </pattern>
 
-    <pattern id="pointer-checks">
-        <title>Ref and Pointer Checks</title>
-        <rule
-            context="tei:ref[starts-with(@target, '#pg') and substring-after(@target, 'pg_') castable as xs:integer and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
-            <assert
-                test="xs:integer(substring-after(@target, '#pg_')) gt xs:integer(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))"
-                >Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"
-                    />–<value-of select="@target"/> (see #<value-of
-                    select="./ancestor::tei:div[1]/@xml:id"/>
-                <value-of select="
-                        if (./ancestor::tei:div[1]/@xml:id = 'index') then
-                            concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',')
-                        else
-                            ()"/> and <value-of
-                    select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
-        </rule>
-        <rule
-            context="tei:ref[starts-with(@target, '#pg') and not(substring-after(@target, 'pg_') castable as xs:integer) and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
-            <assert
-                test="xs:integer(ckbk:roman-to-number(substring-after(@target, '#pg_'))) gt xs:integer(ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_')))"
-                >Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"
-                    />–<value-of select="@target"/> (<value-of
-                    select="ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))"
-                    />–<value-of select="ckbk:roman-to-number(substring-after(@target, '#pg_'))"/>;
-                see #<value-of select="./ancestor::tei:div[1]/@xml:id"/>
-                <value-of select="
-                        if (./ancestor::tei:div[1]/@xml:id = 'index') then
-                            concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',')
-                        else
-                            ()"/> and <value-of
-                    select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
-        </rule>
-        <rule context="tei:ref[starts-with(@target, 'frus')]">
-            <assert test="
-                    if (contains(@target, '#') and substring-before(@target, '#') = $vol-ids) then
-                        (substring-before(@target, '#') = $vol-ids and (if (doc-available(concat('../volumes/', substring-before(@target, '#'), '.xml'))) then
-                            doc(concat('../volumes/', substring-before(@target, '#'), '.xml'))//*/@xml:id = substring-after(@target, '#')
-                        else
-                            if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#'), '.xml'))) then
-                                doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#'), '.xml'))//*/@xml:id = substring-after(@target, '#')
-                            else (: allow this check to pass if you don't have our exact directory structure :)
-                                true()))
-                    else
-                        @target = $vol-ids">ref/@target='<value-of select="@target"/>'
-                is an invalid value. No volume's ID and/or target element corresponds to this
-                ref/@target value (or, possibly, the volume has not yet been published).</assert>
-        </rule>
-        <rule context="tei:ref[starts-with(@target, '#')]">
-            <assert test="substring-after(@target, '#') = $xml-ids">ref/@target='<value-of
-                    select="@target"/>' is an invalid value. No element's @xml:id corresponds to
-                this value.</assert>
-        </rule>
-        <rule context="tei:ref">
-            <assert
-                test="starts-with(@target, '#') or starts-with(@target, 'http') or starts-with(@target, 'mailto')"
-                >Invalid ref/@target='<value-of select="@target"/>'. If this is an internal
-                cross-reference, it needs a "#" prefix.</assert>
-        </rule>
-        <rule context="tei:persName[starts-with(@corresp, '#')]">
-            <assert test="substring-after(@corresp, '#') = $persName-ids"
-                    >persName/@corresp='<value-of select="@corresp"/>' is an invalid value. No
-                persName has been defined with an @xml:id corresponding to this value.</assert>
-        </rule>
-        <rule context="tei:persName[starts-with(@corresp, 'frus')]">
-            <assert test="
-                    substring-before(@corresp, '#') = $vol-ids and (if (doc-available(concat('../volumes/', substring-before(@corresp, '#'), '.xml'))) then
-                        doc(concat('../volumes/', substring-before(@corresp, '#'), '.xml'))//*/@xml:id = substring-after(@corresp, '#')
-                    else
-                        if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@corresp, '#'), '.xml'))) then
-                            doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@corresp, '#'), '.xml'))//*/@xml:id = substring-after(@corresp, '#')
-                        else
-                            false())">persName/@corresp='<value-of select="@corresp"/>'
-                is an invalid value. No persName has been defined in that volume with an @xml:id
-                corresponding to this value.</assert>
-        </rule>
-        <rule context="tei:gloss[@target]">
-            <assert test="substring-after(@target, '#') = $term-ids">gloss/@target='<value-of
-                    select="@target"/>' is an invalid value. No term has been defined with an
-                @xml:id corresponding to this value.</assert>
-        </rule>
-        <rule context="@xml:id">
-            <assert test="count(index-of($xml-ids, .)) eq 1">@xml:id=<value-of select="."/>. Two
-                elements cannot have the same xml:id attribute.</assert>
-        </rule>
-    </pattern>
-
     <pattern id="ref-to-page-footnote-check">
         <title>Ref to Page Footnote Check</title>
         <rule context="tei:ref[contains(@target, '#pg_')]">
@@ -536,57 +412,6 @@
                         (starts-with($source-note-content, 'Source:') or matches($source-note-content, '^\[Source:(.+)\]$'))"
                 >Source note doesn't begin with 'Source:' or '[Source:...]': <value-of
                     select="$source-note-content"/></assert>
-        </rule>
-    </pattern>
-
-    <pattern id="signed-checks">
-        <title>Signature block checks</title>
-        <rule context="tei:closer">
-            <assert test="not(following-sibling::tei:closer)" id="multiple-closers" role="warn"
-                >Multiple consecutive signature blocks should be combined into a single
-                closer.</assert>
-            <assert test="count(tei:signed) eq 1" id="closer-multiple-signed" role="warn">A closer
-                should only have one child signed element</assert>
-        </rule>
-        <rule context="tei:signed">
-            <assert test="not(@corresp)" id="signed-corresp">The @corresp attribute is not allowed
-                on the signed element; it should be moved to the persName inside the signed
-                element</assert>
-            <assert test=".//tei:persName[not(ancestor::tei:note)]" id="signed-persname">Signature
-                blocks must contain a persName</assert>
-            <assert test="not(.//tei:affiliation)" id="affiliation" role="warn">The affiliation
-                element is not allowed.</assert>
-        </rule>
-        <rule context="tei:signed//tei:persName[not(ancestor::tei:note)]">
-            <assert
-                test="empty(.) or tei:hi[@rend eq 'strong'] or tei:hi[@rend eq 'italic' and contains(normalize-space(.), 'name not declassified')]"
-                role="warn" id="persnames-child-hi-rend-strong">People who signed must be wrapped in
-                a hi/@rend="strong" element</assert>
-            <let name="immediate-following-sibling-node"
-                value="following-sibling::node()[not(name() = ('note', 'lb') or normalize-space(.) eq '')][1]"/>
-            <assert
-                test="empty($immediate-following-sibling-node) or (matches(normalize-space($immediate-following-sibling-node), '^\p{P}*$') or $immediate-following-sibling-node/self::tei:hi/@rend eq 'italic')"
-                id="persnames-siblings-italics">Text following a persName element must be wrapped in
-                a hi/@rend="italic" element, not an affiliation element; be sure any line breaks are
-                marked with lb elements</assert>
-            <let name="immediate-preceding-sibling-text-node"
-                value="preceding-sibling::text()[not(normalize-space(.) eq '')][1]"/>
-            <assert
-                test="empty($immediate-preceding-sibling-text-node) or matches(normalize-space($immediate-preceding-sibling-text-node), '^\p{P}*$')"
-                id="first-name" role="warn">There should be no untagged text nodes in signed
-                elements before a persName.</assert>
-            <let name="following-italicized-text"
-                value="following-sibling::tei:hi[@rend eq 'italic']"/>
-            <let name="following-linebreaks" value="following-sibling::tei:lb"/>
-            <assert
-                test="($following-italicized-text and $following-linebreaks) or (empty($following-italicized-text) and empty($following-linebreaks))"
-                id="insert-linebreaks">Any persName elements followed by italicized text should be
-                separated by lb elements.</assert>
-            <assert
-                test="not(following-sibling::tei:persName) or contains-token(ancestor::tei:signed/@ana, '#signed-exception_multiple-consecutive-persnames')"
-                role="warn" id="persname-multiple">This may need to be adapted to a list/item
-                structure (or given a signed-exception @ana value for multiple consecutive
-                persNames)</assert>
         </rule>
     </pattern>
 
@@ -718,83 +543,5 @@
                     select="@url"/></assert>
         </rule>
     </pattern>
-
-    <pattern id="image-s3-checks">
-        <title>Image Checks</title>
-        <rule context="tei:graphic[@url][not(ancestor::tei:titlePage)]">
-            <assert test="concat(@url, '.png') = $available-images">PNG version of '<value-of
-                    select="@url"/>' not found on static.history.state.gov</assert>
-            <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of
-                    select="@url"/>' not found on static.history.state.gov</assert>
-        </rule>
-    </pattern>
-
-    <!-- XSL Helper Functions -->
-
-    <!-- Function to convert from Roman Numerals to Numbers. Adapted from Sal Mangano, XSLT Cookbook 2nd Ed (O'Reilly 2006), pp. 70-72 -->
-    <ckbk:romans>
-        <ckbk:roman value="1">i</ckbk:roman>
-        <ckbk:roman value="1">I</ckbk:roman>
-        <ckbk:roman value="5">v</ckbk:roman>
-        <ckbk:roman value="5">V</ckbk:roman>
-        <ckbk:roman value="10">x</ckbk:roman>
-        <ckbk:roman value="10">X</ckbk:roman>
-        <ckbk:roman value="50">l</ckbk:roman>
-        <ckbk:roman value="50">L</ckbk:roman>
-        <ckbk:roman value="100">c</ckbk:roman>
-        <ckbk:roman value="100">C</ckbk:roman>
-        <ckbk:roman value="500">d</ckbk:roman>
-        <ckbk:roman value="500">D</ckbk:roman>
-        <ckbk:roman value="1000">m</ckbk:roman>
-        <ckbk:roman value="1000">M</ckbk:roman>
-    </ckbk:romans>
-    <xsl:variable name="ckbk:roman-nums" select="document('')/*/*/ckbk:roman"/>
-    <xsl:function name="ckbk:roman-to-number">
-        <xsl:param name="roman"/>
-        <xsl:variable name="valid-roman-chars">
-            <xsl:value-of select="document('')/*/ckbk:romans"/>
-        </xsl:variable>
-        <xsl:choose>
-            <!-- returns true if there are any non-Roman characters in the string -->
-            <xsl:when test="translate($roman, $valid-roman-chars, '')">NaN</xsl:when>
-            <xsl:otherwise>
-                <xsl:call-template name="ckbk:roman-to-number-impl">
-                    <xsl:with-param name="roman" select="$roman"/>
-                </xsl:call-template>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:function>
-    <xsl:template name="ckbk:roman-to-number-impl">
-        <xsl:param name="roman"/>
-        <xsl:param name="value" select="0"/>
-        <xsl:variable name="len" select="string-length($roman)"/>
-        <xsl:choose>
-            <xsl:when test="not($len)">
-                <xsl:value-of select="$value"/>
-            </xsl:when>
-            <xsl:when test="$len = 1">
-                <xsl:value-of select="$value + $ckbk:roman-nums[. = $roman]/@value"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:variable name="roman-num"
-                    select="$ckbk:roman-nums[. = substring($roman, 1, 1)]"/>
-                <xsl:choose>
-                    <xsl:when
-                        test="$roman-num/following-sibling::ckbk:roman = substring($roman, 2, 1)">
-                        <xsl:call-template name="ckbk:roman-to-number-impl">
-                            <xsl:with-param name="roman" select="substring($roman, 2, $len - 1)"/>
-                            <xsl:with-param name="value" select="$value - $roman-num/@value"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:call-template name="ckbk:roman-to-number-impl">
-                            <xsl:with-param name="roman" select="substring($roman, 2, $len - 1)"/>
-                            <xsl:with-param name="value" select="$value + $roman-num/@value"/>
-                        </xsl:call-template>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
 
 </schema>
