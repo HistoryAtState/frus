@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
     xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    schematron="frus.sch">
+    schematron="../schema/frus-attachments.sch">
 
 
     <x:scenario label="head-center-paragraph">
@@ -86,19 +86,21 @@
         <x:scenario label="head-opener-p-assertions">
 
             <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
-                location="/frus:attachment"/>
+                location="/frus:attachment[1]"/>
+
+            <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
+                location="/frus:attachment[2]"/>
+
+            <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
+                location="/frus:attachment[3]"/>
 
         </x:scenario>
 
     </x:scenario>
 
-    <x:scenario label="head-subject-line">
+    <x:scenario label="head-subject-line-1">
 
         <x:context>
-            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-                <note rend="inline" type="source">Annex A</note>
-                <head><hi rend="smallcaps">Previous Circumventions of the Veto</hi></head>
-            </frus:attachment>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <note rend="inline" type="source"><hi rend="strong">Appendix</hi></note>
                 <head>QUESTIONS AND ANSWERS RELATED TO THE STRATEGIC RESERVE AND CURRENT
@@ -106,11 +108,29 @@
             </frus:attachment>
         </x:context>
 
-        <x:scenario label="head-subject-line-assertions">
+        <x:scenario label="head-subject-line-1-assertions">
 
             <x:expect-assert label="Flag a head element with subject line content"
-                id="head-subject-line" location="/frus:attachment"/>
+                id="head-subject-line-1" location="/frus:attachment"/>
 
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="head-subject-line-2">
+
+        <x:context>
+            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
+                <note rend="inline" type="source">Annex A</note>
+                <head><hi rend="smallcaps">Previous Circumventions of the Veto</hi></head>
+            </frus:attachment>
+        </x:context>
+
+        <x:scenario label="head-subject-line-2-assertions">
+
+            <x:expect-assert label="Flag a head element with subject line content"
+                id="head-subject-line-2" location="/frus:attachment"/>
         </x:scenario>
 
     </x:scenario>
@@ -146,8 +166,7 @@
 
         <x:scenario label="head-label-a-assertions">
 
-            <x:expect-assert
-                label="Flag heads with labels only (Enclosure, Attachment, Tabs, etc)"
+            <x:expect-assert label="Flag heads with labels only (Enclosure, Attachment, Tabs, etc)"
                 id="head-label-a" location="/frus:attachment"/>
 
         </x:scenario>
@@ -178,7 +197,7 @@
     <x:scenario label="head-linebreak">
 
         <x:context>
-            <frus:attachment>
+            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <opener>
                     <seg rendition="#center">[Inclosure.—Translation.]</seg>
                 </opener>

@@ -3,7 +3,7 @@
     xmlns:ckbk="http://www.oreilly.com/XSLTCookbook" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     queryBinding="xslt3">
-    <title>FRUS TEI Rules - Signature block checks</title>
+    <title>FRUS TEI Rules - Attachment checks</title>
     
     <p>This schematron file contains Signature block-related rules augmenting frus.sch.</p>
     
@@ -35,12 +35,15 @@
                 id="head-two-elements" role="warn">Document head content may be split over two elements.</assert>
         </rule>
         <rule context="frus:attachment//tei:head">
-            <assert test="not((.) = '(Editorial Note|Editor’s Note)')">Treat editorial notes
-                as full documents, not as attachments</assert> <!-- Works -->
-            <assert test="not((.) = '(Attachment|Tab A|Enclosure)')" id="head-label-a" role="warn">This may
-                be an incorrect document head if paired with other elements.</assert> <!-- Works -->
-            <assert test="not(.//tei:head[normalize-space('[$A-Z\s]+')])" id="head-subject-line"
+            <assert test="not(matches(., 'Editorial Note|Editor’s Note'))">Treat editorial notes
+                as full documents, not as attachments</assert>
+            <assert test="matches(., 'Attachment|Tab A|Enclosure')" id="head-label-a">This may
+                be an incorrect document head if paired with other elements.</assert>
+            <assert test="not(matches(.,'^[A-Z\s]+$'))" id="head-subject-line-1"
                 >Subject description content, often indicated by all caps text, should not be tagged
+                with a head element.</assert>
+            <assert test="not(tei:hi[@rend eq 'smallcaps'])" id="head-subject-line-2"
+                >Subject description content, often indicated by a rend value of smallcaps, should not be tagged
                 with a head element.</assert>
             <assert test="not(.//tei:lb)" id="head-linebreak" role="warn">Heads should not contain line breaks.</assert> <!-- Works -->
             <!-- experimental frus:attachment @xml:id -->
