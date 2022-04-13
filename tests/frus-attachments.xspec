@@ -1,236 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
     xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    schematron="frus.sch">
-
-    <x:scenario label="signed-corresp">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed corresp="#p_RRW_1">
-                    <persName corresp="#p_RRW_1">
-                        <hi rend="strong">Ronald Reagan</hi>
-                    </persName>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="signed-corresp-assertions">
-
-            <x:expect-assert label="Flag a signed element with a corresp attribute"
-                id="signed-corresp" location="/tei:closer/tei:signed"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="signed-persname">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>
-                    <hi rend="strong">Zbigniew </hi>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="signed-persname-assertions">
-
-            <x:expect-assert label="Flag a signed element without a persName element"
-                id="signed-persname" location="/tei:closer/tei:signed"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="persnames-in-notes-do-not-count">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>Paul H. Kreisberg<note>
-                        <persName>Kreisberg</persName> signed “Paul” above his typed
-                        signature.</note>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="persnames-in-notes-do-not-count-assertions">
-
-            <x:expect-assert
-                label="Flag a signed element without a persName element discounting persNames in notes"
-                id="signed-persname" location="/tei:closer/tei:signed"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="persnames-child-hi-rend-strong">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>
-                    <persName corresp="#p_VC_1">Vance</persName>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="persnames-child-hi-rend-strong-assertions">
-
-            <x:expect-assert
-                label="Flag a signed element with a persName element that does not contain a hi/@rend=strong child"
-                id="persnames-child-hi-rend-strong" location="/tei:closer/tei:signed/tei:persName"
-                role="warn"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-
-
-    <x:scenario label="persnames-siblings-italics">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>
-                    <persName corresp="#p_BWMJ_1">Walter M. Bastian, Jr.</persName> Deputy Director
-                    (Policy and Plans) </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="persnames-siblings-italics">
-
-            <x:expect-assert label="Flag all non-italicized text after a persName"
-                id="persnames-siblings-italics" location="/tei:closer/tei:signed/tei:persName"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="insert-linebreaks">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed corresp="#p_BWMJ_1">
-                    <persName corresp="#p_BWMJ_1">Walter M. Bastian, Jr.</persName>
-                    <hi rend="italic">Deputy Director (Policy and Plans)</hi>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="insert-linebreaks-assertions">
-
-            <x:expect-assert label="Flag text after persName" id="insert-linebreaks"
-                location="/tei:closer/tei:signed/tei:persName"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="persname-multiple">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>
-                    <persName>John Buchanan</persName>
-                    <persName>Leo J. Ryan</persName>
-                    <persName>J. Herbert Burke</persName>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="persname-multiple-assertions">
-
-            <x:expect-assert
-                label="Flag signed elements with more than one persName discounting persNames in notes"
-                id="persname-multiple" location="/tei:closer/tei:signed/tei:persName[1]" role="warn"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="signed-multiple">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>Tom Simons</signed>
-                <signed>Jim Timbie</signed>
-                <signed>Karen Puschel</signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="signed-multiple-assertions">
-
-            <x:expect-assert label="Flag closer elements with more than one signed element"
-                id="closer-multiple-signed" location="/tei:closer" role="warn"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="affiliation">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>
-                    <persName><hi rend="strong">David C. Jones</hi></persName>
-                    <lb/>
-                    <affiliation>Acting Chairman <lb/> Joint Chiefs of Staff</affiliation>
-                </signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="affiliation-assertions">
-
-            <x:expect-assert label="Flag signed elements with child affiliation elements"
-                id="affiliation" location="/tei:closer/tei:signed" role="warn"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="multiple-closers">
-
-        <x:context>
-            <div xmlns="http://www.tei-c.org/ns/1.0">
-                <closer>
-                    <signed>
-                        <persName corresp="#p_BH_2"><hi rend="strong">Harold Brown</hi></persName>
-                    </signed>
-                </closer>
-                <closer>
-                    <signed>
-                        <persName corresp="#p_VCR_1"><hi rend="strong">Cyrus Vance</hi></persName>
-                    </signed>
-                </closer>
-            </div>
-        </x:context>
-
-        <x:scenario label="multiple-closers-assertions">
-
-            <x:expect-assert
-                label="Flag closers elements with immediately following sibling closers"
-                id="multiple-closers" location="/tei:div/tei:closer[1]" role="warn"/>
-
-        </x:scenario>
-
-    </x:scenario>
-
-    <x:scenario label="first-name">
-
-        <x:context>
-            <closer xmlns="http://www.tei-c.org/ns/1.0">
-                <signed>Jimmy <persName><hi rend="strong">Carter</hi></persName></signed>
-            </closer>
-        </x:context>
-
-        <x:scenario label="first-name-assertions">
-
-            <x:expect-assert label="Flag signed elements with text node before persName"
-                id="first-name" location="/tei:closer/tei:signed/tei:persName" role="warn"/>
-
-        </x:scenario>
-
-    </x:scenario>
+    schematron="../schema/frus-attachments.sch">
 
 
     <x:scenario label="head-center-paragraph">
@@ -315,19 +86,21 @@
         <x:scenario label="head-opener-p-assertions">
 
             <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
-                location="/frus:attachment"/>
+                location="/frus:attachment[1]"/>
+
+            <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
+                location="/frus:attachment[2]"/>
+
+            <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
+                location="/frus:attachment[3]"/>
 
         </x:scenario>
 
     </x:scenario>
 
-    <x:scenario label="head-subject-line">
+    <x:scenario label="head-subject-line-1">
 
         <x:context>
-            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
-                <note rend="inline" type="source">Annex A</note>
-                <head><hi rend="smallcaps">Previous Circumventions of the Veto</hi></head>
-            </frus:attachment>
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <note rend="inline" type="source"><hi rend="strong">Appendix</hi></note>
                 <head>QUESTIONS AND ANSWERS RELATED TO THE STRATEGIC RESERVE AND CURRENT
@@ -335,11 +108,29 @@
             </frus:attachment>
         </x:context>
 
-        <x:scenario label="head-subject-line-assertions">
+        <x:scenario label="head-subject-line-1-assertions">
 
             <x:expect-assert label="Flag a head element with subject line content"
-                id="head-subject-line" location="/frus:attachment"/>
+                id="head-subject-line-1" location="/frus:attachment"/>
 
+
+        </x:scenario>
+
+    </x:scenario>
+
+    <x:scenario label="head-subject-line-2">
+
+        <x:context>
+            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
+                <note rend="inline" type="source">Annex A</note>
+                <head><hi rend="smallcaps">Previous Circumventions of the Veto</hi></head>
+            </frus:attachment>
+        </x:context>
+
+        <x:scenario label="head-subject-line-2-assertions">
+
+            <x:expect-assert label="Flag a head element with subject line content"
+                id="head-subject-line-2" location="/frus:attachment"/>
         </x:scenario>
 
     </x:scenario>
@@ -375,8 +166,7 @@
 
         <x:scenario label="head-label-a-assertions">
 
-            <x:expect-assert
-                label="Flag heads with labels only (Enclosure, Attachment, Tabs, etc)"
+            <x:expect-assert label="Flag heads with labels only (Enclosure, Attachment, Tabs, etc)"
                 id="head-label-a" location="/frus:attachment"/>
 
         </x:scenario>
@@ -407,7 +197,7 @@
     <x:scenario label="head-linebreak">
 
         <x:context>
-            <frus:attachment>
+            <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <opener>
                     <seg rendition="#center">[Inclosure.—Translation.]</seg>
                 </opener>
