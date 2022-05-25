@@ -31,8 +31,8 @@
     <pattern id="common-errors">
         <title>Checks text of bibliography entries for common errors</title>
         <rule context="title[@type = 'volume-number']">
-            <assert test="starts-with(., 'Volume') or . = ''">title/@type="volume-number" must start
-                with "Volume" or be empty</assert>
+            <assert test="matches(., '^(Volume|Part|Appendix)') or . = ''">title/@type="volume-number" must start
+                with "Volume," "Part," or "Appendix", or be empty</assert>
         </rule>
     </pattern>
 </schema>
