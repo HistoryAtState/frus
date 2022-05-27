@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+<x:description schematron="../schema/frus-signatures.sch"
     xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    schematron="../schema/frus-signatures.sch">
-    
+    xmlns:x="http://www.jenitennison.com/xslt/xspec">
+
     <x:scenario label="signed-corresp">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed corresp="#p_RRW_1">
@@ -14,18 +14,19 @@
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="signed-corresp-assertions">
-            
-            <x:expect-assert label="Flag a signed element with a corresp attribute"
-                id="signed-corresp" location="/tei:closer/tei:signed"/>
-            
+
+            <x:expect-assert id="signed-corresp"
+                label="Flag a signed element with a corresp attribute"
+                location="/tei:closer/tei:signed"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="signed-persname">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>
@@ -33,39 +34,40 @@
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="signed-persname-assertions">
-            
-            <x:expect-assert label="Flag a signed element without a persName element"
-                id="signed-persname" location="/tei:closer/tei:signed"/>
-            
+
+            <x:expect-assert id="signed-persname"
+                label="Flag a signed element without a persName element"
+                location="/tei:closer/tei:signed"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="persnames-in-notes-do-not-count">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>Paul H. Kreisberg<note>
-                    <persName>Kreisberg</persName> signed “Paul” above his typed
-                    signature.</note>
+                        <persName>Kreisberg</persName> signed “Paul” above his typed
+                        signature.</note>
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="persnames-in-notes-do-not-count-assertions">
-            
-            <x:expect-assert
+
+            <x:expect-assert id="signed-persname"
                 label="Flag a signed element without a persName element discounting persNames in notes"
-                id="signed-persname" location="/tei:closer/tei:signed"/>
-            
+                location="/tei:closer/tei:signed"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="persnames-child-hi-rend-strong">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>
@@ -73,22 +75,21 @@
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="persnames-child-hi-rend-strong-assertions">
-            
-            <x:expect-assert
+
+            <x:expect-assert id="persnames-child-hi-rend-strong"
                 label="Flag a signed element with a persName element that does not contain a hi/@rend=strong child"
-                id="persnames-child-hi-rend-strong" location="/tei:closer/tei:signed/tei:persName"
-                role="warn"/>
-            
+                location="/tei:closer/tei:signed/tei:persName" role="warn"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
-    
-    
+
+
+
     <x:scenario label="persnames-siblings-italics">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>
@@ -96,18 +97,19 @@
                     (Policy and Plans) </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="persnames-siblings-italics">
-            
-            <x:expect-assert label="Flag all non-italicized text after a persName"
-                id="persnames-siblings-italics" location="/tei:closer/tei:signed/tei:persName"/>
-            
+
+            <x:expect-assert id="persnames-siblings-italics"
+                label="Flag all non-italicized text after a persName"
+                location="/tei:closer/tei:signed/tei:persName"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="insert-linebreaks">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed corresp="#p_BWMJ_1">
@@ -116,18 +118,18 @@
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="insert-linebreaks-assertions">
-            
-            <x:expect-assert label="Flag text after persName" id="insert-linebreaks"
+
+            <x:expect-assert id="insert-linebreaks" label="Flag text after persName"
                 location="/tei:closer/tei:signed/tei:persName"/>
-            
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="persname-multiple">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>
@@ -137,19 +139,19 @@
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="persname-multiple-assertions">
-            
-            <x:expect-assert
+
+            <x:expect-assert id="persname-multiple"
                 label="Flag signed elements with more than one persName discounting persNames in notes"
-                id="persname-multiple" location="/tei:closer/tei:signed/tei:persName[1]" role="warn"/>
-            
+                location="/tei:closer/tei:signed/tei:persName[1]" role="warn"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="signed-multiple">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>Tom Simons</signed>
@@ -157,18 +159,19 @@
                 <signed>Karen Puschel</signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="signed-multiple-assertions">
-            
-            <x:expect-assert label="Flag closer elements with more than one signed element"
-                id="closer-multiple-signed" location="/tei:closer" role="warn"/>
-            
+
+            <x:expect-assert id="closer-multiple-signed"
+                label="Flag closer elements with more than one signed element"
+                location="/tei:closer" role="warn"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="affiliation">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>
@@ -178,18 +181,19 @@
                 </signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="affiliation-assertions">
-            
-            <x:expect-assert label="Flag signed elements with child affiliation elements"
-                id="affiliation" location="/tei:closer/tei:signed" role="warn"/>
-            
+
+            <x:expect-assert id="affiliation"
+                label="Flag signed elements with child affiliation elements"
+                location="/tei:closer/tei:signed" role="warn"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="multiple-closers">
-        
+
         <x:context>
             <div xmlns="http://www.tei-c.org/ns/1.0">
                 <closer>
@@ -204,32 +208,33 @@
                 </closer>
             </div>
         </x:context>
-        
+
         <x:scenario label="multiple-closers-assertions">
-            
-            <x:expect-assert
+
+            <x:expect-assert id="multiple-closers"
                 label="Flag closers elements with immediately following sibling closers"
-                id="multiple-closers" location="/tei:div/tei:closer[1]" role="warn"/>
-            
+                location="/tei:div/tei:closer[1]" role="warn"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
     <x:scenario label="first-name">
-        
+
         <x:context>
             <closer xmlns="http://www.tei-c.org/ns/1.0">
                 <signed>Jimmy <persName><hi rend="strong">Carter</hi></persName></signed>
             </closer>
         </x:context>
-        
+
         <x:scenario label="first-name-assertions">
-            
-            <x:expect-assert label="Flag signed elements with text node before persName"
-                id="first-name" location="/tei:closer/tei:signed/tei:persName" role="warn"/>
-            
+
+            <x:expect-assert id="first-name"
+                label="Flag signed elements with text node before persName"
+                location="/tei:closer/tei:signed/tei:persName" role="warn"/>
+
         </x:scenario>
-        
+
     </x:scenario>
-    
+
 </x:description>

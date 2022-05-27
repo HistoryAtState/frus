@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
-    xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    schematron="frus.sch">
+<x:description schematron="frus.sch" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.jenitennison.com/xslt/xspec">
 
     <x:scenario label="signed-corresp">
 
@@ -17,8 +16,9 @@
 
         <x:scenario label="signed-corresp-assertions">
 
-            <x:expect-assert label="Flag a signed element with a corresp attribute"
-                id="signed-corresp" location="/tei:closer/tei:signed"/>
+            <x:expect-assert id="signed-corresp"
+                label="Flag a signed element with a corresp attribute"
+                location="/tei:closer/tei:signed"/>
 
         </x:scenario>
 
@@ -36,8 +36,9 @@
 
         <x:scenario label="signed-persname-assertions">
 
-            <x:expect-assert label="Flag a signed element without a persName element"
-                id="signed-persname" location="/tei:closer/tei:signed"/>
+            <x:expect-assert id="signed-persname"
+                label="Flag a signed element without a persName element"
+                location="/tei:closer/tei:signed"/>
 
         </x:scenario>
 
@@ -56,9 +57,9 @@
 
         <x:scenario label="persnames-in-notes-do-not-count-assertions">
 
-            <x:expect-assert
+            <x:expect-assert id="signed-persname"
                 label="Flag a signed element without a persName element discounting persNames in notes"
-                id="signed-persname" location="/tei:closer/tei:signed"/>
+                location="/tei:closer/tei:signed"/>
 
         </x:scenario>
 
@@ -76,10 +77,9 @@
 
         <x:scenario label="persnames-child-hi-rend-strong-assertions">
 
-            <x:expect-assert
+            <x:expect-assert id="persnames-child-hi-rend-strong"
                 label="Flag a signed element with a persName element that does not contain a hi/@rend=strong child"
-                id="persnames-child-hi-rend-strong" location="/tei:closer/tei:signed/tei:persName"
-                role="warn"/>
+                location="/tei:closer/tei:signed/tei:persName" role="warn"/>
 
         </x:scenario>
 
@@ -99,8 +99,9 @@
 
         <x:scenario label="persnames-siblings-italics">
 
-            <x:expect-assert label="Flag all non-italicized text after a persName"
-                id="persnames-siblings-italics" location="/tei:closer/tei:signed/tei:persName"/>
+            <x:expect-assert id="persnames-siblings-italics"
+                label="Flag all non-italicized text after a persName"
+                location="/tei:closer/tei:signed/tei:persName"/>
 
         </x:scenario>
 
@@ -119,7 +120,7 @@
 
         <x:scenario label="insert-linebreaks-assertions">
 
-            <x:expect-assert label="Flag text after persName" id="insert-linebreaks"
+            <x:expect-assert id="insert-linebreaks" label="Flag text after persName"
                 location="/tei:closer/tei:signed/tei:persName"/>
 
         </x:scenario>
@@ -140,9 +141,9 @@
 
         <x:scenario label="persname-multiple-assertions">
 
-            <x:expect-assert
+            <x:expect-assert id="persname-multiple"
                 label="Flag signed elements with more than one persName discounting persNames in notes"
-                id="persname-multiple" location="/tei:closer/tei:signed/tei:persName[1]" role="warn"/>
+                location="/tei:closer/tei:signed/tei:persName[1]" role="warn"/>
 
         </x:scenario>
 
@@ -160,8 +161,9 @@
 
         <x:scenario label="signed-multiple-assertions">
 
-            <x:expect-assert label="Flag closer elements with more than one signed element"
-                id="closer-multiple-signed" location="/tei:closer" role="warn"/>
+            <x:expect-assert id="closer-multiple-signed"
+                label="Flag closer elements with more than one signed element"
+                location="/tei:closer" role="warn"/>
 
         </x:scenario>
 
@@ -181,8 +183,9 @@
 
         <x:scenario label="affiliation-assertions">
 
-            <x:expect-assert label="Flag signed elements with child affiliation elements"
-                id="affiliation" location="/tei:closer/tei:signed" role="warn"/>
+            <x:expect-assert id="affiliation"
+                label="Flag signed elements with child affiliation elements"
+                location="/tei:closer/tei:signed" role="warn"/>
 
         </x:scenario>
 
@@ -207,9 +210,9 @@
 
         <x:scenario label="multiple-closers-assertions">
 
-            <x:expect-assert
+            <x:expect-assert id="multiple-closers"
                 label="Flag closers elements with immediately following sibling closers"
-                id="multiple-closers" location="/tei:div/tei:closer[1]" role="warn"/>
+                location="/tei:div/tei:closer[1]" role="warn"/>
 
         </x:scenario>
 
@@ -225,8 +228,9 @@
 
         <x:scenario label="first-name-assertions">
 
-            <x:expect-assert label="Flag signed elements with text node before persName"
-                id="first-name" location="/tei:closer/tei:signed/tei:persName" role="warn"/>
+            <x:expect-assert id="first-name"
+                label="Flag signed elements with text node before persName"
+                location="/tei:closer/tei:signed/tei:persName" role="warn"/>
 
         </x:scenario>
 
@@ -246,8 +250,8 @@
 
         <x:scenario label="head-center-paragraph-assertions">
 
-            <x:expect-assert label="Flag a centered paragraph with head content"
-                id="head-center-paragraph" location="/frus:attachment"/>
+            <x:expect-assert id="head-center-paragraph"
+                label="Flag a centered paragraph with head content" location="/frus:attachment"/>
 
         </x:scenario>
 
@@ -259,7 +263,7 @@
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <head>Attachment<note n="5" xml:id="d37fn5">Secret.</note></head>
                 <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
-                            when="1965-01-26" calendar="gregorian">January 26,
+                            calendar="gregorian" when="1965-01-26">January 26,
                         1965</date>.</dateline></opener>
                 <p rend="center"><hi rend="strong">Memorandum From <persName corresp="#p_CCL1"
                             >Chester L. Cooper</persName> of the National Security Council Staff to
@@ -270,8 +274,8 @@
 
         <x:scenario label="head-two-elements-assertions">
 
-            <x:expect-assert label="Flag head content split over two elements"
-                id="head-two-elements" location="/frus:attachment"/>
+            <x:expect-assert id="head-two-elements"
+                label="Flag head content split over two elements" location="/frus:attachment"/>
 
         </x:scenario>
 
@@ -283,7 +287,7 @@
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <head>Attachment</head>
                 <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
-                            when="1965-06-23" calendar="gregorian">Washington, June 23,
+                            calendar="gregorian" when="1965-06-23">Washington, June 23,
                         1965.</date></dateline></opener>
                 <p rend="center">Memorandum From the Under Secretary of State (<persName
                         corresp="#p_BGW1">Ball</persName>) to President <persName corresp="#p_JLB1"
@@ -292,7 +296,7 @@
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <head><hi rend="strong">Attachment</hi></head>
                 <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
-                            when="1967-06-12" calendar="gregorian">June 12,
+                            calendar="gregorian" when="1967-06-12">June 12,
                     1967</date>.</dateline></opener>
                 <p><hi rend="strong">Draft Memorandum From Secretary of Defense <persName
                             corresp="#p_MNRS1">McNamara</persName> to President
@@ -301,8 +305,8 @@
             <frus:attachment xmlns="http://www.tei-c.org/ns/1.0">
                 <head>Tab B</head>
                 <opener><dateline rendition="#right">
-                        <placeName>Washington</placeName>, <date when="1967-10-23"
-                            calendar="gregorian">October 23, 1967.</date>
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1967-10-23">October 23, 1967.</date>
                     </dateline></opener>
                 <p rend="flushleft">Letter From Secretary of Commerce <persName corresp="#p_TAB1"
                         >Trowbridge</persName> to the Under Secretary of State (<persName
@@ -314,7 +318,7 @@
 
         <x:scenario label="head-opener-p-assertions">
 
-            <x:expect-assert label="Flag head content in p tag below opener" id="head-opener-p"
+            <x:expect-assert id="head-opener-p" label="Flag head content in p tag below opener"
                 location="/frus:attachment"/>
 
         </x:scenario>
@@ -337,8 +341,8 @@
 
         <x:scenario label="head-subject-line-assertions">
 
-            <x:expect-assert label="Flag a head element with subject line content"
-                id="head-subject-line" location="/frus:attachment"/>
+            <x:expect-assert id="head-subject-line"
+                label="Flag a head element with subject line content" location="/frus:attachment"/>
 
         </x:scenario>
 
@@ -358,8 +362,9 @@
 
         <x:scenario label="head-sequential-notes-assertions">
 
-            <x:expect-assert label="Flag head content split over sequential note elements"
-                id="head-sequential-notes" location="/frus:attachment"/>
+            <x:expect-assert id="head-sequential-notes"
+                label="Flag head content split over sequential note elements"
+                location="/frus:attachment"/>
 
         </x:scenario>
 
@@ -375,9 +380,9 @@
 
         <x:scenario label="head-label-a-assertions">
 
-            <x:expect-assert
+            <x:expect-assert id="head-label-a"
                 label="Flag heads with labels only (Enclosure, Attachment, Tabs, etc)"
-                id="head-label-a" location="/frus:attachment"/>
+                location="/frus:attachment"/>
 
         </x:scenario>
 
@@ -396,9 +401,9 @@
 
         <x:scenario label="head-label-b-assertions">
 
-            <x:expect-assert
+            <x:expect-assert id="head-label-b"
                 label="Flag segs with centered rendition values that should be changed to inline notes with type attachment"
-                id="head-label-b" location="/frus:attachment"/>
+                location="/frus:attachment"/>
 
         </x:scenario>
 
@@ -415,8 +420,8 @@
                         Count <persName type="to">Wolkenstein</persName>, in London</hi>.</head>
                 <opener>
                     <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                            >Saltzburg</hi></placeName>, <date when="1871-09-08"
-                            calendar="gregorian"><hi rend="italic">September</hi> 8,
+                            >Saltzburg</hi></placeName>, <date calendar="gregorian"
+                            when="1871-09-08"><hi rend="italic">September</hi> 8,
                         1871</date>.</dateline>
                 </opener>
             </frus:attachment>
@@ -424,7 +429,7 @@
 
         <x:scenario label="head-linebreak-assertions">
 
-            <x:expect-assert label="Flag heads that contain line breaks" id="head-linebreak"
+            <x:expect-assert id="head-linebreak" label="Flag heads that contain line breaks"
                 location="/frus:attachment"/>
 
         </x:scenario>

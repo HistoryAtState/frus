@@ -1,15 +1,13 @@
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:ckbk="http://www.oreilly.com/XSLTCookbook"
+<schema queryBinding="xslt3" xmlns="http://purl.oclc.org/dsdl/schematron"
+    xmlns:ckbk="http://www.oreilly.com/XSLTCookbook" xmlns:functx="http://www.functx.com"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
-    xmlns:functx="http://www.functx.com">
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <title>FRUS TEI Rules</title>
 
     <p>FRUS TEI Rules Schematron file</p>
 
-    <p>This schematron adds FRUS TEI-specific rules to the frus.rnc RelaxNG Schema
-        file. FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI
-        files.</p>
+    <p>This schematron adds FRUS TEI-specific rules to the frus.rnc RelaxNG Schema file. FRUS TEI
+        files that validate against *both* schema files are considered valid FRUS TEI files.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
@@ -71,9 +69,8 @@
             <assert test="tei:idno/@type = ('dospubno', 'frus', 'isbn-13', 'isbn-10')"
                     >idno/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: dospubno, frus, isbn-13, isbn-10</assert>
-            <assert
-                test="count(tei:idno[@type = 'frus'])"
-                >publicationStmt needs exactly one idno of type 'frus'</assert>
+            <assert test="count(tei:idno[@type = 'frus'])">publicationStmt needs exactly one idno of
+                type 'frus'</assert>
         </rule>
     </pattern>
 
@@ -87,7 +84,7 @@
                 from, to, simple, sources</assert>
         </rule>
         <rule context="tei:item[ancestor::tei:div/@xml:id = 'terms' and not(child::tei:list)]">
-            <assert test=".//tei:term/@xml:id" sqf:fix="add-term add-xml-id">Missing term element
+            <assert sqf:fix="add-term add-xml-id" test=".//tei:term/@xml:id">Missing term element
                 with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have
                 an @xml:id attribute</assert>
             <let name="first-hi" value="(.//tei:hi)[1]"/>
@@ -117,7 +114,7 @@
                 <sqf:description>
                     <sqf:title>Add a missing @xml:id</sqf:title>
                 </sqf:description>
-                <sqf:add match=".//tei:term" target="xml:id" node-type="attribute" select="$id"/>
+                <sqf:add match=".//tei:term" node-type="attribute" select="$id" target="xml:id"/>
             </sqf:fix>
             <assert test="not(tei:term/tei:hi/@rend = 'strong') and not(ends-with(tei:term, ','))"
                 >Improper nesting of hi and term elements (the hi/@rend=strong tag must surround the
@@ -235,11 +232,11 @@
                 consecutive.</assert>
         </rule>
         <rule context="tei:div[@type = 'document']">
-            <assert test="not(matches(./@n, '^\[.+?\]$'))" role="warning">Document's @n is encased
+            <assert role="warning" test="not(matches(./@n, '^\[.+?\]$'))">Document's @n is encased
                 in square brackets: "[]". Only use in the rare circumstance that the volume has a
                 block of unnumbered documents outside the normal stream of numbered
                 documents.</assert>
-            <assert test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer" role="warning"
+            <assert role="warning" test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer"
                 >Non-number component found in document number "<value-of select="@n"/>"</assert>
         </rule>
         <rule context="tei:body">
@@ -292,12 +289,12 @@
                 source.</assert>
             <assert test=".//tei:lb" id="head-linebreak">Heads should not contain line breaks.</assert>
             </rule> -->
-            <!-- experimental frus:attachment @xml:id -->
-            <!--
+        <!-- experimental frus:attachment @xml:id -->
+        <!--
             <assert test="@xml:id">Missing @xml:id for frus:attachment</assert>
             <assert test="matches(@xml:id, concat('^', ./ancestor::tei:div[@xml:id][1]/@xml:id, 'at', index-of(./ancestor::tei:div[@xml:id][1]/frus:attachment, .)))">Incorrectly formed @xml:id '<value-of select="@xml:id"/>'</assert>
             -->
-        
+
 
         <!-- experimental frus:attachment @xml:id -->
         <!--
@@ -380,7 +377,7 @@
                 empty.</assert>
         </rule>
         <rule context="tei:lb | tei:pb">
-            <assert test="empty(./node())" sqf:fix="delete-child-content"><value-of
+            <assert sqf:fix="delete-child-content" test="empty(./node())"><value-of
                     select="./name()"/> elements must be empty (no child content).</assert>
             <sqf:fix id="delete-child-content">
                 <sqf:description>
