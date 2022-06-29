@@ -1541,7 +1541,7 @@
                 <sqf:fix id="add-when-attribute-MMDDYYYY-eng-with-noon"
                     use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}),?\s+noon)', 'i')">
                     <let name="date-match"
-                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4})),?\s+noon)', 'i')"/>
+                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}),?\s+noon)', 'i')"/>
 
                     <let name="date-match-1" value="$date-match/fn:match[1]"/>
                     <let name="year" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
@@ -1550,8 +1550,8 @@
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
                     <let name="date"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
-                    <let name="time" value="'T12:00:00'"/>
-                    <let name="when" value="concat($year, '-', $month-digit, '-', $date, $time)"/>
+                    <let name="when"
+                        value="concat($year, '-', $month-digit, '-', $date, 'T12:00:00')"/>
                     <sqf:description>
                         <sqf:title>Add @when attribute (with noon) to &lt;date&gt;</sqf:title>
                     </sqf:description>
