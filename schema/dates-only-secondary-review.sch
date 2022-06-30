@@ -1569,13 +1569,9 @@
                     <let name="month-digit"
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
                     <let name="date"
-                        value="format-number(xs:integer($date-match-1//fn:group[attribute::nr eq '3']), '00')"/>
-                    <let name="time" value="'T00:00:00'"/>
-                    <let name="dateTime-pre"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'] + 1, '00')"/>
+                    <let name="when"
                         value="concat($year, '-', $month-digit, '-', $date, 'T00:00:00')"/>
-                    <let name="dateTime-shifted"
-                        value="xs:dateTime($dateTime-pre) + xs:dayTimeDuration('P1D')"/>
-                    <let name="when" value="xs:string($dateTime-shifted)"/>
                     <sqf:description>
                         <sqf:title>Add @when attribute (with midnight) to &lt;date&gt;</sqf:title>
                     </sqf:description>
@@ -1622,7 +1618,7 @@
                     <let name="month-digit"
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
                     <let name="date"
-                        value="format-number(sum(xs:integer($date-match-1//fn:group[attribute::nr eq '3']), '12'), '00')"/>
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="hour"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '6'] + 12, '00')"/>
                     <let name="minute" value="
