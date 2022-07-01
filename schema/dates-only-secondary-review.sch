@@ -1499,6 +1499,12 @@
             <let name="month-machine-readable-sp"
                 value="('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12')"/>
 
+            <!-- a.m. hours into 24-hr clock -->
+            <let name="am-hour"
+                value="('12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11')"/>
+            <let name="am-hour-24-clock"
+                value="('00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11')"/>
+
             <!-- p.m. hours into 24-hr clock -->
             <let name="pm-hour"
                 value="('12', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11')"/>
@@ -1592,7 +1598,7 @@
                     <let name="date"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="hour"
-                        value="functx:replace-multi(format-number($date-match-1//fn:group[attribute::nr eq '6'], '00'), $pm-hour, $pm-hour-24-clock)"/>
+                        value="functx:replace-multi(format-number($date-match-1//fn:group[attribute::nr eq '6'], '00'), $am-hour, $am-hour-24-clock)"/>
                     <let name="minute" value="
                             if ($date-match-1//fn:group[attribute::nr eq '9']) then
                                 format-number($date-match-1//fn:group[attribute::nr eq '9'], '00')
@@ -1620,7 +1626,7 @@
                     <let name="date"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="hour"
-                        value="format-number($date-match-1//fn:group[attribute::nr eq '6'] + 12, '00')"/>
+                        value="functx:replace-multi(format-number($date-match-1//fn:group[attribute::nr eq '6'], '00'), $pm-hour, $pm-hour-24-clock)"/>
                     <let name="minute" value="
                             if ($date-match-1//fn:group[attribute::nr eq '9']) then
                                 format-number($date-match-1//fn:group[attribute::nr eq '9'], '00')
