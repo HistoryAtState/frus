@@ -1554,10 +1554,10 @@
                     <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
                     <let name="month-digit"
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
-                    <let name="date"
+                    <let name="day-digit"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when"
-                        value="concat($year, '-', $month-digit, '-', $date, 'T12:00:00')"/>
+                        value="concat($year, '-', $month-digit, '-', $day-digit, 'T12:00:00')"/>
                     <sqf:description>
                         <sqf:title>Add @when attribute (with noon) to &lt;date&gt;</sqf:title>
                     </sqf:description>
@@ -1574,14 +1574,15 @@
                     <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
                     <let name="month-digit"
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
-                    <let name="date"
-                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'] + 1, '00')"/>
+                    <let name="day-digit"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when"
-                        value="concat($year, '-', $month-digit, '-', $date, 'T00:00:00')"/>
+                        value="concat($year, '-', $month-digit, '-', $day-digit, 'T00:00:00')"/>
+                    <let name="when-shifted" value="xs:dateTime($when) + xs:dayTimeDuration('P1D')"/>
                     <sqf:description>
                         <sqf:title>Add @when attribute (with midnight) to &lt;date&gt;</sqf:title>
                     </sqf:description>
-                    <sqf:add match="." node-type="attribute" select="$when" target="when"/>
+                    <sqf:add match="." node-type="attribute" select="$when-shifted" target="when"/>
                 </sqf:fix>
 
                 <!-- Fix 1.c: a.m. -->
@@ -1595,7 +1596,7 @@
                     <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
                     <let name="month-digit"
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
-                    <let name="date"
+                    <let name="day-digit"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="hour"
                         value="functx:replace-multi(format-number($date-match-1//fn:group[attribute::nr eq '6'], '00'), $am-hour, $am-hour-24-clock)"/>
@@ -1605,7 +1606,7 @@
                             else
                                 '00'"/>
                     <let name="when"
-                        value="concat($year, '-', $month-digit, '-', $date, 'T', $hour, ':', $minute, ':00')"/>
+                        value="concat($year, '-', $month-digit, '-', $day-digit, 'T', $hour, ':', $minute, ':00')"/>
                     <sqf:description>
                         <sqf:title>Add @when attribute (with a.m. time) to &lt;date&gt;</sqf:title>
                     </sqf:description>
@@ -1623,7 +1624,7 @@
                     <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
                     <let name="month-digit"
                         value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
-                    <let name="date"
+                    <let name="day-digit"
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="hour"
                         value="functx:replace-multi(format-number($date-match-1//fn:group[attribute::nr eq '6'], '00'), $pm-hour, $pm-hour-24-clock)"/>
@@ -1633,7 +1634,7 @@
                             else
                                 '00'"/>
                     <let name="when"
-                        value="concat($year, '-', $month-digit, '-', $date, 'T', $hour, ':', $minute, ':00')"/>
+                        value="concat($year, '-', $month-digit, '-', $day-digit, 'T', $hour, ':', $minute, ':00')"/>
                     <sqf:description>
                         <sqf:title>Add @when attribute (with p.m. time) to &lt;date&gt;</sqf:title>
                     </sqf:description>
