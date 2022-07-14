@@ -494,10 +494,10 @@
                 />] </assert>
 
             <!-- flag mismatched orientation in pairs of quotes -->
-            <assert test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of consecutive curly
-                quotes: [<value-of
+            <assert role="warn" test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of
+                consecutive curly quotes: [<value-of
                     select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
-                />]. Fix orientation.</assert>
+                />]. Please confirm correctness or fix orientation.</assert>
 
             <!-- flag spaces surrounding colons and semi-colons -->
             <assert role="warn"
