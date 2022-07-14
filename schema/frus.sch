@@ -213,13 +213,13 @@
             <assert role="warn"
                 test=".//tei:div[@type = 'document'] or .//tei:div[@subtype = ('index', 'referral', 'editorial-note')]"
                 >This <value-of select="@type"/> does not contain a div/@type='document'. Please
-                inspect to verify encoding accuracy.</assert>
+                verify that the structure is correct.</assert>
         </rule>
         <rule context="tei:div[@type = 'document']">
             <assert role="warn"
                 test="not(preceding-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')] or following-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')])"
                 >This document is preceded or followed by a <value-of select="@type"/>. Please
-                inspect to verify accuracy hierarchy.</assert>
+                verify that the structure is correct.</assert>
         </rule>
     </pattern>
 
@@ -232,12 +232,13 @@
                 consecutive.</assert>
         </rule>
         <rule context="tei:div[@type = 'document']">
-            <assert role="warning" test="not(matches(./@n, '^\[.+?\]$'))">Document's @n is encased
-                in square brackets: "[]". Only use in the rare circumstance that the volume has a
-                block of unnumbered documents outside the normal stream of numbered
-                documents.</assert>
-            <assert role="warning" test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer"
-                >Non-number component found in document number "<value-of select="@n"/>"</assert>
+            <assert role="warn" test="not(matches(./@n, '^\[.+?\]$'))">Document's @n is encased in
+                square brackets: "[]". Only use in the rare circumstance that the volume has a block
+                of unnumbered documents outside the normal stream of numbered documents. Please
+                verify that the @n value is correct.</assert>
+            <assert role="warn" test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer"
+                >Non-number component found in document number "<value-of select="@n"/>". Please
+                verify that the document number is correct.</assert>
         </rule>
         <rule context="tei:body">
             <assert
@@ -359,7 +360,8 @@
                 tei:titleStmt element.</assert>
             <assert role="warn" test="count(./node()) gt 0">In contemporary publications, an editor
                 element should not be empty. (In the back catalog, the editor element may be empty
-                by necessity.)</assert>
+                by necessity.) Please verify if the editor can be left out or needs to be
+                supplied.</assert>
             <assert test="./@role">An editor element needs a @role attribute.</assert>
             <assert test="string-length(./@role) gt 0">An editor/@role attribute cannot be
                 empty.</assert>
@@ -470,18 +472,20 @@
             <assert role="warn" test="not(matches(., '[“‘] '))">Curly open quotation mark appears in
                     [<value-of
                     select="string-join(analyze-string(normalize-space(.), '\S*[“‘] \S*')/fn:match, '; ')"
-                />]. Fix orientation? Delete trailing space?</assert>
+                />]. Please verify the quotation mark, correct it, or delete the trailing
+                space.</assert>
 
             <!-- flag unexpected space before a close quote. exclude abbreviated numbers, e.g., ’70s -->
             <assert role="warn" test="not(matches(., ' [”’][^\d]'))">Curly close quotation mark
                 appears in [<value-of
                     select="string-join(analyze-string(normalize-space(.), '\S* [”’][^\d]\S*')/fn:match, '; ')"
-                />]. Fix orientation? Delete leading space?</assert>
+                />]. Please verify the quotation mark, correct it, or delete the leading
+                space.</assert>
 
             <!-- flag mixed use of straight and curly. exclude measures of feet and inches, e.g., 6' or 5'2" -->
             <assert role="warn" test="not(matches(., '\D[''&quot;]') and matches(., '[‘’“”]'))"
-                >Mixed use of straight and curly quotes. Change straight to curly? Straight:
-                    [<value-of
+                >Mixed use of straight and curly quotes. Please verify the quotes or change straight
+                to curly. Straight: [<value-of
                     select="string-join(analyze-string(normalize-space(.), '\S*[''&quot;]\S*')/fn:match, '; ')"
                 />] // Curly: [<value-of
                     select="string-join(analyze-string(normalize-space(.), '\S*[‘’“”]\S*')/fn:match, '; ')"
@@ -489,22 +493,23 @@
 
             <!-- flag all other instances of straight quotes. exclude measures of feet and inches -->
             <assert role="warn" test="not(matches(., '\D[''&quot;]') and not(matches(., '[‘’“”]')))"
-                >Straight quotation marks found. Change to curly? [<value-of
+                >Straight quotation marks found. Please verify the quotes or change them to curly.
+                    [<value-of
                     select="string-join(analyze-string(normalize-space(.), '\S*[''&quot;]\S*')/fn:match, '; ')"
                 />] </assert>
 
             <!-- flag mismatched orientation in pairs of quotes -->
-            <assert test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of consecutive curly
-                quotes: [<value-of
+            <assert role="warn" test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of
+                consecutive curly quotes: [<value-of
                     select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
-                />]. Fix orientation.</assert>
+                />]. Please verify the quotes or fix their open/close orientation.</assert>
 
             <!-- flag spaces surrounding colons and semi-colons -->
             <assert role="warn"
                 test="not(matches(replace(., '(\s+\.){3,}', ''), '^\s+[\.,:;?!>)\]\}]|[a-z]\s+[\.,:;?!>)\]\}]'))"
                 >Space preceding closing punctuation: [<value-of
                     select="string-join(analyze-string(replace(., '(\s+\.){3,}', ''), '^(\s+[\.,:;?!>)\]\}]+)+|\w+(\s+[\.,:;?!>)\]\}]+)+')/fn:match ! ('“' || . || '”'), ', ')"
-                />]. Remove space?</assert>
+                />]. Please verify the space or delete it.</assert>
 
         </rule>
     </pattern>
@@ -522,13 +527,13 @@
         <rule
             context="tei:p | tei:head | tei:note[@rend eq 'inline'] | tei:item[not(tei:list)] | (tei:seg | tei:cell)[not(matches(., '^[“”&quot; ]+$'))]">
 
-            <assert test="not(matches(., '[“‘]$'))">Curly open quotation mark appears as final
-                character of <value-of select="./name()"/> element. Fix orientation or
-                delete?</assert>
+            <assert role="warn" test="not(matches(., '[“‘]$'))">Curly open quotation mark appears as
+                final character of <value-of select="./name()"/> element. Please verify the final
+                character or change it to a curly closed quotation mark.</assert>
 
-            <assert test="not(matches(., '^[”’][^\d]'))">Curly close quotation mark appears first
-                character of this <value-of select="./name()"/> element. Fix orientation or
-                delete?</assert>
+            <assert role="warn" test="not(matches(., '^[”’][^\d]'))">Curly close quotation mark
+                appears first character of this <value-of select="./name()"/> element. Please verify
+                the first character or change it to an curly open quotation mark.</assert>
         </rule>
     </pattern>
 
