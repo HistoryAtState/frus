@@ -1641,6 +1641,31 @@
                     <sqf:add match="." node-type="attribute" select="$when" target="when"/>
                 </sqf:fix>
 
+                <!-- Fix 1.e: Zulu time -->
+                <sqf:fix id="add-when-attribute-MMDDYYYY-eng-with-time-Zulu"
+                    use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}),?\s+(\d{1,2})(\s+)?(:)?(\d{2})?(\s+)?Z)', 'i')">
+                    <let name="date-match"
+                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}),?\s+(\d{1,2})(\s+)?(:)?(\d{2})?(\s+)?Z)', 'i')"/>
+
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="day-digit"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="hour"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '6'], '00')"/>
+                    <let name="minute"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '9'], '00')"/>
+                    <let name="when"
+                        value="concat($year, '-', $month-digit, '-', $day-digit, 'T', $hour, ':', $minute, ':00+00:00')"/>
+                    <sqf:description>
+                        <sqf:title>Add @when attribute (with Zulu time) to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" select="$when" target="when"/>
+                </sqf:fix>
+
                 <!-- Add @when Fix 2: month-day-year-regex-eng -->
                 <sqf:fix id="add-when-attribute-MMDDYYYY-eng"
                     use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}))', 'i')">
