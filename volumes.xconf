@@ -30,8 +30,8 @@
                 <field name="hsg-url" expression="'/historicaldocuments/' || ancestor::tei:TEI/@xml:id || '/' || ./@xml:id"/>
                 <!-- end required facets and fields -->
 
-                <field name="hsg-date-min" if="@type = ('section', 'document')" expression="translate(@frus:doc-dateTime-min, ':-', '')"/>
-                <field name="hsg-date-max" if="@type = ('section', 'document')" expression="translate(@frus:doc-dateTime-max, ':-', '')"/>
+                <field name="hsg-date-min" if="@type = ('section', 'document')" expression="@frus:doc-dateTime-min" binary="true" type="xs:dateTime" />
+                <field name="hsg-date-max" if="@type = ('section', 'document')" expression="@frus:doc-dateTime-max" binary="true" type="xs:dateTime" />
                 <facet dimension="frus-volume-id" expression="ancestor::tei:TEI/@xml:id"/>
                 <facet dimension="frus-type" expression="@type"/>
                 <facet dimension="frus-subtype" expression="@subtype"/>
