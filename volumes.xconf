@@ -8,8 +8,6 @@
         </trigger>
     </triggers>
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-        <!-- Disable the legacy full text index -->
-        <fulltext default="none" attributes="false"/>
 
         <!-- Lucene index configuration -->
         <lucene>
