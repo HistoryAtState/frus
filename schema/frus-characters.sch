@@ -59,6 +59,12 @@
                     select="string-join(analyze-string(replace(., '(\s+\.){3,}', ''), '^(\s+[\.,:;?!>)\]\}]+)+|\w+(\s+[\.,:;?!>)\]\}]+)+')/fn:match ! ('“' || . || '”'), ', ')"
                 />]. Please verify the space or delete it.</assert>
 
+            <!-- flag possible OCR errors -->
+            <assert id="ocr-transposition-error-1l" role="warn" test="not(matches(., 'l1|1l'))"
+                >Possible OCR error with transposed number 1 and lower case letter L: [<value-of
+                    select="string-join(analyze-string(normalize-space(.), '\S*(?:l1|1l)\S*')/fn:match ! ('“' || . || '”'), ', ')"
+                />]. Please verify the characters or correct them.</assert>
+
         </rule>
     </pattern>
 

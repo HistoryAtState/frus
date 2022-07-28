@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description schematron="../schema/frus-characters.sch" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:x="http://www.jenitennison.com/xslt/xspec">
+
+    <x:scenario label="Character-level checks">
+
+        <x:context>
+            <!-- 
+                source: frus1969-76ve05p1/d262
+                fixed: https://github.com/HistoryAtState/frus/commit/79cce6f3dba5850695501865e5537736f2bb7fc1
+            -->
+            <p xmlns="http://www.tei-c.org/ns/1.0">No action will be taken on the $3-mi1lion
+                livestock loan which has been under discussion.</p>
+            <!-- 
+                source: frus1894app2/d501
+                fixed: https://github.com/HistoryAtState/frus/commit/79cce6f3dba5850695501865e5537736f2bb7fc1
+            -->
+            <p xmlns="http://www.tei-c.org/ns/1.0">The judicial power shall extend to al1 cases in
+                law and equity.</p>
+        </x:context>
+
+        <x:scenario label="OCR transposition issues">
+
+            <x:expect-assert id="ocr-transposition-error-1l"
+                label="Number 1 followed by lower-case L" location="/tei:p[1]/text()" role="warn"/>
+            <x:expect-assert id="ocr-transposition-error-1l"
+                label="Lower-case L followed by number 1" location="/tei:p[2]/text()" role="warn"/>
+
+        </x:scenario>
+
+    </x:scenario>
+
+</x:description>
