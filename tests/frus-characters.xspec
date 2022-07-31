@@ -17,14 +17,23 @@
             -->
             <p xmlns="http://www.tei-c.org/ns/1.0">The judicial power shall extend to al1 cases in
                 law and equity.</p>
+            <!-- 
+                source: frus1964-68v04/d157
+                fixed: https://github.com/HistoryAtState/frus/commit/000b082d9484e3a79610d764dd7018a3c7a36b26
+            -->
+            <p xmlns="http://www.tei-c.org/ns/1.0">It is claimed that very extended publicity of the
+                regulation was given in l88l–’83, through the newspapers of Yokohama, in the Russian
+                consulates of the Pacific, and at the American custom-houses.</p>
         </x:context>
 
         <x:scenario label="OCR transposition issues">
 
-            <x:expect-assert id="ocr-transposition-error-1l"
-                label="Number 1 followed by lower-case L" location="/tei:p[1]/text()" role="warn"/>
-            <x:expect-assert id="ocr-transposition-error-1l"
-                label="Lower-case L followed by number 1" location="/tei:p[2]/text()" role="warn"/>
+            <x:expect-assert id="ocr-transposition-error-l-as-1"
+                label="Number followed by lower-case L" location="/tei:p[1]/text()" role="warn"/>
+            <x:expect-assert id="ocr-transposition-error-l-as-1"
+                label="Lower-case L followed by number" location="/tei:p[2]/text()" role="warn"/>
+            <x:expect-assert id="ocr-transposition-error-l-as-1"
+                label="Lower-case L followed by number and vice versa" location="/tei:p[3]/text()" role="warn"/>
 
         </x:scenario>
 
