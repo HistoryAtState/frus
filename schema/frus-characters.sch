@@ -49,8 +49,8 @@
             <!-- flag mismatched orientation in pairs of quotes -->
             <assert role="warn" test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of
                 consecutive curly quotes: [<value-of
-                    select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
-                />]. Please verify the quotes or fix their open/close orientation.</assert>
+                    select="string-join(analyze-string(., '(\S*[’”][‘“]|[‘“][’”])\S*')/fn:match, '; ')"
+                />]. Please verify the quotes or fix their open/closed orientation.</assert>
 
             <!-- flag spaces surrounding colons and semi-colons -->
             <assert role="warn"
