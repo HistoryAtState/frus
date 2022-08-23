@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude">
+    xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
                 <author xml:id="Mandy">Mandy Chalou</author>
                 <author xml:id="Joe">Joe Wicentowski</author>
-                <author xml:id="Amanda" role="contributor">Amanda Ross</author>
-                <author xml:id="Virginia" role="contributor">Virginia Kinniburgh</author>
+                <author role="contributor" xml:id="Amanda">Amanda Ross</author>
+                <author role="contributor" xml:id="Virginia">Virginia Kinniburgh</author>
             </titleStmt>
             <publicationStmt>
                 <p>Released online as the prose and schema guidelines for the FRUS digital
@@ -22,13 +22,13 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="#Mandy" when="2011-08-30">Established modules required for FRUS elements
+            <change when="2011-08-30" who="#Mandy">Established modules required for FRUS elements
                 &amp; attributes</change>
-            <change who="#Joe" when="2011-08-31">Added frus:classification</change>
-            <change who="#Mandy" when="2011-08-31">Added frus:attachment</change>
-            <change who="#Joe" when="2011-08-31">Constrained @type values for list and div, and
+            <change when="2011-08-31" who="#Joe">Added frus:classification</change>
+            <change when="2011-08-31" who="#Mandy">Added frus:attachment</change>
+            <change when="2011-08-31" who="#Joe">Constrained @type values for list and div, and
                 @rend values for p and hi</change>
-            <change who="#Joe" when="2012-01-24">Started prose documentation and culled elements
+            <change when="2012-01-24" who="#Joe">Started prose documentation and culled elements
                 from the transcr and linking modules and various attribute classes</change>
         </revisionDesc>
     </teiHeader>
@@ -248,7 +248,7 @@
                                         </figure>
                                         <titlePart>Foreign Relations of the United States,
                                             1969–1976</titlePart>
-                                        <milestone unit="section" rend="hr"/>
+                                        <milestone rend="hr" unit="section"/>
                                         <titlePart>Volume II</titlePart>
                                         <titlePart>Organization and Management of U.S. Foreign
                                             Policy, 1969–1972</titlePart>
@@ -261,15 +261,15 @@
                                         <title level="s">General Editor</title>
                                         <docAuthor>Edward C. Keefer</docAuthor>
                                     </byline>
-                                    <milestone unit="section" rend="hr"/>
+                                    <milestone rend="hr" unit="section"/>
                                     <docImprint> United States Government Printing Office
                                         <lb/>Washington <lb/>2006 </docImprint>
                                 </titlePage>
-                                <pb n="[II]" xml:id="pg_II" facs="0003"/>
+                                <pb facs="0003" n="[II]" xml:id="pg_II"/>
                                 <titlePage>
                                     <docImprint>DEPARTMENT OF STATE PUBLICATION 11374<lb/> Office of
                                         the Historian<lb/> Bureau of Public Affairs</docImprint>
-                                    <milestone unit="section" rend="hr"/>
+                                    <milestone rend="hr" unit="section"/>
                                     <docImprint>For sale by the U.S. Government Printing Office<lb/>
                                         Superintendent of Documents, Mail Stop SSOP, Washington, DC
                                         20402-9328</docImprint>
@@ -286,11 +286,11 @@
                             <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                 <front>
                                     <titlePage/>
-                                    <div xml:id="preface" type="section">
+                                    <div type="section" xml:id="preface">
                                         <head>Preface</head>
                                         <p>This volume...</p>
                                     </div>
-                                    <div xml:id="toc" type="toc">
+                                    <div type="toc" xml:id="toc">
                                         <head>Contents</head>
                                         <list>
                                             <item>
@@ -366,11 +366,11 @@
                                 guide to ensure the nesting structure is correct.</p>
                             <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                 <body>
-                                    <div xml:id="comp1" type="compilation">
+                                    <div type="compilation" xml:id="comp1">
                                         <head>China</head>
-                                        <div xml:id="ch1" type="chapter">
+                                        <div type="chapter" xml:id="ch1">
                                             <head>October-November 1969</head>
-                                            <div n="1" xml:id="d1" type="document">
+                                            <div n="1" type="document" xml:id="d1">
                                                 <head>1. Memorandum of Conversation<note n="1"
                                                   type="source" xml:id="d1fn1">Source: Nixon
                                                   Library...</note></head>
@@ -378,11 +378,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div xml:id="comp2" type="compilation">
+                                    <div type="compilation" xml:id="comp2">
                                         <head>Japan</head>
-                                        <div xml:id="ch4" type="chapter">
+                                        <div type="chapter" xml:id="ch4">
                                             <head>October-November 1969</head>
-                                            <div n="50" xml:id="d50" type="document">
+                                            <div n="50" type="document" xml:id="d50">
                                                 <head>1. Memorandum of Conversation<note n="1"
                                                   type="source" xml:id="d1fn1">Source: Nixon
                                                   Library...</note></head>
@@ -427,7 +427,7 @@
                                     index</p>
                                 <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                     <back>
-                                        <div xml:id="index" type="section">
+                                        <div type="section" xml:id="index">
                                             <head>Index</head>
                                             <list>
                                                 <item>Abramowitz, Nathan <ref target="#d1"
@@ -684,7 +684,7 @@
                             such, no <att>n</att> or <att>xml:id</att> attributes should be
                             used):</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <note type="source" rend="inline">[Source: Johnson Library, National
+                            <note rend="inline" type="source">[Source: Johnson Library, National
                                 Security File, Vatican, Vol. 1. No classification marking. 2 pages
                                 of source text not declassified.]</note>
                         </egXML>
@@ -738,7 +738,7 @@
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <dateline>
                                 <placeName>United States Legation, Vienna</placeName>, <date
-                                    when="1870-10-03" calendar="gregorian">October 3, 1870</date>.
+                                    calendar="gregorian" when="1870-10-03">October 3, 1870</date>.
                                 (Received October 26.) </dateline>
                         </egXML>
                     </div>
@@ -786,58 +786,56 @@
 
                         <!-- Example 1: Simple @when, @calendar="gregorian" -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1950-06-08" calendar="gregorian">June 8, 1950</date>
+                            <date calendar="gregorian" when="1950-06-08">June 8, 1950</date>
                         </egXML>
                         <!-- Example 2: @when, parallel date statements, multiple @calendar values -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1904-03-09"
-                                calendar="chinese-era chinese-lunisolar gregorian">Kuanghsü XXX
-                                year, first moon, 23d day. (March 9, 1904.)</date>
+                            <date calendar="chinese-era chinese-lunisolar gregorian"
+                                when="1904-03-09">Kuanghsü XXX year, first moon, 23d day. (March 9,
+                                1904.)</date>
                         </egXML>
                         <!-- Example 3: @when, @calendar="hijri" only -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1901-08-18" calendar="hijri">Year 1319, Jamad-el-Ewel the
+                            <date calendar="hijri" when="1901-08-18">Year 1319, Jamad-el-Ewel the
                                 third</date>
                         </egXML>
 
                         <!-- Example 4: @from/@to -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date from="1943-01-22" to="1943-01-23" calendar="gregorian">January
+                            <date calendar="gregorian" from="1943-01-22" to="1943-01-23">January
                                 22–23, 1943</date>
                         </egXML>
 
                         <!-- Example 5: @from/@to/@ana undated, document head -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date from="1946-07-04T17:45:00+01:00" to="1946-07-04T18:50:00+01:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >July 4, 1946, 5:45 p.m. to 6:50 p.m.</date>
+                            <date ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian" from="1946-07-04T17:45:00+01:00"
+                                to="1946-07-04T18:50:00+01:00">July 4, 1946, 5:45 p.m. to 6:50
+                                p.m.</date>
                         </egXML>
                         <!-- Example 6: @when/@ana imprecise -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1969-04-01"
-                                ana="#date_imprecise-inferred-from-outside-research"
-                                calendar="gregorian">1969</date>
+                            <date ana="#date_imprecise-inferred-from-outside-research"
+                                calendar="gregorian" when="1969-04-01">1969</date>
                         </egXML>
                         <!-- Example 7: @when/@ana undated, document head -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1954-07-30T15:00:00-04:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >undated</date>
+                            <date ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian" when="1954-07-30T15:00:00-04:00">undated</date>
                         </egXML>
                         <!-- Example 8: @notBefore/@notAfter/@ana imprecise -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date notBefore="1915-04-01T00:00:00+00:00"
-                                notAfter="1915-04-30T23:59:59+00:00"
-                                ana="#date_imprecise-inferred-from-date-rules" when="1915-04"
-                                calendar="gregorian">
+                            <date ana="#date_imprecise-inferred-from-date-rules"
+                                calendar="gregorian" notAfter="1915-04-30T23:59:59+00:00"
+                                notBefore="1915-04-01T00:00:00+00:00" when="1915-04">
                                 <hi rend="italic">April 1915</hi>
                             </date>
                         </egXML>
                         <!-- Example 9: @notBefore/@notAfter/@ana undated -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date notBefore="1917-09-25T00:00:00-05:00"
-                                notAfter="1917-09-26T23:00:00-05:00"
-                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian">
+                            <date ana="#date_undated-inferred-from-sibling-dates"
+                                calendar="gregorian" notAfter="1917-09-26T23:00:00-05:00"
+                                notBefore="1917-09-25T00:00:00-05:00">
                                 <hi rend="italic">undated</hi>
                             </date>
                         </egXML>
@@ -1060,7 +1058,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:3.5.0">
+                <schemaSpec ident="frus" source="tei:3.5.0" start="TEI">
 
 
 
@@ -1074,24 +1072,27 @@
                     The first four listed here are required: core, tei, header, 
                     textstructure. -->
                     <desc>FRUS TEI Schema Spec</desc>
-                    <moduleRef key="core"
-                        include="p hi gloss term name date time ref list item head note graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
+                    <moduleRef
+                        include="p hi gloss term name date time ref list item head note graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"
+                        key="core"/>
                     <moduleRef key="tei"/>
-                    <moduleRef key="header"
-                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
-                    <moduleRef key="textstructure"
-                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"/>
-                    <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
-                    <moduleRef key="figures" include="table row cell figure figDesc"/>
+                    <moduleRef
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"
+                        key="header"/>
+                    <moduleRef
+                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"
+                        key="textstructure"/>
+                    <moduleRef include="persName placeName affiliation orgName" key="namesdates"/>
+                    <moduleRef include="table row cell figure figDesc" key="figures"/>
                     <!-- including the linking module gives us @corresp -->
-                    <moduleRef key="linking" include="anchor seg"/>
+                    <moduleRef include="anchor seg" key="linking"/>
                     <!-- including the transcr module gives us @facs -->
-                    <moduleRef key="transcr" include="facsimile space"/>
+                    <moduleRef include="facsimile space" key="transcr"/>
                     <!-- including the analysis module gives us @ana -->
-                    <moduleRef key="analysis" include=""/>
+                    <moduleRef include="" key="analysis"/>
 
                     <!-- remove all transcr attributes except for @facs -->
-                    <classSpec type="atts" module="linking" ident="att.global.linking" mode="change">
+                    <classSpec ident="att.global.linking" mode="change" module="linking" type="atts">
                         <attList>
                             <attDef ident="synch" mode="delete"/>
                             <attDef ident="sameAs" mode="delete"/>
@@ -1104,31 +1105,31 @@
                     </classSpec>
 
                     <!-- remove a few attributes (selective thinning): -->
-                    <classSpec type="atts" ident="att.breaking" mode="delete"/>
-                    <classSpec type="atts" ident="att.declarable" mode="delete"/>
-                    <classSpec type="atts" ident="att.declaring" mode="delete"/>
-                    <classSpec type="atts" ident="att.divLike" mode="change">
+                    <classSpec ident="att.breaking" mode="delete" type="atts"/>
+                    <classSpec ident="att.declarable" mode="delete" type="atts"/>
+                    <classSpec ident="att.declaring" mode="delete" type="atts"/>
+                    <classSpec ident="att.divLike" mode="change" type="atts">
                         <attList>
                             <attDef ident="org" mode="delete"/>
                             <attDef ident="sample" mode="delete"/>
                             <attDef ident="part" mode="delete"/>
                         </attList>
                     </classSpec>
-                    <classSpec type="atts" ident="att.docStatus" mode="delete"/>
-                    <classSpec type="atts" ident="att.editLike" mode="delete"/>
-                    <classSpec type="atts" ident="att.internetMedia" mode="delete"/>
-                    <classSpec type="atts" ident="att.fragmentable" mode="delete"/>
-                    <classSpec type="atts" ident="att.naming" mode="change">
+                    <classSpec ident="att.docStatus" mode="delete" type="atts"/>
+                    <classSpec ident="att.editLike" mode="delete" type="atts"/>
+                    <classSpec ident="att.internetMedia" mode="delete" type="atts"/>
+                    <classSpec ident="att.fragmentable" mode="delete" type="atts"/>
+                    <classSpec ident="att.naming" mode="change" type="atts">
                         <attList>
                             <attDef ident="nymRef" mode="delete"/>
                         </attList>
                     </classSpec>
-                    <classSpec type="atts" ident="att.personal" mode="delete"/>
+                    <classSpec ident="att.personal" mode="delete" type="atts"/>
 
                     <!-- 
                     remove attributes from <gap>, but ensure @quantity and @unit are available from att.dimensions
                     -->
-                    <elementSpec module="core" ident="gap" mode="change">
+                    <elementSpec ident="gap" mode="change" module="core">
                         <classes>
                             <memberOf key="att.global"/>
                             <memberOf key="model.global.edit"/>
@@ -1139,7 +1140,7 @@
                             <attDef ident="agent" mode="delete"/>
                         </attList>
                     </elementSpec>
-                    <classSpec type="atts" ident="att.dimensions" mode="change">
+                    <classSpec ident="att.dimensions" mode="change" type="atts">
                         <attList>
                             <attDef ident="extent" mode="delete"/>
                             <attDef ident="precision" mode="delete"/>
@@ -1150,7 +1151,7 @@
                     <!-- 
                     add frus:classification 
                     -->
-                    <elementSpec mode="add" ident="classification"
+                    <elementSpec ident="classification" mode="add"
                         ns="http://history.state.gov/frus/ns/1.0">
                         <desc>provides structured information about a classification marking</desc>
                         <classes mode="change">
@@ -1201,7 +1202,7 @@
                     <!-- 
                     add frus:attachment
                     -->
-                    <elementSpec mode="add" ident="attachment"
+                    <elementSpec ident="attachment" mode="add"
                         ns="http://history.state.gov/frus/ns/1.0">
                         <desc>Indicates the segment of a document where an attachment begins. To be
                             used for attachments, tabs, enclosures, etc. Like closer, may only be
@@ -1268,10 +1269,10 @@
                     <!-- 
                     constrain tei:list/@type
                     -->
-                    <elementSpec ident="list" module="core" mode="change">
+                    <elementSpec ident="list" mode="change" module="core">
                         <desc>Restrict @type values for tei:list elements</desc>
                         <attList>
-                            <attDef ident="type" usage="opt" mode="replace">
+                            <attDef ident="type" mode="replace" usage="opt">
                                 <valList type="closed">
                                     <valItem ident="participants">
                                         <gloss>A list of participants, attendees, recipients
@@ -1319,10 +1320,10 @@
                     <!-- 
                     constrain tei:div/@type | @subtype | @doc-dateTime-min | @doc-dateTime-max
                     -->
-                    <elementSpec ident="div" module="core" mode="change">
+                    <elementSpec ident="div" mode="change" module="core">
                         <desc>Restrict attribute values for tei:div elements</desc>
                         <attList>
-                            <attDef ident="type" usage="req" mode="replace">
+                            <attDef ident="type" mode="replace" usage="req">
                                 <valList type="closed">
                                     <valItem ident="document">
                                         <gloss>Document</gloss>
@@ -1344,7 +1345,7 @@
                                     </valItem>
                                 </valList>
                             </attDef>
-                            <attDef ident="subtype" usage="opt" mode="replace">
+                            <attDef ident="subtype" mode="replace" usage="opt">
                                 <valList type="closed">
                                     <valItem ident="about-frus-series">
                                         <gloss>About the Series</gloss>
@@ -1485,16 +1486,16 @@
                                     </valItem>
                                 </valList>
                             </attDef>
-                            <attDef ident="doc-dateTime-min"
-                                ns="http://history.state.gov/frus/ns/1.0" usage="opt" mode="add">
+                            <attDef ident="doc-dateTime-min" mode="add"
+                                ns="http://history.state.gov/frus/ns/1.0" usage="opt">
                                 <desc>A UTC-normalized form of the lower bound of the document's
                                     date (machine-derived from the dateline)</desc>
                                 <datatype>
                                     <rng:data type="dateTime"/>
                                 </datatype>
                             </attDef>
-                            <attDef ident="doc-dateTime-max"
-                                ns="http://history.state.gov/frus/ns/1.0" usage="opt" mode="add">
+                            <attDef ident="doc-dateTime-max" mode="add"
+                                ns="http://history.state.gov/frus/ns/1.0" usage="opt">
                                 <desc>A UTC-normalized form of the upper bound of the document's
                                     date (machine-derived from the dateline)</desc>
                                 <datatype>
@@ -1507,10 +1508,10 @@
                     <!-- 
                     constrain tei:hi/@rend
                     -->
-                    <elementSpec ident="hi" module="core" mode="change">
+                    <elementSpec ident="hi" mode="change" module="core">
                         <desc>Restrict @rend values for tei:hi elements</desc>
                         <attList>
-                            <attDef ident="rend" usage="req" mode="replace">
+                            <attDef ident="rend" mode="replace" usage="req">
                                 <valList type="closed">
                                     <valItem ident="strong">
                                         <gloss>Strong, bold</gloss>
@@ -1541,10 +1542,10 @@
                     <!-- 
                     constrain tei:p/@rend
                     -->
-                    <elementSpec ident="p" module="core" mode="change">
+                    <elementSpec ident="p" mode="change" module="core">
                         <desc>Restrict @rend values for tei:p elements</desc>
                         <attList>
-                            <attDef ident="rend" usage="opt" mode="replace">
+                            <attDef ident="rend" mode="replace" usage="opt">
                                 <valList type="closed">
                                     <valItem ident="flushleft">
                                         <gloss>Flush left</gloss>
@@ -1572,9 +1573,9 @@
                     <!-- 
                     constrain tei:pb/@type
                     -->
-                    <elementSpec ident="pb" module="core" mode="change">
+                    <elementSpec ident="pb" mode="change" module="core">
                         <attList>
-                            <attDef ident="type" usage="opt" mode="replace">
+                            <attDef ident="type" mode="replace" usage="opt">
                                 <desc>Restrict @type values for tei:pb elements</desc>
                                 <valList type="closed">
                                     <valItem ident="typeset">
@@ -1591,9 +1592,9 @@
                     <!-- 
                     constrain tei:date/@ana | @calendar | @type
                     -->
-                    <elementSpec ident="date" module="core" mode="change">
+                    <elementSpec ident="date" mode="change" module="core">
                         <attList>
-                            <attDef ident="ana" usage="opt" mode="replace">
+                            <attDef ident="ana" mode="replace" usage="opt">
                                 <desc>Restrict @ana values for tei:date elements</desc>
                                 <valList type="closed">
                                     <valItem ident="#date_apparent-typo-based-on-document-content">
@@ -1738,7 +1739,7 @@
                                 </valList>
                             </attDef>
 
-                            <attDef ident="calendar" usage="rec" mode="replace">
+                            <attDef ident="calendar" mode="replace" usage="rec">
                                 <desc>Restrict @calendar values for tei:date elements</desc>
                                 <datatype>
                                     <dataRef name="token"/>
@@ -1956,7 +1957,7 @@
                                 </valList>
                             </attDef>
 
-                            <attDef ident="type" usage="opt" mode="replace">
+                            <attDef ident="type" mode="replace" usage="rec">
                                 <desc>Restrict @type values for tei:date elements</desc>
                                 <valList type="closed">
                                     <valItem ident="content-date">
@@ -1982,8 +1983,15 @@
                                             17, 1958&lt;/hi&gt;&lt;/date&gt;</desc>
                                     </valItem>
                                     <valItem ident="creation-date">
-                                        <gloss/>
-                                        <desc/>
+                                        <gloss>The majority of documents will received creation
+                                            dates, such as the date supplied by the author or
+                                            finalizer of a memorandum, report, or letter, for
+                                            instance, or the date/time of the outgoing transmission
+                                            of a diplomatic cable or telegram.</gloss>
+                                        <desc>FRUS example(s): &lt;date when="1974-12-01"
+                                            type="creation-date" calendar="gregorian"&gt;&lt;hi
+                                            rend="italic"&gt;December 1,
+                                            1974&lt;/hi&gt;&lt;/date&gt;</desc>
                                     </valItem>
                                     <valItem ident="publication-date">
                                         <gloss>For published works such as newspaper articles,
@@ -2017,10 +2025,10 @@
                     constrain tei:head/@ana
                     -->
 
-                    <elementSpec ident="head" module="core" mode="change">
+                    <elementSpec ident="head" mode="change" module="core">
                         <desc>Restrict @ana values for tei:head elements</desc>
                         <attList>
-                            <attDef ident="ana" usage="opt" mode="replace">
+                            <attDef ident="ana" mode="replace" usage="opt">
                                 <valList type="closed">
                                     <valItem ident="#head_untitled-inferred-from-chapter-head">
                                         <gloss>The author and recipient were not included by the
@@ -2047,9 +2055,9 @@
                     </elementSpec>
 
                     <!-- support xinclude, copied from http://www.tei-c.org/Guidelines/Customization/odds.xml -->
-                    <elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" ident="include"
-                        ns="http://www.w3.org/2001/XInclude" mode="add">
-                        <desc xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
+                    <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude"
+                        xmlns:rng="http://relaxng.org/ns/structure/1.0">
+                        <desc versionDate="2014-01-12" xml:lang="en">The W3C XInclude element</desc>
                         <classes>
                             <memberOf key="model.common"/>
                             <memberOf key="model.teiHeaderPart"/>
@@ -2061,7 +2069,7 @@
                         </content>
                         <attList>
                             <attDef ident="href">
-                                <desc xml:lang="en" versionDate="2014-01-12">pointer to the resource
+                                <desc versionDate="2014-01-12" xml:lang="en">pointer to the resource
                                     being included</desc>
                                 <datatype>
                                     <rng:ref name="data.pointer"/>
@@ -2108,9 +2116,9 @@
                         </attList>
                     </elementSpec>
 
-                    <elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" ident="fallback"
-                        ns="http://www.w3.org/2001/XInclude" mode="add">
-                        <desc xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements
+                    <elementSpec ident="fallback" mode="add" ns="http://www.w3.org/2001/XInclude"
+                        xmlns:rng="http://relaxng.org/ns/structure/1.0">
+                        <desc versionDate="2014-01-12" xml:lang="en">Wrapper for fallback elements
                             if an XInclude fails</desc>
                         <content>
                             <oneOrMore xmlns="http://relaxng.org/ns/structure/1.0">

@@ -1645,8 +1645,43 @@ date =
         "us-republic"
       | xsd:token
     }?,
+    
+    ## Restrict @type values for tei:date elements
+    ## Suggested values include: 1] content-date (When a document is undated and the creation date cannot be adequately determined, the content date or date ranges (exact or estimated) may be used. Content dates may also be used for documents such as travel logs, as well as for editorial notes.); 2] conversation-or-meeting-date (For memcons [memoranda of conversation], meeting notes, and undated aides-memoires, the date of the conversation or meeting should be used, when determined.); 3] creation-date (The majority of documents will received creation dates, such as the date supplied by the author or finalizer of a memorandum, report, or letter, for instance, or the date/time of the outgoing transmission of a diplomatic cable or telegram.); 4] publication-date (For published works such as newspaper articles, periodicals, or monograph excerpts, the date of publication can be used and specified.); 5] received-date (For certain documents in the backlog (chiefly attachments), the explicitly stated received date may be the most precise date that can be applied and should be specified as such.)
+    
+    attribute type {
+      
+      ## (When a document is undated and the creation date cannot be adequately determined, the content date 
+      ##                                             or date ranges (exact or estimated) may be used. 
+      ##                                             Content dates may also be used for documents such as
+      ##                                             travel logs, as well as for editorial notes.) FRUS example(s):  &lt;dateline&gt;[&lt;date from="1908-05-01" to="1908-05-25" ana="#date_undated-inferred-from-document-content" type="content-date" calendar="gregorian" &gt;undated&lt;/date&gt;]&lt;/dateline&gt;
+      "content-date"
+      | 
+      ## (For memcons [memoranda of conversation], meeting notes, and undated aides-memoires, the date of
+      ##                                             the conversation or meeting should be used, when
+      ##                                             determined.) FRUS example(s): FRUS example(s): &lt;date when="1958-03-17" type="conversation-or-meeting-date" calendar="gregorian"&gt;&lt;hi rend="italic"&gt;March 17, 1958&lt;/hi&gt;&lt;/date&gt;
+      "conversation-or-meeting-date"
+      |
+      ## (The majority of documents will received creation dates, such as the date supplied by the author 
+      ##                                             or finalizer of a memorandum, report, or letter, for
+      ##                                             instance, or the date/time of the outgoing transmission
+      ##                                             of a diplomatic cable or telegram.) FRUS example(s): FRUS example(s): &lt;date when="1974-12-01" type="creation-date" calendar="gregorian"&gt;&lt;hi rend="italic"&gt;December 1, 1974&lt;/hi&gt;&lt;/date&gt; 
+      "creation-date"
+      |
+      ## (For published works such as newspaper articles, periodicals, or monograph excerpts, the date of
+      ##                                             publication can be used and specified.) FRUS example(s): &lt;date when="1977-01-20" ana="#date_undated-inferred-from-document-content" type="publication-date" calendar="gregorian"&gt;undated&lt;/date&gt;
+      "publication-date"
+      |
+      ## (For certain documents in the backlog (chiefly attachments), the explicitly stated received date
+      ##                                             may be the most precise date that can be applied and
+      ##                                             should be specified as such.) FRUS example(s): &lt;dateline rendition="#center"&gt;[Copy of a telegram from the minister of foreign affairs at &lt;placeName&gt;The Hague&lt;/placeName&gt;, received &lt;date when="1898-02-17" type="received-date"=calendar="gregorian"&gt;February 17, 1898&lt;/date&gt;, by the minister of the Netherlands, at Washington.]&lt;/dateline&gt;
+      "received-date"
+      | xsd:token
+    }?,
     empty
   }
+
+  
 time =
   
   ## contains a phrase defining a time of day in any format. [3.5.4. Dates and Times]
