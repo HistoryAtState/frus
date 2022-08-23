@@ -10,7 +10,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="tei:div[@type = 'document']">
+    <!-- For document div with datelines -->
+    <xsl:template match="tei:div[@type = 'document'][descendant::tei:dateline[not(ancestor::frus:attachment)]]">
         <xsl:choose>
 
             <!-- Add or update existing attributes where suitable date is found -->
@@ -36,7 +37,7 @@
             </xsl:when>
 
             <!-- Remove mistakenly added attributes-->
-
+            
             <xsl:otherwise>
                 <xsl:copy>
                     <xsl:apply-templates
