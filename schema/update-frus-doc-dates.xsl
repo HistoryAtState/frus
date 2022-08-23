@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:functx="http://www.functx.com" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs" version="3.0">
+<xsl:stylesheet exclude-result-prefixes="xs" version="3.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:functx="http://www.functx.com"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -10,7 +10,9 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="tei:div[@type = 'document']">
+    <!-- For document div with datelines -->
+    <xsl:template
+        match="tei:div[@type = 'document'][descendant::tei:dateline[not(ancestor::frus:attachment)]]">
         <xsl:choose>
 
             <!-- Add or update existing attributes where suitable date is found -->
@@ -110,11 +112,10 @@
 
     <!-- Functions borrowed from functx library -->
 
-    <xsl:function name="functx:days-in-month" as="xs:integer?" xmlns:functx="http://www.functx.com">
-        <xsl:param name="date" as="xs:anyAtomicType?"/>
+    <xsl:function as="xs:integer?" name="functx:days-in-month" xmlns:functx="http://www.functx.com">
+        <xsl:param as="xs:anyAtomicType?" name="date"/>
 
-        <xsl:sequence
-            select="
+        <xsl:sequence select="
                 if (month-from-date(xs:date($date)) = 2 and functx:is-leap-year($date)) then
                     29
                 else
@@ -122,11 +123,10 @@
 
     </xsl:function>
 
-    <xsl:function name="functx:is-leap-year" as="xs:boolean" xmlns:functx="http://www.functx.com">
-        <xsl:param name="date" as="xs:anyAtomicType?"/>
+    <xsl:function as="xs:boolean" name="functx:is-leap-year" xmlns:functx="http://www.functx.com">
+        <xsl:param as="xs:anyAtomicType?" name="date"/>
 
-        <xsl:sequence
-            select="
+        <xsl:sequence select="
                 for $year in xs:integer(substring(string($date), 1, 4))
                 return
                     ($year mod 4 = 0 and $year mod 100 != 0) or $year mod 400 = 0"/>
