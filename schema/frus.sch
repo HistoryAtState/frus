@@ -490,8 +490,6 @@
         <title>Image Checks</title>
         <rule context="tei:graphic">
             <assert test="@url">Missing @url attribute</assert>
-            <assert test="not(matches(@url, '\..{3,4}$'))">File extensions not allowed: <value-of
-                    select="@url"/></assert>
         </rule>
     </pattern>
 

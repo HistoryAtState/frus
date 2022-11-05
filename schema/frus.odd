@@ -1086,7 +1086,7 @@
                     <!-- including the linking module gives us @corresp -->
                     <moduleRef key="linking" include="anchor seg"/>
                     <!-- including the transcr module gives us @facs -->
-                    <moduleRef key="transcr" include="facsimile space"/>
+                    <moduleRef key="transcr" include="facsimile surface space"/>
                     <!-- including the analysis module gives us @ana -->
                     <moduleRef key="analysis" include=""/>
 
@@ -1116,7 +1116,6 @@
                     </classSpec>
                     <classSpec type="atts" ident="att.docStatus" mode="delete"/>
                     <classSpec type="atts" ident="att.editLike" mode="delete"/>
-                    <classSpec type="atts" ident="att.internetMedia" mode="delete"/>
                     <classSpec type="atts" ident="att.fragmentable" mode="delete"/>
                     <classSpec type="atts" ident="att.naming" mode="change">
                         <attList>
