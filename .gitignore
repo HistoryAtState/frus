@@ -1,6 +1,7 @@
 build/*
 .existdb.json
-.DS_Store
+.*
+!.gitignore
 schema/remove-classDecl.xsl
 schema/remove-add-classDecl.xsl
 schema/add-dc-namespace-to-root.xsl
