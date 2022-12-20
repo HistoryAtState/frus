@@ -13,8 +13,7 @@
     </xsl:accumulator>
     
     <xsl:accumulator name="document-ids" initial-value="()" as="xs:string*">
-        <xsl:accumulator-rule match="tei:div[tei:div/@type = 'document']" select="()"/>
-        <xsl:accumulator-rule match="tei:div[@type eq 'document']" select="($value, @xml:id)" phase="end"/>
+        <xsl:accumulator-rule match="tei:div" select="($value, @xml:id)" phase="end"/>
     </xsl:accumulator>
     
     <xsl:template match="tei:TEI">
@@ -22,7 +21,7 @@
             <div class="hsg-panel-heading hsg-toc__header">
                 <h4 class="hsg-sidebar-title">Contents</h4>
             </div>
-            <nav aria-label="Side navigation,,,">
+            <nav aria-label="Side navigation">
                 <ul class="hsg-toc__chapters">
                     <xsl:apply-templates select="tei:text"/>
                 </ul>
@@ -33,7 +32,7 @@
     <xsl:template match="tei:div[@xml:id][not(@type = ('document'))]">
         <xsl:variable name="accDocs" as="xs:string*" select="accumulator-after('document-nos')"/>
         <xsl:variable name="prevDocs" as="xs:string*" select="accumulator-before('document-nos')"/>
-        <xsl:variable name="docs" as="xs:string*" select="$accDocs[not(. = $prevDocs)]"/>
+        <xsl:variable name="docs" as="xs:string*" select="if (tei:div[@type eq 'document']) then $accDocs[not(. = $prevDocs)] else ()"/>
         <xsl:variable name="prevDocIDs" as="xs:string*" select="accumulator-before('document-ids')"/>
         <xsl:variable name="docIDs" as="xs:string*" select="accumulator-after('document-ids')[not(. = $prevDocIDs)]"/>
         <xsl:variable name="child_list" as="element(ul)?">
@@ -44,17 +43,17 @@
             </xsl:where-populated>
         </xsl:variable>
         <xsl:variable name="classes" as="xs:string*" select="(                 'hsg-toc__chapters__item',                 'js-accordion'[$child_list]             )"/>
-        <li data-tei-id="{@xml:id}" class="{string-join($classes, ' ')}">
+        <li class="{string-join($classes, ' ')}">
             
-            <xsl:if test="exists($docIDs) and tei:div[@type='document']">
-                <xsl:attribute name="data-tei-documents" select="string-join($docIDs, ' ')"/>
-            </xsl:if>
+            <a href="/historicaldocuments/{$documentID}/{@xml:id}" data-template="toc:highlight-current">
             
-            <a href="/historicaldocuments/{$documentID}/{@xml:id}">
+                <xsl:attribute name="data-template-current-ids" select="string-join(($docIDs), ' ')"/>
                 <xsl:apply-templates mode="html" select="tei:head"/>
                 <xsl:where-populated>
                     <span>
-                        <xsl:value-of select="(' (Document' || 's'[count($docs) gt 1] || ' ' || $docs[1] || '–'[count($docs) gt 1] || $docs[last()][count($docs) gt 1] || ')')[exists($docs)]"/>
+                        <xsl:value-of
+                            select="(' (Document' || 's'[count($docs) gt 1] || ' ' || $docs[1] || ' - '[count($docs) gt 1] || $docs[last()][count($docs) gt 1] || ')')[exists($docs)]"
+                        />
                     </span>
                 </xsl:where-populated>
             </a>
