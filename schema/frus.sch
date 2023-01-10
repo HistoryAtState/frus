@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <schema queryBinding="xslt3" xmlns="http://purl.oclc.org/dsdl/schematron"
     xmlns:ckbk="http://www.oreilly.com/XSLTCookbook" xmlns:functx="http://www.functx.com"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
@@ -16,6 +17,7 @@
     <extends href="dates-only-initial-review.sch"/>
     <extends href="frus-id-checks.sch"/>
     <extends href="frus-signatures.sch"/>
+    <extends href="frus-characters.sch"/>
 
     <!-- Define variables used by other patterns -->
     <let name="documents" value="//tei:div[@type = 'document']"/>
@@ -458,59 +460,6 @@
                 test="(matches(preceding::text()[1], '\s$') and matches(following::text()[1], '^\s')) or (matches(preceding::text()[1], '[^\s]$') and matches(following::text()[1], '^[^\s]'))"
                 >A line or page break element should have whitespace both before and after, or
                 neither when the break splits a word</assert>
-        </rule>
-    </pattern>
-
-    <pattern id="punctuation-orientation-and-placement-checks">
-        <title>Punctuation orientation &amp; placement checks</title>
-
-        <!-- check all text nodes (except those in catDesc elements, 
-            since the imported frus-dates taxonomy contains straight quotes) -->
-        <rule context="text()[not(parent::tei:catDesc | parent::tei:rendition)]">
-
-            <!-- flag unexpected space after an open quote -->
-            <assert role="warn" test="not(matches(., '[“‘] '))">Curly open quotation mark appears in
-                    [<value-of
-                    select="string-join(analyze-string(normalize-space(.), '\S*[“‘] \S*')/fn:match, '; ')"
-                />]. Please verify the quotation mark, correct it, or delete the trailing
-                space.</assert>
-
-            <!-- flag unexpected space before a close quote. exclude abbreviated numbers, e.g., ’70s -->
-            <assert role="warn" test="not(matches(., ' [”’][^\d]'))">Curly close quotation mark
-                appears in [<value-of
-                    select="string-join(analyze-string(normalize-space(.), '\S* [”’][^\d]\S*')/fn:match, '; ')"
-                />]. Please verify the quotation mark, correct it, or delete the leading
-                space.</assert>
-
-            <!-- flag mixed use of straight and curly. exclude measures of feet and inches, e.g., 6' or 5'2" -->
-            <assert role="warn" test="not(matches(., '\D[''&quot;]') and matches(., '[‘’“”]'))"
-                >Mixed use of straight and curly quotes. Please verify the quotes or change straight
-                to curly. Straight: [<value-of
-                    select="string-join(analyze-string(normalize-space(.), '\S*[''&quot;]\S*')/fn:match, '; ')"
-                />] // Curly: [<value-of
-                    select="string-join(analyze-string(normalize-space(.), '\S*[‘’“”]\S*')/fn:match, '; ')"
-                />] </assert>
-
-            <!-- flag all other instances of straight quotes. exclude measures of feet and inches -->
-            <assert role="warn" test="not(matches(., '\D[''&quot;]') and not(matches(., '[‘’“”]')))"
-                >Straight quotation marks found. Please verify the quotes or change them to curly.
-                    [<value-of
-                    select="string-join(analyze-string(normalize-space(.), '\S*[''&quot;]\S*')/fn:match, '; ')"
-                />] </assert>
-
-            <!-- flag mismatched orientation in pairs of quotes -->
-            <assert role="warn" test="not(matches(., '[’”][‘“]|[‘“][’”]'))">Mismatched pair of
-                consecutive curly quotes: [<value-of
-                    select="string-join(analyze-string(., '([’”][‘“]|[‘“][’”])')/fn:match, '; ')"
-                />]. Please verify the quotes or fix their open/close orientation.</assert>
-
-            <!-- flag spaces surrounding colons and semi-colons -->
-            <assert role="warn"
-                test="not(matches(replace(., '(\s+\.){3,}', ''), '^\s+[\.,:;?!>)\]\}]|[a-z]\s+[\.,:;?!>)\]\}]'))"
-                >Space preceding closing punctuation: [<value-of
-                    select="string-join(analyze-string(replace(., '(\s+\.){3,}', ''), '^(\s+[\.,:;?!>)\]\}]+)+|\w+(\s+[\.,:;?!>)\]\}]+)+')/fn:match ! ('“' || . || '”'), ', ')"
-                />]. Please verify the space or delete it.</assert>
-
         </rule>
     </pattern>
 

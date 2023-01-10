@@ -2894,7 +2894,8 @@
                     <div frus:doc-dateTime-max="1969-01-28T23:59:59-05:00"
                         frus:doc-dateTime-min="1969-01-28T00:00:00-05:00" n="1"
                         subtype="historical-document" type="document" xml:id="d1">
-                        <head>1. National Intelligence Estimate<note n="1" xml:id="d1fn1">
+                        <head>1. National Intelligence Estimate<note n="1" type="source"
+                                xml:id="d1fn1">
                                 <p><seg type="summary">Summary: This estimate provided a
                                         comprehensive assessment of Chilean President <persName
                                             corresp="#p_FME_1">Eduardo Frei</persName>’s
@@ -3807,7 +3808,7 @@
                         frus:doc-dateTime-min="1969-03-25T14:45:00-05:00" n="2"
                         subtype="historical-document" type="document" xml:id="d2">
                         <head>2. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d2fn1">
+                                n="1" type="source" xml:id="d2fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> reported on his conversation on
                                         economic policy with President Frei.</seg></p>
@@ -3997,7 +3998,7 @@
                         frus:doc-dateTime-min="1969-03-25T16:05:00-05:00" n="3"
                         subtype="historical-document" type="document" xml:id="d3">
                         <head>3. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d3fn1">
+                                n="1" type="source" xml:id="d3fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> reported on his discussion with Frei
                                         regarding political issues in Chile.</seg></p>
@@ -4051,7 +4052,8 @@
                         <head>4. Memorandum From <persName corresp="#p_NA_1">Arnold
                                 Nachmanoff</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d4fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d4fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NA_1"
                                             >Nachmanoff</persName> summarized a cable from <persName
                                             corresp="#p_KEM_1">Korry</persName> requesting that a
@@ -4206,7 +4208,8 @@
                         <head>5. Memorandum From <persName corresp="#p_VVP_1">Viron P.
                                 Vaky</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d5fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d5fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_VVP_1"
                                             >Vaky</persName> provided <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> with an update on the Chile
@@ -4267,7 +4270,7 @@
                         <head>6. Memorandum From the Acting Executive Secretary of the Department of
                             State (<persName corresp="#p_WJP_1">Walsh</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d6fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d6fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_WJP_1"
                                             >Walsh</persName> outlined the ramifications of the
                                         agreement between the Government of Chile and the Anaconda
@@ -4518,7 +4521,7 @@
                         frus:doc-dateTime-min="1969-08-06T00:00:00-05:00" n="7"
                         subtype="historical-document" type="document" xml:id="d7">
                         <head>7. Memorandum Prepared in the Office of National Estimates, Central
-                            Intelligence Agency<note n="1" xml:id="d7fn1">
+                            Intelligence Agency<note n="1" type="source" xml:id="d7fn1">
                                 <p><seg type="summary">Summary: This report assessed the strengths
                                         and weaknesses of the political parties in Chile as the 1970
                                         election loomed. It concluded that Alessandri’s ascent could
@@ -4977,7 +4980,7 @@
                         frus:doc-dateTime-min="1969-08-15T00:00:00-05:00" n="8"
                         subtype="historical-document" type="document" xml:id="d8">
                         <head>8. Central Intelligence Agency Weekly Review Special Report<note n="1"
-                                xml:id="d8fn1">
+                                type="source" xml:id="d8fn1">
                                 <p><seg type="summary">Summary: This Special Report, prepared in the
                                         Offices of Current Intelligence, Economic Research,
                                         Strategic Research, and in the Directorate of Science and
@@ -5232,7 +5235,7 @@
                         frus:doc-dateTime-min="1970-07-17T11:20:00-05:00" n="9"
                         subtype="historical-document" type="document" xml:id="d9">
                         <head>9. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d9fn1">
+                                n="1" type="source" xml:id="d9fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> conveyed his understanding of the
                                         political climate in Chile just prior to the 1970
@@ -5415,7 +5418,7 @@
                         frus:doc-dateTime-min="1970-07-17T18:34:00-05:00" n="10"
                         subtype="historical-document" type="document" xml:id="d10">
                         <head>10. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d10fn1">
+                                n="1" type="source" xml:id="d10fn1">
                                 <p><seg type="summary">Summary: In this continuation of telegram
                                         2714 (<ref target="#d9">Document 9</ref>), <persName
                                             corresp="#p_KEM_1">Korry</persName> gave a detailed
@@ -5716,7 +5719,8 @@
                     <div frus:doc-dateTime-max="1970-07-30T23:59:59-05:00"
                         frus:doc-dateTime-min="1970-07-30T00:00:00-05:00" n="11"
                         subtype="historical-document" type="document" xml:id="d11">
-                        <head>11. National Intelligence Estimate<note n="1" xml:id="d11fn1">
+                        <head>11. National Intelligence Estimate<note n="1" type="source"
+                                xml:id="d11fn1">
                                 <p><seg type="summary">Summary: This estimate examined the overall
                                         record of Chilean President <persName corresp="#p_FME_1"
                                             >Eduardo Frei</persName>’s administration, key forces
@@ -6583,7 +6587,7 @@
                         frus:doc-dateTime-min="1970-08-13T11:20:00-05:00" n="12"
                         subtype="historical-document" type="document" xml:id="d12">
                         <head>12. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d12fn1">
+                                n="1" type="source" xml:id="d12fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> expressed that if Phase I—the 40
                                         Committee’s program to channel covert funding to those
@@ -6661,7 +6665,8 @@
                         <head>13. Memorandum From the Chairman of the Interdepartmental Group for
                             Inter-American Affairs (<persName corresp="#p_MCA_1">Meyer</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d13fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d13fn1">
                                 <p><seg type="summary">Summary: The attached study, prepared in
                                         response to <gloss target="#t_NSSM_1">NSSM</gloss> 97,
                                         discussed the international and domestic implications if
@@ -7459,7 +7464,7 @@
                         subtype="historical-document" type="document" xml:id="d14">
                         <head>14. Annex to the Study Prepared in the Interdepartmental Group for
                             Inter-American Affairs In Response to National Security Study Memorandum
-                                97<note n="1" xml:id="d14fn1">
+                                97<note n="1" type="source" xml:id="d14fn1">
                                 <p><seg type="summary">Summary: This annex to the response to <gloss
                                             target="#t_NSSM_1">NSSM</gloss> 97 (<ref target="#d13"
                                             >Document 13</ref>) presented a fourth option not
@@ -7592,7 +7597,8 @@
                             to the Assistant Secretary of State for Inter-American Affairs
                                 (<persName corresp="#p_MCA_1">Meyer</persName>) and the Chief of the
                             Western Hemisphere Division, Central Intelligence Agency (<persName
-                                corresp="#p_BWV_1">Broe</persName>)<note n="1" xml:id="d15fn1">
+                                corresp="#p_BWV_1">Broe</persName>)<note n="1" type="source"
+                                xml:id="d15fn1">
                                 <p><seg type="summary">Summary: This message described a meeting
                                         between Chilean Under Secretary of Foreign Affairs <persName
                                             corresp="#p_SP_1">Patricio Silva</persName> and
@@ -7828,7 +7834,8 @@
                     <div frus:doc-dateTime-max="1970-08-31T23:59:59-05:00"
                         frus:doc-dateTime-min="1970-08-31T00:00:00-05:00" n="16"
                         subtype="historical-document" type="document" xml:id="d16">
-                        <head>16. Memorandum for the 40 Committee<note n="1" xml:id="d16fn1">
+                        <head>16. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d16fn1">
                                 <p><seg type="summary">Summary: This memorandum discussed options
                                         available to the U.S. Government to influence the outcome of
                                         the September 4 Chilean Presidential election and the
@@ -8123,7 +8130,7 @@
                         frus:doc-dateTime-min="1970-08-31T15:45:00-05:00" n="17"
                         subtype="historical-document" type="document" xml:id="d17">
                         <head>17. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d17fn1">
+                                n="1" type="source" xml:id="d17fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> reported on what to expect in the
                                         upcoming election.</seg></p>
@@ -8409,7 +8416,7 @@
                     <div frus:doc-dateTime-max="1970-09-07T23:59:59-05:00"
                         frus:doc-dateTime-min="1970-09-07T00:00:00-05:00" n="18"
                         subtype="historical-document" type="document" xml:id="d18">
-                        <head>18. Intelligence Memorandum<note n="1" xml:id="d18fn1">
+                        <head>18. Intelligence Memorandum<note n="1" type="source" xml:id="d18fn1">
                                 <p><seg type="summary">Summary: This <gloss target="#t_CIA_1"
                                             >CIA</gloss> memorandum contained a post-election
                                         forecast of an <persName corresp="#p_AGS_1"
@@ -8831,7 +8838,7 @@
                         frus:doc-dateTime-min="1970-09-14T23:00:00-05:00" n="19"
                         subtype="historical-document" type="document" xml:id="d19">
                         <head>19. Memorandum Prepared in the Central Intelligence Agency<note n="1"
-                                xml:id="d19fn1">
+                                type="source" xml:id="d19fn1">
                                 <p><seg type="summary">Summary: This memorandum recounted the
                                         operational details of U.S. covert actions in Chile in
                                         response to instructions from President <persName
@@ -8964,7 +8971,8 @@
                         <head>20. <gloss target="#t_Backchannel_1">Backchannel</gloss> Message From
                             the Ambassador to Chile (<persName corresp="#p_KEM_1">Korry</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d20fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d20fn1">
                                 <p><seg type="summary">Summary: This message described brief
                                         meetings between <persName corresp="#p_KEM_1"
                                             >Korry</persName> and top Chilean officials at a recent
@@ -9021,7 +9029,7 @@
                         frus:doc-dateTime-min="1970-09-19T16:03:00-05:00" n="21"
                         subtype="historical-document" type="document" xml:id="d21">
                         <head>21. Telegram From the Department of State to All American Republic
-                            Diplomatic Posts<note n="1" xml:id="d21fn1">
+                            Diplomatic Posts<note n="1" type="source" xml:id="d21fn1">
                                 <p><seg type="summary">Summary: This telegram transmitted the
                                         background briefing by U.S. “administration officials”
                                             (<persName corresp="#p_KHA_1">Kissinger</persName>) to
@@ -9149,7 +9157,7 @@
                         frus:doc-dateTime-min="1970-09-21T00:00:00-05:00" n="22"
                         subtype="historical-document" type="document" xml:id="d22">
                         <head>22. Message From the Central Intelligence Agency to the Station in
-                                Chile<note n="1" xml:id="d22fn1">
+                                Chile<note n="1" type="source" xml:id="d22fn1">
                                 <p><seg type="summary">Summary: The <gloss target="#t_CIA_1"
                                             >CIA</gloss> requested that <persName corresp="#p_KEM_1"
                                             >Korry</persName> let his actions in Chile be guided by
@@ -9229,7 +9237,7 @@
                             to the Assistant Secretary of State for Inter-American Affairs
                                 (<persName corresp="#p_MCA_1">Meyer</persName>) and the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d23fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d23fn1">
                                 <p><seg type="summary">Summary: This backchannel message described
                                         conversations between <persName corresp="#p_KEM_1"
                                             >Korry</persName> and Chilean Minister of Economy
@@ -9405,7 +9413,7 @@
                         frus:doc-dateTime-min="1970-09-22T11:15:00-05:00" n="24"
                         subtype="historical-document" type="document" xml:id="d24">
                         <head>24. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d24fn1">
+                                n="1" type="source" xml:id="d24fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> discussed the
                                         post-election political climate in Chile. He focused his
@@ -9600,7 +9608,7 @@
                             to the Under Secretary of State for Political Affairs (<persName
                                 corresp="#p_JUA_1">Johnson</persName>) and the President’s Assistant
                             for National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d25fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d25fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> reported on the political transition
                                         and post-election economic deterioration in Chile.</seg></p>
@@ -9774,7 +9782,7 @@
                                 corresp="#p_JUA_1">Johnson</persName>), the President’s Assistant
                             for National Security Affairs (<persName corresp="#p_KHA_1"
                                 >Kissinger</persName>), and the Chief of Station in Santiago ([<hi
-                                rend="italic">name not declassified</hi>])<note n="1"
+                                rend="italic">name not declassified</hi>])<note n="1" type="source"
                                 xml:id="d26fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> reported on his discussions with
@@ -10075,7 +10083,7 @@
                         frus:doc-dateTime-min="1970-10-01T00:00:00-05:00" n="27"
                         subtype="historical-document" type="document" xml:id="d27">
                         <head>27. Research Study Prepared in the Bureau of Intelligence and
-                                Research<note n="1" xml:id="d27fn1">
+                                Research<note n="1" type="source" xml:id="d27fn1">
                                 <p><seg type="summary">Summary: This study examined what problems
                                         would result from <persName corresp="#p_AGS_1"
                                             >Allende</persName>’s Presidency and whether a Communist
@@ -10234,7 +10242,7 @@
                             for Inter-American Affairs (<persName corresp="#p_LRG_1"
                                 >Leddy</persName>) to the Assistant Secretary of Defense for
                             International Security Affairs (<persName corresp="#p_NGW_1"
-                                >Nutter</persName>)<note n="1" xml:id="d28fn1">
+                                >Nutter</persName>)<note n="1" type="source" xml:id="d28fn1">
                                 <p><seg type="summary">Summary: This memorandum examined the effect
                                         a Marxist government in Chile would have on the security
                                         interests of the United States. It highlighted potential
@@ -10619,7 +10627,7 @@
                         frus:doc-dateTime-min="1970-10-26T11:30:00-05:00" n="29"
                         subtype="historical-document" type="document" xml:id="d29">
                         <head>29. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d29fn1">
+                                n="1" type="source" xml:id="d29fn1">
                                 <p><seg type="summary">Summary: In this telegram <persName
                                             corresp="#p_KEM_1">Korry</persName> discussed the
                                         hemispheric and European reaction to the new <persName
@@ -10783,7 +10791,7 @@
                                 >Irwin</persName>), the Chairman of the Joint Chiefs of Staff
                                 (<persName corresp="#p_MTH_1">Moorer</persName>), and Director of
                             Central Intelligence <persName corresp="#p_HR_1">Helms</persName><note
-                                n="1" xml:id="d30fn1">
+                                n="1" type="source" xml:id="d30fn1">
                                 <p><seg type="summary">Summary: The attached options paper was
                                         prepared in the Department of State, in conjunction with the
                                         Department of Defense and the <gloss target="#t_CIA_1"
@@ -11295,7 +11303,7 @@
                         frus:doc-dateTime-min="1970-10-29T19:26:00-05:00" n="31"
                         subtype="historical-document" type="document" xml:id="d31">
                         <head>31. Central Intelligence Agency Intelligence Information Cable<note
-                                n="1" xml:id="d31fn1">
+                                n="1" type="source" xml:id="d31fn1">
                                 <p><seg type="summary">Summary: This cable, titled “Offer of
                                             <persName corresp="#p_AGS_1">Salvador
                                         Allende</persName>, Chilean President-Elect, To Assist and
@@ -11448,7 +11456,7 @@
                         frus:doc-dateTime-min="1970-10-30T00:00:00-05:00" n="32"
                         subtype="historical-document" type="document" xml:id="d32">
                         <head>32. Intelligence Note Prepared in the Bureau of Intelligence and
-                                Research<note n="1" xml:id="d32fn1">
+                                Research<note n="1" type="source" xml:id="d32fn1">
                                 <p><seg type="summary">Summary: This note, titled “<gloss
                                             target="#t_USSR_1">USSR</gloss>-Chile: Soviets Still
                                         Play <persName corresp="#p_AGS_1">Allende</persName> in Low
@@ -11556,7 +11564,7 @@
                     <div frus:doc-dateTime-max="1970-11-03T23:59:59-05:00"
                         frus:doc-dateTime-min="1970-11-03T00:00:00-05:00" n="33"
                         subtype="historical-document" type="document" xml:id="d33">
-                        <head>33. Paper Prepared in the Department of State<note n="1"
+                        <head>33. Paper Prepared in the Department of State<note n="1" type="source"
                                 xml:id="d33fn1">
                                 <p><seg type="summary">Summary: The attached paper, a revision of
                                             <ref target="#d30">Document 30</ref>, outlined the
@@ -12235,7 +12243,7 @@
                         subtype="historical-document" type="document" xml:id="d34">
                         <head>34. Analytical Summary by <persName corresp="#p_VVP_1">Viron P.
                                 Vaky</persName> of the National Security Council Staff<note n="1"
-                                xml:id="d34fn1">
+                                type="source" xml:id="d34fn1">
                                 <p><seg type="summary">Summary: This analytical summary of the
                                         options paper prepared for the November 6 <gloss
                                             target="#t_NSC_1">NSC</gloss> meeting (<ref
@@ -12609,7 +12617,8 @@
                         frus:doc-dateTime-min="1970-11-05T00:00:00-05:00" n="35"
                         subtype="historical-document" type="document" xml:id="d35">
                         <head>35. Briefing by Director of Central Intelligence <persName
-                                corresp="#p_HR_1">Helms</persName><note n="1" xml:id="d35fn1">
+                                corresp="#p_HR_1">Helms</persName><note n="1" type="source"
+                                xml:id="d35fn1">
                                 <p><seg type="summary">Summary: In this briefing prepared for the
                                         November 6 <gloss target="#t_NSC_1">NSC</gloss> meeting,
                                             <persName corresp="#p_HR_1">Helms</persName> argued that
@@ -12928,7 +12937,7 @@
                         frus:doc-dateTime-min="1970-11-06T08:10:00-05:00" n="36"
                         subtype="historical-document" type="document" xml:id="d36">
                         <head>36. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d36fn1">
+                                n="1" type="source" xml:id="d36fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> discussed the
                                         situation in Chile since <persName corresp="#p_AGS_1"
@@ -13208,7 +13217,8 @@
                         <head>37. <gloss target="#t_Backchannel_1">Backchannel</gloss> Message From
                             the Ambassador to Chile (<persName corresp="#p_KEM_1">Korry</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d37fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d37fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> provided a detailed summary of
                                         U.S.-Chilean relations from January 1970 to September
@@ -13729,7 +13739,8 @@
                         subtype="historical-document" type="document" xml:id="d38">
                         <head>38. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_HR_1">Helms</persName> to President <persName
-                                corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d38fn1">
+                                corresp="#p_NRM_1">Nixon</persName><note n="1" type="source"
+                                xml:id="d38fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_HR_1"
                                             >Helms</persName> offered a post-mortem on the Chilean
                                         election and suggested that even with the risks inherent
@@ -14083,7 +14094,7 @@
                         frus:doc-dateTime-min="1970-11-18T00:00:00-05:00" n="39"
                         subtype="historical-document" type="document" xml:id="d39">
                         <head>39. Memorandum Prepared in the Central Intelligence Agency<note n="1"
-                                xml:id="d39fn1">
+                                type="source" xml:id="d39fn1">
                                 <p><seg type="summary">Summary: This memorandum, titled “Report on
                                             <gloss target="#t_CIA_1">CIA</gloss> Chilean Task Force
                                         Activities, 15 September to 3 November 1970,” examined the
@@ -14520,7 +14531,7 @@
                         <head>40. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
                                 <persName corresp="#p_NRM_1">Nixon</persName><note n="1"
-                                xml:id="d40fn1">
+                                type="source" xml:id="d40fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> summarized the differences between
                                         the Department of State and <gloss target="#t_CIA_1"
@@ -14686,7 +14697,8 @@
                     <div frus:doc-dateTime-max="1970-12-18T23:59:59-05:00"
                         frus:doc-dateTime-min="1970-12-18T00:00:00-05:00" n="41"
                         subtype="historical-document" type="document" xml:id="d41">
-                        <head>41. Memorandum for the 40 Committee<note n="1" xml:id="d41fn1">
+                        <head>41. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d41fn1">
                                 <p><seg type="summary">Summary: The paper attached to this
                                         memorandum, titled “Chilean Media Under a Marxist Regime,”
                                         outlined the various types of media in Chile and the
@@ -14876,7 +14888,7 @@
                         frus:doc-dateTime-min="1970-12-18T00:00:00-05:00" n="42"
                         subtype="historical-document" type="document" xml:id="d42">
                         <head>42. Memorandum Prepared in the Central Intelligence Agency<note n="1"
-                                xml:id="d42fn1">
+                                type="source" xml:id="d42fn1">
                                 <p><seg type="summary">Summary: This memorandum, titled “Chilean
                                         Facilitation of Subversive Activities in Latin America,”
                                         assessed the ability of <persName corresp="#p_AGS_1"
@@ -15171,7 +15183,7 @@
                             Working Group on Chile (<persName corresp="#p_CJH_1"
                             >Crimmins</persName>) to the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>)<note n="1"
-                                xml:id="d43fn1">
+                                type="source" xml:id="d43fn1">
                                 <p><seg type="summary">Summary: This memorandum transmitted the
                                         paper titled “Options for the United States in the Event of
                                         Expropriation of U.S. Business Interests by Chile,” for
@@ -15632,7 +15644,7 @@
                         frus:doc-dateTime-min="1971-01-05T16:54:00-05:00" n="44"
                         subtype="historical-document" type="document" xml:id="d44">
                         <head>44. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d44fn1">
+                                n="1" type="source" xml:id="d44fn1">
                                 <p><seg type="summary">Summary: In the first of four related
                                         telegrams titled “The Evident Becomes Obvious,” <persName
                                             corresp="#p_KEM_1">Korry</persName> discussed the
@@ -15765,7 +15777,7 @@
                         frus:doc-dateTime-min="1971-01-05T18:24:00-05:00" n="45"
                         subtype="historical-document" type="document" xml:id="d45">
                         <head>45. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d45fn1">
+                                n="1" type="source" xml:id="d45fn1">
                                 <p><seg type="summary">Summary: In this second of four related
                                         telegrams titled “The Evident Becomes Obvious,” <persName
                                             corresp="#p_KEM_1">Korry</persName> reported on the
@@ -15924,7 +15936,7 @@
                         frus:doc-dateTime-min="1971-01-06T11:50:00-05:00" n="46"
                         subtype="historical-document" type="document" xml:id="d46">
                         <head>46. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d46fn1">
+                                n="1" type="source" xml:id="d46fn1">
                                 <p><seg type="summary">Summary: In this third of four related
                                         telegrams titled “The Evident Becomes Obvious,” <persName
                                             corresp="#p_KEM_1">Korry</persName> discussed the
@@ -16148,7 +16160,7 @@
                         frus:doc-dateTime-min="1971-01-06T15:59:00-05:00" n="47"
                         subtype="historical-document" type="document" xml:id="d47">
                         <head>47. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d47fn1">
+                                n="1" type="source" xml:id="d47fn1">
                                 <p><seg type="summary">Summary: In this fourth of four related
                                         telegrams titled “The Evident Becomes Obvious,” <persName
                                             corresp="#p_KEM_1">Korry</persName> described <persName
@@ -16440,7 +16452,8 @@
                         <head>48. <gloss target="#t_Backchannel_1">Backchannel</gloss> Message From
                             the Ambassador to Chile (<persName corresp="#p_KEM_1">Korry</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d48fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d48fn1">
                                 <p><seg type="summary">Summary: In this message, <persName
                                             corresp="#p_KEM_1">Korry</persName> reported on the
                                         criticism of the <persName corresp="#p_AGS_1"
@@ -16501,7 +16514,7 @@
                         frus:doc-dateTime-min="1971-02-09T12:20:00-05:00" n="49"
                         subtype="historical-document" type="document" xml:id="d49">
                         <head>49. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d49fn1">
+                                n="1" type="source" xml:id="d49fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> reported on
                                         discussions with different officials in the <gloss
@@ -16669,7 +16682,7 @@
                     <div frus:doc-dateTime-max="1971-02-01T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-02-01T00:00:00-05:00" n="50"
                         subtype="historical-document" type="document" xml:id="d50">
-                        <head>50. Intelligence Memorandum<note n="1" xml:id="d50fn1">
+                        <head>50. Intelligence Memorandum<note n="1" type="source" xml:id="d50fn1">
                                 <p><seg type="summary">Summary: This memorandum provided an overview
                                         of the Chilean economy and discussed the impending conflicts
                                         between the <persName corresp="#p_AGS_1">Allende</persName>
@@ -17166,15 +17179,12 @@
                                 <cell role="num">55</cell>
                             </row>
                             <row>
-                                <cell>:tb,l0,r250,e310</cell>
-                            </row>
-                            <row>
                                 <cell>Estimated other</cell>
-                                <cell>24–124</cell>
+                                <cell role="num">24–124</cell>
                             </row>
                             <row>
                                 <cell>Total</cell>
-                                <cell>400–500</cell>
+                                <cell role="num">400–500</cell>
                             </row>
                         </table>
                         <p>19. Prior to <persName corresp="#p_AGS_1">Allende</persName>’s election,
@@ -17247,7 +17257,7 @@
                         frus:doc-dateTime-min="1971-02-12T17:15:00-05:00" n="51"
                         subtype="historical-document" type="document" xml:id="d51">
                         <head>51. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d51fn1">
+                                n="1" type="source" xml:id="d51fn1">
                                 <p><seg type="summary">Summary: This telegram outlined the emerging
                                         Chilean nationalization policy and set forth options for
                                         U.S. companies to pursue in the light of recent moves to
@@ -17417,7 +17427,7 @@
                         frus:doc-dateTime-min="1971-02-12T00:00:00-05:00" n="52"
                         subtype="historical-document" type="document" xml:id="d52">
                         <head>52. Paper Prepared by the Ad Hoc Interagency Working Group on
-                                Chile<note n="1" xml:id="d52fn1">
+                                Chile<note n="1" type="source" xml:id="d52fn1">
                                 <p><seg type="summary">Summary: This paper reviewed some possible
                                         policy options for the United States regarding its reaction
                                         to Chile’s expropriation policies. The alternatives ranged
@@ -17664,7 +17674,7 @@
                         frus:doc-dateTime-min="1971-02-16T08:10:00-05:00" n="53"
                         subtype="historical-document" type="document" xml:id="d53">
                         <head>53. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d53fn1">
+                                n="1" type="source" xml:id="d53fn1">
                                 <p><seg type="summary">Summary: This telegram reported on a meeting
                                             <persName corresp="#p_KEM_1">Korry</persName> had with
                                         Chilean Ambassador <persName corresp="#p_LSO_1">Orlando
@@ -17944,7 +17954,7 @@
                         frus:doc-dateTime-min="1971-02-16T08:10:00-05:00" n="54"
                         subtype="historical-document" type="document" xml:id="d54">
                         <head>54. Paper Prepared in the Department of Defense<note n="1"
-                                xml:id="d54fn1">
+                                type="source" xml:id="d54fn1">
                                 <p><seg type="summary">Summary: In view of the request by the
                                         Chilean military for a credit of $7 million to purchase
                                         military hardware on March 6, 1970, the Department of
@@ -18134,7 +18144,7 @@
                         frus:doc-dateTime-min="1971-02-16T08:10:00-05:00" n="55"
                         subtype="historical-document" type="document" xml:id="d55">
                         <head>55. Paper Prepared in the Department of Defense<note n="1"
-                                xml:id="d55fn1">
+                                type="source" xml:id="d55fn1">
                                 <p><seg type="summary">Summary: This paper recommended that the
                                         Senior Review Group approve sending tanks to Chile that it
                                         had already purchased.</seg></p>
@@ -18185,7 +18195,8 @@
                     <div frus:doc-dateTime-max="1971-03-15T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-03-15T00:00:00-05:00" n="56"
                         subtype="historical-document" type="document" xml:id="d56">
-                        <head>56. Memorandum for the 40 Committee<note n="1" xml:id="d56fn1">
+                        <head>56. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d56fn1">
                                 <p><seg type="summary">Summary: This progress report summarized
                                         actions taken in Chile since January 1971 when the 40
                                         Committee authorized $1,240,000 to support Chilean
@@ -18448,7 +18459,8 @@
                     <div frus:doc-dateTime-max="1971-04-02T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-03-18T00:00:00-05:00" n="57"
                         subtype="historical-document" type="document" xml:id="d57">
-                        <head>57. Joint Intelligence Memorandum<note n="1" xml:id="d57fn1">
+                        <head>57. Joint Intelligence Memorandum<note n="1" type="source"
+                                xml:id="d57fn1">
                                 <p><seg type="summary">Summary: This memorandum offered an
                                         assessment of political trends in Chile.</seg></p>
                                 <p><seg type="source">Source: National Archives, Nixon Presidential
@@ -18996,7 +19008,8 @@
                     <div frus:doc-dateTime-max="1971-04-02T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-04-02T00:00:00-05:00" n="58"
                         subtype="historical-document" type="document" xml:id="d58">
-                        <head>58. Memorandum for the 40 Committee<note n="1" xml:id="d58fn1">
+                        <head>58. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d58fn1">
                                 <p><seg type="summary">Summary: This memorandum provided a progress
                                         report on actions taken in preparation for the April 4
                                         elections in Chile.</seg></p>
@@ -19197,7 +19210,7 @@
                         <head>59. Conversation Between President <persName corresp="#p_NRM_1"
                                 >Nixon</persName> and the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d59fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d59fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName> and <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> discussed the recent elections in
@@ -19373,7 +19386,7 @@
                         frus:doc-dateTime-min="1971-04-12T17:05:00-05:00" n="60"
                         subtype="historical-document" type="document" xml:id="d60">
                         <head>60. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d60fn1">
+                                n="1" type="source" xml:id="d60fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> recounted <persName
                                             corresp="#p_AGS_1">Allende</persName>’s public
@@ -19561,7 +19574,8 @@
                     <div frus:doc-dateTime-max="1971-04-16T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-04-16T00:00:00-05:00" n="61"
                         subtype="historical-document" type="document" xml:id="d61">
-                        <head>61. Memorandum of Conversation<note n="1" xml:id="d61fn1">
+                        <head>61. Memorandum of Conversation<note n="1" type="source"
+                                xml:id="d61fn1">
                                 <p><seg type="summary">Summary: In his conversation with <persName
                                             corresp="#p_RWP_1">Rogers</persName> and <persName
                                             corresp="#p_MCA_1">Meyer</persName>, <persName
@@ -19685,7 +19699,8 @@
                     <div frus:doc-dateTime-max="1971-04-21T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-04-21T00:00:00-05:00" n="62"
                         subtype="historical-document" type="document" xml:id="d62">
-                        <head>62. Memorandum for the 40 Committee<note n="1" xml:id="d62fn1">
+                        <head>62. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d62fn1">
                                 <p><seg type="summary">Summary: This memorandum provided a
                                         post-April 4 status report which argued that, despite the
                                         fact that the <gloss target="#t_UP_1">UP</gloss> coalition
@@ -20022,7 +20037,7 @@
                         <head>63. Conversation Between President <persName corresp="#p_NRM_1"
                                 >Nixon</persName> and the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d63fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d63fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName> and <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> discussed how to handle <persName
@@ -20113,7 +20128,8 @@
                     <div frus:doc-dateTime-max="1971-04-27T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-04-27T00:00:00-05:00" n="64"
                         subtype="historical-document" type="document" xml:id="d64">
-                        <head>64. Memorandum for the 40 Committee<note n="1" xml:id="d64fn1">
+                        <head>64. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d64fn1">
                                 <p><seg type="summary">Summary: This memorandum informed the 40
                                         Committee of support for the Christian Democratic Party’s
                                         request for financial support to aid in the continuation of
@@ -20155,7 +20171,7 @@
                         frus:doc-dateTime-min="1971-04-28T14:35:00-05:00" n="65"
                         subtype="historical-document" type="document" xml:id="d65">
                         <head>65. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d65fn1">
+                                n="1" type="source" xml:id="d65fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> reported that
                                             <persName corresp="#p_AGS_1">Allende</persName> was not
@@ -20258,7 +20274,7 @@
                         frus:doc-dateTime-min="1971-05-05T18:30:00-05:00" n="66"
                         subtype="historical-document" type="document" xml:id="d66">
                         <head>66. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d66fn1">
+                                n="1" type="source" xml:id="d66fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> reported that in his
                                         meeting with <persName corresp="#p_AGS_1">Allende</persName>
@@ -20561,7 +20577,8 @@
                     <div frus:doc-dateTime-max="1971-05-20T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-05-20T00:00:00-05:00" n="67"
                         subtype="historical-document" type="document" xml:id="d67">
-                        <head>67. Memorandum for the 40 Committee<note n="1" xml:id="d67fn1">
+                        <head>67. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d67fn1">
                                 <p><seg type="summary">Summary: This memorandum stated that without
                                         a quick infusion of funds, the Christian Democratic Party
                                             (<gloss target="#t_PDC_1">PDC</gloss>) would be much
@@ -20665,7 +20682,8 @@
                         <head>68. Memorandum From <persName corresp="#p_NA_1">Arnold
                                 Nachmanoff</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d68fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d68fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NA_1"
                                             >Nachmanoff</persName> briefed <persName
                                             corresp="#p_KHA_1">Kissinger</persName> on the need for
@@ -20758,7 +20776,7 @@
                         frus:doc-dateTime-min="1971-05-26T13:35:00-05:00" n="69"
                         subtype="historical-document" type="document" xml:id="d69">
                         <head>69. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d69fn1">
+                                n="1" type="source" xml:id="d69fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> reported that negotiations between
                                         Chile and the Kennecott and Anaconda copper companies were
@@ -20880,7 +20898,7 @@
                         frus:doc-dateTime-min="1971-05-29T00:00:00-05:00" n="70"
                         subtype="historical-document" type="document" xml:id="d70">
                         <head>70. Paper Prepared by the Ad Hoc Interagency Working Group on
-                                Chile<note n="1" xml:id="d70fn1">
+                                Chile<note n="1" type="source" xml:id="d70fn1">
                                 <p><seg type="summary">Summary: This paper outlined the advantages
                                         and disadvantages of the Export-Import Bank providing
                                         funding for the Chilean national airline to purchase Boeing
@@ -21727,7 +21745,7 @@
                         frus:doc-dateTime-min="1971-06-01T13:15:00-05:00" n="71"
                         subtype="historical-document" type="document" xml:id="d71">
                         <head>71. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d71fn1">
+                                n="1" type="source" xml:id="d71fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
                                             corresp="#p_KEM_1">Korry</persName> recommended that the
                                         Export-Import Bank approve the financing of Chile’s purchase
@@ -21918,7 +21936,7 @@
                         frus:doc-dateTime-min="1971-06-01T13:15:00-05:00" n="72"
                         subtype="historical-document" type="document" xml:id="d72">
                         <head>72. Paper Prepared in the Department of Defense<note n="1"
-                                xml:id="d72fn1">
+                                type="source" xml:id="d72fn1">
                                 <p><seg type="summary">Summary: This paper detailed the advantages
                                         and disadvantages of U.S. assistance to Chile to purchase
                                         military equipment and presented options for the <gloss
@@ -22345,7 +22363,7 @@
                         frus:doc-dateTime-min="1971-06-03T14:09:00-05:00" n="73"
                         subtype="historical-document" type="document" xml:id="d73">
                         <head>73. Minutes of a Meeting of the Senior Review Group<note n="1"
-                                xml:id="d73fn1">
+                                type="source" xml:id="d73fn1">
                                 <p><seg type="summary">Summary: At this Senior Review Group meeting,
                                         participants discussed the possibility of extending credit
                                         for the purchase of Boeing aircraft, future restrictions on
@@ -23141,7 +23159,7 @@
                         frus:doc-dateTime-min="1971-06-07T00:00:00-05:00" n="74"
                         subtype="historical-document" type="document" xml:id="d74">
                         <head>74. Paper Prepared for the Senior Review Group<note n="1"
-                                xml:id="d74fn1">
+                                type="source" xml:id="d74fn1">
                                 <p><seg type="summary">Summary: This paper outlined the
                                         Export–Import Bank’s position on the Chilean request for a
                                         loan to purchase Boeing aircraft. Discussion focused on the
@@ -23278,7 +23296,7 @@
                                 >Nixon</persName>, Secretary of the Treasury <persName
                                 corresp="#p_CJB_1">Connally</persName>, and the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d75fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d75fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName>, <persName corresp="#p_CJB_1"
                                             >Connally</persName>, and <persName corresp="#p_KHA_1"
@@ -24138,7 +24156,8 @@
                         <head>76. Memorandum From <persName corresp="#p_NA_1">Arnold
                                 Nachmanoff</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d76fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d76fn1">
                                 <p><seg type="summary">Summary: This memorandum forwarded for
                                             <persName corresp="#p_KHA_1">Kissinger</persName>’s
                                         signature a memorandum to the Senior Review Group and
@@ -24206,7 +24225,7 @@
                     <div frus:doc-dateTime-max="1971-07-01T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-07-01T00:00:00-05:00" n="77"
                         subtype="historical-document" type="document" xml:id="d77">
-                        <head>77. Intelligence Memorandum<note n="1" xml:id="d77fn1">
+                        <head>77. Intelligence Memorandum<note n="1" type="source" xml:id="d77fn1">
                                 <p><seg type="summary">Summary: This memorandum dissected <persName
                                             corresp="#p_AGS_1">Allende</persName>’s economic
                                         policies for <gloss target="#t_FY_1">FY</gloss> 1971 and
@@ -24499,7 +24518,8 @@
                     <div frus:doc-dateTime-max="1971-08-04T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-08-04T00:00:00-05:00" n="78"
                         subtype="historical-document" type="document" xml:id="d78">
-                        <head>78. Special National Intelligence Estimate<note n="1" xml:id="d78fn1">
+                        <head>78. Special National Intelligence Estimate<note n="1" type="source"
+                                xml:id="d78fn1">
                                 <p><seg type="summary">Summary: This estimate included a detailed
                                         analysis of <persName corresp="#p_AGS_1"
                                         >Allende</persName>’s administration and highlighted the
@@ -25530,7 +25550,8 @@
                     <div frus:doc-dateTime-max="1971-08-11T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-08-11T00:00:00-05:00" n="79"
                         subtype="historical-document" type="document" xml:id="d79">
-                        <head>79. Draft Memorandum of Conversation<note n="1" xml:id="d79fn1">
+                        <head>79. Draft Memorandum of Conversation<note n="1" type="source"
+                                xml:id="d79fn1">
                                 <p><seg type="summary">Summary: During this conversation, U.S.
                                         officials and businessmen from the Anaconda Company
                                         discussed different means of negotiating with the Chileans
@@ -25824,7 +25845,7 @@
                         frus:doc-dateTime-min="1971-09-03T09:40:00-05:00" n="80"
                         subtype="historical-document" type="document" xml:id="d80">
                         <head>80. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d80fn1">
+                                n="1" type="source" xml:id="d80fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
                                             >Korry</persName> concluded that <persName
                                             corresp="#p_AGS_1">Allende</persName> was attempting,
@@ -25896,7 +25917,7 @@
                         frus:doc-dateTime-min="1971-09-07T00:00:00-05:00" n="81"
                         subtype="historical-document" type="document" xml:id="d81">
                         <head>81. Paper Prepared by the Ad Hoc Interagency Working Group on
-                                Chile<note n="1" xml:id="d81fn1">
+                                Chile<note n="1" type="source" xml:id="d81fn1">
                                 <p><seg type="summary">Summary: This paper outlined a strategy to
                                         avoid a confrontation with Chile on compensation for U.S.
                                         investments and argued that if the U.S. Government could
@@ -26525,7 +26546,8 @@
                     <div frus:doc-dateTime-max="1971-09-08T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-09-08T00:00:00-05:00" n="82"
                         subtype="historical-document" type="document" xml:id="d82">
-                        <head>82. Memorandum for the 40 Committee<note n="1" xml:id="d82fn1">
+                        <head>82. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d82fn1">
                                 <p><seg type="summary">Summary: This memorandum outlined the
                                         pressing situation facing the “bulwark against the regime of
                                         President <persName corresp="#p_AGS_1">Salvador
@@ -26705,7 +26727,8 @@
                         <head>83. Memorandum From <persName corresp="#p_NA_1">Arnold
                                 Nachmanoff</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d83fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d83fn1">
                                 <p><seg type="summary">Summary: This memorandum for <persName
                                             corresp="#p_KHA_1">Kissinger</persName> outlined the
                                         attached <gloss target="#t_CIA_1">CIA</gloss> assessment of
@@ -26921,7 +26944,7 @@
                         frus:doc-dateTime-min="1971-09-30T15:50:00-05:00" n="84"
                         subtype="historical-document" type="document" xml:id="d84">
                         <head>84. Telegram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d84fn1">
+                                n="1" type="source" xml:id="d84fn1">
                                 <p><seg type="summary">Summary: This telegram recounted <persName
                                             corresp="#p_KEM_1">Korry</persName>’s unsuccessful
                                         attempt to negotiate an informal agreement with <persName
@@ -27143,7 +27166,7 @@
                                 corresp="#p_CJB_1">Connally</persName>, the White House Chief of
                             Staff (Haldeman), and the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>)<note n="1"
-                                xml:id="d85fn1">
+                                type="source" xml:id="d85fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName>, <persName corresp="#p_CJB_1"
                                             >Connally</persName>, and <persName corresp="#p_KHA_1"
@@ -27336,7 +27359,7 @@
                     <div frus:doc-dateTime-max="1971-10-01T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-10-01T00:00:00-05:00" n="86"
                         subtype="historical-document" type="document" xml:id="d86">
-                        <head>86. Intelligence Memorandum<note n="1" xml:id="d86fn1">
+                        <head>86. Intelligence Memorandum<note n="1" type="source" xml:id="d86fn1">
                                 <p><seg type="summary">Summary: This <gloss target="#t_CIA_1"
                                             >CIA</gloss> assessment of Chile’s economy noted that
                                         while <persName corresp="#p_AGS_1">Allende</persName> had
@@ -27878,7 +27901,7 @@
                         frus:doc-dateTime-min="1971-10-14T00:00:00-05:00" n="87"
                         subtype="historical-document" type="document" xml:id="d87">
                         <head>87. Intelligence Note Prepared in the Bureau of Intelligence and
-                                Research<note n="1" xml:id="d87fn1">
+                                Research<note n="1" type="source" xml:id="d87fn1">
                                 <p><seg type="summary">Summary: This paper discussed the waning
                                         popularity of the <gloss target="#t_UP_1">UP</gloss> and
                                         suggested <persName corresp="#p_AGS_1">Allende</persName>
@@ -28006,7 +28029,8 @@
                     <div frus:doc-dateTime-max="1971-10-29T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-10-29T00:00:00-05:00" n="88"
                         subtype="historical-document" type="document" xml:id="d88">
-                        <head>88. Memorandum for the 40 Committee<note n="1" xml:id="d88fn1">
+                        <head>88. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d88fn1">
                                 <p><seg type="summary">Summary: This memorandum proposed additional
                                         funds for the three political parties opposed to the Unidad
                                         Popular (<gloss target="#t_UP_1">UP</gloss>) coalition of
@@ -28463,7 +28487,7 @@
                         frus:doc-dateTime-min="1971-11-01T00:00:00-05:00" n="89"
                         subtype="historical-document" type="document" xml:id="d89">
                         <head>89. Airgram From the Embassy in Chile to the Department of State<note
-                                n="1" xml:id="d89fn1">
+                                n="1" type="source" xml:id="d89fn1">
                                 <p><seg type="summary">Summary: This airgram summarized the Chilean
                                         Constitutional Reform Law for the nationalization of the
                                         major copper mines, providing a detailed analysis of the
@@ -28997,7 +29021,7 @@
                         frus:doc-dateTime-min="1971-11-03T00:00:00-05:00" n="90"
                         subtype="historical-document" type="document" xml:id="d90">
                         <head>90. Central Intelligence Agency Intelligence Information Cable<note
-                                n="1" xml:id="d90fn1">
+                                n="1" type="source" xml:id="d90fn1">
                                 <p><seg type="summary">Summary: This cable reported that <persName
                                             corresp="#p_AGS_1">Allende</persName> was going to
                                         personally handle the negotiations over compensation to the
@@ -29070,7 +29094,7 @@
                         frus:doc-dateTime-min="1971-11-15T00:00:00-05:00" n="91"
                         subtype="historical-document" type="document" xml:id="d91">
                         <head>91. Memorandum Prepared in the Central Intelligence Agency<note n="1"
-                                xml:id="d91fn1">
+                                type="source" xml:id="d91fn1">
                                 <p><seg type="summary">Summary: This memorandum outlined the state
                                         of the compensation controversy for expropriated U.S.
                                         businesses, the current political situation in Chile, and
@@ -29350,7 +29374,8 @@
                         frus:doc-dateTime-min="1971-11-23T00:00:00-05:00" n="92"
                         subtype="historical-document" type="document" xml:id="d92">
                         <head>92. Paper Prepared for the Senior Review Group by the Ad Hoc
-                            Interagency Working Group on Chile<note n="1" xml:id="d92fn1">
+                            Interagency Working Group on Chile<note n="1" type="source"
+                                xml:id="d92fn1">
                                 <p><seg type="summary">Summary: This paper reviewed U.S. objectives
                                         in Chile as the protection of U.S. interests, collection of
                                         compensation, and improvement of Chilean opposition forces,
@@ -29915,7 +29940,8 @@
                     <div frus:doc-dateTime-max="1971-12-10T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-12-10T00:00:00-05:00" n="93"
                         subtype="historical-document" type="document" xml:id="d93">
-                        <head>93. Memorandum for the 40 Committee<note n="1" xml:id="d93fn1">
+                        <head>93. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d93fn1">
                                 <p><seg type="summary">Summary: This memorandum requested funds to
                                         further strengthen the Chilean opposition by supporting two
                                         candidates in the January 1972 special election for two
@@ -30195,7 +30221,8 @@
                     <div frus:doc-dateTime-max="1971-12-01T23:59:59-05:00"
                         frus:doc-dateTime-min="1971-12-01T00:00:00-05:00" n="94"
                         subtype="historical-document" type="document" xml:id="d94">
-                        <head>94. Memorandum of Conversations<note n="1" xml:id="d94fn1">
+                        <head>94. Memorandum of Conversations<note n="1" type="source"
+                                xml:id="d94fn1">
                                 <p><seg type="summary">Summary: Chilean Senator Pedro Ibáñez of the
                                         National Party informed <gloss target="#t_NSC_1">NSC</gloss>
                                         Staff members <persName corresp="#p_NA_1"
@@ -30282,7 +30309,7 @@
                         <head>95. Attachments to a Memorandum From the Chairman of the Interagency
                             Committee on Debt Renegotiation (<persName corresp="#p_WS_1"
                                 >Weintraub</persName>) to the Senior Review Group<note n="1"
-                                xml:id="d95fn1">
+                                type="source" xml:id="d95fn1">
                                 <p><seg type="summary">Summary: These attachments to a January 12,
                                         1972, memorandum from <persName corresp="#p_WS_1"
                                             >Weintraub</persName> to the Senior Review Group
@@ -31178,7 +31205,7 @@
                         frus:doc-dateTime-min="1972-01-15T00:00:00-05:00" n="96"
                         subtype="historical-document" type="document" xml:id="d96">
                         <head>96. Central Intelligence Agency Intelligence Information Cable<note
-                                n="1" xml:id="d96fn1">
+                                n="1" type="source" xml:id="d96fn1">
                                 <p><seg type="summary">Summary: This cable reported that Chilean
                                         Army General <persName corresp="#p_CMA_1">Canales</persName>
                                         declared that his military coup movement was ready to move
@@ -31378,7 +31405,7 @@
                                 >Nixon</persName>, Secretary of the Treasury <persName
                                 corresp="#p_CJB_1">Connally</persName>, and the White House Chief of
                             Staff (<persName corresp="#p_HHR_1">Haldeman</persName>)<note n="1"
-                                xml:id="d97fn1">
+                                type="source" xml:id="d97fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName>, <persName corresp="#p_CJB_1"
                                             >Connally</persName>, and Haldeman discussed recent
@@ -31623,7 +31650,7 @@
                         <head>98. Conversation Between President <persName corresp="#p_NRM_1"
                                 >Nixon</persName> and the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d98fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d98fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName> and <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> discussed the Chilean loan
@@ -31776,7 +31803,8 @@
                     <div frus:doc-dateTime-max="1972-01-21T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-01-21T00:00:00-05:00" n="99"
                         subtype="historical-document" type="document" xml:id="d99">
-                        <head>99. Memorandum for the 40 Committee<note n="1" xml:id="d99fn1">
+                        <head>99. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d99fn1">
                                 <p><seg type="summary">Summary: This status report to the 40
                                         Committee on U.S. covert funding of opposition political
                                         parties in Chile recounted the dispersal of funds to each
@@ -31991,7 +32019,7 @@
                                 >Nixon</persName>, the President’s Assistant (<persName
                                 corresp="#p_FPM_1">Flanigan</persName>), and the White House Chief
                             of Staff (<persName corresp="#p_HHR_1">Haldeman</persName>)<note n="1"
-                                xml:id="d100fn1">
+                                type="source" xml:id="d100fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName>, <persName corresp="#p_FPM_1"
                                             >Flanigan</persName>, and Haldeman discussed possible
@@ -32199,7 +32227,7 @@
                         subtype="historical-document" type="document" xml:id="d101">
                         <head>101. Memorandum From the Chairman of the Ad Hoc Interagency Working
                             Group on Chile (<persName corresp="#p_MCA_1">Meyer</persName>) to the
-                            Working Group<note n="1" xml:id="d101fn1">
+                            Working Group<note n="1" type="source" xml:id="d101fn1">
                                 <p><seg type="summary">Summary: This memorandum outlined a proposal
                                         to the Ad Hoc Interagency Working Group on Chile that <gloss
                                             target="#t_AID_1">AID</gloss> grant $125,000 to the
@@ -32291,7 +32319,7 @@
                             Intelligence and Research (<persName corresp="#p_MW_1"
                             >McAfee</persName>) to the Director of the Bureau of Intelligence and
                             Research (<persName corresp="#p_CRS_1">Cline</persName>)<note n="1"
-                                xml:id="d102fn1">
+                                type="source" xml:id="d102fn1">
                                 <p><seg type="summary">Summary: This memorandum provided an overview
                                         of the discussion of the February 3 <gloss target="#t_ARA_1"
                                             >ARA</gloss>–<gloss target="#t_CIA_1">CIA</gloss>
@@ -32367,7 +32395,8 @@
                         subtype="historical-document" type="document" xml:id="d103">
                         <head>103. Conversation Between President <persName corresp="#p_NRM_1"
                                 >Nixon</persName> and Secretary of the Treasury <persName
-                                corresp="#p_CJB_1">Connally</persName><note n="1" xml:id="d103fn1">
+                                corresp="#p_CJB_1">Connally</persName><note n="1" type="source"
+                                xml:id="d103fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName> and <persName corresp="#p_CJB_1"
                                             >Connally</persName> discussed the Chilean
@@ -32481,7 +32510,7 @@
                         frus:doc-dateTime-min="1972-03-21T00:00:00-05:00" n="104"
                         subtype="historical-document" type="document" xml:id="d104">
                         <head>104. Memorandum Prepared in the Central Intelligence Agency<note n="1"
-                                xml:id="d104fn1">
+                                type="source" xml:id="d104fn1">
                                 <p><seg type="summary">Summary: This memorandum provided background
                                         information on covert political action in Chile since 1964
                                         for <gloss target="#t_DCI_1">DCI</gloss>
@@ -32771,7 +32800,7 @@
                         frus:doc-dateTime-min="1972-04-04T00:00:00-05:00" n="105"
                         subtype="historical-document" type="document" xml:id="d105">
                         <head>105. Memorandum Prepared in the Office of National Estimates, Central
-                            Intelligence Agency<note n="1" xml:id="d105fn1">
+                            Intelligence Agency<note n="1" type="source" xml:id="d105fn1">
                                 <p><seg type="summary">Summary: This Office of National Estimates’s
                                         assessment of the first year and a half of <persName
                                             corresp="#p_AGS_1">Allende</persName>’s Presidency noted
@@ -32968,7 +32997,8 @@
                         frus:doc-dateTime-min="1972-04-04T00:00:00-05:00" n="106"
                         subtype="historical-document" type="document" xml:id="d106">
                         <head>106. Paper Prepared for the Senior Review Group by the Ad Hoc
-                            Interagency Working Group on Chile<note n="1" xml:id="d106fn1">
+                            Interagency Working Group on Chile<note n="1" type="source"
+                                xml:id="d106fn1">
                                 <p><seg type="summary">Summary: This paper prepared for the Senior
                                         Review Group examined the political and economic
                                         developments in Chile during <persName corresp="#p_AGS_1"
@@ -33448,7 +33478,8 @@
                     <div frus:doc-dateTime-max="1972-04-06T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-04-06T00:00:00-05:00" n="107"
                         subtype="historical-document" type="document" xml:id="d107">
-                        <head>107. Memorandum for the 40 Committee<note n="1" xml:id="d107fn1">
+                        <head>107. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d107fn1">
                                 <p><seg type="summary">Summary: This memorandum provided a status
                                         report on the covert funding of opposition political parties
                                         in Chile. It outlined the purposes for which the funding was
@@ -33599,7 +33630,8 @@
                     <div frus:doc-dateTime-max="1972-04-10T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-04-10T00:00:00-05:00" n="108"
                         subtype="historical-document" type="document" xml:id="d108">
-                        <head>108. Memorandum for the 40 Committee<note n="1" xml:id="d108fn1">
+                        <head>108. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d108fn1">
                                 <p><seg type="summary">Summary: This memorandum requested additional
                                         funding for <hi rend="italic">El Mercurio</hi> to prevent
                                         the independent newspaper from going out of business and
@@ -33994,7 +34026,7 @@
                         <head>109. Memorandum From Michael Kozak of the Office of the Assistant
                             Legal Adviser for Inter-American Affairs to the Assistant Legal Adviser
                             for Inter-American Affairs (<persName corresp="#p_FMB_1"
-                                >Feldman</persName>)<note n="1" xml:id="d109fn1">
+                                >Feldman</persName>)<note n="1" type="source" xml:id="d109fn1">
                                 <p><seg type="summary">Summary: This memorandum set forth a legal
                                         framework for possible binding arbitration of the Chile-U.S.
                                         disputes.</seg></p>
@@ -34312,7 +34344,8 @@
                     <div frus:doc-dateTime-max="1972-04-19T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-04-19T00:00:00-05:00" n="110"
                         subtype="historical-document" type="document" xml:id="d110">
-                        <head>110. Memorandum for the 40 Committee<note n="1" xml:id="d110fn1">
+                        <head>110. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d110fn1">
                                 <p><seg type="summary">Summary: This memorandum requested funding
                                         for efforts to support the <gloss target="#t_PIR_1"
                                             >PIR</gloss> after it left the <gloss target="#t_UP_1"
@@ -34614,7 +34647,8 @@
                     <div frus:doc-dateTime-max="1972-05-11T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-05-11T00:00:00-05:00" n="111"
                         subtype="historical-document" type="document" xml:id="d111">
-                        <head>111. Memorandum for the 40 Committee<note n="1" xml:id="d111fn1">
+                        <head>111. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d111fn1">
                                 <p><seg type="summary">Summary: This memorandum examined the
                                         elections held at the University of Chile in April 1972. The
                                         contest was “an event of national importance” as the
@@ -34835,7 +34869,8 @@
                         <head>112. Memorandum From <persName corresp="#p_JWJ_1">William J.
                                 Jorden</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d112fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d112fn1">
                                 <p><seg type="summary">Summary: In this memorandum, <persName
                                             corresp="#p_JWJ_1">Jorden</persName> informed <persName
                                             corresp="#p_KHA_1">Kissinger</persName> of an
@@ -34916,7 +34951,8 @@
                                 Jorden</persName> and <persName corresp="#p_KRT_1">Richard T.
                                 Kennedy</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d113fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d113fn1">
                                 <p><seg type="summary">Summary: In this memorandum, <persName
                                             corresp="#p_JWJ_1">Jorden</persName> and <persName
                                             corresp="#p_KRT_1">Kennedy</persName> discussed the
@@ -34987,7 +35023,7 @@
                         frus:doc-dateTime-min="1972-06-12T17:43:00-05:00" n="114"
                         subtype="historical-document" type="document" xml:id="d114">
                         <head>114. Telegram From the Embassy in Chile to the Department of
-                                State<note n="1" xml:id="d114fn1">
+                                State<note n="1" type="source" xml:id="d114fn1">
                                 <p><seg type="summary">Summary: This telegram reported on a meeting
                                         between Davis and <persName corresp="#p_AGS_1"
                                             >Allende</persName>. During the discussion <persName
@@ -35200,7 +35236,8 @@
                     <div frus:doc-dateTime-max="1972-06-12T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-06-12T00:00:00-05:00" n="115"
                         subtype="historical-document" type="document" xml:id="d115">
-                        <head>115. Memorandum for the 40 Committee<note n="1" xml:id="d115fn1">
+                        <head>115. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d115fn1">
                                 <p><seg type="summary">Summary: This third status report to the 40
                                         Committee on U.S. support for the opposition in Chile
                                         discussed the electoral victories of each opposition
@@ -35632,7 +35669,8 @@
                     <div frus:doc-dateTime-max="1972-06-29T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-06-29T00:00:00-05:00" n="116"
                         subtype="historical-document" type="document" xml:id="d116">
-                        <head>116. National Intelligence Estimate<note n="1" xml:id="d116fn1">
+                        <head>116. National Intelligence Estimate<note n="1" type="source"
+                                xml:id="d116fn1">
                                 <p><seg type="summary">Summary: This National Intelligence Estimate,
                                         titled “Chile: The Alternatives Facing the <persName
                                             corresp="#p_AGS_1">Allende</persName> Regime,” outlined
@@ -37083,7 +37121,8 @@
                     <div frus:doc-dateTime-max="1972-08-15T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-08-15T00:00:00-05:00" n="117"
                         subtype="historical-document" type="document" xml:id="d117">
-                        <head>117. Memorandum for the 40 Committee<note n="1" xml:id="d117fn1">
+                        <head>117. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d117fn1">
                                 <p><seg type="summary">Summary: This fourth status report to the 40
                                         Committee on U.S. financial aid to opposition parties in
                                         Chile discussed the money given to Chilean parties and how
@@ -37506,7 +37545,8 @@
                     <div frus:doc-dateTime-max="1972-08-24T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-08-24T00:00:00-05:00" n="118"
                         subtype="historical-document" type="document" xml:id="d118">
-                        <head>118. Memorandum for the 40 Committee<note n="1" xml:id="d118fn1">
+                        <head>118. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d118fn1">
                                 <p><seg type="summary">Summary: This memorandum outlined a proposal
                                         for funding private-sector organizations, which would allow
                                         for countering <persName corresp="#p_AGS_1"
@@ -37647,7 +37687,8 @@
                     <div frus:doc-dateTime-max="1972-10-04T23:59:59-05:00"
                         frus:doc-dateTime-min="1972-10-04T00:00:00-05:00" n="119"
                         subtype="historical-document" type="document" xml:id="d119">
-                        <head>119. Memorandum of Conversation<note n="1" xml:id="d119fn1">
+                        <head>119. Memorandum of Conversation<note n="1" type="source"
+                                xml:id="d119fn1">
                                 <p><seg type="summary">Summary: Officers of the Departments of State
                                         and Treasury, and the Kennecott Copper Corporation discussed
                                         how to obtain compensation for expropriated investments.
@@ -37825,7 +37866,7 @@
                         <head>120. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_ETL_1">Eliot</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d120fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d120fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_ETL_1"
                                             >Eliot</persName> discussed the fallout from the
                                         Kennecott Copper Company’s decision to withdraw from using
@@ -37905,7 +37946,8 @@
                         <head>121. Memorandum From the Assistant Secretary of State for
                             Inter-American Affairs (<persName corresp="#p_MCA_1">Meyer</persName>)
                             to the Under Secretary of State for Political Affairs (<persName
-                                corresp="#p_JUA_1">Johnson</persName>)<note n="1" xml:id="d121fn1">
+                                corresp="#p_JUA_1">Johnson</persName>)<note n="1" type="source"
+                                xml:id="d121fn1">
                                 <p><seg type="summary">Summary: This memorandum requested <persName
                                             corresp="#p_JUA_1">Johnson</persName>’s approval of the
                                         proposal in the attached memorandum for the 40 Committee
@@ -38435,7 +38477,7 @@
                         frus:doc-dateTime-min="1972-10-18T00:00:00-05:00" n="122"
                         subtype="historical-document" type="document" xml:id="d122">
                         <head>122. Intelligence Note Prepared in the Bureau of Intelligence and
-                                Research<note n="1" xml:id="d122fn1">
+                                Research<note n="1" type="source" xml:id="d122fn1">
                                 <p><seg type="summary">Summary: This <gloss target="#t_INR_1"
                                             >INR</gloss> Intelligence Note reported that the surge
                                         in strikes in mid-1972 was politically and economically
@@ -38550,7 +38592,7 @@
                         frus:doc-dateTime-min="1972-10-30T00:00:00-05:00" n="123"
                         subtype="historical-document" type="document" xml:id="d123">
                         <head>123. Paper Prepared for the Ad Hoc Interagency Working Group on
-                                Chile<note n="1" xml:id="d123fn1">
+                                Chile<note n="1" type="source" xml:id="d123fn1">
                                 <p><seg type="summary">Summary: This contingency paper, titled
                                         “Possible Military Intervention,” examined the effects of
                                         the mid-1972 strikes in Chile and those “contingency
@@ -39095,7 +39137,7 @@
                         frus:doc-dateTime-min="1972-11-06T00:00:00-05:00" n="124"
                         subtype="historical-document" type="document" xml:id="d124">
                         <head>124. Intelligence Note Prepared in the Bureau of Intelligence and
-                                Research<note n="1" xml:id="d124fn1">
+                                Research<note n="1" type="source" xml:id="d124fn1">
                                 <p><seg type="summary">Summary: This report, titled “Chile: Cabinet
                                         Changes Should End Confrontation,” examined the appointment
                                         of three military officers to <persName corresp="#p_AGS_1"
@@ -39217,7 +39259,7 @@
                         frus:doc-dateTime-min="1972-11-22T20:01:00-05:00" n="125"
                         subtype="historical-document" type="document" xml:id="d125">
                         <head>125. Telegram From the Embassy in Chile to the Department of
-                                State<note n="1" xml:id="d125fn1">
+                                State<note n="1" type="source" xml:id="d125fn1">
                                 <p><seg type="summary">Summary: This telegram reported on a meeting
                                         in which <persName corresp="#p_LSO_1">Letelier</persName>
                                         urged Davis to arrange a high-level meeting between U.S.
@@ -39430,7 +39472,7 @@
                         frus:doc-dateTime-min="1972-11-30T00:00:00-05:00" n="126"
                         subtype="historical-document" type="document" xml:id="d126">
                         <head>126. Intelligence Note Prepared in the Bureau of Intelligence and
-                                Research<note n="1" xml:id="d126fn1">
+                                Research<note n="1" type="source" xml:id="d126fn1">
                                 <p><seg type="summary">Summary: This Intelligence Note, titled
                                         “Chile: Quest for the Unreachable,” examined <persName
                                             corresp="#p_AGS_1">Allende</persName>’s ongoing two-week
@@ -39567,7 +39609,7 @@
                         frus:doc-dateTime-min="1972-12-01T00:00:00-05:00" n="127"
                         subtype="historical-document" type="document" xml:id="d127">
                         <head>127. Paper Prepared in the Department of State<note n="1"
-                                xml:id="d127fn1">
+                                type="source" xml:id="d127fn1">
                                 <p><seg type="summary">Summary: This paper, titled “Chile Strategy,”
                                         examined the overall policies of <persName
                                             corresp="#p_AGS_1">Allende</persName> and the
@@ -39743,7 +39785,7 @@
                         frus:doc-dateTime-min="1973-01-10T00:00:00-05:00" n="128"
                         subtype="historical-document" type="document" xml:id="d128">
                         <head>128. Memorandum From the Central Intelligence Agency to the Ambassador
-                            to Chile (Davis)<note n="1" xml:id="d128fn1">
+                            to Chile (Davis)<note n="1" type="source" xml:id="d128fn1">
                                 <p><seg type="summary">Summary: This memorandum discussed the
                                         political climate in Chile leading up to the March 1973
                                         congressional elections. It predicted a split in the
@@ -39847,7 +39889,7 @@
                         frus:doc-dateTime-min="1973-01-11T00:00:00-05:00" n="129"
                         subtype="historical-document" type="document" xml:id="d129">
                         <head>129. Memorandum From the Central Intelligence Agency to the Ambassador
-                            to Chile (Davis)<note n="1" xml:id="d129fn1">
+                            to Chile (Davis)<note n="1" type="source" xml:id="d129fn1">
                                 <p><seg type="summary">Summary: This memorandum responded to
                                         questions raised by Ambassador <persName corresp="#p_DN_1"
                                             >Davis</persName> concerning the proposal to fund
@@ -39928,7 +39970,8 @@
                     <div frus:doc-dateTime-max="1973-02-08T23:59:59-05:00"
                         frus:doc-dateTime-min="1973-02-08T00:00:00-05:00" n="130"
                         subtype="historical-document" type="document" xml:id="d130">
-                        <head>130. Memorandum for the 40 Committee<note n="1" xml:id="d130fn1">
+                        <head>130. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d130fn1">
                                 <p><seg type="summary">Summary: This memorandum, titled “Chile:
                                         Request for Additional Funds for 4 March 1973 Congressional
                                         Elections, proposed additional covert financial support to
@@ -40304,7 +40347,7 @@
                             Intelligence and Research (<persName corresp="#p_GJR_1"
                                 >Gardner</persName>) to the Deputy Director for Coordination, Bureau
                             of Intelligence and Research (<persName corresp="#p_MW_1"
-                                >McAfee</persName>)<note n="1" xml:id="d131fn1">
+                                >McAfee</persName>)<note n="1" type="source" xml:id="d131fn1">
                                 <p><seg type="summary">Summary: This account of a discussion between
                                         Department of State and Central Intelligence Agency
                                         officials focused on recent discussions between <gloss
@@ -40662,7 +40705,7 @@
                         <head>132. Memorandum From the President’s Military Assistant (<persName
                                 corresp="#p_SB_1">Scowcroft</persName>) to the President’s Assistant
                             for National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d132fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d132fn1">
                                 <p><seg type="summary">Summary: This memorandum provided a
                                         chronology of White House involvement in covert efforts to
                                         influence the Chilean political situation from September 14
@@ -40839,7 +40882,8 @@
                     <div frus:doc-dateTime-max="1973-04-06T23:59:59-05:00"
                         frus:doc-dateTime-min="1973-04-06T00:00:00-05:00" n="133"
                         subtype="historical-document" type="document" xml:id="d133">
-                        <head>133. Memorandum for the 40 Committee<note n="1" xml:id="d133fn1">
+                        <head>133. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d133fn1">
                                 <p><seg type="summary">Summary: This memorandum, titled “Outcome of
                                         4 March 1973 Chilean Congressional Elections,” outlined the
                                         U.S. Government’s covert funding of the political parties
@@ -41354,7 +41398,8 @@
                             Division, Directorate of Plans, Central Intelligence Agency [<hi
                                 rend="italic">name not declassified</hi>] to Acting Assistant
                             Secretary of State for Inter-American Affairs (<persName
-                                corresp="#p_CJH_1">Crimmins</persName>)<note n="1" xml:id="d134fn1">
+                                corresp="#p_CJH_1">Crimmins</persName>)<note n="1" type="source"
+                                xml:id="d134fn1">
                                 <p><seg type="summary">Summary: In this memorandum the <gloss
                                             target="#t_CIA_1">CIA</gloss> passed on intelligence on
                                         a Chilean Air Force plot to oust <persName
@@ -41411,7 +41456,7 @@
                             Bureau of Intelligence and Research (<persName corresp="#p_GJR_1"
                                 >Gardner</persName>) to the Deputy Director of the Bureau of
                             Intelligence and Research (<persName corresp="#p_MW_1"
-                                >McAfee</persName>)<note n="1" xml:id="d135fn1">
+                                >McAfee</persName>)<note n="1" type="source" xml:id="d135fn1">
                                 <p><seg type="summary">Summary: This memorandum detailed a meeting
                                         among officials of <gloss target="#t_ARA_1">ARA</gloss>,
                                             <gloss target="#t_CIA_1">CIA</gloss>, and <gloss
@@ -41599,7 +41644,8 @@
                     <div frus:doc-dateTime-max="1973-06-14T23:59:59-05:00"
                         frus:doc-dateTime-min="1973-06-14T00:00:00-05:00" n="136"
                         subtype="historical-document" type="document" xml:id="d136">
-                        <head>136. National Intelligence Estimate<note n="1" xml:id="d136fn1">
+                        <head>136. National Intelligence Estimate<note n="1" type="source"
+                                xml:id="d136fn1">
                                 <p><seg type="summary">Summary: This estimate assessed the current
                                         situation in Chile, focusing on <persName corresp="#p_AGS_1"
                                             >Allende</persName>’s continuing efforts to consolidate
@@ -42109,7 +42155,8 @@
                         <head>137. Memorandum From <persName corresp="#p_JWJ_1">William J.
                                 Jorden</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d137fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d137fn1">
                                 <p><seg type="summary">Summary: In this memorandum, <persName
                                             corresp="#p_JWJ_1">Jorden</persName> discussed U.S.
                                         policy for the upcoming Paris Club meeting to address the
@@ -42193,7 +42240,8 @@
                     <div frus:doc-dateTime-max="1973-07-13T23:59:59-05:00"
                         frus:doc-dateTime-min="1973-07-13T00:00:00-05:00" n="138"
                         subtype="historical-document" type="document" xml:id="d138">
-                        <head>138. Memorandum for the 40 Committee<note n="1" xml:id="d138fn1">
+                        <head>138. Memorandum for the 40 Committee<note n="1" type="source"
+                                xml:id="d138fn1">
                                 <p><seg type="summary">Summary: This memorandum, titled “Chile:
                                         Request for Funds to Support Opposition Political Parties
                                         and Private Sector Organizations through June 1974,”
@@ -42492,7 +42540,7 @@
                     <div frus:doc-dateTime-max="1973-08-01T23:59:59-05:00"
                         frus:doc-dateTime-min="1973-08-01T00:00:00-05:00" n="139"
                         subtype="historical-document" type="document" xml:id="d139">
-                        <head>139. Intelligence Memorandum<note n="1" xml:id="d139fn1">
+                        <head>139. Intelligence Memorandum<note n="1" type="source" xml:id="d139fn1">
                                 <p><seg type="summary">Summary: This <gloss target="#t_CIA_1"
                                             >CIA</gloss> memorandum explored possible contingency
                                         plans for a successful military coup by examining three
@@ -42804,7 +42852,7 @@
                         frus:doc-dateTime-min="1973-08-24T00:00:00-05:00" n="140"
                         subtype="historical-document" type="document" xml:id="d140">
                         <head>140. Contingency Paper Prepared for the Interagency Ad Hoc Working
-                            Group on Chile<note n="1" xml:id="d140fn1">
+                            Group on Chile<note n="1" type="source" xml:id="d140fn1">
                                 <p><seg type="summary">Summary: This paper, titled “Possible Chilean
                                         Military Intervention,” examined the political polarization
                                         and economic deterioration of Chile since the election of
@@ -43449,7 +43497,8 @@
                             Secretary of State for Inter-American Affairs (<persName
                                 corresp="#p_KJB_1">Kubisch</persName>) and the Deputy Assistant
                             Secretary of State for Inter-American Affairs (<persName
-                                corresp="#p_SH_2">Shlaudeman</persName>)<note n="1" xml:id="d141fn1">
+                                corresp="#p_SH_2">Shlaudeman</persName>)<note n="1" type="source"
+                                xml:id="d141fn1">
                                 <p><seg type="summary">Summary: Excerpts from <persName
                                             corresp="#p_KJB_1">Kubisch</persName>’s and <persName
                                             corresp="#p_SH_2">Shlaudeman</persName>’s testimony
@@ -43638,7 +43687,8 @@
                         <head>142. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_PTR_1">Pickering</persName>) to the
                             President’s Deputy Assistant for National Security Affairs (<persName
-                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" xml:id="d142fn1">
+                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" type="source"
+                                xml:id="d142fn1">
                                 <p><seg type="summary">Summary: This memorandum transmitted a
                                         Department of State paper that summarized the U.S.
                                         Government’s efforts to gain compensation for U.S.
@@ -43773,7 +43823,8 @@
                         <head>143. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_PTR_1">Pickering</persName>) to the
                             President’s Deputy Assistant for National Security Affairs (<persName
-                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" xml:id="d143fn1">
+                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" type="source"
+                                xml:id="d143fn1">
                                 <p><seg type="summary">Summary: This memorandum transmitted a
                                         Department of State paper, titled “Economic Assistance Needs
                                         of the New Chilean Government and Possible Responses,” that
@@ -44157,7 +44208,8 @@
                         <head>144. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_PTR_1">Pickering</persName>) to the
                             President’s Deputy Assistant for National Security Affairs (<persName
-                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" xml:id="d144fn1">
+                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" type="source"
+                                xml:id="d144fn1">
                                 <p><seg type="summary">Summary: This memorandum discussed a
                                         proposal, made by Senators Javits and <persName
                                             corresp="#p_MGW_1">McGee</persName>, to have President
@@ -44231,7 +44283,7 @@
                         <head>145. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_CWE_1">Colby</persName> to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_KHA_1"
-                                >Kissinger</persName>)<note n="1" xml:id="d145fn1">
+                                >Kissinger</persName>)<note n="1" type="source" xml:id="d145fn1">
                                 <p><seg type="summary">Summary: This memorandum summarized the U.S.
                                         covert action program in Chile since 1970.</seg></p>
                                 <p><seg type="source">Source: National Archives, Nixon Presidential
@@ -44639,7 +44691,7 @@
                         frus:doc-dateTime-min="1970-08-05T00:00:00-05:00" n="146"
                         subtype="historical-document" type="document" xml:id="d146">
                         <head>146. Chronology Prepared for the Washington Special Actions Group<note
-                                n="1" xml:id="d146fn1">
+                                n="1" type="source" xml:id="d146fn1">
                                 <p><seg type="summary">Summary: This chronology, titled
                                         “Washington–Santiago Exchanges Bearing on Role of Chilean
                                         Military in <persName corresp="#p_AGS_1">Allende</persName>
@@ -44979,7 +45031,7 @@
                         frus:doc-dateTime-min="1970-03-25T00:00:00-05:00" n="147"
                         subtype="historical-document" type="document" xml:id="d147">
                         <head>147. Chronology Prepared for the Washington Special Actions Group<note
-                                n="1" xml:id="d147fn1">
+                                n="1" type="source" xml:id="d147fn1">
                                 <p><seg type="summary">Summary: This chronology, titled “Chile:
                                         Chronology From DDC Files—1970,” summarized the U.S. covert
                                         actions undertaken to prevent <persName corresp="#p_AGS_1"
@@ -45563,7 +45615,8 @@
                         <head>148. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_PTR_1">Pickering</persName>) to the
                             President’s Deputy Assistant for National Security Affairs (<persName
-                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" xml:id="d148fn1">
+                                corresp="#p_SB_1">Scowcroft</persName>)<note n="1" type="source"
+                                xml:id="d148fn1">
                                 <p><seg type="summary">Summary: This memorandum transmitted
                                         background and briefing papers on Chile for Secretary of
                                         State-designate <persName corresp="#p_KHA_1">Henry
@@ -46019,7 +46072,8 @@
                         <head>149. Memorandum From <persName corresp="#p_JWJ_1">William J.
                                 Jorden</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d149fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d149fn1">
                                 <p><seg type="summary">Summary: The memorandum responded to
                                         allegations made in the September 16 edition of the <hi
                                             rend="italic">Washington Post</hi> that the United
@@ -46564,7 +46618,7 @@
                         <head>150. Transcript of a Telephone Conversation Between the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
                                 >Kissinger</persName>) and Senator <persName corresp="#p_CF_1">Frank
-                                Church</persName><note n="1" xml:id="d150fn1">
+                                Church</persName><note n="1" type="source" xml:id="d150fn1">
                                 <p><seg type="summary">Summary: During this telephone conversation
                                         with <persName corresp="#p_KHA_1">Kissinger</persName>,
                                         Church expressed concern for the plight of Chilean citizens
@@ -46643,7 +46697,8 @@
                         subtype="historical-document" type="document" xml:id="d151">
                         <head>151. Transcript of a Telephone Conversation Between Frank Mankiewicz
                             and the President’s Assistant for National Security Affairs (<persName
-                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" xml:id="d151fn1">
+                                corresp="#p_KHA_1">Kissinger</persName>)<note n="1" type="source"
+                                xml:id="d151fn1">
                                 <p><seg type="summary">Summary: Following up on Church’s telephone
                                         call that morning, Frank Mankiewicz called <persName
                                             corresp="#p_KHA_1">Kissinger</persName> to discuss in
@@ -46794,7 +46849,7 @@
                         frus:doc-dateTime-min="1973-09-20T15:55:00-05:00" n="152"
                         subtype="historical-document" type="document" xml:id="d152">
                         <head>152. Telegram From the Department of State to the Embassy in
-                                Chile<note n="1" xml:id="d152fn1">
+                                Chile<note n="1" type="source" xml:id="d152fn1">
                                 <p><seg type="summary">Summary: After the daily news briefing on
                                         September 20, the Department instructed the Embassy to
                                         redouble its efforts to contact any U.S. citizens detained
@@ -46835,7 +46890,7 @@
                         frus:doc-dateTime-min="1973-09-20T19:04:00-05:00" n="153"
                         subtype="historical-document" type="document" xml:id="d153">
                         <head>153. Telegram From the Department of State to the Embassy in
-                                Chile<note n="1" xml:id="d153fn1">
+                                Chile<note n="1" type="source" xml:id="d153fn1">
                                 <p><seg type="summary">Summary: During the daily news briefing on
                                         September 20—which took place between <persName
                                             corresp="#p_KHA_1">Kissinger</persName>’s telephone
@@ -47069,7 +47124,7 @@
                         frus:doc-dateTime-min="1973-09-20T19:36:00-05:00" n="154"
                         subtype="historical-document" type="document" xml:id="d154">
                         <head>154. Telegram From the Embassy in Chile to the Department of
-                                State<note n="1" xml:id="d154fn1">
+                                State<note n="1" type="source" xml:id="d154fn1">
                                 <p><seg type="summary">Summary: In response to previous instructions
                                         from the Department, the Embassy reported on its ongoing
                                         efforts to contact U.S. citizens either missing or detained
@@ -47116,7 +47171,7 @@
                         frus:doc-dateTime-min="1973-09-21T12:15:00-05:00" n="155"
                         subtype="historical-document" type="document" xml:id="d155">
                         <head>155. Telegram From the Embassy in Chile to the Department of
-                                State<note n="1" xml:id="d155fn1">
+                                State<note n="1" type="source" xml:id="d155fn1">
                                 <p><seg type="summary">Summary: This telegram discussed a recent
                                         Chilean military request for funds to procure weaponry.
                                         Given the multiple recent requests by the Chilean military,
@@ -47173,7 +47228,7 @@
                         frus:doc-dateTime-min="1973-09-23T16:54:00-05:00" n="156"
                         subtype="historical-document" type="document" xml:id="d156">
                         <head>156. Telegram From the Embassy in Chile to the Department of
-                                State<note n="1" xml:id="d156fn1">
+                                State<note n="1" type="source" xml:id="d156fn1">
                                 <p><seg type="summary">Summary: The Embassy continued its efforts to
                                         account for the welfare and whereabouts of U.S. citizens in
                                         Chile, including journalist <persName corresp="#p_HC_1"
@@ -47226,7 +47281,7 @@
                         frus:doc-dateTime-min="1973-09-24T17:16:00-05:00" n="157"
                         subtype="historical-document" type="document" xml:id="d157">
                         <head>157. Telegram From the Department of State to the Embassy in
-                                Chile<note n="1" xml:id="d157fn1">
+                                Chile<note n="1" type="source" xml:id="d157fn1">
                                 <p><seg type="summary">Summary: The Department instructed the
                                         Embassy to file a status report on the welfare and
                                         whereabouts of <persName corresp="#p_HC_1">Charles
