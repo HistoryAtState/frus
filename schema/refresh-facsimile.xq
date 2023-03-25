@@ -20,29 +20,33 @@ declare variable $path external;
 declare variable $vol := doc($path)/tei:TEI;
 declare variable $vol-id := $vol/@xml:id;
 
-let $path-to-exifs := "file:/Users/joe/workspace/s3-frus-images/static.history.state.gov/exiftool/"
-let $exifs := doc($path-to-exifs || $vol-id || "-exiftool.xml")//rdf:Description
-let $pbs := $vol//tei:pb 
-let $surfaces := 
-    for $pb in $pbs
-    let $facs := $pb/@facs
-    let $tiff := $exifs[@rdf:about eq $vol-id || "/tiff/" || $facs || ".tif"]
-    let $tiff-width := $tiff/IFD0:ImageWidth
-    let $tiff-height := $tiff/IFD0:ImageHeight
-    let $png := $exifs[@rdf:about eq $vol-id || "/medium/" || $facs || ".png"]
-    let $png-width := $png/PNG:ImageWidth
-    let $png-height := $png/PNG:ImageHeight
-    return
-        <surface xmlns="http://www.tei-c.org/ns/1.0" start="#{$pb/@xml:id}">
-            <graphic url="{``[https://static.history.state.gov/frus/`{ $vol-id }`/tiff/`{ $facs }`.tif]``}" mimeType="image/tiff" width="{ $tiff-width }px" height="{ $tiff-height }px"/>
-            <graphic url="{``[https://static.history.state.gov/frus/`{ $vol-id }`/medium/`{ $facs }`.png]``}" mimeType="image/png" width="{ $png-width }px" height="{ $png-height }px"/>
-        </surface>
-let $facsimile :=
-    <facsimile xmlns="http://www.tei-c.org/ns/1.0">
-        { $surfaces }
-    </facsimile>
+let $path-to-exifs := "https://static.history.state.gov/frus/" || $vol-id || "/exif.xml"
 return
-    if ($vol/tei:facsimile) then
-        replace node $vol/tei:facsimile with $facsimile
+    if (doc-available($path-to-exifs)) then
+        let $exifs := doc($path-to-exifs)//rdf:Description
+        let $pbs := $vol//tei:pb 
+        let $surfaces := 
+            for $pb in $pbs
+            let $facs := $pb/@facs
+            let $tiff := $exifs[@rdf:about eq "tiff/" || $facs || ".tif"]
+            let $tiff-width := $tiff/IFD0:ImageWidth
+            let $tiff-height := $tiff/IFD0:ImageHeight
+            let $png := $exifs[@rdf:about eq "medium/" || $facs || ".png"]
+            let $png-width := $png/PNG:ImageWidth
+            let $png-height := $png/PNG:ImageHeight
+            return
+                <surface xmlns="http://www.tei-c.org/ns/1.0" start="#{$pb/@xml:id}">
+                    <graphic url="{ ``[https://static.history.state.gov/frus/`{ $vol-id }`/tiff/`{ $facs }`.tif]`` }" mimeType="image/tiff" width="{ $tiff-width }px" height="{ $tiff-height }px"/>
+                    <graphic url="{ ``[https://static.history.state.gov/frus/`{ $vol-id }`/medium/`{ $facs }`.png]`` }" mimeType="image/png" width="{ $png-width }px" height="{ $png-height }px"/>
+                </surface>
+        let $facsimile :=
+            <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+                { $surfaces }
+            </facsimile>
+        return
+            if ($vol/tei:facsimile) then
+                replace node $vol/tei:facsimile with $facsimile
+            else
+                insert node $facsimile after $vol/tei:teiHeader
     else
-        insert node $facsimile after $vol/tei:teiHeader
+        ()
