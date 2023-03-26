@@ -36,8 +36,16 @@ return
             let $png-height := $png/PNG:ImageHeight
             return
                 <surface xmlns="http://www.tei-c.org/ns/1.0" start="#{$pb/@xml:id}">
-                    <graphic url="{ ``[https://static.history.state.gov/frus/`{ $vol-id }`/tiff/`{ $facs }`.tif]`` }" mimeType="image/tiff" width="{ $tiff-width }px" height="{ $tiff-height }px"/>
-                    <graphic url="{ ``[https://static.history.state.gov/frus/`{ $vol-id }`/medium/`{ $facs }`.png]`` }" mimeType="image/png" width="{ $png-width }px" height="{ $png-height }px"/>
+                    {
+                        if (exists($tiff)) then
+                            <graphic url="{ ``[https://static.history.state.gov/frus/`{ $vol-id }`/tiff/`{ $facs }`.tif]`` }" mimeType="image/tiff" width="{ $tiff-width }px" height="{ $tiff-height }px"/>
+                        else
+                            (),
+                        if (exists($png)) then
+                            <graphic url="{ ``[https://static.history.state.gov/frus/`{ $vol-id }`/medium/`{ $facs }`.png]`` }" mimeType="image/png" width="{ $png-width }px" height="{ $png-height }px"/>
+                        else
+                            ()
+                    }
                 </surface>
         let $facsimile :=
             <facsimile xmlns="http://www.tei-c.org/ns/1.0">
