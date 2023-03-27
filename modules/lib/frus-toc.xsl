@@ -52,7 +52,7 @@
                 <xsl:where-populated>
                     <span>
                         <xsl:value-of
-                            select="(' (Document' || 's'[count($docs) gt 1] || ' ' || $docs[1] || ' - '[count($docs) gt 1] || $docs[last()][count($docs) gt 1] || ')')[exists($docs)]"
+                            select="(' (Document' || 's'[count($docs) gt 1] || ' ' || $docs[1] || '–'[count($docs) gt 1] || $docs[last()][count($docs) gt 1] || ')')[exists($docs)]"
                         />
                     </span>
                 </xsl:where-populated>
