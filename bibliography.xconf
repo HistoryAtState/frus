@@ -1,9 +1,6 @@
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0">
 
-        <!-- Disable the legacy full text index -->
-        <fulltext default="none" attributes="false"/>
-
         <!-- Lucene index configuration -->
         <lucene>
             <!-- The standard analyzer will ignore stopwords like 'the', 'and' -->
