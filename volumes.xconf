@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
+    <triggers>
+        <trigger event="update" class="org.exist.collections.triggers.XQueryTrigger">
+            <parameter name="url" value="/db/apps/frus/modules/triggers.xqm"/>
+        </trigger>
+        <trigger event="create" class="org.exist.collections.triggers.XQueryTrigger">
+            <parameter name="url" value="/db/apps/frus/modules/triggers.xqm"/>
+        </trigger>
+    </triggers>
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-        <!-- Disable the legacy full text index -->
-        <fulltext default="none" attributes="false"/>
 
         <!-- Lucene index configuration -->
         <lucene>
@@ -12,7 +17,30 @@
                     <!--<value>the</value>-->
                 </param>
             </analyzer>
-            <text qname="tei:div"/>
+            <!--
+            <analyzer class="org.apache.lucene.analysis.core.KeywordAnalyzer" id="keyword"/>
+            -->
+            <text qname="tei:div">  
+                <!-- required facets and fields -->
+                <facet dimension="hsg-category" expression="'documents'"/>
+                <facet dimension="hsg-publication" expression="'frus'"/>
+                <field name="hsg-fulltext" if="@type = ('section', 'document')"/>
+                <field name="hsg-url" expression="'/historicaldocuments/' || ancestor::tei:TEI/@xml:id || '/' || ./@xml:id"/>
+                <!-- end required facets and fields -->
+
+                <!-- for searching by date (removes : and - from xs:dateTime) -->
+                <field name="frus-search-date-min" if="@type = ('section', 'document')" expression="translate(@frus:doc-dateTime-min, ':-', '')" />
+                <field name="frus-search-date-max" if="@type = ('section', 'document')" expression="translate(@frus:doc-dateTime-max, ':-', '')" />
+
+                <!-- for fast sorting by date (binary fields cannot be searched) -->
+                <field name="hsg-date-min" if="@type = ('section', 'document')" expression="@frus:doc-dateTime-min" binary="true" type="xs:dateTime" />
+                <field name="hsg-date-max" if="@type = ('section', 'document')" expression="@frus:doc-dateTime-max" binary="true" type="xs:dateTime" />
+
+                <!-- additional dimensions for frus -->
+                <facet dimension="frus-volume-id" expression="ancestor::tei:TEI/@xml:id"/>
+                <facet dimension="frus-type" expression="@type"/>
+                <facet dimension="frus-subtype" expression="@subtype"/>
+            </text>
         </lucene>
 
         <!-- Range index configuration -->
@@ -34,6 +62,8 @@
             <create qname="@id" type="xs:string"/>
             <create qname="@rend" type="xs:string"/>
             <create qname="@n" type="xs:string"/>
+            <create qname="@mimeType" type="xs:string"/>
+            <create qname="@start" type="xs:string"/>
             <create qname="tei:idno" type="xs:string"/>
             <!-- Note on @xml:id: When using the dedicated fn:id()
                 function, eXist will use its default xml:id index,

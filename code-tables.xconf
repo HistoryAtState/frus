@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index>
-        <!-- Disable the legacy full text index -->
-        <fulltext default="none" attributes="false"/>
 
         <!-- Range index configuration -->
         <create qname="value" type="xs:string"/>
