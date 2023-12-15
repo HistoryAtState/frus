@@ -42,7 +42,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: ${{ matrix.java-version }}
-      - run: ant
+      - run: ant -Dapp.version=1.0.0-SNAPSHOT
 
       # Install
       - name: Start exist-ci containers
@@ -50,7 +50,7 @@ jobs:
           docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
           --name exist --rm \
           duncdrum/existdb:${{ matrix.exist-version }}
-          sleep 90s
+          sleep 15m
 
       # Test       
       - name: Run test
