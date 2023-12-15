@@ -2,9 +2,14 @@ build/*
 .existdb.json
 .*
 !.gitignore
+!.github/
+!.releaserc
 schema/remove-classDecl.xsl
 schema/remove-add-classDecl.xsl
 schema/add-dc-namespace-to-root.xsl
 tests/*-result.html
 expath-pkg.xml
 repo.xml
+.vscode/
+.idea/
+node_modules/

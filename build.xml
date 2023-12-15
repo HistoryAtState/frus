@@ -43,7 +43,11 @@
         <zip basedir="${basedir}" destfile="${build.dir}/${app.name}-${app.version}.xar">
             <exclude name="${build.dir}/**"/>
             <exclude name="*.tmpl"/>
-        </zip>        
+            <exclude name=".github/**"/>
+            <exclude name="tests/bats/**"/>
+            <exclude name="node_modules/**"/>
+        </zip>
+        <echo>Version: ${app.version}</echo>
     </target>
 
     <target name="git.revision" description="Store git revision in ${repository.version}" if="git.present">
