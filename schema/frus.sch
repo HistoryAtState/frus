@@ -328,6 +328,15 @@
                     select="./ancestor::tei:div[1]/@xml:id"/>'.</assert>
         </rule>
     </pattern>
+    
+    <pattern id="footnote-numbering-checks">
+        <rule role="warn" context="tei:note[@n castable as xs:integer]">
+            <let name="this" value="."/>
+            <let name="previous-footnote" value="(ancestor::tei:div[1]//tei:note[@n castable as xs:integer][. &lt;&lt; $this])[last()]"/>
+            <assert test="empty($previous-footnote) or xs:integer(@n) eq xs:integer($previous-footnote/@n) + 1"
+                >Footnote numbering mismatch. This is footnote “<value-of select="@n"/>”, but the previous foonote in the document is “<value-of select="$previous-footnote/@n"/>”.</assert>
+        </rule>
+    </pattern>
 
     <pattern id="element-nesting-checks">
         <title>Element Nesting Checks</title>
