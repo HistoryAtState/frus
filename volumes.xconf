@@ -1,12 +1,12 @@
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <triggers>
+    <!-- <triggers>
         <trigger event="update" class="org.exist.collections.triggers.XQueryTrigger">
             <parameter name="url" value="/db/apps/frus/modules/triggers.xqm"/>
         </trigger>
         <trigger event="create" class="org.exist.collections.triggers.XQueryTrigger">
             <parameter name="url" value="/db/apps/frus/modules/triggers.xqm"/>
         </trigger>
-    </triggers>
+    </triggers> -->
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
         <!-- Lucene index configuration -->

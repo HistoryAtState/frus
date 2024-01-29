@@ -29,10 +29,10 @@ declare function toc:generate-frus-toc($href as xs:string) {
 declare function toc:prepare-collection() {
     (: remove the existing collection :)
     if (xmldb:collection-available('/db/apps/frus/frus-toc')) 
-    then xmldb:remove('/db/apps/frus/frus-toc')
-    else (),
+    then ()
+    else (xmldb:create-collection('/db/apps/frus', 'frus-toc'))
     (: recreate empty collection :)
-    xmldb:create-collection('/db/apps/frus', 'frus-toc')
+    
 };
 
 declare function toc:regenerate() {
