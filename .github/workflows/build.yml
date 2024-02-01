@@ -28,7 +28,16 @@ jobs:
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libxml2-utils bats
+          sudo apt-get install -y libxml2-utils bats libsaxonhe-java
+      # - name: Where is Saxon
+      #   run: dpkg -L libsaxonhe-java 
+      - name: Create Toc
+        run: |
+          mkdir -p frus-toc 
+          java -jar /usr/share/java/Saxon-HE.jar -s:volumes/ -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
+      - name: What happened
+        run: git status
+
       # sanity check
       # TODO(DP) Validate ?
       - name: Ensure all XML files are well-formed
@@ -36,6 +45,13 @@ jobs:
           xmllint --noout \
             $(find . -type f -name '*.xml')
 
+      # Commit Toc files
+      - name: Commit and Push
+        if: ${{ matrix.java-version == 17}}
+        uses: actions-x/commit@v6
+        with:
+          message: "fix(toc): update [skip ci]"
+      
       # Build 
       - name: Build Expath Package
         uses: actions/setup-java@v4

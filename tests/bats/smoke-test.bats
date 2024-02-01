@@ -29,11 +29,10 @@
   [ "$result" == 'http://history.state.gov/ns/data/frus' ]
 }
 
-# Too many Errors by trigger.xqm to be useful
-# @test "logs are error free" {
-#   result=$(docker logs exist | grep -ow -c 'ERROR' || true)
-#   [ "$result" -eq 0 ]
-# }
+@test "logs are error free" {
+  result=$(docker logs exist | grep -ow -c 'ERROR' || true)
+  [ "$result" -eq 0 ]
+}
 
 @test "no fatalities in logs" {
   result=$(docker logs exist | grep -ow -c 'FATAL' || true)

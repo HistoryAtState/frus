@@ -47,11 +47,6 @@
             <exclude name="tests/bats/**"/>
             <exclude name="node_modules/**"/>
             <exclude name=".notes/**"/>
-            <!-- DP: Temporary -->
-            <exclude name="volumes/frus187*.xml"/>
-            <exclude name="volumes/frus188*.xml"/>
-            <exclude name="volumes/frus189*.xml"/>
-            <exclude name="volumes/frus19*.xml"/>
         </zip>
         <echo>Version: ${app.version}</echo>
     </target>
