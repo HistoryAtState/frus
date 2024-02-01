@@ -70,5 +70,10 @@
     <xsl:template match="tei:lb" mode="html">
         <br/>
     </xsl:template>
-    
+    <xsl:template name="main">
+        <xsl:result-document
+            href="{concat(substring-before(tokenize(base-uri(.), '/')[last()], '.xml'), '-toc.xml')}">
+            <xsl:apply-templates />
+        </xsl:result-document>
+    </xsl:template>
 </xsl:stylesheet>
