@@ -113,8 +113,14 @@ more information, see <https://www.state.gov/copyright-information/#copyright>.
 
 ## Build
 
-1. Single `xar` file: The `collection.xconf` will only contain the index, not any triggers!
+1. Table of contents are generated on CI automatically and committed to this repo, to create them locally run:
 
     ```shell
-    ant
+    saxon -s:volumes/ -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
+    ```
+
+2. Single `xar` file: The `collection.xconf` will only contain the index, not any triggers!
+
+    ```shell
+    ant -Dapp.version=0.0.0-SNAPSHOT
     ```
