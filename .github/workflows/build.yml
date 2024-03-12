@@ -61,6 +61,15 @@ jobs:
       - run: ant -Dapp.version=1.0.0-SNAPSHOT
 
       # Install
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # - name: Configure docker
+      #   run: docker daemon --storage-opt dm.basesize=20G
+
+      - name: Check config
+        run: docker info
+
       - name: Start exist-ci containers
         run: |
           docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
