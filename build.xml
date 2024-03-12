@@ -47,6 +47,8 @@
             <exclude name="tests/bats/**"/>
             <exclude name="node_modules/**"/>
             <exclude name=".notes/**"/>
+            <!-- DEBUG -->
+            <exclude name="logs/**"/>
         </zip>
         <echo>Version: ${app.version}</echo>
     </target>

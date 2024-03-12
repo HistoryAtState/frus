@@ -74,6 +74,19 @@ jobs:
           do sleep 2s; \
           done
 
+      # DEBUGGING (TODO: remove)
+      - name: download logs
+        run: docker cp exist:/exist/logs . 
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exist_${{ matrix.exist-version }}_logs
+          path: logs/
+          if-no-files-found: ignore
+
+      - name: cleanup logs folder
+        run: rm -rf ./logs
+
       # Test       
       - name: Run test
         run: bats --tap tests/bats/*.bats
