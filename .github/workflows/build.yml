@@ -67,6 +67,9 @@ jobs:
       # - name: Configure docker
       #   run: docker daemon --storage-opt dm.basesize=20G
 
+      - name: cleanup docker to make space
+        run: docker system prune --all --volumes
+
       - name: Check config
         run: docker info
 
