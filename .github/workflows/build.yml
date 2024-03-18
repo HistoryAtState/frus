@@ -61,11 +61,11 @@ jobs:
       - run: ant -Dapp.version=1.0.0-SNAPSHOT
 
       # Install
-      # - name: Set up Docker Buildx
-        # uses: docker/setup-buildx-action@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - name: Configure docker
-        run: docker daemon --storage-opt dm.basesize=20G
+      # - name: Configure docker
+      #   run: docker daemon --storage-opt dm.basesize=20G
 
       - name: Check config
         run: docker info
@@ -74,6 +74,7 @@ jobs:
         run: |
           docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
           --name exist --rm \
+          --mount type=tmpfs,destination=/exist/data \
           duncdrum/existdb:${{ matrix.exist-version }}
       
       - name: wait for install to finish
