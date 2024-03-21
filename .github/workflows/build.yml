@@ -68,16 +68,22 @@ jobs:
       #   run: docker daemon --storage-opt dm.basesize=20G
 
       - name: cleanup docker to make space
-        run: docker system prune --all --volumes
+        run: docker system prune --all --volumes -f
+
+      - name: check os
+        run: |
+          df -h /var/lib/docker
+          df -ih /var/lib/docker
 
       - name: Check config
         run: docker info
 
       - name: Start exist-ci containers
         run: |
+          docker volume create data_dir
           docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
+          -v data_dir:/exist/data \
           --name exist --rm \
-          --mount type=tmpfs,destination=/exist/data \
           duncdrum/existdb:${{ matrix.exist-version }}
       
       - name: wait for install to finish
