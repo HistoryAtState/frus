@@ -8,10 +8,12 @@ name: compile and test
 on: [push, pull_request]
 
 jobs:
-  static:
+  build:
     runs-on: ubuntu-latest
     strategy:
-       fail-fast: true
+       matrix:
+         java-version: [11, 17]
+
        
     steps:
       # Checkout code
@@ -38,26 +40,43 @@ jobs:
           xmllint --noout \
             $(find . -type f -name '*.xml')
 
+      - name: Build Expath Package
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: ${{ matrix.java-version }}
+      - run: ant -Dapp.version=1.0.0-SNAPSHOT
+
+      - name: upload xar package
+        if: ${{ matrix.java-version == 17 }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: frus-xar
+          path: build/*.xar
+          if-no-files-found: ignore
+      
+      - name: upload smoke test
+        if: ${{ matrix.java-version == 17 }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: frus-bats
+          path: tests/bats/
+          if-no-files-found: ignore
+
       # Commit Toc files
       - name: Commit and Push
-        if: ${{ matrix.java-version == 17}}
+        if: ${{ matrix.java-version == 17 }}
         uses: actions-x/commit@v6
         with:
           message: "fix(toc): update [skip ci]"
-  build:
+  test:
     runs-on: ubuntu-latest
-    needs: static
+    needs: build
     strategy:
        fail-fast: false
        matrix:
         # 7.0.0-SNAPSHOT and 6.2.1 created
          exist-version: [latest, release]
-         java-version: [11, 17]
-         exclude:
-           - exist-version: release
-             java-version: 17
-           - exist-version: latest
-             java-version: 11
 
     steps:
       - name: Maximize build space
@@ -74,14 +93,29 @@ jobs:
         run: sudo service docker restart
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3  
+        uses: docker/setup-buildx-action@v3 
 
-      # Checkout code
-      - uses: actions/checkout@v4
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y bats
+      
+      - name: create folders
+        run: |
+          mkdir build
+          mkdir -p tests/bats
+
+      # TODO avoid 2n checkout and re-use move expath to previous step
+      # mind java matrix for build?
+      - uses: actions/download-artifact@v4
+        with:
+          name: frus-xar
+          path: build
+      
+      - uses: actions/download-artifact@v4
+        with:
+          name: frus-bats
+          path: tests/bats
 
     #  sanity check
       - name: check os
@@ -95,40 +129,35 @@ jobs:
       - name: Check config
         run: docker info
    
-      # Build 
-      - name: Build Expath Package
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: ${{ matrix.java-version }}
-      - run: ant -Dapp.version=1.0.0-SNAPSHOT
-
       # Install
       - name: Start exist-ci containers
         run: |
-          docker volume create data_dir
           docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
           --name exist --rm \
           duncdrum/existdb:${{ matrix.exist-version }}
       
       - name: wait for install to finish
-        timeout-minutes: 60
+        timeout-minutes: 30
         run: |
           while ! docker logs exist | grep -q "Server has started"; \
           do sleep 2s; \
           done
 
-      # DEBUGGING (TODO: remove)
-      - name: download logs
+      # DEBUGGING
+      # add if: always() to the log steps
+      - name: grab container logs
+        if: always()
         run: docker cp exist:/exist/logs . 
 
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: exist_${{ matrix.exist-version }}_logs
           path: logs/
           if-no-files-found: ignore
 
       - name: cleanup logs folder
+        if: always()
         run: rm -rf ./logs
 
       # Test       
@@ -142,7 +171,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    needs: build
+    needs: test
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
