@@ -23,6 +23,22 @@ jobs:
              java-version: 11
 
     steps:
+      - name: Maximize build space
+        uses: easimon/maximize-build-space@master
+        with:
+          build-mount-path: /var/lib/docker/
+          remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
+          remove-codeql: 'true'
+          remove-docker-images: 'true'
+
+      - name: Restart docker
+        run: sudo service docker restart
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3  
+
       # Checkout code
       - uses: actions/checkout@v4
       - name: Install Test Dependencies
@@ -31,14 +47,27 @@ jobs:
           sudo apt-get install -y libxml2-utils bats libsaxonhe-java
       # - name: Where is Saxon
       #   run: dpkg -L libsaxonhe-java 
+
       - name: Create Toc
         run: |
           mkdir -p frus-toc 
           java -jar /usr/share/java/Saxon-HE.jar -s:volumes/ -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
+      
+      # sanity check
       - name: What happened
         run: git status
 
-      # sanity check
+      - name: check os
+        run: |
+          df -h /var/lib/docker
+          df -ih /var/lib/docker
+      
+      # he's done it
+      # see https://stackoverflow.com/questions/76294509/github-actions-docker-service-container-25gb-cannot-be-loaded
+      # https://github.com/easimon/maximize-build-space/issues/41
+      - name: Check config
+        run: docker info
+
       # TODO(DP) Validate ?
       - name: Ensure all XML files are well-formed
         run: |
@@ -61,23 +90,6 @@ jobs:
       - run: ant -Dapp.version=1.0.0-SNAPSHOT
 
       # Install
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      # - name: Configure docker
-      #   run: docker daemon --storage-opt dm.basesize=20G
-
-      - name: cleanup docker to make space
-        run: docker system prune --all --volumes -f
-
-      - name: check os
-        run: |
-          df -h /var/lib/docker
-          df -ih /var/lib/docker
-
-      - name: Check config
-        run: docker info
-
       - name: Start exist-ci containers
         run: |
           docker volume create data_dir
