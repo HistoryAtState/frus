@@ -22,6 +22,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libxml2-utils libsaxonhe-java
+
       # - name: Where is Saxon
       #   run: dpkg -L libsaxonhe-java 
 
@@ -65,7 +66,7 @@ jobs:
 
       # Commit Toc files
       - name: Commit and Push
-        if: ${{ matrix.java-version == 17 }}
+        if: ${{ matrix.java-version == 17 && github.event_name == 'push' }}
         uses: actions-x/commit@v6
         with:
           message: "fix(toc): update [skip ci]"
@@ -105,8 +106,6 @@ jobs:
           mkdir build
           mkdir -p tests/bats
 
-      # TODO avoid 2n checkout and re-use move expath to previous step
-      # mind java matrix for build?
       - uses: actions/download-artifact@v4
         with:
           name: frus-xar
@@ -123,9 +122,6 @@ jobs:
           df -h /var/lib/docker
           df -ih /var/lib/docker
       
-      # he's done it
-      # see https://stackoverflow.com/questions/76294509/github-actions-docker-service-container-25gb-cannot-be-loaded
-      # https://github.com/easimon/maximize-build-space/issues/41
       - name: Check config
         run: docker info
    
@@ -144,7 +140,6 @@ jobs:
           done
 
       # DEBUGGING
-      # add if: always() to the log steps
       - name: grab container logs
         if: always()
         run: docker cp exist:/exist/logs . 
