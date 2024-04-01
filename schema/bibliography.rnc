@@ -308,14 +308,5 @@ start =
                    })+
             }*
         }?,
-        element index-cross-reference-unit { text }?,
-        element created-by { text },
-        element created-datetime { xsd:dateTime },
-        element last-modified-by { text },
-        element last-modified-datetime { xsd:dateTime },
-        element release-status-code { text },
-        element released-by { text },
-        element release-datetime { empty | xsd:dateTime },
-        element recalled-by { text },
-        element recall-datetime { empty | xsd:dateTime }
+        element index-cross-reference-unit { text }?
     }
