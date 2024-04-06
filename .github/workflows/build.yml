@@ -1,0 +1,188 @@
+# This workflow builds a xar archive, deploys it into exist and execute a simple smoke test.
+# It also includes code for using semantic-release to upload packages as part of GitHub releases
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# For node free automated release see https://trstringer.com/github-actions-create-release-upload-artifacts/ 
+
+name: compile and test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+       matrix:
+         java-version: [11, 17]
+
+       
+    steps:
+      # Checkout code
+      - uses: actions/checkout@v4
+      - name: Install Test Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils libsaxonhe-java
+
+      # - name: Where is Saxon
+      #   run: dpkg -L libsaxonhe-java 
+
+      - name: Create Toc
+        run: |
+          mkdir -p frus-toc 
+          java -jar /usr/share/java/Saxon-HE.jar -s:volumes/ -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
+      
+      # sanity check
+      - name: What happened
+        run: git status
+
+      # TODO(DP) Validate ?
+      - name: Ensure all XML files are well-formed
+        run: |
+          xmllint --noout \
+            $(find . -type f -name '*.xml')
+
+      - name: Build Expath Package
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: ${{ matrix.java-version }}
+      - run: ant -Dapp.version=1.0.0-SNAPSHOT
+
+      - name: upload xar package
+        if: ${{ matrix.java-version == 17 }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: frus-xar
+          path: build/*.xar
+          if-no-files-found: ignore
+      
+      - name: upload smoke test
+        if: ${{ matrix.java-version == 17 }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: frus-bats
+          path: tests/bats/
+          if-no-files-found: ignore
+
+      # Commit Toc files
+      - name: Commit and Push
+        if: ${{ matrix.java-version == 17 && github.event_name == 'push' }}
+        uses: actions-x/commit@v6
+        with:
+          message: "fix(toc): update [skip ci]"
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+    strategy:
+       fail-fast: false
+       matrix:
+        # 7.0.0-SNAPSHOT and 6.2.1 created
+         exist-version: [latest, release]
+
+    steps:
+      - name: Maximize build space
+        uses: easimon/maximize-build-space@master
+        with:
+          build-mount-path: /var/lib/docker/
+          remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
+          remove-codeql: 'true'
+          remove-docker-images: 'true'
+
+      - name: Restart docker
+        run: sudo service docker restart
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3 
+
+      - name: Install Test Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bats
+      
+      - name: create folders
+        run: |
+          mkdir build
+          mkdir -p tests/bats
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: frus-xar
+          path: build
+      
+      - uses: actions/download-artifact@v4
+        with:
+          name: frus-bats
+          path: tests/bats
+
+    #  sanity check
+      - name: check os
+        run: |
+          df -h /var/lib/docker
+          df -ih /var/lib/docker
+      
+      - name: Check config
+        run: docker info
+   
+      # Install
+      - name: Start exist-ci containers
+        run: |
+          docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
+          --name exist --rm \
+          duncdrum/existdb:${{ matrix.exist-version }}
+      
+      - name: wait for install to finish
+        timeout-minutes: 30
+        run: |
+          while ! docker logs exist | grep -q "Server has started"; \
+          do sleep 2s; \
+          done
+
+      # DEBUGGING
+      - name: grab container logs
+        if: always()
+        run: docker cp exist:/exist/logs . 
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exist_${{ matrix.exist-version }}_logs
+          path: logs/
+          if-no-files-found: ignore
+
+      - name: cleanup logs folder
+        if: always()
+        run: rm -rf ./logs
+
+      # Test       
+      - name: Run test
+        run: bats --tap tests/bats/*.bats
+
+      # Lint commit messages
+      # - name: lint commit message
+      #   uses: wagoid/commitlint-github-action@v5
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: npm  
+          node-version: lts/*
+      - name: Install dependencies
+        run: npm ci --no-optional   
+      - name: Perform Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLIC_REPO: ${{ secrets.PUBLIC_REPO }}
+        run: npx semantic-release
+        # TODO(DP): 
+        #   - add secrets to github
+        #   - publish to public repo?
