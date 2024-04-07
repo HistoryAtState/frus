@@ -91,7 +91,7 @@ include fixes to already published volumes, new publications, and digitized lega
 
 Releases for this data package are automated. Any commit to the `master`` branch will trigger the release automation.
 
-All commit message must conform to [Angular Commit Message Conventions](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines) to determine semantic versioning of releases, please adhere to these conventions, like so:
+All commit message must conform to [Conventional Commit Messages](https://www.conventionalcommits.org/en/v1.0.0/) to determine semantic versioning of releases, please adhere to these conventions, like so:
 
 | Commit message  | Release type |
 |-----------------|--------------|
