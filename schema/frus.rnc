@@ -8,10 +8,9 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2022-11-02T22:17:56Z. .
-# TEI Edition: Version 4.5.0. Last updated on
-#         25th October 2022, revision 3e98e619e
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0/
+# Schema generated from ODD source 2024-04-07T21:54:01Z. . 
+# TEI Edition: Version 4.5.0. Last updated on 25th October 2022, revision 3e98e619e 
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/4.5.0/ 
 #  FRUS TEI Schema Spec 
 
 #
@@ -595,6 +594,123 @@ att.resourced.attribute.url =
   attribute url {
     xsd:anyURI { pattern = "\S+" }
   }
+att.measurement.attributes =
+  att.measurement.attribute.unit,
+  att.measurement.attribute.unitRef,
+  att.measurement.attribute.quantity,
+  att.measurement.attribute.commodity
+att.measurement.attribute.unit =
+  
+  ## (unit) indicates the units used for the measurement, usually using the standard symbol for the desired units.
+  ## Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (hertz); 5] Pa (pascal); 6] Ω (ohm); 7] L (litre); 8] t (tonne); 9] ha (hectare); 10] Å (ångström); 11] mL (millilitre); 12] cm (centimetre); 13] dB (decibel); 14] kbit (kilobit); 15] Kibit (kibibit); 16] kB (kilobyte); 17] KiB (kibibyte); 18] MB (megabyte); 19] MiB (mebibyte)
+  attribute unit {
+    
+    ## (metre) SI base unit of length
+    "m"
+    | 
+      ## (kilogram) SI base unit of mass
+      "kg"
+    | 
+      ## (second) SI base unit of time
+      "s"
+    | 
+      ## (hertz) SI unit of frequency
+      "Hz"
+    | 
+      ## (pascal) SI unit of pressure or stress
+      "Pa"
+    | 
+      ## (ohm) SI unit of electric resistance
+      "Ω"
+    | 
+      ## (litre) 1 dm³
+      "L"
+    | 
+      ## (tonne) 10³ kg
+      "t"
+    | 
+      ## (hectare) 1 hm²
+      "ha"
+    | 
+      ## (ångström) 10⁻¹⁰ m
+      "Å"
+    | 
+      ## (millilitre) 
+      "mL"
+    | 
+      ## (centimetre) 
+      "cm"
+    | 
+      ## (decibel) see remarks, below
+      "dB"
+    | 
+      ## (kilobit) 10³ or 1000 bits
+      "kbit"
+    | 
+      ## (kibibit) 2¹⁰ or 1024 bits
+      "Kibit"
+    | 
+      ## (kilobyte) 10³ or 1000 bytes
+      "kB"
+    | 
+      ## (kibibyte) 2¹⁰ or 1024 bytes
+      "KiB"
+    | 
+      ## (megabyte) 10⁶ or 1 000 000 bytes
+      "MB"
+    | 
+      ## (mebibyte) 2²⁰ or 1 048 576 bytes
+      "MiB"
+    | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
+att.measurement.attribute.unitRef =
+  [
+    a:documentation [
+      "points to a unique identifier stored in the "
+      ns1:code [ "@xml:id" ]
+      " of a "
+      ns1:code [ "<unitDef>" ]
+      " element that defines a unit of measure."
+    ]
+  ]
+  attribute unitRef {
+    xsd:anyURI { pattern = "\S+" }
+  }?
+att.measurement.attribute.quantity =
+  
+  ## (quantity) specifies the number of the specified units that comprise the measurement
+  attribute quantity {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+att.measurement.attribute.commodity =
+  
+  ## (commodity) indicates the substance that is being measured
+  attribute commodity {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+sch:pattern [
+  id = "frus-att.measurement-att-measurement-unitRef-constraint-rule-6"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@unitRef]"
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test = "@unit"
+      role = "info"
+      "The @unit attribute may be unnecessary when @unitRef is present."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
 att.naming.attributes =
   att.canonical.attributes, att.naming.attribute.role
 att.naming.attribute.role =
@@ -673,7 +789,7 @@ att.typed.attribute.subtype =
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
 sch:pattern [
-  id = "frus-att.typed-subtypeTyped-constraint-rule-6"
+  id = "frus-att.typed-subtypeTyped-constraint-rule-7"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -716,7 +832,7 @@ att.pointing.attribute.targetLang =
        "")
   }?
 sch:pattern [
-  id = "frus-att.pointing-targetLang-targetLang-constraint-rule-7"
+  id = "frus-att.pointing-targetLang-targetLang-constraint-rule-8"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -799,7 +915,7 @@ att.spanning.attribute.spanTo =
   }?
 sch:pattern [
   id =
-    "frus-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-8"
+    "frus-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-9"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -855,7 +971,7 @@ att.styleDef.attribute.schemeVersion =
   }?
 sch:pattern [
   id =
-    "frus-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-9"
+    "frus-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-10"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -940,12 +1056,12 @@ model.dateLike_sequence = date, time
 model.dateLike_sequenceOptional = date?, time?
 model.dateLike_sequenceOptionalRepeatable = date*, time*
 model.dateLike_sequenceRepeatable = date+, time+
-model.measureLike = notAllowed
-model.measureLike_alternation = notAllowed
-model.measureLike_sequence = empty
-model.measureLike_sequenceOptional = empty
-model.measureLike_sequenceOptionalRepeatable = empty
-model.measureLike_sequenceRepeatable = notAllowed
+model.measureLike = measure
+model.measureLike_alternation = measure
+model.measureLike_sequence = measure
+model.measureLike_sequenceOptional = measure?
+model.measureLike_sequenceOptionalRepeatable = measure*
+model.measureLike_sequenceRepeatable = measure+
 model.egLike = notAllowed
 model.egLike_alternation = notAllowed
 model.egLike_sequence = empty
@@ -1191,7 +1307,8 @@ model.global =
   | model.noteLike
   | model.global.edit
   | figure
-model.biblPart = model.respLike | model.imprintPart | bibl
+model.biblPart =
+  model.respLike | model.imprintPart | bibl | relatedItem | extent
 model.frontPart = model.frontPart.drama | titlePage
 model.pPart.data =
   model.dateLike
@@ -1274,7 +1391,7 @@ p =
     macro.paraContent
     >> sch:pattern [
          id =
-           "frus-p-abstractModel-structure-p-in-ab-or-p-constraint-report-5"
+           "frus-p-abstractModel-structure-p-in-ab-or-p-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1296,7 +1413,7 @@ p =
        ]
     >> sch:pattern [
          id =
-           "frus-p-abstractModel-structure-p-in-l-or-lg-constraint-report-6"
+           "frus-p-abstractModel-structure-p-in-l-or-lg-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1546,6 +1663,23 @@ name =
     att.global.attributes,
     att.datable.attributes,
     att.typed.attributes,
+    empty
+  }
+measure =
+  
+  ## (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.6.3. Numbers and
+  ## Measures]
+  element measure {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.typed.attribute.subtype,
+    att.measurement.attributes,
+    att.ranging.attributes,
+    
+    ## specifies the type of measurement in any convenient typology.
+    attribute type {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
     empty
   }
 date =
@@ -1922,7 +2056,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "frus-ref-refAtts-constraint-report-7"
+         id = "frus-ref-refAtts-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1959,7 +2093,7 @@ ref =
       | (label, model.global*, item, model.global*)+),
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "frus-list-gloss-list-must-have-labels-constraint-rule-10"
+         id = "frus-list-gloss-list-must-have-labels-constraint-rule-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2230,6 +2364,49 @@ bibl =
     att.sortable.attributes,
     empty
   }
+relatedItem =
+  
+  ## contains or references some other bibliographic item which is related to the present one in some specified manner, for example as a constituent or alternative version of it. [3.12.2.7. Related Items]
+  element relatedItem {
+    ((model.biblLike | model.ptrLike)?)
+    >> sch:pattern [
+         id = "frus-relatedItem-targetorcontent1-constraint-report-9"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:relatedItem"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and count( child::* ) > 0"
+             "\x{a}" ~
+             "If the @target attribute on "
+             sch:name [ ]
+             " is used, the\x{a}" ~
+             "relatedItem element must be empty"
+           ]
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@target or child::*"
+             "A relatedItem element should have either a 'target' attribute\x{a}" ~
+             "        or a child element to indicate the related bibliographic item"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.typed.attributes,
+    
+    ## points to the related bibliographic element by means of an absolute or relative URI reference
+    attribute target {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
+    empty
+  }
 l =
   
   ## (verse line) contains a single, possibly incomplete, line of verse. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents]
@@ -2237,7 +2414,7 @@ l =
     ((text | model.gLike | model.phrase | model.inter | model.global)*)
     >> sch:pattern [
          id =
-           "frus-l-abstractModel-structure-l-in-l-constraint-report-8"
+           "frus-l-abstractModel-structure-l-in-l-constraint-report-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2273,7 +2450,7 @@ lg =
       | lg)*,
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "frus-lg-atleast1oflggapl-constraint-assert-7"
+         id = "frus-lg-atleast1oflggapl-constraint-assert-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2294,7 +2471,7 @@ lg =
        ]
     >> sch:pattern [
          id =
-           "frus-lg-abstractModel-structure-lg-in-l-constraint-report-9"
+           "frus-lg-abstractModel-structure-lg-in-l-constraint-report-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2331,7 +2508,7 @@ fileDesc =
   
   ## (file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]
   element fileDesc {
-    ((titleStmt, publicationStmt), sourceDesc+),
+    ((titleStmt, extent?, publicationStmt, notesStmt?), sourceDesc+),
     att.global.attributes,
     empty
   }
@@ -2341,6 +2518,10 @@ titleStmt =
   element titleStmt {
     (title+, model.respLike*), att.global.attributes, empty
   }
+extent =
+  
+  ## (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. [2.2.3. Type and Extent of File 2.2. The File Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 10.7.1. Object Description]
+  element extent { macro.phraseSeq, att.global.attributes, empty }
 publicationStmt =
   
   ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
@@ -2405,6 +2586,12 @@ idno =
       | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
     empty
+  }
+notesStmt =
+  
+  ## (notes statement) collects together any notes providing information about a text additional to that recorded in other parts of the bibliographic description. [2.2.6. The Notes Statement 2.2. The File Description]
+  element notesStmt {
+    (model.noteLike | relatedItem)+, att.global.attributes, empty
   }
 sourceDesc =
   
@@ -2643,7 +2830,7 @@ body =
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
          id =
-           "frus-div-abstractModel-structure-div-in-l-or-lg-constraint-report-10"
+           "frus-div-abstractModel-structure-div-in-l-or-lg-constraint-report-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2665,7 +2852,7 @@ body =
        ]
     >> sch:pattern [
          id =
-           "frus-div-abstractModel-structure-div-in-ab-or-p-constraint-report-11"
+           "frus-div-abstractModel-structure-div-in-ab-or-p-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3378,7 +3565,7 @@ facsimile =
     (front?, (model.graphicLike | surface)+, back?)
     >> sch:pattern [
          id =
-           "frus-facsimile-no_facsimile_text_nodes-constraint-rule-11"
+           "frus-facsimile-no_facsimile_text_nodes-constraint-rule-12"
          "\x{a}" ~
          "            "
          sch:rule [
