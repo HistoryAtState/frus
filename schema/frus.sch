@@ -35,9 +35,10 @@
             <assert test="count(tei:titleStmt) eq 1">fileDesc needs exactly one titleStmt</assert>
             <assert test="count(tei:publicationStmt) eq 1">fileDesc needs exactly one
                 publicationStmt</assert>
+            <assert test="count(tei:notesStmt) eq 1">fileDesc needs exactly one notesStmt</assert>
             <assert test="count(tei:sourceDesc) eq 1">fileDesc needs exactly one sourceDesc</assert>
-            <assert test="count(child::element()) eq 3">fileDesc can only have three child elements:
-                titleStmt, publicationStmt, and sourceDesc</assert>
+            <assert test="count(child::element()) eq 4">fileDesc can only have three child elements:
+                titleStmt, publicationStmt, notesStmt, and sourceDesc</assert>
         </rule>
         <rule context="tei:title[parent::tei:titleStmt]">
             <assert test="./@type = ('complete', 'series', 'sub-series', 'volume-number', 'volume')"
@@ -443,7 +444,7 @@
     <pattern id="unwanted-footnote-whitespace-checks">
         <title>Prevent unwanted footnote whitespace checks</title>
         <rule
-            context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note))]">
+            context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note) or parent:notesStmt)]">
             <let name="first-preceding-sibling-node" value="preceding-sibling::node()[1]"/>
             <assert test="
                     if ($first-preceding-sibling-node instance of text()) then

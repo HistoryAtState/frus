@@ -146,7 +146,7 @@
 
     <pattern id="image-s3-checks">
         <title>Image Checks</title>
-        <rule context="tei:graphic[@url][not(ancestor::tei:titlePage)]">
+        <rule context="tei:graphic[@url][not(ancestor::tei:titlePage) and not(ancestor::tei:facsimile)]">
             <assert test="concat(@url, '.png') = $available-images">PNG version of '<value-of
                 select="@url"/>' not found on static.history.state.gov</assert>
             <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of
