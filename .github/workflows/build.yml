@@ -160,8 +160,8 @@ jobs:
         run: bats --tap tests/bats/*.bats
 
       # Lint commit messages
-      # - name: lint commit message
-      #   uses: wagoid/commitlint-github-action@v5
+      - name: lint commit message
+        uses: wagoid/commitlint-github-action@v5
 
   release:
     name: Release
