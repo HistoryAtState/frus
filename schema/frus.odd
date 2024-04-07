@@ -1075,10 +1075,10 @@
                     textstructure. -->
                     <desc>FRUS TEI Schema Spec</desc>
                     <moduleRef key="core"
-                        include="p hi gloss term name date time ref list item head note graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
+                        include="p hi gloss term name date time ref list item head note relatedItem measure graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
-                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc notesStmt extent encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
                     <moduleRef key="textstructure"
                         include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
