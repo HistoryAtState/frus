@@ -26,6 +26,40 @@
                 <date calendar="gregorian" notAfter="1957-12-19T20:00:00-05:00"
                     notBefore="1955-02-14T00:00:00-05:00" type="content-date">1955 to 1957</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1955-57v04" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1955-57v04/covers/frus1955-57v04.jpg"/>
+                        <extent>
+                            <measure quantity="38067" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:25:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1955-57v04" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1955-57v04/ebook/frus1955-57v04.epub"/>
+                        <extent>
+                            <measure quantity="949471" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:25:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1955-57v04" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1955-57v04/ebook/frus1955-57v04.mobi"/>
+                        <extent>
+                            <measure quantity="1467710" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:25:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1988 as printed book</p>
             </sourceDesc>

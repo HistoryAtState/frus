@@ -33,6 +33,40 @@
                 <date calendar="gregorian" notAfter="1937-03-25T16:00:00-05:00"
                     notBefore="1933-07-25T00:00:00-05:00" type="content-date">1933 to 1937</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1936v03" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1936v03/covers/frus1936v03.jpg"/>
+                        <extent>
+                            <measure quantity="30404" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:21:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1936v03" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1936v03/ebook/frus1936v03.epub"/>
+                        <extent>
+                            <measure quantity="1090411" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:21:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1936v03" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1936v03/ebook/frus1936v03.mobi"/>
+                        <extent>
+                            <measure quantity="1408615" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:21:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1953 as printed book and adapted to TEI-XML based on scans provided
                     by the University of Wisconsin Digital Collections Center</p>

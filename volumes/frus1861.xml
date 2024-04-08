@@ -28,6 +28,40 @@
                 <date calendar="gregorian" notAfter="1861-12-31T23:59:59-05:00"
                     notBefore="1860-12-31T00:00:00-05:00" type="content-date">1860 to 1861</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1861" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1861/covers/frus1861.jpg"/>
+                        <extent>
+                            <measure quantity="31173" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:22:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1861" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1861/ebook/frus1861.epub"/>
+                        <extent>
+                            <measure quantity="767005" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:22:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1861" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1861/ebook/frus1861.mobi"/>
+                        <extent>
+                            <measure quantity="902945" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:22:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1861 as printed book and adapted to TEI-XML based on scans provided
                     by UWDCC</p>

@@ -24,6 +24,40 @@
                 <date calendar="gregorian" notAfter="1895-01-03T23:59:59-05:00"
                     notBefore="1894-01-25T00:00:00-05:00" type="content-date">1894 to 1895</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1894Nicaragua" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894Nicaragua/covers/frus1894Nicaragua.jpg"/>
+                        <extent>
+                            <measure quantity="32827" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1894Nicaragua" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894Nicaragua/ebook/frus1894Nicaragua.epub"/>
+                        <extent>
+                            <measure quantity="364892" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1894Nicaragua" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894Nicaragua/ebook/frus1894Nicaragua.mobi"/>
+                        <extent>
+                            <measure quantity="475388" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1895 as printed book and adapted to TEI-XML</p>
             </sourceDesc>

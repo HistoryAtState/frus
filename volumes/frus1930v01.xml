@@ -26,6 +26,40 @@
                 <date calendar="gregorian" notAfter="1937-07-28T23:59:59-05:00"
                     notBefore="1929-03-01T00:00:00-05:00" type="content-date">1929 to 1937</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1930v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1930v01/covers/frus1930v01.jpg"/>
+                        <extent>
+                            <measure quantity="27300" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:11:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1930v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1930v01/ebook/frus1930v01.epub"/>
+                        <extent>
+                            <measure quantity="1096927" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:11:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1930v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1930v01/ebook/frus1930v01.mobi"/>
+                        <extent>
+                            <measure quantity="1451820" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:11:10.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1945 as printed book and adapted to TEI-XML based on scans provided
                     by the University of Wisconsin Digital Collections Center</p>

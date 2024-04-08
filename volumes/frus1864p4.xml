@@ -24,6 +24,40 @@
                 <date calendar="gregorian" notAfter="1864-12-02T23:59:59-05:00"
                     notBefore="1863-05-21T00:00:00-05:00" type="content-date">1863 to 1864</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1864p4" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p4/covers/frus1864p4.jpg"/>
+                        <extent>
+                            <measure quantity="30210" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:25:03.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1864p4" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p4/ebook/frus1864p4.epub"/>
+                        <extent>
+                            <measure quantity="1026834" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:25:03.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1864p4" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p4/ebook/frus1864p4.mobi"/>
+                        <extent>
+                            <measure quantity="1204427" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:25:03.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1866 as printed book and adapted to TEI-XML based on scans provided
                     by UWDCC</p>

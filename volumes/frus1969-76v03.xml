@@ -25,6 +25,40 @@
                 <date calendar="gregorian" notAfter="1972-12-18T23:59:59-05:00"
                     notBefore="1969-01-18T00:00:00-05:00" type="content-date">1969 to 1972</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1969-76v03" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v03/covers/frus1969-76v03.jpg"/>
+                        <extent>
+                            <measure quantity="38510" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:00:36.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v03" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v03/ebook/frus1969-76v03.epub"/>
+                        <extent>
+                            <measure quantity="941073" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:00:36.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v03" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v03/ebook/frus1969-76v03.mobi"/>
+                        <extent>
+                            <measure quantity="1337895" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:00:36.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2001 as printed book and online at state.gov</p>
             </sourceDesc>

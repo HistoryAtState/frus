@@ -26,6 +26,40 @@
                 <date calendar="gregorian" notAfter="1928-01-11T23:59:59-05:00"
                     notBefore="1926-04-13T00:00:00-05:00" type="content-date">1926 to 1928</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1927v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1927v01/covers/frus1927v01.jpg"/>
+                        <extent>
+                            <measure quantity="27246" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:08:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1927v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1927v01/ebook/frus1927v01.epub"/>
+                        <extent>
+                            <measure quantity="1008239" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:08:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1927v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1927v01/ebook/frus1927v01.mobi"/>
+                        <extent>
+                            <measure quantity="1375338" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:08:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1942 as printed book and adapted to TEI-XML based on scans provided
                     by the University of Wisconsin Digital Collections Center</p>

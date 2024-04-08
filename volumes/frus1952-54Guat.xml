@@ -24,6 +24,40 @@
                 <date calendar="gregorian" notAfter="1975-05-12T23:59:59-05:00"
                     notBefore="1952-01-11T00:00:00-05:00" type="content-date">1952 to 1975</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1952-54Guat" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54Guat/covers/frus1952-54Guat.jpg"/>
+                        <extent>
+                            <measure quantity="26641" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54Guat" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54Guat/ebook/frus1952-54Guat.epub"/>
+                        <extent>
+                            <measure quantity="692081" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54Guat" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54Guat/ebook/frus1952-54Guat.mobi"/>
+                        <extent>
+                            <measure quantity="911318" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2003 as printed book and online at state.gov</p>
             </sourceDesc>

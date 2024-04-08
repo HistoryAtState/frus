@@ -21,6 +21,50 @@
                 <date calendar="gregorian" notAfter="2014-12-18T23:59:59-05:00"
                     notBefore="2014-12-18T00:00:00-05:00" type="content-date">2014</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 4 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1977-80v09" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v09/covers/frus1977-80v09.jpg"/>
+                        <extent>
+                            <measure quantity="34535" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:24:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v09" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v09/ebook/frus1977-80v09.epub"/>
+                        <extent>
+                            <measure quantity="35808" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:24:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v09" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v09/ebook/frus1977-80v09.mobi"/>
+                        <extent>
+                            <measure quantity="54834" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:24:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v09" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v09/pdf/frus1977-80v09.pdf"/>
+                        <extent>
+                            <measure quantity="4406281" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:24:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2014 as print volume and PDF online at history.state.gov</p>
             </sourceDesc>

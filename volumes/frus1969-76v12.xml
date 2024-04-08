@@ -24,6 +24,50 @@
                 <date calendar="gregorian" notAfter="1970-10-09T23:59:59-05:00"
                     notBefore="1969-01-02T00:00:00-05:00" type="content-date">1969 to 1970</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 4 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1969-76v12" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v12/covers/frus1969-76v12.jpg"/>
+                        <extent>
+                            <measure quantity="36601" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:39.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v12" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v12/ebook/frus1969-76v12.epub"/>
+                        <extent>
+                            <measure quantity="958857" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v12" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v12/ebook/frus1969-76v12.mobi"/>
+                        <extent>
+                            <measure quantity="1386638" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v12" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v12/pdf/frus1969-76v12.pdf"/>
+                        <extent>
+                            <measure quantity="2273329" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:47.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2006 as printed book and online at state.gov</p>
             </sourceDesc>

@@ -24,6 +24,40 @@
                 <date calendar="gregorian" notAfter="1963-12-30T23:59:59-05:00"
                     notBefore="1961-01-17T00:00:00-05:00" type="content-date">1961 to 1963</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1961-63v08" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v08/covers/frus1961-63v08.jpg"/>
+                        <extent>
+                            <measure quantity="32404" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:44:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1961-63v08" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v08/ebook/frus1961-63v08.epub"/>
+                        <extent>
+                            <measure quantity="795502" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:44:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1961-63v08" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v08/ebook/frus1961-63v08.mobi"/>
+                        <extent>
+                            <measure quantity="1300567" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:44:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1996 as printed book and online at state.gov</p>
             </sourceDesc>

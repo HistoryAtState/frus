@@ -24,6 +24,40 @@
                 <date calendar="gregorian" notAfter="1968-12-12T13:28:00-05:00"
                     notBefore="1964-01-09T13:00:00-05:00" type="content-date">1964 to 1968</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1964-68v17" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v17/covers/frus1964-68v17.jpg"/>
+                        <extent>
+                            <measure quantity="29970" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:54:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v17" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v17/ebook/frus1964-68v17.epub"/>
+                        <extent>
+                            <measure quantity="839109" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:54:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v17" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v17/ebook/frus1964-68v17.mobi"/>
+                        <extent>
+                            <measure quantity="1359556" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:54:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1996 as printed book</p>
             </sourceDesc>

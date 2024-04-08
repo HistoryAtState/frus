@@ -28,6 +28,40 @@
                 <date calendar="gregorian" notAfter="1921-10-03T23:59:59-05:00"
                     notBefore="1914-06-16T00:00:00-05:00" type="content-date">1914 to 1921</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1914-20v02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1914-20v02/covers/frus1914-20v02.jpg"/>
+                        <extent>
+                            <measure quantity="31535" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:50:44.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1914-20v02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1914-20v02/ebook/frus1914-20v02.epub"/>
+                        <extent>
+                            <measure quantity="941416" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:50:44.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1914-20v02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1914-20v02/ebook/frus1914-20v02.mobi"/>
+                        <extent>
+                            <measure quantity="1261095" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:50:44.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1940 as printed book and adapted to TEI-XML based on scans provided
                     by the University of Wisconsin Digital Collections Center</p>

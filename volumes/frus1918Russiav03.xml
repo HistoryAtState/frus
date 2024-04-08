@@ -26,6 +26,40 @@
                 <date calendar="gregorian" notAfter="1919-01-13T20:00:00-05:00"
                     notBefore="1917-03-31T00:00:00-05:00" type="content-date">1917 to 1919</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1918Russiav03" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Russiav03/covers/frus1918Russiav03.jpg"/>
+                        <extent>
+                            <measure quantity="27112" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:56:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1918Russiav03" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Russiav03/ebook/frus1918Russiav03.epub"/>
+                        <extent>
+                            <measure quantity="791850" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:56:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1918Russiav03" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Russiav03/ebook/frus1918Russiav03.mobi"/>
+                        <extent>
+                            <measure quantity="1084559" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:56:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1932 as printed book and adapted to TEI-XML based on scans provided
                     by the University of Wisconsin Digital Collections Center</p>

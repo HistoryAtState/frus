@@ -26,6 +26,40 @@
                 <date calendar="gregorian" notAfter="1872-12-31T18:50:59-05:00"
                     notBefore="1871-05-01T00:00:00-05:00" type="content-date">1871 to 1872</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1872p2v4" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v4/covers/frus1872p2v4.jpg"/>
+                        <extent>
+                            <measure quantity="44929" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v4" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v4/ebook/frus1872p2v4.epub"/>
+                        <extent>
+                            <measure quantity="915934" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v4" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v4/ebook/frus1872p2v4.mobi"/>
+                        <extent>
+                            <measure quantity="1532810" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1873 as printed book and adapted to TEI-XML based on scans provided
                     by UWDCC</p>

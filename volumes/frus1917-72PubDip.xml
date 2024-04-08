@@ -21,6 +21,30 @@
                 <date calendar="gregorian" notAfter="1919-06-01T17:59:59-05:00"
                     notBefore="1917-08-13T00:00:00-05:00" type="content-date">1917 to 1919</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 2 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1917-72PubDip" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDip/covers/frus1917-72PubDip.jpg"/>
+                        <extent>
+                            <measure quantity="32559" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:53:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1917-72PubDip" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDip/pdf/frus1917-72PubDip.pdf"/>
+                        <extent>
+                            <measure quantity="1268429" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:53:41.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2014 as printed book.</p>
             </sourceDesc>

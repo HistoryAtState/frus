@@ -21,6 +21,50 @@
                 <date calendar="gregorian" notAfter="1980-12-31T23:59:59-05:00"
                     notBefore="1977-01-25T00:00:00-05:00" type="content-date">1977 to 1980</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 4 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1977-80v17p2" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v17p2/covers/frus1977-80v17p2.jpg"/>
+                        <extent>
+                            <measure quantity="32994" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:27:28.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v17p2" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v17p2/ebook/frus1977-80v17p2.epub"/>
+                        <extent>
+                            <measure quantity="668596" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:27:28.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v17p2" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v17p2/ebook/frus1977-80v17p2.mobi"/>
+                        <extent>
+                            <measure quantity="891302" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:27:28.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v17p2" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v17p2/pdf/frus1977-80v17p2.pdf"/>
+                        <extent>
+                            <measure quantity="2641234" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:27:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2018 as printed book.</p>
             </sourceDesc>

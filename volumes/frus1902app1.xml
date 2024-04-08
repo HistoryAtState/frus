@@ -29,6 +29,40 @@
                 <date calendar="gregorian" notAfter="1902-12-31T23:59:59-05:00"
                     notBefore="1820-12-31T16:30:00-05:00" type="content-date">1820 to 1902</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1902app1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1902app1/covers/frus1902app1.jpg"/>
+                        <extent>
+                            <measure quantity="46864" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1902app1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1902app1/ebook/frus1902app1.epub"/>
+                        <extent>
+                            <measure quantity="6149800" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1902app1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1902app1/ebook/frus1902app1.mobi"/>
+                        <extent>
+                            <measure quantity="1249752" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1903 as printed book and adapted to TEI-XML based on scans provided
                     by the University of Wisconsin Digital Collections Center</p>

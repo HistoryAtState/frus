@@ -31,6 +31,40 @@
                 <date calendar="gregorian" notAfter="1954-12-28T23:59:59-05:00"
                     notBefore="1951-10-27T00:00:00-05:00" type="content-date">1951 to 1954</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1952-54v01p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v01p1/covers/frus1952-54v01p1.jpg"/>
+                        <extent>
+                            <measure quantity="35280" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:30.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54v01p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v01p1/ebook/frus1952-54v01p1.epub"/>
+                        <extent>
+                            <measure quantity="1023923" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:30.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54v01p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v01p1/ebook/frus1952-54v01p1.mobi"/>
+                        <extent>
+                            <measure quantity="1487548" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:30.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 1983 as printed book</p>
             </sourceDesc>

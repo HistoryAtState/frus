@@ -22,6 +22,50 @@
                 <date calendar="gregorian" notAfter="1977-01-20T23:59:59-05:00"
                     notBefore="1973-01-25T00:00:00-05:00" type="content-date">1973 to 1977</date>
             </publicationStmt>
+            <notesStmt>
+                <note>This publication contains 4 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1969-76v38p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v38p1/covers/frus1969-76v38p1.jpg"/>
+                        <extent>
+                            <measure quantity="38349" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:12:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v38p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v38p1/ebook/frus1969-76v38p1.epub"/>
+                        <extent>
+                            <measure quantity="671118" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:12:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v38p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v38p1/ebook/frus1969-76v38p1.mobi"/>
+                        <extent>
+                            <measure quantity="1088776" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:12:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v38p1" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v38p1/pdf/frus1969-76v38p1.pdf"/>
+                        <extent>
+                            <measure quantity="2441703" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:12:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
             <sourceDesc>
                 <p>Released in 2012 as print volume and PDF online at history.state.gov</p>
             </sourceDesc>
