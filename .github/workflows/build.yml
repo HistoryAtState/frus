@@ -63,6 +63,10 @@ jobs:
           name: frus-bats
           path: tests/bats/
           if-no-files-found: ignore
+      
+      # Lint commit messages
+      - name: lint commit message
+        uses: wagoid/commitlint-github-action@v5
 
       # Commit Toc files
       - name: Commit and Push
@@ -158,10 +162,6 @@ jobs:
       # Test       
       - name: Run test
         run: bats --tap tests/bats/*.bats
-
-      # Lint commit messages
-      - name: lint commit message
-        uses: wagoid/commitlint-github-action@v5
 
   release:
     name: Release
