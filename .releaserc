@@ -4,7 +4,7 @@
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits",
       "releaseRules": [
-        { "type": "*", "release": "patch" }
+        { "type": "!(fix|feat|build|chore|ci|docs|style|refactor|perf|test)", "release": "patch" }
       ]
     }],
     ["@semantic-release/release-notes-generator", {
