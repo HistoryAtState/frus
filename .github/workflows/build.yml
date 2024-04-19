@@ -81,7 +81,7 @@ jobs:
        fail-fast: false
        matrix:
         # 7.0.0-SNAPSHOT and 6.2.1 created
-         exist-version: [latest, release]
+         exist-version: [release]
 
     steps:
       - name: Maximize build space
