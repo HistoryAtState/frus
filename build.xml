@@ -27,6 +27,7 @@
                     <token key="title" value="${app.title}"/>
                     <token key="commit-id" value="${git.revision}"/>
                     <token key="commit-time" value="${git.time}"/>
+                    <token key="commit-abbrev" value="${repository.short-revision}"/>
                 </replacetokens>
                 <tokenfilter>
                     <!-- until we move template processing to XSLT, take care with reserved characters -->
@@ -56,7 +57,7 @@
     <target name="git.revision" description="Store git revision in ${repository.version}" if="git.present">
         <exec executable="git" outputproperty="git.revision" failifexecutionfails="false" errorproperty="">
             <arg value="--git-dir=${git.repo.path}"/>
-            <arg value="rev-parse"/>            
+            <arg value="rev-parse"/>
             <arg value="HEAD"/>
         </exec>
         <condition property="repository.version" value="${git.revision}" else="unknown">
@@ -66,7 +67,21 @@
             </and>
         </condition>
         <echo>Git repo: ${repository.version}</echo>
-        
+
+        <exec executable="git" outputproperty="git.short-revision" failifexecutionfails="false" errorproperty="">
+            <arg value="--git-dir=${git.repo.path}"/>
+            <arg value="rev-parse"/>
+            <arg value="--short"/>
+            <arg value="HEAD"/>
+        </exec>
+        <condition property="repository.short-revision" value="${git.short-revision}" else="unknown">
+            <and>
+                <isset property="git.short-revision"/>
+                <length string="${git.short-revision}" trim="yes" length="0" when="greater"/>
+            </and>
+        </condition>
+        <echo>Git repo: ${repository.short-revision}</echo>
+
         <exec executable="git" outputproperty="git.time" failifexecutionfails="false" errorproperty="">
             <arg value="--git-dir=${git.repo.path}"/>
             <arg value="show"/>
