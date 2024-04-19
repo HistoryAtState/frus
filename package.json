@@ -8,9 +8,11 @@
   "author": "Office of the Historian",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
-    "@commitlint/config-angular": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.0",
+    "@semantic-release/github": "^9.2.1",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "semantic-release": "^22.0.12"
   }
 }
