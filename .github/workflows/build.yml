@@ -66,7 +66,7 @@ jobs:
       
       # Lint commit messages
       - name: lint commit message
-        uses: wagoid/commitlint-github-action@v5
+        uses: wagoid/commitlint-github-action@v6
 
       # Commit Toc files
       - name: Commit and Push
