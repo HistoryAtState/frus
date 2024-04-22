@@ -3,7 +3,7 @@
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits",
-      "parserOpts": "./commit-parser-options.js",
+      "presetConfig": "./conventionalcommits.config.cjs",
       "releaseRules": [
         { "type": "!(fix|feat|build|chore|ci|docs|style|refactor|perf|test)", "release": "patch" }
       ]
