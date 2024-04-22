@@ -71,7 +71,7 @@
         <exec executable="git" outputproperty="git.short-revision" failifexecutionfails="false" errorproperty="">
             <arg value="--git-dir=${git.repo.path}"/>
             <arg value="rev-parse"/>
-            <arg value="--short"/>
+            <arg value="--short=7"/>
             <arg value="HEAD"/>
         </exec>
         <condition property="repository.short-revision" value="${git.short-revision}" else="unknown">
