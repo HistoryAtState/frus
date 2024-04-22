@@ -9,8 +9,7 @@
       ]
     }],
     ["@semantic-release/release-notes-generator", {
-      "preset": "conventionalcommits",
-      "presetConfig": "./conventionalcommits.config.cjs"
+      "preset": "conventionalcommits"
     }],
     ["@semantic-release/exec", {
       "prepareCmd": "ant -Dapp.version=${nextRelease.version}"
