@@ -444,7 +444,7 @@
     <pattern id="unwanted-footnote-whitespace-checks">
         <title>Prevent unwanted footnote whitespace checks</title>
         <rule
-            context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note) or parent:notesStmt)]">
+            context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note) or parent::notesStmt)]">
             <let name="first-preceding-sibling-node" value="preceding-sibling::node()[1]"/>
             <assert test="
                     if ($first-preceding-sibling-node instance of text()) then
