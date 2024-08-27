@@ -139,59 +139,8 @@
         <title>Rend Attribute Value Checks</title>
         <rule context="tei:hi">
             <assert
-                test="./@rend = ('strong', 'italic', 'smallcaps', 'roman', 'underline', 'sub', 'superscript')"
-                    >hi/@rend='<value-of select="@rend"/>' is an invalid value. Only the following
-                values are allowed: strong, italic, smallcaps, roman, underline, sub,
-                superscript</assert>
-        </rule>
-        <rule context="tei:p">
-            <!-- note that the 4th entry here lets quite a few known "invalid" values pass this test; we will perform this pass of checks at a later stage. TODO. -->
-            <assert
-                test="./@rend = ('strong', 'italic') or ./@rend = ('sectiontitleital') or ./@rend = ('center', 'right', 'flushleft') or ./@rend = ('sourceparagraphspaceafter', 'sourceparagraphfullindent', 'sourceparagraphtightspacing', 'sourceheadcenterboldbig', 'sourcearchiveboldbig') or not(./@rend)"
-                    >p/@rend='<value-of select="@rend"/>' is an invalid value. Only the following
-                values are allowed: strong, italic, sectiontitleital, center, right,
-                flushleft</assert>
-        </rule>
-        <rule context="tei:del">
-            <assert test="./@rend = 'strikethrough'">del/@rend='<value-of select="@rend"/>' is an
-                invalid value. Only the following value is allowed: strikethrough</assert>
-        </rule>
-        <rule context="tei:note[@rend]">
-            <assert test="./@rend = 'inline'">note/@rend='<value-of select="@rend"/>' is an invalid
-                value. Only the following value is allowed: inline</assert>
-        </rule>
-    </pattern>
-
-    <pattern id="note-type-checks">
-        <title>Note type checks</title>
-        <rule context="tei:note[@type]">
-            <assert test="./@type = ('source', 'summary')">note/@type='<value-of select="@type"/>'
-                is an invalid value. Only the following values are allowed: source, summary</assert>
-        </rule>
-    </pattern>
-
-    <pattern id="div-type-attribute-checks">
-        <title>Div type Attribute Value Checks</title>
-        <rule context="tei:div/@type">
-            <assert
-                test=". = ('document', 'chapter', 'subchapter', 'document-group', 'compilation', 'section', 'toc')"
-                    >div/@type='<value-of select="."/>' is an invalid value. Only the following
-                values are allowed: document, chapter, subchapter, compilation, section,
-                toc</assert>
-        </rule>
-    </pattern>
-
-    <pattern id="div-subtype-attribute-checks">
-        <title>Div subtype Attribute Value Checks</title>
-        <rule context="tei:div/@subtype">
-            <assert
-                test=". = ('about-frus-series', 'acknowledgments', 'additional-volumes', 'appendix', 'editorial-note', 'editorial-policies', 'errata', 'foreword', 'graphic-material', 'historical-document', 'index', 'map-or-chart', 'note-on-covert-actions', 'preface', 'press-release', 'referral', 'section', 'sources', 'subsection', 'table-of-contents', 'volume-summary')"
-                    >div/@subtype='<value-of select="."/>' is an invalid value. Only the following
-                values are allowed: about-frus-series, acknowledgments, additional-volumes,
-                appendix, editorial-note, editorial-policies, errata, foreword, graphic-material,
-                historical-document, index, map-or-chart, note-on-covert-actions, preface,
-                press-release, referral, section, sources, subsection, table-of-contents,
-                volume-summary</assert>
+                test="@rend or @rendition"
+                >hi elements require a @rend or @rendition attribute</assert>
         </rule>
     </pattern>
 

@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2024-08-27T20:26:18Z. . 
+# Schema generated from ODD source 2024-08-27T20:41:23Z. . 
 # TEI Edition: Version 4.5.0. Last updated on 25th October 2022, revision 3e98e619e 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.5.0/ 
 #  FRUS TEI Schema Spec 
@@ -1608,13 +1608,33 @@ gap =
   }
 del =
   
-  ## (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector. [3.5.3. Additions, Deletions, and Omissions]
+  ## (deletion) Restrict @rend values for tei:del elements [3.5.3. Additions, Deletions, and Omissions]
   element del {
     macro.paraContent,
-    att.global.attributes,
+    att.global.attribute.xmlid,
+    att.global.attribute.n,
+    att.global.attribute.xmllang,
+    att.global.attribute.xmlbase,
+    att.global.attribute.xmlspace,
+    att.global.rendition.attribute.style,
+    att.global.rendition.attribute.rendition,
+    att.global.linking.attribute.corresp,
+    att.global.analytic.attribute.ana,
+    att.global.facs.attribute.facs,
+    att.global.change.attribute.change,
+    att.global.responsibility.attribute.cert,
+    att.global.responsibility.attribute.resp,
+    att.global.source.attribute.source,
     att.transcriptional.attributes,
     att.typed.attributes,
     att.dimensions.attributes,
+    
+    ##
+    attribute rend {
+      
+      ## (Strikethrough) 
+      "strikethrough"
+    }?,
     empty
   }
 unclear =
@@ -2229,15 +2249,45 @@ head =
   }
 note =
   
-  ## (note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
+  ## (note) Restrict @rend and @type values for tei:note elements [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
   element note {
     macro.specialPara,
-    att.global.attributes,
+    att.global.attribute.xmlid,
+    att.global.attribute.n,
+    att.global.attribute.xmllang,
+    att.global.attribute.xmlbase,
+    att.global.attribute.xmlspace,
+    att.global.rendition.attribute.style,
+    att.global.rendition.attribute.rendition,
+    att.global.linking.attribute.corresp,
+    att.global.analytic.attribute.ana,
+    att.global.facs.attribute.facs,
+    att.global.change.attribute.change,
+    att.global.responsibility.attribute.cert,
+    att.global.responsibility.attribute.resp,
+    att.global.source.attribute.source,
     att.placement.attributes,
     att.pointing.attributes,
-    att.typed.attributes,
+    att.typed.attribute.subtype,
     att.written.attributes,
     att.anchoring.attributes,
+    
+    ##
+    attribute rend {
+      
+      ## (Inline) 
+      "inline"
+    }?,
+    
+    ##
+    attribute type {
+      
+      ## (Source) 
+      "source"
+      | 
+        ## (Summary) 
+        "summary"
+    }?,
     empty
   }
 graphic =

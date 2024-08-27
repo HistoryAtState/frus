@@ -1567,6 +1567,48 @@
                             </attDef>
                         </attList>
                     </elementSpec>
+                    
+                    <!-- 
+                    constrain tei:del/@rend
+                    -->
+                    <elementSpec ident="del" module="core" mode="change">
+                        <desc>Restrict @rend values for tei:del elements</desc>
+                        <attList>
+                            <attDef ident="rend" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="strikethrough">
+                                        <gloss>Strikethrough</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <!-- 
+                    constrain tei:note/@rend and @type
+                    -->
+                    <elementSpec ident="note" module="core" mode="change">
+                        <desc>Restrict @rend and @type values for tei:note elements</desc>
+                        <attList>
+                            <attDef ident="rend" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="inline">
+                                        <gloss>Inline</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="type" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="source">
+                                        <gloss>Source</gloss>
+                                    </valItem>
+                                    <valItem ident="summary">
+                                        <gloss>Summary</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
 
                     <!-- 
                     constrain tei:pb/@type
