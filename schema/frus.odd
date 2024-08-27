@@ -1509,7 +1509,7 @@
                     <elementSpec ident="hi" module="core" mode="change">
                         <desc>Restrict @rend values for tei:hi elements</desc>
                         <attList>
-                            <attDef ident="rend" usage="req" mode="replace">
+                            <attDef ident="rend" usage="opt" mode="replace">
                                 <valList type="closed">
                                     <valItem ident="strong">
                                         <gloss>Strong, bold</gloss>
