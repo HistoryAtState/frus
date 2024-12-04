@@ -18,7 +18,7 @@ let $vol := doc($path)/tei:TEI
 let $vol-id := $vol/@xml:id
 let $fileDesc := $vol/tei:teiHeader/tei:fileDesc
 let $notesStmt := $fileDesc/tei:notesStmt
-let $static-files := doc("http://doa-exist.hsg:8080/exist/apps/hsg-publish/static-files.xq?vol-id=" || $vol-id)/files/file
+let $static-files := doc("http://hsg-prod-publish.hsg:8080/exist/apps/hsg-publish/s3/static-files?vol-id=" || $vol-id)/files/file
 return
     if (exists($static-files)) then
         let $relatedItems := 
