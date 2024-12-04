@@ -9,7 +9,7 @@
     <xsl:mode name="html" on-no-match="text-only-copy"/>
     
     <xsl:accumulator name="document-nos" initial-value="()" as="xs:string*">
-        <xsl:accumulator-rule match="tei:div[@type eq 'document']" select="($value, @n)" phase="end"/>
+        <xsl:accumulator-rule match="tei:div[@type = ('document', 'document-pending')]" select="($value, @n)" phase="end"/>
     </xsl:accumulator>
     
     <xsl:accumulator name="document-ids" initial-value="()" as="xs:string*">
@@ -29,10 +29,10 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="tei:div[@xml:id][not(@type = ('document'))]">
+    <xsl:template match="tei:div[@xml:id][not(@type = ('document', 'document-pending'))]">
         <xsl:variable name="accDocs" as="xs:string*" select="accumulator-after('document-nos')"/>
         <xsl:variable name="prevDocs" as="xs:string*" select="accumulator-before('document-nos')"/>
-        <xsl:variable name="docs" as="xs:string*" select="if (tei:div[@type eq 'document']) then $accDocs[not(. = $prevDocs)] else ()"/>
+        <xsl:variable name="docs" as="xs:string*" select="if (tei:div[@type = ('document', 'document-pending')]) then $accDocs[not(. = $prevDocs)] else ()"/>
         <xsl:variable name="prevDocIDs" as="xs:string*" select="accumulator-before('document-ids')"/>
         <xsl:variable name="docIDs" as="xs:string*" select="accumulator-after('document-ids')[not(. = $prevDocIDs)]"/>
         <xsl:variable name="child_list" as="element(ul)?">
