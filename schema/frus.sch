@@ -20,7 +20,7 @@
     <extends href="frus-characters.sch"/>
 
     <!-- Define variables used by other patterns -->
-    <let name="documents" value="//tei:div[@type = 'document']"/>
+    <let name="documents" value="//tei:div[@type = ('document', 'document-pending')]"/>
 
     <pattern id="processing-instruction-check">
         <rule context="/processing-instruction()">
@@ -161,15 +161,15 @@
     <pattern id="div-child-checks">
         <title>Compilation/Chapter/Subchapter Nesting Checks</title>
         <rule
-            context="tei:div[@type = ('compilation', 'chapter', 'subchapter')][not(@subtype = ('index', 'referral', 'editorial-note'))]">
+            context="tei:div[@type = ('compilation', 'chapter', 'chapter-pending', 'subchapter')][not(@subtype = ('index', 'referral', 'editorial-note'))]">
             <assert role="warn"
-                test=".//tei:div[@type = 'document'] or .//tei:div[@subtype = ('index', 'referral', 'editorial-note')]"
+                test=".//tei:div[@type = ('document', 'document-pending')] or .//tei:div[@subtype = ('index', 'referral', 'editorial-note')]"
                 >This <value-of select="@type"/> does not contain a div/@type='document'. Please
                 verify that the structure is correct.</assert>
         </rule>
-        <rule context="tei:div[@type = 'document']">
+        <rule context="tei:div[@type = ('document', 'document-pending')]">
             <assert role="warn"
-                test="not(preceding-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')] or following-sibling::tei:div[1][@type = ('compilation', 'chapter', 'subchapter')])"
+                test="not(preceding-sibling::tei:div[1][@type = ('compilation', 'chapter', 'chapter-pending', 'subchapter')] or following-sibling::tei:div[1][@type = ('compilation', 'chapter', 'chapter-pending', 'subchapter')])"
                 >This document is preceded or followed by a <value-of select="@type"/>. Please
                 verify that the structure is correct.</assert>
         </rule>
@@ -177,13 +177,13 @@
 
     <pattern id="div-numbering-checks">
         <title>Document Div Numbering Checks</title>
-        <rule context="tei:div[@type = 'document'][@n castable as xs:integer]">
+        <rule context="tei:div[@type = ('document', 'document-pending')][@n castable as xs:integer]">
             <assert
-                test="not(./preceding::tei:div[@type = 'document']) or ./@n = (./preceding::tei:div[@n castable as xs:integer][1]/@n + 1)"
+                test="not(./preceding::tei:div[@type = ('document', 'document-pending')]) or ./@n = (./preceding::tei:div[@n castable as xs:integer][1]/@n + 1)"
                 >Document numbering mismatch. Document div/@n numbering must be
                 consecutive.</assert>
         </rule>
-        <rule context="tei:div[@type = 'document']">
+        <rule context="tei:div[@type = ('document', 'document-pending')]">
             <assert role="warn" test="not(matches(./@n, '^\[.+?\]$'))">Document's @n is encased in
                 square brackets: "[]". Only use in the rare circumstance that the volume has a block
                 of unnumbered documents outside the normal stream of numbered documents. Please
@@ -271,7 +271,7 @@
 
     <pattern id="footnote-id-checks">
         <title>Footnote ID Checks</title>
-        <rule context="tei:note[@xml:id and ancestor::tei:div/@type = 'document']">
+        <rule context="tei:note[@xml:id and ancestor::tei:div/@type = ('document', 'document-pending')]">
             <assert test="substring-before(./@xml:id, 'fn') = ./ancestor::tei:div[1]/@xml:id"
                 >Footnote ID mismatch. Document ID portion of footnote @xml:id '<value-of
                     select="./@xml:id"/>' must match its document's @xml:id '<value-of
@@ -355,7 +355,7 @@
         <title>Source Note checks</title>
         <!-- limit this rule to volumes covering post-1950 or published after 1995, when source note conventions begin to conform to these rules -->
         <rule
-            context="tei:div[@subtype eq 'historical-document'][root(.)/tei:TEI/tei:teiHeader[.//tei:date[@type eq 'content-date']/@notBefore ge '1950' or .//tei:date[@type eq 'publication-date'] gt '1995']]">
+            context="tei:div[@subtype eq 'historical-document' and not(@type eq 'document-pending')][root(.)/tei:TEI/tei:teiHeader[.//tei:date[@type eq 'content-date']/@notBefore ge '1950' or .//tei:date[@type eq 'publication-date'] gt '1995']]">
             <let name="source-note"
                 value="(tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note//tei:seg[@type eq 'source'])[1]"/>
             <let name="source-note-content" value="

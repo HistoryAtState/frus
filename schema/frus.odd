@@ -1326,14 +1326,23 @@
                                     <valItem ident="document">
                                         <gloss>Document</gloss>
                                     </valItem>
+                                    <valItem ident="document-pending">
+                                        <gloss>Document (withheld pending clearance)</gloss>
+                                    </valItem>
                                     <valItem ident="section">
                                         <gloss>Section</gloss>
+                                    </valItem>
+                                    <valItem ident="section-pending">
+                                        <gloss>Section (withheld pending clearance)</gloss>
                                     </valItem>
                                     <valItem ident="compilation">
                                         <gloss>Compilation</gloss>
                                     </valItem>
                                     <valItem ident="chapter">
                                         <gloss>Chapter</gloss>
+                                    </valItem>
+                                    <valItem ident="chapter-pending">
+                                        <gloss>Chapter (withheld pending clearance)</gloss>
                                     </valItem>
                                     <valItem ident="subchapter">
                                         <gloss>Sub-chapter</gloss>

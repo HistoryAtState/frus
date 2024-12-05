@@ -18,33 +18,29 @@ let $vol := doc($path)/tei:TEI
 let $vol-id := $vol/@xml:id
 let $fileDesc := $vol/tei:teiHeader/tei:fileDesc
 let $notesStmt := $fileDesc/tei:notesStmt
-let $static-files := doc("http://doa-exist.hsg:8080/exist/apps/hsg-publish/static-files.xq?vol-id=" || $vol-id)/files/file
+let $static-files := doc("http://hsg-prod-publish.hsg:8080/exist/apps/hsg-publish/s3/static-files?vol-id=" || $vol-id)/files/file
+let $relatedItems := 
+    for $file in $static-files
+    let $basename := $file/basename
+    let $resource := $vol/id($basename)
+    where $resource instance of element(tei:TEI) or $resource instance of element(tei:div) or $resource instance of element(tei:figure)
+    return
+        <relatedItem xmlns="http://www.tei-c.org/ns/1.0" corresp="#{$basename}" type="{$file/Q{}extension}">
+            <bibl>
+                <ref target="{$file/Q{}url}"/>
+                <extent>
+                    <measure quantity="{$file/Q{}size}" unit="bytes"/>
+                </extent>
+                <date type="publication-date" when="{$file/Q{}last-modified}"/>
+            </bibl>
+        </relatedItem>
+let $new-notesStmt :=
+    <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
+        <note>This publication contains {count($relatedItems) } associated files. For page images, see the facsimile element.</note>
+        { $relatedItems }
+    </notesStmt>
 return
-    if (exists($static-files)) then
-        let $relatedItems := 
-            for $file in $static-files
-            let $basename := $file/basename
-            let $resource := $vol/id($basename)
-            where $resource instance of element(tei:TEI) or $resource instance of element(tei:div)
-            return
-                <relatedItem xmlns="http://www.tei-c.org/ns/1.0" corresp="#{$basename}" type="{$file/Q{}extension}">
-                    <bibl>
-                        <ref target="{$file/Q{}url}"/>
-                        <extent>
-                            <measure quantity="{$file/Q{}size}" unit="bytes"/>
-                        </extent>
-                        <date type="publication-date" when="{$file/Q{}last-modified}"/>
-                    </bibl>
-                </relatedItem>
-        let $new-notesStmt :=
-            <notesStmt xmlns="http://www.tei-c.org/ns/1.0">
-                <note>This publication contains {count($relatedItems) } associated files. For page images, see the facsimile element.</note>
-                { $relatedItems }
-            </notesStmt>
-        return
-            if (exists($notesStmt)) then
-                replace node $notesStmt with $new-notesStmt
-            else
-                insert node $new-notesStmt after $fileDesc/tei:publicationStmt
+    if (exists($notesStmt)) then
+        replace node $notesStmt with $new-notesStmt
     else
-        ()
+        insert node $new-notesStmt after $fileDesc/tei:publicationStmt

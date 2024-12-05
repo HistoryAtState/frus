@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2024-08-27T20:41:23Z. . 
+# Schema generated from ODD source 2024-12-04T15:25:33Z. . 
 # TEI Edition: Version 4.5.0. Last updated on 25th October 2022, revision 3e98e619e 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.5.0/ 
 #  FRUS TEI Schema Spec 
@@ -2875,7 +2875,7 @@ body =
   element div {
     ((model.divTop | model.global)*,
      ((((model.divLike | model.divGenLike), model.global*)+
-       | (((model.common), model.global*)+,
+       | ((model.common, model.global*)+,
           ((model.divLike | model.divGenLike), model.global*)*)),
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
@@ -2932,14 +2932,23 @@ body =
       ## (Document) 
       "document"
       | 
+        ## (Document (withheld pending clearance)) 
+        "document-pending"
+      | 
         ## (Section) 
         "section"
+      | 
+        ## (Section (withheld pending clearance)) 
+        "section-pending"
       | 
         ## (Compilation) 
         "compilation"
       | 
         ## (Chapter) 
         "chapter"
+      | 
+        ## (Chapter (withheld pending clearance)) 
+        "chapter-pending"
       | 
         ## (Sub-chapter) 
         "subchapter"
