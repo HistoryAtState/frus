@@ -25,7 +25,7 @@
 
     <pattern id="div-doc-dateTime">
         <title>Div-level doc-dateTime Checks</title>
-        <rule context="tei:div">
+        <rule context="tei:div[not(ends-with(@type, '-pending'))]">
             <assert role="warn" test="(@frus:doc-dateTime-min and @frus:doc-dateTime-min)">To be
                 ready for online publication and date indexing, all divs should have
                 @frus:doc-dateTime-min and @frus:doc-dateTime-max attributes.</assert>
