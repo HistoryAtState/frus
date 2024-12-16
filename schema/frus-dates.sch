@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3">
+<schema queryBinding="xslt3" xmlns="http://purl.oclc.org/dsdl/schematron">
     <title>FRUS TEI Rules - Date Rules for Initial Review</title>
 
     <p>This schematron file contains date-related rules augmenting frus.sch. This file is
@@ -86,39 +86,33 @@
                 test="(@notBefore and @notAfter and @ana) or (not(@notBefore) and not(@notAfter))"
                 >Missing @ana explaining the analysis used to determine @notBefore and
                 @notAfter.</assert>
-            <assert
-                test="
+            <assert test="
                     every $date in @when
                         satisfies ((matches($date, '^\d{4}$') and ($date || '-01-01') castable as xs:date) or (matches($date, '^\d{4}-\d{2}$') and ($date || '-01') castable as xs:date) or $date castable as xs:date or $date castable as xs:dateTime)"
                 >Dateline date @when values must be YYYY, YYYY-MM, or xs:date or
                 xs:dateTime</assert>
-            <assert
-                test="
+            <assert test="
                     every $date in (@from, @to, @notBefore, @notAfter)
                         satisfies ($date castable as xs:date or $date castable as xs:dateTime)"
                 >Dateline date @from/@to/@notBefore/@notAfter must be valid xs:date or xs:dateTime
                 values.</assert>
-            <assert
-                test="
+            <assert test="
                     every $attribute in @*
-                        satisfies not(matches($attribute, '[A-Z]$'))"
-                >Please use timezone offset instead of military time zone (e.g., replace Z with
+                        satisfies not(matches($attribute, '[A-Z]$'))">Please use
+                timezone offset instead of military time zone (e.g., replace Z with
                 +00:00).</assert>
-            <assert
-                test="
+            <assert test="
                     if (@from and @to) then
                         (@from le @to)
                     else
-                        true()"
-                >Dateline date/@from dateTime value must come before @to dateTime value.</assert>
-            <assert
-                test="
+                        true()">Dateline date/@from dateTime value must come before @to
+                dateTime value.</assert>
+            <assert test="
                     if (@notBefore and @notAfter) then
                         (@notBefore le @notAfter)
                     else
-                        true()"
-                >Dateline date/@notBefore dateTime value must come before @notAfter dateTime
-                value.</assert>
+                        true()">Dateline date/@notBefore dateTime value must come before
+                @notAfter dateTime value.</assert>
         </rule>
     </pattern>
 
