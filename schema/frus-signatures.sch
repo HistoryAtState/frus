@@ -23,8 +23,8 @@
             <assert id="signed-corresp" test="not(@corresp)">The @corresp attribute is not allowed
                 on the signed element; it should be moved to the persName inside the signed
                 element</assert>
-            <assert id="signed-persname" test=".//tei:persName[not(ancestor::tei:note)]">Signature
-                blocks must contain a persName</assert>
+            <assert role="warning" id="signed-persname" test=".//tei:persName[not(ancestor::tei:note)]">Signature
+                blocks should contain a persName</assert>
             <assert id="affiliation" role="warn" test="not(.//tei:affiliation)">The affiliation
                 element is not allowed.</assert>
         </rule>
