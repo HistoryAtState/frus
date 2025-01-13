@@ -6,19 +6,19 @@
     xmlns:x="http://www.jenitennison.com/xslt/xspec">
 
 
-
     <x:scenario label="expected-attributes">
 
         <x:context>
-            <date calendar="gregorian" when="1987-11-19T13:07:00+00:00">November 19, 1987,
-                1307Z</date>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0"><date calendar="gregorian"
+                    when="1987-11-19T13:07:00+00:00" xmlns="http://www.tei-c.org/ns/1.0">November
+                    19, 1987, 1307Z</date></dateline>
         </x:context>
 
         <x:scenario label="expected-attributes-assertions">
 
 
             <x:expect-assert id="expected-attributes" label="Expected attribute names are present"
-                location="/*/tei:date"/>
+                location="/*/tei:dateline/tei:date"/>
 
         </x:scenario>
     </x:scenario>
@@ -26,38 +26,38 @@
     <x:scenario label="attribute-name-mismatch">
 
         <x:context>
-            <date ana="#date_imprecise-inferred-from-editorial-annotation" calendar="gregorian"
-                from="1987-11-18T13:36:00-05:00" to="1987-11-18T14:13:00-05:00">November 18,
-                1987</date>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0"><date
+                    ana="#date_imprecise-inferred-from-editorial-annotation" calendar="gregorian"
+                    from="1987-11-18T13:36:00-05:00" to="1987-11-18T14:13:00-05:00">November 18,
+                    1987</date></dateline>
         </x:context>
 
         <x:scenario label="attribute-name-mismatch-assertions">
 
             <x:expect-assert id="attribute-name-mismatch"
-                label="Date attribute name does not match expected content" location="/*/tei:date"/>
+                label="Date attribute name does not match expected content"
+                location="/*/tei:dateline/tei:date" role="warn"/>
         </x:scenario>
     </x:scenario>
 
     <x:scenario label="attribute-value-mismatch">
 
         <x:context>
-            <date calendar="gregorian" from="1986-11-05T15:55:00+01:00"
-                to="1986-11-05T19:15:00+01:00">November 5, 1986, 3:55–6:55 p.m. and 7:05–7:15
-                p.m.</date>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0"><date calendar="gregorian"
+                    from="1986-11-05T15:55:00+01:00" to="1986-11-05T19:15:00+01:00">November 5,
+                    1986, 3:55–6:55 p.m. and 7:05–7:15 p.m.</date></dateline>
         </x:context>
 
         <x:scenario label="attribute-value-mismatch-assertions">
 
             <x:expect-assert id="attribute-value-mismatch"
-                label="Date attribute value does not match expected content" location="/*/tei:date"
-            />
+                label="Date attribute value does not match expected content"
+                location="/*/tei:dateline/tei:date" role="warn"/>
         </x:scenario>
 
     </x:scenario>
 
 </x:description>
-
-
 <!-- <let name="actual-attributes" value="@when, @from, @to, @notBefore, @notAfter"/>
 <let name="date-analysis" value="dates:analyze-date(.)"/>
 <let name="expected-attributes" value="$date-analysis?output"/>
