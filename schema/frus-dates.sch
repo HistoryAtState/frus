@@ -143,7 +143,7 @@
                         satisfies starts-with($actual-attributes[name() eq $date/name()]/data(), data($date))"/>
 
             <!-- Assert to check if actual date attributes match expected values -->
-            <assert role="warning" sqf:fix="fix-date-attributes"
+            <assert id="date-matches-attributes" role="warning" sqf:fix="fix-date-attributes"
                 test="$attribute-name-mismatch and $attribute-value-mismatch">Date attribute
                     <value-of select="serialize($actual-attributes, map {'method': 'adaptive'})"/>
                 does not match expected: <value-of
