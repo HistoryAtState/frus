@@ -14,10 +14,10 @@
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
 
-    <extends href="dates-only-initial-review.sch"/>
     <extends href="frus-id-checks.sch"/>
     <extends href="frus-signatures.sch"/>
     <extends href="frus-characters.sch"/>
+    <extends href="frus-dates.sch"/>
 
     <!-- Define variables used by other patterns -->
     <let name="documents" value="//tei:div[@type = ('document', 'document-pending')]"/>
@@ -355,7 +355,7 @@
         <title>Source Note checks</title>
         <!-- limit this rule to volumes covering post-1950 or published after 1995, when source note conventions begin to conform to these rules -->
         <rule
-            context="tei:div[@subtype eq 'historical-document' and not(@type eq 'document-pending')][root(.)/tei:TEI/tei:teiHeader[.//tei:date[@type eq 'content-date']/@notBefore ge '1950' or .//tei:date[@type eq 'publication-date'] gt '1995']]">
+            context="tei:div[@subtype eq 'historical-document' and not(@type eq 'document-pending')][root(.)/tei:TEI//tei:publicationStmt[tei:date[@type eq 'content-date']/@notBefore ge '1950' or tei:date[@type eq 'publication-date'] gt '1995']]">
             <let name="source-note"
                 value="(tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note//tei:seg[@type eq 'source'])[1]"/>
             <let name="source-note-content" value="
