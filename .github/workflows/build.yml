@@ -30,7 +30,11 @@ jobs:
         run: |
           mkdir -p frus-toc 
           java -jar /usr/share/java/Saxon-HE.jar -s:volumes/ -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
-      
+
+      - name: Create frus.xqm
+        run: |
+          ./create-last-modified-module.sh bibliography/* volumes/* > modules/frus.xqm
+
       # sanity check
       - name: What happened
         run: git status
