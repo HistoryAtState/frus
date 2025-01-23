@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description schematron="../schema/frus-dates.sch"
+    xmlns:dates="http://history.state.gov/ns/xslt/dates" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:x="http://www.jenitennison.com/xslt/xspec">
+    <x:scenario label="Correct date encoding passes checks">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date when="1941-12-07">December 7, 1941</date>
+            </dateline>
+        </x:context>
+        <x:expect-not-assert id="date-matches-attributes"
+            label="No date encoding problems found or reported" location="/tei:dateline/tei:date"/>
+    </x:scenario>
+    <x:scenario label="Incorrect date encoding raises warning">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date when="1940-11-06">December 7, 1941</date>
+            </dateline>
+        </x:context>
+        <x:expect-assert id="date-matches-attributes"
+            label="Date encoding mismatch is correctly flagged" location="/tei:dateline/tei:date"
+            role="warning"/>
+    </x:scenario>
+    <x:scenario label="Unencoded undated date passes check">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date>Undated</date>
+            </dateline>
+        </x:context>
+        <x:expect-not-assert id="date-matches-attributes" label="Skip undated"
+            location="/tei:dateline/tei:date"/>
+    </x:scenario>
+</x:description>
