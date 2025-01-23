@@ -21,13 +21,8 @@
     <pattern id="date-pointer-checks">
         <title>Date-Related Ref and Pointer Checks</title>
 
-        <let name="category-ids" value="//tei:category/@xml:id"/>
+        <!-- tei:date/@ana values are checked in frus-id-checks.sch -->
 
-        <rule context="tei:date[@ana]">
-            <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of
-                    select="@ana"/>' is an invalid value. No category has been defined with an
-                @xml:id corresponding to this value.</assert>
-        </rule>
         <rule context="tei:date[@type]">
             <assert role="warn"
                 test="./@type = ('content-date', 'conversation-or-meeting-date', 'creation-date', 'publication-date', 'received-date')"
