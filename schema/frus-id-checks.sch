@@ -22,6 +22,7 @@
     <let name="term-ids" value="//tei:term/@xml:id"/>
     <let name="rendition-ids" value="//tei:rendition/@xml:id"/>
     <let name="vol-id" value="/tei:TEI/@xml:id"/>
+    <let name="category-ids" value="//tei:category/@xml:id"/>
     <let name="available-images"
         value="doc(concat('https://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
 
@@ -151,6 +152,16 @@
                 select="@url"/>' not found on static.history.state.gov</assert>
             <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of
                 select="@url"/>' not found on static.history.state.gov</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="date-ana-checks">
+        <title>Date analysis Pointer Checks</title>
+        
+        <rule context="tei:date[@ana]">
+            <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of
+                    select="@ana"/>' is an invalid value. No category has been defined with an
+                @xml:id corresponding to this value.</assert>
         </rule>
     </pattern>
 
