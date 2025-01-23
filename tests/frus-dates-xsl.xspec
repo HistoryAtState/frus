@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description stylesheet="../schema/frus-dates.xsl"
+    xmlns:dates="http://history.state.gov/ns/xslt/dates"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:x="http://www.jenitennison.com/xslt/xspec" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <x:scenario label="M-Y">
+        <x:call function="dates:analyze-date">
+            <x:param select="'September 1983'"/>
+        </x:call>
+        <x:expect label="Expected date attribute name" test="?output/name() eq 'when'"/>
+        <x:expect label="Expected date attribute value" test="?output eq '1983-09'"/>
+    </x:scenario>
+    <x:scenario label="M-D-Y">
+        <x:call function="dates:analyze-date">
+            <x:param select="'February 16, 1981'"/>
+        </x:call>
+        <x:expect label="Expected date attribute name" test="?output/name() eq 'when'"/>
+        <x:expect label="Expected date attribute value" test="?output eq '1981-02-16'"/>
+    </x:scenario>
+    <x:scenario label="M-D-Y-T">
+        <x:call function="dates:analyze-date">
+            <x:param select="'October 1, 1981, 8:45 a.m.'"/>
+        </x:call>
+        <x:expect label="Expected date attribute name" test="?output/name() eq 'when'"/>
+        <x:expect label="Expected date attribute value" test="?output eq '1981-10-01T08:45:00'"/>
+    </x:scenario>
+    <x:scenario label="M-D-Y-Z">
+        <x:call function="dates:analyze-date">
+            <x:param select="'April 30, 1981, 0034Z'"/>
+        </x:call>
+        <x:expect label="Expected date attribute name" test="?output/name() eq 'when'"/>
+        <x:expect label="Expected date attribute value"
+            test="?output eq '1981-04-30T00:34:00+00:00'"/>
+    </x:scenario>
+    <x:scenario label="M-D1-D2-Y">
+        <x:call function="dates:analyze-date">
+            <x:param select="'October 11–12, 1986'"/>
+        </x:call>
+        <x:expect label="Expected date attribute names"
+            test="every $name in .?output/name() satisfies $name = ('from', 'to')"/>
+        <x:expect label="Expected date attribute values"
+            test="every $date in .?output satisfies $date = ('1986-10-11', '1986-10-12')"/>
+    </x:scenario>
+    <x:scenario label="M-D-Y-T1-T2">
+        <x:call function="dates:analyze-date">
+            <x:param select="'July 10, 1981, 12:10–1:40 p.m.'"/>
+        </x:call>
+        <x:expect label="Expected date attribute names"
+            test="every $name in .?output/name() satisfies $name = ('from', 'to')"/>
+        <x:expect label="Expected date attribute values"
+            test="every $date in .?output satisfies $date = ('1981-07-10T12:10:00', '1981-07-10T13:40:00')"
+        />
+    </x:scenario>
+    <x:scenario label="M-D1-D2-Y-T1-T2">
+        <x:call function="dates:analyze-date">
+            <x:param select="'October 11–12, 1986, 8 p.m.–6:30 a.m.'"/>
+        </x:call>
+        <x:expect label="Expected date attribute names"
+            test="every $name in .?output/name() satisfies $name = ('from', 'to')"/>
+        <x:expect label="Expected date attribute values"
+            test="every $date in .?output satisfies $date = ('1986-10-11T20:00:00', '1986-10-12T06:30:00')"
+        />
+    </x:scenario>
+    <x:scenario label="M-Y (does not match FRUS style guide)">
+        <x:call function="dates:analyze-date">
+            <x:param select="'September, 1983'"/>
+        </x:call>
+        <x:expect label="Expected warning"
+            test="?warn eq 'Date did not match any known pattern; please review'"/>
+    </x:scenario>
+    <x:scenario label="Undated">
+        <x:call function="dates:analyze-date">
+            <x:param select="'Undated'"/>
+        </x:call>
+        <x:expect label="Expected empty result" test="empty(.?output)"/>
+    </x:scenario>
+</x:description>
