@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="xs math xd tei" version="3.0"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -44,6 +45,27 @@
         <xsl:variable as="xs:string*" name="prevDocIDs" select="accumulator-before('document-ids')"/>
         <xsl:variable as="xs:string*" name="docIDs"
             select="accumulator-after('document-ids')[not(. = $prevDocIDs)]"/>
+        <xsl:variable as="xs:string*" name="labels">
+            <xsl:choose>
+                <xsl:when test="ancestor::tei:back">
+                    <xsl:sequence>
+                        <xsl:text>Appendix</xsl:text>
+                        <xsl:text>Appendixes</xsl:text>
+                    </xsl:sequence>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:sequence>
+                        <xsl:text>Document</xsl:text>
+                        <xsl:text>Documents</xsl:text>
+                    </xsl:sequence>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable as="xs:integer" name="singular-plural" select="
+                if (count($docs) eq 1) then
+                    1
+                else
+                    2"/>
         <xsl:variable as="element(ul)?" name="child_list">
             <xsl:where-populated>
                 <ul class="hsg-toc__chapters__nested">
@@ -63,7 +85,7 @@
                 <xsl:where-populated>
                     <span>
                         <xsl:value-of
-                            select="(' (Document' || 's'[count($docs) gt 1] || ' ' || $docs[1] || '–'[count($docs) gt 1] || $docs[last()][count($docs) gt 1] || ')')[exists($docs)]"
+                            select="(' (' || $labels[$singular-plural] || ' ' || $docs[1] || ('–' || $docs[last()])[count($docs) gt 1] || ')')[exists($docs)]"
                         />
                     </span>
                 </xsl:where-populated>
