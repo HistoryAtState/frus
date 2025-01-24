@@ -22,7 +22,7 @@
                     notBefore="1963-11-25T00:00:00-05:00" type="content-date">1963 to 1968</date>
             </publicationStmt>
             <notesStmt>
-                <note>This publication contains 4 associated files. For page images, see the
+                <note>This publication contains 12 associated files. For page images, see the
                     facsimile element.</note>
                 <relatedItem corresp="#frus1917-72PubDipv07" type="jpg">
                     <bibl>
@@ -52,6 +52,86 @@
                             <measure quantity="1551083" unit="bytes"/>
                         </extent>
                         <date type="publication-date" when="2020-11-25T14:53:52.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig1" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/fig1.png"/>
+                        <extent>
+                            <measure quantity="933427" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig1" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/fig1.tif"/>
+                        <extent>
+                            <measure quantity="1072698" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig2" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/fig2.png"/>
+                        <extent>
+                            <measure quantity="461581" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig2" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/fig2.tif"/>
+                        <extent>
+                            <measure quantity="500127" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig3" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/fig3.png"/>
+                        <extent>
+                            <measure quantity="399505" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig3" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/fig3.tif"/>
+                        <extent>
+                            <measure quantity="379095" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#figure0645" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/figure0645.png"/>
+                        <extent>
+                            <measure quantity="98678" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:53:52.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#figure0645" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv07/figure0645.tif"/>
+                        <extent>
+                            <measure quantity="126318" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:37:32.000Z"/>
                     </bibl>
                 </relatedItem>
                 <relatedItem corresp="#frus1917-72PubDipv07" type="pdf">
@@ -9713,7 +9793,7 @@
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date calendar="gregorian"
                                     when="1964-03-11T13:30:00-05:00">March 11, 1964, 1:30
-                                PM</date></dateline>
+                                    p.m.</date></dateline>
                         </opener>
                         <p rend="center">Remarks by <persName corresp="#p_RCT_1">Carl T.
                                 Rowan</persName>, Director, U.S. Information Agency at the
@@ -39748,7 +39828,7 @@
                             number, I have selected the one shown below—the torch in the up-raised
                             hand of the Statue of Liberty. This design will hereafter be the
                             official <gloss target="#t_USIA_1">USIA</gloss> symbol.</p>
-                        <figure rendition="simple:display">
+                        <figure rendition="simple:display" xml:id="figure0645">
                             <graphic rendition="#image-center" url="figure0645"/>
                             <figDesc>A draft of the USIA symbol, in the form of a torch in the
                                 up-raised hand of the Statue of Liberty</figDesc>
@@ -40682,9 +40762,9 @@
                 <head>Appendix A</head>
                 <div frus:doc-dateTime-max="1964-12-31T23:59:59-05:00"
                     frus:doc-dateTime-min="1964-01-01T00:00:00-05:00" subtype="historical-document"
-                    type="section" xml:id="appendix-1">
+                    type="document" xml:id="appendix-1">
                     <head>Appendix A.1 <hi rend="italic">Nine From Little Rock</hi><note n="1"
-                            type="source" xml:id="d192fn1">Source: National Archives, <gloss
+                            type="source" xml:id="appendix-1fn1">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 306, Moving Images Relating to U.S.
                             Domestic and International Activities, 1982–1998, <hi rend="italic">Nine
                                 From Little Rock</hi>, 1964. Produced for the United States
@@ -40696,8 +40776,8 @@
                                 calendar="gregorian" type="publication-date" when="1964"
                             >1964</date>]</dateline>
                     </opener>
-                    <figure>
-                        <graphic url="Appendix A.1"/>
+                    <figure xml:id="fig1">
+                        <graphic url="fig1"/>
                         <figDesc>Title frame the 1964 film <hi rend="italic">Nine From Little
                                 Rock</hi>, showing the campus of Central State College in
                             Ohio</figDesc>
@@ -40931,9 +41011,9 @@
                 <pb facs="0662" n="621" xml:id="pg_621"/>
                 <div frus:doc-dateTime-max="1964-12-31T23:59:59-05:00"
                     frus:doc-dateTime-min="1964-01-01T00:00:00-05:00" subtype="historical-document"
-                    type="section" xml:id="appendix-2">
+                    type="document" xml:id="appendix-2">
                     <head>Appendix A.2 <hi rend="italic">The President and the Press</hi><note n="1"
-                            type="source" xml:id="d193fn1">Source: Johnson Library, <gloss
+                            type="source" xml:id="appendix-2fn1">Source: Johnson Library, <gloss
                                 target="#t_RG_1">RG</gloss> 306, Film Production Materials Related
                             to the Vice Presidency and Presidency of <persName corresp="#p_JLB_1"
                                 >Lyndon B. Johnson</persName>, 1961–1975, <hi rend="italic">The
@@ -40945,8 +41025,8 @@
                                 calendar="gregorian" type="publication-date" when="1964"
                             >1964</date>]</dateline>
                     </opener>
-                    <figure>
-                        <graphic url="Appendix A.2"/>
+                    <figure xml:id="fig2">
+                        <graphic url="fig2"/>
                         <figDesc>Title frame the 1964 film <hi rend="italic">The President and the
                                 Press</hi>, showing President Lyndon B. Johnson speaking to an
                             audience at the State Department auditorium in Washington,
@@ -41160,9 +41240,9 @@
                 <pb facs="0663" n="622" xml:id="pg_622"/>
                 <div frus:doc-dateTime-max="1967-12-31T23:59:59-05:00"
                     frus:doc-dateTime-min="1967-01-01T00:00:00-05:00" subtype="historical-document"
-                    type="section" xml:id="appendix-3">
+                    type="document" xml:id="appendix-3">
                     <head>Appendix A.3 <hi rend="italic">U.S.A. 1967</hi><note n="1" type="source"
-                            xml:id="d194fn1">Source: Johnson Library, <gloss target="#t_RG_1"
+                            xml:id="appendix-3fn1">Source: Johnson Library, <gloss target="#t_RG_1"
                                 >RG</gloss> 306, Film Production Materials Related to the Vice
                             Presidency and Presidency of <persName corresp="#p_JLB_1">Lyndon B.
                                 Johnson</persName>, 1961–1975, <hi rend="italic">U.S.A. 1967</hi>,
@@ -41173,8 +41253,8 @@
                                 calendar="gregorian" type="publication-date" when="1967"
                             >1967</date>]</dateline>
                     </opener>
-                    <figure>
-                        <graphic url="Appendix A.3"/>
+                    <figure xml:id="fig3">
+                        <graphic url="fig3"/>
                         <figDesc>Title frame the 1967 film <hi rend="italic">U.S.A. 1967</hi>,
                             showing speakers Victor Beasley and John Batchelder speaking behind
                             podiums</figDesc>

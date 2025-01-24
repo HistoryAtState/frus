@@ -183,7 +183,7 @@
                 >Document numbering mismatch. Document div/@n numbering must be
                 consecutive.</assert>
         </rule>
-        <rule context="tei:div[@type = ('document', 'document-pending')]">
+        <rule context="tei:div[@type = ('document', 'document-pending')][not(starts-with(@xml:id, 'app'))]">
             <assert role="warn" test="not(matches(./@n, '^\[.+?\]$'))">Document's @n is encased in
                 square brackets: "[]". Only use in the rare circumstance that the volume has a block
                 of unnumbered documents outside the normal stream of numbered documents. Please
