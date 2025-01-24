@@ -23,7 +23,7 @@
                     notBefore="1960-12-01T00:00:00-05:00" type="content-date">1960 to 1963</date>
             </publicationStmt>
             <notesStmt>
-                <note>This publication contains 4 associated files. For page images, see the
+                <note>This publication contains 10 associated files. For page images, see the
                     facsimile element.</note>
                 <relatedItem corresp="#frus1917-72PubDipv06" type="jpg">
                     <bibl>
@@ -53,6 +53,66 @@
                             <measure quantity="879654" unit="bytes"/>
                         </extent>
                         <date type="publication-date" when="2020-11-25T14:53:43.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig1" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv06/fig1.png"/>
+                        <extent>
+                            <measure quantity="419574" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig1" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv06/fig1.tif"/>
+                        <extent>
+                            <measure quantity="460257" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig2" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv06/fig2.png"/>
+                        <extent>
+                            <measure quantity="468685" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig2" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv06/fig2.tif"/>
+                        <extent>
+                            <measure quantity="474268" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig3" type="png">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv06/fig3.png"/>
+                        <extent>
+                            <measure quantity="432025" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#fig3" type="tif">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDipv06/fig3.tif"/>
+                        <extent>
+                            <measure quantity="430671" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-24T14:28:00.000Z"/>
                     </bibl>
                 </relatedItem>
                 <relatedItem corresp="#frus1917-72PubDipv06" type="pdf">
@@ -27173,8 +27233,8 @@
                             calendar="gregorian" notAfter="1962-03-26T23:59:59-05:00"
                             notBefore="1962-03-21T00:00:00+05:00" when="1962-03">March
                         1962</date>]</dateline>
-                    <figure>
-                        <graphic url="Appendix A.1" width="26pc"/>
+                    <figure xml:id="fig1">
+                        <graphic url="fig1" width="26pc"/>
                     </figure>
                     <div frus:doc-dateTime-max="1962-03-26T23:59:59-05:00"
                         frus:doc-dateTime-min="1962-03-20T14:00:00-05:00" type="online-supplement">
@@ -27312,8 +27372,8 @@
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                             calendar="gregorian" notAfter="1962-03-21T23:59:59-05:00"
                             notBefore="1962-03-12T00:00:00+05:00">March 1962</date>]</dateline>
-                    <figure>
-                        <graphic url="Appendix A.2" width="26pc"/>
+                    <figure xml:id="fig2">
+                        <graphic url="fig2" width="26pc"/>
                     </figure>
                     <div frus:doc-dateTime-max="1962-03-21T23:59:59-05:00"
                         frus:doc-dateTime-min="1962-03-11T14:00:00-05:00" type="online-supplement">
@@ -27534,8 +27594,8 @@
                             calendar="gregorian" notAfter="1963-06-30T23:59:59-04:00"
                             notBefore="1963-06-01T00:00:00+05:00" when="1963">June
                         1963</date>]</dateline>
-                    <figure>
-                        <graphic url="Appendix A.3" width="26pc"/>
+                    <figure xml:id="fig3">
+                        <graphic url="fig3" width="26pc"/>
                     </figure>
                     <div frus:doc-dateTime-max="1963-06-30T22:59:59-05:00"
                         frus:doc-dateTime-min="1963-05-31T14:00:00-05:00" type="online-supplement">
