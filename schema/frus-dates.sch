@@ -9,7 +9,7 @@
     <p>This schematron file contains date-related rules augmenting frus.sch. This file is
         appropriate for evaluating vendor deliveries and first review of a volume for date encoding
         and values.</p>
-    
+
     <xsl:include href="frus-dates.xsl"/>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
@@ -150,6 +150,19 @@
             <!-- Pass any warnings through from dates:analyze-date; e.g., no patterns matched the date -->
             <assert role="warning" test="empty($warn)"><value-of select="$warn"/>: <value-of
                     select="normalize-space(.)"/></assert>
+
+            <let name="timezone-attributes" value="$actual-attributes[matches(., '[-+]00:00$')]"/>
+
+            <!-- Flag timezone indicators +00:00 or -00:00 -->
+            <assert id="zulu-timezone-mismatch" role="warning" test="
+                    if (exists($timezone-attributes)) then
+                        (matches(., '\d{4}Z|Zulu') or exists(@ana))
+                    else
+                        true()">Time zone indicator <value-of
+                    select="string-join($timezone-attributes ! analyze-string(., '[-+]00:00$')/fn:match, ', ')"
+                /> is not expected in: <value-of
+                    select="$timezone-attributes ! serialize(., map {'method': 'adaptive'})"
+                /></assert>
 
             <!-- Schematron Quick Fix to replace any existing date attributes with the expected ones -->
             <sqf:fix id="fix-date-attributes">
