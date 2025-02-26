@@ -30,4 +30,31 @@
         <x:expect-not-assert id="date-matches-attributes" label="Skip undated"
             location="/tei:dateline/tei:date"/>
     </x:scenario>
+    <x:scenario label="Unexpected Zulu timezone indicator raises warning">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date when="1986-06-04T09:55:00+00:00">June 4, 1986, 9:55 a.m.</date>
+            </dateline>
+        </x:context>
+        <x:expect-assert id="zulu-timezone-mismatch"
+            label="Unexpected timezone indicator is correctly flagged"/>
+    </x:scenario>
+    <x:scenario label="Expected Zulu indicator passes check">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date when="1986-06-04T09:55:00+00:00">June 4, 1986, 0955Z</date>
+            </dateline>
+        </x:context>
+        <x:expect-not-assert id="zulu-timezone-mismatch" label="Expected Zulu indicator passes check"/>
+    </x:scenario>
+    <x:scenario label="Zulu indicator with justification passes check">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date ana="#good-reason" when="1986-06-04T09:55:00+00:00">June 4, 1986, 9:55
+                    a.m.</date>
+            </dateline>
+        </x:context>
+        <x:expect-not-assert id="zulu-timezone-mismatch"
+            label="Zulu indicator with justification passes check"/>
+    </x:scenario>
 </x:description>
