@@ -1114,7 +1114,6 @@
                             <attDef ident="part" mode="delete"/>
                         </attList>
                     </classSpec>
-                    <classSpec type="atts" ident="att.docStatus" mode="delete"/>
                     <classSpec type="atts" ident="att.editLike" mode="delete"/>
                     <classSpec type="atts" ident="att.fragmentable" mode="delete"/>
                     <classSpec type="atts" ident="att.naming" mode="change">
@@ -1262,6 +1261,31 @@
                                 </rng:optional>
                             </rng:group>
                         </content>
+                    </elementSpec>
+                    
+                    <!--
+                    constrain change/@status
+                    -->
+                    <elementSpec ident="change" module="core" mode="change">
+                        <desc>Restrict @status values for tei:change elements for status of divisions within a volume</desc>
+                        <attList>
+                            <attDef ident="status" usage="req" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="planned">
+                                        <gloss>Registered in a sub-series plan</gloss>
+                                    </valItem>
+                                    <valItem ident="being-researched">
+                                        <gloss>Being researched (with CR)</gloss>
+                                    </valItem>
+                                    <valItem ident="being-cleared">
+                                        <gloss>Being cleared (with DPD)</gloss>
+                                    </valItem>
+                                    <valItem ident="published">
+                                        <gloss>Published</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
 
                     <!-- 
