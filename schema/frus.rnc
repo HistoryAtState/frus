@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2024-12-04T15:25:33Z. . 
+# Schema generated from ODD source 2025-05-02T20:21:38Z. . 
 # TEI Edition: Version 4.5.0. Last updated on 25th October 2022, revision 3e98e619e 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.5.0/ 
 #  FRUS TEI Schema Spec 
@@ -396,6 +396,15 @@ att.datcat.attribute.targetDatcat =
     }
   }?
 att.divLike.attributes = empty
+att.docStatus.attributes = att.docStatus.attribute.status
+att.docStatus.attribute.status =
+  
+  ## describes the status of a document either currently or, when associated with a dated element, at the time indicated.
+  ## Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn
+  [ a:defaultValue = "draft" ]
+  attribute status {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
 att.global.responsibility.attributes =
   att.global.responsibility.attribute.cert,
   att.global.responsibility.attribute.resp
@@ -1746,282 +1755,153 @@ date =
     ## Restrict @ana values for tei:date elements
     attribute ana {
       
-      ## (The recorded date was determined to be an error via
-      ##                                             content of the document and corrected Date value(s) were
-      ##                                             inferred from the content of the document) 
+      ## (The recorded date was determined to be an error via content of the document and corrected Date value(s) were inferred from the content of the document) 
       "#date_apparent-typo-based-on-document-content"
       | 
-        ## (The recorded date was determined to be an error via
-        ##                                             the scanned version of the original document and
-        ##                                             corrected Date value(s) were inferred from the content
-        ##                                             of the scanned document) 
+        ## (The recorded date was determined to be an error via the scanned version of the original document and corrected Date value(s) were inferred from the content of the scanned document) 
         "#date_apparent-typo-based-on-document-scan"
       | 
-        ## (The recorded date was determined to be an error via
-        ##                                             outside research and corrected date value(s) were
-        ##                                             inferred from related sources) 
+        ## (The recorded date was determined to be an error via outside research and corrected date value(s) were inferred from related sources) 
         "#date_apparent-typo-based-on-outside-research"
       | 
-        ## (The recorded date was determined to be an error by
-        ##                                             typo based on nearest dated siblings and corrected date
-        ##                                             value(s) were inferred from nearest dated
-        ##                                             siblings) 
+        ## (The recorded date was determined to be an error by typo based on nearest dated siblings and corrected date value(s) were inferred from nearest dated siblings) 
         "#date_apparent-typo-based-on-sibling-dates"
       | 
-        ## (Problems in conversion to Gregorian date value(s)
-        ##                                             necessitated adding @notBefore and @notAfter inferred
-        ##                                             from the content of the document and nearest dated
-        ##                                             siblings) 
+        ## (Problems in conversion to Gregorian date value(s) necessitated adding @notBefore and @notAfter inferred from the content of the document and nearest dated siblings) 
         "#date_conversion-issue-inferred-from-document-content-and-sibling-dates"
       | 
-        ## (The recorded date was determined to be an error by
-        ##                                             the FRUS compiler/editor, who indicated the corrected
-        ##                                             date at the time of original publication. Date value(s)
-        ##                                             were corrected based on compiler/editor notation) 
+        ## (The recorded date was determined to be an error by the FRUS compiler/editor, who indicated the corrected date at the time of original publication. Date value(s) were corrected based on compiler/editor notation) 
         "#date_editorial-correction"
       | 
-        ## (Imprecise date value(s) augmented with @notBefore and
-        ##                                             @notAfter inferred based on date rules (e.g. yyyy has
-        ##                                             @notBefore="yyyy-01-01" and @notAfter="yyyy-12-31";
-        ##                                             yyyy-mm has @notBefore="yyyy-mm-01" and
-        ##                                             @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or
-        ##                                             31 based on month and year)) 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter inferred based on date rules (e.g. yyyy has @notBefore="yyyy-01-01" and @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based on month and year)) 
         "#date_imprecise-inferred-from-date-rules"
       | 
-        ## (Imprecise date value(s) augmented with @notBefore and
-        ##                                             @notAfter inferred from the content of the
-        ##                                             document) 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter inferred from the content of the document) 
         "#date_imprecise-inferred-from-document-content"
       | 
-        ## (Imprecise date value(s) augmented with
-        ##                                             @notBefore/@notAfter or @when or @from/@to inferred from
-        ##                                             the document header) 
+        ## (Imprecise date value(s) augmented with @notBefore/@notAfter or @when or @from/@to inferred from the document header) 
         "#date_imprecise-inferred-from-document-head"
       | 
-        ## (Imprecise date value(s) augmented with @notBefore and
-        ##                                             @notAfter inferred from the content of the scanned
-        ##                                             version of the original document) 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter inferred from the content of the scanned version of the original document) 
         "#date_imprecise-inferred-from-document-scan"
       | 
-        ## (Imprecise date value(s) augmented with @notBefore and
-        ##                                             @notAfter inferred from the content of the document and
-        ##                                             nearest dated siblings) 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter inferred from the content of the document and nearest dated siblings) 
         "#date_imprecise-inferred-from-document-content-and-sibling-dates"
       | 
-        ## ([Contemporary Volumes] Imprecise date value(s)
-        ##                                             augmented with @notBefore and @notAfter inferred from
-        ##                                             editorial annotations) 
+        ## ([Contemporary Volumes] Imprecise date value(s) augmented with @notBefore and @notAfter inferred from editorial annotations) 
         "#date_imprecise-inferred-from-editorial-annotation"
       | 
-        ## ([Contemporary Volumes] Imprecise date value(s)
-        ##                                             augmented with @notBefore and @notAfter inferred during
-        ##                                             consultation with editor(s)/compiler(s)) 
+        ## ([Contemporary Volumes] Imprecise date value(s) augmented with @notBefore and @notAfter inferred during consultation with editor(s)/compiler(s)) 
         "#date_imprecise-inferred-from-editorial-consultation"
       | 
-        ## (Imprecise date value(s) augmented with @notBefore and
-        ##                                             @notAfter inferred from related sources) 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter inferred from related sources) 
         "#date_imprecise-inferred-from-outside-research"
       | 
-        ## (Imprecise date value(s) augmented with @notBefore and
-        ##                                             @notAfter inferred from nearest dated siblings) 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter inferred from nearest dated siblings) 
         "#date_imprecise-inferred-from-sibling-dates"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             the heading of its parent chapter) 
+        ## (Date value(s) for undated document were inferred from the heading of its parent chapter) 
         "#date_undated-inferred-from-chapter-heading"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             the content of the document) 
+        ## (Date value(s) for undated document were inferred from the content of the document) 
         "#date_undated-inferred-from-document-content"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             the content of the document and nearest dated
-        ##                                             siblings) 
+        ## (Date value(s) for undated document were inferred from the content of the document and nearest dated siblings) 
         "#date_undated-inferred-from-document-content-and-sibling-dates"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             dates in document header, using an XQuery script to find
-        ##                                             date patterns) 
+        ## (Date value(s) for undated document were inferred from dates in document header, using an XQuery script to find date patterns) 
         "#date_undated-inferred-from-document-head"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             the content of the scanned version of the original
-        ##                                             document) 
+        ## (Date value(s) for undated document were inferred from the content of the scanned version of the original document) 
         "#date_undated-inferred-from-document-scan"
       | 
-        ## ([Contemporary Volumes] Date value(s) for undated
-        ##                                             document were inferred from editorial
-        ##                                             annotations) 
+        ## ([Contemporary Volumes] Date value(s) for undated document were inferred from editorial annotations) 
         "#date_undated-inferred-from-editorial-annotation"
       | 
-        ## ([Contemporary Volumes] Date value(s) for undated
-        ##                                             document were inferred during consultation with
-        ##                                             editor(s)/compiler(s)) 
+        ## ([Contemporary Volumes] Date value(s) for undated document were inferred during consultation with editor(s)/compiler(s)) 
         "#date_undated-inferred-from-editorial-consultation"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             related sources) 
+        ## (Date value(s) for undated document were inferred from related sources) 
         "#date_undated-inferred-from-outside-research"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             nearest dated siblings) 
+        ## (Date value(s) for undated document were inferred from nearest dated siblings) 
         "#date_undated-inferred-from-sibling-dates"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             volume date range and possibly outside research) 
+        ## (Date value(s) for undated document were inferred from volume date range and possibly outside research) 
         "#date_undated-inferred-from-volume-rules"
       | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             volume date range. (The value(s) serve as a placeholder
-        ##                                             until more discrete analysis can be conducted on an
-        ##                                             individual document level.)) 
+        ## (Date value(s) for undated document were inferred from volume date range. (The value(s) serve as a placeholder until more discrete analysis can be conducted on an individual document level.)) 
         "#date_undated-temporarily-inferred-from-volume-rules"
     }?,
     
     ## Restrict @calendar values for tei:date elements
-    ## Suggested values include: 1] brazilian-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Brazil.); 2] chinese-era (Prior to 1912, the Chinese dating system often referred to the reign or era of particular rulers of China.); 3] chinese-lunisolar (The Chinese calendar is a lunisolar calendar. While it has been supplanted by the Gregorian calendar for civil purposes, the Chinese calendar is still used in the determination of community events such as festivals.); 4] chinese-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of China.); 5] ethiopian-geez (The Ethiopian Ge’ez calendar is used in Ethiopia's civil society as well as the Orthodox Church in Ethiopia and Eritrea. The solar-based Ethiopian calendar is related to the Coptic and Julian calendars.); 6] gregorian (The Gregorian calendar is widely used worldwide and is the calendar system used in the international standard for dates and times (ISO 8601). The solar-based Gregorian calendar is also known as the Western calendar or Christian calendar. Because the U.S. Department of State is headquartered in the United States, the majority of datelines in FRUS refer to the Gregorian calendar or have parallel date statements.); 7] haitian-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Haiti (originally Hayti).); 8] hijri (The Islamic calendar, or Hijri or Muslim calendar, is a lunar calendar, whose time reckoning is tied to the phases of the Earth's moon. The Hijri calendar is used by many Muslim-majority countries and by Muslims around the world to determine the dates of religious events and observances.); 9] iranian-persian (The Solar Hijri calendar, or Persian or Iranian calendar, is a solar calendar, whose time reckoning is tied to the Earth's movements around its sun. The Persian calendar is officially used in Iran and Afghanistan.); 10] japanese-nengō (The Japanese nengō is a periodization system that, during the FRUS timeframe, is based on the reign of Japanese emperors.); 11] julian (Reforming the lunar-based Roman calendar, the Julian calendar was solar-based and tied to the Earth's rotation around the sun. Proposed by Julius Ceasar, the Julian calendar was widely used throughout the Roman Empire and in Christian churches and gained dominance in Europe and European-sponsored settlements. While the Gregorian calendar was first introduced in 1582, the Julian calendar was maintained in some countries even through the 1930s. The Julian calendar is still used by the Russian Orthodox Church, the Berber people of North Africa, and on Mount Athos.); 12] korean-era (Korean dating systems often referred to the reign or era of particular rulers of Korea.); 13] korean-lunisolar (Derived from the Chinese calendar, the traditional Korean calendar is a lunisolar calendar.); 14] liberian-republic (Official documents such as treaties may include a parallel date phrase referencing the year of the republic of Liberia.); 15] masonic-anno-lucis (Among the different Masonic calendars, Anno Lucis (A.L. or A:.L:. or the year of light) is used by Freemasons in Scotland, England, Ireland, France, Germany, and the United States. The “year of light” refers to a particular Biblical interpretation of the creation of the world (~4000 BCE).); 16] papal-era (Papal era dates referred to the year in relation to the term of the current Catholic pope.); 17] roman (The Roman calendar was used by the Roman Kingdom and Roman Republic. Roman dates were referenced by their duration from one of three key days: the nones (fifth or seventh, depending on the length of the month), the ides (the thirteenth or fifteenth of a month), and the kalends (the first of the next month).); 18] rumi (The Rumi calendar (Rumi takvim), a hsolar calendar based on the Julian calendar but with year one corresponding to 622 A.D., This calendar was used by the Ottoman Empire and its successor, the Republic of Turkey, from 1839 to 1926. ); 19] thai-era (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the 1782 establishment of the Rattanakosin Kingdom (Siam and, later, the Kingdom of Thailand).); 20] thai-lunisolar (The Thai lunar calendar is a Buddhist lunisolar calendar. In 1888, the Thai lunar calendar was replaced by the Thai solar calendar as the legal calendar in Thailand. It is currently used for calculating holy days and other religious and traditional events.); 21] tibetan-phugpa (Introduced in 1447, the lunisolar Tibetan phugpa calendar is modified from Indian calendar systems and based on the Kālacakra Tantra. In the phugpa calendar, each year is associated with an element and an animal; pairings recur in 60-year cycles.); 22] us-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the independence of the United States (1776).)
+    ## Suggested values include: 1] brazilian-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Brazil.); 2] chinese-era (Prior to 1912, the Chinese dating system often referred to the reign or era of particular rulers of China.); 3] chinese-lunisolar (The Chinese calendar is a lunisolar calendar. While it has been supplanted by the Gregorian calendar for civil purposes, the Chinese calendar is still used in the determination of community events such as festivals.); 4] chinese-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of China.); 5] ethiopian-geez (The Ethiopian Ge’ez calendar is used in Ethiopia's civil society as well as the Orthodox Church in Ethiopia and Eritrea. The solar-based Ethiopian calendar is related to the Coptic and Julian calendars.); 6] gregorian (The Gregorian calendar is widely used worldwide and is the calendar system used in the international standard for dates and times (ISO 8601). The solar-based Gregorian calendar is also known as the Western calendar or Christian calendar. Because the U.S. Department of State is headquartered in the United States, the majority of datelines in FRUS refer to the Gregorian calendar or have parallel date statements.); 7] haitian-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Haiti (originally Hayti).); 8] hijri (The Islamic calendar, or Hijri or Muslim calendar, is a lunar calendar, whose time reckoning is tied to the phases of the Earth's moon. The Hijri calendar is used by many Muslim-majority countries and by Muslims around the world to determine the dates of religious events and observances.); 9] iranian-persian (The Solar Hijri calendar, or Persian or Iranian calendar, is a solar calendar, whose time reckoning is tied to the Earth's movements around its sun. The Persian calendar is officially used in Iran and Afghanistan.); 10] japanese-nengō (The Japanese nengō is a periodization system that, during the FRUS timeframe, is based on the reign of Japanese emperors.); 11] julian (Reforming the lunar-based Roman calendar, the Julian calendar was solar-based and tied to the Earth's rotation around the sun. Proposed by Julius Ceasar, the Julian calendar was widely used throughout the Roman Empire and in Christian churches and gained dominance in Europe and European-sponsored settlements. While the Gregorian calendar was first introduced in 1582, the Julian calendar was maintained in some countries even through the 1930s. The Julian calendar is still used by the Russian Orthodox Church, the Berber people of North Africa, and on Mount Athos.); 12] korean-era (Korean dating systems often referred to the reign or era of particular rulers of Korea.); 13] korean-lunisolar (Derived from the Chinese calendar, the traditional Korean calendar is a lunisolar calendar.); 14] liberian-republic (Official documents such as treaties may include a parallel date phrase referencing the year of the republic of Liberia.); 15] masonic-anno-lucis (Among the different Masonic calendars, Anno Lucis (A.L. or A:.L:. or the year of light) is used by Freemasons in Scotland, England, Ireland, France, Germany, and the United States. The “year of light” refers to a particular Biblical interpretation of the creation of the world (~4000 BCE).); 16] papal-era (Papal era dates referred to the year in relation to the term of the current Catholic pope.); 17] roman (The Roman calendar was used by the Roman Kingdom and Roman Republic. Roman dates were referenced by their duration from one of three key days: the nones (fifth or seventh, depending on the length of the month), the ides (the thirteenth or fifteenth of a month), and the kalends (the first of the next month).); 18] rumi (The Rumi calendar (Rumi takvim), a hsolar calendar based on the Julian calendar but with year one corresponding to 622 A.D., This calendar was used by the Ottoman Empire and its successor, the Republic of Turkey, from 1839 to 1926.); 19] thai-era (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the 1782 establishment of the Rattanakosin Kingdom (Siam and, later, the Kingdom of Thailand).); 20] thai-lunisolar (The Thai lunar calendar is a Buddhist lunisolar calendar. In 1888, the Thai lunar calendar was replaced by the Thai solar calendar as the legal calendar in Thailand. It is currently used for calculating holy days and other religious and traditional events.); 21] tibetan-phugpa (Introduced in 1447, the lunisolar Tibetan phugpa calendar is modified from Indian calendar systems and based on the Kālacakra Tantra. In the phugpa calendar, each year is associated with an element and an animal; pairings recur in 60-year cycles.); 22] us-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the independence of the United States (1776).)
     attribute calendar {
       
-      ## (Official documents such as treaties may include a
-      ##                                             parallel date phrase referring to the year in relation
-      ##                                             to the establishment of the republic of Brazil.) FRUS example(s): “the 23d of December, 1889, first year of the Republic”; “June 30, 1906, 18th of the Republic”
+      ## (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Brazil.) FRUS example(s): “the 23d of December, 1889, first year of the Republic”; “June 30, 1906, 18th of the Republic”
       "brazilian-republic"
       | 
-        ## (Prior to 1912, the Chinese dating system often
-        ##                                             referred to the reign or era of particular rulers of
-        ##                                             China.) FRUS example(s): “Kuang Hsü, 26th year, 11th month, 24th day”
+        ## (Prior to 1912, the Chinese dating system often referred to the reign or era of particular rulers of China.) FRUS example(s): “Kuang Hsü, 26th year, 11th month, 24th day”
         "chinese-era"
       | 
-        ## (The Chinese calendar is a lunisolar calendar. While
-        ##                                             it has been supplanted by the Gregorian calendar for
-        ##                                             civil purposes, the Chinese calendar is still used in
-        ##                                             the determination of community events such as
-        ##                                             festivals.) FRUS example(s): “Eighth moon, 28th day (October 10, 1901)”; “Kuanghsü XXX year, first moon, 23d day”
+        ## (The Chinese calendar is a lunisolar calendar. While it has been supplanted by the Gregorian calendar for civil purposes, the Chinese calendar is still used in the determination of community events such as festivals.) FRUS example(s): “Eighth moon, 28th day (October 10, 1901)”; “Kuanghsü XXX year, first moon, 23d day”
         "chinese-lunisolar"
       | 
-        ## (Official documents such as treaties may include a
-        ##                                             parallel date phrase referring to the year in relation
-        ##                                             to the establishment of the republic of China.) FRUS example(s): “March 10, 1st year of the Republic of China [1912]”; “March 27, 1916 (27th day of the third month of the fifth year of the Chinese Republic)”
+        ## (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of China.) FRUS example(s): “March 10, 1st year of the Republic of China [1912]”; “March 27, 1916 (27th day of the third month of the fifth year of the Chinese Republic)”
         "chinese-republic"
       | 
-        ## (The Ethiopian Ge’ez calendar is used in Ethiopia's
-        ##                                             civil society as well as the Orthodox Church in Ethiopia
-        ##                                             and Eritrea. The solar-based Ethiopian calendar is
-        ##                                             related to the Coptic and Julian calendars.) FRUS example(s): “Written 15th Tehsass 1907 (Abyssinian date) Year of Grace Adis Ababa.”; “22nd of Mazia, 1919 (April 30, 1927)”
+        ## (The Ethiopian Ge’ez calendar is used in Ethiopia's civil society as well as the Orthodox Church in Ethiopia and Eritrea. The solar-based Ethiopian calendar is related to the Coptic and Julian calendars.) FRUS example(s): “Written 15th Tehsass 1907 (Abyssinian date) Year of Grace Adis Ababa.”; “22nd of Mazia, 1919 (April 30, 1927)”
         "ethiopian-geez"
       | 
-        ## (The Gregorian calendar is widely used worldwide and
-        ##                                             is the calendar system used in the international
-        ##                                             standard for dates and times (ISO 8601). The solar-based
-        ##                                             Gregorian calendar is also known as the Western calendar
-        ##                                             or Christian calendar. Because the U.S. Department of
-        ##                                             State is headquartered in the United States, the
-        ##                                             majority of datelines in FRUS refer to the Gregorian
-        ##                                             calendar or have parallel date statements.) FRUS example(s): “the 27th of April, 1904”; “September 21, 1982, 1345Z”; “this thirtieth day of November, in the year of our Lord one thousand nine hundred and eighteen”
+        ## (The Gregorian calendar is widely used worldwide and is the calendar system used in the international standard for dates and times (ISO 8601). The solar-based Gregorian calendar is also known as the Western calendar or Christian calendar. Because the U.S. Department of State is headquartered in the United States, the majority of datelines in FRUS refer to the Gregorian calendar or have parallel date statements.) FRUS example(s): “the 27th of April, 1904”; “September 21, 1982, 1345Z”; “this thirtieth day of November, in the year of our Lord one thousand nine hundred and eighteen”
         "gregorian"
       | 
-        ## (Official documents such as treaties may include a
-        ##                                             parallel date phrase referring to the year in relation
-        ##                                             to the establishment of the republic of Haiti
-        ##                                             (originally Hayti).) FRUS example(s): “August 28, year 103 of the independence”; “the 28th of May, 1890, the eighty-seventh year of independence”
+        ## (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Haiti (originally Hayti).) FRUS example(s): “August 28, year 103 of the independence”; “the 28th of May, 1890, the eighty-seventh year of independence”
         "haitian-republic"
       | 
-        ## (The Islamic calendar, or Hijri or Muslim calendar, is
-        ##                                             a lunar calendar, whose time reckoning is tied to the
-        ##                                             phases of the Earth's moon. The Hijri calendar is used
-        ##                                             by many Muslim-majority countries and by Muslims around
-        ##                                             the world to determine the dates of religious events and
-        ##                                             observances.) FRUS example(s): “Year 1319, Jamad-el-Ewel the third”; “27 Babee El Thani 1361 (13 May 1942)”
+        ## (The Islamic calendar, or Hijri or Muslim calendar, is a lunar calendar, whose time reckoning is tied to the phases of the Earth's moon. The Hijri calendar is used by many Muslim-majority countries and by Muslims around the world to determine the dates of religious events and observances.) FRUS example(s): “Year 1319, Jamad-el-Ewel the third”; “27 Babee El Thani 1361 (13 May 1942)”
         "hijri"
       | 
-        ## (The Solar Hijri calendar, or Persian or Iranian
-        ##                                             calendar, is a solar calendar, whose time reckoning is
-        ##                                             tied to the Earth's movements around its sun. The
-        ##                                             Persian calendar is officially used in Iran and
-        ##                                             Afghanistan.) FRUS example(s): “Khordad 29, 1306/June 20, 1927”; “October 9, 1938 (Mehrmah, 17, 1317)”
+        ## (The Solar Hijri calendar, or Persian or Iranian calendar, is a solar calendar, whose time reckoning is tied to the Earth's movements around its sun. The Persian calendar is officially used in Iran and Afghanistan.) FRUS example(s): “Khordad 29, 1306/June 20, 1927”; “October 9, 1938 (Mehrmah, 17, 1317)”
         "iranian-persian"
       | 
-        ## (The Japanese nengō is a periodization system that,
-        ##                                             during the FRUS timeframe, is based on the reign of
-        ##                                             Japanese emperors.) FRUS example(s): “the 10th day of the 2nd month of the 37th year of Meiji (1904)”; “October 15, 15th Year of Showa”
+        ## (The Japanese nengō is a periodization system that, during the FRUS timeframe, is based on the reign of Japanese emperors.) FRUS example(s): “the 10th day of the 2nd month of the 37th year of Meiji (1904)”; “October 15, 15th Year of Showa”
         "japanese-nengō"
       | 
-        ## (Reforming the lunar-based Roman calendar, the Julian
-        ##                                             calendar was solar-based and tied to the Earth's
-        ##                                             rotation around the sun. Proposed by Julius Ceasar, the
-        ##                                             Julian calendar was widely used throughout the Roman
-        ##                                             Empire and in Christian churches and gained dominance in
-        ##                                             Europe and European-sponsored settlements. While the
-        ##                                             Gregorian calendar was first introduced in 1582, the
-        ##                                             Julian calendar was maintained in some countries even
-        ##                                             through the 1930s. The Julian calendar is still used by
-        ##                                             the Russian Orthodox Church, the Berber people of North
-        ##                                             Africa, and on Mount Athos.) FRUS example(s): “Russian calendar, February 3, 1904”; “October 30/17, 1904”
+        ## (Reforming the lunar-based Roman calendar, the Julian calendar was solar-based and tied to the Earth's rotation around the sun. Proposed by Julius Ceasar, the Julian calendar was widely used throughout the Roman Empire and in Christian churches and gained dominance in Europe and European-sponsored settlements. While the Gregorian calendar was first introduced in 1582, the Julian calendar was maintained in some countries even through the 1930s. The Julian calendar is still used by the Russian Orthodox Church, the Berber people of North Africa, and on Mount Athos.) FRUS example(s): “Russian calendar, February 3, 1904”; “October 30/17, 1904”
         "julian"
       | 
-        ## (Korean dating systems often referred to the reign or
-        ##                                             era of particular rulers of Korea.) FRUS example(s): “Fifth year Kwang Mu, February 26”; “Twenty-fourth day of the sixth month of the fourth year of Lyung Heni”; “this 26th day of the seventh moon of the five hundred and third year of Ta Chosen [Korea]”
+        ## (Korean dating systems often referred to the reign or era of particular rulers of Korea.) FRUS example(s): “Fifth year Kwang Mu, February 26”; “Twenty-fourth day of the sixth month of the fourth year of Lyung Heni”; “this 26th day of the seventh moon of the five hundred and third year of Ta Chosen [Korea]”
         "korean-era"
       | 
-        ## (Derived from the Chinese calendar, the traditional
-        ##                                             Korean calendar is a lunisolar calendar.) FRUS example(s): “this 26th day of the seventh moon of the five hundred and third year of Ta Chosen [Korea]”
+        ## (Derived from the Chinese calendar, the traditional Korean calendar is a lunisolar calendar.) FRUS example(s): “this 26th day of the seventh moon of the five hundred and third year of Ta Chosen [Korea]”
         "korean-lunisolar"
       | 
-        ## (Official documents such as treaties may include a
-        ##                                             parallel date phrase referencing the year of the
-        ##                                             republic of Liberia.) FRUS example(s): “this 7th day of April in the Year of our Lord One Thousand Nine Hundred and Thirty and of the Republic the Eighty-Third”
+        ## (Official documents such as treaties may include a parallel date phrase referencing the year of the republic of Liberia.) FRUS example(s): “this 7th day of April in the Year of our Lord One Thousand Nine Hundred and Thirty and of the Republic the Eighty-Third”
         "liberian-republic"
       | 
-        ## (Among the different Masonic calendars, Anno Lucis
-        ##                                             (A.L. or A:.L:. or the year of light) is used by
-        ##                                             Freemasons in Scotland, England, Ireland, France,
-        ##                                             Germany, and the United States. The “year of light”
-        ##                                             refers to a particular Biblical interpretation of the
-        ##                                             creation of the world (~4000 BCE).) FRUS example(s): “24th day of the 3d month, in the year of light 5865”
+        ## (Among the different Masonic calendars, Anno Lucis (A.L. or A:.L:. or the year of light) is used by Freemasons in Scotland, England, Ireland, France, Germany, and the United States. The “year of light” refers to a particular Biblical interpretation of the creation of the world (~4000 BCE).) FRUS example(s): “24th day of the 3d month, in the year of light 5865”
         "masonic-anno-lucis"
       | 
-        ## (Papal era dates referred to the year in relation to
-        ##                                             the term of the current Catholic pope.) FRUS example(s): “die XX Maii MDCCCLXXIII Pontificatus Nostri anno vicesimo septimo”; “the 29th day of July, 1853, in the eighth year of our pontificate”
+        ## (Papal era dates referred to the year in relation to the term of the current Catholic pope.) FRUS example(s): “die XX Maii MDCCCLXXIII Pontificatus Nostri anno vicesimo septimo”; “the 29th day of July, 1853, in the eighth year of our pontificate”
         "papal-era"
       | 
-        ## (The Roman calendar was used by the Roman Kingdom and
-        ##                                             Roman Republic. Roman dates were referenced by their
-        ##                                             duration from one of three key days: the nones (fifth or
-        ##                                             seventh, depending on the length of the month), the ides
-        ##                                             (the thirteenth or fifteenth of a month), and the
-        ##                                             kalends (the first of the next month).) FRUS example(s): “in the year of the incarnation of our Lord, one thousand eight hundred and forty, on the fifth day before the kalends of May (27th April, 1840)”
+        ## (The Roman calendar was used by the Roman Kingdom and Roman Republic. Roman dates were referenced by their duration from one of three key days: the nones (fifth or seventh, depending on the length of the month), the ides (the thirteenth or fifteenth of a month), and the kalends (the first of the next month).) FRUS example(s): “in the year of the incarnation of our Lord, one thousand eight hundred and forty, on the fifth day before the kalends of May (27th April, 1840)”
         "roman"
       | 
-        ## (The Rumi calendar (Rumi takvim), a hsolar calendar
-        ##                                             based on the Julian calendar but with year one
-        ##                                             corresponding to 622 A.D., This calendar was used by the
-        ##                                             Ottoman Empire and its successor, the Republic of
-        ##                                             Turkey, from 1839 to 1926. ) FRUS example(s): “Nissan, 21, 1325. (May 5, 1909.)”
+        ## (The Rumi calendar (Rumi takvim), a hsolar calendar based on the Julian calendar but with year one corresponding to 622 A.D., This calendar was used by the Ottoman Empire and its successor, the Republic of Turkey, from 1839 to 1926.) FRUS example(s): “Nissan, 21, 1325. (May 5, 1909.)”
         "rumi"
       | 
-        ## (Official documents such as treaties may include a
-        ##                                             parallel date phrase referring to the year in relation
-        ##                                             to the 1782 establishment of the Rattanakosin Kingdom
-        ##                                             (Siam and, later, the Kingdom of Thailand).) FRUS example(s): “the 31st day of March, Ratanakosindr Sok, 123”
+        ## (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the 1782 establishment of the Rattanakosin Kingdom (Siam and, later, the Kingdom of Thailand).) FRUS example(s): “the 31st day of March, Ratanakosindr Sok, 123”
         "thai-era"
       | 
-        ## (The Thai lunar calendar is a Buddhist lunisolar
-        ##                                             calendar. In 1888, the Thai lunar calendar was replaced
-        ##                                             by the Thai solar calendar as the legal calendar in
-        ##                                             Thailand. It is currently used for calculating holy days
-        ##                                             and other religious and traditional events.) FRUS example(s): “Sunday, 6 of waxing moon, 11th month, year of Rallit, 1st of the decade, 1241 of civil era, corresponding to September 21, 1879, of Christian era”
+        ## (The Thai lunar calendar is a Buddhist lunisolar calendar. In 1888, the Thai lunar calendar was replaced by the Thai solar calendar as the legal calendar in Thailand. It is currently used for calculating holy days and other religious and traditional events.) FRUS example(s): “Sunday, 6 of waxing moon, 11th month, year of Rallit, 1st of the decade, 1241 of civil era, corresponding to September 21, 1879, of Christian era”
         "thai-lunisolar"
       | 
-        ## (Introduced in 1447, the lunisolar Tibetan phugpa
-        ##                                             calendar is modified from Indian calendar systems and
-        ##                                             based on the Kālacakra Tantra. In the phugpa calendar,
-        ##                                             each year is associated with an element and an animal;
-        ##                                             pairings recur in 60-year cycles.) FRUS example(s): “13th Day of 1st month, Water Sheep Year. (Corresponding to February 1943.)”; “25th of 8th month Fire-Pig Tibetan Year [1947]”
+        ## (Introduced in 1447, the lunisolar Tibetan phugpa calendar is modified from Indian calendar systems and based on the Kālacakra Tantra. In the phugpa calendar, each year is associated with an element and an animal; pairings recur in 60-year cycles.) FRUS example(s): “13th Day of 1st month, Water Sheep Year. (Corresponding to February 1943.)”; “25th of 8th month Fire-Pig Tibetan Year [1947]”
         "tibetan-phugpa"
       | 
-        ## (Official documents such as treaties may include a
-        ##                                             parallel date phrase referring to the year in relation
-        ##                                             to the independence of the United States (1776).) FRUS example(s): “this 16th day of January, in the year of our Lord one thousand eight hundred and eighty-eight, and of the independence of the United States the one hundred and twelfth”; “this 28th day of May, in the year of our Lord nineteen hundred and forty-one, and of the Independence of the United States of America the one hundred and sixty-fifth”
+        ## (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the independence of the United States (1776).) FRUS example(s): “this 16th day of January, in the year of our Lord one thousand eight hundred and eighty-eight, and of the independence of the United States the one hundred and twelfth”; “this 28th day of May, in the year of our Lord nineteen hundred and forty-one, and of the Independence of the United States of America the one hundred and sixty-fifth”
         "us-republic"
       | xsd:token
     }?,
@@ -2029,31 +1909,19 @@ date =
     ## Restrict @type values for tei:date elements
     attribute type {
       
-      ## (When a document is undated and the creation date
-      ##                                             cannot be adequately determined, the content date or
-      ##                                             date ranges (exact or estimated) may be used. Content
-      ##                                             dates may also be used for documents such as travel
-      ##                                             logs, as well as for editorial notes.) FRUS example(s): <dateline>[<date from="1908-05-01" to="1908-05-25" ana="#date_undated-inferred-from-document-content" type="content-date" calendar="gregorian" >undated</date>]</dateline>
+      ## (When a document is undated and the creation date cannot be adequately determined, the content date or date ranges (exact or estimated) may be used. Content dates may also be used for documents such as travel logs, as well as for editorial notes.) FRUS example(s): <dateline>[<date from="1908-05-01" to="1908-05-25" ana="#date_undated-inferred-from-document-content" type="content-date" calendar="gregorian" >undated</date>]</dateline>
       "content-date"
       | 
-        ## (For memcons [memoranda of conversation], meeting
-        ##                                             notes, and undated aides-memoires, the date of the
-        ##                                             conversation or meeting should be used, when
-        ##                                             determined.) FRUS example(s): <date when="1958-03-17" type="conversation-or-meeting-date" calendar="gregorian"><hi rend="italic">March 17, 1958</hi></date>
+        ## (For memcons [memoranda of conversation], meeting notes, and undated aides-memoires, the date of the conversation or meeting should be used, when determined.) FRUS example(s): <date when="1958-03-17" type="conversation-or-meeting-date" calendar="gregorian"><hi rend="italic">March 17, 1958</hi></date>
         "conversation-or-meeting-date"
       | 
         ##
         "creation-date"
       | 
-        ## (For published works such as newspaper articles,
-        ##                                             periodicals, or monograph excerpts, the date of
-        ##                                             publication can be used and specified.) FRUS example(s): <date when="1977-01-20" ana="#date_undated-inferred-from-document-content" type="publication-date" calendar="gregorian">undated</date>
+        ## (For published works such as newspaper articles, periodicals, or monograph excerpts, the date of publication can be used and specified.) FRUS example(s): <date when="1977-01-20" ana="#date_undated-inferred-from-document-content" type="publication-date" calendar="gregorian">undated</date>
         "publication-date"
       | 
-        ## (For certain documents in the backlog (chiefly
-        ##                                             attachments), the explicitly stated received date may be
-        ##                                             the most precise date that can be applied and should be
-        ##                                             specified as such.) FRUS example(s): <dateline rendition="#center">[Copy of a telegram from the minister of foreign affairs at <placeName>The Hague</placeName>, received <date when="1898-02-17" type="received-date"=calendar="gregorian">February 17, 1898</date>, by the minister of the Netherlands, at Washington.]</dateline>
+        ## (For certain documents in the backlog (chiefly attachments), the explicitly stated received date may be the most precise date that can be applied and should be specified as such.) FRUS example(s): <dateline rendition="#center">[Copy of a telegram from the minister of foreign affairs at <placeName>The Hague</placeName>, received <date when="1898-02-17" type="received-date"=calendar="gregorian">February 17, 1898</date>, by the minister of the Netherlands, at Washington.]</dateline>
         "received-date"
     }?,
     empty
@@ -2137,19 +2005,16 @@ ref =
     ##
     attribute type {
       
-      ## (A list of participants, attendees, recipients
-      ##                                             (appears at the beginning of a document)) 
+      ## (A list of participants, attendees, recipients (appears at the beginning of a document)) 
       "participants"
       | 
-        ## (A subject heading (appears at the beginning of a
-        ##                                             document)) 
+        ## (A subject heading (appears at the beginning of a document)) 
         "subject"
       | 
         ## (Back of book Index) 
         "index"
       | 
-        ## (Front matter List of Terms &
-        ##                                             Abbreviations) 
+        ## (Front matter List of Terms & Abbreviations) 
         "terms"
       | 
         ## (Front matter List of Persons) 
@@ -2227,22 +2092,13 @@ head =
     ##
     attribute ana {
       
-      ## (The author and recipient were not included by the
-      ##                                             FRUS editor/compiler as they were determined to be the
-      ##                                             same as those supplied in the parent chapter
-      ##                                             heading.) 
+      ## (The author and recipient were not included by the FRUS editor/compiler as they were determined to be the same as those supplied in the parent chapter heading.) 
       "#head_untitled-inferred-from-chapter-head"
       | 
-        ## (The author and recipient were not included by the
-        ##                                             FRUS editor/compiler as they were determined to be the
-        ##                                             same as those of the preceding document.) 
+        ## (The author and recipient were not included by the FRUS editor/compiler as they were determined to be the same as those of the preceding document.) 
         "#head_untitled-inferred-from-preceding-sibling-head"
       | 
-        ## (The printed volume did not include a header for the
-        ##                                             particular document, and none could be inferred from the
-        ##                                             parent chapter or preceding document. As a result,
-        ##                                             "[Untitled]" has been added as the header in the encoded
-        ##                                             version of the document.) 
+        ## (The printed volume did not include a header for the particular document, and none could be inferred from the parent chapter or preceding document. As a result, "[Untitled]" has been added as the header in the encoded version of the document.) 
         "#head_untitled-missing-head-in-printed-volume"
     }?,
     empty
@@ -2412,6 +2268,7 @@ bibl =
     att.global.attributes,
     att.typed.attributes,
     att.sortable.attributes,
+    att.docStatus.attributes,
     empty
   }
 relatedItem =
@@ -2789,17 +2646,36 @@ revisionDesc =
   
   ## (revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
-    (\list | change+), att.global.attributes, empty
+    (\list | change+),
+    att.global.attributes,
+    att.docStatus.attributes,
+    empty
   }
 change =
   
-  ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
+  ## (change) Restrict @status values for tei:change elements for status of divisions within a volume [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
   element change {
     macro.specialPara,
     att.ascribed.attributes,
     att.datable.attributes,
     att.global.attributes,
     att.typed.attributes,
+    
+    ##
+    attribute status {
+      
+      ## (Registered in a sub-series plan) 
+      "planned"
+      | 
+        ## (Being researched (with CR)) 
+        "being-researched"
+      | 
+        ## (Being cleared (with DPD)) 
+        "being-cleared"
+      | 
+        ## (Published) 
+        "published"
+    },
     
     ## (target) points to one or more elements that belong to this change.
     attribute target {
