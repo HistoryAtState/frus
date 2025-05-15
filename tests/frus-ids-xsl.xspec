@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description stylesheet="../schema/frus-ids.xsl" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:x="http://www.jenitennison.com/xslt/xspec" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <x:scenario label="roman-to-number">
+        <x:call function="ckbk:roman-to-number">
+            <x:param select="'XX'"/>
+        </x:call>
+        <x:expect label="XX correctly transformed to 20" test="xs:integer(.)" select="20"/>
+    </x:scenario>
+</x:description>

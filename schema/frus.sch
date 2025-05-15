@@ -14,7 +14,7 @@
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
 
-    <extends href="frus-id-checks.sch"/>
+    <extends href="frus-ids.sch"/>
     <extends href="frus-signatures.sch"/>
     <extends href="frus-characters.sch"/>
     <extends href="frus-dates.sch"/>
