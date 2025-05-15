@@ -87,31 +87,24 @@
                 from, to, simple, sources</assert>
         </rule>
         <rule context="tei:term[@xml:id]">
-            <assert test="parent::tei:hi/@rend = 'strong'"
-                >Improper nesting of hi and term (a hi/@rend=strong tag must surround the
-                term element)</assert>
-            <assert test="not(ends-with(., ','))">
-                Improper placement of trailing punctuation mark (the
-                trailing comma must lie outside the term element)
-            </assert>
+            <assert test="parent::tei:hi/@rend = 'strong'">Improper nesting of hi and term (a
+                hi/@rend=strong tag must surround the term element)</assert>
+            <assert test="not(ends-with(., ','))"> Improper placement of trailing punctuation mark
+                (the trailing comma must lie outside the term element) </assert>
         </rule>
         <rule context="tei:persName[@xml:id]">
-            <assert test="parent::tei:hi/@rend = 'strong'"
-                >Improper nesting of hi and persName (a hi/@rend=strong tag must surround the
-                persName element)</assert>
-            <assert test="not(ends-with(., ','))">
-                Improper placement of trailing punctuation mark (the
-                trailing comma must lie outside the persName element)
-            </assert>
+            <assert test="parent::tei:hi/@rend = 'strong'">Improper nesting of hi and persName (a
+                hi/@rend=strong tag must surround the persName element)</assert>
+            <assert test="not(ends-with(., ','))"> Improper placement of trailing punctuation mark
+                (the trailing comma must lie outside the persName element) </assert>
         </rule>
     </pattern>
 
     <pattern id="att-rend-checks">
         <title>Rend Attribute Value Checks</title>
         <rule context="tei:hi">
-            <assert
-                test="@rend or @rendition"
-                >hi elements require a @rend or @rendition attribute</assert>
+            <assert test="@rend or @rendition">hi elements require a @rend or @rendition
+                attribute</assert>
         </rule>
     </pattern>
 
@@ -242,20 +235,25 @@
 
     <pattern id="footnote-id-checks">
         <title>Footnote ID Checks</title>
-        <rule context="tei:note[@xml:id and ancestor::tei:div/@type = ('document', 'document-pending')]">
+        <rule
+            context="tei:note[@xml:id and ancestor::tei:div/@type = ('document', 'document-pending')]">
             <assert test="substring-before(./@xml:id, 'fn') = ./ancestor::tei:div[1]/@xml:id"
                 >Footnote ID mismatch. Document ID portion of footnote @xml:id '<value-of
                     select="./@xml:id"/>' must match its document's @xml:id '<value-of
                     select="./ancestor::tei:div[1]/@xml:id"/>'.</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="footnote-numbering-checks">
-        <rule role="warn" context="tei:note[@n castable as xs:integer]">
+        <rule context="tei:note[@n castable as xs:integer]" role="warn">
             <let name="this" value="."/>
-            <let name="previous-footnote" value="(ancestor::tei:div[1]//tei:note[@n castable as xs:integer][. &lt;&lt; $this])[last()]"/>
-            <assert test="empty($previous-footnote) or xs:integer(@n) eq xs:integer($previous-footnote/@n) + 1"
-                >Footnote numbering mismatch. This is footnote “<value-of select="@n"/>”, but the previous foonote in the document is “<value-of select="$previous-footnote/@n"/>”.</assert>
+            <let name="previous-footnote"
+                value="(ancestor::tei:div[1]//tei:note[@n castable as xs:integer][. &lt;&lt; $this])[last()]"/>
+            <assert
+                test="empty($previous-footnote) or xs:integer(@n) eq xs:integer($previous-footnote/@n) + 1"
+                >Footnote numbering mismatch. This is footnote “<value-of select="@n"/>”, but the
+                previous foonote in the document is “<value-of select="$previous-footnote/@n"
+                />”.</assert>
         </rule>
     </pattern>
 
