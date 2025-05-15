@@ -86,52 +86,23 @@
                 values are allowed: participants, subject, index, terms, names, toc, references,
                 from, to, simple, sources</assert>
         </rule>
-        <rule context="tei:item[ancestor::tei:div/@xml:id = 'terms' and not(child::tei:list)]">
-            <assert sqf:fix="add-term add-xml-id" test=".//tei:term/@xml:id">Missing term element
-                with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have
-                an @xml:id attribute</assert>
-            <let name="first-hi" value="(.//tei:hi)[1]"/>
-            <let name="term" value="
-                    if (ends-with($first-hi, ',')) then
-                        replace($first-hi, ',$', '')
-                    else
-                        $first-hi"/>
-            <let name="id" value="concat('t_', replace($term, '\W', ''), '_1')"/>
-            <!-- the fix takes two passes. hopefully we'll find a way to do this in a single pass 
-                 see https://www.oxygenxml.com/forum/topic14270.html. -->
-            <sqf:fix id="add-term" use-when="not(.//tei:term)">
-                <sqf:description>
-                    <sqf:title>Add a missing term element</sqf:title>
-                </sqf:description>
-                <sqf:replace match="(.//tei:hi)[1]">
-                    <xsl:element name="tei:hi">
-                        <xsl:attribute name="rend" select="./@rend"/>
-                        <xsl:element name="tei:term">
-                            <xsl:value-of select="$term"/>
-                        </xsl:element>
-                        <xsl:text>,</xsl:text>
-                    </xsl:element>
-                </sqf:replace>
-            </sqf:fix>
-            <sqf:fix id="add-xml-id" use-when="exists(.//tei:term)">
-                <sqf:description>
-                    <sqf:title>Add a missing @xml:id</sqf:title>
-                </sqf:description>
-                <sqf:add match=".//tei:term" node-type="attribute" select="$id" target="xml:id"/>
-            </sqf:fix>
-            <assert test="not(tei:term/tei:hi/@rend = 'strong') and not(ends-with(tei:term, ','))"
-                >Improper nesting of hi and term elements (the hi/@rend=strong tag must surround the
-                term element), and/or improper placement of trailing punctuation mark (the trailing
-                comma must lie outside the term element)</assert>
+        <rule context="tei:term[@xml:id]">
+            <assert test="parent::tei:hi/@rend = 'strong'"
+                >Improper nesting of hi and term (a hi/@rend=strong tag must surround the
+                term element)</assert>
+            <assert test="not(ends-with(., ','))">
+                Improper placement of trailing punctuation mark (the
+                trailing comma must lie outside the term element)
+            </assert>
         </rule>
-        <rule context="tei:item[parent::tei:list/@type = 'persons']">
-            <assert test=".//tei:persName/@xml:id">Missing term element with @xml:id attribute.
-                Entries in the list of terms &amp; abbreviations must have an @xml:id
-                attribute</assert>
-            <assert test="tei:persName/tei:hi/@rend = 'strong' or ends-with(tei:persName, ',')"
-                >Improper nesting of hi and persName (the hi/@rend=strong tag must surround the
-                persName element), and/or improper placement of trailing punctuation mark (the
-                trailing comma must lie outside the persName element)</assert>
+        <rule context="tei:persName[@xml:id]">
+            <assert test="parent::tei:hi/@rend = 'strong'"
+                >Improper nesting of hi and persName (a hi/@rend=strong tag must surround the
+                persName element)</assert>
+            <assert test="not(ends-with(., ','))">
+                Improper placement of trailing punctuation mark (the
+                trailing comma must lie outside the persName element)
+            </assert>
         </rule>
     </pattern>
 
