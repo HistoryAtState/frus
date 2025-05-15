@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema queryBinding="xslt3" xmlns="http://purl.oclc.org/dsdl/schematron"
     xmlns:ckbk="http://www.oreilly.com/XSLTCookbook"
+    xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <title>FRUS TEI Rules - ID checks</title>
 
@@ -12,19 +13,32 @@
     <ns prefix="ckbk" uri="http://www.oreilly.com/XSLTCookbook"/>
 
     <!-- Define variables used by other patterns -->
-    <let name="xml-ids" value="//*/@xml:id"/>
     <let name="vol-ids" value="
             if (doc-available('https://history.state.gov/services/volume-ids')) then
                 doc('https://history.state.gov/services/volume-ids')//volume-id
             else
                 doc('volume-ids-snapshot.xml')//volume-id"/>
-    <let name="persName-ids" value="//tei:persName/@xml:id"/>
-    <let name="term-ids" value="//tei:term/@xml:id"/>
-    <let name="rendition-ids" value="//tei:rendition/@xml:id"/>
-    <let name="vol-id" value="/tei:TEI/@xml:id"/>
-    <let name="category-ids" value="//tei:category/@xml:id"/>
     <let name="available-images"
         value="doc(concat('https://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
+
+    <let name="category-ids" value="//tei:category/@xml:id"/>
+    <let name="persNames" value="//tei:persName[@xml:id]"/>
+    <let name="persName-ids" value="$persNames/@xml:id"/>
+    <let name="persName-id-bases" value="
+            id('persons')//tei:item/tei:hi[1]/tei:persName[1] ! map {
+                'persName': normalize-space(.),
+                'id-base': concat('p_', replace(., '[^A-Z]', ''), '_')
+            }"/>
+    <let name="terms" value="//tei:term[@xml:id]"/>
+    <let name="term-ids" value="$terms/@xml:id"/>
+    <let name="term-id-bases" value="
+            id('terms')//tei:item/tei:hi[1]/tei:term[1] ! map {
+                'term': normalize-space(.),
+                'id-base': concat('t_', replace(., '\W', ''), '_')
+            }"/>
+    <let name="rendition-ids" value="//tei:rendition/@xml:id"/>
+    <let name="vol-id" value="/tei:TEI/@xml:id"/>
+    <let name="xml-ids" value="//*/@xml:id"/>
 
     <pattern id="filename-id-check">
         <rule context="/tei:TEI">
@@ -109,6 +123,52 @@
                 >Invalid ref/@target='<value-of select="@target"/>'. If this is an internal
                 cross-reference, it needs a "#" prefix.</assert>
         </rule>
+        <rule context="id('persons')//tei:item/tei:hi[1]/tei:persName[1]">
+            <p>Ensure persons list persName elements have a unique @xml:id</p>
+            <let name="first-hi" value="parent::tei:hi"/>
+            <let name="name-raw" value="normalize-space(.)"/>
+            <let name="name" value="
+                    if (ends-with($first-hi, ',')) then
+                        replace($first-hi, ',$', '')
+                    else
+                        $first-hi"/>
+            <let name="id-base" value="concat('p_', replace($name, '[^A-Z]', ''), '_')"/>
+            <let name="same-persName-id-bases" value="$persName-id-bases[?id-base eq $id-base]"/>
+            <let name="id-incr"
+                value="(index-of($same-persName-id-bases?persName, $name-raw), 1)[1]"/>
+            <let name="new-id" value="concat($id-base, $id-incr)"/>
+            <assert sqf:fix="add-persName-xml-id" test="exists(@xml:id)">Missing persName element's
+                @xml:id attribute. Entries in the list of persons must have an @xml:id
+                attribute.</assert>
+            <sqf:fix id="add-persName-xml-id">
+                <sqf:description>
+                    <sqf:title>Add a unique @xml:id (<value-of select="$new-id"/>)</sqf:title>
+                </sqf:description>
+                <sqf:add match="." node-type="attribute" select="$new-id" target="xml:id"/>
+            </sqf:fix>
+        </rule>
+        <rule context="id('terms')//tei:item/tei:hi[1]/tei:term[1]">
+            <p>Ensure terms list term elements have a unique @xml:id</p>
+            <let name="first-hi" value="parent::tei:hi"/>
+            <let name="name-raw" value="normalize-space(.)"/>
+            <let name="name" value="
+                    if (ends-with($first-hi, ',')) then
+                        replace($first-hi, ',$', '')
+                    else
+                        $first-hi"/>
+            <let name="id-base" value="concat('t_', replace($name, '\W', ''), '_')"/>
+            <let name="same-term-id-bases" value="$term-id-bases[?id-base eq $id-base]"/>
+            <let name="id-incr" value="(index-of($same-term-id-bases?term, $name-raw), 1)[1]"/>
+            <let name="new-id" value="concat($id-base, $id-incr)"/>
+            <assert sqf:fix="add-term-xml-id" test="exists(@xml:id)">Missing term element's @xml:id
+                attribute. Entries in the list of terms must have an @xml:id attribute.</assert>
+            <sqf:fix id="add-term-xml-id">
+                <sqf:description>
+                    <sqf:title>Add a unique @xml:id (<value-of select="$new-id"/>)</sqf:title>
+                </sqf:description>
+                <sqf:add match="." node-type="attribute" select="$new-id" target="xml:id"/>
+            </sqf:fix>
+        </rule>
         <rule context="tei:persName[starts-with(@corresp, '#')]">
             <assert test="substring-after(@corresp, '#') = $persName-ids"
                     >persName/@corresp='<value-of select="@corresp"/>' is an invalid value. No
@@ -147,17 +207,18 @@
 
     <pattern id="image-s3-checks">
         <title>Image Checks</title>
-        <rule context="tei:graphic[@url][not(ancestor::tei:titlePage) and not(ancestor::tei:facsimile)]">
+        <rule
+            context="tei:graphic[@url][not(ancestor::tei:titlePage) and not(ancestor::tei:facsimile)]">
             <assert test="concat(@url, '.png') = $available-images">PNG version of '<value-of
-                select="@url"/>' not found on static.history.state.gov</assert>
+                    select="@url"/>' not found on static.history.state.gov</assert>
             <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of
-                select="@url"/>' not found on static.history.state.gov</assert>
+                    select="@url"/>' not found on static.history.state.gov</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="date-ana-checks">
         <title>Date analysis Pointer Checks</title>
-        
+
         <rule context="tei:date[@ana]">
             <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of
                     select="@ana"/>' is an invalid value. No category has been defined with an
