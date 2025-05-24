@@ -3,7 +3,6 @@
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits",
-      "presetConfig": "./conventionalcommits.config.cjs",
       "releaseRules": [
         { "type": "!(fix|feat|build|chore|ci|docs|style|refactor|perf|test)", "release": "patch" }
       ]
@@ -15,7 +14,7 @@
       "prepareCmd": "ant -Dapp.version=${nextRelease.version}"
     }],
     ["@semantic-release/git", {
-      "assets": ["package.json", "package-lock.json"],
+      "assets": ["expath-pkg.xml", "repo.xml"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     ["@semantic-release/github", {

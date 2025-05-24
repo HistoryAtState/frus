@@ -70,7 +70,7 @@ jobs:
 
       # Commit Toc files
       - name: Commit and Push
-        if: ${{ matrix.java-version == 17 && github.event_name == 'push' && github.ref != 'refs/heads/master' }}
+        if: ${{ matrix.java-version == 17 && github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         uses: actions-x/commit@v6
         with:
           message: "fix(toc): update [skip ci]"
@@ -170,19 +170,17 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          cache: npm  
+          cache: npm
           node-version: lts/*
       - name: Install dependencies
-        run: npm ci --no-optional   
+        run: npm ci --no-optional
       - name: Perform Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLIC_REPO: ${{ secrets.PUBLIC_REPO }}
+          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
         run: npx semantic-release
-        # TODO(DP): 
-        #   - add secrets to github
-        #   - publish to public repo?
