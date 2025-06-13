@@ -1,94 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="xar" name="frus" basedir=".">
-    <xmlproperty file="build.properties.xml" semanticAttributes="true" keepRoot="false"/>
-    <property name="build.dir" value="build"/>
-    <property name="git.repo.path" value="${basedir}/.git"/>
-    <available file="${git.repo.path}" type="dir" property="git.present"/>
+    <xmlproperty file="build.properties.xml" semanticAttributes="true" keepRoot="false" />
+    <property name="build.dir" value="build" />
+    <property name="git.repo.path" value="${basedir}/.git" />
+    <available file="${git.repo.path}" type="dir" property="git.present" />
+
+    <condition property="is-release">
+        <equals arg1="${release}" arg2="true" />
+    </condition>
+
+    <target name="release.true" if="is-release">
+        <echo>Calculating git revision info for release</echo>
+    </target>
+
+    <target name="release.false" unless="is-release">
+        <echo>Not a release, moving on ...</echo>
+    </target>
+
+    <target name="check-release" depends="release.true, release.false">
+    </target>
 
     <target name="clean">
-        <echo message="Deleting xar files..."/>
-        <delete dir="${build.dir}" failonerror="false"/>
-        <delete file="${basedir}/expath-pkg.xml" failonerror="false"/>
-        <delete file="${basedir}/repo.xml" failonerror="false"/>
+        <echo message="Deleting xar files..." />
+        <delete dir="${build.dir}" failonerror="false" />
     </target>
-    
-    <target name="xar" depends="clean,git.revision" description="create xar file">
-        <echo message="Creating build folder..."/>
-        <mkdir dir="${build.dir}"/>
 
-        <echo message="Apply values to expath-pkg.xml..."/>
+    <target name="templates" description="process template files" if="is-release"
+        depends="git.revision">
+        <echo message="Apply values to .tmpl ..." />
         <copy todir="${basedir}" overwrite="true" verbose="true">
-            <fileset file="*.xml.tmpl"/>
+            <fileset file="*.xml.tmpl" />
             <filterchain>
                 <replacetokens>
-                    <token key="name" value="${app.name}"/>
-                    <token key="version" value="${app.version}"/>
-                    <token key="url" value="${app.url}"/>
-                    <token key="title" value="${app.title}"/>
-                    <token key="commit-id" value="${git.revision}"/>
-                    <token key="commit-time" value="${git.time}"/>
-                    <token key="commit-abbrev" value="${repository.short-revision}"/>
+                    <token key="name" value="${app.name}" />
+                    <token key="version" value="${app.version}" />
+                    <token key="url" value="${app.url}" />
+                    <token key="title" value="${app.title}" />
+                    <token key="commit-id" value="${git.revision}" />
+                    <token key="commit-time" value="${git.time}" />
                 </replacetokens>
                 <tokenfilter>
-                    <!-- until we move template processing to XSLT, take care with reserved characters -->
-                    <replacestring from="&amp;" to="&amp;amp;"/>
+                    <!-- until we move template processing to XSLT, take care with reserved
+                    characters -->
+                    <replacestring from="&amp;" to="&amp;amp;" />
                 </tokenfilter>
             </filterchain>
-            <globmapper from="*.tmpl" to="*"/>
+            <globmapper from="*.tmpl" to="*" />
         </copy>
+    </target>
 
-        <echo message="------------------------------------------------------------"/>
-        <echo message="Creating xar file..."/>
-        <echo message="------------------------------------------------------------"/>
-        
+    <target name="xar" depends="clean,check-release,git.revision,templates"
+        description="create xar file">
+        <echo message="Creating build folder..." />
+        <mkdir dir="${build.dir}" />
+
+        <echo message="------------------------------------------------------------" />
+        <echo message="Creating xar file..." />
+        <echo message="------------------------------------------------------------" />
+
         <zip basedir="${basedir}" destfile="${build.dir}/${app.name}.xar">
-            <exclude name="${build.dir}/**"/>
-            <exclude name="*.tmpl"/>
-            <exclude name=".github/**"/>
-            <exclude name="tests/bats/**"/>
-            <exclude name="node_modules/**"/>
-            <exclude name=".notes/**"/>
+            <exclude name="${build.dir}/**" />
+            <exclude name="*.tmpl" />
+            <exclude name=".github/**" />
+            <exclude name="tests/bats/**" />
+            <exclude name="node_modules/**" />
+            <exclude name=".notes/**" />
             <!-- DEBUG -->
-            <exclude name="logs/**"/>
+            <exclude name="logs/**" />
         </zip>
         <echo>Version: ${app.version}</echo>
     </target>
 
-    <target name="git.revision" description="Store git revision in ${repository.version}" if="git.present">
-        <exec executable="git" outputproperty="git.revision" failifexecutionfails="false" errorproperty="">
-            <arg value="--git-dir=${git.repo.path}"/>
-            <arg value="rev-parse"/>
-            <arg value="HEAD"/>
+    <target name="git.revision" description="Store git revision in ${repository.version}"
+        if="is-release" depends="check-release">
+        <exec executable="git" outputproperty="git.revision" failifexecutionfails="false"
+            errorproperty="">
+            <arg value="--git-dir=${git.repo.path}" />
+            <arg value="rev-parse" />
+            <arg value="HEAD" />
         </exec>
         <condition property="repository.version" value="${git.revision}" else="unknown">
             <and>
-                <isset property="git.revision"/>
-                <length string="${git.revision}" trim="yes" length="0" when="greater"/>
+                <isset property="git.revision" />
+                <length string="${git.revision}" trim="yes" length="0" when="greater" />
             </and>
         </condition>
         <echo>Git repo: ${repository.version}</echo>
 
-        <exec executable="git" outputproperty="git.short-revision" failifexecutionfails="false" errorproperty="">
-            <arg value="--git-dir=${git.repo.path}"/>
-            <arg value="rev-parse"/>
-            <arg value="--short=7"/>
-            <arg value="HEAD"/>
-        </exec>
-        <condition property="repository.short-revision" value="${git.short-revision}" else="unknown">
-            <and>
-                <isset property="git.short-revision"/>
-                <length string="${git.short-revision}" trim="yes" length="0" when="greater"/>
-            </and>
-        </condition>
-        <echo>Git repo: ${repository.short-revision}</echo>
-
-        <exec executable="git" outputproperty="git.time" failifexecutionfails="false" errorproperty="">
-            <arg value="--git-dir=${git.repo.path}"/>
-            <arg value="show"/>
-            <arg value="-s"/>
-            <arg value="--format=%ct"/>
-            <arg value="${git.revision}"/>
+        <exec executable="git" outputproperty="git.time" failifexecutionfails="false"
+            errorproperty="">
+            <arg value="--git-dir=${git.repo.path}" />
+            <arg value="show" />
+            <arg value="-s" />
+            <arg value="--format=%ct" />
+            <arg value="${git.revision}" />
         </exec>
         <echo>Git time: ${git.time}</echo>
-    </target>  
+
+    </target>
 </project>

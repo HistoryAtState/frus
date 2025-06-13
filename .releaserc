@@ -11,7 +11,7 @@
       "preset": "conventionalcommits"
     }],
     ["@semantic-release/exec", {
-      "prepareCmd": "ant -Dapp.version=${nextRelease.version}"
+      "prepareCmd": "ant -Dapp.version=${nextRelease.version} -Drelease=true"
     }],
     ["@semantic-release/git", {
       "assets": ["expath-pkg.xml", "repo.xml"],
