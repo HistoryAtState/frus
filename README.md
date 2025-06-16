@@ -124,3 +124,5 @@ more information, see <https://www.state.gov/copyright-information/#copyright>.
     ```shell
     ant -Dapp.version=0.0.0-SNAPSHOT
     ```
+
+    During a release the property `-Drelease=true` must be set for proper processing of template files.
