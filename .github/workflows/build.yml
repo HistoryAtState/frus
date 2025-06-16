@@ -18,7 +18,7 @@ jobs:
       # Checkout code fetch-depth significantly impacts performance
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 10
+          fetch-depth: 30
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
