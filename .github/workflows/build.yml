@@ -5,100 +5,30 @@
 
 name: compile and test
 
-on: [push, pull_request]
+on:
+  push:
+    # branches-ignore:
+    #   - 'ref/pull/**'
+  workflow_dispatch:
+
+# concurrency:
+#   group: lint-${{ github.event.pull_request.number || github.sha }}
+#   cancel-in-progress: true
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        java-version: [11, 21]
 
     steps:
-      # Checkout code fetch-depth significantly impacts performance
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 15
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libxml2-utils libsaxonhe-java
+          sudo apt-get install -y libxml2-utils
 
-      # - name: Where is Saxon
-      #   run: dpkg -L libsaxonhe-java
-
-      - name: Create Toc
-        run: |
-          mkdir -p frus-toc 
-          java -jar /usr/share/java/Saxon-HE.jar -s:volumes/ -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
-
-      - name: Get changed files
-        id: changed-files
-        run: |
-          echo "changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs)" >> $GITHUB_OUTPUT
-
-      - name: Create xml files in .last-modified folder
-        run: |
-          for file in ${{ steps.changed-files.outputs.changed_files }}; do
-          # Skip files in hidden folders (starting with .)
-          if [[ "$file" =~ ^\..*/ ]]; then
-              continue
-          fi
-
-          if [ ! -f "$file" ]; then
-              echo "Error: File '$file' does not exist" >&2
-              return 1
-          fi
-
-          # Get last commit date in ISO format
-          if ! iso=$(git log -1 --format=%cd --date=format-local:'%Y-%m-%dT%H:%M:%S%z' "$file"); then
-              echo "Error: Failed to get git log for '$file'" >&2
-              return 1
-          fi
-          if ! datetime=$(git log -1 --format=%cd --date=iso-strict-local "$file"); then
-              echo "Error: Failed to get git log for '$file'" >&2
-              return 1
-          fi
-
-          # Create output directory structure
-          dir=$(dirname ".last-modified/$file")
-          if ! mkdir -p "$dir"; then
-              echo "Error: Failed to create directory '$dir'" >&2
-              return 1
-          fi
-
-          # Replace any forward slashes in path with underscores for xml:id
-          xml_id=${file//\//0x2F}
-
-          # Convert date to seconds since epoch
-          if [[ "$OSTYPE" == "darwin"* ]]; then
-              if ! seconds_since_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$iso" "+%s"); then
-                  echo "Error: Failed to convert date for '$file'" >&2
-                  return 1
-              fi
-          else
-              if ! seconds_since_epoch=$(date -d "$iso" +%s); then
-                  echo "Error: Failed to convert date for '$file'" >&2
-                  return 1
-              fi
-          fi
-
-          # Write XML files
-          if ! echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" > ".last-modified/$file"; then
-              echo "Error: Failed to write XML header for '$file'" >&2
-              return 1
-          fi
-
-          if ! echo "<last-modified xml:id=\"$xml_id\" seconds_since_epoch=\"$seconds_since_epoch\">$datetime</last-modified>" >> ".last-modified/$file"; then
-              echo "Error: Failed to write XML content for '$file'" >&2
-              return 1
-          fi
-          echo "Successfully created .last-modified/$file"
-          done
-
-      # sanity check
-      - name: What happened
-        run: git status
+      # Checkout code fetch-depth significantly impacts performance
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       # TODO(DP) Validate ?
       - name: Ensure all XML files are well-formed
@@ -106,6 +36,26 @@ jobs:
           xmllint --noout \
             $(find . -type f -name '*.xml')
 
+      # Lint commit messages
+      - name: lint commit message
+        uses: wagoid/commitlint-github-action@v6
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        exist-version: [latest, release]
+        java-version: [11, 21]
+        exclude:
+          - exist-version: release
+            java-version: 21
+          - exist-version: latest
+            java-version: 11
+    steps:
+      - name: Checkout (sparse)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  
       - name: Build Expath Package
         uses: actions/setup-java@v4
         with:
@@ -129,16 +79,6 @@ jobs:
           path: tests/bats/
           if-no-files-found: ignore
 
-      # Lint commit messages
-      - name: lint commit message
-        uses: wagoid/commitlint-github-action@v6
-
-      # Commit generated files
-      - name: Commit and Push
-        if: ${{ matrix.java-version == 21 && github.event_name == 'push' && github.ref != 'refs/heads/master' }}
-        uses: actions-x/commit@v6
-        with:
-          message: "fix(toc): update [skip ci]"
   test:
     runs-on: ubuntu-latest
     needs: build

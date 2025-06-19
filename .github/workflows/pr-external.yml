@@ -1,0 +1,116 @@
+name: exist-db External PR CI
+
+on:
+  workflow_call:
+
+jobs:
+  external-pr-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Test Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libsaxonhe-java
+
+      # Use ...head.ref for the full branch
+      - name: Checkout PR head SHA
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: ${{ github.event.pull_request.head.sha }}
+      
+      - name: Fetch base commit (to allow diff)
+        run: git fetch origin ${{ github.event.pull_request.base.sha }}
+
+      # - name: Where is Saxon
+      #   run: dpkg -L libsaxonhe-java
+
+      # add safe-branch checkout to generate an internal PR branch with generated files
+      - name: Configure Git
+        run: |
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@example.com"
+
+      - name: Create ToC
+        run: |
+          mkdir -p frus-toc
+          java -jar /usr/share/java/Saxon-HE.jar -s:volumes/ \
+            -xsl:modules/lib/frus-toc.xsl -o:frus-toc/ -it:main
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          echo "changed_files=$(git diff -r --name-only \
+            ${{ github.event.pull_request.base.sha }} \
+            ${{ github.event.pull_request.head.sha }} | xargs)" >> $GITHUB_OUTPUT
+
+      - name: Output changed files
+        run: echo ${{ steps.changed-files.outputs.changed_files }}
+
+      - name: Create xml files in .last-modified folder
+        run: |
+          for file in ${{ steps.changed-files.outputs.changed_files }}; do
+          # Skip files in hidden folders (starting with .)
+          if [[ "$file" =~ ^\..*/ ]]; then
+              continue
+          fi
+
+          if [ ! -f "$file" ]; then
+              echo "Error: File '$file' does not exist" >&2
+              return 1
+          fi
+
+          # Get last commit date in ISO format
+          if ! iso=$(git log -1 --format=%cd --date=format-local:'%Y-%m-%dT%H:%M:%S%z' "$file"); then
+              echo "Error: Failed to get git log for '$file'" >&2
+              return 1
+          fi
+          if ! datetime=$(git log -1 --format=%cd --date=iso-strict-local "$file"); then
+              echo "Error: Failed to get git log for '$file'" >&2
+              return 1
+          fi
+
+          # Create output directory structure
+          dir=$(dirname ".last-modified/$file")
+          if ! mkdir -p "$dir"; then
+              echo "Error: Failed to create directory '$dir'" >&2
+              return 1
+          fi
+
+          # Replace any forward slashes in path with underscores for xml:id
+          xml_id=${file//\//0x2F}
+
+          # Convert date to seconds since epoch
+          if [[ "$OSTYPE" == "darwin"* ]]; then
+              if ! seconds_since_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$iso" "+%s"); then
+                  echo "Error: Failed to convert date for '$file'" >&2
+                  return 1
+              fi
+          else
+              if ! seconds_since_epoch=$(date -d "$iso" +%s); then
+                  echo "Error: Failed to convert date for '$file'" >&2
+                  return 1
+              fi
+          fi
+
+          # Write XML files
+          if ! echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" > ".last-modified/$file"; then
+              echo "Error: Failed to write XML header for '$file'" >&2
+              return 1
+          fi
+
+          if ! echo "<last-modified xml:id=\"$xml_id\" seconds_since_epoch=\"$seconds_since_epoch\">$datetime</last-modified>" >> ".last-modified/$file"; then
+              echo "Error: Failed to write XML content for '$file'" >&2
+              return 1
+          fi
+          echo "Successfully created .last-modified/$file"
+          done
+
+      - name: Git commit/push to internal PR branch
+        run: |
+          git config user.name "ci-bot"
+          git config user.email "ci-bot@example.com"
+          git add --all
+          git commit -m "fix(toc): auto-update [skip ci]" || echo "Nothing to commit"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}

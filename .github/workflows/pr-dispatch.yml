@@ -1,0 +1,36 @@
+name: PR dispatch
+
+on:
+  pull_request:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    branches: ['main', 'master']
+  workflow_call:
+
+# concurrency:
+#   group: dispatch-${{ github.event.pull_request.number || github.sha }}
+#   cancel-in-progress: true
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check "Allow edits from maintainers" setting
+        if: github.event.pull_request.head.repo.full_name != github.repository
+        run: |
+          if [ "${{ github.event.pull_request.maintainer_can_modify }}" = "true" ]; then
+            echo "✅ PR is from a fork and 'Allow edits from maintainers' is ENABLED."
+          else
+            echo "⚠️ PR is from a fork and 'Allow edits from maintainers' is DISABLED."
+            echo "ℹ️ Automated changes will fail. Enable the checkbox in the PR UI to allow CI to push changes."
+          fi
+  pr-internal:
+    uses: ./.github/workflows/pr-internal.yml
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    needs: dispatch
+    secrets: inherit
+  pr-external:
+    uses: ./.github/workflows/pr-external.yml
+    if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+    needs: dispatch
+    secrets: inherit
