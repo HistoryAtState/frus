@@ -20,6 +20,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Speed up apt-get installs
+      - name: Disable man-db to make package install and removal faster
+        run: |
+          echo 'set man-db/auto-update false' | sudo debconf-communicate >/dev/null
+          sudo dpkg-reconfigure man-db
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
@@ -81,7 +86,7 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
-    needs: build
+    needs: [build, lint]
     strategy:
       fail-fast: false
       matrix:
@@ -104,6 +109,11 @@ jobs:
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
+
+      - name: Disable man-db to make package install and removal faster
+        run: |
+          echo 'set man-db/auto-update false' | sudo debconf-communicate >/dev/null
+          sudo dpkg-reconfigure man-db
 
       - name: Install Test Dependencies
         run: |
