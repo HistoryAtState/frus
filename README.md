@@ -87,11 +87,9 @@ if errors are found.
 Updates to this repository are posted as soon as they are posted to history.state.gov. Releases will
 include fixes to already published volumes, new publications, and digitized legacy volumes.
 
-### Versioning
+### Versioning and Testing
 
-Releases for this data package are automated. Any commit to the `master`` branch will trigger the release automation.
-
-All commit message must conform to [Conventional Commit Messages](https://www.conventionalcommits.org/en/v1.0.0/) to determine semantic versioning of releases, please adhere to these conventions, like so:
+Releases for this data package are automated. Any commit to the `master` branch will trigger the release automation. For this automation to work, all commit message must conform to [Conventional Commit Messages](https://www.conventionalcommits.org/en/v1.0.0/) to determine semantic versioning of releases, please adhere to these conventions, like so:
 
 | Commit message  | Release type |
 |-----------------|--------------|
@@ -100,6 +98,10 @@ All commit message must conform to [Conventional Commit Messages](https://www.co
 | `perf(pencil): remove graphiteWidth option`<br/><br/>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br/>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release |
 
 When opening PRs commit messages are checked using commitlint.
+
+Tables of Contents inside `frus-toc` and helper files for caching inside `.last-modified` are automatically generated on CI during pull requests only. Should there be a need, the effective commands can be found in the workflow files. 
+
+Pull requests from external forks must enable the `allow edits by maintainers` flag when opening pull request. The presence of the flag is checked in `pr-dispatch.yml` . 
 
 ## Feedback
 
