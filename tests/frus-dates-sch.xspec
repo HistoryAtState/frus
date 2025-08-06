@@ -47,7 +47,7 @@
         </x:context>
         <x:expect-not-assert id="zulu-timezone-mismatch" label="Expected Zulu indicator passes check"/>
     </x:scenario>
-    <x:scenario label="Zulu indicator with justification passes check">
+    <x:scenario label="Zulu indicator with @ana justification passes check">
         <x:context>
             <dateline xmlns="http://www.tei-c.org/ns/1.0">
                 <date ana="#good-reason" when="1986-06-04T09:55:00+00:00">June 4, 1986, 9:55
@@ -55,6 +55,14 @@
             </dateline>
         </x:context>
         <x:expect-not-assert id="zulu-timezone-mismatch"
-            label="Zulu indicator with justification passes check"/>
+            label="Zulu indicator with @ana justification passes check"/>
+    </x:scenario>
+    <x:scenario label="Non-Zulu timezone indicator passes check">
+        <x:context>
+            <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                <date when="1986-06-04T09:55:00-04:00">June 4, 1986, 9:55 a.m.</date>
+            </dateline>
+        </x:context>
+        <x:expect-not-assert id="zulu-timezone-mismatch" label="Non-Zulu timezone indicator passes check"/>
     </x:scenario>
 </x:description>
