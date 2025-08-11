@@ -1272,16 +1272,19 @@
                             <attDef ident="status" usage="req" mode="replace">
                                 <valList type="closed">
                                     <valItem ident="planned">
-                                        <gloss>Registered in a sub-series plan</gloss>
+                                        <gloss>Has been registered in a sub-series plan</gloss>
                                     </valItem>
                                     <valItem ident="being-researched">
-                                        <gloss>Being researched (with CR)</gloss>
+                                        <gloss>Research has begun</gloss>
                                     </valItem>
                                     <valItem ident="being-cleared">
-                                        <gloss>Being cleared (with DPD)</gloss>
+                                        <gloss>Editing and declassification has begun</gloss>
                                     </valItem>
                                     <valItem ident="published">
-                                        <gloss>Published</gloss>
+                                        <gloss>Has been published</gloss>
+                                    </valItem>
+                                    <valItem ident="partially-published">
+                                        <gloss>Some but not yet all chapters in a volume have been published</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>

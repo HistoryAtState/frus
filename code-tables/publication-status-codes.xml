@@ -4,29 +4,29 @@
     <description>This code table stores FRUS publication status types.</description>
     <items>
         <item>
-            <label>Being Planned (research has not begun)</label>
-            <value>being-planned-research-not-yet-begun</value>
-            <hint>Volume is being planned (research has not begun)</hint>
+            <label>Planned</label>
+            <value>planned</value>
+            <hint>Has been registered in a sub-series plan</hint>
         </item>
         <item>
-            <label>Being Researched or Prepared</label>
-            <value>being-researched-or-prepared</value>
-            <hint>Volume is being researched or prepared</hint>
+            <label>Being Researched</label>
+            <value>being-researched</value>
+            <hint>Research has begun</hint>
         </item>
         <item>
-            <label>Under Declassification Review</label>
-            <value>under-declassification</value>
-            <hint>Volume has entered declassification</hint>
-        </item>
-        <item>
-            <label>In Production</label>
-            <value>in-production</value>
-            <hint>Volume is in production</hint>
+            <label>Being Cleared</label>
+            <value>being-cleared</value>
+            <hint>Editing and declassification has begun</hint>
         </item>
         <item>
             <label>Published</label>
             <value>published</value>
-            <hint>Volume has been published online and/or in print</hint>
+            <hint>Has been published</hint>
+        </item>
+        <item>
+            <label>Partially Published</label>
+            <value>partially-published</value>
+            <hint>Some but not yet all chapters in a volume have been published</hint>
         </item>
     </items>
 </code-table>
