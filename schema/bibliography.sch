@@ -26,6 +26,8 @@
         <rule
             context="published-date[parent::volume/publication-status = 'published' and parent::volume/published-year gt '2009']">
             <assert test=". ne ''">Published date must be entered for published volumes</assert>
+            <p>This constraint is only applied to volumes published since 2009, since exact dates
+                weren't tracked before then.</p>
         </rule>
     </pattern>
     <pattern id="common-errors">
