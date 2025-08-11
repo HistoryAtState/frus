@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2025-05-02T20:21:38Z. . 
+# Schema generated from ODD source 2025-08-11T17:27:28Z. . 
 # TEI Edition: Version 4.5.0. Last updated on 25th October 2022, revision 3e98e619e 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.5.0/ 
 #  FRUS TEI Schema Spec 
@@ -2664,17 +2664,20 @@ change =
     ##
     attribute status {
       
-      ## (Registered in a sub-series plan) 
+      ## (Has been registered in a sub-series plan) 
       "planned"
       | 
-        ## (Being researched (with CR)) 
+        ## (Research has begun) 
         "being-researched"
       | 
-        ## (Being cleared (with DPD)) 
+        ## (Editing and declassification has begun) 
         "being-cleared"
       | 
-        ## (Published) 
+        ## (Has been published) 
         "published"
+      | 
+        ## (Some but not yet all chapters in a volume have been published) 
+        "partially-published"
     },
     
     ## (target) points to one or more elements that belong to this change.

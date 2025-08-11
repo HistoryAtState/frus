@@ -51,20 +51,20 @@ start =
         },
         element publication-status {
             
-            ## Volume is being planned (research has not begun)
-            "being-planned-research-not-yet-begun"
+            ## Has been registered in a sub-series plan
+            "planned"
             | 
-              ## Volume is being researched or prepared
-              "being-researched-or-prepared"
+              ## Research has begun
+              "being-researched"
             | 
-              ## Volume has entered declassification
-              "under-declassification"
+              ## Editing and declassification has begun
+              "being-cleared"
             | 
-              ## Volume is in production
-              "in-production"
-            | 
-              ## Volume has been published online and/or in print
+              ## Has been published
               "published"
+            | 
+              ## Some but not yet all chapters in a volume have been published
+              "partially-published"
         },
         element public-target-publication-year { xsd:gYear? },
         element published-year { xsd:gYear? },
