@@ -77,9 +77,6 @@
                 <rendition xml:id="center">display: block; text-align: center;</rendition>
                 <rendition xml:id="image-center">margin-left: auto; margin-right: auto;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
     </teiHeader>
     <facsimile>
