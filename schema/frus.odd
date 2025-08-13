@@ -1060,7 +1060,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:4.5.0">
+                <schemaSpec ident="frus" start="TEI" source="tei:4.9.0">
 
 
 
@@ -1078,7 +1078,8 @@
                         include="p hi gloss term name date time ref list item head note relatedItem measure graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
-                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc notesStmt extent encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc profileDesc textClass keywords notesStmt extent encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
+                    <moduleRef key="corpus" include="settingDesc setting"/>
                     <moduleRef key="textstructure"
                         include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
