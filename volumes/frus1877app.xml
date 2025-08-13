@@ -94,6 +94,20 @@
                 </correction>
             </editorialDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <revisionDesc>
             <change>2016-04-13 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>

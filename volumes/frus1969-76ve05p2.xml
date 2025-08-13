@@ -1673,6 +1673,19 @@
                 </correction>
             </editorialDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>epub</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
             <change>2009-01-31 HCL SB: Volume delivered to PA/HO</change>
