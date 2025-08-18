@@ -20,9 +20,7 @@ The digital master source files for the *Foreign Relations* series have been pre
 conformance requirements can be found in the `schema` directory, where we have supplied a
 TEI [ODD](http://www.tei-c.org/Guidelines/Customization/odds.xml) file, `frus.odd`, as well as Schematron
 and RelaxNG files used for additional conformance checks (see especially `frus.sch`, as `frus.rng` is generated from
-`frus.odd`).  The volumes are stored in the `volumes` directory, one file per volume.  Bibliographic information
-about all volumes in the series, including those volumes not yet available in full text TEI, is stored in the
-`bibliography` directory.
+`frus.odd`).  The volumes are stored in the `volumes` directory, one file per volume.
 
 ## Locating the Source for a URL from history.state.gov
 
