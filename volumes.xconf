@@ -47,11 +47,24 @@
                 <field name="div-date-min" match="@frus:doc-dateTime-min" type="xs:dateTime"/>
                 <field name="div-date-max" match="@frus:doc-dateTime-max" type="xs:dateTime"/>
             </create>
+            <create qname="tei:change">
+                <field name="change-status" match="@status" type="xs:string"/>
+                <field name="change-corresp" match="@corresp" type="xs:string"/>
+                <field name="change-when" match="@when" type="xs:string"/>
+                <field name="change-from" match="@from" type="xs:string"/>
+                <field name="change-to" match="@to" type="xs:dateTime"/>
+            </create>
+            <create qname="tei:revisionDesc">
+                <create name="revisionDesc-status" qname="@status" type="xs:string"/>
+            </create>
+            <create qname="tei:keywords">
+                <create name="keywords-scheme" qname="@scheme" type="xs:string"/>
+                <create name="keywords-term" qname="tei:term" type="xs:string"/>
+            </create>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
-            <!--create qname="@type" type="xs:string"/-->
+            <create qname="@type" type="xs:string"/>
             <create qname="@xml:id" type="xs:string"/>
-            <create qname="@id" type="xs:string"/>
             <create qname="@rend" type="xs:string"/>
             <create qname="@n" type="xs:string"/>
             <create qname="@mimeType" type="xs:string"/>
@@ -62,13 +75,6 @@
                 so you don't need an extra index. However, if you use
                 a general comparison as in //node[@xml:id = 'abc'], then
                 an additional range index will be required -->
-                <!--create qname="@when" type="xs:date"/-->
-                <!-- Note on @when: "eXist can only use a range index
-                if all values within that index are valid instances
-                of the defined index type. So every date has to be
-                an xs:date and if there's just one exception, the
-                index will no longer be used."  Until we've normalized
-                our dates, there's no point in using this range index. -->
         </range>
     </index>
 </collection>
