@@ -1,8 +1,8 @@
 <results>
     <summary>
-        <volumes>601</volumes>
-        <time>0.007 seconds</time>
-        <datetime-retrieved>2016-05-25T11:36:04-04:00</datetime-retrieved>
+        <volumes>694</volumes>
+        <time>0.005 seconds</time>
+        <datetime-retrieved>2025-08-18T14:14:40.539Z</datetime-retrieved>
     </summary>
     <volume-ids>
         <volume-id>frus1861-99Index</volume-id>
@@ -98,6 +98,13 @@
         <volume-id>frus1916</volume-id>
         <volume-id>frus1916Supp</volume-id>
         <volume-id>frus1917-72PubDip</volume-id>
+        <volume-id>frus1917-72PubDipv02</volume-id>
+        <volume-id>frus1917-72PubDipv03</volume-id>
+        <volume-id>frus1917-72PubDipv04</volume-id>
+        <volume-id>frus1917-72PubDipv05</volume-id>
+        <volume-id>frus1917-72PubDipv06</volume-id>
+        <volume-id>frus1917-72PubDipv07</volume-id>
+        <volume-id>frus1917-72PubDipv08</volume-id>
         <volume-id>frus1917</volume-id>
         <volume-id>frus1917Supp01v01</volume-id>
         <volume-id>frus1917Supp02v01</volume-id>
@@ -258,7 +265,6 @@
         <volume-id>frus1946v09</volume-id>
         <volume-id>frus1946v10</volume-id>
         <volume-id>frus1946v11</volume-id>
-        <volume-id>frus1947-60IntelForPol</volume-id>
         <volume-id>frus1947v01</volume-id>
         <volume-id>frus1947v02</volume-id>
         <volume-id>frus1947v03</volume-id>
@@ -297,6 +303,7 @@
         <volume-id>frus1950v06</volume-id>
         <volume-id>frus1950v07</volume-id>
         <volume-id>frus1951-54Iran</volume-id>
+        <volume-id>frus1951-54IranEd2</volume-id>
         <volume-id>frus1951v01</volume-id>
         <volume-id>frus1951v02</volume-id>
         <volume-id>frus1951v03p1</volume-id>
@@ -523,6 +530,7 @@
         <volume-id>frus1969-76ve14p2</volume-id>
         <volume-id>frus1969-76ve15p1</volume-id>
         <volume-id>frus1969-76ve15p2</volume-id>
+        <volume-id>frus1969-76ve15p2Ed2</volume-id>
         <volume-id>frus1969-76ve16</volume-id>
         <volume-id>frus1977-80v01</volume-id>
         <volume-id>frus1977-80v02</volume-id>
@@ -533,8 +541,10 @@
         <volume-id>frus1977-80v07</volume-id>
         <volume-id>frus1977-80v08</volume-id>
         <volume-id>frus1977-80v09</volume-id>
+        <volume-id>frus1977-80v09Ed2</volume-id>
         <volume-id>frus1977-80v10</volume-id>
-        <volume-id>frus1977-80v11</volume-id>
+        <volume-id>frus1977-80v11p1</volume-id>
+        <volume-id>frus1977-80v11p2</volume-id>
         <volume-id>frus1977-80v12</volume-id>
         <volume-id>frus1977-80v13</volume-id>
         <volume-id>frus1977-80v14</volume-id>
@@ -574,7 +584,6 @@
         <volume-id>frus1981-88v16</volume-id>
         <volume-id>frus1981-88v17p1</volume-id>
         <volume-id>frus1981-88v17p2</volume-id>
-        <volume-id>frus1981-88v18</volume-id>
         <volume-id>frus1981-88v18p1</volume-id>
         <volume-id>frus1981-88v18p2</volume-id>
         <volume-id>frus1981-88v19</volume-id>
@@ -602,9 +611,93 @@
         <volume-id>frus1981-88v41</volume-id>
         <volume-id>frus1981-88v42</volume-id>
         <volume-id>frus1981-88v43</volume-id>
-        <volume-id>frus1981-88v44</volume-id>
+        <volume-id>frus1981-88v44p1</volume-id>
+        <volume-id>frus1981-88v44p2</volume-id>
         <volume-id>frus1981-88v45</volume-id>
         <volume-id>frus1981-88v46</volume-id>
-        <volume-id>frus1981-88v47</volume-id>
+        <volume-id>frus1981-88v47p1</volume-id>
+        <volume-id>frus1981-88v47p2</volume-id>
+        <volume-id>frus1981-88v48</volume-id>
+        <volume-id>frus1989-92v01</volume-id>
+        <volume-id>frus1989-92v02</volume-id>
+        <volume-id>frus1989-92v03</volume-id>
+        <volume-id>frus1989-92v04</volume-id>
+        <volume-id>frus1989-92v05</volume-id>
+        <volume-id>frus1989-92v06</volume-id>
+        <volume-id>frus1989-92v07</volume-id>
+        <volume-id>frus1989-92v08</volume-id>
+        <volume-id>frus1989-92v09</volume-id>
+        <volume-id>frus1989-92v10</volume-id>
+        <volume-id>frus1989-92v11</volume-id>
+        <volume-id>frus1989-92v12</volume-id>
+        <volume-id>frus1989-92v13</volume-id>
+        <volume-id>frus1989-92v14</volume-id>
+        <volume-id>frus1989-92v15</volume-id>
+        <volume-id>frus1989-92v16</volume-id>
+        <volume-id>frus1989-92v17</volume-id>
+        <volume-id>frus1989-92v18</volume-id>
+        <volume-id>frus1989-92v19</volume-id>
+        <volume-id>frus1989-92v20</volume-id>
+        <volume-id>frus1989-92v21</volume-id>
+        <volume-id>frus1989-92v22</volume-id>
+        <volume-id>frus1989-92v23</volume-id>
+        <volume-id>frus1989-92v24</volume-id>
+        <volume-id>frus1989-92v25</volume-id>
+        <volume-id>frus1989-92v26</volume-id>
+        <volume-id>frus1989-92v27</volume-id>
+        <volume-id>frus1989-92v28</volume-id>
+        <volume-id>frus1989-92v29</volume-id>
+        <volume-id>frus1989-92v30</volume-id>
+        <volume-id>frus1989-92v31</volume-id>
+        <volume-id>frus1989-92v32</volume-id>
+        <volume-id>frus1989-92v33</volume-id>
+        <volume-id>frus1993-00v01</volume-id>
+        <volume-id>frus1993-00v02</volume-id>
+        <volume-id>frus1993-00v03</volume-id>
+        <volume-id>frus1993-00v04</volume-id>
+        <volume-id>frus1993-00v05</volume-id>
+        <volume-id>frus1993-00v06</volume-id>
+        <volume-id>frus1993-00v07</volume-id>
+        <volume-id>frus1993-00v08</volume-id>
+        <volume-id>frus1993-00v09</volume-id>
+        <volume-id>frus1993-00v10</volume-id>
+        <volume-id>frus1993-00v11</volume-id>
+        <volume-id>frus1993-00v12</volume-id>
+        <volume-id>frus1993-00v13</volume-id>
+        <volume-id>frus1993-00v14</volume-id>
+        <volume-id>frus1993-00v15</volume-id>
+        <volume-id>frus1993-00v16</volume-id>
+        <volume-id>frus1993-00v17</volume-id>
+        <volume-id>frus1993-00v18</volume-id>
+        <volume-id>frus1993-00v19</volume-id>
+        <volume-id>frus1993-00v20</volume-id>
+        <volume-id>frus1993-00v21</volume-id>
+        <volume-id>frus1993-00v22</volume-id>
+        <volume-id>frus1993-00v23</volume-id>
+        <volume-id>frus1993-00v24</volume-id>
+        <volume-id>frus1993-00v25</volume-id>
+        <volume-id>frus1993-00v26</volume-id>
+        <volume-id>frus1993-00v27</volume-id>
+        <volume-id>frus1993-00v28</volume-id>
+        <volume-id>frus1993-00v29</volume-id>
+        <volume-id>frus1993-00v30</volume-id>
+        <volume-id>frus1993-00v31</volume-id>
+        <volume-id>frus1993-00v32</volume-id>
+        <volume-id>frus1993-00v33</volume-id>
+        <volume-id>frus1993-00v34</volume-id>
+        <volume-id>frus1993-00v35</volume-id>
+        <volume-id>frus1993-00v36</volume-id>
+        <volume-id>frus1993-00v37</volume-id>
+        <volume-id>frus1993-00v38</volume-id>
+        <volume-id>frus1993-00v39</volume-id>
+        <volume-id>frus1993-00v40</volume-id>
+        <volume-id>frus1993-00v41</volume-id>
+        <volume-id>frus1993-00v42</volume-id>
+        <volume-id>frus1993-00v43</volume-id>
+        <volume-id>frus1993-00v44</volume-id>
+        <volume-id>frus1993-00v45</volume-id>
+        <volume-id>frus1993-00v46</volume-id>
+        <volume-id>frus1993-00v47</volume-id>
+        <volume-id>frus1993-00v48</volume-id>
     </volume-ids>
 </results>
