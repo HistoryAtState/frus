@@ -56,8 +56,8 @@ jobs:
           fi
 
           if [ ! -f "$file" ]; then
-              echo "Error: File '$file' does not exist" >&2
-              return 1
+              rm ".last-modified/$file"
+              continue
           fi
 
           # Get last commit date in ISO format
