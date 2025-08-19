@@ -52,7 +52,7 @@
                 <field name="change-corresp" match="@corresp" type="xs:string"/>
                 <field name="change-when" match="@when" type="xs:string"/>
                 <field name="change-from" match="@from" type="xs:string"/>
-                <field name="change-to" match="@to" type="xs:dateTime"/>
+                <field name="change-to" match="@to" type="xs:string"/>
             </create>
             <create qname="tei:revisionDesc">
                 <create name="revisionDesc-status" qname="@status" type="xs:string"/>
