@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1958–1960, Indonesia,
                     Volume XVII</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1958–1960</title>
+                <title n="1958-60" type="sub-series">1958–1960</title>
                 <title type="volume-number">Volume XVII</title>
                 <title type="volume">Indonesia</title>
                 <editor role="primary">Robert J. McMahon</editor>
@@ -88,12 +88,75 @@
                         </list></p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2009-03-24 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>indonesia</term>
+                    <term>afghanistan</term>
+                    <term>algeria</term>
+                    <term>argentina</term>
+                    <term>australia</term>
+                    <term>belgium</term>
+                    <term>brazil</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>south-korea</term>
+                    <term>netherlands</term>
+                    <term>united-kingdom</term>
+                    <term>philippines</term>
+                    <term>democratic-republic-of-the-congo-kinshasa</term>
+                    <term>cuba</term>
+                    <term>cyprus</term>
+                    <term>self-determination</term>
+                    <term>dulles-john-foster</term>
+                    <term>egypt</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>herter-christian-archibald</term>
+                    <term>hungary</term>
+                    <term>india</term>
+                    <term>agriculture</term>
+                    <term>elections</term>
+                    <term>poland</term>
+                    <term>sweden</term>
+                    <term>foreign-aid</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>labor</term>
+                    <term>lebanon</term>
+                    <term>mexico</term>
+                    <term>pakistan</term>
+                    <term>portugal</term>
+                    <term>singapore</term>
+                    <term>southeast-asia-treaty-organization</term>
+                    <term>switzerland</term>
+                    <term>syria</term>
+                    <term>taiwan</term>
+                    <term>thailand</term>
+                    <term>turkey</term>
+                    <term>vietnam</term>
+                    <term>new-caledonia</term>
+                    <term>curacao</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1958-60v17" status="published" when="1994"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

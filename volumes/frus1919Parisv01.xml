@@ -6,9 +6,9 @@
             <titleStmt>
                 <title type="complete">Papers Relating to the Foreign Relations of the United
                     States, The Paris Peace Conference, 1919, Volume I</title>
-                <title type="series">Papers Relating to the Foreign Relations of the United States,
-                    1919</title>
-                <title type="sub-series"/>
+                <title type="series">Papers Relating to the Foreign Relations of the United
+                    States</title>
+                <title n="1919" type="sub-series">1919</title>
                 <title type="volume-number">Volume I</title>
                 <title type="volume">The Paris Peace Conference, 1919</title>
                 <editor role="primary">Joseph V. Fuller</editor>
@@ -96,14 +96,69 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-                <xi:include href="../shared/frus-heads.xml" xpointer="frus-heads"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>peace</term>
+                    <term>afghanistan</term>
+                    <term>ethiopia</term>
+                    <term>albania</term>
+                    <term>armistices</term>
+                    <term>wilson-woodrow</term>
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>belgium</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>china</term>
+                    <term>costa-rica</term>
+                    <term>denmark</term>
+                    <term>dominican-republic</term>
+                    <term>finland</term>
+                    <term>egypt</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>united-kingdom</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>labor</term>
+                    <term>lansing-robert</term>
+                    <term>league-of-nations</term>
+                    <term>liberia</term>
+                    <term>norway</term>
+                    <term>iran</term>
+                    <term>peru</term>
+                    <term>poland</term>
+                    <term>portugal</term>
+                    <term>romania</term>
+                    <term>russia</term>
+                    <term>switzerland</term>
+                    <term>turkey</term>
+                    <term>nauru</term>
+                    <term>liechtenstein</term>
+                    <term>andorra</term>
+                    <term>marshall-islands</term>
+                    <term>monaco</term>
+                    <term>swaziland</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1919Parisv01" status="published" when="1942"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

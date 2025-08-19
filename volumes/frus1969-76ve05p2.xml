@@ -7,9 +7,9 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume
                     E–5, Part 2, Documents on North Africa, 1969–1972</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
-                <title type="volume-number">Volume E–5</title>
-                <title type="volume">Part 2, Documents on North Africa, 1969–1972</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
+                <title type="volume-number">Volume E–5, Part 2</title>
+                <title type="volume">Documents on North Africa, 1969–1972</title>
                 <editor role="primary">Monica L. Belmonte</editor>
                 <editor role="general">Edward C. Keefer</editor>
             </titleStmt>
@@ -1672,14 +1672,50 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
-            <change>2009-01-31 HCL SB: Volume delivered to PA/HO</change>
-            <change>2009-03-17 PA/HO JW: Reviewed and posted on history.state.gov</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>epub</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>libya</term>
+                    <term>algeria</term>
+                    <term>morocco</term>
+                    <term>tunisia</term>
+                    <term>military-bases</term>
+                    <term>terrorism</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>france</term>
+                    <term>nixon-richard</term>
+                    <term>rogers-william-pierce</term>
+                    <term>neutrality</term>
+                    <term>saudi-arabia</term>
+                    <term>israel</term>
+                    <term>vietnam</term>
+                    <term>palestine</term>
+                    <term>diplomatic-recognition</term>
+                    <term>egypt</term>
+                    <term>arab-israeli-dispute</term>
+                    <term>united-kingdom</term>
+                    <term>spain</term>
+                    <term>taiwan</term>
+                    <term>burkina-faso</term>
+                    <term>mauritius</term>
+                    <term>burundi</term>
+                    <term>central-african-republic</term>
+                    <term>rwanda</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76ve05p2" status="published" when="2007"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

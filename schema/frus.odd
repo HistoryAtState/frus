@@ -1060,7 +1060,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:4.5.0">
+                <schemaSpec ident="frus" start="TEI" source="tei:4.9.0">
 
 
 
@@ -1078,7 +1078,8 @@
                         include="p hi gloss term name date time ref list item head note relatedItem measure graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
-                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc notesStmt extent encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc profileDesc textClass keywords notesStmt extent encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
+                    <moduleRef key="corpus" include="settingDesc setting"/>
                     <moduleRef key="textstructure"
                         include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
@@ -1114,7 +1115,6 @@
                             <attDef ident="part" mode="delete"/>
                         </attList>
                     </classSpec>
-                    <classSpec type="atts" ident="att.docStatus" mode="delete"/>
                     <classSpec type="atts" ident="att.editLike" mode="delete"/>
                     <classSpec type="atts" ident="att.fragmentable" mode="delete"/>
                     <classSpec type="atts" ident="att.naming" mode="change">
@@ -1262,6 +1262,34 @@
                                 </rng:optional>
                             </rng:group>
                         </content>
+                    </elementSpec>
+                    
+                    <!--
+                    constrain change/@status
+                    -->
+                    <elementSpec ident="change" module="core" mode="change">
+                        <desc>Restrict @status values for tei:change elements for status of divisions within a volume</desc>
+                        <attList>
+                            <attDef ident="status" usage="req" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="planned">
+                                        <gloss>Has been registered in a sub-series plan</gloss>
+                                    </valItem>
+                                    <valItem ident="being-researched">
+                                        <gloss>Research has begun</gloss>
+                                    </valItem>
+                                    <valItem ident="being-cleared">
+                                        <gloss>Editing and declassification has begun</gloss>
+                                    </valItem>
+                                    <valItem ident="published">
+                                        <gloss>Has been published</gloss>
+                                    </valItem>
+                                    <valItem ident="partially-published">
+                                        <gloss>Some but not yet all chapters in a volume have been published</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
 
                     <!-- 

@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1961–1963, Volume
                     VIII, National Security Policy</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1961–1963</title>
+                <title n="1961-63" type="sub-series">1961–1963</title>
                 <title type="volume-number">Volume VIII</title>
                 <title type="volume">National Security Policy</title>
                 <editor role="primary">David W. Mabon</editor>
@@ -86,12 +86,55 @@
                     <p>The following errors in the original edition have been corrected:</p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">kennedy</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>national-security-policy</term>
+                    <term>brazil</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>cameroon</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>congo-brazzaville</term>
+                    <term>cuba</term>
+                    <term>ecuador</term>
+                    <term>egypt</term>
+                    <term>germany</term>
+                    <term>guatemala</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>iran</term>
+                    <term>israel</term>
+                    <term>japan</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>kennedy-john-f</term>
+                    <term>laos</term>
+                    <term>national-security-council</term>
+                    <term>pakistan</term>
+                    <term>nuclear-weapons</term>
+                    <term>thailand</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>venezuela</term>
+                    <term>vietnam</term>
+                    <term>congressional-relations</term>
+                    <term>rusk-david-dean</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1961-63v08" status="published" when="1996"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

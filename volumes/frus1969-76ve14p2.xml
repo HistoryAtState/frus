@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume
                     E–14, Part 2, Documents on Arms Control and Nonproliferation, 1973–1976</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
                 <title type="volume-number">Volume E–14, Part 2</title>
                 <title type="volume">Documents on Arms Control and Nonproliferation,
                     1973–1976</title>
@@ -78,10 +78,39 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>epub</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>arms-transfers</term>
+                    <term>chemical-and-bacteriological-warfare</term>
+                    <term>ford-gerald</term>
+                    <term>kissinger-henry-a</term>
+                    <term>nixon-richard</term>
+                    <term>nuclear-nonproliferation</term>
+                    <term>nuclear-weapons</term>
+                    <term>rogers-william-pierce</term>
+                    <term>martinique</term>
+                    <term>bhutan</term>
+                    <term>the-bahamas</term>
+                    <term>confidence-building-measures</term>
+                    <term>gabon</term>
+                    <term>maldives</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76ve14p2" status="published" when="2015-10-27"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

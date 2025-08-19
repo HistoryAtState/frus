@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume
                     III, Foreign Economic Policy; International Monetary Policy, 1969–1972</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
                 <title type="volume-number">Volume III</title>
                 <title type="volume">Foreign Economic Policy; International Monetary Policy,
                     1969–1972</title>
@@ -90,12 +90,49 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>foreign-economic-policy</term>
+                    <term>property-claims</term>
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>european-economic-community</term>
+                    <term>france</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>netherlands</term>
+                    <term>nixon-richard</term>
+                    <term>rogers-william-pierce</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>syria</term>
+                    <term>united-kingdom</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>democratic-republic-of-the-congo-kinshasa</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v03" status="published" when="2001"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

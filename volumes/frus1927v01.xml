@@ -6,9 +6,9 @@
             <titleStmt>
                 <title type="complete">Papers Relating to the Foreign Relations of the United
                     States, 1927, Volume I</title>
-                <title type="series">Papers Relating to the Foreign Relations of the United States,
-                    1927</title>
-                <title type="sub-series"/>
+                <title type="series">Papers Relating to the Foreign Relations of the United
+                    States</title>
+                <title n="1927" type="sub-series">1927</title>
                 <title type="volume-number">Volume I</title>
                 <title type="volume"/>
                 <editor role="primary">Joseph V. Fuller</editor>
@@ -96,13 +96,41 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">coolidge</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>australia</term>
+                    <term>austria</term>
+                    <term>bolivia</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>foreign-investment</term>
+                    <term>coolidge-calvin</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>immigration</term>
+                    <term>league-of-nations</term>
+                    <term>economic-summit-meetings</term>
+                    <term>kellogg-frank-billings</term>
+                    <term>monaco</term>
+                    <term>suriname</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1927v01" status="published" when="1942"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

@@ -7,14 +7,12 @@
                 <title type="complete">Message of the President of the United States to the Two
                     Houses of Congress, at the Commencement of the Second Session of the
                     Thirty-seventh Congress</title>
-                <title type="series"/>
-                <title type="sub-series">Message of the President of the United States to the Two
-                    Houses of Congress, at the Commencement of the Second Session of the
-                    Thirty-seventh Congress</title>
+                <title type="series">Message of the President of the United States to the Two Houses
+                    of Congress</title>
+                <title n="1861" type="sub-series">1861</title>
                 <title type="volume-number"/>
-                <title type="volume"/>
-                <editor role="primary"/>
-                <editor role="general"/>
+                <title type="volume">At the Commencement of the Second Session of the Thirty-seventh
+                    Congress</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -96,14 +94,52 @@
                         </list></p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-                <xi:include href="../shared/frus-heads.xml" xpointer="frus-heads"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2014-05-20 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>belgium</term>
+                    <term>mexico</term>
+                    <term>united-kingdom</term>
+                    <term>austria</term>
+                    <term>france</term>
+                    <term>spain</term>
+                    <term>russia</term>
+                    <term>italy</term>
+                    <term>denmark</term>
+                    <term>netherlands</term>
+                    <term>turkey</term>
+                    <term>sweden</term>
+                    <term>portugal</term>
+                    <term>peru</term>
+                    <term>guatemala</term>
+                    <term>nicaragua</term>
+                    <term>egypt</term>
+                    <term>venezuela</term>
+                    <term>chile</term>
+                    <term>japan</term>
+                    <term>black-jeremiah-sullivan</term>
+                    <term>lincoln-abraham</term>
+                    <term>seward-william-henry</term>
+                    <term>buchanan-james-p</term>
+                    <term>american-revolutionary-war</term>
+                    <term>suriname</term>
+                    <term>grenada</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1861" status="published" when="1861"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

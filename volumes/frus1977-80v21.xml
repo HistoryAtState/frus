@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1977–1980, Volume
                     XXI, Cyprus; Turkey; Greece</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1977–1980</title>
+                <title n="1977-80" type="sub-series">1977–1980</title>
                 <title type="volume-number">Volume XXI</title>
                 <title type="volume">Cyprus; Turkey; Greece</title>
                 <editor role="primary">David Zierler</editor>
@@ -88,10 +88,44 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">carter</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>cyprus</term>
+                    <term>turkey</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>foreign-aid</term>
+                    <term>carter-jimmy</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>vance-cyrus-roberts</term>
+                    <term>egypt</term>
+                    <term>greece</term>
+                    <term>france</term>
+                    <term>international-monetary-fund</term>
+                    <term>united-nations</term>
+                    <term>united-kingdom</term>
+                    <term>guadeloupe</term>
+                    <term>universal-postal-union</term>
+                    <term>genocide</term>
+                    <term>grenada</term>
+                    <term>confidence-building-measures</term>
+                    <term>muskie-edmund-sixtus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1977-80v21" status="published" when="2014-04-03"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

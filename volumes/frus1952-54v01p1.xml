@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1952–1954, General:
                     Economic and Political Matters, Volume I, Part 1</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1952–1954</title>
+                <title n="1952-54" type="sub-series">1952–1954</title>
                 <title type="volume-number">Volume I, Part 1</title>
                 <title type="volume">General: Economic and Political Matters</title>
                 <editor role="general">William Z. Slany</editor>
@@ -96,12 +96,78 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2009-09-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                    <term xml:id="admin2">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>eisenhower-dwight-d</term>
+                    <term>truman-harry-s</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>dulles-john-foster</term>
+                    <term>agriculture</term>
+                    <term>foreign-aid</term>
+                    <term>foreign-investment</term>
+                    <term>afghanistan</term>
+                    <term>alliances</term>
+                    <term>argentina</term>
+                    <term>australia</term>
+                    <term>austria</term>
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>national-security-policy</term>
+                    <term>cuba</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>denmark</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>guatemala</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>israel</term>
+                    <term>japan</term>
+                    <term>luxembourg</term>
+                    <term>information-programs</term>
+                    <term>mexico</term>
+                    <term>national-security-council</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>pakistan</term>
+                    <term>panama</term>
+                    <term>spain</term>
+                    <term>thailand</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>venezuela</term>
+                    <term>collective-security</term>
+                    <term>atomic-energy</term>
+                    <term>congressional-relations</term>
+                    <term>personnel-foreign-service</term>
+                    <term>new-zealand</term>
+                    <term>palestine</term>
+                    <term>refugees</term>
+                    <term>general-agreement-on-tariffs-and-trade</term>
+                    <term>macau</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1952-54v01p1" status="published" when="1983"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

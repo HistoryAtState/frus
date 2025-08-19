@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume I,
                     Foundations of Foreign Policy, 1969–1972</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
                 <title type="volume-number">Volume I</title>
                 <title type="volume">Foundations of Foreign Policy, 1969–1972</title>
                 <editor role="primary">Louis J. Smith</editor>
@@ -91,12 +91,89 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>algeria</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>australia</term>
+                    <term>bulgaria</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>congo-brazzaville</term>
+                    <term>cuba</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>egypt</term>
+                    <term>ethiopia</term>
+                    <term>foreign-aid</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>guinea</term>
+                    <term>hong-kong</term>
+                    <term>hungary</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>ireland</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>south-korea</term>
+                    <term>laos</term>
+                    <term>lebanon</term>
+                    <term>liberia</term>
+                    <term>libya</term>
+                    <term>malaysia</term>
+                    <term>mauritania</term>
+                    <term>mexico</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>morocco</term>
+                    <term>new-zealand</term>
+                    <term>nixon-richard</term>
+                    <term>nuclear-weapons</term>
+                    <term>pakistan</term>
+                    <term>peru</term>
+                    <term>philippines</term>
+                    <term>poland</term>
+                    <term>portugal</term>
+                    <term>rogers-william-pierce</term>
+                    <term>romania</term>
+                    <term>singapore</term>
+                    <term>spain</term>
+                    <term>sudan</term>
+                    <term>syria</term>
+                    <term>taiwan</term>
+                    <term>thailand</term>
+                    <term>tunisia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>vietnam-conflict</term>
+                    <term>yemen</term>
+                    <term>general-agreement-on-tariffs-and-trade</term>
+                    <term>spanish-american-war</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v01" status="published" when="2003"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

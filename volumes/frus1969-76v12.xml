@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume
                     XII, Soviet Union, January 1969–October 1970</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
                 <title type="volume-number">Volume XII</title>
                 <title type="volume">Soviet Union, January 1969–October 1970</title>
                 <editor role="primary">Erin R. Mahan</editor>
@@ -99,12 +99,52 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-11-06 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>albania</term>
+                    <term>algeria</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>cambodia</term>
+                    <term>cuba</term>
+                    <term>egypt</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>iran</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>jordan</term>
+                    <term>nuclear-nonproliferation</term>
+                    <term>laos</term>
+                    <term>malta</term>
+                    <term>national-security-council</term>
+                    <term>nixon-richard</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>rogers-william-pierce</term>
+                    <term>romania</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>covert-actions</term>
+                    <term>vietnam-conflict</term>
+                    <term>russia</term>
+                    <term>mauritius</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v12" status="published" when="2006"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

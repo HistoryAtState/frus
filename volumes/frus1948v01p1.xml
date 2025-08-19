@@ -7,10 +7,12 @@
                 <title type="complete">Foreign Relations of the United States, 1948, General; the
                     United Nations, Volume I, Part 1</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1948</title>
+                <title n="1948" type="sub-series">1948</title>
                 <title type="volume-number">Volume I, Part 1</title>
                 <title type="volume">General; the United Nations</title>
                 <editor role="primary">Ralph R. Goodwin</editor>
+                <editor role="chief-foreign-relations-division">S. Everett Gleason</editor>
+                <editor role="chief-foreign-relations-division">Frederick Aandahl</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -93,13 +95,38 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>marshall-george-catlett</term>
+                    <term>truman-harry-s</term>
+                    <term>atomic-energy</term>
+                    <term>human-rights</term>
+                    <term>united-nations</term>
+                    <term>australia</term>
+                    <term>belgium</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>ireland</term>
+                    <term>israel</term>
+                    <term>quarantine-blockade</term>
+                    <term>elections</term>
+                    <term>genocide</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1948v01p1" status="published" when="1975"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

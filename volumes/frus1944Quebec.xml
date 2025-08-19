@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, Conference at Quebec,
                     1944</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series"/>
+                <title n="1944-01-quebec" type="sub-series"/>
                 <title type="volume-number"/>
                 <title type="volume">Conference at Quebec, 1944</title>
                 <editor role="primary">Richardson Dougall</editor>
@@ -96,13 +96,51 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>canada</term>
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>argentina</term>
+                    <term>atomic-energy</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>austria</term>
+                    <term>bulgaria</term>
+                    <term>burma</term>
+                    <term>china</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>prisoners-of-war</term>
+                    <term>japan</term>
+                    <term>italy</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>poland</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>world-war-ii</term>
+                    <term>european-advisory-commission</term>
+                    <term>palau</term>
+                    <term>djibouti</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1944Quebec" status="published" when="1972"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

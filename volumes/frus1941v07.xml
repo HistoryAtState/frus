@@ -4,11 +4,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Foreign Relations of the United States Diplomatic Papers,
+                <title type="complete">Foreign Relations of the United States, Diplomatic Papers,
                     1941, The American Republics, Volume VII</title>
-                <title type="series">Foreign Relations of the United States Diplomatic
+                <title type="series">Foreign Relations of the United States, Diplomatic
                     Papers</title>
-                <title type="sub-series">1941</title>
+                <title n="1941" type="sub-series">1941</title>
                 <title type="volume-number">Volume VII</title>
                 <title type="volume">The American Republics</title>
                 <editor role="primary">William M. Franklin</editor>
@@ -96,13 +96,51 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>el-salvador</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>honduras</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>panama</term>
+                    <term>paraguay</term>
+                    <term>peru</term>
+                    <term>uruguay</term>
+                    <term>venezuela</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>foreign-aid</term>
+                    <term>collective-security</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>world-war-ii</term>
+                    <term>martinique</term>
+                    <term>aruba</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1941v07" status="published" when="1962"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

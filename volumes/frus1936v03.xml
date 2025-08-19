@@ -4,11 +4,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Foreign Relations of the United States Diplomatic Papers,
+                <title type="complete">Foreign Relations of the United States, Diplomatic Papers,
                     1936, The Near East and Africa, Volume III</title>
-                <title type="series">Foreign Relations of the United States Diplomatic
+                <title type="series">Foreign Relations of the United States, Diplomatic
                     Papers</title>
-                <title type="sub-series">1936</title>
+                <title n="1936" type="sub-series">1936</title>
                 <title type="volume-number">Volume III</title>
                 <title type="volume">The Near East and Africa</title>
                 <editor role="primary">Matilda F. Axton</editor>
@@ -103,13 +103,67 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>afghanistan</term>
+                    <term>alliances</term>
+                    <term>argentina</term>
+                    <term>arms-embargoes</term>
+                    <term>arms-transfers</term>
+                    <term>buildings-foreign</term>
+                    <term>chemical-and-bacteriological-warfare</term>
+                    <term>collective-security</term>
+                    <term>diplomatic-recognition</term>
+                    <term>economic-sanctions</term>
+                    <term>egypt</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>ethiopia</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>hull-cordell</term>
+                    <term>immigration</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>league-of-nations</term>
+                    <term>lebanon</term>
+                    <term>liberia</term>
+                    <term>morocco</term>
+                    <term>neutrality</term>
+                    <term>non-governmental-organizations</term>
+                    <term>palestine</term>
+                    <term>peace</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>protocol</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>syria</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>world-war-ii</term>
+                    <term>universal-postal-union</term>
+                    <term>djibouti</term>
+                    <term>spanish-american-war</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1936v03" status="published" when="1953"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

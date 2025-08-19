@@ -7,10 +7,12 @@
                 <title type="complete">Foreign Relations of the United States, 1949, The Far East
                     and Australasia, Volume VII, Part 1</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1949</title>
+                <title n="1949" type="sub-series">1949</title>
                 <title type="volume-number">Volume VII, Part 1</title>
                 <title type="volume">The Far East and Australasia</title>
                 <editor role="primary">John G. Reid</editor>
+                <editor role="chief-foreign-relations-division">S. Everett Gleason</editor>
+                <editor role="chief-foreign-relations-division">Frederick Aandahl</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -93,13 +95,45 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>australia</term>
+                    <term>new-zealand</term>
+                    <term>china</term>
+                    <term>indonesia</term>
+                    <term>philippines</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>hong-kong</term>
+                    <term>truman-harry-s</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>vietnam</term>
+                    <term>foreign-aid</term>
+                    <term>netherlands</term>
+                    <term>france</term>
+                    <term>united-nations</term>
+                    <term>international-monetary-fund</term>
+                    <term>thailand</term>
+                    <term>far-eastern-commission</term>
+                    <term>universal-postal-union</term>
+                    <term>suriname</term>
+                    <term>marshall-george-catlett</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1949v07p1" status="published" when="1975"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

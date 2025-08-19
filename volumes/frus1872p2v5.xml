@@ -9,7 +9,7 @@
                     December 2, 1872, Part II, Volume V</title>
                 <title type="series">Papers Relating to the Foreign Relations of the United
                     States</title>
-                <title type="sub-series">1872</title>
+                <title n="1872" type="sub-series">1872</title>
                 <title type="volume-number">Part II, Volume V</title>
                 <title type="volume">Papers Relating to the Treaty of Washington</title>
             </titleStmt>
@@ -93,13 +93,32 @@
                         </list></p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>fish-hamilton</term>
+                    <term>germany</term>
+                    <term>grant-ulysses-s</term>
+                    <term>spain</term>
+                    <term>united-kingdom</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1872p2v5" status="published" when="1872"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

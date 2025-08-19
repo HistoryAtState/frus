@@ -7,8 +7,8 @@
                 <title type="complete">Foreign Relations of the United States, 1977–1980, Volume
                     XVII, Part 3, North Africa</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1977–1980</title>
-                <title type="volume-number">Volume XVII</title>
+                <title n="1977-80" type="sub-series">1977–1980</title>
+                <title type="volume-number">Volume XVII, Part 3</title>
                 <title type="volume">North Africa</title>
                 <editor role="primary">Myra F. Burton</editor>
                 <editor role="general">Adam M. Howard</editor>
@@ -88,14 +88,49 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <!-- <xenoData>
-            <frus:coverage notBefore="1977-01-12T10:43:00-05:00"
-                notAfter="1981-01-06T23:59:59-05:00"/>
-        </xenoData> -->
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">carter</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>carter-jimmy</term>
+                    <term>vance-cyrus-roberts</term>
+                    <term>muskie-edmund-sixtus</term>
+                    <term>algeria</term>
+                    <term>egypt</term>
+                    <term>libya</term>
+                    <term>morocco</term>
+                    <term>tunisia</term>
+                    <term>western-sahara</term>
+                    <term>peace</term>
+                    <term>international-organizations</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>national-security-council</term>
+                    <term>new-international-economic-order</term>
+                    <term>timor-leste</term>
+                    <term>benin</term>
+                    <term>djibouti</term>
+                    <term>genocide</term>
+                    <term>equatorial-guinea</term>
+                    <term>the-bahamas</term>
+                    <term>central-african-republic</term>
+                    <term>gabon</term>
+                    <term>madagascar</term>
+                    <term>rwanda</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1977-80v17p3" status="published" when="2017-10-27"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

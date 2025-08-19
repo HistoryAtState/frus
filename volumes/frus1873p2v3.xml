@@ -6,14 +6,14 @@
             <titleStmt>
                 <title type="complete">Papers Relating to the Foreign Relations of the United
                     States, Transmitted to Congress, With the Annual Message of the President,
-                    December 1, 1873</title>
+                    December 1, 1873, Part II, Papers Relating to the American and British Joint
+                    Claims Commission, Volume III</title>
                 <title type="series">Papers Relating to the Foreign Relations of the United
                     States</title>
-                <title type="sub-series">1873</title>
+                <title n="1873" type="sub-series">1873</title>
                 <title type="volume-number">Part II, Volume III</title>
                 <title type="volume">Papers Relating to the American and British Joint Claims
                     Commission</title>
-                <editor role="primary"/>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -97,14 +97,34 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-                <xi:include href="../shared/frus-heads.xml" xpointer="frus-heads"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>canada</term>
+                    <term>fish-hamilton</term>
+                    <term>grant-ulysses-s</term>
+                    <term>united-kingdom</term>
+                    <term>war-of-1812</term>
+                    <term>martinique</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1873p2v3" status="published" when="1874"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

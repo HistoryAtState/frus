@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1977–1980, Volume
                     XVII, Part 2, Sub-Saharan Africa</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1977–1980</title>
+                <title n="1977-80" type="sub-series">1977–1980</title>
                 <title type="volume-number">Volume XVII, Part 2</title>
                 <title type="volume">Sub-Saharan Africa</title>
                 <editor role="primary">Louise P. Woodroofe</editor>
@@ -88,10 +88,66 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">carter</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>carter-jimmy</term>
+                    <term>vance-cyrus-roberts</term>
+                    <term>human-rights</term>
+                    <term>united-nations</term>
+                    <term>alliances</term>
+                    <term>covert-actions</term>
+                    <term>democratic-republic-of-the-congo-kinshasa</term>
+                    <term>sudan</term>
+                    <term>tanzania</term>
+                    <term>uganda</term>
+                    <term>kenya</term>
+                    <term>burundi</term>
+                    <term>rwanda</term>
+                    <term>congo-brazzaville</term>
+                    <term>guinea</term>
+                    <term>senegal</term>
+                    <term>central-african-republic</term>
+                    <term>niger</term>
+                    <term>cote-divoire</term>
+                    <term>mauritania</term>
+                    <term>ghana</term>
+                    <term>liberia</term>
+                    <term>nigeria</term>
+                    <term>togo</term>
+                    <term>benin</term>
+                    <term>equatorial-guinea</term>
+                    <term>sierra-leone</term>
+                    <term>guinea-bissau</term>
+                    <term>chad</term>
+                    <term>gabon</term>
+                    <term>comoros</term>
+                    <term>guadeloupe</term>
+                    <term>mayotte</term>
+                    <term>western-sahara</term>
+                    <term>the-gambia</term>
+                    <term>djibouti</term>
+                    <term>genocide</term>
+                    <term>mauritius</term>
+                    <term>botswana</term>
+                    <term>madagascar</term>
+                    <term>muskie-edmund-sixtus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1977-80v17p2" status="published" when="2018-10-25"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

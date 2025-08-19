@@ -7,7 +7,8 @@
                 <title type="complete">Foreign Relations of the United States, 1917–1972, Volume
                     VII, Public Diplomacy, 1964–1968</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1917–1972</title>
+                <title n="1917-72-public-diplomacy-retrospective" type="sub-series"
+                    >1917–1972</title>
                 <title type="volume-number">Volume VII</title>
                 <title type="volume">Public Diplomacy, 1964–1968</title>
                 <editor role="primary">Charles V. Hawley</editor>
@@ -77,10 +78,34 @@
                 <rendition xml:id="center">display: block; text-align: center;</rendition>
                 <rendition xml:id="image-center">margin-left: auto; margin-right: auto;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">retrospective</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>gabon</term>
+                    <term>association-of-southeast-asian-nations</term>
+                    <term>european-economic-community</term>
+                    <term>general-agreement-on-tariffs-and-trade</term>
+                    <term>international-monetary-fund</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>organization-of-petroleum-exporting-countries</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1917-72PubDipv07" status="published" when="2018-12-07"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

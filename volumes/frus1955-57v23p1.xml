@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1955–1957, Japan,
                     Volume XXIII, Part 1</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1955–1957</title>
+                <title n="1955-57" type="sub-series">1955–1957</title>
                 <title type="volume-number">Volume XXIII, Part 1</title>
                 <title type="volume">Japan</title>
                 <editor role="general">John P. Glennon</editor>
@@ -85,12 +85,45 @@
                     <p>The following errors in the original edition have been corrected:</p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>japan</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>dulles-john-foster</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>war-crimes-and-war-criminals</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>australia</term>
+                    <term>china</term>
+                    <term>foreign-aid</term>
+                    <term>elections</term>
+                    <term>germany</term>
+                    <term>india</term>
+                    <term>south-korea</term>
+                    <term>new-zealand</term>
+                    <term>philippines</term>
+                    <term>taiwan</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>vietnam</term>
+                    <term>paracel-islands</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1955-57v23p1" status="published" when="1991"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

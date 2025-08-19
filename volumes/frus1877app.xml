@@ -7,12 +7,12 @@
                 <title type="complete">Papers Relating to the Foreign Relations of the United
                     States, Transmitted to Congress, With the Annual Message of the President,
                     December 3, 1877</title>
-                <title type="series">Papers Relating to the Foreign Relations of the United States,
-                    1877</title>
-                <title type="sub-series"/>
+                <title type="series">Papers Relating to the Foreign Relations of the United
+                    States</title>
+                <title n="1877" type="sub-series">1877</title>
                 <title type="volume-number"/>
-                <title type="volume">1877</title>
-                <editor role="primary"/>
+                <title type="volume">Transmitted to Congress, With the Annual Message of the
+                    President, December 3, 1877</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -93,13 +93,90 @@
                         </list></p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2016-04-13 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>agriculture</term>
+                    <term>argentina</term>
+                    <term>asylum</term>
+                    <term>austria</term>
+                    <term>belgium</term>
+                    <term>border-administration</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>detainees</term>
+                    <term>egypt</term>
+                    <term>elections</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>evarts-william-maxwell</term>
+                    <term>fish-hamilton</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>hayes-rutherford-b</term>
+                    <term>honduras</term>
+                    <term>hungary</term>
+                    <term>immigration</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>labor</term>
+                    <term>law-of-the-sea</term>
+                    <term>liberia</term>
+                    <term>mexico</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>morocco</term>
+                    <term>neutrality</term>
+                    <term>nicaragua</term>
+                    <term>norway</term>
+                    <term>paraguay</term>
+                    <term>peace</term>
+                    <term>personnel-civil-service</term>
+                    <term>peru</term>
+                    <term>philippines</term>
+                    <term>polar-affairs</term>
+                    <term>portugal</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>quarantine-blockade</term>
+                    <term>russia</term>
+                    <term>serbia</term>
+                    <term>spain</term>
+                    <term>suez-canal</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>thailand</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>tunisia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>guernsey</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>suriname</term>
+                    <term>mauritius</term>
+                    <term>grant-ulysses-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1877app" status="published" when="1877"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

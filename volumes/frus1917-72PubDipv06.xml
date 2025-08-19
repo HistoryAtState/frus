@@ -7,7 +7,8 @@
                 <title type="complete">Foreign Relations of the United States, 1917–1972, Volume VI,
                     Public Diplomacy, 1961–1963</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1917–1972</title>
+                <title n="1917-72-public-diplomacy-retrospective" type="sub-series"
+                    >1917–1972</title>
                 <title type="volume-number">Volume VI</title>
                 <title type="volume">Public Diplomacy, 1961–1963</title>
                 <editor role="primary">Kristin L. Ahlberg</editor>
@@ -76,10 +77,51 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">kennedy</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">retrospective</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>kennedy-john-f</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                    <term>congressional-relations</term>
+                    <term>organization-and-management</term>
+                    <term>united-nations</term>
+                    <term>cuban-missile-crisis</term>
+                    <term>cuba</term>
+                    <term>foreign-aid</term>
+                    <term>vietnam-conflict</term>
+                    <term>vietnam</term>
+                    <term>germany</term>
+                    <term>european-economic-community</term>
+                    <term>international-monetary-fund</term>
+                    <term>non-governmental-organizations</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>organization-of-american-states</term>
+                    <term>southeast-asia-treaty-organization</term>
+                    <term>foreign-protest-against-u-s-activity</term>
+                    <term>peace</term>
+                    <term>civil-rights-domestic</term>
+                    <term>antisemitism</term>
+                    <term>brunei</term>
+                    <term>benin</term>
+                    <term>central-african-republic</term>
+                    <term>gabon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1917-72PubDipv06" status="published" when="2017-12-05"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1964–1968, Volume
                     XXII, Iran</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1964–1968</title>
+                <title n="1964-68" type="sub-series">1964–1968</title>
                 <title type="volume-number">Volume XXII</title>
                 <title type="volume">Iran</title>
                 <editor role="primary">Nina D. Howland</editor>
@@ -91,12 +91,52 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>iran</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                    <term>national-security-council</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>foreign-economic-policy</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>arab-israeli-dispute</term>
+                    <term>syria</term>
+                    <term>vietnam</term>
+                    <term>yemen</term>
+                    <term>afghanistan</term>
+                    <term>cyprus</term>
+                    <term>kuwait</term>
+                    <term>pakistan</term>
+                    <term>qatar</term>
+                    <term>iraq</term>
+                    <term>algeria</term>
+                    <term>india</term>
+                    <term>china</term>
+                    <term>jordan</term>
+                    <term>israel</term>
+                    <term>libya</term>
+                    <term>indonesia</term>
+                    <term>egypt</term>
+                    <term>united-kingdom</term>
+                    <term>romania</term>
+                    <term>djibouti</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v22" status="published" when="1999"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

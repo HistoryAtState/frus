@@ -4,12 +4,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Foreign Relations, 1977–1980, Volume XVII, Horn of Africa,
-                    Part 1</title>
+                <title type="complete">Foreign Relations of the United States, 1977–1980, Volume
+                    XVII, Part 1, Horn of Africa</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1977–1980</title>
-                <title type="volume-number">Volume XVII</title>
-                <title type="volume">Horn of Africa, 1977–1980</title>
+                <title n="1977-80" type="sub-series">1977–1980</title>
+                <title type="volume-number">Volume XVII, Part 1</title>
+                <title type="volume">Horn of Africa</title>
                 <editor role="primary">Louise P. Woodroofe</editor>
                 <editor role="general">Adam M. Howard</editor>
             </titleStmt>
@@ -88,10 +88,45 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">carter</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>carter-jimmy</term>
+                    <term>vance-cyrus-roberts</term>
+                    <term>muskie-edmund-sixtus</term>
+                    <term>djibouti</term>
+                    <term>ethiopia</term>
+                    <term>eritrea</term>
+                    <term>somalia</term>
+                    <term>decolonization</term>
+                    <term>human-rights</term>
+                    <term>united-nations</term>
+                    <term>alliances</term>
+                    <term>covert-actions</term>
+                    <term>national-security-council</term>
+                    <term>self-determination</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>military-bases</term>
+                    <term>genocide</term>
+                    <term>equatorial-guinea</term>
+                    <term>gabon</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1977-80v17p1" status="published" when="2016-11-18"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

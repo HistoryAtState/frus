@@ -7,10 +7,11 @@
                 <title type="complete">Papers Relating to Foreign Affairs, Accompanying the Annual
                     Message of the President to the Second Session Thirty-eighth Congress, Part
                     IV</title>
-                <title type="series">Papers Relating to Foreign Affairs, 1864</title>
-                <title type="sub-series"/>
+                <title type="series">Papers Relating to Foreign Affairs</title>
+                <title n="1864" type="sub-series">1864</title>
                 <title type="volume-number">Part IV</title>
-                <title type="volume"/>
+                <title type="volume">Accompanying the Annual Message of the President to the Second
+                    Session Thirty-eighth Congress</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -92,14 +93,53 @@
                         </list></p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-                <xi:include href="../shared/frus-heads.xml" xpointer="frus-heads"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                    <term xml:id="admin5">hayes</term>
+                    <term xml:id="admin6">garfield</term>
+                    <term xml:id="admin7">arthur</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>austria</term>
+                    <term>chile</term>
+                    <term>germany</term>
+                    <term>belgium</term>
+                    <term>portugal</term>
+                    <term>italy</term>
+                    <term>denmark</term>
+                    <term>sweden</term>
+                    <term>norway</term>
+                    <term>turkey</term>
+                    <term>switzerland</term>
+                    <term>egypt</term>
+                    <term>morocco</term>
+                    <term>spain</term>
+                    <term>lincoln-abraham</term>
+                    <term>seward-william-henry</term>
+                    <term>mexico</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>civil-war-u-s</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>tunisia</term>
+                    <term>dominica</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1864p4" status="published" when="1866"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

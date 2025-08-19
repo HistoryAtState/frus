@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1964–1968, Volume
                     XXIX, Part 2, Japan</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1964–1968</title>
+                <title n="1964-68" type="sub-series">1964–1968</title>
                 <title type="volume-number">Volume XXIX, Part 2</title>
                 <title type="volume">Japan</title>
                 <editor role="primary">Karen L. Gatz</editor>
@@ -99,12 +99,48 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-11-06 PA/HO JW:Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>japan</term>
+                    <term>vietnam-conflict</term>
+                    <term>arab-israeli-dispute</term>
+                    <term>geneva-convention</term>
+                    <term>national-security-council</term>
+                    <term>covert-actions</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>united-nations</term>
+                    <term>nuclear-weapons</term>
+                    <term>rusk-david-dean</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>china</term>
+                    <term>north-korea</term>
+                    <term>south-korea</term>
+                    <term>cambodia</term>
+                    <term>vietnam</term>
+                    <term>indonesia</term>
+                    <term>australia</term>
+                    <term>germany</term>
+                    <term>laos</term>
+                    <term>burma</term>
+                    <term>cuba</term>
+                    <term>india</term>
+                    <term>foreign-aid</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v29p2" status="published" when="2006"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

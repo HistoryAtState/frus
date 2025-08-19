@@ -7,11 +7,11 @@
                 <title type="complete">Foreign Relations of the United States, 1961–1963, Volume
                     XXI, Africa</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1961–1963</title>
+                <title n="1961-63" type="sub-series">1961–1963</title>
                 <title type="volume-number">Volume XXI</title>
                 <title type="volume">Africa</title>
                 <editor role="primary">Nina Davis Howland</editor>
-                <editor role="general">Glen W. LaFantasie</editor>
+                <editor role="general">Glenn W. LaFantasie</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -86,12 +86,79 @@
                     <p>The following errors in the original edition have been corrected:</p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">kennedy</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>decolonization</term>
+                    <term>human-rights</term>
+                    <term>foreign-economic-policy</term>
+                    <term>national-security-council</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>united-nations</term>
+                    <term>foreign-aid</term>
+                    <term>kennedy-john-f</term>
+                    <term>ethiopia</term>
+                    <term>china</term>
+                    <term>algeria</term>
+                    <term>united-kingdom</term>
+                    <term>belgium</term>
+                    <term>egypt</term>
+                    <term>france</term>
+                    <term>portugal</term>
+                    <term>south-africa</term>
+                    <term>spain</term>
+                    <term>guinea</term>
+                    <term>cuba</term>
+                    <term>lebanon</term>
+                    <term>morocco</term>
+                    <term>angola</term>
+                    <term>tunisia</term>
+                    <term>senegal</term>
+                    <term>cote-divoire</term>
+                    <term>kenya</term>
+                    <term>mali</term>
+                    <term>liberia</term>
+                    <term>israel</term>
+                    <term>somalia</term>
+                    <term>germany</term>
+                    <term>niger</term>
+                    <term>libya</term>
+                    <term>rwanda</term>
+                    <term>turkey</term>
+                    <term>yemen</term>
+                    <term>democratic-republic-of-the-congo-kinshasa</term>
+                    <term>ghana</term>
+                    <term>jordan</term>
+                    <term>sierra-leone</term>
+                    <term>zanzibar</term>
+                    <term>saudi-arabia</term>
+                    <term>zimbabwe</term>
+                    <term>sub-saharan-africa</term>
+                    <term>rusk-david-dean</term>
+                    <term>civil-rights-domestic</term>
+                    <term>djibouti</term>
+                    <term>genocide</term>
+                    <term>swaziland</term>
+                    <term>burundi</term>
+                    <term>central-african-republic</term>
+                    <term>gabon</term>
+                    <term>madagascar</term>
+                    <term>johnson-lyndon-b</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1961-63v21" status="published" when="1995"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

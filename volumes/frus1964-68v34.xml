@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1964–1968, Volume
                     XXXIV, Energy Diplomacy and Global Issues</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1964–1968</title>
+                <title n="1964-68" type="sub-series">1964–1968</title>
                 <title type="volume-number">Volume XXXIV</title>
                 <title type="volume">Energy Diplomacy and Global Issues</title>
                 <editor role="primary">Susan K. Holly</editor>
@@ -89,12 +89,80 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>human-rights</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>science-and-technology</term>
+                    <term>algeria</term>
+                    <term>australia</term>
+                    <term>austria</term>
+                    <term>bahrain</term>
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>egypt</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>jordan</term>
+                    <term>kuwait</term>
+                    <term>south-korea</term>
+                    <term>lebanon</term>
+                    <term>libya</term>
+                    <term>mexico</term>
+                    <term>netherlands</term>
+                    <term>nigeria</term>
+                    <term>organization-of-petroleum-exporting-countries</term>
+                    <term>pakistan</term>
+                    <term>philippines</term>
+                    <term>population-demographics</term>
+                    <term>portugal</term>
+                    <term>qatar</term>
+                    <term>romania</term>
+                    <term>rusk-david-dean</term>
+                    <term>saudi-arabia</term>
+                    <term>spain</term>
+                    <term>outer-space</term>
+                    <term>sweden</term>
+                    <term>syria</term>
+                    <term>tunisia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>holy-see</term>
+                    <term>venezuela</term>
+                    <term>civil-rights-domestic</term>
+                    <term>antisemitism</term>
+                    <term>djibouti</term>
+                    <term>genocide</term>
+                    <term>rwanda</term>
+                    <term>barbados</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v34" status="published" when="1999"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

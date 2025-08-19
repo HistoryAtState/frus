@@ -8,13 +8,13 @@
                     States, The Lansing Papers, 1914–1920, Volume II</title>
                 <title type="series">Papers Relating to the Foreign Relations of the United
                     States</title>
-                <title type="sub-series">The Lansing Papers, 1914–1920</title>
+                <title n="1914-20-war-supplements" type="sub-series"/>
                 <title type="volume-number">Volume II</title>
-                <title type="volume"/>
-                <editor role="general">Cyril Wynne</editor>
-                <editor role="general">E. Wilder Spaulding</editor>
-                <editor role="general">E.R. Perkins</editor>
-                <editor role="primary">J.S. Beddie</editor>
+                <title type="volume">The Lansing Papers, 1914–1920</title>
+                <editor role="primary">Cyril Wynne</editor>
+                <editor role="primary">E. Wilder Spaulding</editor>
+                <editor role="primary">E.R. Perkins</editor>
+                <editor role="general">J.S. Beddie</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -98,13 +98,50 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2014-04-22 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                    <term xml:id="admin3">harding</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>world-war-i</term>
+                    <term>russia</term>
+                    <term>armistices</term>
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>germany</term>
+                    <term>united-kingdom</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>league-of-nations</term>
+                    <term>mexico</term>
+                    <term>norway</term>
+                    <term>neutrality</term>
+                    <term>peace</term>
+                    <term>poland</term>
+                    <term>sweden</term>
+                    <term>turkey</term>
+                    <term>uruguay</term>
+                    <term>wilson-woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1914-20v02" status="published" when="1940"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

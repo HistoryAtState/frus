@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1977–1980, Volume
                     XXIX, Panama</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1977–1980</title>
+                <title n="1977-80" type="sub-series">1977–1980</title>
                 <title type="volume-number">Volume XXIX</title>
                 <title type="volume">Panama</title>
                 <editor role="primary">Laura R. Kolar</editor>
@@ -88,10 +88,34 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">carter</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>genocide</term>
+                    <term>el-salvador</term>
+                    <term>panama</term>
+                    <term>swaziland</term>
+                    <term>the-bahamas</term>
+                    <term>grenada</term>
+                    <term>carter-jimmy</term>
+                    <term>muskie-edmund-sixtus</term>
+                    <term>vance-cyrus-roberts</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1977-80v29" status="published" when="2016-10-27"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

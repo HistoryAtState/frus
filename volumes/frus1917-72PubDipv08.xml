@@ -5,11 +5,12 @@
         <fileDesc>
             <titleStmt>
                 <title type="complete">Foreign Relations of the United States, 1917–1972, Volume
-                    VIII, Public Diplomacy, 1969-1972</title>
+                    VIII, Public Diplomacy, 1969–1972</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1917–1972</title>
+                <title n="1917-72-public-diplomacy-retrospective" type="sub-series"
+                    >1917–1972</title>
                 <title type="volume-number">Volume VIII</title>
-                <title type="volume">Public Diplomacy, 1969-1972</title>
+                <title type="volume">Public Diplomacy, 1969–1972</title>
                 <editor role="primary">Kristin L. Ahlberg</editor>
                 <editor role="general">Adam M. Howard</editor>
             </titleStmt>
@@ -75,10 +76,35 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">retrospective</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>monaco</term>
+                    <term>macau</term>
+                    <term>bhutan</term>
+                    <term>curacao</term>
+                    <term>swaziland</term>
+                    <term>burundi</term>
+                    <term>madagascar</term>
+                    <term>nixon-richard</term>
+                    <term>rusk-david-dean</term>
+                    <term>rogers-william-pierce</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1917-72PubDipv08" status="published" when="2018-09-28"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume
                     XIX, Part 1, Korea, 1969–1972</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
                 <title type="volume-number">Volume XIX, Part 1</title>
                 <title type="volume">Korea, 1969–1972</title>
                 <editor role="primary">Daniel J. Lawler</editor>
@@ -101,12 +101,46 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>HCL’s submission of the original volume</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>cambodia</term>
+                    <term>china</term>
+                    <term>elections</term>
+                    <term>border-administration</term>
+                    <term>france</term>
+                    <term>israel</term>
+                    <term>japan</term>
+                    <term>laos</term>
+                    <term>national-security-council</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>foreign-aid</term>
+                    <term>nixon-richard</term>
+                    <term>north-korea</term>
+                    <term>pakistan</term>
+                    <term>philippines</term>
+                    <term>rogers-william-pierce</term>
+                    <term>singapore</term>
+                    <term>south-korea</term>
+                    <term>taiwan</term>
+                    <term>thailand</term>
+                    <term>united-nations</term>
+                    <term>vietnam</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v19p1" status="published" when="2010-05-04"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

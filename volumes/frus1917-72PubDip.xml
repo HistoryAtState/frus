@@ -7,11 +7,12 @@
                 <title type="complete">Foreign Relations of the United States, 1917–1972, Public
                     Diplomacy, World War I</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1917–1972</title>
-                <title type="volume">Public Diplomacy, World War I</title>
+                <title n="1917-72-public-diplomacy-retrospective" type="sub-series"
+                    >1917–1972</title>
                 <title type="volume-number"/>
-                <editor role="primary">Aaron W. Marrs</editor>
+                <title type="volume">Public Diplomacy, World War I</title>
                 <editor role="general">Adam M. Howard</editor>
+                <editor role="primary">Aaron W. Marrs</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -49,11 +50,42 @@
                 <p>Released in 2014 as printed book.</p>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
-        </encodingDesc>
+        <encodingDesc> </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">retrospective</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>china</term>
+                    <term>costa-rica</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>honduras</term>
+                    <term>italy</term>
+                    <term>league-of-nations</term>
+                    <term>mexico</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>switzerland</term>
+                    <term>united-kingdom</term>
+                    <term>lansing-robert</term>
+                    <term>spanish-american-war</term>
+                    <term>wilson-woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1917-72PubDip" status="published" when="2014-11-25"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

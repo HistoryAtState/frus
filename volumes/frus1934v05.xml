@@ -4,11 +4,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Foreign Relations of the United States Diplomatic Papers,
+                <title type="complete">Foreign Relations of the United States, Diplomatic Papers,
                     1934, The American Republics, Volume V</title>
-                <title type="series">Foreign Relations of the United States Diplomatic
+                <title type="series">Foreign Relations of the United States, Diplomatic
                     Papers</title>
-                <title type="sub-series">1934</title>
+                <title n="1934" type="sub-series">1934</title>
                 <title type="volume-number">Volume V</title>
                 <title type="volume">The American Republics</title>
                 <editor role="general">E. R. Perkins</editor>
@@ -98,13 +98,49 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>chile</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>el-salvador</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>honduras</term>
+                    <term>italy</term>
+                    <term>league-of-nations</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>panama</term>
+                    <term>united-kingdom</term>
+                    <term>uruguay</term>
+                    <term>american-samoa</term>
+                    <term>spanish-american-war</term>
+                    <term>barbados</term>
+                    <term>virgin-islands-u-s</term>
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1934v05" status="published" when="1952"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

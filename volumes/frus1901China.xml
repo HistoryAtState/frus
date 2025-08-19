@@ -7,13 +7,11 @@
                 <title type="complete">Foreign Relations of the United States, 1901, Appendix,
                     Affairs in China, Report of William W. Rockhill, Late Commissioner to China,
                     with Accompanying Documents</title>
-                <title type="series">Foreign Relations of the United States, 1901</title>
-                <title type="sub-series"/>
+                <title type="series">Foreign Relations of the United States</title>
+                <title n="1901" type="sub-series">1901</title>
                 <title type="volume-number"/>
                 <title type="volume">Appendix, Affairs in China, Report of William W. Rockhill, Late
                     Commissioner to China, with Accompanying Documents</title>
-                <editor role="primary"/>
-                <editor role="general"/>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -97,14 +95,32 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-                <xi:include href="../shared/frus-heads.xml" xpointer="frus-heads"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">mckinley</term>
+                    <term xml:id="admin3">roosevelt-t</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>china</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>russia</term>
+                    <term>hay-john-milton</term>
+                    <term>roosevelt-theodore</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1901China" status="published" when="1902"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

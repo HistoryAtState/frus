@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1961–1963, Volume XV,
                     Berlin Crisis, 1962–1963</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1961–1963</title>
+                <title n="1961-63" type="sub-series">1961–1963</title>
                 <title type="volume-number">Volume XV</title>
                 <title type="volume">Berlin Crisis, 1962–1963</title>
                 <editor role="primary">Charles S. Sampson</editor>
@@ -89,12 +89,44 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">kennedy</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>kennedy-john-f</term>
+                    <term>quarantine-blockade</term>
+                    <term>cuba</term>
+                    <term>germany</term>
+                    <term>peace</term>
+                    <term>warfare</term>
+                    <term>cuban-missile-crisis</term>
+                    <term>armistices</term>
+                    <term>united-nations</term>
+                    <term>european-economic-community</term>
+                    <term>border-administration</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                    <term>austria</term>
+                    <term>china</term>
+                    <term>united-kingdom</term>
+                    <term>switzerland</term>
+                    <term>sweden</term>
+                    <term>russia</term>
+                    <term>european-advisory-commission</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1961-63v15" status="published" when="1994"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

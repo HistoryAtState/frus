@@ -4,11 +4,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Papers relating to the foreign relations of the United
+                <title type="complete">Papers Relating to the Foreign Relations of the United
                     States, 1930, Volume I</title>
-                <title type="series">Papers relating to the foreign relations of the United
+                <title type="series">Papers Relating to the Foreign Relations of the United
                     States</title>
-                <title type="sub-series">1930</title>
+                <title n="1930" type="sub-series">1930</title>
                 <title type="volume-number">Volume I</title>
                 <title type="volume"/>
                 <editor role="primary">Joseph V. Fuller</editor>
@@ -96,13 +96,46 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">coolidge</term>
+                    <term xml:id="admin3">hoover</term>
+                    <term xml:id="admin4">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                    <term corresp="#admin3">regular</term>
+                    <term corresp="#admin4">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>austria</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>asylum</term>
+                    <term>hoover-herbert</term>
+                    <term>alliances</term>
+                    <term>nauru</term>
+                    <term>norfolk-island</term>
+                    <term>marshall-islands</term>
+                    <term>monaco</term>
+                    <term>suriname</term>
+                    <term>stimson-henry-lewis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1930v01" status="published" when="1945"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

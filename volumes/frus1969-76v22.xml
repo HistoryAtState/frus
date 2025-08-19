@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1969–1976, Volume
                     XXII, Panama, 1973–1976</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1969–1976</title>
+                <title n="1969-76" type="sub-series">1969–1976</title>
                 <title type="volume-number">Volume XXII</title>
                 <title type="volume">Panama, 1973–1976</title>
                 <editor role="primary">Bradley L. Coleman</editor>
@@ -90,10 +90,38 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>nixon-richard</term>
+                    <term>ford-gerald</term>
+                    <term>carter-jimmy</term>
+                    <term>kissinger-henry-a</term>
+                    <term>panama</term>
+                    <term>organization-of-american-states</term>
+                    <term>united-nations</term>
+                    <term>congressional-relations</term>
+                    <term>dominica</term>
+                    <term>universal-postal-union</term>
+                    <term>curacao</term>
+                    <term>rwanda</term>
+                    <term>rogers-william-pierce</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v22" status="published" when="2015-10-06"/>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface start="#pg_I">

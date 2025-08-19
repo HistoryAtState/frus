@@ -86,13 +86,13 @@
                 values are allowed: participants, subject, index, terms, names, toc, references,
                 from, to, simple, sources</assert>
         </rule>
-        <rule context="tei:term[@xml:id]">
+        <rule context="tei:term[@xml:id][ancestor::tei:text]">
             <assert test="parent::tei:hi/@rend = 'strong'">Improper nesting of hi and term (a
                 hi/@rend=strong tag must surround the term element)</assert>
             <assert test="not(ends-with(., ','))"> Improper placement of trailing punctuation mark
                 (the trailing comma must lie outside the term element) </assert>
         </rule>
-        <rule context="tei:persName[@xml:id]">
+        <rule context="tei:persName[@xml:id][ancestor::tei:text]">
             <assert test="parent::tei:hi/@rend = 'strong'">Improper nesting of hi and persName (a
                 hi/@rend=strong tag must surround the persName element)</assert>
             <assert test="not(ends-with(., ','))"> Improper placement of trailing punctuation mark

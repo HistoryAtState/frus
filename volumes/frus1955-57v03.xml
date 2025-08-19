@@ -7,7 +7,7 @@
                 <title type="complete">Foreign Relations of the United States, 1955–1957, China,
                     Volume III</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1955–1957</title>
+                <title n="1955-57" type="sub-series">1955–1957</title>
                 <title type="volume-number">Volume III</title>
                 <title type="volume">China</title>
                 <editor role="general">John P. Glennon</editor>
@@ -89,12 +89,62 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>dulles-john-foster</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>china</term>
+                    <term>belgium</term>
+                    <term>nuclear-weapons</term>
+                    <term>non-governmental-organizations</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>taiwan</term>
+                    <term>egypt</term>
+                    <term>diplomatic-recognition</term>
+                    <term>france</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>japan</term>
+                    <term>jordan</term>
+                    <term>north-korea</term>
+                    <term>south-korea</term>
+                    <term>laos</term>
+                    <term>liberia</term>
+                    <term>mongolia</term>
+                    <term>nepal</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>pakistan</term>
+                    <term>paraguay</term>
+                    <term>paracel-islands</term>
+                    <term>philippines</term>
+                    <term>saudi-arabia</term>
+                    <term>singapore</term>
+                    <term>spratly-islands</term>
+                    <term>thailand</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>information-programs</term>
+                    <term>vietnam</term>
+                    <term>macau</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1955-57v03" status="published" when="1986"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

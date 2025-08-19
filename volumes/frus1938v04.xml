@@ -4,11 +4,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Foreign Relations of the United States Diplomatic Papers,
+                <title type="complete">Foreign Relations of the United States, Diplomatic Papers,
                     1938, The Far East, Volume IV</title>
-                <title type="series">Foreign Relations of the United States Diplomatic
+                <title type="series">Foreign Relations of the United States, Diplomatic
                     Papers</title>
-                <title type="sub-series">1938</title>
+                <title n="1938" type="sub-series">1938</title>
                 <title type="volume-number">Volume IV</title>
                 <title type="volume">The Far East</title>
                 <editor role="primary">Matilda F. Axton</editor>
@@ -104,13 +104,49 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>alliances</term>
+                    <term>arms-embargoes</term>
+                    <term>arms-transfers</term>
+                    <term>buildings-foreign</term>
+                    <term>china</term>
+                    <term>economic-sanctions</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>france</term>
+                    <term>hong-kong</term>
+                    <term>hull-cordell</term>
+                    <term>japan</term>
+                    <term>league-of-nations</term>
+                    <term>mongolia</term>
+                    <term>narcotics</term>
+                    <term>property-claims</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>terrorism</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>united-kingdom</term>
+                    <term>world-war-ii</term>
+                    <term>macau</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1938v04" status="published" when="1955"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

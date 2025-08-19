@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1989-92v32" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="complete">Foreign Relations of the United States, 1989–1992, Volume
+                    XXXII, Iran</title>
+                <title type="series">Foreign Relations of the United States</title>
+                <title n="1989-92" type="sub-series">1989–1992</title>
+                <title type="volume-number">Volume XXXII</title>
+                <title type="volume">Iran</title>
+                <editor role="primary">Chris Morrison</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of State</publisher>
+                <pubPlace>Washington</pubPlace>
+                <date calendar="gregorian" type="publication-date"/>
+                <idno type="frus">frus1989-92v32</idno>
+                <date calendar="gregorian" type="content-date">1989–1992</date>
+            </publicationStmt>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1989-92v32"
+                    type="canonical"/>
+            </notesStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">bush-ghw</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="being-researched">
+            <change corresp="#frus1989-92v32" status="being-researched"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>For the current status of this publication, see the “revisionDesc” block above, or
+                visit the <ref
+                    target="https://history.state.gov/historicaldocuments/status-of-the-series"
+                    >Status of the Series</ref> page.</p>
+        </body>
+    </text>
+</TEI>

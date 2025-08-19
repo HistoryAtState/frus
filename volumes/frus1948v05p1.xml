@@ -7,11 +7,13 @@
                 <title type="complete">Foreign Relations of the United States, 1948, The Near East,
                     South Asia, and Africa, Volume V, Part 1</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1948</title>
+                <title n="1948" type="sub-series">1948</title>
                 <title type="volume-number">Volume V, Part 1</title>
                 <title type="volume">The Near East, South Asia, and Africa</title>
                 <editor role="primary">Herbert A. Fine</editor>
                 <editor role="primary">David H. Stauffer</editor>
+                <editor role="chief-foreign-relations-division">S. Everett Gleason</editor>
+                <editor role="deputy-director">G. M. Richardson Dougall</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -94,13 +96,43 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>marshall-george-catlett</term>
+                    <term>truman-harry-s</term>
+                    <term>egypt</term>
+                    <term>greece</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>israel</term>
+                    <term>saudi-arabia</term>
+                    <term>turkey</term>
+                    <term>afghanistan</term>
+                    <term>india</term>
+                    <term>liberia</term>
+                    <term>south-africa</term>
+                    <term>foreign-aid</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>pakistan</term>
+                    <term>palestine</term>
+                    <term>military-bases</term>
+                    <term>national-security-council</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1948v05p1" status="published" when="1975"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>

@@ -7,13 +7,15 @@
                 <title type="complete">Foreign Relations of the United States, 1948, General; the
                     United Nations, Volume I, Part 2</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title type="sub-series">1948</title>
+                <title n="1948" type="sub-series">1948</title>
                 <title type="volume-number">Volume I, Part 2</title>
                 <title type="volume">General; the United Nations</title>
                 <editor role="primary">Neal H. Petersen</editor>
                 <editor role="primary">Ralph R. Goodwin</editor>
                 <editor role="primary">Marvin W. Kranz</editor>
                 <editor role="primary">William Z. Slany</editor>
+                <editor role="chief-foreign-relations-division">S. Everett Gleason</editor>
+                <editor role="chief-foreign-relations-division">Frederick Aandahl</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -96,13 +98,70 @@
                     </p>
                 </correction>
             </editorialDecl>
-            <classDecl>
-                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-            </classDecl>
         </encodingDesc>
-        <revisionDesc>
-            <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
-                submission</change>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>marshall-george-catlett</term>
+                    <term>truman-harry-s</term>
+                    <term>antarctica</term>
+                    <term>polar-affairs</term>
+                    <term>atomic-energy</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>nuclear-weapons</term>
+                    <term>austria</term>
+                    <term>australia</term>
+                    <term>belgium</term>
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>congressional-relations</term>
+                    <term>cuba</term>
+                    <term>foreign-aid</term>
+                    <term>falkland-islands-islas-malvinas</term>
+                    <term>greece</term>
+                    <term>germany</term>
+                    <term>international-monetary-fund</term>
+                    <term>india</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>ireland</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>south-korea</term>
+                    <term>north-korea</term>
+                    <term>japan</term>
+                    <term>labor</term>
+                    <term>national-security-council</term>
+                    <term>mexico</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>organization-and-management</term>
+                    <term>thailand</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>poland</term>
+                    <term>general-agreement-on-tariffs-and-trade</term>
+                    <term>far-eastern-commission</term>
+                    <term>aruba</term>
+                    <term>curacao</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1948v01p2" status="published" when="1976"/>
         </revisionDesc>
     </teiHeader>
     <facsimile>
