@@ -56,7 +56,9 @@ jobs:
           fi
 
           if [ ! -f "$file" ]; then
-              rm ".last-modified/$file"
+              if [ -f ".last-modified/$file" ]; then
+                rm ".last-modified/$file"
+              fi
               continue
           fi
 
