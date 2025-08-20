@@ -47,23 +47,23 @@
                 <field name="div-date-min" match="@frus:doc-dateTime-min" type="xs:dateTime"/>
                 <field name="div-date-max" match="@frus:doc-dateTime-max" type="xs:dateTime"/>
             </create>
-            <create qname="tei:change">
+            <create match="//tei:change">
                 <field name="change-status" match="@status" type="xs:string"/>
                 <field name="change-corresp" match="@corresp" type="xs:string"/>
                 <field name="change-when" match="@when" type="xs:string"/>
                 <field name="change-from" match="@from" type="xs:string"/>
                 <field name="change-to" match="@to" type="xs:string"/>
             </create>
-            <create qname="tei:revisionDesc">
+            <create match="//tei:revisionDesc">
                 <field name="revisionDesc-status" match="@status" type="xs:string"/>
             </create>
-            <create qname="tei:keywords">
+            <create match="//tei:keywords">
                 <field name="keywords-scheme" match="@scheme" type="xs:string"/>
                 <field name="keywords-term" match="tei:term" type="xs:string"/>
             </create>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
-            <create qname="@type" type="xs:string"/>
+            <!--<create qname="@type" type="xs:string"/>-->
             <create qname="@xml:id" type="xs:string"/>
             <create qname="@rend" type="xs:string"/>
             <create qname="@n" type="xs:string"/>
