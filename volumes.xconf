@@ -55,11 +55,11 @@
                 <field name="change-to" match="@to" type="xs:string"/>
             </create>
             <create qname="tei:revisionDesc">
-                <create name="revisionDesc-status" qname="@status" type="xs:string"/>
+                <field name="revisionDesc-status" match="@status" type="xs:string"/>
             </create>
             <create qname="tei:keywords">
-                <create name="keywords-scheme" qname="@scheme" type="xs:string"/>
-                <create name="keywords-term" qname="tei:term" type="xs:string"/>
+                <field name="keywords-scheme" match="@scheme" type="xs:string"/>
+                <field name="keywords-term" match="tei:term" type="xs:string"/>
             </create>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
