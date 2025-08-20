@@ -61,6 +61,7 @@
                 <field name="keywords-scheme" match="@scheme" type="xs:string"/>
                 <field name="keywords-term" match="tei:term" type="xs:string"/>
             </create>
+            <create qname="tei:term" type="xs:string"/>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
             <!--<create qname="@type" type="xs:string"/>-->
