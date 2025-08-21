@@ -62,6 +62,10 @@
                 <field name="keywords-term" match="tei:term" type="xs:string"/>
             </create>
             <create qname="tei:term" type="xs:string"/>
+            <create match="//tei:relatedItem">
+                <field name="relatedItem-corresp" match="@corresp" type="xs:string"/>
+                <field name="relatedItem-type" match="@type" type="xs:string"/>
+            </create>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
             <!--<create qname="@type" type="xs:string"/>-->
