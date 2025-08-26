@@ -62,7 +62,7 @@ jobs:
         with:
           fetch-depth: 1  
       - name: Build Expath Package
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: "temurin"
           java-version: ${{ matrix.java-version }}
