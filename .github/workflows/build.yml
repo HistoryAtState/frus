@@ -125,12 +125,12 @@ jobs:
           mkdir build
           mkdir -p tests/bats
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: frus-xar
           path: build
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: frus-bats
           path: tests/bats
