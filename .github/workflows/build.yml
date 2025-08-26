@@ -31,7 +31,7 @@ jobs:
           sudo apt-get install -y libxml2-utils
 
       # Checkout code fetch-depth significantly impacts performance
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
@@ -58,7 +58,7 @@ jobs:
             java-version: 11
     steps:
       - name: Checkout (sparse)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 1  
       - name: Build Expath Package
@@ -185,7 +185,7 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           persist-credentials: false
       - name: Setup Node.js
