@@ -42,6 +42,17 @@
         </profileDesc>
         <revisionDesc status="being-cleared">
             <change corresp="#frus1981-88v16" status="being-cleared"/>
+            <change corresp="#ch1" from="2022" status="being-cleared"/>
+            <change corresp="#ch2" from="2022" status="being-cleared"/>
+            <change corresp="#ch3" from="2022" status="being-cleared"/>
+            <change corresp="#ch4" from="2022" status="being-cleared"/>
+            <change corresp="#ch5" from="2022" status="being-cleared"/>
+            <change corresp="#ch6" from="2022" status="being-cleared"/>
+            <change corresp="#ch7" from="2022" status="being-cleared"/>
+            <change corresp="#ch8" from="2022" status="being-cleared"/>
+            <change corresp="#ch9" from="2022" status="being-cleared"/>
+            <change corresp="#ch10" from="2022" status="being-cleared"/>
+            <change corresp="#ch11" from="2022" status="being-cleared" to="2025"/>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,6 +61,39 @@
                 visit the <ref
                     target="https://history.state.gov/historicaldocuments/status-of-the-series"
                     >Status of the Series</ref> page.</p>
+            <div type="chapter-pending" xml:id="ch1">
+                <head>South America Region</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch2">
+                <head>Argentina</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch3">
+                <head>Bolivia</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch4">
+                <head>Brazil</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch5">
+                <head>Chile</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch6">
+                <head>Colombia</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch7">
+                <head>Ecuador</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch8">
+                <head>Paraguay</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch9">
+                <head>Peru</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch10">
+                <head>Uguguay</head>
+            </div>
+            <div type="chapter-pending" xml:id="ch11">
+                <head>Venezuela</head>
+            </div>
         </body>
     </text>
 </TEI>
