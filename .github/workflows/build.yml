@@ -31,7 +31,7 @@ jobs:
           sudo apt-get install -y libxml2-utils
 
       # Checkout code fetch-depth significantly impacts performance
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 1
 
@@ -58,7 +58,7 @@ jobs:
             java-version: 11
     steps:
       - name: Checkout (sparse)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1  
       - name: Build Expath Package
@@ -70,7 +70,7 @@ jobs:
 
       - name: upload xar package
         if: ${{ matrix.java-version == 21 }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: frus-xar
           path: build/*.xar
@@ -78,7 +78,7 @@ jobs:
 
       - name: upload smoke test
         if: ${{ matrix.java-version == 21 }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: frus-bats
           path: tests/bats/
@@ -125,12 +125,12 @@ jobs:
           mkdir build
           mkdir -p tests/bats
 
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with:
           name: frus-xar
           path: build
 
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v6
         with:
           name: frus-bats
           path: tests/bats
@@ -163,7 +163,7 @@ jobs:
         if: always()
         run: docker cp exist:/exist/logs .
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: exist_${{ matrix.exist-version }}_logs
@@ -185,11 +185,11 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           cache: npm
           node-version: lts/*

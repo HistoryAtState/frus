@@ -21,7 +21,7 @@ jobs:
 
       # Use ...head.ref for the full branch
       - name: Checkout PR head SHA
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1
           ref: ${{ github.event.pull_request.head.sha }}
