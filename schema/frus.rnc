@@ -8,9 +8,9 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2025-08-13T14:16:14Z. . 
-# TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
+# Schema generated from ODD source 2026-02-04T17:18:32Z. . 
+# TEI Edition: P5 Version 4.10.2. Last updated on 4th September 2025, revision bcfa98f42 
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.2/ 
 #  FRUS TEI Schema Spec 
 
 #
@@ -2733,11 +2733,32 @@ keywords =
   }
 revisionDesc =
   
-  ## (revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
+  ## (revision description) Restrict @status values for tei:revisionDesc elements for status of a volume [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
     (\list+ | change+),
     att.global.attributes,
-    att.docStatus.attributes,
+    
+    ##
+    attribute status {
+      
+      ## (Has been registered in a sub-series plan) 
+      "planned"
+      | 
+        ## (Research has begun) 
+        "being-researched"
+      | 
+        ## (Editing and declassification has begun) 
+        "being-cleared"
+      | 
+        ## (Has been published) 
+        "published"
+      | 
+        ## (Some but not yet all chapters in a volume have been published) 
+        "partially-published"
+      | 
+        ## (A published volume is being digitized and will be released online) 
+        "being-digitized"
+    },
     empty
   }
 change =
@@ -3049,10 +3070,11 @@ opener =
   }
 closer =
   
-  ## (closer) groups together salutations, datelines, and similar phrases appearing as a final group at the end of a division, especially of a letter. [4.2.2. Openers and Closers 4.2. Elements Common to All Divisions]
+  ## (closer) groups together salutations, datelines, bylines, and similar phrases appearing as a final group at the end of a division, especially of a letter. [4.2.2. Openers and Closers 4.2. Elements Common to All Divisions]
   element closer {
     (text
      | model.gLike
+     | byline
      | signed
      | dateline
      | salute
@@ -3612,7 +3634,9 @@ facsimile =
   
   ## contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [12.1. Digital Facsimiles]
   element facsimile {
-    (front?, (model.graphicLike | surface)+, back?)
+    (front?,
+     ((model.graphicLike | surface)+ | facsimile+),
+     back?)
     >> sch:pattern [
          id =
            "frus-facsimile-no_facsimile_text_nodes-constraint-rule-22"
