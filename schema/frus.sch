@@ -152,8 +152,7 @@
                 square brackets: "[]". Only use in the rare circumstance that the volume has a block
                 of unnumbered documents outside the normal stream of numbered documents. Please
                 verify that the @n value is correct.</assert>
-            <assert role="warn" test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer"
-                >Non-number component found in document number "<value-of select="@n"/>". Please
+            <assert role="warn" test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer or substring-after(./@n, '–') castable as xs:integer">Non-number component found in document number "<value-of select="@n"/>". Please
                 verify that the document number is correct.</assert>
         </rule>
         <rule context="tei:body">

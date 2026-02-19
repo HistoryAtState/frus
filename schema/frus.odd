@@ -1060,7 +1060,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:4.9.0">
+                <schemaSpec ident="frus" start="TEI">
 
 
 
@@ -1265,9 +1265,40 @@
                     </elementSpec>
                     
                     <!--
+                    constrain revisionDesc/@status
+                    -->
+                    <elementSpec ident="revisionDesc" module="header" mode="change">
+                        <desc>Restrict @status values for tei:revisionDesc elements for status of a volume</desc>
+                        <attList>
+                            <attDef ident="status" usage="req" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="planned">
+                                        <gloss>Has been registered in a sub-series plan</gloss>
+                                    </valItem>
+                                    <valItem ident="being-researched">
+                                        <gloss>Research has begun</gloss>
+                                    </valItem>
+                                    <valItem ident="being-cleared">
+                                        <gloss>Editing and declassification has begun</gloss>
+                                    </valItem>
+                                    <valItem ident="published">
+                                        <gloss>Has been published</gloss>
+                                    </valItem>
+                                    <valItem ident="partially-published">
+                                        <gloss>Some but not yet all chapters in a volume have been published</gloss>
+                                    </valItem>
+                                    <valItem ident="being-digitized">
+                                        <gloss>A published volume is being digitized and will be released online</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <!--
                     constrain change/@status
                     -->
-                    <elementSpec ident="change" module="core" mode="change">
+                    <elementSpec ident="change" module="header" mode="change">
                         <desc>Restrict @status values for tei:change elements for status of divisions within a volume</desc>
                         <attList>
                             <attDef ident="status" usage="req" mode="replace">
