@@ -146,6 +146,12 @@ jobs:
           name: frus-bats
           path: tests/bats
 
+      # Copy artifact to LVM volume so autodeploy mount has xar (avoids root pressure)
+      - name: Stage build artifact on LVM volume
+        run: |
+          sudo mkdir -p /var/lib/docker/build-artifacts
+          sudo cp -a build/. /var/lib/docker/build-artifacts/
+
       #  sanity check
       - name: check os
         run: |
@@ -156,11 +162,15 @@ jobs:
         run: docker info
 
       # Install
+      # Both autodeploy (xar) and data dir are on LVM (/var/lib/docker) to avoid root space limits
       - name: Start exist-ci containers
         run: |
-          docker run -dit -p 8080:8080 -v ${{ github.workspace }}/build:/exist/autodeploy \
-          --name exist --rm \
-          duncdrum/existdb:${{ matrix.exist-version }}
+          sudo mkdir -p /var/lib/docker/exist-data
+          docker run -dit -p 8080:8080 \
+            -v /var/lib/docker/build-artifacts:/exist/autodeploy \
+            -v /var/lib/docker/exist-data:/exist/data \
+            --name exist --rm \
+            duncdrum/existdb:${{ matrix.exist-version }}
 
       - name: wait for install to finish
         timeout-minutes: 30
