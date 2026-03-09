@@ -119,7 +119,7 @@ jobs:
         run: sudo service docker restart
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
       - name: Disable man-db to make package install and removal faster
         run: |
