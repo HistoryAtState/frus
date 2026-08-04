@@ -12,11 +12,11 @@
             <!--
             <analyzer class="org.apache.lucene.analysis.core.KeywordAnalyzer" id="keyword"/>
             -->
-            <text qname="tei:div">  
+            <text qname="tei:div" index="no">  
                 <!-- required facets and fields -->
                 <facet dimension="hsg-category" expression="'documents'"/>
                 <facet dimension="hsg-publication" expression="'frus'"/>
-                <field name="hsg-fulltext" if="@type = ('section', 'document')"/>
+                <field name="hsg-fulltext" if="@type = ('section', 'document')" store="no"/>
                 <field name="hsg-url" expression="'/historicaldocuments/' || ancestor::tei:TEI/@xml:id || '/' || ./@xml:id"/>
                 <!-- end required facets and fields -->
 
