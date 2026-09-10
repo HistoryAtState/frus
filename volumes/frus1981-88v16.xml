@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>Department of State</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date calendar="gregorian" type="publication-date"/>
+                <date calendar="gregorian" type="publication-date">2026</date>
                 <idno type="frus">frus1981-88v16</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -102,15 +102,15 @@
         </profileDesc>
         <revisionDesc status="partially-published">
             <change corresp="#frus1981-88v16" status="published" when="2026-09-18"/>
-            <change corresp="#ch1" status="being-cleared"/>
-            <change corresp="#ch2" status="being-cleared"/>
-            <change corresp="#ch3" status="being-cleared"/>
-            <change corresp="#ch4" status="being-cleared"/>
-            <change corresp="#ch5" status="being-cleared"/>
-            <change corresp="#ch6" status="being-cleared"/>
+            <change corresp="#ch1" status="being-cleared" from="2022"/>
+            <change corresp="#ch2" status="being-cleared" from="2022" to="2026"/>
+            <change corresp="#ch3" status="being-cleared" from="2022"/>
+            <change corresp="#ch4" status="being-cleared" from="2022"/>
+            <change corresp="#ch5" status="being-cleared" from="2022"/>
+            <change corresp="#ch6" status="being-cleared" from="2022"/>
             <change corresp="#ch7" status="published" when="2026-09-18"/>
             <change corresp="#ch8" status="published" when="2026-09-18"/>
-            <change corresp="#ch9" status="being-cleared"/>
+            <change corresp="#ch9" status="being-cleared" from="2022"/>
             <change corresp="#ch10" status="published" when="2026-09-18"/>
             <change corresp="#ch11" status="published" when="2026-09-18"/>
         </revisionDesc>
