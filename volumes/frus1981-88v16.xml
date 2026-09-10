@@ -24,8 +24,38 @@
                     notBefore="1981-02-05T11:07:00-05:00" type="content-date">1981 to 1988</date>
             </publicationStmt>
             <notesStmt>
-                <note>Converted from the frus-apex source for staging; page images and associated
-                    files are not yet published.</note>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1981-88v16" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v16/covers/frus1981-88v16.jpg"/>
+                        <extent>
+                            <measure quantity="32426" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2026-08-07T03:14:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v16" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v16/ebook/frus1981-88v16.epub"/>
+                        <extent>
+                            <measure quantity="568035" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2026-09-10T02:05:23.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v16" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v16/ebook/frus1981-88v16.mobi"/>
+                        <extent>
+                            <measure quantity="581179" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2026-09-10T02:05:23.000Z"/>
+                    </bibl>
+                </relatedItem>
             </notesStmt>
             <sourceDesc>
                 <p>Born digital</p>
@@ -53,6 +83,23 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">reagan</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <!--<keywords scheme="https://history.state.gov/tags">
+                    <term>reagan-ronald</term>
+                    <term>shultz-george-pratt</term>
+                </keywords>-->
+            </textClass>
+        </profileDesc>
         <revisionDesc status="partially-published">
             <change corresp="#frus1981-88v16" status="published" when="2026-09-18"/>
             <change corresp="#ch1" status="being-cleared"/>
