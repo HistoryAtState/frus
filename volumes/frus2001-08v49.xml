@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xml:id="frus1981-88v28" xmlns="http://www.tei-c.org/ns/1.0"
+<TEI xml:id="frus2001-08v49" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="complete">Foreign Relations of the United States, 1981–1988, Volume
-                    XXVIII, China, 1981–1983</title>
+                <title type="complete">Foreign Relations of the United States, 2001–2008, Volume
+                    XLIX, South and Central Asia Regions; Mongolia</title>
                 <title type="series">Foreign Relations of the United States</title>
-                <title n="1981-88" type="sub-series">1981–1988</title>
-                <title type="volume-number">Volume XXVIII</title>
-                <title type="volume">China, 1981–1983</title>
-                <editor role="primary">Daniel A. Rubin</editor>
+                <title n="2001-08" type="sub-series">2001–2008</title>
+                <title type="volume-number">Volume XLIX</title>
+                <title type="volume">South and Central Asia Regions; Mongolia</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>Department of State</publisher>
                 <pubPlace>Washington</pubPlace>
                 <date calendar="gregorian" type="publication-date"/>
-                <idno type="frus">frus1981-88v28</idno>
-                <date calendar="gregorian" type="content-date">1981–1983</date>
+                <idno type="frus">frus2001-08v49</idno>
+                <date calendar="gregorian" type="content-date">2001–2008</date>
             </publicationStmt>
             <notesStmt>
-                <relatedItem target="https://history.state.gov/historicaldocuments/frus1981-88v28"
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus2001-08v49"
                     type="canonical"/>
             </notesStmt>
             <sourceDesc>
@@ -30,7 +29,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="#frus-administration-coverage">
-                    <term xml:id="admin1">reagan</term>
+                    <term xml:id="admin1">bush-gw</term>
                 </keywords>
                 <keywords scheme="#frus-production-priority">
                     <term corresp="#admin1">regular</term>
@@ -40,8 +39,8 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="being-cleared">
-            <change corresp="#frus1981-88v28" from="2015" status="being-cleared" to="2027"/>
+        <revisionDesc status="planned">
+            <change corresp="#frus2001-08v49" status="planned"/>
         </revisionDesc>
     </teiHeader>
     <text>
