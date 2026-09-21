@@ -6,11 +6,18 @@
     "url": "https://github.com/HistoryAtState/frus"
   },
   "author": "Office of the Historian",
+  "overrides": {
+    "@semantic-release/commit-analyzer": "14.0.0-beta.4",
+    "@semantic-release/release-notes-generator": "15.0.0-beta.3",
+    "conventional-changelog-writer": "^9.2.1"
+  },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.2",
-    "@commitlint/config-conventional": "^21.0.2",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@semantic-release/commit-analyzer": "14.0.0-beta.4",
     "@semantic-release/exec": "^7.1.0",
     "@semantic-release/git": "^11.0.1",
+    "@semantic-release/release-notes-generator": "15.0.0-beta.3",
     "conventional-changelog-conventionalcommits": "^10.4.0",
     "semantic-release": "^25.0.9"
   }
