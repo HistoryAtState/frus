@@ -1,0 +1,33 @@
+.github/workflows/pr-external.yml
+  s_97ecedb437b376::t_c9ce445458480b 123-126,132
+  s_97ecedb437b376::t_44448d32cbcc53 30
+  s_97ecedb437b376::t_bfb2878266ed30 58-60,63-64,66
+  s_97ecedb437b376::t_84f796c276d4a7 9-10
+.github/workflows/pr-internal.yml
+  s_97ecedb437b376::t_9fdf310fb1d254 116-117,123
+  s_97ecedb437b376::t_a289c872f5360b 48-50,53-54,56
+.github/workflows/pr-dispatch.yml
+  s_97ecedb437b376::t_8ea55d1e1bccc5 30-31,35,37-38
+  s_97ecedb437b376::t_640666dfe58d36 14-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d615b47b520560da8addc240a5134b61f29822c6",
+  "prompts": {},
+  "humans": {
+    "h_ff0005bef58c9d": {
+      "author": "duncdrum <d.paterson@me.com>"
+    }
+  },
+  "sessions": {
+    "s_97ecedb437b376": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f2842166fffeTFovuksHBgn6av",
+        "model": "big-pickle"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
