@@ -2,9 +2,6 @@ name: PR dispatch
 
 on:
   pull_request:
-  pull_request_target:
-    types: [opened, synchronize, reopened]
-    branches: ['main', 'master']
   workflow_call:
 
 # concurrency:
@@ -14,6 +11,8 @@ on:
 jobs:
   dispatch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Check "Allow edits from maintainers" setting
         if: github.event.pull_request.head.repo.full_name != github.repository
@@ -28,9 +27,12 @@ jobs:
     uses: ./.github/workflows/pr-internal.yml
     if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
     needs: dispatch
+    permissions:
+      contents: write
     secrets: inherit
   pr-external:
     uses: ./.github/workflows/pr-external.yml
-    if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository && contains(fromJSON('["main", "master"]'), github.event.pull_request.base.ref)
     needs: dispatch
-    secrets: inherit
+    permissions:
+      contents: read

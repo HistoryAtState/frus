@@ -6,6 +6,8 @@ on:
 jobs:
   external-pr-checks:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       # Speed up apt-get installs
@@ -25,6 +27,7 @@ jobs:
         with:
           fetch-depth: 1
           ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
       
       - name: Fetch base commit (to allow diff)
         run: git fetch origin ${{ github.event.pull_request.base.sha }}
@@ -52,11 +55,15 @@ jobs:
             ${{ github.event.pull_request.head.sha }} | xargs)" >> $GITHUB_OUTPUT
 
       - name: Output changed files
-        run: echo ${{ steps.changed-files.outputs.changed_files }}
+        env:
+          CHANGED_FILES: ${{ steps.changed-files.outputs.changed_files }}
+        run: echo "$CHANGED_FILES"
 
       - name: Create xml files in .last-modified folder
+        env:
+          CHANGED_FILES: ${{ steps.changed-files.outputs.changed_files }}
         run: |
-          for file in ${{ steps.changed-files.outputs.changed_files }}; do
+          for file in $CHANGED_FILES; do
           # Skip files in hidden folders (starting with .)
           if [[ "$file" =~ ^\..*/ ]]; then
               continue
@@ -113,10 +120,13 @@ jobs:
           echo "Successfully created .last-modified/$file"
           done
 
-      - name: Git commit/push to internal PR branch
+      - name: Git commit/push to fork PR branch
+        env:
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
         run: |
           git config user.name "ci-bot"
           git config user.email "ci-bot@example.com"
           git add --all
           git commit -m "fix(toc): auto-update [skip ci]" || echo "Nothing to commit"
-          git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          git push "https://github.com/${HEAD_REPO}.git" "HEAD:refs/heads/${HEAD_REF}"
